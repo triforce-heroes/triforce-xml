@@ -4,6 +4,10 @@
     "text": "Deutsch/German",
   },
   {
+    "reference": "helplang",
+    "text": "de",
+  },
+  {
     "reference": "dialog.IDD_EDITBOX.caption",
     "text": "",
   },

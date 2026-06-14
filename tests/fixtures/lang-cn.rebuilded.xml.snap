@@ -4,6 +4,10 @@
     "text": "简体中文",
   },
   {
+    "reference": "helplang",
+    "text": "cn",
+  },
+  {
     "reference": "dialog.IDD_EDITBOX.caption",
     "text": "",
   },

@@ -7,6 +7,7 @@ const COPYID_ATTRIBUTE = "copyid";
 const CAPTION_ATTRIBUTE = "caption";
 const DIALOG_TAG = "dialog";
 const LANG_REFERENCE = "lang";
+const HELPLANG_REFERENCE = "helplang";
 const REGEX_ATTRIBUTE = "regex";
 const TEXT_ATTRIBUTE = "text";
 
@@ -163,6 +164,10 @@ export function rebuild(sourceXml: Buffer | string, replacements: Map<string, st
 
   if (replacements.has(LANG_REFERENCE)) {
     rebuilt.attributes[LANG_REFERENCE] = escapeControlChars(replacements.get(LANG_REFERENCE)!);
+  }
+
+  if (replacements.has(HELPLANG_REFERENCE)) {
+    rebuilt.attributes[HELPLANG_REFERENCE] = escapeControlChars(replacements.get(HELPLANG_REFERENCE)!);
   }
 
   const raw = rebuildRaw(rebuilt);

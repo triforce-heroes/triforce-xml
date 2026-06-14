@@ -4,6 +4,10 @@
     "text": "Japanese (日本語)",
   },
   {
+    "reference": "helplang",
+    "text": "en",
+  },
+  {
     "reference": "dialog.IDD_EDITBOX.caption",
     "text": "",
   },

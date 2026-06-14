@@ -13,6 +13,7 @@ const CAPTION_ATTRIBUTE = "caption";
 const REGEX_ATTRIBUTE = "regex";
 const DIALOG_TAG = "dialog";
 const LANG_REFERENCE = "lang";
+const HELPLANG_REFERENCE = "helplang";
 
 interface ResourceLike {
   id: number;
@@ -52,6 +53,13 @@ export function extract(xml: Buffer | string): ExtractedEntry[] {
     entries.push({
       reference: LANG_REFERENCE,
       text: unescapeControlChars(document.attributes[LANG_REFERENCE]),
+    });
+  }
+
+  if (document.attributes[HELPLANG_REFERENCE] !== undefined) {
+    entries.push({
+      reference: HELPLANG_REFERENCE,
+      text: unescapeControlChars(document.attributes[HELPLANG_REFERENCE]),
     });
   }
 
