@@ -1,7 +1,7 @@
 import type { XMLReferencesNode, XMLRoot } from "@/types/XMLTypes";
 
 import { buildReference, getResourceText } from "@/services/ReferenceService";
-import { parseXml } from "@/services/XmlService";
+import { parseXml, unescapeControlChars } from "@/services/XmlService";
 
 export interface ExtractedEntry {
   reference: string;
@@ -51,7 +51,7 @@ export function extract(xml: Buffer | string): ExtractedEntry[] {
   if (document.attributes[LANG_REFERENCE] !== undefined) {
     entries.push({
       reference: LANG_REFERENCE,
-      text: document.attributes[LANG_REFERENCE],
+      text: unescapeControlChars(document.attributes[LANG_REFERENCE]),
     });
   }
 
@@ -59,7 +59,7 @@ export function extract(xml: Buffer | string): ExtractedEntry[] {
     if (container.tag === DIALOG_TAG && container.attributes[CAPTION_ATTRIBUTE] !== undefined) {
       entries.push({
         reference: buildReference(container, CAPTION_ATTRIBUTE),
-        text: container.attributes[CAPTION_ATTRIBUTE],
+        text: unescapeControlChars(container.attributes[CAPTION_ATTRIBUTE]),
       });
     }
 
@@ -71,7 +71,7 @@ export function extract(xml: Buffer | string): ExtractedEntry[] {
       if (text !== undefined) {
         entries.push({
           reference: buildReference(container, String(resource.id)),
-          text,
+          text: unescapeControlChars(text),
         });
       }
 

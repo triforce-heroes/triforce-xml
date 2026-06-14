@@ -285,7 +285,8 @@
   },
   {
     "reference": "dialog.IDD_LICENSE_TYPE.11",
-    "text": "Wersja z ograniczoną funkcjonalnością, niektóre funkcje zostaną ukryte lub wyłączone.\nDarmowa do użytku osobistego i komercyjnego.",
+    "text": "Wersja z ograniczoną funkcjonalnością, niektóre funkcje zostaną ukryte lub wyłączone.
+Darmowa do użytku osobistego i komercyjnego.",
   },
   {
     "reference": "dialog.IDD_LICENSE_TYPE.12",
@@ -1421,7 +1422,8 @@
   },
   {
     "reference": "dialog.IDD_EDITORSETTINGS_EXTERNAL.11",
-    "text": "- Aktualnie wybrany plik w formacie\n  długiej ścieżki",
+    "text": "- Aktualnie wybrany plik w formacie
+  długiej ścieżki",
   },
   {
     "reference": "dialog.IDD_CONFIGURATION_MAIN.caption",
@@ -1885,7 +1887,8 @@
   },
   {
     "reference": "dialog.IDD_ADV_FILELISTS.1",
-    "text": "Wybierz pola kryteriów, które akceptują listy plików:\n(np. =C:\lista_plików.txt)",
+    "text": "Wybierz pola kryteriów, które akceptują listy plików:
+(np. =C:\lista_plików.txt)",
   },
   {
     "reference": "dialog.IDD_ADV_FILELISTS.2",
@@ -1929,7 +1932,8 @@
   },
   {
     "reference": "dialog.IDD_EXPRESSION_BOOLEAN.7",
-    "text": "Maksymalna odległość między\nsłowami (w znakach)",
+    "text": "Maksymalna odległość między
+słowami (w znakach)",
   },
   {
     "reference": "dialog.IDD_EXPRESSION_BOOLEAN.8",
@@ -2337,7 +2341,8 @@
   },
   {
     "reference": "dialog.IDD_TESTREGEXP.7",
-    "text": "Nie jesteś pewien, czy twoje wyrażenie regularne jest poprawne? To okno pozwala przetestować silnik wyrażeń regularnych. Po prostu wpisz wyrażenie, które chcesz przetestować wraz\nz przykładowym tekstem, a następnie naciśnij "Test".",
+    "text": "Nie jesteś pewien, czy twoje wyrażenie regularne jest poprawne? To okno pozwala przetestować silnik wyrażeń regularnych. Po prostu wpisz wyrażenie, które chcesz przetestować wraz
+z przykładowym tekstem, a następnie naciśnij "Test".",
   },
   {
     "reference": "dialog.IDD_TESTREGEXP.8",
@@ -2597,7 +2602,8 @@
   },
   {
     "reference": "dialog.IDD_REGISTER.8",
-    "text": "W przypadku problemów prosimy o kontakt pod adresem "support@mythicsoft.com"\nw celu uzyskania pomocy.",
+    "text": "W przypadku problemów prosimy o kontakt pod adresem "support@mythicsoft.com"
+w celu uzyskania pomocy.",
   },
   {
     "reference": "dialog.IDD_REGISTER.9",
@@ -2809,7 +2815,8 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_INTRO.2",
-    "text": "Wyrażenia regularne służą do opisywania wzorców dopasowywania ciągów. Chociaż wyrażenia regularne są bardzo potężnym narzędziem, dla osób\npoczątkujących mogą wydawać się skomplikowane.",
+    "text": "Wyrażenia regularne służą do opisywania wzorców dopasowywania ciągów. Chociaż wyrażenia regularne są bardzo potężnym narzędziem, dla osób
+początkujących mogą wydawać się skomplikowane.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_INTRO.3",
@@ -3125,7 +3132,8 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.1",
-    "text": "Wyrażenia wieloznaczne używają standardowej składni systemu Windows do określania grupy plików.\nŚrednik (;) służy do oddzielania wielu wyrażeń.",
+    "text": "Wyrażenia wieloznaczne używają standardowej składni systemu Windows do określania grupy plików.
+Średnik (;) służy do oddzielania wielu wyrażeń.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.2",
@@ -3133,7 +3141,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.3",
-    "text": "*.txt\t\tokreśla wszystkie pliki z rozszerzeniem .txt\n\n*.xls;*.doc\tokreśla wszystkie pliki z rozszerzeniem .xls lub .doc",
+    "text": "*.txt		określa wszystkie pliki z rozszerzeniem .txt
+
+*.xls;*.doc	określa wszystkie pliki z rozszerzeniem .xls lub .doc",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.4",
@@ -3141,7 +3151,12 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.5",
-    "text": "*.png;*.jpg:holiday\tokreśla wszystkie pliki z rozszerzeniem .png i .jpg oraz słowem holiday w nazwie\n\nNOT:*.doc;*.xls\t\tokreśla wszystkie pliki z wyjątkiem plików .doc i .xls\n\nholiday;NOT:*.exe;*.dll\tokreśla wszystkie pliki ze słowem holiday w nazwie z wyjątkiem tplików\n\t\t\tz rozszerzeniem .exe lub .dll",
+    "text": "*.png;*.jpg:holiday	określa wszystkie pliki z rozszerzeniem .png i .jpg oraz słowem holiday w nazwie
+
+NOT:*.doc;*.xls		określa wszystkie pliki z wyjątkiem plików .doc i .xls
+
+holiday;NOT:*.exe;*.dll	określa wszystkie pliki ze słowem holiday w nazwie z wyjątkiem tplików
+			z rozszerzeniem .exe lub .dll",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.caption",
@@ -3157,23 +3172,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.3",
-    "text": "dokument AND roboczy\t\twyszuka słowa "dokument" i "roboczy" w tym samym wierszu/pliku",
+    "text": "dokument AND roboczy		wyszuka słowa "dokument" i "roboczy" w tym samym wierszu/pliku",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.4",
-    "text": "dokument roboczy\t\twykona takie samo wyszukiwanie jak powyżej (AND jest domniemane)",
+    "text": "dokument roboczy		wykona takie samo wyszukiwanie jak powyżej (AND jest domniemane)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.5",
-    "text": "dokument OR roboczy\t\twyszuka słowa "dokument" lub "roboczy" w tym samym wierszu/pliku",
+    "text": "dokument OR roboczy		wyszuka słowa "dokument" lub "roboczy" w tym samym wierszu/pliku",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.6",
-    "text": "dokument NEAR roboczy\t\twyszuka słowo "dokument" w pobliżu słowa "roboczy" w wierszu/pliku",
+    "text": "dokument NEAR roboczy		wyszuka słowo "dokument" w pobliżu słowa "roboczy" w wierszu/pliku",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.7",
-    "text": ""dokument roboczy"\t\twyszuka dokładną frazę "dokument roboczy"",
+    "text": ""dokument roboczy"		wyszuka dokładną frazę "dokument roboczy"",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.8",
@@ -3209,23 +3224,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.3",
-    "text": "dokument AND roboczy\t\twyszuka słowa "dokument" i "roboczy" w tym samym pliku",
+    "text": "dokument AND roboczy		wyszuka słowa "dokument" i "roboczy" w tym samym pliku",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.4",
-    "text": "dokument roboczy\t\twykona takie samo wyszukiwanie jak powyżej (AND jest domniemane)",
+    "text": "dokument roboczy		wykona takie samo wyszukiwanie jak powyżej (AND jest domniemane)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.5",
-    "text": "dokument OR roboczy\t\twyszuka słowa "dokument" lub "roboczy" w tym samym pliku",
+    "text": "dokument OR roboczy		wyszuka słowa "dokument" lub "roboczy" w tym samym pliku",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.6",
-    "text": "dokument NOT roboczy\t\twyszuka "dokument" bez słowa "roboczy" w tym samym pliku",
+    "text": "dokument NOT roboczy		wyszuka "dokument" bez słowa "roboczy" w tym samym pliku",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.7",
-    "text": ""dokument roboczy"\t\twyszuka dokładną frazę "dokument roboczy"",
+    "text": ""dokument roboczy"		wyszuka dokładną frazę "dokument roboczy"",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.8",
@@ -3261,11 +3276,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.3",
-    "text": "autor\t\tznajdzie takie frazy jak "autor", "autorski", "autoryzacja" lub "autorzy".",
+    "text": "autor		znajdzie takie frazy jak "autor", "autorski", "autoryzacja" lub "autorzy".",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.4",
-    "text": "program\t\tpasuje zarówno do "program", "programista" lub "zaprogramowany".",
+    "text": "program		pasuje zarówno do "program", "programista" lub "zaprogramowany".",
   },
   {
     "reference": "dialog.IDD_ATTRIBUTES.caption",
@@ -3537,7 +3552,8 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANREGEX.1",
-    "text": "Wyrażenia logiczne RegEx są hybrydą wyrażeń logicznych i wyrażeń regularnych. Wyrażenia regularne można\nłączyć za pomocą znanych operatorów logicznych AND, OR i NOT.",
+    "text": "Wyrażenia logiczne RegEx są hybrydą wyrażeń logicznych i wyrażeń regularnych. Wyrażenia regularne można
+łączyć za pomocą znanych operatorów logicznych AND, OR i NOT.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANREGEX.2",
@@ -3549,7 +3565,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANREGEX.4",
-    "text": ""błąd (120|121|123)" OR "informacja 344" NOT "archiwum"\n\n[0-9]+ AND dokument\t\twyszukuje wiersze zawierające zarówno liczbę, jak i słowo dokument.",
+    "text": ""błąd (120|121|123)" OR "informacja 344" NOT "archiwum"
+
+[0-9]+ AND dokument		wyszukuje wiersze zawierające zarówno liczbę, jak i słowo dokument.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANREGEX.5",
@@ -3561,7 +3579,8 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.1",
-    "text": "Wyrażenia "Całe słowo" są podobne do wyrażeń logicznych (Boolean), z tym że każdy termin pasuje tylko do dokładnych słów w wyszukiwanym tekście, tj. z wykluczeniem częściowego dopasowania słów.\nSłowa można łączyć za pomocą znanych operatorów logicznych AND, OR i NOT",
+    "text": "Wyrażenia "Całe słowo" są podobne do wyrażeń logicznych (Boolean), z tym że każdy termin pasuje tylko do dokładnych słów w wyszukiwanym tekście, tj. z wykluczeniem częściowego dopasowania słów.
+Słowa można łączyć za pomocą znanych operatorów logicznych AND, OR i NOT",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.2",
@@ -3569,11 +3588,13 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.3",
-    "text": "znany autor\tszuka określonych słów "znany" i "autor" z wyłączeniem częściowych dopasowań takich\n\t\tjak "poznany" lub "autorski".",
+    "text": "znany autor	szuka określonych słów "znany" i "autor" z wyłączeniem częściowych dopasowań takich
+		jak "poznany" lub "autorski".",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.4",
-    "text": "kwiat\t\tpasuje do "kwiat", ale nie do "kwiatowy" lub "tępokwiatowy"\nauto\t\tpasujące wyrażenie to "auto" ale już nie "automat" czy "zautomatyzowany".",
+    "text": "kwiat		pasuje do "kwiat", ale nie do "kwiatowy" lub "tępokwiatowy"
+auto		pasujące wyrażenie to "auto" ale już nie "automat" czy "zautomatyzowany".",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.caption",
@@ -3589,11 +3610,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.3",
-    "text": "Kraków\t\tpasuje do Kraków i Krakow ale także Kruków czy Krakowski.",
+    "text": "Kraków		pasuje do Kraków i Krakow ale także Kruków czy Krakowski.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.4",
-    "text": "muzyka\t\tpasuje do muzyka a także do muzykalny, muzykowanie, muzyczka oraz muzyczny.",
+    "text": "muzyka		pasuje do muzyka a także do muzykalny, muzykowanie, muzyczka oraz muzyczny.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_MULTILINE_REGEX.caption",
@@ -4053,15 +4074,15 @@
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.2",
-    "text": "Edytuj indeks...\tEnter",
+    "text": "Edytuj indeks...	Enter",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.3",
-    "text": "Usuń indeks...\tDel",
+    "text": "Usuń indeks...	Del",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.4",
-    "text": "Dodaj nowy indeks...\tIns",
+    "text": "Dodaj nowy indeks...	Ins",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.5",
@@ -5337,51 +5358,63 @@
   },
   {
     "reference": "string.IndexManager.1",
-    "text": "Dodaje nowy lub istniejący indeks\nDodaj indeks",
+    "text": "Dodaje nowy lub istniejący indeks
+Dodaj indeks",
   },
   {
     "reference": "string.IndexManager.2",
-    "text": "Usuwa lub kasuje trwale indeks\nUsuń lub skasuj indeks",
+    "text": "Usuwa lub kasuje trwale indeks
+Usuń lub skasuj indeks",
   },
   {
     "reference": "string.IndexManager.3",
-    "text": "Edytuje parametry indeksowania\nEdytuj indeks",
+    "text": "Edytuje parametry indeksowania
+Edytuj indeks",
   },
   {
     "reference": "string.IndexManager.4",
-    "text": "Zaktualizuje indeks o wszelkie zmiany, które mogły wystąpić\nZaktualizuj indeks",
+    "text": "Zaktualizuje indeks o wszelkie zmiany, które mogły wystąpić
+Zaktualizuj indeks",
   },
   {
     "reference": "string.IndexManager.5",
-    "text": "Tworzy ponownie cały indeks\nUtwórz ponownie indeks",
+    "text": "Tworzy ponownie cały indeks
+Utwórz ponownie indeks",
   },
   {
     "reference": "string.IndexManager.6",
-    "text": "Anuluje proces indeksowania\nAnuluj",
+    "text": "Anuluje proces indeksowania
+Anuluj",
   },
   {
     "reference": "string.IndexManager.7",
-    "text": "Odświeżanie listy\nOdśwież listę",
+    "text": "Odświeżanie listy
+Odśwież listę",
   },
   {
     "reference": "string.IndexManager.8",
-    "text": "Dodawanie nowego harmonogramu\nDodaj harmonogram",
+    "text": "Dodawanie nowego harmonogramu
+Dodaj harmonogram",
   },
   {
     "reference": "string.IndexManager.9",
-    "text": "Edycja harmonogramu\nEdytuj harmonogram",
+    "text": "Edycja harmonogramu
+Edytuj harmonogram",
   },
   {
     "reference": "string.IndexManager.10",
-    "text": "Usuwanie harmonogramu\nUsuń harmonogram",
+    "text": "Usuwanie harmonogramu
+Usuń harmonogram",
   },
   {
     "reference": "string.IndexManager.11",
-    "text": "Edytowanie indeksów powiązanych z harmonogramem\nEdytuj listę indeksów",
+    "text": "Edytowanie indeksów powiązanych z harmonogramem
+Edytuj listę indeksów",
   },
   {
     "reference": "string.InternalViewer.37",
-    "text": "Zapisuje bieżący plik\nZapisz plik",
+    "text": "Zapisuje bieżący plik
+Zapisz plik",
   },
   {
     "reference": "string.Zasoby.1",
@@ -5461,7 +5494,13 @@
   },
   {
     "reference": "string.Zasoby.22",
-    "text": "SDI_ONLY\nWyszukiwanie\nNowe wyszukiwanie\nKryteria wyszukiwania (*.srf)\n.srf\nKryteria wyszukiwania FileLocatorPro.\nKryteria wyszukiwania %APP_NAME%",
+    "text": "SDI_ONLY
+Wyszukiwanie
+Nowe wyszukiwanie
+Kryteria wyszukiwania (*.srf)
+.srf
+Kryteria wyszukiwania FileLocatorPro.
+Kryteria wyszukiwania %APP_NAME%",
   },
   {
     "reference": "string.Zasoby.23",
@@ -5485,47 +5524,59 @@
   },
   {
     "reference": "string.Zasoby.34",
-    "text": "Tworzy nowe wyszukiwanie na podstawie ostatniego wyszukiwania\nNowe wyszukiwanie oparte na\nostatnim wyszukiwaniu",
+    "text": "Tworzy nowe wyszukiwanie na podstawie ostatniego wyszukiwania
+Nowe wyszukiwanie oparte na
+ostatnim wyszukiwaniu",
   },
   {
     "reference": "string.Zasoby.35",
-    "text": "Otwiera plik kryteriów wyszukiwania\nOtwórz",
+    "text": "Otwiera plik kryteriów wyszukiwania
+Otwórz",
   },
   {
     "reference": "string.Zasoby.36",
-    "text": "Zamkya okno aktywnego wyszukiwania\nZamknij",
+    "text": "Zamkya okno aktywnego wyszukiwania
+Zamknij",
   },
   {
     "reference": "string.Zasoby.37",
-    "text": "Zapisuje bieżące kryteria wyszukiwania\nZapisz kryteria",
+    "text": "Zapisuje bieżące kryteria wyszukiwania
+Zapisz kryteria",
   },
   {
     "reference": "string.Zasoby.38",
-    "text": "Zapisuje bieżące kryteria wyszukiwania pod nową nazwą\nZapisz jako",
+    "text": "Zapisuje bieżące kryteria wyszukiwania pod nową nazwą
+Zapisz jako",
   },
   {
     "reference": "string.Zasoby.39",
-    "text": "Zmienia opcje drukowania\nUstawienia strony",
+    "text": "Zmienia opcje drukowania
+Ustawienia strony",
   },
   {
     "reference": "string.Zasoby.40",
-    "text": "Zmienia drukarkę i opcje drukowania\nUstawienia drukowania",
+    "text": "Zmienia drukarkę i opcje drukowania
+Ustawienia drukowania",
   },
   {
     "reference": "string.Zasoby.41",
-    "text": "Drukuje wybrane wyniki wyszukiwania\nDrukowanie",
+    "text": "Drukuje wybrane wyniki wyszukiwania
+Drukowanie",
   },
   {
     "reference": "string.Zasoby.42",
-    "text": "Wyświetla całe strony\nPodgląd wydruku",
+    "text": "Wyświetla całe strony
+Podgląd wydruku",
   },
   {
     "reference": "string.Zasoby.43",
-    "text": "Wyświetla informacje o programie, numerze wersji i prawach autorskich\nO programie",
+    "text": "Wyświetla informacje o programie, numerze wersji i prawach autorskich
+O programie",
   },
   {
     "reference": "string.Zasoby.44",
-    "text": "Zamyka aplikację\nWyjdź",
+    "text": "Zamyka aplikację
+Wyjdź",
   },
   {
     "reference": "string.Zasoby.45",
@@ -5593,87 +5644,108 @@
   },
   {
     "reference": "string.Zasoby.61",
-    "text": "Przechodzi do następnego panelu\nNastępny panel",
+    "text": "Przechodzi do następnego panelu
+Następny panel",
   },
   {
     "reference": "string.Zasoby.62",
-    "text": "Przechodzi z powrotem do poprzedniego panelu\nPoprzedni panel",
+    "text": "Przechodzi z powrotem do poprzedniego panelu
+Poprzedni panel",
   },
   {
     "reference": "string.Zasoby.63",
-    "text": "Otwiera kolejne okno dla aktywnego dokumentu\nNowe okno",
+    "text": "Otwiera kolejne okno dla aktywnego dokumentu
+Nowe okno",
   },
   {
     "reference": "string.Zasoby.64",
-    "text": "Umieszcza ikony w dolnej części okna głównego (działa tylko na zminimalizowane okna)\nUporządkuj ikony",
+    "text": "Umieszcza ikony w dolnej części okna głównego (działa tylko na zminimalizowane okna)
+Uporządkuj ikony",
   },
   {
     "reference": "string.Zasoby.65",
-    "text": "Rozmieszcza okna tak, aby nakładały się na siebie kaskadowo\nOkna kaskadowo",
+    "text": "Rozmieszcza okna tak, aby nakładały się na siebie kaskadowo
+Okna kaskadowo",
   },
   {
     "reference": "string.Zasoby.66",
-    "text": "Rozmieszcza okna jako nie nakładające się na siebie płytki\nOkna obok siebie",
+    "text": "Rozmieszcza okna jako nie nakładające się na siebie płytki
+Okna obok siebie",
   },
   {
     "reference": "string.Zasoby.67",
-    "text": "Rozmieszcza okna jako nie nakładające się na siebie płytki\nOkna obok siebie",
+    "text": "Rozmieszcza okna jako nie nakładające się na siebie płytki
+Okna obok siebie",
   },
   {
     "reference": "string.Zasoby.68",
-    "text": "Dzieli aktywne okno na panele\nPodziel",
+    "text": "Dzieli aktywne okno na panele
+Podziel",
   },
   {
     "reference": "string.Zasoby.69",
-    "text": "Usuwa zaznaczenie z wybranych elementów\nWymaż",
+    "text": "Usuwa zaznaczenie z wybranych elementów
+Wymaż",
   },
   {
     "reference": "string.Zasoby.70",
-    "text": "Usuwa zaznaczenie ze wszystkich elementów\nWymaż wszystko",
+    "text": "Usuwa zaznaczenie ze wszystkich elementów
+Wymaż wszystko",
   },
   {
     "reference": "string.Zasoby.71",
-    "text": "Kopiuje bieżący wybór do schowka\nKopiuj",
+    "text": "Kopiuje bieżący wybór do schowka
+Kopiuj",
   },
   {
     "reference": "string.Zasoby.72",
-    "text": "Wycina zaznaczenie i umieszcza go w schowku\nWytnij",
+    "text": "Wycina zaznaczenie i umieszcza go w schowku
+Wytnij",
   },
   {
     "reference": "string.Zasoby.73",
-    "text": "Wyszukuje określony tekst\nZnajdź",
+    "text": "Wyszukuje określony tekst
+Znajdź",
   },
   {
     "reference": "string.Zasoby.74",
-    "text": "Wkleja zawartość schowka\nWklej",
+    "text": "Wkleja zawartość schowka
+Wklej",
   },
   {
     "reference": "string.Zasoby.75",
-    "text": "Powtarza ostatnią akcję\nPowtórz",
+    "text": "Powtarza ostatnią akcję
+Powtórz",
   },
   {
     "reference": "string.Zasoby.76",
-    "text": "Zastępuje wskazany tekst innym tekstem\nZmień",
+    "text": "Zastępuje wskazany tekst innym tekstem
+Zmień",
   },
   {
     "reference": "string.Zasoby.77",
-    "text": "Zaznacz cały dokument\nZaznacz wszystko",
+    "text": "Zaznacz cały dokument
+Zaznacz wszystko",
   },
   {
     "reference": "string.Zasoby.78",
-    "text": "Cofa ostatnią akcję\nCofnij",
+    "text": "Cofa ostatnią akcję
+Cofnij",
   },
   {
     "reference": "string.Zasoby.79",
-    "text": "Ponów poprzednio cofniętą akcję\nPonów",
+    "text": "Ponów poprzednio cofniętą akcję
+Ponów",
   },
   {
     "reference": "string.Zasoby.80",
-    "text": "Pokauje lub ukrywa Pasek narzędzi\nPasek narzędzi",
+    "text": "Pokauje lub ukrywa Pasek narzędzi
+Pasek narzędzi",
   },
   {
     "reference": "string.Zasoby.81",
-    "text": "Pokauje lub ukrywa Pasek stanu\nPasek stanu",
+    "text": "Pokauje lub ukrywa Pasek stanu
+Pasek stanu",
   },
   {
     "reference": "string.Zasoby.82",
@@ -5717,7 +5789,8 @@
   },
   {
     "reference": "string.Zasoby.92",
-    "text": "Zamyka tryb podglądu wydruku\nAnuluj podgląd",
+    "text": "Zamyka tryb podglądu wydruku
+Anuluj podgląd",
   },
   {
     "reference": "string.Zasoby.93",
@@ -5729,19 +5802,28 @@
   },
   {
     "reference": "string.Zasoby.95",
-    "text": "\nWyszukaj\nWyszukaj\nWyszukaj pliki (*.sea)\n.sea\nWyszukaj.Dokument\nWyszukaj dokument",
+    "text": "
+Wyszukaj
+Wyszukaj
+Wyszukaj pliki (*.sea)
+.sea
+Wyszukaj.Dokument
+Wyszukaj dokument",
   },
   {
     "reference": "string.Zasoby.96",
-    "text": "Skopiuje ścieżki aktualnie wybranych plików do schowka\nSkopiuj ścieżki pliku",
+    "text": "Skopiuje ścieżki aktualnie wybranych plików do schowka
+Skopiuj ścieżki pliku",
   },
   {
     "reference": "string.Zasoby.97",
-    "text": "Otwiera okno dialogowe właściwości dla aktualnie wybranych plików\nOtwórz właściwości",
+    "text": "Otwiera okno dialogowe właściwości dla aktualnie wybranych plików
+Otwórz właściwości",
   },
   {
     "reference": "string.Zasoby.98",
-    "text": "Otwiera aktualnie wybrany plik\nOtwórz plik",
+    "text": "Otwiera aktualnie wybrany plik
+Otwórz plik",
   },
   {
     "reference": "string.Zasoby.99",
@@ -5749,43 +5831,53 @@
   },
   {
     "reference": "string.Zasoby.100",
-    "text": "Włącza / wyłącza zawijania tekstu podczas przeglądania zawartości\nZawijanie tekstu",
+    "text": "Włącza / wyłącza zawijania tekstu podczas przeglądania zawartości
+Zawijanie tekstu",
   },
   {
     "reference": "string.Zasoby.101",
-    "text": "Ustawia czcionkę dla widoku zawartości\nUstaw czcionkę",
+    "text": "Ustawia czcionkę dla widoku zawartości
+Ustaw czcionkę",
   },
   {
     "reference": "string.Zasoby.102",
-    "text": "Rozpoczna wyszukiwanie\nStart",
+    "text": "Rozpoczna wyszukiwanie
+Start",
   },
   {
     "reference": "string.Zasoby.103",
-    "text": "Zatrzymuje bieżące wyszukiwanie\nStop",
+    "text": "Zatrzymuje bieżące wyszukiwanie
+Stop",
   },
   {
     "reference": "string.Zasoby.104",
-    "text": "Otwiera plik pomocy\nPomoc",
+    "text": "Otwiera plik pomocy
+Pomoc",
   },
   {
     "reference": "string.Zasoby.105",
-    "text": "Zaznacza wszystkie pliki w widoku listy plików\nZaznacz wszystko",
+    "text": "Zaznacza wszystkie pliki w widoku listy plików
+Zaznacz wszystko",
   },
   {
     "reference": "string.Zasoby.106",
-    "text": "Pozwala wyeksportować wyniki wyszukiwania\nEksportuj wyniki",
+    "text": "Pozwala wyeksportować wyniki wyszukiwania
+Eksportuj wyniki",
   },
   {
     "reference": "string.Zasoby.107",
-    "text": "Usuwa bieżący wybór\nUsuń",
+    "text": "Usuwa bieżący wybór
+Usuń",
   },
   {
     "reference": "string.Zasoby.108",
-    "text": "Czyści pozycje historii na listach rozwijanych\nWyczyść historię",
+    "text": "Czyści pozycje historii na listach rozwijanych
+Wyczyść historię",
   },
   {
     "reference": "string.Zasoby.109",
-    "text": "Pozwala dostosować konfigurację wyszukiwania\nKonfiguracja",
+    "text": "Pozwala dostosować konfigurację wyszukiwania
+Konfiguracja",
   },
   {
     "reference": "string.Zasoby.110",
@@ -5825,23 +5917,33 @@
   },
   {
     "reference": "string.Zasoby.119",
-    "text": "FILE_VIEWER\nWidok\nWidok\n\n\nPrzeglądarkaPlików.FileLocator\nPrzeglądarka plików File Locator",
+    "text": "FILE_VIEWER
+Widok
+Widok
+
+
+PrzeglądarkaPlików.FileLocator
+Przeglądarka plików File Locator",
   },
   {
     "reference": "string.Zasoby.120",
-    "text": "Pokazuje / ukrywa listę ulubionych\nUlubione",
+    "text": "Pokazuje / ukrywa listę ulubionych
+Ulubione",
   },
   {
     "reference": "string.Zasoby.121",
-    "text": "Modyfikuje ustawienia edytora\nUstawienia edytora",
+    "text": "Modyfikuje ustawienia edytora
+Ustawienia edytora",
   },
   {
     "reference": "string.Zasoby.122",
-    "text": "Otwórz ścieżkę aktualnie wybranych plików w instancji Explorera\nOtwórz Explorer",
+    "text": "Otwórz ścieżkę aktualnie wybranych plików w instancji Explorera
+Otwórz Explorer",
   },
   {
     "reference": "string.Zasoby.123",
-    "text": "Modyfikuje integrację z systemem\nUstawienia systemowe",
+    "text": "Modyfikuje integrację z systemem
+Ustawienia systemowe",
   },
   {
     "reference": "string.Zasoby.124",
@@ -5849,23 +5951,28 @@
   },
   {
     "reference": "string.Zasoby.125",
-    "text": "Przechodzi do poprzednich wyników wyszukiwania\nPoprzedni wynik wyszukiwania",
+    "text": "Przechodzi do poprzednich wyników wyszukiwania
+Poprzedni wynik wyszukiwania",
   },
   {
     "reference": "string.Zasoby.126",
-    "text": "Przechodzi do następnych wyników wyszukiwania\nNastępny wynik wyszukiwania",
+    "text": "Przechodzi do następnych wyników wyszukiwania
+Następny wynik wyszukiwania",
   },
   {
     "reference": "string.Zasoby.127",
-    "text": "Zmienia nazwę bieżącego wyboru\nZmień nazwę",
+    "text": "Zmienia nazwę bieżącego wyboru
+Zmień nazwę",
   },
   {
     "reference": "string.Zasoby.128",
-    "text": "Przechodzi do poprzednich wyników wyszukiwania\nPoprzedni wynik wyszukiwania",
+    "text": "Przechodzi do poprzednich wyników wyszukiwania
+Poprzedni wynik wyszukiwania",
   },
   {
     "reference": "string.Zasoby.129",
-    "text": "Przechodzi do następnych wyników wyszukiwania\nNastępny wynik wyszukiwania",
+    "text": "Przechodzi do następnych wyników wyszukiwania
+Następny wynik wyszukiwania",
   },
   {
     "reference": "string.Zasoby.130",
@@ -5901,35 +6008,43 @@
   },
   {
     "reference": "string.Zasoby.138",
-    "text": "Pokazuje lub ukrywa widok zawartości\nPokaż/Ukryj widok zawartości",
+    "text": "Pokazuje lub ukrywa widok zawartości
+Pokaż/Ukryj widok zawartości",
   },
   {
     "reference": "string.Zasoby.139",
-    "text": "Wstrzymuje wyszukiwanie\nPauza",
+    "text": "Wstrzymuje wyszukiwanie
+Pauza",
   },
   {
     "reference": "string.Zasoby.140",
-    "text": "Tworzy nowe wyszukiwanie z ustawieniami domyślnymi\nNowe puste wyszukiwanie",
+    "text": "Tworzy nowe wyszukiwanie z ustawieniami domyślnymi
+Nowe puste wyszukiwanie",
   },
   {
     "reference": "string.Zasoby.141",
-    "text": "Tworzy nowe wyszukiwanie na podstawie bieżących kryteriów\nNowe wyszukiwanie z aktualnymi kryteriami",
+    "text": "Tworzy nowe wyszukiwanie na podstawie bieżących kryteriów
+Nowe wyszukiwanie z aktualnymi kryteriami",
   },
   {
     "reference": "string.Zasoby.142",
-    "text": "Wyszukuje tekst w pliku\nSzukaj...",
+    "text": "Wyszukuje tekst w pliku
+Szukaj...",
   },
   {
     "reference": "string.Zasoby.143",
-    "text": "Przechodzi do następnego podświetlonego wiersza w znalezionym tekście\nPrzewiń do następnego",
+    "text": "Przechodzi do następnego podświetlonego wiersza w znalezionym tekście
+Przewiń do następnego",
   },
   {
     "reference": "string.Zasoby.144",
-    "text": "Przechodzi do poprzedniego podświetlonego wiersza w znalezionym tekście\nPrzewiń do poprzedniego",
+    "text": "Przechodzi do poprzedniego podświetlonego wiersza w znalezionym tekście
+Przewiń do poprzedniego",
   },
   {
     "reference": "string.Zasoby.145",
-    "text": "Przełącza podświetlanie bieżącego wyszukiwania\nPrzełącz podświetlanie",
+    "text": "Przełącza podświetlanie bieżącego wyszukiwania
+Przełącz podświetlanie",
   },
   {
     "reference": "string.Zasoby.146",
@@ -5949,15 +6064,18 @@
   },
   {
     "reference": "string.Zasoby.150",
-    "text": "Edytuje aktualnie wybraną pozycję ulubionych\nEdytuj ulubiony",
+    "text": "Edytuje aktualnie wybraną pozycję ulubionych
+Edytuj ulubiony",
   },
   {
     "reference": "string.Zasoby.151",
-    "text": "Usuwa aktualnie wybraną pozycję z ulubionych\nUsuń ulubiony",
+    "text": "Usuwa aktualnie wybraną pozycję z ulubionych
+Usuń ulubiony",
   },
   {
     "reference": "string.Zasoby.152",
-    "text": "Powróci do głównego widoku okna\nWróć do głównego widoku",
+    "text": "Powróci do głównego widoku okna
+Wróć do głównego widoku",
   },
   {
     "reference": "string.Zasoby.153",
@@ -5969,11 +6087,13 @@
   },
   {
     "reference": "string.Zasoby.155",
-    "text": "Dodaje bieżące wyszukiwanie jako nowa pozycja ulubionych\nDodaj do ulubionych",
+    "text": "Dodaje bieżące wyszukiwanie jako nowa pozycja ulubionych
+Dodaj do ulubionych",
   },
   {
     "reference": "string.Zasoby.156",
-    "text": "Odświeża listę ulubionych\nOdśwież",
+    "text": "Odświeża listę ulubionych
+Odśwież",
   },
   {
     "reference": "string.Zasoby.166",
@@ -6005,7 +6125,9 @@
   },
   {
     "reference": "string.Zasoby.202",
-    "text": "Wyświetl znalezioną zawartość, zaznaczając jeden lub więcej plików w prawym okienku.\n\nUwaga: Aby wydrukować ten panel, kliknij polecenie 'Wydrukuj' w menu Plik.",
+    "text": "Wyświetl znalezioną zawartość, zaznaczając jeden lub więcej plików w prawym okienku.
+
+Uwaga: Aby wydrukować ten panel, kliknij polecenie 'Wydrukuj' w menu Plik.",
   },
   {
     "reference": "string.Zasoby.204",
@@ -6017,27 +6139,33 @@
   },
   {
     "reference": "string.Zasoby.206",
-    "text": "Ustawia kolor podświetlania dla znalezionego tekstu\nUstaw kolor",
+    "text": "Ustawia kolor podświetlania dla znalezionego tekstu
+Ustaw kolor",
   },
   {
     "reference": "string.Zasoby.207",
-    "text": "Zapisuje dane widoku zawartości\nZapisz widok zawartości",
+    "text": "Zapisuje dane widoku zawartości
+Zapisz widok zawartości",
   },
   {
     "reference": "string.Zasoby.208",
-    "text": "Przełącza wyszukiwanie jednozakrasowe zawartości w celu efektywnego przeszukiwania dużych dysków (bez wskaźnika postępu)\nPrzełącz wyszukiwanie jednozakresowe (dla dużych dysków)",
+    "text": "Przełącza wyszukiwanie jednozakrasowe zawartości w celu efektywnego przeszukiwania dużych dysków (bez wskaźnika postępu)
+Przełącz wyszukiwanie jednozakresowe (dla dużych dysków)",
   },
   {
     "reference": "string.Zasoby.209",
-    "text": "Zadokuje widok zawartości pod widokiem listy plików\nZadokuj na dole",
+    "text": "Zadokuje widok zawartości pod widokiem listy plików
+Zadokuj na dole",
   },
   {
     "reference": "string.Zasoby.210",
-    "text": "Zadokuje widok zawartości po prawej stronie widoku listy plików\nZadokuj po prawej stronie",
+    "text": "Zadokuje widok zawartości po prawej stronie widoku listy plików
+Zadokuj po prawej stronie",
   },
   {
     "reference": "string.Zasoby.211",
-    "text": "Pokazuje okno dialogowe pomocy dla parametrów linii poleceń\nLinia poleceń Parms",
+    "text": "Pokazuje okno dialogowe pomocy dla parametrów linii poleceń
+Linia poleceń Parms",
   },
   {
     "reference": "string.Zasoby.212",
@@ -6045,67 +6173,83 @@
   },
   {
     "reference": "string.Zasoby.213",
-    "text": "Szuka wśród plików wyświetlanych na liście wyników\nSzukaj na liście aktualnych wyników",
+    "text": "Szuka wśród plików wyświetlanych na liście wyników
+Szukaj na liście aktualnych wyników",
   },
   {
     "reference": "string.Zasoby.214",
-    "text": "Pokazuje / ukrywa panel widoku zawartości\nPrzełącz widok zawartości",
+    "text": "Pokazuje / ukrywa panel widoku zawartości
+Przełącz widok zawartości",
   },
   {
     "reference": "string.Zasoby.215",
-    "text": "Szuka wśród aktualnie wybranych plików na liście wyników\nSzukaj wśród aktualnie wybranych",
+    "text": "Szuka wśród aktualnie wybranych plików na liście wyników
+Szukaj wśród aktualnie wybranych",
   },
   {
     "reference": "string.Zasoby.216",
-    "text": "Przełącza podświetlanie oryginalnego wyszukiwania\nPrzełącz podświetlanie",
+    "text": "Przełącza podświetlanie oryginalnego wyszukiwania
+Przełącz podświetlanie",
   },
   {
     "reference": "string.Zasoby.217",
-    "text": "Otwiera folder, w którym zapisywane są wszystkie ulubione\nOtwórz folder Ulubione",
+    "text": "Otwiera folder, w którym zapisywane są wszystkie ulubione
+Otwórz folder Ulubione",
   },
   {
     "reference": "string.Zasoby.218",
-    "text": "Zamyka wszystkie okna/karty\nZamknij wszystko",
+    "text": "Zamyka wszystkie okna/karty
+Zamknij wszystko",
   },
   {
     "reference": "string.Zasoby.219",
-    "text": "Zamyka wszystkie okna/karty z wyjątkiem aktywnego wyszukiwania\nZamknij wszystkie oprócz aktywnego wyszukiwania",
+    "text": "Zamyka wszystkie okna/karty z wyjątkiem aktywnego wyszukiwania
+Zamknij wszystkie oprócz aktywnego wyszukiwania",
   },
   {
     "reference": "string.Zasoby.220",
-    "text": "Zamyka wszystkie otwarte okna plików\nZamknij wszystkie pliki",
+    "text": "Zamyka wszystkie otwarte okna plików
+Zamknij wszystkie pliki",
   },
   {
     "reference": "string.Zasoby.221",
-    "text": "Zapisuje bieżącą sesję wyszukiwania\nZapisz sesję wyszukiwania",
+    "text": "Zapisuje bieżącą sesję wyszukiwania
+Zapisz sesję wyszukiwania",
   },
   {
     "reference": "string.Zasoby.222",
-    "text": "Zapisuje wszystkie sesje wyszukiwania w obszarze roboczym\nZapisz obszar roboczy",
+    "text": "Zapisuje wszystkie sesje wyszukiwania w obszarze roboczym
+Zapisz obszar roboczy",
   },
   {
     "reference": "string.Zasoby.224",
-    "text": "Odświeża podgląd raportu\nOdśwież",
+    "text": "Odświeża podgląd raportu
+Odśwież",
   },
   {
     "reference": "string.Zasoby.225",
-    "text": "Kopiuje raport do schowka\nKopiuj",
+    "text": "Kopiuje raport do schowka
+Kopiuj",
   },
   {
     "reference": "string.Zasoby.226",
-    "text": "Zapisuje raport do pliku\nZapisz raport",
+    "text": "Zapisuje raport do pliku
+Zapisz raport",
   },
   {
     "reference": "string.Zasoby.227",
-    "text": "Drukuje raport\nPodgląd wydruku",
+    "text": "Drukuje raport
+Podgląd wydruku",
   },
   {
     "reference": "string.Zasoby.228",
-    "text": "Modyfikuje pola i układ raportu\nOpcje raportu",
+    "text": "Modyfikuje pola i układ raportu
+Opcje raportu",
   },
   {
     "reference": "string.Zasoby.229",
-    "text": "Pokazuje lub ukrywa pasek menu\nWłącz pasek menu",
+    "text": "Pokazuje lub ukrywa pasek menu
+Włącz pasek menu",
   },
   {
     "reference": "string.Zasoby.230",
@@ -6133,11 +6277,13 @@
   },
   {
     "reference": "string.Zasoby.236",
-    "text": "Kopiuje listę błędów do schowka\nSkopiuj do schowka",
+    "text": "Kopiuje listę błędów do schowka
+Skopiuj do schowka",
   },
   {
     "reference": "string.Zasoby.237",
-    "text": "Zapisuje listę błędów w pliku\nZapisz błędy",
+    "text": "Zapisuje listę błędów w pliku
+Zapisz błędy",
   },
   {
     "reference": "string.Zasoby.238",
@@ -6161,7 +6307,8 @@
   },
   {
     "reference": "string.Zasoby.243",
-    "text": "Uaktualnia do wersji Pro\nUaktualnij",
+    "text": "Uaktualnia do wersji Pro
+Uaktualnij",
   },
   {
     "reference": "string.Zasoby.244",
@@ -6557,11 +6704,13 @@
   },
   {
     "reference": "string.Tekst.93",
-    "text": "Kod rejestracyjny: \r\n%s",
+    "text": "Kod rejestracyjny: 
+%s",
   },
   {
     "reference": "string.Tekst.94",
-    "text": "Wsparcie / darmowe aktualizacje do: %s\r\n",
+    "text": "Wsparcie / darmowe aktualizacje do: %s
+",
   },
   {
     "reference": "string.Tekst.95",
@@ -6869,7 +7018,9 @@
   },
   {
     "reference": "string.Tekst.178",
-    "text": "Błąd podczas uruchamiania zewnętrznego edytora.\r\n\r\n%s",
+    "text": "Błąd podczas uruchamiania zewnętrznego edytora.
+
+%s",
   },
   {
     "reference": "string.Tekst.179",
@@ -6901,7 +7052,18 @@
   },
   {
     "reference": "string.Tekst.186",
-    "text": "** WCZYTYWANIE NIE POWIODŁO SIĘ **\r\n\r\nNie można wczytać: %s\r\n\r\nSprawdź, czy plik nadal istnieje i czy masz właściwie uprawnienia, aby go odczytać.\r\n\r\nJeśli potrzebujesz dodatkowej pomocy, skontaktuj się z działem pomocy technicznej, dołączając zarówno ten tekst błędu, jak i wszelkie pliki dziennika przechowywane w tym folderze:\r\n%s\r\n\r\nWięcej informacji:\r\n%s\r\n",
+    "text": "** WCZYTYWANIE NIE POWIODŁO SIĘ **
+
+Nie można wczytać: %s
+
+Sprawdź, czy plik nadal istnieje i czy masz właściwie uprawnienia, aby go odczytać.
+
+Jeśli potrzebujesz dodatkowej pomocy, skontaktuj się z działem pomocy technicznej, dołączając zarówno ten tekst błędu, jak i wszelkie pliki dziennika przechowywane w tym folderze:
+%s
+
+Więcej informacji:
+%s
+",
   },
   {
     "reference": "string.Tekst.189",
@@ -7041,7 +7203,9 @@
   },
   {
     "reference": "string.Tekst.229",
-    "text": "Plik formatu niestandardowego jest nieprawidłowy. Sprawdź, czy plik istnieje i czy masz odpowiednie uprawnienia zabezpieczeń do otwarcia pliku.\r\n\r\n",
+    "text": "Plik formatu niestandardowego jest nieprawidłowy. Sprawdź, czy plik istnieje i czy masz odpowiednie uprawnienia zabezpieczeń do otwarcia pliku.
+
+",
   },
   {
     "reference": "string.Tekst.230",
@@ -7097,7 +7261,10 @@
   },
   {
     "reference": "string.Tekst.245",
-    "text": "Wyrażenie zostało znalezione w tekście.\r\nPoczątek wyrażenia: %d\r\nDługość wyrażenia: %d\r\nZnaleziono: %s",
+    "text": "Wyrażenie zostało znalezione w tekście.
+Początek wyrażenia: %d
+Długość wyrażenia: %d
+Znaleziono: %s",
   },
   {
     "reference": "string.Tekst.246",
@@ -7169,11 +7336,15 @@
   },
   {
     "reference": "string.Tekst.268",
-    "text": "\r\nPoniższe katalogi wyszukiwania były nieprawidłowe:\r\n\r\n",
+    "text": "
+Poniższe katalogi wyszukiwania były nieprawidłowe:
+
+",
   },
   {
     "reference": "string.Tekst.269",
-    "text": "\r\nNazwa katalogu musi być poprawną ścieżką i zawierać literę dysku (np. C:\Windows) lub poprawnie skonstruowaną nazwę UNC (np. \\WORKSTATION\Shared_Folder).",
+    "text": "
+Nazwa katalogu musi być poprawną ścieżką i zawierać literę dysku (np. C:\Windows) lub poprawnie skonstruowaną nazwę UNC (np. \\WORKSTATION\Shared_Folder).",
   },
   {
     "reference": "string.Tekst.272",
@@ -7181,7 +7352,8 @@
   },
   {
     "reference": "string.Tekst.273",
-    "text": "Analiza skryptu nie powiodła się:\r\n",
+    "text": "Analiza skryptu nie powiodła się:
+",
   },
   {
     "reference": "string.Tekst.274",
@@ -7225,7 +7397,8 @@
   },
   {
     "reference": "string.Tekst.284",
-    "text": "(Nie można wczytać listy odbiorców - Skontaktuj się z pomocą techniczną, aby uzyskać więcej informacji)\r\n",
+    "text": "(Nie można wczytać listy odbiorców - Skontaktuj się z pomocą techniczną, aby uzyskać więcej informacji)
+",
   },
   {
     "reference": "string.Tekst.285",
@@ -7241,7 +7414,8 @@
   },
   {
     "reference": "string.Tekst.288",
-    "text": "\r\nBłąd podczas tworzenia wiadomości: ",
+    "text": "
+Błąd podczas tworzenia wiadomości: ",
   },
   {
     "reference": "string.Tekst.289",
@@ -7605,7 +7779,8 @@
   },
   {
     "reference": "string.Tekst.380",
-    "text": "Wyszukiwany ciąg jest nieprawidłowy: \n%s",
+    "text": "Wyszukiwany ciąg jest nieprawidłowy: 
+%s",
   },
   {
     "reference": "string.Tekst.381",
@@ -7669,7 +7844,11 @@
   },
   {
     "reference": "string.Tekst.396",
-    "text": "Skrypt %s jest nieprawidłowy.\n\nDodatkowe informacje:\n\n%s",
+    "text": "Skrypt %s jest nieprawidłowy.
+
+Dodatkowe informacje:
+
+%s",
   },
   {
     "reference": "string.Tekst.397",
@@ -7961,7 +8140,9 @@
   },
   {
     "reference": "string.Tekst.472",
-    "text": "%s już istnieje.\r\n\r\nCzy chcesz go zastąpić?",
+    "text": "%s już istnieje.
+
+Czy chcesz go zastąpić?",
   },
   {
     "reference": "string.Tekst.473",
@@ -7969,7 +8150,10 @@
   },
   {
     "reference": "string.Tekst.474",
-    "text": "Zamknięcie nawiasów ')' nie znaleziono odpowiedniego nawiasu otwierającego '('. Użyj cudzysłowów, aby określić tekst dosłowny, np. "(początkowy" lub "Metoda("\r\n\r\nBłędna pozycja: %d\r\nTekst: %s",
+    "text": "Zamknięcie nawiasów ')' nie znaleziono odpowiedniego nawiasu otwierającego '('. Użyj cudzysłowów, aby określić tekst dosłowny, np. "(początkowy" lub "Metoda("
+
+Błędna pozycja: %d
+Tekst: %s",
   },
   {
     "reference": "string.Tekst.475",
@@ -8981,7 +9165,9 @@
   },
   {
     "reference": "string.Tekst.767",
-    "text": "Aby ta funkcja działała, program musi włączyć rozszerzenia przeglądarki innej firmy w programie Internet Explorer i zanim zacznie działać, konieczne będzie ponowne uruchomienie. \r\n\r\nCzy chcesz kontynuować?",
+    "text": "Aby ta funkcja działała, program musi włączyć rozszerzenia przeglądarki innej firmy w programie Internet Explorer i zanim zacznie działać, konieczne będzie ponowne uruchomienie. 
+
+Czy chcesz kontynuować?",
   },
   {
     "reference": "string.Tekst.768",
@@ -9241,7 +9427,8 @@
   },
   {
     "reference": "string.Tekst.837",
-    "text": "Wersja z ograniczoną funkcjonalnością, niektóre funkcje zostaną ukryte lub wyłączone.\nDarmowa do użytku osobistego i komercyjnego.",
+    "text": "Wersja z ograniczoną funkcjonalnością, niektóre funkcje zostaną ukryte lub wyłączone.
+Darmowa do użytku osobistego i komercyjnego.",
   },
   {
     "reference": "string.Tekst.838",
@@ -9253,11 +9440,23 @@
   },
   {
     "reference": "string.Tekst.840",
-    "text": "NIE ZAREJESTROWANY ! \r\nTen produkt jest licencjonowany wyłącznie do użytku osobistego w domu. \r\n\r\nUżytkownicy komercyjni:\r\n\r\nMusicie zarejestrować program, aby nadal używać go w celach komercyjnych, w przeciwnym razie naruszacie warunki użytkownika.\r\n\r\nAby uzyskać BEZPŁATNY kod rejestracyjny, przejdź do:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "NIE ZAREJESTROWANY ! 
+Ten produkt jest licencjonowany wyłącznie do użytku osobistego w domu. 
+
+Użytkownicy komercyjni:
+
+Musicie zarejestrować program, aby nadal używać go w celach komercyjnych, w przeciwnym razie naruszacie warunki użytkownika.
+
+Aby uzyskać BEZPŁATNY kod rejestracyjny, przejdź do:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Tekst.841",
-    "text": "Nie zarejestrowany. \r\nUżytkownicy komercyjni tego programu muszą się zarejestrować po zakończeniu okresu próbnego.\r\n\r\nAby otrzymać BEZPŁATNY kod rejestracyjny, przejdź do:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "Nie zarejestrowany. 
+Użytkownicy komercyjni tego programu muszą się zarejestrować po zakończeniu okresu próbnego.
+
+Aby otrzymać BEZPŁATNY kod rejestracyjny, przejdź do:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Tekst.842",

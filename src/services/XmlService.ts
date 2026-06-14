@@ -162,3 +162,11 @@ function escapeAttributes(attributes: Record<string, string>): Record<string, st
 function escapeAttributeValue(value: string): string {
   return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
+
+export function unescapeControlChars(text: string): string {
+  return text.replaceAll("\\r", "\r").replaceAll("\\n", "\n").replaceAll("\\t", "\t");
+}
+
+export function escapeControlChars(text: string): string {
+  return text.replaceAll("\r", "\\r").replaceAll("\n", "\\n").replaceAll("\t", "\\t");
+}

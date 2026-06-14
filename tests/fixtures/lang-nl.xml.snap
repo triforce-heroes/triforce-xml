@@ -3133,7 +3133,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.3",
-    "text": "*.txt\t\tSpecificeert alle bestanden met een txt extensie\n\n*.xls;*.doc\tSpecificeert alle bestanden met een .xls of een .doc extensie",
+    "text": "*.txt		Specificeert alle bestanden met een txt extensie
+
+*.xls;*.doc	Specificeert alle bestanden met een .xls of een .doc extensie",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.4",
@@ -3141,7 +3143,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.5",
-    "text": "*.png;*.jpg:vissen\t\tSpecificeert alle .png en jpg bestanden met het woord vissen in de naam\n\nNOT:*.doc;*.xls\t\t\tSpecificeert alle bestanden behalve .doc and .xls bestanden\n\nvis;NOT:*.exe;*.dll\t\tspecificeert alle bestanden behalve .exe of .dll met het woord vis in de naam",
+    "text": "*.png;*.jpg:vissen		Specificeert alle .png en jpg bestanden met het woord vissen in de naam
+
+NOT:*.doc;*.xls			Specificeert alle bestanden behalve .doc and .xls bestanden
+
+vis;NOT:*.exe;*.dll		specificeert alle bestanden behalve .exe of .dll met het woord vis in de naam",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.caption",
@@ -3157,23 +3163,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.3",
-    "text": "werk AND document\tZoekt naar de woorden 'werk' en 'document' in dezelfde regel of bestand",
+    "text": "werk AND document	Zoekt naar de woorden 'werk' en 'document' in dezelfde regel of bestand",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.4",
-    "text": "werk document\t\tGebruikt dezelfde zoek opdracht al hierboven (de AND is onvoorwaardelijk)",
+    "text": "werk document		Gebruikt dezelfde zoek opdracht al hierboven (de AND is onvoorwaardelijk)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.5",
-    "text": "werk OR document\tZoekt naar de woorden 'werk' of 'document' in dezelfde regel of bestand",
+    "text": "werk OR document	Zoekt naar de woorden 'werk' of 'document' in dezelfde regel of bestand",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.6",
-    "text": "werk NEAR document\tZoekt naar 'werk' in de buurt van het woord 'document' in een regel of bestand",
+    "text": "werk NEAR document	Zoekt naar 'werk' in de buurt van het woord 'document' in een regel of bestand",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.7",
-    "text": ""werk document"\tZoekt naar de exacte woordcombinatie 'werk document'",
+    "text": ""werk document"	Zoekt naar de exacte woordcombinatie 'werk document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.8",
@@ -3209,23 +3215,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.3",
-    "text": "werk AND document\tZoekt naar de woorden 'werk' en 'document' in dezelfde regel of bestand",
+    "text": "werk AND document	Zoekt naar de woorden 'werk' en 'document' in dezelfde regel of bestand",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.4",
-    "text": "werk document\t\tGebruikt dezelfde zoek opdracht als hierboven (de AND is onvoorwaardelijk)",
+    "text": "werk document		Gebruikt dezelfde zoek opdracht als hierboven (de AND is onvoorwaardelijk)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.5",
-    "text": "werk OR document\tZoekt naar de woorden 'werk' of 'document' in hetzelfde bestand",
+    "text": "werk OR document	Zoekt naar de woorden 'werk' of 'document' in hetzelfde bestand",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.6",
-    "text": "werk NOT document\tZoekt naar 'werk' zonder het woord 'document' in hetzelfde bestand",
+    "text": "werk NOT document	Zoekt naar 'werk' zonder het woord 'document' in hetzelfde bestand",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.7",
-    "text": ""werk document"\tZoekt naar de exacte woordcombinatie 'werk document'",
+    "text": ""werk document"	Zoekt naar de exacte woordcombinatie 'werk document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.8",
@@ -3261,11 +3267,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.3",
-    "text": "de schrijver\tzou zinnen moeten vinden met 'de schrijver' of 'de schrijvers'.",
+    "text": "de schrijver	zou zinnen moeten vinden met 'de schrijver' of 'de schrijvers'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.4",
-    "text": "vis\t\tgelijk of tegenaan 'vis', 'vissen', or 'gevist'.",
+    "text": "vis		gelijk of tegenaan 'vis', 'vissen', or 'gevist'.",
   },
   {
     "reference": "dialog.IDD_ATTRIBUTES.caption",
@@ -3569,11 +3575,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.3",
-    "text": "de auteur\tzoekt naar het specifieke woord 'de' en 'auteur' met uitzondering van gedeeltelijke overeenkomsten zoals 'deze' or 'auteurisatie'.",
+    "text": "de auteur	zoekt naar het specifieke woord 'de' en 'auteur' met uitzondering van gedeeltelijke overeenkomsten zoals 'deze' or 'auteurisatie'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.4",
-    "text": "Vis\t\tHeel woord 'vis' maar niet 'vissen' of 'gevist'.",
+    "text": "Vis		Heel woord 'vis' maar niet 'vissen' of 'gevist'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.caption",
@@ -3589,11 +3595,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.3",
-    "text": "Harken\tKomt overeen met Harken en Hurken maar ook Harkende en Hurkend.",
+    "text": "Harken	Komt overeen met Harken en Hurken maar ook Harkende en Hurkend.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.4",
-    "text": "Dollen\tkomt overeen met Dollen maar ook met Doppen en Dollend.",
+    "text": "Dollen	komt overeen met Dollen maar ook met Doppen en Dollend.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_MULTILINE_REGEX.caption",
@@ -4053,15 +4059,15 @@
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.2",
-    "text": "Bewerk de index...\tEnter",
+    "text": "Bewerk de index...	Enter",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.3",
-    "text": "Index verwijderen...\tDel",
+    "text": "Index verwijderen...	Del",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.4",
-    "text": "Nieuwe index toevoegen...\tIns",
+    "text": "Nieuwe index toevoegen...	Ins",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.5",
@@ -5337,51 +5343,63 @@
   },
   {
     "reference": "string.IndexManager.1",
-    "text": "Voeg een nieuwe of bestaande index toe\nIndex toevoegen",
+    "text": "Voeg een nieuwe of bestaande index toe
+Index toevoegen",
   },
   {
     "reference": "string.IndexManager.2",
-    "text": "Index verplaatsen of definitief verwijderen\nVerplaats of verwijder Index",
+    "text": "Index verplaatsen of definitief verwijderen
+Verplaats of verwijder Index",
   },
   {
     "reference": "string.IndexManager.3",
-    "text": "Bewerk de index instellingen\nIndex bewerken",
+    "text": "Bewerk de index instellingen
+Index bewerken",
   },
   {
     "reference": "string.IndexManager.4",
-    "text": "Werk de index bij met eventuele wijzigingen die zich hebben voorgedaan\nIndex bijwerken",
+    "text": "Werk de index bij met eventuele wijzigingen die zich hebben voorgedaan
+Index bijwerken",
   },
   {
     "reference": "string.IndexManager.5",
-    "text": "Maak een heel nieuwe index\nMaak een nieuwe index aan",
+    "text": "Maak een heel nieuwe index
+Maak een nieuwe index aan",
   },
   {
     "reference": "string.IndexManager.6",
-    "text": "Indexeringsproces annuleren\nAnnuleren",
+    "text": "Indexeringsproces annuleren
+Annuleren",
   },
   {
     "reference": "string.IndexManager.7",
-    "text": "Vernieuw de lijst\nVernieuw lijst",
+    "text": "Vernieuw de lijst
+Vernieuw lijst",
   },
   {
     "reference": "string.IndexManager.8",
-    "text": "Voeg een nieuw schema toe\nVoeg schema toe",
+    "text": "Voeg een nieuw schema toe
+Voeg schema toe",
   },
   {
     "reference": "string.IndexManager.9",
-    "text": "Bewerk het schema\nBewerk schema",
+    "text": "Bewerk het schema
+Bewerk schema",
   },
   {
     "reference": "string.IndexManager.10",
-    "text": "Verwijder het schema\nVerwijder schema",
+    "text": "Verwijder het schema
+Verwijder schema",
   },
   {
     "reference": "string.IndexManager.11",
-    "text": "Bewerk de indexen die aan het schema zijn gekoppeld\nBewerk indexlijst",
+    "text": "Bewerk de indexen die aan het schema zijn gekoppeld
+Bewerk indexlijst",
   },
   {
     "reference": "string.Interne viewer.37",
-    "text": "Sla het huidige bestand op\nBestand opslaan",
+    "text": "Sla het huidige bestand op
+Bestand opslaan",
   },
   {
     "reference": "string.Bron.1",
@@ -5461,7 +5479,13 @@
   },
   {
     "reference": "string.Bron.22",
-    "text": "SDI_ONLY\nZoeken\nNieuwe zoekopdracht\nZoekcriteria (*.srf)\n.srf\nFileLocatorPro.Zoekcriteria\n%APP_NAME% Zoekcriteria",
+    "text": "SDI_ONLY
+Zoeken
+Nieuwe zoekopdracht
+Zoekcriteria (*.srf)
+.srf
+FileLocatorPro.Zoekcriteria
+%APP_NAME% Zoekcriteria",
   },
   {
     "reference": "string.Bron.23",
@@ -5485,47 +5509,58 @@
   },
   {
     "reference": "string.Bron.34",
-    "text": "Maak een nieuwe zoekopdracht op basis van de laatste zoekopdracht\nNieuwe zoekopdracht op basis van de laatste zoekopdracht",
+    "text": "Maak een nieuwe zoekopdracht op basis van de laatste zoekopdracht
+Nieuwe zoekopdracht op basis van de laatste zoekopdracht",
   },
   {
     "reference": "string.Bron.35",
-    "text": "Een bestand met zoekcriteria openen\nOpen",
+    "text": "Een bestand met zoekcriteria openen
+Open",
   },
   {
     "reference": "string.Bron.36",
-    "text": "Sluit de actieve zoekopdracht\nSluiten",
+    "text": "Sluit de actieve zoekopdracht
+Sluiten",
   },
   {
     "reference": "string.Bron.37",
-    "text": "Bewaar de huidige zoekcriteria.\nBewaar criteria",
+    "text": "Bewaar de huidige zoekcriteria.
+Bewaar criteria",
   },
   {
     "reference": "string.Bron.38",
-    "text": "Bewaar de huidige zoekcriteria onder een andere naam.\nOpslaan als",
+    "text": "Bewaar de huidige zoekcriteria onder een andere naam.
+Opslaan als",
   },
   {
     "reference": "string.Bron.39",
-    "text": "De afdrukinstellingen wijzigen\nPagina-instelling",
+    "text": "De afdrukinstellingen wijzigen
+Pagina-instelling",
   },
   {
     "reference": "string.Bron.40",
-    "text": "De printer en afdrukinstellingen wijzigen\nPrinter instellingen",
+    "text": "De printer en afdrukinstellingen wijzigen
+Printer instellingen",
   },
   {
     "reference": "string.Bron.41",
-    "text": "De geselecteerde zoekresultaten afdrukken\nAfdrukken",
+    "text": "De geselecteerde zoekresultaten afdrukken
+Afdrukken",
   },
   {
     "reference": "string.Bron.42",
-    "text": "Toon volledige pagina's\nAfdrukvoorbeeld",
+    "text": "Toon volledige pagina's
+Afdrukvoorbeeld",
   },
   {
     "reference": "string.Bron.43",
-    "text": "Programma informatie, versienummer en copyrechten weergeven\nOver",
+    "text": "Programma informatie, versienummer en copyrechten weergeven
+Over",
   },
   {
     "reference": "string.Bron.44",
-    "text": "Programma afsluiten\nAfsluiten",
+    "text": "Programma afsluiten
+Afsluiten",
   },
   {
     "reference": "string.Bron.45",
@@ -5593,87 +5628,108 @@
   },
   {
     "reference": "string.Bron.61",
-    "text": "Naar het volgende venster gaan\nVolgende venster",
+    "text": "Naar het volgende venster gaan
+Volgende venster",
   },
   {
     "reference": "string.Bron.62",
-    "text": "Terug naar het vorige venster\nVorige venster",
+    "text": "Terug naar het vorige venster
+Vorige venster",
   },
   {
     "reference": "string.Bron.63",
-    "text": "Een ander venster voor het actieve document openen\nNieuw venster",
+    "text": "Een ander venster voor het actieve document openen
+Nieuw venster",
   },
   {
     "reference": "string.Bron.64",
-    "text": "Plaats pictogrammen op volgorde onderin het venster\nPictogrammen schikken",
+    "text": "Plaats pictogrammen op volgorde onderin het venster
+Pictogrammen schikken",
   },
   {
     "reference": "string.Bron.65",
-    "text": "Vensters zo ordenen dat ze elkaar overlappen\nOverlappende vensters",
+    "text": "Vensters zo ordenen dat ze elkaar overlappen
+Overlappende vensters",
   },
   {
     "reference": "string.Bron.66",
-    "text": "Vensters zo ordenen dat ze elkaar niet overlappen\nNiet overlappende vensters",
+    "text": "Vensters zo ordenen dat ze elkaar niet overlappen
+Niet overlappende vensters",
   },
   {
     "reference": "string.Bron.67",
-    "text": "Vensters zo ordenen dat ze elkaar niet overlappen\nNiet overlappende vensters",
+    "text": "Vensters zo ordenen dat ze elkaar niet overlappen
+Niet overlappende vensters",
   },
   {
     "reference": "string.Bron.68",
-    "text": "Splits het actieve venster op in delen\nSpliten",
+    "text": "Splits het actieve venster op in delen
+Spliten",
   },
   {
     "reference": "string.Bron.69",
-    "text": "De selectie wissen\nwissen",
+    "text": "De selectie wissen
+wissen",
   },
   {
     "reference": "string.Bron.70",
-    "text": "Alles wissen\nWis alles",
+    "text": "Alles wissen
+Wis alles",
   },
   {
     "reference": "string.Bron.71",
-    "text": "Kopieer de huidige selectie naar het klembord\nKopieer",
+    "text": "Kopieer de huidige selectie naar het klembord
+Kopieer",
   },
   {
     "reference": "string.Bron.72",
-    "text": "Knip de selectie uit en plaats deze op het klembord\nKnippen",
+    "text": "Knip de selectie uit en plaats deze op het klembord
+Knippen",
   },
   {
     "reference": "string.Bron.73",
-    "text": "Zoek de opgegeven tekst\nZoeken",
+    "text": "Zoek de opgegeven tekst
+Zoeken",
   },
   {
     "reference": "string.Bron.74",
-    "text": "Inhoud van het klembord invoegen\nPlakken",
+    "text": "Inhoud van het klembord invoegen
+Plakken",
   },
   {
     "reference": "string.Bron.75",
-    "text": "Herhaal de laatste actie\nHerhalen",
+    "text": "Herhaal de laatste actie
+Herhalen",
   },
   {
     "reference": "string.Bron.76",
-    "text": "Specifieke tekst vervangen door andere tekst\nVervangen",
+    "text": "Specifieke tekst vervangen door andere tekst
+Vervangen",
   },
   {
     "reference": "string.Bron.77",
-    "text": "Selecteer het volledige document\nAlles selecteren",
+    "text": "Selecteer het volledige document
+Alles selecteren",
   },
   {
     "reference": "string.Bron.78",
-    "text": "Maak de laatste actie ongedaan\nOngedaan maken",
+    "text": "Maak de laatste actie ongedaan
+Ongedaan maken",
   },
   {
     "reference": "string.Bron.79",
-    "text": "Herhaal de eerder ongedaan gemaakte actie\nOpnieuw ongedaan maken",
+    "text": "Herhaal de eerder ongedaan gemaakte actie
+Opnieuw ongedaan maken",
   },
   {
     "reference": "string.Bron.80",
-    "text": "Toon of verberg de werkbalk\nWerkbalk zichbaar maken of verbergen",
+    "text": "Toon of verberg de werkbalk
+Werkbalk zichbaar maken of verbergen",
   },
   {
     "reference": "string.Bron.81",
-    "text": "Toon of verberg de statusbalk\nstatusbalk zichbaar maken of verbergen",
+    "text": "Toon of verberg de statusbalk
+statusbalk zichbaar maken of verbergen",
   },
   {
     "reference": "string.Bron.82",
@@ -5717,7 +5773,8 @@
   },
   {
     "reference": "string.Bron.92",
-    "text": "Afdrukvoorbeeld sluiten\nVoorbeeld sluiten",
+    "text": "Afdrukvoorbeeld sluiten
+Voorbeeld sluiten",
   },
   {
     "reference": "string.Bron.93",
@@ -5729,19 +5786,28 @@
   },
   {
     "reference": "string.Bron.95",
-    "text": "\nZoekennaar\nZoeken\nZoekbestanden (*.sea)\n.sea\nzoekennaar.Document\nZoek Document",
+    "text": "
+Zoekennaar
+Zoeken
+Zoekbestanden (*.sea)
+.sea
+zoekennaar.Document
+Zoek Document",
   },
   {
     "reference": "string.Bron.96",
-    "text": "Kopieer de paden van het momenteel geselecteerde bestand(en) naar het klembord\nBestandspaden kopiëren",
+    "text": "Kopieer de paden van het momenteel geselecteerde bestand(en) naar het klembord
+Bestandspaden kopiëren",
   },
   {
     "reference": "string.Bron.97",
-    "text": "Open het dialoogvenster Eigenschappen van het (de) momenteel geselecteerde bestand(en)\nOpen Eigenschappen",
+    "text": "Open het dialoogvenster Eigenschappen van het (de) momenteel geselecteerde bestand(en)
+Open Eigenschappen",
   },
   {
     "reference": "string.Bron.98",
-    "text": "Open het geselecteerde bestand\nOpen bestand",
+    "text": "Open het geselecteerde bestand
+Open bestand",
   },
   {
     "reference": "string.Bron.99",
@@ -5749,43 +5815,53 @@
   },
   {
     "reference": "string.Bron.100",
-    "text": "Automatische terugloop aan of uitschakelen bij het bekijken van de inhoud\nAutomatische terugloop",
+    "text": "Automatische terugloop aan of uitschakelen bij het bekijken van de inhoud
+Automatische terugloop",
   },
   {
     "reference": "string.Bron.101",
-    "text": "Stel het lettertype voor de inhoudsweergave in\nStel lettertype in",
+    "text": "Stel het lettertype voor de inhoudsweergave in
+Stel lettertype in",
   },
   {
     "reference": "string.Bron.102",
-    "text": "Start the zoekopdracht\nStart",
+    "text": "Start the zoekopdracht
+Start",
   },
   {
     "reference": "string.Bron.103",
-    "text": "Stop de huidige zoekopdracht\nStop",
+    "text": "Stop de huidige zoekopdracht
+Stop",
   },
   {
     "reference": "string.Bron.104",
-    "text": "Open help\nHelp",
+    "text": "Open help
+Help",
   },
   {
     "reference": "string.Bron.105",
-    "text": "Selecteer alle bestanden in de bestandslijst\nAlles selecteren",
+    "text": "Selecteer alle bestanden in de bestandslijst
+Alles selecteren",
   },
   {
     "reference": "string.Bron.106",
-    "text": "Zoekresultaten exporteren\nZoekresultaten exporteren",
+    "text": "Zoekresultaten exporteren
+Zoekresultaten exporteren",
   },
   {
     "reference": "string.Bron.107",
-    "text": "Huidige selectie verwijderen\nVerwijderen",
+    "text": "Huidige selectie verwijderen
+Verwijderen",
   },
   {
     "reference": "string.Bron.108",
-    "text": "Geschiedenis van de slepen en neerzetten lijsten verwijderen \nGeschiedenis wissen",
+    "text": "Geschiedenis van de slepen en neerzetten lijsten verwijderen 
+Geschiedenis wissen",
   },
   {
     "reference": "string.Bron.109",
-    "text": "Wijzig zoekconfiguratie\nConfiguratie",
+    "text": "Wijzig zoekconfiguratie
+Configuratie",
   },
   {
     "reference": "string.Bron.110",
@@ -5825,23 +5901,33 @@
   },
   {
     "reference": "string.Bron.119",
-    "text": "FILE_VIEWER\nView\nView\n\n\nFileLocator.FileViewer\nAFile Locator File Viewer",
+    "text": "FILE_VIEWER
+View
+View
+
+
+FileLocator.FileViewer
+AFile Locator File Viewer",
   },
   {
     "reference": "string.Bron.120",
-    "text": "Toon of verberg de favorietenlijst\nFavorieten",
+    "text": "Toon of verberg de favorietenlijst
+Favorieten",
   },
   {
     "reference": "string.Bron.121",
-    "text": "Verander de instellingen van het programma om bestanden te bewerken\nInstellingen bewerker",
+    "text": "Verander de instellingen van het programma om bestanden te bewerken
+Instellingen bewerker",
   },
   {
     "reference": "string.Bron.122",
-    "text": "Open Explorer op het pad van het (de) momenteel geselecteerde bestand(en)\nOpen Explorer",
+    "text": "Open Explorer op het pad van het (de) momenteel geselecteerde bestand(en)
+Open Explorer",
   },
   {
     "reference": "string.Bron.123",
-    "text": "Systeemintegratie instellingen wijzigen\nSysteem instellingen",
+    "text": "Systeemintegratie instellingen wijzigen
+Systeem instellingen",
   },
   {
     "reference": "string.Bron.124",
@@ -5849,23 +5935,28 @@
   },
   {
     "reference": "string.Bron.125",
-    "text": "Gaat naar de vorige zoekresultaten\nVorig zoekresultaat",
+    "text": "Gaat naar de vorige zoekresultaten
+Vorig zoekresultaat",
   },
   {
     "reference": "string.Bron.126",
-    "text": "Gaat naar de volgende zoekresultaten\nVolgend zoekresultaat",
+    "text": "Gaat naar de volgende zoekresultaten
+Volgend zoekresultaat",
   },
   {
     "reference": "string.Bron.127",
-    "text": "Huidige selectie hernoemen\nHernoemen",
+    "text": "Huidige selectie hernoemen
+Hernoemen",
   },
   {
     "reference": "string.Bron.128",
-    "text": "Gaat naar de vorige zoekresultaten\nVorig zoekresultaat",
+    "text": "Gaat naar de vorige zoekresultaten
+Vorig zoekresultaat",
   },
   {
     "reference": "string.Bron.129",
-    "text": "Gaat naar de volgende zoekresultaten\nVolgend zoekresultaat",
+    "text": "Gaat naar de volgende zoekresultaten
+Volgend zoekresultaat",
   },
   {
     "reference": "string.Bron.130",
@@ -5901,35 +5992,43 @@
   },
   {
     "reference": "string.Bron.138",
-    "text": "Toon of verberg het inhoudsvenster\nInhoudsvenster tonen of verbergen",
+    "text": "Toon of verberg het inhoudsvenster
+Inhoudsvenster tonen of verbergen",
   },
   {
     "reference": "string.Bron.139",
-    "text": "Pauzeer de zoekopdracht\nPauze",
+    "text": "Pauzeer de zoekopdracht
+Pauze",
   },
   {
     "reference": "string.Bron.140",
-    "text": "Maak een nieuwe zoekopdracht met standaardinstellingen\nNieuwe lege zoekopdracht",
+    "text": "Maak een nieuwe zoekopdracht met standaardinstellingen
+Nieuwe lege zoekopdracht",
   },
   {
     "reference": "string.Bron.141",
-    "text": "Creëer een nieuwe zoekopdracht op basis van de huidige criteria\nNieuwe zoekopdracht met huidige criteria",
+    "text": "Creëer een nieuwe zoekopdracht op basis van de huidige criteria
+Nieuwe zoekopdracht met huidige criteria",
   },
   {
     "reference": "string.Bron.142",
-    "text": "Zoeken naar tekst in een bestand\nZoeken...",
+    "text": "Zoeken naar tekst in een bestand
+Zoeken...",
   },
   {
     "reference": "string.Bron.143",
-    "text": "Blader naar de volgende gemarkeerde regel met gevonden tekst\nBlader naar de volgende",
+    "text": "Blader naar de volgende gemarkeerde regel met gevonden tekst
+Blader naar de volgende",
   },
   {
     "reference": "string.Bron.144",
-    "text": "Blader naar de vorige gemarkeerde regel met gevonden tekst\nBlader naar de vorige",
+    "text": "Blader naar de vorige gemarkeerde regel met gevonden tekst
+Blader naar de vorige",
   },
   {
     "reference": "string.Bron.145",
-    "text": "Schakelen tussen markeringen van de huidige vondst\nSchakel tussen markereringen",
+    "text": "Schakelen tussen markeringen van de huidige vondst
+Schakel tussen markereringen",
   },
   {
     "reference": "string.Bron.146",
@@ -5949,15 +6048,18 @@
   },
   {
     "reference": "string.Bron.150",
-    "text": "Bewerk de momenteel geselecteerde favoriet\nFavoriet bewerken",
+    "text": "Bewerk de momenteel geselecteerde favoriet
+Favoriet bewerken",
   },
   {
     "reference": "string.Bron.151",
-    "text": "Verwijder de momenteel geselecteerde favoriet\nFavoriet verwijderen",
+    "text": "Verwijder de momenteel geselecteerde favoriet
+Favoriet verwijderen",
   },
   {
     "reference": "string.Bron.152",
-    "text": "Terug naar het hoofdvenster van de selectie\nTerug naar het hoofdvenster",
+    "text": "Terug naar het hoofdvenster van de selectie
+Terug naar het hoofdvenster",
   },
   {
     "reference": "string.Bron.153",
@@ -5969,11 +6071,13 @@
   },
   {
     "reference": "string.Bron.155",
-    "text": "Huidige zoekopdracht als nieuwe favoriet toevoegen\nFavoriet toevoegen",
+    "text": "Huidige zoekopdracht als nieuwe favoriet toevoegen
+Favoriet toevoegen",
   },
   {
     "reference": "string.Bron.156",
-    "text": "Vernieuw de lijst met favorieten\nVernieuwen",
+    "text": "Vernieuw de lijst met favorieten
+Vernieuwen",
   },
   {
     "reference": "string.Bron.166",
@@ -6005,7 +6109,9 @@
   },
   {
     "reference": "string.Bron.202",
-    "text": "Bekijk de gevonden inhoud door een of meer bestanden in het rechterpaneel te selecteren.\n\nOpmerking: Om dit venster af te drukken klikt u op Afdrukken in het menu Bestand.",
+    "text": "Bekijk de gevonden inhoud door een of meer bestanden in het rechterpaneel te selecteren.
+
+Opmerking: Om dit venster af te drukken klikt u op Afdrukken in het menu Bestand.",
   },
   {
     "reference": "string.Bron.204",
@@ -6017,27 +6123,33 @@
   },
   {
     "reference": "string.Bron.206",
-    "text": "Stel de kleur in voor het markeren van gevonden tekst\nKleur kiezen",
+    "text": "Stel de kleur in voor het markeren van gevonden tekst
+Kleur kiezen",
   },
   {
     "reference": "string.Bron.207",
-    "text": "Sla de gegevens van de weergave op\nBewaar weergave",
+    "text": "Sla de gegevens van de weergave op
+Bewaar weergave",
   },
   {
     "reference": "string.Bron.208",
-    "text": "Omschakelen naar één opdracht zoeken. Dat is efficiënter om naar inhoud te zoeken op grote schijven (geen voortgangsmeter)\nSchakel zoeken van één opdracht in (voor grote schijven)",
+    "text": "Omschakelen naar één opdracht zoeken. Dat is efficiënter om naar inhoud te zoeken op grote schijven (geen voortgangsmeter)
+Schakel zoeken van één opdracht in (voor grote schijven)",
   },
   {
     "reference": "string.Bron.209",
-    "text": "Verplaats venster onder de bestandsweergave\nVerplaats naar onder",
+    "text": "Verplaats venster onder de bestandsweergave
+Verplaats naar onder",
   },
   {
     "reference": "string.Bron.210",
-    "text": "Verplaats venster rechts naast bestandsweergave\nVerplaats naar rechts",
+    "text": "Verplaats venster rechts naast bestandsweergave
+Verplaats naar rechts",
   },
   {
     "reference": "string.Bron.211",
-    "text": "Toon helpvenster voor opdrachtregel\nCommandline parms",
+    "text": "Toon helpvenster voor opdrachtregel
+Commandline parms",
   },
   {
     "reference": "string.Bron.212",
@@ -6045,67 +6157,83 @@
   },
   {
     "reference": "string.Bron.213",
-    "text": "Zoeken in de huidige resultaten\nZoeken huidige resultaten",
+    "text": "Zoeken in de huidige resultaten
+Zoeken huidige resultaten",
   },
   {
     "reference": "string.Bron.214",
-    "text": "Toon/verberg de inhoud van het venster\nToon/verberg venster",
+    "text": "Toon/verberg de inhoud van het venster
+Toon/verberg venster",
   },
   {
     "reference": "string.Bron.215",
-    "text": "Zoeken binnen de momenteel geselecteerde bestanden\nZoeken binnen geselecteerde bestanden",
+    "text": "Zoeken binnen de momenteel geselecteerde bestanden
+Zoeken binnen geselecteerde bestanden",
   },
   {
     "reference": "string.Bron.216",
-    "text": "Schakelt tussen de markering van de oorspronkelijke zoekopdracht\nWissel markering",
+    "text": "Schakelt tussen de markering van de oorspronkelijke zoekopdracht
+Wissel markering",
   },
   {
     "reference": "string.Bron.217",
-    "text": "Open de map waarin alle favorieten zijn opgeslagen\nOpen favorieten map",
+    "text": "Open de map waarin alle favorieten zijn opgeslagen
+Open favorieten map",
   },
   {
     "reference": "string.Bron.218",
-    "text": "Sluit alle vensters/tabbladen\nAlles sluiten",
+    "text": "Sluit alle vensters/tabbladen
+Alles sluiten",
   },
   {
     "reference": "string.Bron.219",
-    "text": "Sluit alle vensters/tabbladen behalve de actieve zoekopdracht\nAlles sluiten behalve zoekopdracht",
+    "text": "Sluit alle vensters/tabbladen behalve de actieve zoekopdracht
+Alles sluiten behalve zoekopdracht",
   },
   {
     "reference": "string.Bron.220",
-    "text": "Alle geopende bestandsvensters sluiten\nSluit alle vensters",
+    "text": "Alle geopende bestandsvensters sluiten
+Sluit alle vensters",
   },
   {
     "reference": "string.Bron.221",
-    "text": "Sla de huidige zoeksessie op\nSla zoeksessie op",
+    "text": "Sla de huidige zoeksessie op
+Sla zoeksessie op",
   },
   {
     "reference": "string.Bron.222",
-    "text": "Sla alle zoeksessies in de werkruimte op\nBewaar werkruimte",
+    "text": "Sla alle zoeksessies in de werkruimte op
+Bewaar werkruimte",
   },
   {
     "reference": "string.Bron.224",
-    "text": "Vernieuw het rapport\nVernieuwen",
+    "text": "Vernieuw het rapport
+Vernieuwen",
   },
   {
     "reference": "string.Bron.225",
-    "text": "Kopieer het rapport naar het klembord\nKopieer",
+    "text": "Kopieer het rapport naar het klembord
+Kopieer",
   },
   {
     "reference": "string.Bron.226",
-    "text": "Kopieer het rapport naar een bestand\nBewaar rapport",
+    "text": "Kopieer het rapport naar een bestand
+Bewaar rapport",
   },
   {
     "reference": "string.Bron.227",
-    "text": "Druk het rapport af\nAfdrukvoorbeeld",
+    "text": "Druk het rapport af
+Afdrukvoorbeeld",
   },
   {
     "reference": "string.Bron.228",
-    "text": "Wijzig de velden en de opmaak van het rapport\nRapport Opties",
+    "text": "Wijzig de velden en de opmaak van het rapport
+Rapport Opties",
   },
   {
     "reference": "string.Bron.229",
-    "text": "De menubalk weergeven of verbergen\nMenubalk verbergen of tonen",
+    "text": "De menubalk weergeven of verbergen
+Menubalk verbergen of tonen",
   },
   {
     "reference": "string.Bron.230",
@@ -6133,11 +6261,13 @@
   },
   {
     "reference": "string.Bron.236",
-    "text": "Kopieer de lijst met fouten naar het klembord\nKopieer naar klembord",
+    "text": "Kopieer de lijst met fouten naar het klembord
+Kopieer naar klembord",
   },
   {
     "reference": "string.Bron.237",
-    "text": "Kopieer de lijst met fouten naar een bestand\nFouten opslaan",
+    "text": "Kopieer de lijst met fouten naar een bestand
+Fouten opslaan",
   },
   {
     "reference": "string.Bron.238",
@@ -6161,7 +6291,8 @@
   },
   {
     "reference": "string.Bron.243",
-    "text": "Upgrade naar Pro functies\nUpgrade",
+    "text": "Upgrade naar Pro functies
+Upgrade",
   },
   {
     "reference": "string.Bron.244",
@@ -6557,11 +6688,13 @@
   },
   {
     "reference": "string.Text.93",
-    "text": "Registratienummer: \r\n%s",
+    "text": "Registratienummer: 
+%s",
   },
   {
     "reference": "string.Text.94",
-    "text": "Ondersteuning / gratis upgrades tot: %s\r\n",
+    "text": "Ondersteuning / gratis upgrades tot: %s
+",
   },
   {
     "reference": "string.Text.95",
@@ -6869,7 +7002,9 @@
   },
   {
     "reference": "string.Text.178",
-    "text": "Fout bij het uitvoeren van het bewerkingsprogramma.\r\n\r\n%s",
+    "text": "Fout bij het uitvoeren van het bewerkingsprogramma.
+
+%s",
   },
   {
     "reference": "string.Text.179",
@@ -6901,7 +7036,18 @@
   },
   {
     "reference": "string.Text.186",
-    "text": "** LADEN MISLUKT **\r\n\r\nkan niet worden geladen: %s\r\n\r\nControleer of het bestand nog steeds bestaat en of u over de juiste machtigingen beschikt om het te lezen.\r\n\r\nde technische ondersteuning als u meer hulp nodig heeft en voeg zowel deze foutmelding als eventuele logbestanden bewaard in de logmap:\r\n%s\r\n\r\nMeer informatie:\r\n%s\r\n",
+    "text": "** LADEN MISLUKT **
+
+kan niet worden geladen: %s
+
+Controleer of het bestand nog steeds bestaat en of u over de juiste machtigingen beschikt om het te lezen.
+
+de technische ondersteuning als u meer hulp nodig heeft en voeg zowel deze foutmelding als eventuele logbestanden bewaard in de logmap:
+%s
+
+Meer informatie:
+%s
+",
   },
   {
     "reference": "string.Text.189",
@@ -7041,7 +7187,9 @@
   },
   {
     "reference": "string.Text.229",
-    "text": "Aangepast formaat bestand is niet geldig. Controleer of het bestand bestaat en of u over de juiste machtigingen beschikt om het bestand te openen.\r\n\r\n",
+    "text": "Aangepast formaat bestand is niet geldig. Controleer of het bestand bestaat en of u over de juiste machtigingen beschikt om het bestand te openen.
+
+",
   },
   {
     "reference": "string.Text.230",
@@ -7097,7 +7245,10 @@
   },
   {
     "reference": "string.Text.245",
-    "text": "Uitdrukking werd gevonden in tekst.\r\nUitdrukking start: %d\r\nUitdrukkingslengte: %d\r\nGevonden: %s",
+    "text": "Uitdrukking werd gevonden in tekst.
+Uitdrukking start: %d
+Uitdrukkingslengte: %d
+Gevonden: %s",
   },
   {
     "reference": "string.Text.246",
@@ -7169,11 +7320,15 @@
   },
   {
     "reference": "string.Text.268",
-    "text": "\r\nVolgende zoekmappen waren niet geldig:\r\n\r\n",
+    "text": "
+Volgende zoekmappen waren niet geldig:
+
+",
   },
   {
     "reference": "string.Text.269",
-    "text": "\r\nDe naam van de map moet een geldig pad zijn en een schijfletter bevatten (e.g. C:\Windows) OF een goede UNC-naam (e.g. \\WORKSTATION\Shared_Folder).",
+    "text": "
+De naam van de map moet een geldig pad zijn en een schijfletter bevatten (e.g. C:\Windows) OF een goede UNC-naam (e.g. \\WORKSTATION\Shared_Folder).",
   },
   {
     "reference": "string.Text.272",
@@ -7181,7 +7336,8 @@
   },
   {
     "reference": "string.Text.273",
-    "text": "Parsing script mislukt:\r\n",
+    "text": "Parsing script mislukt:
+",
   },
   {
     "reference": "string.Text.274",
@@ -7225,7 +7381,8 @@
   },
   {
     "reference": "string.Text.284",
-    "text": "(Ontvangerslijst kon niet worden geladen - Contact tech support voor meer informatie)\r\n",
+    "text": "(Ontvangerslijst kon niet worden geladen - Contact tech support voor meer informatie)
+",
   },
   {
     "reference": "string.Text.285",
@@ -7241,7 +7398,8 @@
   },
   {
     "reference": "string.Text.288",
-    "text": "\r\nFout bij het opbouwen van het bericht: ",
+    "text": "
+Fout bij het opbouwen van het bericht: ",
   },
   {
     "reference": "string.Text.289",
@@ -7605,7 +7763,8 @@
   },
   {
     "reference": "string.Text.380",
-    "text": "Zoekterm is ongeldig: \n%s",
+    "text": "Zoekterm is ongeldig: 
+%s",
   },
   {
     "reference": "string.Text.381",
@@ -7669,7 +7828,11 @@
   },
   {
     "reference": "string.Text.396",
-    "text": "%s script is niet geldig.\n\nAanvullende informatie:\n\n%s",
+    "text": "%s script is niet geldig.
+
+Aanvullende informatie:
+
+%s",
   },
   {
     "reference": "string.Text.397",
@@ -7961,7 +8124,9 @@
   },
   {
     "reference": "string.Text.472",
-    "text": "%s bestaat al.\r\n\r\nWilt u deze vervangen?",
+    "text": "%s bestaat al.
+
+Wilt u deze vervangen?",
   },
   {
     "reference": "string.Text.473",
@@ -7969,7 +8134,10 @@
   },
   {
     "reference": "string.Text.474",
-    "text": "Sluiten tussen haakjes ')' niet gevonden voor overeenkomstige opening tussen haakjes '('. Gebruik citaten om letterlijke tekst te specificeren, b.v. "(start" of "Methode("\r\n\r\nFoutieve positie: %d\r\nTekst: %s",
+    "text": "Sluiten tussen haakjes ')' niet gevonden voor overeenkomstige opening tussen haakjes '('. Gebruik citaten om letterlijke tekst te specificeren, b.v. "(start" of "Methode("
+
+Foutieve positie: %d
+Tekst: %s",
   },
   {
     "reference": "string.Text.475",
@@ -8981,7 +9149,9 @@
   },
   {
     "reference": "string.Text.767",
-    "text": "Om deze functie te laten werken, moet het programma browserextensies van derden in Internet Explorer inschakelen en moet u opnieuw opstarten voordat het van kracht wordt \r\n\r\nwil je verder gaan?",
+    "text": "Om deze functie te laten werken, moet het programma browserextensies van derden in Internet Explorer inschakelen en moet u opnieuw opstarten voordat het van kracht wordt 
+
+wil je verder gaan?",
   },
   {
     "reference": "string.Text.768",
@@ -9253,11 +9423,23 @@
   },
   {
     "reference": "string.Text.840",
-    "text": "NIET GEREGISTREERD! \r\nDit product is alleen in licentie gegeven voor persoonlijk thuis gebruik.\r\n\r\nCommerciële gebruikers:\r\n\r\nMOETEN dit product registreren om het te blijven gebruiken in een commerciële omgeving, anders schendt u de voorwaarden van de gebruikersovereenkomst.\r\n\r\nFor a FREE registration code please go to:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "NIET GEREGISTREERD! 
+Dit product is alleen in licentie gegeven voor persoonlijk thuis gebruik.
+
+Commerciële gebruikers:
+
+MOETEN dit product registreren om het te blijven gebruiken in een commerciële omgeving, anders schendt u de voorwaarden van de gebruikersovereenkomst.
+
+For a FREE registration code please go to:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Text.841",
-    "text": "Niet geregistreerd. \r\nCommerciële gebruikers van dit product moeten zich registreren zodra de proefperiode is verstreken.\r\n\r\nVoor een GRATIS registratiecode gaat u naar:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "Niet geregistreerd. 
+Commerciële gebruikers van dit product moeten zich registreren zodra de proefperiode is verstreken.
+
+Voor een GRATIS registratiecode gaat u naar:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Text.842",

@@ -1,7 +1,7 @@
 import type { XMLReference, XMLReferencesNode, XMLRoot } from "@/types/XMLTypes";
 
 import { buildReference } from "@/services/ReferenceService";
-import { parseXml, serializeXml } from "@/services/XmlService";
+import { parseXml, serializeXml, escapeControlChars } from "@/services/XmlService";
 
 const COPYID_ATTRIBUTE = "copyid";
 const CAPTION_ATTRIBUTE = "caption";
@@ -104,7 +104,7 @@ function applyResourceReplacement(
   const attributes = { ...resource.attributes };
 
   if (replacementText !== undefined) {
-    attributes[TEXT_ATTRIBUTE] = replacementText;
+    attributes[TEXT_ATTRIBUTE] = escapeControlChars(replacementText);
   }
 
   if (replacementRegex !== undefined) {
@@ -141,7 +141,7 @@ function rebuildContainer(
     const captionReference = buildReference(container, CAPTION_ATTRIBUTE);
 
     if (replacements.has(captionReference)) {
-      rebuiltContainer.attributes[CAPTION_ATTRIBUTE] = replacements.get(captionReference)!;
+      rebuiltContainer.attributes[CAPTION_ATTRIBUTE] = escapeControlChars(replacements.get(captionReference)!);
     }
   }
 
@@ -162,7 +162,7 @@ export function rebuild(sourceXml: Buffer | string, replacements: Map<string, st
   };
 
   if (replacements.has(LANG_REFERENCE)) {
-    rebuilt.attributes[LANG_REFERENCE] = replacements.get(LANG_REFERENCE)!;
+    rebuilt.attributes[LANG_REFERENCE] = escapeControlChars(replacements.get(LANG_REFERENCE)!);
   }
 
   const raw = rebuildRaw(rebuilt);

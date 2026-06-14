@@ -2473,7 +2473,8 @@
   },
   {
     "reference": "dialog.IDD_SEARCH_WIZ_LOCATION.2",
-    "text": "特定的驱动器(&D) (例如 C:, D: 等)\n",
+    "text": "特定的驱动器(&D) (例如 C:, D: 等)
+",
   },
   {
     "reference": "dialog.IDD_SEARCH_WIZ_LOCATION.3",
@@ -2557,7 +2558,8 @@
   },
   {
     "reference": "dialog.IDD_SEARCH_WIZ_CONTENTS.10",
-    "text": "将找出任何在某一行上含有单词Dear和Bill的文件(例如: Dear Fred how is Bill..., The dearest items should be rebilled...)\n",
+    "text": "将找出任何在某一行上含有单词Dear和Bill的文件(例如: Dear Fred how is Bill..., The dearest items should be rebilled...)
+",
   },
   {
     "reference": "dialog.IDD_SEARCH_WIZ_CONTENTS.11",
@@ -3133,7 +3135,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.3",
-    "text": "*.txt\t\t指定所有文件的扩展名为 *.txt\n\n*.xls;*.doc\t指定所有文件的扩展名为 .xls 或 .doc",
+    "text": "*.txt		指定所有文件的扩展名为 *.txt
+
+*.xls;*.doc	指定所有文件的扩展名为 .xls 或 .doc",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.4",
@@ -3141,7 +3145,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.5",
-    "text": "*.png;*.jpg:holiday\t\t指定所有名称中含有holiday的.png和.jpg类型的文件\n\nNOT:*.doc;*.xls\t\t\t指定除.doc和.xls类型文件外的所有文件\n\nholiday;NOT:*.exe;*.dll\t\t指定名称中含有holiday且除.exe或.dll类型文件外的所有文件",
+    "text": "*.png;*.jpg:holiday		指定所有名称中含有holiday的.png和.jpg类型的文件
+
+NOT:*.doc;*.xls			指定除.doc和.xls类型文件外的所有文件
+
+holiday;NOT:*.exe;*.dll		指定名称中含有holiday且除.exe或.dll类型文件外的所有文件",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.caption",
@@ -3157,23 +3165,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.3",
-    "text": "work AND document\t搜索在同一行/文件中出现的 'work' 和 'document'",
+    "text": "work AND document	搜索在同一行/文件中出现的 'work' 和 'document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.4",
-    "text": "work document\t\t和上面的搜索一样（AND是隐含的）",
+    "text": "work document		和上面的搜索一样（AND是隐含的）",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.5",
-    "text": "work OR document\t搜索在同一行/文件中出现的 'work' 或'document'",
+    "text": "work OR document	搜索在同一行/文件中出现的 'work' 或'document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.6",
-    "text": "work NEAR document\t搜索在行/文件中靠近词 'document' 的 'work'",
+    "text": "work NEAR document	搜索在行/文件中靠近词 'document' 的 'work'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.7",
-    "text": ""work document"\t搜索确切的字段 "work document"",
+    "text": ""work document"	搜索确切的字段 "work document"",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.8",
@@ -3209,23 +3217,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.3",
-    "text": "work AND document\t搜索在同一文件中出现的 'work' 和 'document'",
+    "text": "work AND document	搜索在同一文件中出现的 'work' 和 'document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.4",
-    "text": "work document\t\t和上面的搜索一样（AND是隐含的）",
+    "text": "work document		和上面的搜索一样（AND是隐含的）",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.5",
-    "text": "work OR document\t搜索在同一文件中出现的 'work' 或 'document'",
+    "text": "work OR document	搜索在同一文件中出现的 'work' 或 'document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.6",
-    "text": "work NOT document\t搜索在同一文件中出现'work' 而未出现'document'",
+    "text": "work NOT document	搜索在同一文件中出现'work' 而未出现'document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.7",
-    "text": ""work document"\t搜索确切的字段 "work document"",
+    "text": ""work document"	搜索确切的字段 "work document"",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.8",
@@ -3261,11 +3269,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.3",
-    "text": "the author\t查找字段像 'the author' 或 'the authors'。",
+    "text": "the author	查找字段像 'the author' 或 'the authors'。",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.4",
-    "text": "fish\t\t匹配针对 'fish', 'fishing', 或 'elfish'.",
+    "text": "fish		匹配针对 'fish', 'fishing', 或 'elfish'.",
   },
   {
     "reference": "dialog.IDD_ATTRIBUTES.caption",
@@ -3569,11 +3577,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.3",
-    "text": "the author\t搜索指定字段 'the author'。",
+    "text": "the author	搜索指定字段 'the author'。",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.4",
-    "text": "fish\t\t匹配针对 'fish' 但不是 'fishing' 或 'elfish'。",
+    "text": "fish		匹配针对 'fish' 但不是 'fishing' 或 'elfish'。",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.caption",
@@ -4053,15 +4061,15 @@
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.2",
-    "text": "编辑索引...\t回车",
+    "text": "编辑索引...	回车",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.3",
-    "text": "移除索引...\tDel",
+    "text": "移除索引...	Del",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.4",
-    "text": "添加新索引...\tIns",
+    "text": "添加新索引...	Ins",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.5",
@@ -5337,51 +5345,63 @@
   },
   {
     "reference": "string.IndexManager.1",
-    "text": "添加一个新索引或现有索引\n添加索引",
+    "text": "添加一个新索引或现有索引
+添加索引",
   },
   {
     "reference": "string.IndexManager.2",
-    "text": "移除或永久删除索引\n移除或删除索引",
+    "text": "移除或永久删除索引
+移除或删除索引",
   },
   {
     "reference": "string.IndexManager.3",
-    "text": "编辑建立索引的参数\n编辑索引",
+    "text": "编辑建立索引的参数
+编辑索引",
   },
   {
     "reference": "string.IndexManager.4",
-    "text": "内容如有修改，则更新索引\n更新索引",
+    "text": "内容如有修改，则更新索引
+更新索引",
   },
   {
     "reference": "string.IndexManager.5",
-    "text": "重建整个索引\n重建索引",
+    "text": "重建整个索引
+重建索引",
   },
   {
     "reference": "string.IndexManager.6",
-    "text": "取消建立索引过程\n取消",
+    "text": "取消建立索引过程
+取消",
   },
   {
     "reference": "string.IndexManager.7",
-    "text": "刷新下方列表\n刷新列表",
+    "text": "刷新下方列表
+刷新列表",
   },
   {
     "reference": "string.IndexManager.8",
-    "text": "新增一个任务计划\n新增任务计划",
+    "text": "新增一个任务计划
+新增任务计划",
   },
   {
     "reference": "string.IndexManager.9",
-    "text": "编辑任务计划\n编辑任务计划",
+    "text": "编辑任务计划
+编辑任务计划",
   },
   {
     "reference": "string.IndexManager.10",
-    "text": "删除任务计划\n删除任务计划",
+    "text": "删除任务计划
+删除任务计划",
   },
   {
     "reference": "string.IndexManager.11",
-    "text": "编辑和任务计划关联的索引\n编辑索引列表",
+    "text": "编辑和任务计划关联的索引
+编辑索引列表",
   },
   {
     "reference": "string.InternalViewer.37",
-    "text": "保存当前文件\n保存文件",
+    "text": "保存当前文件
+保存文件",
   },
   {
     "reference": "string.资源.1",
@@ -5461,7 +5481,13 @@
   },
   {
     "reference": "string.资源.22",
-    "text": "SDI_ONLY\n搜索\n新建搜索\n搜索条件 (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\n%APP_NAME% 的搜索条件",
+    "text": "SDI_ONLY
+搜索
+新建搜索
+搜索条件 (*.srf)
+.srf
+FileLocatorPro.SearchCriteria
+%APP_NAME% 的搜索条件",
   },
   {
     "reference": "string.资源.23",
@@ -5485,47 +5511,58 @@
   },
   {
     "reference": "string.资源.34",
-    "text": "创建基于上次搜索的新搜索\n基于上次搜索的新搜索",
+    "text": "创建基于上次搜索的新搜索
+基于上次搜索的新搜索",
   },
   {
     "reference": "string.资源.35",
-    "text": "打开一个搜索条件文件\n打开",
+    "text": "打开一个搜索条件文件
+打开",
   },
   {
     "reference": "string.资源.36",
-    "text": "关闭活动文档\n关闭",
+    "text": "关闭活动文档
+关闭",
   },
   {
     "reference": "string.资源.37",
-    "text": "保存当前的搜索条件\n保存条件",
+    "text": "保存当前的搜索条件
+保存条件",
   },
   {
     "reference": "string.资源.38",
-    "text": "用一个新名称保存活动文档\n另存为",
+    "text": "用一个新名称保存活动文档
+另存为",
   },
   {
     "reference": "string.资源.39",
-    "text": "更改打印选项\n页面设置",
+    "text": "更改打印选项
+页面设置",
   },
   {
     "reference": "string.资源.40",
-    "text": "更改打印机和打印选项\n打印设置",
+    "text": "更改打印机和打印选项
+打印设置",
   },
   {
     "reference": "string.资源.41",
-    "text": "打印活动文档\n打印",
+    "text": "打印活动文档
+打印",
   },
   {
     "reference": "string.资源.42",
-    "text": "显示完整的页面\n打印预览",
+    "text": "显示完整的页面
+打印预览",
   },
   {
     "reference": "string.资源.43",
-    "text": "显示程序信息、版本号和版权信息\n关于",
+    "text": "显示程序信息、版本号和版权信息
+关于",
   },
   {
     "reference": "string.资源.44",
-    "text": "退出应用程序\n退出",
+    "text": "退出应用程序
+退出",
   },
   {
     "reference": "string.资源.45",
@@ -5593,87 +5630,108 @@
   },
   {
     "reference": "string.资源.61",
-    "text": "切换到下一窗格。\n下一窗格",
+    "text": "切换到下一窗格。
+下一窗格",
   },
   {
     "reference": "string.资源.62",
-    "text": "切换回上一窗格\n上一窗格",
+    "text": "切换回上一窗格
+上一窗格",
   },
   {
     "reference": "string.资源.63",
-    "text": "打开另一个窗口为活动文档\n新建窗口",
+    "text": "打开另一个窗口为活动文档
+新建窗口",
   },
   {
     "reference": "string.资源.64",
-    "text": "排列图标在窗口的底部\n排列图标",
+    "text": "排列图标在窗口的底部
+排列图标",
   },
   {
     "reference": "string.资源.65",
-    "text": "排列窗口以使它们重叠\n层叠窗口",
+    "text": "排列窗口以使它们重叠
+层叠窗口",
   },
   {
     "reference": "string.资源.66",
-    "text": "以非重叠的平铺方式排列窗口\n平铺窗口",
+    "text": "以非重叠的平铺方式排列窗口
+平铺窗口",
   },
   {
     "reference": "string.资源.67",
-    "text": "以非重叠的平铺方式排列窗口\n平铺窗口",
+    "text": "以非重叠的平铺方式排列窗口
+平铺窗口",
   },
   {
     "reference": "string.资源.68",
-    "text": "将活动窗口拆分为窗格\n拆分",
+    "text": "将活动窗口拆分为窗格
+拆分",
   },
   {
     "reference": "string.资源.69",
-    "text": "清除选定内容\n清除",
+    "text": "清除选定内容
+清除",
   },
   {
     "reference": "string.资源.70",
-    "text": "清除全部内容\n全部清除",
+    "text": "清除全部内容
+全部清除",
   },
   {
     "reference": "string.资源.71",
-    "text": "复制当前选定内容到剪贴板\n复制",
+    "text": "复制当前选定内容到剪贴板
+复制",
   },
   {
     "reference": "string.资源.72",
-    "text": "剪切所选内容并把它放在剪贴板上\n剪切",
+    "text": "剪切所选内容并把它放在剪贴板上
+剪切",
   },
   {
     "reference": "string.资源.73",
-    "text": "查找指定的文本\n查找",
+    "text": "查找指定的文本
+查找",
   },
   {
     "reference": "string.资源.74",
-    "text": "插入剪贴板中的内容\n粘贴",
+    "text": "插入剪贴板中的内容
+粘贴",
   },
   {
     "reference": "string.资源.75",
-    "text": "重复上次操作\n重复",
+    "text": "重复上次操作
+重复",
   },
   {
     "reference": "string.资源.76",
-    "text": "使用不同的文本替换特定的文本\n替换",
+    "text": "使用不同的文本替换特定的文本
+替换",
   },
   {
     "reference": "string.资源.77",
-    "text": "选择整个文档\n选择全部",
+    "text": "选择整个文档
+选择全部",
   },
   {
     "reference": "string.资源.78",
-    "text": "撤消上次操作\n撤消",
+    "text": "撤消上次操作
+撤消",
   },
   {
     "reference": "string.资源.79",
-    "text": "重做上次撤消的操作\n重做",
+    "text": "重做上次撤消的操作
+重做",
   },
   {
     "reference": "string.资源.80",
-    "text": "显示或隐藏工具栏\n切换工具栏",
+    "text": "显示或隐藏工具栏
+切换工具栏",
   },
   {
     "reference": "string.资源.81",
-    "text": "显示或隐藏状态栏\n切换状态栏",
+    "text": "显示或隐藏状态栏
+切换状态栏",
   },
   {
     "reference": "string.资源.82",
@@ -5717,7 +5775,8 @@
   },
   {
     "reference": "string.资源.92",
-    "text": "关闭打印预览模式\n取消预览",
+    "text": "关闭打印预览模式
+取消预览",
   },
   {
     "reference": "string.资源.93",
@@ -5729,19 +5788,28 @@
   },
   {
     "reference": "string.资源.95",
-    "text": "\nSearchFor\n搜索\n搜索文件 (*.sea)\n.sea\nSearchFor.Document\n搜索文档",
+    "text": "
+SearchFor
+搜索
+搜索文件 (*.sea)
+.sea
+SearchFor.Document
+搜索文档",
   },
   {
     "reference": "string.资源.96",
-    "text": "将当前选定的文件的路径复制到剪贴板\n复制文件路径",
+    "text": "将当前选定的文件的路径复制到剪贴板
+复制文件路径",
   },
   {
     "reference": "string.资源.97",
-    "text": "打开当前选定文件的属性对话框\n打开属性",
+    "text": "打开当前选定文件的属性对话框
+打开属性",
   },
   {
     "reference": "string.资源.98",
-    "text": "打开当前选定的文件\n打开文件",
+    "text": "打开当前选定的文件
+打开文件",
   },
   {
     "reference": "string.资源.99",
@@ -5749,43 +5817,53 @@
   },
   {
     "reference": "string.资源.100",
-    "text": "当查看内容时打开/关闭自动换行\n自动换行",
+    "text": "当查看内容时打开/关闭自动换行
+自动换行",
   },
   {
     "reference": "string.资源.101",
-    "text": "设置内容视图的字体\n设置字体",
+    "text": "设置内容视图的字体
+设置字体",
   },
   {
     "reference": "string.资源.102",
-    "text": "开始搜索\n启动",
+    "text": "开始搜索
+启动",
   },
   {
     "reference": "string.资源.103",
-    "text": "停止当前的搜索\n停止",
+    "text": "停止当前的搜索
+停止",
   },
   {
     "reference": "string.资源.104",
-    "text": "打开 %APP_NAME% 帮助\n帮助",
+    "text": "打开 %APP_NAME% 帮助
+帮助",
   },
   {
     "reference": "string.资源.105",
-    "text": "在文件列表视图中选择所有文件\n选择全部",
+    "text": "在文件列表视图中选择所有文件
+选择全部",
   },
   {
     "reference": "string.资源.106",
-    "text": "导出搜索结果\n导出结果",
+    "text": "导出搜索结果
+导出结果",
   },
   {
     "reference": "string.资源.107",
-    "text": "删除当前所选内容\n删除",
+    "text": "删除当前所选内容
+删除",
   },
   {
     "reference": "string.资源.108",
-    "text": "在下拉列表中清除历史记录项\n清除历史记录",
+    "text": "在下拉列表中清除历史记录项
+清除历史记录",
   },
   {
     "reference": "string.资源.109",
-    "text": "修改搜索配置\n配置",
+    "text": "修改搜索配置
+配置",
   },
   {
     "reference": "string.资源.110",
@@ -5825,23 +5903,33 @@
   },
   {
     "reference": "string.资源.119",
-    "text": "FILE_VIEWER\n视图\n视图\n\n\nFileLocator.FileViewer\nAFile Locator 文件查看器",
+    "text": "FILE_VIEWER
+视图
+视图
+
+
+FileLocator.FileViewer
+AFile Locator 文件查看器",
   },
   {
     "reference": "string.资源.120",
-    "text": "显示/隐藏收藏列表\n收藏",
+    "text": "显示/隐藏收藏列表
+收藏",
   },
   {
     "reference": "string.资源.121",
-    "text": "修改编辑器设置\n编辑器设置",
+    "text": "修改编辑器设置
+编辑器设置",
   },
   {
     "reference": "string.资源.122",
-    "text": "在当前所选的文件的路径打开资源管理器实例\n打开浏览器",
+    "text": "在当前所选的文件的路径打开资源管理器实例
+打开浏览器",
   },
   {
     "reference": "string.资源.123",
-    "text": "修改系统集成设置\n系统设置",
+    "text": "修改系统集成设置
+系统设置",
   },
   {
     "reference": "string.资源.124",
@@ -5849,23 +5937,28 @@
   },
   {
     "reference": "string.资源.125",
-    "text": "转到前一个搜索结果\n前一个搜索结果",
+    "text": "转到前一个搜索结果
+前一个搜索结果",
   },
   {
     "reference": "string.资源.126",
-    "text": "转到下一个搜索结果\n下一个搜索结果",
+    "text": "转到下一个搜索结果
+下一个搜索结果",
   },
   {
     "reference": "string.资源.127",
-    "text": "重命名当前所选内容\n重命名",
+    "text": "重命名当前所选内容
+重命名",
   },
   {
     "reference": "string.资源.128",
-    "text": "转到前一个搜索结果\n前一个搜索结果",
+    "text": "转到前一个搜索结果
+前一个搜索结果",
   },
   {
     "reference": "string.资源.129",
-    "text": "转到下一个搜索结果\n下一个搜索结果",
+    "text": "转到下一个搜索结果
+下一个搜索结果",
   },
   {
     "reference": "string.资源.130",
@@ -5901,35 +5994,43 @@
   },
   {
     "reference": "string.资源.138",
-    "text": "显示或隐藏内容视图窗格\n显示/隐藏内容视图",
+    "text": "显示或隐藏内容视图窗格
+显示/隐藏内容视图",
   },
   {
     "reference": "string.资源.139",
-    "text": "暂停搜索\n暂停",
+    "text": "暂停搜索
+暂停",
   },
   {
     "reference": "string.资源.140",
-    "text": "使用默认设置创建新的搜索\n新建空白搜索",
+    "text": "使用默认设置创建新的搜索
+新建空白搜索",
   },
   {
     "reference": "string.资源.141",
-    "text": "创建新的搜索基于当前的条件\n使用当前条件新建搜索",
+    "text": "创建新的搜索基于当前的条件
+使用当前条件新建搜索",
   },
   {
     "reference": "string.资源.142",
-    "text": "搜索文件中的文本\n查找...",
+    "text": "搜索文件中的文本
+查找...",
   },
   {
     "reference": "string.资源.143",
-    "text": "滚动到下一个找到的文本的高亮显示行\n滚动到下一个",
+    "text": "滚动到下一个找到的文本的高亮显示行
+滚动到下一个",
   },
   {
     "reference": "string.资源.144",
-    "text": "滚动到前一个找到的文本的高亮显示行\n滚动到前一个",
+    "text": "滚动到前一个找到的文本的高亮显示行
+滚动到前一个",
   },
   {
     "reference": "string.资源.145",
-    "text": "切换当前查找的高亮显示\n开启/关闭高亮显示",
+    "text": "切换当前查找的高亮显示
+开启/关闭高亮显示",
   },
   {
     "reference": "string.资源.146",
@@ -5949,15 +6050,18 @@
   },
   {
     "reference": "string.资源.150",
-    "text": "编辑当前所选的收藏\n编辑收藏",
+    "text": "编辑当前所选的收藏
+编辑收藏",
   },
   {
     "reference": "string.资源.151",
-    "text": "删除当前选定的收藏\n删除收藏",
+    "text": "删除当前选定的收藏
+删除收藏",
   },
   {
     "reference": "string.资源.152",
-    "text": "返回所选内容的主视图\n返回到主视图",
+    "text": "返回所选内容的主视图
+返回到主视图",
   },
   {
     "reference": "string.资源.153",
@@ -5969,11 +6073,13 @@
   },
   {
     "reference": "string.资源.155",
-    "text": "将当前搜索加入为新的收藏\n添加收藏",
+    "text": "将当前搜索加入为新的收藏
+添加收藏",
   },
   {
     "reference": "string.资源.156",
-    "text": "刷新收藏列表\n刷新",
+    "text": "刷新收藏列表
+刷新",
   },
   {
     "reference": "string.资源.166",
@@ -6005,7 +6111,9 @@
   },
   {
     "reference": "string.资源.202",
-    "text": "从右边的窗格中选择一个或多个文件可以查看查找到的内容\n\n注意：在"文件"菜单下点击"打印"可打印此窗格",
+    "text": "从右边的窗格中选择一个或多个文件可以查看查找到的内容
+
+注意：在"文件"菜单下点击"打印"可打印此窗格",
   },
   {
     "reference": "string.资源.204",
@@ -6017,27 +6125,33 @@
   },
   {
     "reference": "string.资源.206",
-    "text": "设置找到的文本高亮显示的颜色\n设置颜色",
+    "text": "设置找到的文本高亮显示的颜色
+设置颜色",
   },
   {
     "reference": "string.资源.207",
-    "text": "保存内容视图的数据\n保存内容视图",
+    "text": "保存内容视图的数据
+保存内容视图",
   },
   {
     "reference": "string.资源.208",
-    "text": "切换为"单阶段"搜索（无进度条）从而在大容量磁盘进行获得高效的内容搜索\n切换为"单阶段搜索"(大容量磁盘)"",
+    "text": "切换为"单阶段"搜索（无进度条）从而在大容量磁盘进行获得高效的内容搜索
+切换为"单阶段搜索"(大容量磁盘)"",
   },
   {
     "reference": "string.资源.209",
-    "text": "内容视图停靠在文件列表视图的下面\n停靠下面",
+    "text": "内容视图停靠在文件列表视图的下面
+停靠下面",
   },
   {
     "reference": "string.资源.210",
-    "text": "内容视图停靠在文件列表视图的右侧\n停靠右侧",
+    "text": "内容视图停靠在文件列表视图的右侧
+停靠右侧",
   },
   {
     "reference": "string.资源.211",
-    "text": "显示命令行参数的帮助对话框\n命令行参数",
+    "text": "显示命令行参数的帮助对话框
+命令行参数",
   },
   {
     "reference": "string.资源.212",
@@ -6045,67 +6159,83 @@
   },
   {
     "reference": "string.资源.213",
-    "text": "在当前的结果列表中搜索\n在当前的结果列表中搜索",
+    "text": "在当前的结果列表中搜索
+在当前的结果列表中搜索",
   },
   {
     "reference": "string.资源.214",
-    "text": "显示/隐藏内容视图窗格\n切换目录视图",
+    "text": "显示/隐藏内容视图窗格
+切换目录视图",
   },
   {
     "reference": "string.资源.215",
-    "text": "在当前选定的文件内搜索\n在当前选定内容中搜索",
+    "text": "在当前选定的文件内搜索
+在当前选定内容中搜索",
   },
   {
     "reference": "string.资源.216",
-    "text": "切换原始搜索的高亮显示\n开启/关闭高亮显示",
+    "text": "切换原始搜索的高亮显示
+开启/关闭高亮显示",
   },
   {
     "reference": "string.资源.217",
-    "text": "打开保存了所有收藏的文件夹\n打开收藏文件夹",
+    "text": "打开保存了所有收藏的文件夹
+打开收藏文件夹",
   },
   {
     "reference": "string.资源.218",
-    "text": "关闭所有窗口/页签\n关闭所有",
+    "text": "关闭所有窗口/页签
+关闭所有",
   },
   {
     "reference": "string.资源.219",
-    "text": "关闭除活动搜索外所有窗口/页签\n关闭除活动搜索外所有窗口",
+    "text": "关闭除活动搜索外所有窗口/页签
+关闭除活动搜索外所有窗口",
   },
   {
     "reference": "string.资源.220",
-    "text": "关闭所有打开的文件窗口\n关闭所有文件",
+    "text": "关闭所有打开的文件窗口
+关闭所有文件",
   },
   {
     "reference": "string.资源.221",
-    "text": "保存当前搜索会话\n保存搜索会话",
+    "text": "保存当前搜索会话
+保存搜索会话",
   },
   {
     "reference": "string.资源.222",
-    "text": "保存工作区的所有搜索会话\n保存工作区",
+    "text": "保存工作区的所有搜索会话
+保存工作区",
   },
   {
     "reference": "string.资源.224",
-    "text": "刷新报告\n刷新",
+    "text": "刷新报告
+刷新",
   },
   {
     "reference": "string.资源.225",
-    "text": "将报告内容复制到剪切板\n复制",
+    "text": "将报告内容复制到剪切板
+复制",
   },
   {
     "reference": "string.资源.226",
-    "text": "将报告保存为文件\n保存报告",
+    "text": "将报告保存为文件
+保存报告",
   },
   {
     "reference": "string.资源.227",
-    "text": "打印报告\n打印预览",
+    "text": "打印报告
+打印预览",
   },
   {
     "reference": "string.资源.228",
-    "text": "更改报告字段及布局\n报告选项",
+    "text": "更改报告字段及布局
+报告选项",
   },
   {
     "reference": "string.资源.229",
-    "text": "显示或隐藏菜单栏\n切换菜单栏",
+    "text": "显示或隐藏菜单栏
+切换菜单栏",
   },
   {
     "reference": "string.资源.230",
@@ -6133,11 +6263,13 @@
   },
   {
     "reference": "string.资源.236",
-    "text": "复制错误列表到剪贴板\n复制到剪贴板",
+    "text": "复制错误列表到剪贴板
+复制到剪贴板",
   },
   {
     "reference": "string.资源.237",
-    "text": "把错误列表保存为文件\n保存错误",
+    "text": "把错误列表保存为文件
+保存错误",
   },
   {
     "reference": "string.资源.238",
@@ -6161,7 +6293,8 @@
   },
   {
     "reference": "string.资源.243",
-    "text": "升级至专业版功能\n升级",
+    "text": "升级至专业版功能
+升级",
   },
   {
     "reference": "string.资源.244",
@@ -6557,11 +6690,13 @@
   },
   {
     "reference": "string.文本.93",
-    "text": "注册码: \r\n%s",
+    "text": "注册码: 
+%s",
   },
   {
     "reference": "string.文本.94",
-    "text": "支持/免费升级直到: %s\r\n",
+    "text": "支持/免费升级直到: %s
+",
   },
   {
     "reference": "string.文本.95",
@@ -6869,7 +7004,9 @@
   },
   {
     "reference": "string.文本.178",
-    "text": "启动外部编辑器错误。\r\n\r\n%s",
+    "text": "启动外部编辑器错误。
+
+%s",
   },
   {
     "reference": "string.文本.179",
@@ -6901,7 +7038,18 @@
   },
   {
     "reference": "string.文本.186",
-    "text": "** 加载失败 **\r\n\r\n无法加载文件: %s\r\n\r\n请确保您有适当的安全权限来读取该文件。\r\n\r\n如果问题仍然存在请联系技术支持以获得更多帮助，并请同时提供此错误文本和存储在以下文件夹中的日志文件:\r\n%s\r\n\r\n更多详细信息:\r\n%s\r\n",
+    "text": "** 加载失败 **
+
+无法加载文件: %s
+
+请确保您有适当的安全权限来读取该文件。
+
+如果问题仍然存在请联系技术支持以获得更多帮助，并请同时提供此错误文本和存储在以下文件夹中的日志文件:
+%s
+
+更多详细信息:
+%s
+",
   },
   {
     "reference": "string.文本.189",
@@ -7041,7 +7189,9 @@
   },
   {
     "reference": "string.文本.229",
-    "text": "自定义格式文件不是有效的。请检查该文件是否存在和您是否具有适当的安全权限来打开该文件。\r\n\r\n",
+    "text": "自定义格式文件不是有效的。请检查该文件是否存在和您是否具有适当的安全权限来打开该文件。
+
+",
   },
   {
     "reference": "string.文本.230",
@@ -7097,7 +7247,10 @@
   },
   {
     "reference": "string.文本.245",
-    "text": "文本中发现表达式。\r\n表达式起始位置: %d\r\n表达式长度: %d\r\n找到: %s",
+    "text": "文本中发现表达式。
+表达式起始位置: %d
+表达式长度: %d
+找到: %s",
   },
   {
     "reference": "string.文本.246",
@@ -7169,11 +7322,15 @@
   },
   {
     "reference": "string.文本.268",
-    "text": "\r\n下面的搜索目录无效:\r\n\r\n",
+    "text": "
+下面的搜索目录无效:
+
+",
   },
   {
     "reference": "string.文本.269",
-    "text": "\r\n目录名称必须是有效的路径并包含驱动器盘符(例如 C:\Windows)或正确构造的 UNC 名称(例如 \\WORKSTATION\Shared_Folder)。",
+    "text": "
+目录名称必须是有效的路径并包含驱动器盘符(例如 C:\Windows)或正确构造的 UNC 名称(例如 \\WORKSTATION\Shared_Folder)。",
   },
   {
     "reference": "string.文本.272",
@@ -7181,7 +7338,8 @@
   },
   {
     "reference": "string.文本.273",
-    "text": "解析脚本失败:\r\n",
+    "text": "解析脚本失败:
+",
   },
   {
     "reference": "string.文本.274",
@@ -7225,7 +7383,8 @@
   },
   {
     "reference": "string.文本.284",
-    "text": "(无法加载收件人列表 - 请联系技术支持了解更多信息)\r\n",
+    "text": "(无法加载收件人列表 - 请联系技术支持了解更多信息)
+",
   },
   {
     "reference": "string.文本.285",
@@ -7241,7 +7400,8 @@
   },
   {
     "reference": "string.文本.288",
-    "text": "\r\n生成消息过程中出现错误:",
+    "text": "
+生成消息过程中出现错误:",
   },
   {
     "reference": "string.文本.289",
@@ -7605,7 +7765,8 @@
   },
   {
     "reference": "string.文本.380",
-    "text": "搜索字符串是无效的: \n%s",
+    "text": "搜索字符串是无效的: 
+%s",
   },
   {
     "reference": "string.文本.381",
@@ -7669,7 +7830,11 @@
   },
   {
     "reference": "string.文本.396",
-    "text": "脚本 %s 不是有效的。\n\n附加信息:\n\n%s",
+    "text": "脚本 %s 不是有效的。
+
+附加信息:
+
+%s",
   },
   {
     "reference": "string.文本.397",
@@ -7961,7 +8126,9 @@
   },
   {
     "reference": "string.文本.472",
-    "text": "%s 已存在.\r\n\r\n您希望将它替换吗?",
+    "text": "%s 已存在.
+
+您希望将它替换吗?",
   },
   {
     "reference": "string.文本.473",
@@ -7969,7 +8136,10 @@
   },
   {
     "reference": "string.文本.474",
-    "text": "未发现与开括号')'对应的闭括号'('。请使用引号指定原义文本, 例如 "(starting" 或 "Method("\r\n\r\n错误位置: %d\r\n文本: %s",
+    "text": "未发现与开括号')'对应的闭括号'('。请使用引号指定原义文本, 例如 "(starting" 或 "Method("
+
+错误位置: %d
+文本: %s",
   },
   {
     "reference": "string.文本.475",
@@ -8981,7 +9151,9 @@
   },
   {
     "reference": "string.文本.767",
-    "text": "要让这个功能运行，%APP_NAME%需要启用 Internet Explorer 中的第三方浏览器扩展件，生效前需重启电脑。\r\n\r\n您希望继续吗？",
+    "text": "要让这个功能运行，%APP_NAME%需要启用 Internet Explorer 中的第三方浏览器扩展件，生效前需重启电脑。
+
+您希望继续吗？",
   },
   {
     "reference": "string.文本.768",
@@ -9253,11 +9425,23 @@
   },
   {
     "reference": "string.文本.840",
-    "text": "未注册！\r\n本产品仅授权为在家庭中个人使用。\r\n\r\n商业用户：\r\n\r\n您必须注册本产品，以能继续在商业环境中使用，否则就违反了用户协议的条款和条件。\r\n\r\n要获得免费的注册码，请前往：\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "未注册！
+本产品仅授权为在家庭中个人使用。
+
+商业用户：
+
+您必须注册本产品，以能继续在商业环境中使用，否则就违反了用户协议的条款和条件。
+
+要获得免费的注册码，请前往：
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.文本.841",
-    "text": "未注册。\r\n本产品的商业用户需要在试用期过后进行一次性注册。\r\n\r\n要获得免费的注册码，请前往：\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "未注册。
+本产品的商业用户需要在试用期过后进行一次性注册。
+
+要获得免费的注册码，请前往：
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.文本.842",

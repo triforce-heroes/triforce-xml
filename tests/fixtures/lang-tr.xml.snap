@@ -3133,7 +3133,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.3",
-    "text": "*.txt\t\t .txt uzantılı tüm dosyaları belirtir\n\n*.xls;*.doc\t .xls veya .doc uzantılı tüm dosyaları belirtir.",
+    "text": "*.txt		 .txt uzantılı tüm dosyaları belirtir
+
+*.xls;*.doc	 .xls veya .doc uzantılı tüm dosyaları belirtir.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.4",
@@ -3141,7 +3143,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.5",
-    "text": "*.png;*.jpg:holiday\t\t adlarında tatil kelimesi bulunan tüm .png ve .jpg dosyalarını belirtir\n\nNOT:*.doc;*.xls\t\t\t .doc dışındaki tüm dosyaları belirtir ve .xls dosyaları\n\nholiday;NOT:*.exe;*.dll\t\t adlarında tatil kelimesi bulunan .exe veya .dll dosyaları dışındaki tüm dosyaları belirtir",
+    "text": "*.png;*.jpg:holiday		 adlarında tatil kelimesi bulunan tüm .png ve .jpg dosyalarını belirtir
+
+NOT:*.doc;*.xls			 .doc dışındaki tüm dosyaları belirtir ve .xls dosyaları
+
+holiday;NOT:*.exe;*.dll		 adlarında tatil kelimesi bulunan .exe veya .dll dosyaları dışındaki tüm dosyaları belirtir",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.caption",
@@ -3157,23 +3163,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.3",
-    "text": "iş AND belge\t'iş' ve 'belge' sözcüklerini aynı satırda/dosyada arar",
+    "text": "iş AND belge	'iş' ve 'belge' sözcüklerini aynı satırda/dosyada arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.4",
-    "text": "iş belgesi\t\t yukarıdakiyle aynı aramayı gerçekleştirir (AND örtüktür)",
+    "text": "iş belgesi		 yukarıdakiyle aynı aramayı gerçekleştirir (AND örtüktür)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.5",
-    "text": "iş OR belge\t'iş' VEYA 'belge' kelimelerini aynı satırda/dosyada arar",
+    "text": "iş OR belge	'iş' VEYA 'belge' kelimelerini aynı satırda/dosyada arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.6",
-    "text": "iş NEAR belgesi\tbir satırda/dosyada 'belge' kelimesine yakın 'iş' arar",
+    "text": "iş NEAR belgesi	bir satırda/dosyada 'belge' kelimesine yakın 'iş' arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.7",
-    "text": ""iş belgesi "\tam olarak 'iş belgesi' ifadesini arar",
+    "text": ""iş belgesi "	am olarak 'iş belgesi' ifadesini arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.8",
@@ -3209,23 +3215,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.3",
-    "text": "iş AND belge\t'iş' ve 'belge' sözcüklerini aynı dosyada arar",
+    "text": "iş AND belge	'iş' ve 'belge' sözcüklerini aynı dosyada arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.4",
-    "text": "iş belgesi\t\t yukarıdakiyle aynı aramayı gerçekleştirir (AND örtüktür)",
+    "text": "iş belgesi		 yukarıdakiyle aynı aramayı gerçekleştirir (AND örtüktür)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.5",
-    "text": "iş OR belge\t'iş' VEYA 'belge' kelimelerini aynı dosyada arar",
+    "text": "iş OR belge	'iş' VEYA 'belge' kelimelerini aynı dosyada arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.6",
-    "text": "iş NOT belge\taynı dosyada 'iş' kelimesi olan ve 'belge' kelimesi olmayan durumları arar",
+    "text": "iş NOT belge	aynı dosyada 'iş' kelimesi olan ve 'belge' kelimesi olmayan durumları arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.7",
-    "text": ""iş belgesi "\ttam olarak 'kelime belgesi' ifadesini arar",
+    "text": ""iş belgesi "	tam olarak 'kelime belgesi' ifadesini arar",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.8",
@@ -3261,11 +3267,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.3",
-    "text": "yazar\t 'yazar' veya 'yazarlar' gibi ifadeler bulur'.",
+    "text": "yazar	 'yazar' veya 'yazarlar' gibi ifadeler bulur'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.4",
-    "text": "balık\t\t'balık', veya 'alabalık' ile eşleşir'.",
+    "text": "balık		'balık', veya 'alabalık' ile eşleşir'.",
   },
   {
     "reference": "dialog.IDD_ATTRIBUTES.caption",
@@ -3569,11 +3575,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.3",
-    "text": "bir yazar\t 'birkaç' veya 'yazarlık' gibi ekısmi eşleşmeleri hariç tutarak 'bir' ve 'yazar' kelimelerini arar.",
+    "text": "bir yazar	 'birkaç' veya 'yazarlık' gibi ekısmi eşleşmeleri hariç tutarak 'bir' ve 'yazar' kelimelerini arar.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.4",
-    "text": "balık\t\t'balık' ile eşleşir ama 'balıklama' veya 'alabalık' ile eşleşmez.",
+    "text": "balık		'balık' ile eşleşir ama 'balıklama' veya 'alabalık' ile eşleşmez.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.caption",
@@ -3589,11 +3595,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.3",
-    "text": "separate\teşleştirir hem ayrı hem de ayrı ama aynı zamanda ayrı ve farklı.",
+    "text": "separate	eşleştirir hem ayrı hem de ayrı ama aynı zamanda ayrı ve farklı.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.4",
-    "text": "collected\tmatches yanı sıra toplar ve bağlı toplanır.",
+    "text": "collected	matches yanı sıra toplar ve bağlı toplanır.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_MULTILINE_REGEX.caption",
@@ -4053,15 +4059,15 @@
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.2",
-    "text": "Dizini Düzenle...\tEnter",
+    "text": "Dizini Düzenle...	Enter",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.3",
-    "text": "Dizini Kaldır...\tDel",
+    "text": "Dizini Kaldır...	Del",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.4",
-    "text": "Yeni dizin ekle...\tIns",
+    "text": "Yeni dizin ekle...	Ins",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.5",
@@ -5337,51 +5343,63 @@
   },
   {
     "reference": "string.Dizin Yöneticisi.1",
-    "text": "Yeni veya varolan dizin ekle\nAdd dizini",
+    "text": "Yeni veya varolan dizin ekle
+Add dizini",
   },
   {
     "reference": "string.Dizin Yöneticisi.2",
-    "text": "Dizini Kaldır veya kalıcı olarak sil\ndizin Kaldır veya Sil",
+    "text": "Dizini Kaldır veya kalıcı olarak sil
+dizin Kaldır veya Sil",
   },
   {
     "reference": "string.Dizin Yöneticisi.3",
-    "text": "Dizin oluşturma parametrelerini Düzenle\nEdit dizini",
+    "text": "Dizin oluşturma parametrelerini Düzenle
+Edit dizini",
   },
   {
     "reference": "string.Dizin Yöneticisi.4",
-    "text": "Dizini\nupdate dizini olabilecek değişikliklerle güncelleyin",
+    "text": "Dizini
+update dizini olabilecek değişikliklerle güncelleyin",
   },
   {
     "reference": "string.Dizin Yöneticisi.5",
-    "text": "Tüm Index\nyeniden oluşturma dizini yeniden oluşturun",
+    "text": "Tüm Index
+yeniden oluşturma dizini yeniden oluşturun",
   },
   {
     "reference": "string.Dizin Yöneticisi.6",
-    "text": "Dizin oluşturmayı İptal et\nİptal et",
+    "text": "Dizin oluşturmayı İptal et
+İptal et",
   },
   {
     "reference": "string.Dizin Yöneticisi.7",
-    "text": "Listeyi yenile\nListeyi Yenile",
+    "text": "Listeyi yenile
+Listeyi Yenile",
   },
   {
     "reference": "string.Dizin Yöneticisi.8",
-    "text": "Yeni program ekle\nProgram Ekle",
+    "text": "Yeni program ekle
+Program Ekle",
   },
   {
     "reference": "string.Dizin Yöneticisi.9",
-    "text": "Programı Düzenle\nProgramı Düzenle",
+    "text": "Programı Düzenle
+Programı Düzenle",
   },
   {
     "reference": "string.Dizin Yöneticisi.10",
-    "text": "Programı Sil\nProgramı Sil",
+    "text": "Programı Sil
+Programı Sil",
   },
   {
     "reference": "string.Dizin Yöneticisi.11",
-    "text": "Programla ilişkili dizinleri düzenle\nDizin Listesini Düzenle",
+    "text": "Programla ilişkili dizinleri düzenle
+Dizin Listesini Düzenle",
   },
   {
     "reference": "string.İç Görüntüleyici.37",
-    "text": "Geçerli dosya\nSave dosyasını kaydedin",
+    "text": "Geçerli dosya
+Save dosyasını kaydedin",
   },
   {
     "reference": "string.Kaynak.1",
@@ -5461,7 +5479,13 @@
   },
   {
     "reference": "string.Kaynak.22",
-    "text": "SDI_ONLY\nSearch\nNew Search\nSearch Criteria (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\n%APP_NAME% Search Criteria",
+    "text": "SDI_ONLY
+Search
+New Search
+Search Criteria (*.srf)
+.srf
+FileLocatorPro.SearchCriteria
+%APP_NAME% Search Criteria",
   },
   {
     "reference": "string.Kaynak.23",
@@ -5485,47 +5509,58 @@
   },
   {
     "reference": "string.Kaynak.34",
-    "text": "Son aramaya göre yeni bir arama oluşturun\nSon aramaya dayalı yeni arama",
+    "text": "Son aramaya göre yeni bir arama oluşturun
+Son aramaya dayalı yeni arama",
   },
   {
     "reference": "string.Kaynak.35",
-    "text": "Bir arama kriteri dosyası açın\nAçık",
+    "text": "Bir arama kriteri dosyası açın
+Açık",
   },
   {
     "reference": "string.Kaynak.36",
-    "text": "Etkin aramayı kapat\nKapat",
+    "text": "Etkin aramayı kapat
+Kapat",
   },
   {
     "reference": "string.Kaynak.37",
-    "text": "Mevcut arama kriterini kaydet\nÖlçütleri Kaydet",
+    "text": "Mevcut arama kriterini kaydet
+Ölçütleri Kaydet",
   },
   {
     "reference": "string.Kaynak.38",
-    "text": "Mevcut arama kriterlerini yeni bir adla kaydet\nFarklı kaydet",
+    "text": "Mevcut arama kriterlerini yeni bir adla kaydet
+Farklı kaydet",
   },
   {
     "reference": "string.Kaynak.39",
-    "text": "Yazdırma seçeneklerini değiştir\nSayfa Ayarı",
+    "text": "Yazdırma seçeneklerini değiştir
+Sayfa Ayarı",
   },
   {
     "reference": "string.Kaynak.40",
-    "text": "Yazıcıyı ve yazdırma seçeneklerini değiştirin\nYazıcı Kurulumu",
+    "text": "Yazıcıyı ve yazdırma seçeneklerini değiştirin
+Yazıcı Kurulumu",
   },
   {
     "reference": "string.Kaynak.41",
-    "text": "Seçilen arama sonuçlarını yazdır\nYazdır",
+    "text": "Seçilen arama sonuçlarını yazdır
+Yazdır",
   },
   {
     "reference": "string.Kaynak.42",
-    "text": "Tam sayfaları göster\nBaskı Önizleme",
+    "text": "Tam sayfaları göster
+Baskı Önizleme",
   },
   {
     "reference": "string.Kaynak.43",
-    "text": "Program bilgilerini, sürüm numarasını ve telif hakkını görüntüleyin\nHakkında",
+    "text": "Program bilgilerini, sürüm numarasını ve telif hakkını görüntüleyin
+Hakkında",
   },
   {
     "reference": "string.Kaynak.44",
-    "text": "Uygulamadan çık\nÇıkış",
+    "text": "Uygulamadan çık
+Çıkış",
   },
   {
     "reference": "string.Kaynak.45",
@@ -5593,87 +5628,108 @@
   },
   {
     "reference": "string.Kaynak.61",
-    "text": "Bir sonraki pencere bölmesine geç\nSonraki Bölme",
+    "text": "Bir sonraki pencere bölmesine geç
+Sonraki Bölme",
   },
   {
     "reference": "string.Kaynak.62",
-    "text": "Önceki pencere bölmesine geri dön\nÖnceki Bölme",
+    "text": "Önceki pencere bölmesine geri dön
+Önceki Bölme",
   },
   {
     "reference": "string.Kaynak.63",
-    "text": "Etkin belge için başka bir pencere aç\nYeni Pencere",
+    "text": "Etkin belge için başka bir pencere aç
+Yeni Pencere",
   },
   {
     "reference": "string.Kaynak.64",
-    "text": "Pencerenin altındaki simgeleri düzenleyin\nİkonları Düzenle",
+    "text": "Pencerenin altındaki simgeleri düzenleyin
+İkonları Düzenle",
   },
   {
     "reference": "string.Kaynak.65",
-    "text": "Pencereleri, birbiriyle çakışacak şekilde düzenleyin\nCascade Windows",
+    "text": "Pencereleri, birbiriyle çakışacak şekilde düzenleyin
+Cascade Windows",
   },
   {
     "reference": "string.Kaynak.66",
-    "text": "Pencereleri örtüşmeyen döşemeler olarak düzenleyin\nÇini Windows",
+    "text": "Pencereleri örtüşmeyen döşemeler olarak düzenleyin
+Çini Windows",
   },
   {
     "reference": "string.Kaynak.67",
-    "text": "Pencereleri örtüşmeyen döşemeler olarak düzenleyin\nÇini Windows",
+    "text": "Pencereleri örtüşmeyen döşemeler olarak düzenleyin
+Çini Windows",
   },
   {
     "reference": "string.Kaynak.68",
-    "text": "Etkin pencereyi bölmelere ayır\nBölünmüş",
+    "text": "Etkin pencereyi bölmelere ayır
+Bölünmüş",
   },
   {
     "reference": "string.Kaynak.69",
-    "text": "Seçimi sil\nSil",
+    "text": "Seçimi sil
+Sil",
   },
   {
     "reference": "string.Kaynak.70",
-    "text": "Her şeyi sil\nHepsini sil",
+    "text": "Her şeyi sil
+Hepsini sil",
   },
   {
     "reference": "string.Kaynak.71",
-    "text": "Geçerli seçimi panoya kopyala\nKopya",
+    "text": "Geçerli seçimi panoya kopyala
+Kopya",
   },
   {
     "reference": "string.Kaynak.72",
-    "text": "Seçimi kes ve Pano'ya koy\nKes",
+    "text": "Seçimi kes ve Pano'ya koy
+Kes",
   },
   {
     "reference": "string.Kaynak.73",
-    "text": "Belirtilen metni bul \nBul",
+    "text": "Belirtilen metni bul 
+Bul",
   },
   {
     "reference": "string.Kaynak.74",
-    "text": "Pano içeriğini ekle\nYapıştır",
+    "text": "Pano içeriğini ekle
+Yapıştır",
   },
   {
     "reference": "string.Kaynak.75",
-    "text": "Son eylemi tekrarla\nTekrar et",
+    "text": "Son eylemi tekrarla
+Tekrar et",
   },
   {
     "reference": "string.Kaynak.76",
-    "text": "Belirli metni farklı metinlerle değiştir\nDeğiştir",
+    "text": "Belirli metni farklı metinlerle değiştir
+Değiştir",
   },
   {
     "reference": "string.Kaynak.77",
-    "text": "Tüm belgeyi seç\nHepsini seç",
+    "text": "Tüm belgeyi seç
+Hepsini seç",
   },
   {
     "reference": "string.Kaynak.78",
-    "text": "Son eylemi geri al\nGeri al",
+    "text": "Son eylemi geri al
+Geri al",
   },
   {
     "reference": "string.Kaynak.79",
-    "text": "Önceden iptal edilen eylemi yeniden yap\nHazır",
+    "text": "Önceden iptal edilen eylemi yeniden yap
+Hazır",
   },
   {
     "reference": "string.Kaynak.80",
-    "text": "Araç çubuğunu göster veya gizle\nAraç Çubuğunu Değiştir",
+    "text": "Araç çubuğunu göster veya gizle
+Araç Çubuğunu Değiştir",
   },
   {
     "reference": "string.Kaynak.81",
-    "text": "Durum çubuğunu göster veya gizle\nDurum Çubuğunu Değiştir",
+    "text": "Durum çubuğunu göster veya gizle
+Durum Çubuğunu Değiştir",
   },
   {
     "reference": "string.Kaynak.82",
@@ -5717,7 +5773,8 @@
   },
   {
     "reference": "string.Kaynak.92",
-    "text": "Baskı önizleme modunu kapat\nÖnizleme iptal et",
+    "text": "Baskı önizleme modunu kapat
+Önizleme iptal et",
   },
   {
     "reference": "string.Kaynak.93",
@@ -5729,19 +5786,28 @@
   },
   {
     "reference": "string.Kaynak.95",
-    "text": "\nSearchFor\nSearch\nSearch Files (*.sea)\n.sea\nSearchFor.Document\nSearch Document",
+    "text": "
+SearchFor
+Search
+Search Files (*.sea)
+.sea
+SearchFor.Document
+Search Document",
   },
   {
     "reference": "string.Kaynak.96",
-    "text": "Seçili olan dosyaların yollarını panoya kopyala\nDosya yollarını kopyala",
+    "text": "Seçili olan dosyaların yollarını panoya kopyala
+Dosya yollarını kopyala",
   },
   {
     "reference": "string.Kaynak.97",
-    "text": "Seçili olan dosyalar için özellikler iletişim kutusunu aç\nÖzellikleri aç",
+    "text": "Seçili olan dosyalar için özellikler iletişim kutusunu aç
+Özellikleri aç",
   },
   {
     "reference": "string.Kaynak.98",
-    "text": "Seçili dosyayı aç\nAçık dosya",
+    "text": "Seçili dosyayı aç
+Açık dosya",
   },
   {
     "reference": "string.Kaynak.99",
@@ -5749,43 +5815,53 @@
   },
   {
     "reference": "string.Kaynak.100",
-    "text": "İçeriği görüntülerken kelimeyi sarma/kapatma\nKelime Wrap",
+    "text": "İçeriği görüntülerken kelimeyi sarma/kapatma
+Kelime Wrap",
   },
   {
     "reference": "string.Kaynak.101",
-    "text": "İçerik görünümü için yazı tipini ayarla\nYazı Tipini Ayarla",
+    "text": "İçerik görünümü için yazı tipini ayarla
+Yazı Tipini Ayarla",
   },
   {
     "reference": "string.Kaynak.102",
-    "text": "Aramayı Başlat\nBaşla",
+    "text": "Aramayı Başlat
+Başla",
   },
   {
     "reference": "string.Kaynak.103",
-    "text": "Geçerli aramayı Durdur\nDur",
+    "text": "Geçerli aramayı Durdur
+Dur",
   },
   {
     "reference": "string.Kaynak.104",
-    "text": "Yardım aç\nYardım",
+    "text": "Yardım aç
+Yardım",
   },
   {
     "reference": "string.Kaynak.105",
-    "text": "Dosya listesi görünümündeki tüm dosyaları seçin\nTümünü Seç",
+    "text": "Dosya listesi görünümündeki tüm dosyaları seçin
+Tümünü Seç",
   },
   {
     "reference": "string.Kaynak.106",
-    "text": "Dışa aktarma arama sonuçları\nDışa aktarma sonuçları",
+    "text": "Dışa aktarma arama sonuçları
+Dışa aktarma sonuçları",
   },
   {
     "reference": "string.Kaynak.107",
-    "text": "Geçerli seçimi sil\nSil",
+    "text": "Geçerli seçimi sil
+Sil",
   },
   {
     "reference": "string.Kaynak.108",
-    "text": "Açılır listelerdeki geçmiş öğelerini Temizle\nGeçmişi Temizle",
+    "text": "Açılır listelerdeki geçmiş öğelerini Temizle
+Geçmişi Temizle",
   },
   {
     "reference": "string.Kaynak.109",
-    "text": "Arama yapılandırmasını değiştirme\nYapılandırma",
+    "text": "Arama yapılandırmasını değiştirme
+Yapılandırma",
   },
   {
     "reference": "string.Kaynak.110",
@@ -5825,23 +5901,33 @@
   },
   {
     "reference": "string.Kaynak.119",
-    "text": "FILE_VIEWER\nView\nView\n\n\nFileLocator.FileViewer\nAFile Locator File Viewer",
+    "text": "FILE_VIEWER
+View
+View
+
+
+FileLocator.FileViewer
+AFile Locator File Viewer",
   },
   {
     "reference": "string.Kaynak.120",
-    "text": "Gösteri/Sık Kullanılanlar listesini gizle\nSık kullanılanlar",
+    "text": "Gösteri/Sık Kullanılanlar listesini gizle
+Sık kullanılanlar",
   },
   {
     "reference": "string.Kaynak.121",
-    "text": "Düzenleyici ayarlarını değiştirme\nDüzenleyici Ayarları",
+    "text": "Düzenleyici ayarlarını değiştirme
+Düzenleyici Ayarları",
   },
   {
     "reference": "string.Kaynak.122",
-    "text": "Şu anda seçili dosyalar için yolda bir Explorer örneği açın\nExplorer 'ı açın",
+    "text": "Şu anda seçili dosyalar için yolda bir Explorer örneği açın
+Explorer 'ı açın",
   },
   {
     "reference": "string.Kaynak.123",
-    "text": "Sistem tümleştirme ayarlarını değiştirme\nSistem ayarları",
+    "text": "Sistem tümleştirme ayarlarını değiştirme
+Sistem ayarları",
   },
   {
     "reference": "string.Kaynak.124",
@@ -5849,23 +5935,28 @@
   },
   {
     "reference": "string.Kaynak.125",
-    "text": "Önceki arama sonuçlarına gider\nÖnceki arama sonucu",
+    "text": "Önceki arama sonuçlarına gider
+Önceki arama sonucu",
   },
   {
     "reference": "string.Kaynak.126",
-    "text": "Bir sonraki arama sonuçlarına gider\nSonraki arama sonucu",
+    "text": "Bir sonraki arama sonuçlarına gider
+Sonraki arama sonucu",
   },
   {
     "reference": "string.Kaynak.127",
-    "text": "Geçerli seçimi Yeniden Adlandır\nAdlandır",
+    "text": "Geçerli seçimi Yeniden Adlandır
+Adlandır",
   },
   {
     "reference": "string.Kaynak.128",
-    "text": "Önceki arama sonuçlarına gider\nÖnceki arama sonucu",
+    "text": "Önceki arama sonuçlarına gider
+Önceki arama sonucu",
   },
   {
     "reference": "string.Kaynak.129",
-    "text": "Bir sonraki arama sonuçlarına gider\nSonraki arama sonucu",
+    "text": "Bir sonraki arama sonuçlarına gider
+Sonraki arama sonucu",
   },
   {
     "reference": "string.Kaynak.130",
@@ -5901,35 +5992,43 @@
   },
   {
     "reference": "string.Kaynak.138",
-    "text": "İçeriği görüntüleme bölmesini göster veya gizle\nİçeriği Göster/Gizle Görünümü",
+    "text": "İçeriği görüntüleme bölmesini göster veya gizle
+İçeriği Göster/Gizle Görünümü",
   },
   {
     "reference": "string.Kaynak.139",
-    "text": "Aramayı Duraklat\nDuraklat",
+    "text": "Aramayı Duraklat
+Duraklat",
   },
   {
     "reference": "string.Kaynak.140",
-    "text": "Varsayılan ayarlarla yeni arama oluşturma\nYeni boş arama",
+    "text": "Varsayılan ayarlarla yeni arama oluşturma
+Yeni boş arama",
   },
   {
     "reference": "string.Kaynak.141",
-    "text": "Geçerli kriterlere göre yeni arama oluşturun\nGeçerli kriterlere sahip yeni arama",
+    "text": "Geçerli kriterlere göre yeni arama oluşturun
+Geçerli kriterlere sahip yeni arama",
   },
   {
     "reference": "string.Kaynak.142",
-    "text": "Dosya içinde metin Ara\nBul...",
+    "text": "Dosya içinde metin Ara
+Bul...",
   },
   {
     "reference": "string.Kaynak.143",
-    "text": "Bulunan metnin bir sonraki vurgulanan satırına ilerleyin\nSonraki kaydırma",
+    "text": "Bulunan metnin bir sonraki vurgulanan satırına ilerleyin
+Sonraki kaydırma",
   },
   {
     "reference": "string.Kaynak.144",
-    "text": "Bulunan metnin önceki vurgulanan satırına ilerleyin\nÖnceki kaydırma",
+    "text": "Bulunan metnin önceki vurgulanan satırına ilerleyin
+Önceki kaydırma",
   },
   {
     "reference": "string.Kaynak.145",
-    "text": "Geçerli bulmak vurgulama geçiş\nGeçiş vurgulama",
+    "text": "Geçerli bulmak vurgulama geçiş
+Geçiş vurgulama",
   },
   {
     "reference": "string.Kaynak.146",
@@ -5949,15 +6048,18 @@
   },
   {
     "reference": "string.Kaynak.150",
-    "text": "Şu anda seçilen favoriyi Düzenle\nFavori Düzenle",
+    "text": "Şu anda seçilen favoriyi Düzenle
+Favori Düzenle",
   },
   {
     "reference": "string.Kaynak.151",
-    "text": "Şu anda seçilen favoriyi sil\nFavori Sil",
+    "text": "Şu anda seçilen favoriyi sil
+Favori Sil",
   },
   {
     "reference": "string.Kaynak.152",
-    "text": "Seçimin ana görünümüne dönün\nAna görünüme dön",
+    "text": "Seçimin ana görünümüne dönün
+Ana görünüme dön",
   },
   {
     "reference": "string.Kaynak.153",
@@ -5969,11 +6071,13 @@
   },
   {
     "reference": "string.Kaynak.155",
-    "text": "Yeni favori olarak geçerli arama Ekle\nFavori Ekle",
+    "text": "Yeni favori olarak geçerli arama Ekle
+Favori Ekle",
   },
   {
     "reference": "string.Kaynak.156",
-    "text": "Sık Kullanılanlar listesini yenile\nYenile",
+    "text": "Sık Kullanılanlar listesini yenile
+Yenile",
   },
   {
     "reference": "string.Kaynak.166",
@@ -6005,7 +6109,9 @@
   },
   {
     "reference": "string.Kaynak.202",
-    "text": "Sağ bölmede bir veya daha fazla dosya seçerek bulunan içeriği görüntüleyin.\n\nNot: bu bölmeyi yazdırmak için Dosya menüsünde Yazdır'ı tıklatın.",
+    "text": "Sağ bölmede bir veya daha fazla dosya seçerek bulunan içeriği görüntüleyin.
+
+Not: bu bölmeyi yazdırmak için Dosya menüsünde Yazdır'ı tıklatın.",
   },
   {
     "reference": "string.Kaynak.204",
@@ -6017,27 +6123,33 @@
   },
   {
     "reference": "string.Kaynak.206",
-    "text": "Bulunan metni vurgulamak için rengi ayarlayın\nSet Rengi",
+    "text": "Bulunan metni vurgulamak için rengi ayarlayın
+Set Rengi",
   },
   {
     "reference": "string.Kaynak.207",
-    "text": "İçeriği görüntüleme verilerini kaydetme\nİçeriği Kaydet Görünümü",
+    "text": "İçeriği görüntüleme verilerini kaydetme
+İçeriği Kaydet Görünümü",
   },
   {
     "reference": "string.Kaynak.208",
-    "text": "Büyük sürücülerin verimli içeriği arama için bir faz geçiş (ilerleme yok)\nGeçiş Bir Faz Arama (büyük sürücüler için)",
+    "text": "Büyük sürücülerin verimli içeriği arama için bir faz geçiş (ilerleme yok)
+Geçiş Bir Faz Arama (büyük sürücüler için)",
   },
   {
     "reference": "string.Kaynak.209",
-    "text": "Dosya listesi görünümünün altındaki içeriği görüntüleme\nAşağıdaki Dock",
+    "text": "Dosya listesi görünümünün altındaki içeriği görüntüleme
+Aşağıdaki Dock",
   },
   {
     "reference": "string.Kaynak.210",
-    "text": "Dosya listesi görünümünün sağındaki içerik görünümünü sabitleyin\nSağdaki Dock",
+    "text": "Dosya listesi görünümünün sağındaki içerik görünümünü sabitleyin
+Sağdaki Dock",
   },
   {
     "reference": "string.Kaynak.211",
-    "text": "Komut satırı parametreleri için yardım iletişim kutusunu göster\nKomut satırı parametreler",
+    "text": "Komut satırı parametreleri için yardım iletişim kutusunu göster
+Komut satırı parametreler",
   },
   {
     "reference": "string.Kaynak.212",
@@ -6045,67 +6157,83 @@
   },
   {
     "reference": "string.Kaynak.213",
-    "text": "Geçerli sonuç listesi içinde arama\nGeçerli sonuç listesi içinde arama",
+    "text": "Geçerli sonuç listesi içinde arama
+Geçerli sonuç listesi içinde arama",
   },
   {
     "reference": "string.Kaynak.214",
-    "text": "İçeriği Göster/Gizle görünüm bölmesi\nİçindekiler Görünümünü Değiştir",
+    "text": "İçeriği Göster/Gizle görünüm bölmesi
+İçindekiler Görünümünü Değiştir",
   },
   {
     "reference": "string.Kaynak.215",
-    "text": "Şu anda seçilen dosyalar içinde arama\nGeçerli seçim içinde arama",
+    "text": "Şu anda seçilen dosyalar içinde arama
+Geçerli seçim içinde arama",
   },
   {
     "reference": "string.Kaynak.216",
-    "text": "Orijinal arama vurgulama geçiş\nGeçiş vurgulama",
+    "text": "Orijinal arama vurgulama geçiş
+Geçiş vurgulama",
   },
   {
     "reference": "string.Kaynak.217",
-    "text": "Tüm favorilerin kaydedildiği klasörü açın\nSık Kullanılanlar Klasörünü Aç",
+    "text": "Tüm favorilerin kaydedildiği klasörü açın
+Sık Kullanılanlar Klasörünü Aç",
   },
   {
     "reference": "string.Kaynak.218",
-    "text": "Tüm pencereleri/sekmeleri kapatın\nTümünü kapat",
+    "text": "Tüm pencereleri/sekmeleri kapatın
+Tümünü kapat",
   },
   {
     "reference": "string.Kaynak.219",
-    "text": "Etkin arama dışında tüm Windows/sekmeleri kapatın\nTüm ama etkin arama kapat",
+    "text": "Etkin arama dışında tüm Windows/sekmeleri kapatın
+Tüm ama etkin arama kapat",
   },
   {
     "reference": "string.Kaynak.220",
-    "text": "Tüm açık dosya pencereleri kapatın\nTüm dosyaları kapatın",
+    "text": "Tüm açık dosya pencereleri kapatın
+Tüm dosyaları kapatın",
   },
   {
     "reference": "string.Kaynak.221",
-    "text": "Geçerli arama oturumunu Kaydet\nArama oturumunu Kaydet",
+    "text": "Geçerli arama oturumunu Kaydet
+Arama oturumunu Kaydet",
   },
   {
     "reference": "string.Kaynak.222",
-    "text": "Tüm arama oturumlarını çalışma alanına kaydedin\nÇalışma alanını Kaydet",
+    "text": "Tüm arama oturumlarını çalışma alanına kaydedin
+Çalışma alanını Kaydet",
   },
   {
     "reference": "string.Kaynak.224",
-    "text": "Raporu yenile\nYenile",
+    "text": "Raporu yenile
+Yenile",
   },
   {
     "reference": "string.Kaynak.225",
-    "text": "Raporu panoya kopyalayın\nKopyala",
+    "text": "Raporu panoya kopyalayın
+Kopyala",
   },
   {
     "reference": "string.Kaynak.226",
-    "text": "Raporu bir dosyaya kaydedin\nRaporu Kaydet",
+    "text": "Raporu bir dosyaya kaydedin
+Raporu Kaydet",
   },
   {
     "reference": "string.Kaynak.227",
-    "text": "Raporu Yazdır\nÖnizleme Yazdır",
+    "text": "Raporu Yazdır
+Önizleme Yazdır",
   },
   {
     "reference": "string.Kaynak.228",
-    "text": "Raporun alanlarını ve düzenini değiştirme\nRapor Seçenekleri",
+    "text": "Raporun alanlarını ve düzenini değiştirme
+Rapor Seçenekleri",
   },
   {
     "reference": "string.Kaynak.229",
-    "text": "Menü çubuğunu göster veya gizle\nGeçiş Menü Çubuğu",
+    "text": "Menü çubuğunu göster veya gizle
+Geçiş Menü Çubuğu",
   },
   {
     "reference": "string.Kaynak.230",
@@ -6133,11 +6261,13 @@
   },
   {
     "reference": "string.Kaynak.236",
-    "text": "Panoya hataların listesini kopyalayın\nPanoya kopyala",
+    "text": "Panoya hataların listesini kopyalayın
+Panoya kopyala",
   },
   {
     "reference": "string.Kaynak.237",
-    "text": "Hataların listesini bir dosyaya kaydedin\nHataları Kaydet",
+    "text": "Hataların listesini bir dosyaya kaydedin
+Hataları Kaydet",
   },
   {
     "reference": "string.Kaynak.238",
@@ -6161,7 +6291,8 @@
   },
   {
     "reference": "string.Kaynak.243",
-    "text": "Pro özelliklerine yükseltme\nYükselt",
+    "text": "Pro özelliklerine yükseltme
+Yükselt",
   },
   {
     "reference": "string.Kaynak.244",
@@ -6557,11 +6688,13 @@
   },
   {
     "reference": "string.Metin.93",
-    "text": "Kayıt kodu: \r\n%s",
+    "text": "Kayıt kodu: 
+%s",
   },
   {
     "reference": "string.Metin.94",
-    "text": "Destek/ücretsiz yükseltmeleri kadar: %s\r\n",
+    "text": "Destek/ücretsiz yükseltmeleri kadar: %s
+",
   },
   {
     "reference": "string.Metin.95",
@@ -6869,7 +7002,9 @@
   },
   {
     "reference": "string.Metin.178",
-    "text": "Harici düzenleyiciyi başlatma hatası.\r\n\r\n%s",
+    "text": "Harici düzenleyiciyi başlatma hatası.
+
+%s",
   },
   {
     "reference": "string.Metin.179",
@@ -6901,7 +7036,18 @@
   },
   {
     "reference": "string.Metin.186",
-    "text": "** YÜK BAŞARISIZ OLDU **\r\n\r\nYüklenemiyor: %s\r\n\r\nLütfen dosyanın hala var olduğunu ve okumak için uygun güvenlik izinlerine sahip olduğunuzu kontrol edin.\r\n\r\nDaha fazla yardıma ihtiyacınız varsa lütfen teknik destek ile iletişime geçin ve hem bu hata metnini hem de klasörde saklanan günlük dosyalarını ekleyin:\r\n%s\r\n\r\nMore bilgi:\r\n%s\r\n",
+    "text": "** YÜK BAŞARISIZ OLDU **
+
+Yüklenemiyor: %s
+
+Lütfen dosyanın hala var olduğunu ve okumak için uygun güvenlik izinlerine sahip olduğunuzu kontrol edin.
+
+Daha fazla yardıma ihtiyacınız varsa lütfen teknik destek ile iletişime geçin ve hem bu hata metnini hem de klasörde saklanan günlük dosyalarını ekleyin:
+%s
+
+More bilgi:
+%s
+",
   },
   {
     "reference": "string.Metin.189",
@@ -7041,7 +7187,9 @@
   },
   {
     "reference": "string.Metin.229",
-    "text": "Özel biçim dosyası geçerli değildir. Lütfen dosyanın var olduğunu ve dosyayı açmak için uygun güvenlik izinlerine sahip olduğunuzu kontrol edin.\r\n\r\n",
+    "text": "Özel biçim dosyası geçerli değildir. Lütfen dosyanın var olduğunu ve dosyayı açmak için uygun güvenlik izinlerine sahip olduğunuzu kontrol edin.
+
+",
   },
   {
     "reference": "string.Metin.230",
@@ -7097,7 +7245,10 @@
   },
   {
     "reference": "string.Metin.245",
-    "text": "Metinde ifade bulundu.\r\nİfade Başlat: %d\r\nİfade uzunluğu: %d\r\nBulundu: %s",
+    "text": "Metinde ifade bulundu.
+İfade Başlat: %d
+İfade uzunluğu: %d
+Bulundu: %s",
   },
   {
     "reference": "string.Metin.246",
@@ -7169,11 +7320,15 @@
   },
   {
     "reference": "string.Metin.268",
-    "text": "\r\nAşağıdaki arama dizinleri geçerli değildi:\r\n\r\n",
+    "text": "
+Aşağıdaki arama dizinleri geçerli değildi:
+
+",
   },
   {
     "reference": "string.Metin.269",
-    "text": "\r\nDizin adı geçerli bir yol olmalıdır ve sürücü harfini içerir (ör. C:\Windows) VEYA düzgün oluşturulmuş bir UNC adı (ör. \\WORKSTATION\Shared_Folder).",
+    "text": "
+Dizin adı geçerli bir yol olmalıdır ve sürücü harfini içerir (ör. C:\Windows) VEYA düzgün oluşturulmuş bir UNC adı (ör. \\WORKSTATION\Shared_Folder).",
   },
   {
     "reference": "string.Metin.272",
@@ -7181,7 +7336,8 @@
   },
   {
     "reference": "string.Metin.273",
-    "text": "Ayrıştırma komut dosyası başarısız oldu:\r\n",
+    "text": "Ayrıştırma komut dosyası başarısız oldu:
+",
   },
   {
     "reference": "string.Metin.274",
@@ -7225,7 +7381,8 @@
   },
   {
     "reference": "string.Metin.284",
-    "text": "(Alıcı listesi yüklenemedi - daha fazla bilgi için içerik teknik destek)\r\n",
+    "text": "(Alıcı listesi yüklenemedi - daha fazla bilgi için içerik teknik destek)
+",
   },
   {
     "reference": "string.Metin.285",
@@ -7241,7 +7398,8 @@
   },
   {
     "reference": "string.Metin.288",
-    "text": "\r\nİleti oluşturma sırasında hata: ",
+    "text": "
+İleti oluşturma sırasında hata: ",
   },
   {
     "reference": "string.Metin.289",
@@ -7605,7 +7763,8 @@
   },
   {
     "reference": "string.Metin.380",
-    "text": "Arama dizesi geçersiz: \n%s",
+    "text": "Arama dizesi geçersiz: 
+%s",
   },
   {
     "reference": "string.Metin.381",
@@ -7669,7 +7828,11 @@
   },
   {
     "reference": "string.Metin.396",
-    "text": "%s komut dosyası geçerli değildir.\n\nAdditional bilgi:\n\n%s",
+    "text": "%s komut dosyası geçerli değildir.
+
+Additional bilgi:
+
+%s",
   },
   {
     "reference": "string.Metin.397",
@@ -7961,7 +8124,9 @@
   },
   {
     "reference": "string.Metin.472",
-    "text": "%s zaten var.\r\n\r\nDeğiştirmek ister misin?",
+    "text": "%s zaten var.
+
+Değiştirmek ister misin?",
   },
   {
     "reference": "string.Metin.473",
@@ -7969,7 +8134,10 @@
   },
   {
     "reference": "string.Metin.474",
-    "text": "Kapanış parantezi ')' ilgili açılış parantezi bulunamadı  '('. Harf metni belirtmek için tırnak işaretleri kullanın, ör. "(başlama" veya "Yöntem("\r\n\r\nHata konumu: %d\r\nMetin: %s",
+    "text": "Kapanış parantezi ')' ilgili açılış parantezi bulunamadı  '('. Harf metni belirtmek için tırnak işaretleri kullanın, ör. "(başlama" veya "Yöntem("
+
+Hata konumu: %d
+Metin: %s",
   },
   {
     "reference": "string.Metin.475",
@@ -8981,7 +9149,9 @@
   },
   {
     "reference": "string.Metin.767",
-    "text": "Bu özellik çalışması için program Internet Explorer'da 3. taraf tarayıcı uzantılarını etkinleştirmeniz gerekir ve yürürlüğe girmeden önce yeniden başlatmanız gerekir. \r\n\r\nDevam etmek ister misin?",
+    "text": "Bu özellik çalışması için program Internet Explorer'da 3. taraf tarayıcı uzantılarını etkinleştirmeniz gerekir ve yürürlüğe girmeden önce yeniden başlatmanız gerekir. 
+
+Devam etmek ister misin?",
   },
   {
     "reference": "string.Metin.768",
@@ -9253,11 +9423,23 @@
   },
   {
     "reference": "string.Metin.840",
-    "text": "KAYITLI DEĞİL! \r\nBu ürün sadece evde kişisel kullanım için lisanslıdır. \r\n\r\nTicari Kullanıcılar:\r\n\r\nBu ürünü ticari bir ortamda kullanmaya devam etmek için KAYDETTİRMENİZ gerekir, aksi takdirde kullanıcı sözleşmesinin şartlarını ve koşullarını ihlal edersiniz.\r\n\r\nÜcretsiz kayıt kodu için lütfen gidin to:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "KAYITLI DEĞİL! 
+Bu ürün sadece evde kişisel kullanım için lisanslıdır. 
+
+Ticari Kullanıcılar:
+
+Bu ürünü ticari bir ortamda kullanmaya devam etmek için KAYDETTİRMENİZ gerekir, aksi takdirde kullanıcı sözleşmesinin şartlarını ve koşullarını ihlal edersiniz.
+
+Ücretsiz kayıt kodu için lütfen gidin to:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Metin.841",
-    "text": "Kaydedilmemiş. \r\nBu ürünün ticari kullanıcıları, deneme süresi bittikten sonra kayıt yaptırmaları gerekmektedir.\r\n\r\nÜcretsiz kayıt kodu için lütfen gidin to:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "Kaydedilmemiş. 
+Bu ürünün ticari kullanıcıları, deneme süresi bittikten sonra kayıt yaptırmaları gerekmektedir.
+
+Ücretsiz kayıt kodu için lütfen gidin to:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Metin.842",

@@ -3133,7 +3133,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.3",
-    "text": "*.txt\t\tspecifies all files with a .txt extension\n\n*.xls;*.doc\tspecifies all files with either a .xls or a .doc extension",
+    "text": "*.txt		specifies all files with a .txt extension
+
+*.xls;*.doc	specifies all files with either a .xls or a .doc extension",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.4",
@@ -3141,7 +3143,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.5",
-    "text": "*.png;*.jpg:holiday\t\tspecifies all .png and .jpg files with the word holiday in their name\n\nNOT:*.doc;*.xls\t\tspecifies all files except .doc and .xls files\n\nholiday;NOT:*.exe;*.dll\tspecifies all files except .exe or .dll files with the word holiday in their name",
+    "text": "*.png;*.jpg:holiday		specifies all .png and .jpg files with the word holiday in their name
+
+NOT:*.doc;*.xls		specifies all files except .doc and .xls files
+
+holiday;NOT:*.exe;*.dll	specifies all files except .exe or .dll files with the word holiday in their name",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.caption",
@@ -3157,23 +3163,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.3",
-    "text": "work AND document\tsearches for the words 'work' and 'document' in the same line/file",
+    "text": "work AND document	searches for the words 'work' and 'document' in the same line/file",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.4",
-    "text": "work document\t\tperforms the same search as above (the AND is implicit)",
+    "text": "work document		performs the same search as above (the AND is implicit)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.5",
-    "text": "work OR document\tsearches for the words 'work' OR 'document' in the same line/file",
+    "text": "work OR document	searches for the words 'work' OR 'document' in the same line/file",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.6",
-    "text": "work NEAR document\tsearches for 'work' close to the word 'document' in a line/file",
+    "text": "work NEAR document	searches for 'work' close to the word 'document' in a line/file",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.7",
-    "text": ""work document"\tsearches for the exact phrase 'work document'",
+    "text": ""work document"	searches for the exact phrase 'work document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.8",
@@ -3209,23 +3215,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.3",
-    "text": "work AND document\tsearches for the words 'work' and 'document' in the same file",
+    "text": "work AND document	searches for the words 'work' and 'document' in the same file",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.4",
-    "text": "work document\t\tperforms the same search as above (the AND is implicit)",
+    "text": "work document		performs the same search as above (the AND is implicit)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.5",
-    "text": "work OR document\tsearches for the words 'work' OR 'document' in the same file",
+    "text": "work OR document	searches for the words 'work' OR 'document' in the same file",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.6",
-    "text": "work NOT document\tsearches for 'work' without the word 'document' in the same file",
+    "text": "work NOT document	searches for 'work' without the word 'document' in the same file",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.7",
-    "text": ""work document"\tsearches for the exact phrase 'work document'",
+    "text": ""work document"	searches for the exact phrase 'work document'",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.8",
@@ -3261,11 +3267,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.3",
-    "text": "the author\twould find phrases like 'the author' or 'the authors'.",
+    "text": "the author	would find phrases like 'the author' or 'the authors'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.4",
-    "text": "fish\t\tmatches against 'fish', 'fishing', or 'elfish'.",
+    "text": "fish		matches against 'fish', 'fishing', or 'elfish'.",
   },
   {
     "reference": "dialog.IDD_ATTRIBUTES.caption",
@@ -3569,11 +3575,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.3",
-    "text": "the author\tsearches for the specific words 'the' and 'author' excluding partial matches such as 'these' or 'authority'.",
+    "text": "the author	searches for the specific words 'the' and 'author' excluding partial matches such as 'these' or 'authority'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.4",
-    "text": "fish\t\tmatches against 'fish' but not 'fishing' or 'elfish'.",
+    "text": "fish		matches against 'fish' but not 'fishing' or 'elfish'.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.caption",
@@ -3589,11 +3595,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.3",
-    "text": "separate\tmatches both separate and seperate but also separated and separately.",
+    "text": "separate	matches both separate and seperate but also separated and separately.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.4",
-    "text": "collected\tmatches collected as well as collects and connected.",
+    "text": "collected	matches collected as well as collects and connected.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_MULTILINE_REGEX.caption",
@@ -4053,15 +4059,15 @@
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.2",
-    "text": "Edit Index...\tEnter",
+    "text": "Edit Index...	Enter",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.3",
-    "text": "Remove Index...\tDel",
+    "text": "Remove Index...	Del",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.4",
-    "text": "Add New Index...\tIns",
+    "text": "Add New Index...	Ins",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.5",
@@ -5337,51 +5343,63 @@
   },
   {
     "reference": "string.IndexManager.1",
-    "text": "Add a new or existing index\nAdd Index",
+    "text": "Add a new or existing index
+Add Index",
   },
   {
     "reference": "string.IndexManager.2",
-    "text": "Remove or permanently delete index\nRemove or Delete Index",
+    "text": "Remove or permanently delete index
+Remove or Delete Index",
   },
   {
     "reference": "string.IndexManager.3",
-    "text": "Edit the indexing parameters\nEdit Index",
+    "text": "Edit the indexing parameters
+Edit Index",
   },
   {
     "reference": "string.IndexManager.4",
-    "text": "Update the index with any changes that may have occurred\nUpdate Index",
+    "text": "Update the index with any changes that may have occurred
+Update Index",
   },
   {
     "reference": "string.IndexManager.5",
-    "text": "Re-create the whole index\nRe-create Index",
+    "text": "Re-create the whole index
+Re-create Index",
   },
   {
     "reference": "string.IndexManager.6",
-    "text": "Cancel indexing process\nCancel",
+    "text": "Cancel indexing process
+Cancel",
   },
   {
     "reference": "string.IndexManager.7",
-    "text": "Refresh the list\nRefresh List",
+    "text": "Refresh the list
+Refresh List",
   },
   {
     "reference": "string.IndexManager.8",
-    "text": "Add a new schedule\nAdd Schedule",
+    "text": "Add a new schedule
+Add Schedule",
   },
   {
     "reference": "string.IndexManager.9",
-    "text": "Edit the schedule\nEdit Schedule",
+    "text": "Edit the schedule
+Edit Schedule",
   },
   {
     "reference": "string.IndexManager.10",
-    "text": "Delete the schedule\nDelete Schedule",
+    "text": "Delete the schedule
+Delete Schedule",
   },
   {
     "reference": "string.IndexManager.11",
-    "text": "Edit the indexes associated with the schedule\nEdit Index List",
+    "text": "Edit the indexes associated with the schedule
+Edit Index List",
   },
   {
     "reference": "string.InternalViewer.37",
-    "text": "Save the current file\nSave file",
+    "text": "Save the current file
+Save file",
   },
   {
     "reference": "string.Resource.1",
@@ -5461,7 +5479,13 @@
   },
   {
     "reference": "string.Resource.22",
-    "text": "SDI_ONLY\nSearch\nNew Search\nSearch Criteria (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\n%APP_NAME% Search Criteria",
+    "text": "SDI_ONLY
+Search
+New Search
+Search Criteria (*.srf)
+.srf
+FileLocatorPro.SearchCriteria
+%APP_NAME% Search Criteria",
   },
   {
     "reference": "string.Resource.23",
@@ -5485,47 +5509,58 @@
   },
   {
     "reference": "string.Resource.34",
-    "text": "Create a new search based on last search\nNew search based on last search",
+    "text": "Create a new search based on last search
+New search based on last search",
   },
   {
     "reference": "string.Resource.35",
-    "text": "Open a search criteria file\nOpen",
+    "text": "Open a search criteria file
+Open",
   },
   {
     "reference": "string.Resource.36",
-    "text": "Close the active search\nClose",
+    "text": "Close the active search
+Close",
   },
   {
     "reference": "string.Resource.37",
-    "text": "Save the current search criteria\nSave Criteria",
+    "text": "Save the current search criteria
+Save Criteria",
   },
   {
     "reference": "string.Resource.38",
-    "text": "Save the current search criteria with a new name\nSave As",
+    "text": "Save the current search criteria with a new name
+Save As",
   },
   {
     "reference": "string.Resource.39",
-    "text": "Change the printing options\nPage Setup",
+    "text": "Change the printing options
+Page Setup",
   },
   {
     "reference": "string.Resource.40",
-    "text": "Change the printer and printing options\nPrint Setup",
+    "text": "Change the printer and printing options
+Print Setup",
   },
   {
     "reference": "string.Resource.41",
-    "text": "Print the selected search results\nPrint",
+    "text": "Print the selected search results
+Print",
   },
   {
     "reference": "string.Resource.42",
-    "text": "Display full pages\nPrint Preview",
+    "text": "Display full pages
+Print Preview",
   },
   {
     "reference": "string.Resource.43",
-    "text": "Display program information, version number and copyright\nAbout",
+    "text": "Display program information, version number and copyright
+About",
   },
   {
     "reference": "string.Resource.44",
-    "text": "Quit the application\nExit",
+    "text": "Quit the application
+Exit",
   },
   {
     "reference": "string.Resource.45",
@@ -5593,87 +5628,108 @@
   },
   {
     "reference": "string.Resource.61",
-    "text": "Switch to the next window pane\nNext Pane",
+    "text": "Switch to the next window pane
+Next Pane",
   },
   {
     "reference": "string.Resource.62",
-    "text": "Switch back to the previous window pane\nPrevious Pane",
+    "text": "Switch back to the previous window pane
+Previous Pane",
   },
   {
     "reference": "string.Resource.63",
-    "text": "Open another window for the active document\nNew Window",
+    "text": "Open another window for the active document
+New Window",
   },
   {
     "reference": "string.Resource.64",
-    "text": "Arrange icons at the bottom of the window\nArrange Icons",
+    "text": "Arrange icons at the bottom of the window
+Arrange Icons",
   },
   {
     "reference": "string.Resource.65",
-    "text": "Arrange windows so they overlap\nCascade Windows",
+    "text": "Arrange windows so they overlap
+Cascade Windows",
   },
   {
     "reference": "string.Resource.66",
-    "text": "Arrange windows as non-overlapping tiles\nTile Windows",
+    "text": "Arrange windows as non-overlapping tiles
+Tile Windows",
   },
   {
     "reference": "string.Resource.67",
-    "text": "Arrange windows as non-overlapping tiles\nTile Windows",
+    "text": "Arrange windows as non-overlapping tiles
+Tile Windows",
   },
   {
     "reference": "string.Resource.68",
-    "text": "Split the active window into panes\nSplit",
+    "text": "Split the active window into panes
+Split",
   },
   {
     "reference": "string.Resource.69",
-    "text": "Erase the selection\nErase",
+    "text": "Erase the selection
+Erase",
   },
   {
     "reference": "string.Resource.70",
-    "text": "Erase everything\nErase All",
+    "text": "Erase everything
+Erase All",
   },
   {
     "reference": "string.Resource.71",
-    "text": "Copy the current selection to the clipboard\nCopy",
+    "text": "Copy the current selection to the clipboard
+Copy",
   },
   {
     "reference": "string.Resource.72",
-    "text": "Cut the selection and put it on the Clipboard\nCut",
+    "text": "Cut the selection and put it on the Clipboard
+Cut",
   },
   {
     "reference": "string.Resource.73",
-    "text": "Find the specified text\nFind",
+    "text": "Find the specified text
+Find",
   },
   {
     "reference": "string.Resource.74",
-    "text": "Insert Clipboard contents\nPaste",
+    "text": "Insert Clipboard contents
+Paste",
   },
   {
     "reference": "string.Resource.75",
-    "text": "Repeat the last action\nRepeat",
+    "text": "Repeat the last action
+Repeat",
   },
   {
     "reference": "string.Resource.76",
-    "text": "Replace specific text with different text\nReplace",
+    "text": "Replace specific text with different text
+Replace",
   },
   {
     "reference": "string.Resource.77",
-    "text": "Select the entire document\nSelect All",
+    "text": "Select the entire document
+Select All",
   },
   {
     "reference": "string.Resource.78",
-    "text": "Undo the last action\nUndo",
+    "text": "Undo the last action
+Undo",
   },
   {
     "reference": "string.Resource.79",
-    "text": "Redo the previously undone action\nRedo",
+    "text": "Redo the previously undone action
+Redo",
   },
   {
     "reference": "string.Resource.80",
-    "text": "Show or hide the toolbar\nToggle Toolbar",
+    "text": "Show or hide the toolbar
+Toggle Toolbar",
   },
   {
     "reference": "string.Resource.81",
-    "text": "Show or hide the status bar\nToggle Status Bar",
+    "text": "Show or hide the status bar
+Toggle Status Bar",
   },
   {
     "reference": "string.Resource.82",
@@ -5717,7 +5773,8 @@
   },
   {
     "reference": "string.Resource.92",
-    "text": "Close print preview mode\nCancel Preview",
+    "text": "Close print preview mode
+Cancel Preview",
   },
   {
     "reference": "string.Resource.93",
@@ -5729,19 +5786,28 @@
   },
   {
     "reference": "string.Resource.95",
-    "text": "\nSearchFor\nSearch\nSearch Files (*.sea)\n.sea\nSearchFor.Document\nSearch Document",
+    "text": "
+SearchFor
+Search
+Search Files (*.sea)
+.sea
+SearchFor.Document
+Search Document",
   },
   {
     "reference": "string.Resource.96",
-    "text": "Copy the paths of the currently selected file(s) to the clipboard\nCopy file paths",
+    "text": "Copy the paths of the currently selected file(s) to the clipboard
+Copy file paths",
   },
   {
     "reference": "string.Resource.97",
-    "text": "Open properties dialog for currently selected file(s)\nOpen properties",
+    "text": "Open properties dialog for currently selected file(s)
+Open properties",
   },
   {
     "reference": "string.Resource.98",
-    "text": "Open the currently selected file\nOpen file",
+    "text": "Open the currently selected file
+Open file",
   },
   {
     "reference": "string.Resource.99",
@@ -5749,43 +5815,53 @@
   },
   {
     "reference": "string.Resource.100",
-    "text": "Switch word wrapping on/off when viewing contents\nWord Wrap",
+    "text": "Switch word wrapping on/off when viewing contents
+Word Wrap",
   },
   {
     "reference": "string.Resource.101",
-    "text": "Set the font for the contents view\nSet Font",
+    "text": "Set the font for the contents view
+Set Font",
   },
   {
     "reference": "string.Resource.102",
-    "text": "Start the search\nStart",
+    "text": "Start the search
+Start",
   },
   {
     "reference": "string.Resource.103",
-    "text": "Stop the current search\nStop",
+    "text": "Stop the current search
+Stop",
   },
   {
     "reference": "string.Resource.104",
-    "text": "Open help\nHelp",
+    "text": "Open help
+Help",
   },
   {
     "reference": "string.Resource.105",
-    "text": "Select all the files in the File List view\nSelect All",
+    "text": "Select all the files in the File List view
+Select All",
   },
   {
     "reference": "string.Resource.106",
-    "text": "Export search results\nExport results",
+    "text": "Export search results
+Export results",
   },
   {
     "reference": "string.Resource.107",
-    "text": "Delete current selection\nDelete",
+    "text": "Delete current selection
+Delete",
   },
   {
     "reference": "string.Resource.108",
-    "text": "Clear history items in the drop down lists\nClear History",
+    "text": "Clear history items in the drop down lists
+Clear History",
   },
   {
     "reference": "string.Resource.109",
-    "text": "Modify search configuration\nConfiguration",
+    "text": "Modify search configuration
+Configuration",
   },
   {
     "reference": "string.Resource.110",
@@ -5825,23 +5901,33 @@
   },
   {
     "reference": "string.Resource.119",
-    "text": "FILE_VIEWER\nView\nView\n\n\nFileLocator.FileViewer\nAFile Locator File Viewer",
+    "text": "FILE_VIEWER
+View
+View
+
+
+FileLocator.FileViewer
+AFile Locator File Viewer",
   },
   {
     "reference": "string.Resource.120",
-    "text": "Show/hide the favorites list\nFavorites",
+    "text": "Show/hide the favorites list
+Favorites",
   },
   {
     "reference": "string.Resource.121",
-    "text": "Modify editor settings\nEditor Settings",
+    "text": "Modify editor settings
+Editor Settings",
   },
   {
     "reference": "string.Resource.122",
-    "text": "Open an Explorer instance at the path for the currently selected file(s)\nOpen Explorer",
+    "text": "Open an Explorer instance at the path for the currently selected file(s)
+Open Explorer",
   },
   {
     "reference": "string.Resource.123",
-    "text": "Modify system integration settings\nSytem settings",
+    "text": "Modify system integration settings
+Sytem settings",
   },
   {
     "reference": "string.Resource.124",
@@ -5849,23 +5935,28 @@
   },
   {
     "reference": "string.Resource.125",
-    "text": "Goes to the previous search results\nPrevious search result",
+    "text": "Goes to the previous search results
+Previous search result",
   },
   {
     "reference": "string.Resource.126",
-    "text": "Goes to the next search results\nNext search result",
+    "text": "Goes to the next search results
+Next search result",
   },
   {
     "reference": "string.Resource.127",
-    "text": "Rename current selection\nRename",
+    "text": "Rename current selection
+Rename",
   },
   {
     "reference": "string.Resource.128",
-    "text": "Goes to the previous search results\nPrevious search result",
+    "text": "Goes to the previous search results
+Previous search result",
   },
   {
     "reference": "string.Resource.129",
-    "text": "Goes to the next search results\nNext search result",
+    "text": "Goes to the next search results
+Next search result",
   },
   {
     "reference": "string.Resource.130",
@@ -5901,35 +5992,43 @@
   },
   {
     "reference": "string.Resource.138",
-    "text": "Show or hide the contents view pane\nShow/Hide Contents View",
+    "text": "Show or hide the contents view pane
+Show/Hide Contents View",
   },
   {
     "reference": "string.Resource.139",
-    "text": "Pause the search\nPause",
+    "text": "Pause the search
+Pause",
   },
   {
     "reference": "string.Resource.140",
-    "text": "Create new search with default settings\nNew blank search",
+    "text": "Create new search with default settings
+New blank search",
   },
   {
     "reference": "string.Resource.141",
-    "text": "Create new search based on current criteria\nNew search with current criteria",
+    "text": "Create new search based on current criteria
+New search with current criteria",
   },
   {
     "reference": "string.Resource.142",
-    "text": "Search for text within file\nFind...",
+    "text": "Search for text within file
+Find...",
   },
   {
     "reference": "string.Resource.143",
-    "text": "Scroll to the next highlighted line of found text\nScroll to next",
+    "text": "Scroll to the next highlighted line of found text
+Scroll to next",
   },
   {
     "reference": "string.Resource.144",
-    "text": "Scroll to the previous highlighted line of found text\nScroll to previous",
+    "text": "Scroll to the previous highlighted line of found text
+Scroll to previous",
   },
   {
     "reference": "string.Resource.145",
-    "text": "Toggle the highlighting of the current find\nToggle highlighting",
+    "text": "Toggle the highlighting of the current find
+Toggle highlighting",
   },
   {
     "reference": "string.Resource.146",
@@ -5949,15 +6048,18 @@
   },
   {
     "reference": "string.Resource.150",
-    "text": "Edit the currently selected favorite\nEdit Favorite",
+    "text": "Edit the currently selected favorite
+Edit Favorite",
   },
   {
     "reference": "string.Resource.151",
-    "text": "Delete the currently selected favorite\nDelete Favorite",
+    "text": "Delete the currently selected favorite
+Delete Favorite",
   },
   {
     "reference": "string.Resource.152",
-    "text": "Return to the main view of the selection\nReturn to main view",
+    "text": "Return to the main view of the selection
+Return to main view",
   },
   {
     "reference": "string.Resource.153",
@@ -5969,11 +6071,13 @@
   },
   {
     "reference": "string.Resource.155",
-    "text": "Add current search as new favorite\nAdd Favorite",
+    "text": "Add current search as new favorite
+Add Favorite",
   },
   {
     "reference": "string.Resource.156",
-    "text": "Refresh the favorites list\nRefresh",
+    "text": "Refresh the favorites list
+Refresh",
   },
   {
     "reference": "string.Resource.166",
@@ -6005,7 +6109,9 @@
   },
   {
     "reference": "string.Resource.202",
-    "text": "View the contents found by selecting one or more files in the right hand pane.\n\nNote: To print this pane click Print on the File menu.",
+    "text": "View the contents found by selecting one or more files in the right hand pane.
+
+Note: To print this pane click Print on the File menu.",
   },
   {
     "reference": "string.Resource.204",
@@ -6017,27 +6123,33 @@
   },
   {
     "reference": "string.Resource.206",
-    "text": "Set the colour for highlighting found text\nSet Colour",
+    "text": "Set the colour for highlighting found text
+Set Colour",
   },
   {
     "reference": "string.Resource.207",
-    "text": "Save the contents view data\nSave Contents View",
+    "text": "Save the contents view data
+Save Contents View",
   },
   {
     "reference": "string.Resource.208",
-    "text": "Toggle One Phase Searching for efficient contents searching of large drives (no progress meter)\nToggle One Phase Searching (for large drives)",
+    "text": "Toggle One Phase Searching for efficient contents searching of large drives (no progress meter)
+Toggle One Phase Searching (for large drives)",
   },
   {
     "reference": "string.Resource.209",
-    "text": "Dock the Contents View below the File List View\nDock below",
+    "text": "Dock the Contents View below the File List View
+Dock below",
   },
   {
     "reference": "string.Resource.210",
-    "text": "Dock the Contents View to the right of the File List View\nDock to right",
+    "text": "Dock the Contents View to the right of the File List View
+Dock to right",
   },
   {
     "reference": "string.Resource.211",
-    "text": "Show help dialog for command line parameters\nCommand line parms",
+    "text": "Show help dialog for command line parameters
+Command line parms",
   },
   {
     "reference": "string.Resource.212",
@@ -6045,67 +6157,83 @@
   },
   {
     "reference": "string.Resource.213",
-    "text": "Search within the current result list\nSearch within current result list",
+    "text": "Search within the current result list
+Search within current result list",
   },
   {
     "reference": "string.Resource.214",
-    "text": "Show/Hide contents view pane\nToggle Contents View",
+    "text": "Show/Hide contents view pane
+Toggle Contents View",
   },
   {
     "reference": "string.Resource.215",
-    "text": "Search within the currently selected files\nSearch within current selection",
+    "text": "Search within the currently selected files
+Search within current selection",
   },
   {
     "reference": "string.Resource.216",
-    "text": "Toggle the highlighting of the original search\nToggle highlighting",
+    "text": "Toggle the highlighting of the original search
+Toggle highlighting",
   },
   {
     "reference": "string.Resource.217",
-    "text": "Open the folder where all the favorites are saved\nOpen Favorites Folder",
+    "text": "Open the folder where all the favorites are saved
+Open Favorites Folder",
   },
   {
     "reference": "string.Resource.218",
-    "text": "Close all Windows/Tabs\nClose all",
+    "text": "Close all Windows/Tabs
+Close all",
   },
   {
     "reference": "string.Resource.219",
-    "text": "Close all Windows/Tabs except the active search\nClose all but active search",
+    "text": "Close all Windows/Tabs except the active search
+Close all but active search",
   },
   {
     "reference": "string.Resource.220",
-    "text": "Close all open file windows\nClose all files",
+    "text": "Close all open file windows
+Close all files",
   },
   {
     "reference": "string.Resource.221",
-    "text": "Save the current search session\nSave search session",
+    "text": "Save the current search session
+Save search session",
   },
   {
     "reference": "string.Resource.222",
-    "text": "Save all search sessions in the workspace\nSave workspace",
+    "text": "Save all search sessions in the workspace
+Save workspace",
   },
   {
     "reference": "string.Resource.224",
-    "text": "Refresh the report\nRefresh",
+    "text": "Refresh the report
+Refresh",
   },
   {
     "reference": "string.Resource.225",
-    "text": "Copy the report to the clipboard\nCopy",
+    "text": "Copy the report to the clipboard
+Copy",
   },
   {
     "reference": "string.Resource.226",
-    "text": "Save the report to a file\nSave Report",
+    "text": "Save the report to a file
+Save Report",
   },
   {
     "reference": "string.Resource.227",
-    "text": "Print the report\nPrint Preview",
+    "text": "Print the report
+Print Preview",
   },
   {
     "reference": "string.Resource.228",
-    "text": "Modify the fields and layout of the report\nReport Options",
+    "text": "Modify the fields and layout of the report
+Report Options",
   },
   {
     "reference": "string.Resource.229",
-    "text": "Show or hide the menu bar\nToggle Menu Bar",
+    "text": "Show or hide the menu bar
+Toggle Menu Bar",
   },
   {
     "reference": "string.Resource.230",
@@ -6133,11 +6261,13 @@
   },
   {
     "reference": "string.Resource.236",
-    "text": "Copy the list of errors to the clipboard\nCopy to Clipboard",
+    "text": "Copy the list of errors to the clipboard
+Copy to Clipboard",
   },
   {
     "reference": "string.Resource.237",
-    "text": "Save the list of errors to a file\nSave Errors",
+    "text": "Save the list of errors to a file
+Save Errors",
   },
   {
     "reference": "string.Resource.238",
@@ -6161,7 +6291,8 @@
   },
   {
     "reference": "string.Resource.243",
-    "text": "Upgrade to Pro Features\nUpgrade",
+    "text": "Upgrade to Pro Features
+Upgrade",
   },
   {
     "reference": "string.Resource.244",
@@ -6557,11 +6688,13 @@
   },
   {
     "reference": "string.Text.93",
-    "text": "Registration code: \r\n%s",
+    "text": "Registration code: 
+%s",
   },
   {
     "reference": "string.Text.94",
-    "text": "Support/free upgrades until: %s\r\n",
+    "text": "Support/free upgrades until: %s
+",
   },
   {
     "reference": "string.Text.95",
@@ -6869,7 +7002,9 @@
   },
   {
     "reference": "string.Text.178",
-    "text": "Error launching external editor.\r\n\r\n%s",
+    "text": "Error launching external editor.
+
+%s",
   },
   {
     "reference": "string.Text.179",
@@ -6901,7 +7036,18 @@
   },
   {
     "reference": "string.Text.186",
-    "text": "** LOAD FAILED **\r\n\r\nUnable to load: %s\r\n\r\nPlease check that the file still exists and that you have the appropriate security permissions to read it.\r\n\r\nPlease contact technical support if you need more assistance and include both this error text and any log files stored in the folder:\r\n%s\r\n\r\nMore information:\r\n%s\r\n",
+    "text": "** LOAD FAILED **
+
+Unable to load: %s
+
+Please check that the file still exists and that you have the appropriate security permissions to read it.
+
+Please contact technical support if you need more assistance and include both this error text and any log files stored in the folder:
+%s
+
+More information:
+%s
+",
   },
   {
     "reference": "string.Text.189",
@@ -7041,7 +7187,9 @@
   },
   {
     "reference": "string.Text.229",
-    "text": "Custom format file is not valid. Please check that the file exists and that you have appropriate security permissions to open the file.\r\n\r\n",
+    "text": "Custom format file is not valid. Please check that the file exists and that you have appropriate security permissions to open the file.
+
+",
   },
   {
     "reference": "string.Text.230",
@@ -7097,7 +7245,10 @@
   },
   {
     "reference": "string.Text.245",
-    "text": "Expression was found in text.\r\nExpression start: %d\r\nExpression length: %d\r\nFound: %s",
+    "text": "Expression was found in text.
+Expression start: %d
+Expression length: %d
+Found: %s",
   },
   {
     "reference": "string.Text.246",
@@ -7169,11 +7320,15 @@
   },
   {
     "reference": "string.Text.268",
-    "text": "\r\nFollowing search directories were not valid:\r\n\r\n",
+    "text": "
+Following search directories were not valid:
+
+",
   },
   {
     "reference": "string.Text.269",
-    "text": "\r\nThe directory name must be a valid path and include the drive letter (e.g. C:\Windows) OR a properly constructed UNC name (e.g. \\WORKSTATION\Shared_Folder).",
+    "text": "
+The directory name must be a valid path and include the drive letter (e.g. C:\Windows) OR a properly constructed UNC name (e.g. \\WORKSTATION\Shared_Folder).",
   },
   {
     "reference": "string.Text.272",
@@ -7181,7 +7336,8 @@
   },
   {
     "reference": "string.Text.273",
-    "text": "Parsing script failed:\r\n",
+    "text": "Parsing script failed:
+",
   },
   {
     "reference": "string.Text.274",
@@ -7225,7 +7381,8 @@
   },
   {
     "reference": "string.Text.284",
-    "text": "(Recipient list could not be loaded - Content tech support for more information)\r\n",
+    "text": "(Recipient list could not be loaded - Content tech support for more information)
+",
   },
   {
     "reference": "string.Text.285",
@@ -7241,7 +7398,8 @@
   },
   {
     "reference": "string.Text.288",
-    "text": "\r\nError during message building: ",
+    "text": "
+Error during message building: ",
   },
   {
     "reference": "string.Text.289",
@@ -7605,7 +7763,8 @@
   },
   {
     "reference": "string.Text.380",
-    "text": "Search string is invalid: \n%s",
+    "text": "Search string is invalid: 
+%s",
   },
   {
     "reference": "string.Text.381",
@@ -7669,7 +7828,11 @@
   },
   {
     "reference": "string.Text.396",
-    "text": "%s script is not valid.\n\nAdditional information:\n\n%s",
+    "text": "%s script is not valid.
+
+Additional information:
+
+%s",
   },
   {
     "reference": "string.Text.397",
@@ -7961,7 +8124,9 @@
   },
   {
     "reference": "string.Text.472",
-    "text": "%s already exists.\r\n\r\nDo you want to replace it?",
+    "text": "%s already exists.
+
+Do you want to replace it?",
   },
   {
     "reference": "string.Text.473",
@@ -7969,7 +8134,10 @@
   },
   {
     "reference": "string.Text.474",
-    "text": "Closing parenthesis ')' not found for corresponding opening parenthesis '('. Use quotes to specify literal text, e.g. "(starting" or "Method("\r\n\r\nError position: %d\r\nText: %s",
+    "text": "Closing parenthesis ')' not found for corresponding opening parenthesis '('. Use quotes to specify literal text, e.g. "(starting" or "Method("
+
+Error position: %d
+Text: %s",
   },
   {
     "reference": "string.Text.475",
@@ -8981,7 +9149,9 @@
   },
   {
     "reference": "string.Text.767",
-    "text": "For this feature to work the program will need to enable 3rd party browser extensions in Internet Explorer and you will need to reboot before it takes effect. \r\n\r\nWould you like to continue?",
+    "text": "For this feature to work the program will need to enable 3rd party browser extensions in Internet Explorer and you will need to reboot before it takes effect. 
+
+Would you like to continue?",
   },
   {
     "reference": "string.Text.768",
@@ -9253,11 +9423,23 @@
   },
   {
     "reference": "string.Text.840",
-    "text": "NOT REGISTERED! \r\nThis product is only licensed for personal use at home. \r\n\r\nCommercial Users:\r\n\r\nYou MUST register this product to continue using it in a commercial environment otherwise you are violating the terms and conditions of the user agreement.\r\n\r\nFor a FREE registration code please go to:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "NOT REGISTERED! 
+This product is only licensed for personal use at home. 
+
+Commercial Users:
+
+You MUST register this product to continue using it in a commercial environment otherwise you are violating the terms and conditions of the user agreement.
+
+For a FREE registration code please go to:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Text.841",
-    "text": "Not registered. \r\nCommercial users of this product are required to register once the trial period has finished.\r\n\r\nFor a FREE registration code please go to:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "Not registered. 
+Commercial users of this product are required to register once the trial period has finished.
+
+For a FREE registration code please go to:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Text.842",

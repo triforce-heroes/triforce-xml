@@ -1237,7 +1237,8 @@
   },
   {
     "reference": "dialog.IDD_CONFIGENTRY_EXTENSIONMAIN.2",
-    "text": "Drücken Sie unten auf die Schaltfläche, um Erweiterungs-\neinstellungen zu den Installationsstandards wiederherzustellen.",
+    "text": "Drücken Sie unten auf die Schaltfläche, um Erweiterungs-
+einstellungen zu den Installationsstandards wiederherzustellen.",
   },
   {
     "reference": "dialog.IDD_CONFIGENTRY_EXTENSIONMAIN.3",
@@ -1245,7 +1246,8 @@
   },
   {
     "reference": "dialog.IDD_CONFIGENTRY_EXTENSIONMAIN.4",
-    "text": "In diesem Konfigurationsabschnitt können die Erweiterungs-\neinstellungen für erweiterte Dateiverarbeitung festgelegt werden.",
+    "text": "In diesem Konfigurationsabschnitt können die Erweiterungs-
+einstellungen für erweiterte Dateiverarbeitung festgelegt werden.",
   },
   {
     "reference": "dialog.IDD_CONFIGENTRY_GENERAL.caption",
@@ -1885,7 +1887,8 @@
   },
   {
     "reference": "dialog.IDD_ADV_FILELISTS.1",
-    "text": "Auswählen, welche Kriterienfelder Dateilisten akzeptieren\n(z.B., =C:\Liste.txt):",
+    "text": "Auswählen, welche Kriterienfelder Dateilisten akzeptieren
+(z.B., =C:\Liste.txt):",
   },
   {
     "reference": "dialog.IDD_ADV_FILELISTS.2",
@@ -3133,7 +3136,9 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.3",
-    "text": "*.txt\t\t\t–––→\tSucht alle Dateien, die dem Dateityp .TXT entsprechen\n\n*.xls;*.doc\t\t–––→\tSucht alle Dateien, die dem Dateityp .XLS oder .DOC entsprechen",
+    "text": "*.txt			–––→	Sucht alle Dateien, die dem Dateityp .TXT entsprechen
+
+*.xls;*.doc		–––→	Sucht alle Dateien, die dem Dateityp .XLS oder .DOC entsprechen",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.4",
@@ -3141,7 +3146,12 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_DOSEXPR.5",
-    "text": "*.png;*.jpg:Urlaub\t–––→\tSucht alle PNG- und JPG-Dateien mit dem Wort „Urlaub” in deren Namen\n\nNOT:*.doc;*.xls\t\t–––→\tSucht alle Dateien, außer DOC- und XLS-Dateien\n\nUrlaub;NOT:*.exe;*.dll\t–––→\tSucht alle Dateien, außer EXE- oder DLL-Dateien mit dem Wort „Urlaub”\n\t\t\t\tin deren Dateinamen",
+    "text": "*.png;*.jpg:Urlaub	–––→	Sucht alle PNG- und JPG-Dateien mit dem Wort „Urlaub” in deren Namen
+
+NOT:*.doc;*.xls		–––→	Sucht alle Dateien, außer DOC- und XLS-Dateien
+
+Urlaub;NOT:*.exe;*.dll	–––→	Sucht alle Dateien, außer EXE- oder DLL-Dateien mit dem Wort „Urlaub”
+				in deren Dateinamen",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.caption",
@@ -3157,23 +3167,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.3",
-    "text": "Arbeit UND Dokument\t–––→\tSucht nach den Wörtern „Arbeit” und „Dokument” in derselben Zeile/Datei",
+    "text": "Arbeit UND Dokument	–––→	Sucht nach den Wörtern „Arbeit” und „Dokument” in derselben Zeile/Datei",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.4",
-    "text": "Arbeit Dokument\t–––→\tFührt dieselbe Suche wie oben durch (das UND ist eingeschlossen)",
+    "text": "Arbeit Dokument	–––→	Führt dieselbe Suche wie oben durch (das UND ist eingeschlossen)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.5",
-    "text": "Arbeit ODER Dokument\t–––→\tSucht nach den Worten „Arbeit” ODER „Dokument” in derselben Zeile/Datei",
+    "text": "Arbeit ODER Dokument	–––→	Sucht nach den Worten „Arbeit” ODER „Dokument” in derselben Zeile/Datei",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.6",
-    "text": "Arbeit NAHE Dokument\t–––→\tSucht nach „Arbeit” nahe dem Wort „Dokument” in einer Zeile/Datei",
+    "text": "Arbeit NAHE Dokument	–––→	Sucht nach „Arbeit” nahe dem Wort „Dokument” in einer Zeile/Datei",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.7",
-    "text": ""Arbeit Dokument"\t–––→\tSucht nach der genauen Phrase „Arbeit Dokument”",
+    "text": ""Arbeit Dokument"	–––→	Sucht nach der genauen Phrase „Arbeit Dokument”",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR.8",
@@ -3209,23 +3219,23 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.3",
-    "text": "Arbeit UND Dokument\t–––→\tsucht die Wörtern „Arbeit” und „Dokument” innerhalb derselben Datei.",
+    "text": "Arbeit UND Dokument	–––→	sucht die Wörtern „Arbeit” und „Dokument” innerhalb derselben Datei.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.4",
-    "text": "Arbeit Dokumentt\t–––→\tführt die identische Suche wie oben durch (das UND ist eingeschlossen)",
+    "text": "Arbeit Dokumentt	–––→	führt die identische Suche wie oben durch (das UND ist eingeschlossen)",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.5",
-    "text": "Arbeit ODER Dokument\t–––→\tsucht die Wörtern „Arbeit” ODER „Dokument” innerhalb derselben Datei",
+    "text": "Arbeit ODER Dokument	–––→	sucht die Wörtern „Arbeit” ODER „Dokument” innerhalb derselben Datei",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.6",
-    "text": "Arbeit NICHT Dokument\t–––→\tsucht nach „Arbeit”, jedoch ohne das Wort „Dokument” innerhalb derselben Datei",
+    "text": "Arbeit NICHT Dokument	–––→	sucht nach „Arbeit”, jedoch ohne das Wort „Dokument” innerhalb derselben Datei",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.7",
-    "text": ""Arbeits Dokument"\t–––→\tsucht nach dem exakten Ausdruck „Arbeit Dokument”",
+    "text": ""Arbeits Dokument"	–––→	sucht nach dem exakten Ausdruck „Arbeit Dokument”",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_BOOLEANEXPR_LITE.8",
@@ -3261,11 +3271,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.3",
-    "text": "der Autor\t–––→\tFindet Phrasen wie „der Autor” oder „der Autoreifen”.",
+    "text": "der Autor	–––→	Findet Phrasen wie „der Autor” oder „der Autoreifen”.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_EXACTEXPR.4",
-    "text": "fisch\t\t–––→\tFindet auch „Fisch”, „Fischen”, oder „abfischen”.",
+    "text": "fisch		–––→	Findet auch „Fisch”, „Fischen”, oder „abfischen”.",
   },
   {
     "reference": "dialog.IDD_ATTRIBUTES.caption",
@@ -3569,11 +3579,12 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.3",
-    "text": "der Autor\t–––→\tSucht genau nach diesen bestimmten Wörtern „der” und „Autor”, ausgenommen\n\t\t\tteilweiser Übereinstimmungen wie „deren” oder „Autorin”.",
+    "text": "der Autor	–––→	Sucht genau nach diesen bestimmten Wörtern „der” und „Autor”, ausgenommen
+			teilweiser Übereinstimmungen wie „deren” oder „Autorin”.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_WHOLEWORD.4",
-    "text": "fisch\t\t–––→\tFindet auch „Fisch”, aber nicht „Fischen” oder „abfischen”.",
+    "text": "fisch		–––→	Findet auch „Fisch”, aber nicht „Fischen” oder „abfischen”.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.caption",
@@ -3589,11 +3600,11 @@
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.3",
-    "text": "separate\t–––→\tFindet nicht nur „separat” und „seperat”, sondern auch „separieren” und „separiert”.",
+    "text": "separate	–––→	Findet nicht nur „separat” und „seperat”, sondern auch „separieren” und „separiert”.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_FUZZY.4",
-    "text": "zimmer\t\t–––→\tFindet nicht nur „Zimmer”, sondern auch „Zimmerer” und „Glimmer”.",
+    "text": "zimmer		–––→	Findet nicht nur „Zimmer”, sondern auch „Zimmerer” und „Glimmer”.",
   },
   {
     "reference": "dialog.IDD_EXPR_WIZ_MULTILINE_REGEX.caption",
@@ -4053,15 +4064,15 @@
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.2",
-    "text": "Index bearbeiten …\tEnter",
+    "text": "Index bearbeiten …	Enter",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.3",
-    "text": "Index löschen …\tDel",
+    "text": "Index löschen …	Del",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.4",
-    "text": "Neuen Index erstellen …\tIns",
+    "text": "Neuen Index erstellen …	Ins",
   },
   {
     "reference": "menu.IDR_INDEXLIST_CONTEXTMENU.5",
@@ -5337,51 +5348,63 @@
   },
   {
     "reference": "string.IndexManager.1",
-    "text": "Fügt einen neuen oder vorhandenen Index hinzu\nIndex hinzufügen",
+    "text": "Fügt einen neuen oder vorhandenen Index hinzu
+Index hinzufügen",
   },
   {
     "reference": "string.IndexManager.2",
-    "text": "Entfernt oder löscht dauerhhaft einen Index\nIndex entfernen oder löschen",
+    "text": "Entfernt oder löscht dauerhhaft einen Index
+Index entfernen oder löschen",
   },
   {
     "reference": "string.IndexManager.3",
-    "text": "Ermöglicht das Bearbeiten der Index-Parameter\nIndex bearbeiten",
+    "text": "Ermöglicht das Bearbeiten der Index-Parameter
+Index bearbeiten",
   },
   {
     "reference": "string.IndexManager.4",
-    "text": "Aktualisieren Sie den Index mit allen Änderungen, die aufgetreten sein können\nIndex aktualisieren",
+    "text": "Aktualisieren Sie den Index mit allen Änderungen, die aufgetreten sein können
+Index aktualisieren",
   },
   {
     "reference": "string.IndexManager.5",
-    "text": "Index vollständig neu aufbauen\nIndex neu erstellen",
+    "text": "Index vollständig neu aufbauen
+Index neu erstellen",
   },
   {
     "reference": "string.IndexManager.6",
-    "text": "Indexerstellung abbrechen\nAbbrechen",
+    "text": "Indexerstellung abbrechen
+Abbrechen",
   },
   {
     "reference": "string.IndexManager.7",
-    "text": "Liste aktualisieren\nListe aktualisieren",
+    "text": "Liste aktualisieren
+Liste aktualisieren",
   },
   {
     "reference": "string.IndexManager.8",
-    "text": "Neuen Zeitplan hinzufügen\nZeitplan hinzufügen",
+    "text": "Neuen Zeitplan hinzufügen
+Zeitplan hinzufügen",
   },
   {
     "reference": "string.IndexManager.9",
-    "text": "Zeitplan bearbeiten\nZeitplan bearbeiten",
+    "text": "Zeitplan bearbeiten
+Zeitplan bearbeiten",
   },
   {
     "reference": "string.IndexManager.10",
-    "text": "Zeitplan löschen\nZeitplan löschen",
+    "text": "Zeitplan löschen
+Zeitplan löschen",
   },
   {
     "reference": "string.IndexManager.11",
-    "text": "Mit dem Zeitplan verbundenen Indizes bearbeiten\nIndexliste bearbeiten",
+    "text": "Mit dem Zeitplan verbundenen Indizes bearbeiten
+Indexliste bearbeiten",
   },
   {
     "reference": "string.InternalViewer.37",
-    "text": "Aktuelle Datei speichern\nDatei speichern",
+    "text": "Aktuelle Datei speichern
+Datei speichern",
   },
   {
     "reference": "string.Resource.1",
@@ -5461,7 +5484,13 @@
   },
   {
     "reference": "string.Resource.22",
-    "text": "SDI_ONLY\nSuche\nNeue Suche\nSuchkriterien (*.srf)\n.srf\nFileLocatorPro.Suchkriterien\n%APP_NAME% Suchkriterien",
+    "text": "SDI_ONLY
+Suche
+Neue Suche
+Suchkriterien (*.srf)
+.srf
+FileLocatorPro.Suchkriterien
+%APP_NAME% Suchkriterien",
   },
   {
     "reference": "string.Resource.23",
@@ -5485,47 +5514,58 @@
   },
   {
     "reference": "string.Resource.34",
-    "text": "Neue Suche erstellen, beruhend auf letzter Suche\nNeue Suche, beruhend auf letzter Suche",
+    "text": "Neue Suche erstellen, beruhend auf letzter Suche
+Neue Suche, beruhend auf letzter Suche",
   },
   {
     "reference": "string.Resource.35",
-    "text": "Eine Suchkriteriendatei öffnen\nÖffnen",
+    "text": "Eine Suchkriteriendatei öffnen
+Öffnen",
   },
   {
     "reference": "string.Resource.36",
-    "text": "Aktives Dokument schließen\nSchließen",
+    "text": "Aktives Dokument schließen
+Schließen",
   },
   {
     "reference": "string.Resource.37",
-    "text": "Aktuelle Suchkriterien speichern\nKriterien speichern",
+    "text": "Aktuelle Suchkriterien speichern
+Kriterien speichern",
   },
   {
     "reference": "string.Resource.38",
-    "text": "Aktives Dokument unter einem neuen Namen speichern\nSpeichern Unter",
+    "text": "Aktives Dokument unter einem neuen Namen speichern
+Speichern Unter",
   },
   {
     "reference": "string.Resource.39",
-    "text": "Druckeinstellungen ändern\nSeiteneinrichtung",
+    "text": "Druckeinstellungen ändern
+Seiteneinrichtung",
   },
   {
     "reference": "string.Resource.40",
-    "text": "Drucker wechseln und Druckoptionen ändern\nDruckeinrichtung",
+    "text": "Drucker wechseln und Druckoptionen ändern
+Druckeinrichtung",
   },
   {
     "reference": "string.Resource.41",
-    "text": "Druckt die ausgewählten Suchergebnisse\nDrucken",
+    "text": "Druckt die ausgewählten Suchergebnisse
+Drucken",
   },
   {
     "reference": "string.Resource.42",
-    "text": "Seiten vollständig anzeigen\nDruckvorschau",
+    "text": "Seiten vollständig anzeigen
+Druckvorschau",
   },
   {
     "reference": "string.Resource.43",
-    "text": "Programminformationen, Versionnummer und Urheberrecht anzeigen\nBetreff",
+    "text": "Programminformationen, Versionnummer und Urheberrecht anzeigen
+Betreff",
   },
   {
     "reference": "string.Resource.44",
-    "text": "Anwendung beenden; veranlasst Speicherung von Dokumenten\nBeenden",
+    "text": "Anwendung beenden; veranlasst Speicherung von Dokumenten
+Beenden",
   },
   {
     "reference": "string.Resource.45",
@@ -5593,87 +5633,108 @@
   },
   {
     "reference": "string.Resource.61",
-    "text": "Zum nächsten Fensterbereich wechseln\nNächster Bereich",
+    "text": "Zum nächsten Fensterbereich wechseln
+Nächster Bereich",
   },
   {
     "reference": "string.Resource.62",
-    "text": "Zum vorherigen Fensterbereich zurückwechseln\nVorheriger Bereich",
+    "text": "Zum vorherigen Fensterbereich zurückwechseln
+Vorheriger Bereich",
   },
   {
     "reference": "string.Resource.63",
-    "text": "Ein anderes Fenster für das aktive Dokument öffnen\nNeues Fenster",
+    "text": "Ein anderes Fenster für das aktive Dokument öffnen
+Neues Fenster",
   },
   {
     "reference": "string.Resource.64",
-    "text": "Ordnet Symbole am unteren Fensterrand an\nOrdnen Symbole",
+    "text": "Ordnet Symbole am unteren Fensterrand an
+Ordnen Symbole",
   },
   {
     "reference": "string.Resource.65",
-    "text": "Ordnet Fenster so an, dass sie sich überlappen\nÜberlappen Fenster",
+    "text": "Ordnet Fenster so an, dass sie sich überlappen
+Überlappen Fenster",
   },
   {
     "reference": "string.Resource.66",
-    "text": "Ordnet Fenster als sich nicht überlappende Kacheln an\nNebeneinander Fenster",
+    "text": "Ordnet Fenster als sich nicht überlappende Kacheln an
+Nebeneinander Fenster",
   },
   {
     "reference": "string.Resource.67",
-    "text": "Ordnet Fenster als sich nicht überlappende Kacheln an\nNebeneinander Fenster",
+    "text": "Ordnet Fenster als sich nicht überlappende Kacheln an
+Nebeneinander Fenster",
   },
   {
     "reference": "string.Resource.68",
-    "text": "Teilt das aktive Fenster in Bereiche auf\nAufteilen",
+    "text": "Teilt das aktive Fenster in Bereiche auf
+Aufteilen",
   },
   {
     "reference": "string.Resource.69",
-    "text": "Auswahl löschen\nLöschen",
+    "text": "Auswahl löschen
+Löschen",
   },
   {
     "reference": "string.Resource.70",
-    "text": "Alles löschen\nAlle Löschen",
+    "text": "Alles löschen
+Alle Löschen",
   },
   {
     "reference": "string.Resource.71",
-    "text": "Aktuelle Auswahl in Zwischenablage kopieren\nKopieren",
+    "text": "Aktuelle Auswahl in Zwischenablage kopieren
+Kopieren",
   },
   {
     "reference": "string.Resource.72",
-    "text": "Auswahl ausschneiden und in Zwischenablage legen\nAusschneiden",
+    "text": "Auswahl ausschneiden und in Zwischenablage legen
+Ausschneiden",
   },
   {
     "reference": "string.Resource.73",
-    "text": "Angegebenen Text suchen\nSuchen",
+    "text": "Angegebenen Text suchen
+Suchen",
   },
   {
     "reference": "string.Resource.74",
-    "text": "Zwischenablageninhalt einfügen\nEinfügen",
+    "text": "Zwischenablageninhalt einfügen
+Einfügen",
   },
   {
     "reference": "string.Resource.75",
-    "text": "Letzte Aktion wiederholen\nWiederholen",
+    "text": "Letzte Aktion wiederholen
+Wiederholen",
   },
   {
     "reference": "string.Resource.76",
-    "text": "Angegebenen Text durch anderen Text ersetzen\nErsetzen",
+    "text": "Angegebenen Text durch anderen Text ersetzen
+Ersetzen",
   },
   {
     "reference": "string.Resource.77",
-    "text": "Ganzes Dokument auswählen\nAlle Auswählen",
+    "text": "Ganzes Dokument auswählen
+Alle Auswählen",
   },
   {
     "reference": "string.Resource.78",
-    "text": "Letzte Aktion rückgängig machen\nRückgängig",
+    "text": "Letzte Aktion rückgängig machen
+Rückgängig",
   },
   {
     "reference": "string.Resource.79",
-    "text": "Vorherige rückgängig gemachte Aktion wiederholen\nWiederholen",
+    "text": "Vorherige rückgängig gemachte Aktion wiederholen
+Wiederholen",
   },
   {
     "reference": "string.Resource.80",
-    "text": "Symbolleiste anzeigen oder ausblenden\nUmschalten Symbolleiste",
+    "text": "Symbolleiste anzeigen oder ausblenden
+Umschalten Symbolleiste",
   },
   {
     "reference": "string.Resource.81",
-    "text": "Statusleiste anzeigen oder ausblenden\nUmschalten Statusleiste",
+    "text": "Statusleiste anzeigen oder ausblenden
+Umschalten Statusleiste",
   },
   {
     "reference": "string.Resource.82",
@@ -5717,7 +5778,8 @@
   },
   {
     "reference": "string.Resource.92",
-    "text": "Druckvorschaumodus schließen\nVorschau Abbrechen",
+    "text": "Druckvorschaumodus schließen
+Vorschau Abbrechen",
   },
   {
     "reference": "string.Resource.93",
@@ -5729,19 +5791,28 @@
   },
   {
     "reference": "string.Resource.95",
-    "text": "\nSuchenNach\nSuchen\nDateien Suchen (*.sea)\n.sea\nSuchenNach.Dokument\nDokument Suchen",
+    "text": "
+SuchenNach
+Suchen
+Dateien Suchen (*.sea)
+.sea
+SuchenNach.Dokument
+Dokument Suchen",
   },
   {
     "reference": "string.Resource.96",
-    "text": "Kopiert die Pfade der zurzeit ausgewählten Datei(en) in die Zwischenablage\nDateipfade Kopieren",
+    "text": "Kopiert die Pfade der zurzeit ausgewählten Datei(en) in die Zwischenablage
+Dateipfade Kopieren",
   },
   {
     "reference": "string.Resource.97",
-    "text": "Öffnet Eigenschaftendialog für zurzeit ausgewählte Datei(en)\nEigenschaften Öffnen",
+    "text": "Öffnet Eigenschaftendialog für zurzeit ausgewählte Datei(en)
+Eigenschaften Öffnen",
   },
   {
     "reference": "string.Resource.98",
-    "text": "Öffnet die zurzeit ausgewählte Datei \nDatei Öffnen",
+    "text": "Öffnet die zurzeit ausgewählte Datei 
+Datei Öffnen",
   },
   {
     "reference": "string.Resource.99",
@@ -5749,43 +5820,53 @@
   },
   {
     "reference": "string.Resource.100",
-    "text": "Wortumbruch bei Inhaltsansicht ein-/ausschalten\nWortumbruch",
+    "text": "Wortumbruch bei Inhaltsansicht ein-/ausschalten
+Wortumbruch",
   },
   {
     "reference": "string.Resource.101",
-    "text": "Schriftart für Inhaltsansicht festlegen\nSchriftart Festlegen",
+    "text": "Schriftart für Inhaltsansicht festlegen
+Schriftart Festlegen",
   },
   {
     "reference": "string.Resource.102",
-    "text": "Suche ausführen\nStarten",
+    "text": "Suche ausführen
+Starten",
   },
   {
     "reference": "string.Resource.103",
-    "text": "Aktuelle Suche beenden\nBeenden",
+    "text": "Aktuelle Suche beenden
+Beenden",
   },
   {
     "reference": "string.Resource.104",
-    "text": "Hilfe öffnen\nHilfe",
+    "text": "Hilfe öffnen
+Hilfe",
   },
   {
     "reference": "string.Resource.105",
-    "text": "Wählt alle Dateien in der Dateilistenansicht aus\nAlle auswählen",
+    "text": "Wählt alle Dateien in der Dateilistenansicht aus
+Alle auswählen",
   },
   {
     "reference": "string.Resource.106",
-    "text": "Exportiert Suchergebnisse\nErgebnisse exportieren",
+    "text": "Exportiert Suchergebnisse
+Ergebnisse exportieren",
   },
   {
     "reference": "string.Resource.107",
-    "text": "Löscht aktuelle Auswahl\nLöschen",
+    "text": "Löscht aktuelle Auswahl
+Löschen",
   },
   {
     "reference": "string.Resource.108",
-    "text": "Löscht Historienelemente in den drop down Listen\nHistorieLöschen",
+    "text": "Löscht Historienelemente in den drop down Listen
+HistorieLöschen",
   },
   {
     "reference": "string.Resource.109",
-    "text": "Sucheinstellungen ändern\nEinstellungen",
+    "text": "Sucheinstellungen ändern
+Einstellungen",
   },
   {
     "reference": "string.Resource.110",
@@ -5825,23 +5906,33 @@
   },
   {
     "reference": "string.Resource.119",
-    "text": "DATEI_ANZEIGE\nAnzeige\nAnzeige\n\n\nDateiLokator.DateiAnzeige\nADateiLokator DateiAnzeige",
+    "text": "DATEI_ANZEIGE
+Anzeige
+Anzeige
+
+
+DateiLokator.DateiAnzeige
+ADateiLokator DateiAnzeige",
   },
   {
     "reference": "string.Resource.120",
-    "text": "Favoritenliste anzeigen/ausblenden\nFavoriten",
+    "text": "Favoritenliste anzeigen/ausblenden
+Favoriten",
   },
   {
     "reference": "string.Resource.121",
-    "text": "Editoreinstellungen ändern\nEditor Einstellungen",
+    "text": "Editoreinstellungen ändern
+Editor Einstellungen",
   },
   {
     "reference": "string.Resource.122",
-    "text": "Pfad der aktuell ausgewählten Datei(en) in einer Explorer-Instanz öffnen\nExplorer öffnen",
+    "text": "Pfad der aktuell ausgewählten Datei(en) in einer Explorer-Instanz öffnen
+Explorer öffnen",
   },
   {
     "reference": "string.Resource.123",
-    "text": "Systemintegrationseinstellungen ändern\nSystemeinstellungen",
+    "text": "Systemintegrationseinstellungen ändern
+Systemeinstellungen",
   },
   {
     "reference": "string.Resource.124",
@@ -5849,23 +5940,28 @@
   },
   {
     "reference": "string.Resource.125",
-    "text": "Wechselt zu vorherigen Suchergebnissen\nVorheriges Suchergebnis",
+    "text": "Wechselt zu vorherigen Suchergebnissen
+Vorheriges Suchergebnis",
   },
   {
     "reference": "string.Resource.126",
-    "text": "Wechselt zu nächsten Suchergebnissen\nNächstes Suchergebnis",
+    "text": "Wechselt zu nächsten Suchergebnissen
+Nächstes Suchergebnis",
   },
   {
     "reference": "string.Resource.127",
-    "text": "Aktuelle Auswahl umbenennen\nUmbenennen",
+    "text": "Aktuelle Auswahl umbenennen
+Umbenennen",
   },
   {
     "reference": "string.Resource.128",
-    "text": "Wechselt zu vorherigen Suchergebnissen\nVorheriges Suchergebnis",
+    "text": "Wechselt zu vorherigen Suchergebnissen
+Vorheriges Suchergebnis",
   },
   {
     "reference": "string.Resource.129",
-    "text": "Wechselt zu nächsten Suchergebnissen\nNächstes Suchergebnis",
+    "text": "Wechselt zu nächsten Suchergebnissen
+Nächstes Suchergebnis",
   },
   {
     "reference": "string.Resource.130",
@@ -5901,35 +5997,43 @@
   },
   {
     "reference": "string.Resource.138",
-    "text": "Inhaltsanzeigebereich anzeigen oder ausblenden\nInhaltsanzeige anzeigen/ausblenden",
+    "text": "Inhaltsanzeigebereich anzeigen oder ausblenden
+Inhaltsanzeige anzeigen/ausblenden",
   },
   {
     "reference": "string.Resource.139",
-    "text": "Suche anhalten\nAnhalten",
+    "text": "Suche anhalten
+Anhalten",
   },
   {
     "reference": "string.Resource.140",
-    "text": "Neue Suche mit Standardeinstellungen erstellen\nNeue leere Suche",
+    "text": "Neue Suche mit Standardeinstellungen erstellen
+Neue leere Suche",
   },
   {
     "reference": "string.Resource.141",
-    "text": "Neue Suche beruhend auf aktuellen Kriterien erstellen\nNeue Suche mit aktuellen Kriterien",
+    "text": "Neue Suche beruhend auf aktuellen Kriterien erstellen
+Neue Suche mit aktuellen Kriterien",
   },
   {
     "reference": "string.Resource.142",
-    "text": "Text innerhalb der Datei suchen\nSuchen …",
+    "text": "Text innerhalb der Datei suchen
+Suchen …",
   },
   {
     "reference": "string.Resource.143",
-    "text": "Zur nächsten hervorgehobenen Zeile des gefundenen Texts scrollen\nZum nächsten scrollen",
+    "text": "Zur nächsten hervorgehobenen Zeile des gefundenen Texts scrollen
+Zum nächsten scrollen",
   },
   {
     "reference": "string.Resource.144",
-    "text": "Zur vorherigen hervorgehobenen Zeile des gefundenen Texts scrollen \nZur vorherigen scrollen",
+    "text": "Zur vorherigen hervorgehobenen Zeile des gefundenen Texts scrollen 
+Zur vorherigen scrollen",
   },
   {
     "reference": "string.Resource.145",
-    "text": "Hervorhebung des aktuellen Fundes umschalten\nHervorhebung umschalten",
+    "text": "Hervorhebung des aktuellen Fundes umschalten
+Hervorhebung umschalten",
   },
   {
     "reference": "string.Resource.146",
@@ -5949,15 +6053,18 @@
   },
   {
     "reference": "string.Resource.150",
-    "text": "Zurzeit ausgewählten Favoriten bearbeiten\nFavoriten bearbeiten",
+    "text": "Zurzeit ausgewählten Favoriten bearbeiten
+Favoriten bearbeiten",
   },
   {
     "reference": "string.Resource.151",
-    "text": "Zurzeit ausgewählten Favoriten löschen\nFavoriten löschen",
+    "text": "Zurzeit ausgewählten Favoriten löschen
+Favoriten löschen",
   },
   {
     "reference": "string.Resource.152",
-    "text": "Zur Hauptansicht der Auswahl zurückkehren\nZurück zur Hauptansicht",
+    "text": "Zur Hauptansicht der Auswahl zurückkehren
+Zurück zur Hauptansicht",
   },
   {
     "reference": "string.Resource.153",
@@ -5969,11 +6076,13 @@
   },
   {
     "reference": "string.Resource.155",
-    "text": "Aktuelle Suche als neuen Favoriten hinzufügen\nFavoriten hinzufügen",
+    "text": "Aktuelle Suche als neuen Favoriten hinzufügen
+Favoriten hinzufügen",
   },
   {
     "reference": "string.Resource.156",
-    "text": "Favoritenliste aktualisieren\nAktualisieren",
+    "text": "Favoritenliste aktualisieren
+Aktualisieren",
   },
   {
     "reference": "string.Resource.166",
@@ -6005,7 +6114,9 @@
   },
   {
     "reference": "string.Resource.202",
-    "text": "Den gefundenen Inhalt anzeigen, indem Sie eine oder mehrere Dateien im rechten Fensterbereich auswählen.\n\nHinweis: Um diesen Bereich zu drucken, klicken Sie im Menü „Datei” auf „Drucken”.",
+    "text": "Den gefundenen Inhalt anzeigen, indem Sie eine oder mehrere Dateien im rechten Fensterbereich auswählen.
+
+Hinweis: Um diesen Bereich zu drucken, klicken Sie im Menü „Datei” auf „Drucken”.",
   },
   {
     "reference": "string.Resource.204",
@@ -6017,27 +6128,33 @@
   },
   {
     "reference": "string.Resource.206",
-    "text": "Hervorhebungsfarbe für gefundenen Text festlegen\nFarbe festlegen",
+    "text": "Hervorhebungsfarbe für gefundenen Text festlegen
+Farbe festlegen",
   },
   {
     "reference": "string.Resource.207",
-    "text": "Inhaltsansichtsdaten speichern\nInhaltsansicht speichern",
+    "text": "Inhaltsansichtsdaten speichern
+Inhaltsansicht speichern",
   },
   {
     "reference": "string.Resource.208",
-    "text": "Einphasensuche für effiziente Inhaltssuche von großen Laufwerken umschalten (keine Statusanzeige)\nEinphasensuche umschalten(für große Laufwerke)",
+    "text": "Einphasensuche für effiziente Inhaltssuche von großen Laufwerken umschalten (keine Statusanzeige)
+Einphasensuche umschalten(für große Laufwerke)",
   },
   {
     "reference": "string.Resource.209",
-    "text": "Inhaltsansicht unter der Dateilistenansicht andocken\nUnten andocken",
+    "text": "Inhaltsansicht unter der Dateilistenansicht andocken
+Unten andocken",
   },
   {
     "reference": "string.Resource.210",
-    "text": "Inhaltsansicht rechts von der Dateilistenansicht andocken\n Nach Rechts andocken",
+    "text": "Inhaltsansicht rechts von der Dateilistenansicht andocken
+ Nach Rechts andocken",
   },
   {
     "reference": "string.Resource.211",
-    "text": "Hilfsdialog für Befehlszeilenparameter anzeigen\nBefehlszeile Parmameter",
+    "text": "Hilfsdialog für Befehlszeilenparameter anzeigen
+Befehlszeile Parmameter",
   },
   {
     "reference": "string.Resource.212",
@@ -6045,67 +6162,83 @@
   },
   {
     "reference": "string.Resource.213",
-    "text": "Innerhalb der aktuellen Ergebnisliste suchen\nInnerhalb aktueller Ergebnisliste suchen",
+    "text": "Innerhalb der aktuellen Ergebnisliste suchen
+Innerhalb aktueller Ergebnisliste suchen",
   },
   {
     "reference": "string.Resource.214",
-    "text": "Inhaltsanzeigebereich anzeigen/ausblenden\nInhaltsanzeige umschalten",
+    "text": "Inhaltsanzeigebereich anzeigen/ausblenden
+Inhaltsanzeige umschalten",
   },
   {
     "reference": "string.Resource.215",
-    "text": "Innerhalb der zur Zeit ausgewählten Dateien suchen\nSuchen innerhalb aktueller Auswahl",
+    "text": "Innerhalb der zur Zeit ausgewählten Dateien suchen
+Suchen innerhalb aktueller Auswahl",
   },
   {
     "reference": "string.Resource.216",
-    "text": "Hervorhebung der Originalsuche umschalten\nHervorhebung umschalten",
+    "text": "Hervorhebung der Originalsuche umschalten
+Hervorhebung umschalten",
   },
   {
     "reference": "string.Resource.217",
-    "text": "Ordner in dem alle Favoriten gespeichert sind öffnen\nFavoritenordner öffnen",
+    "text": "Ordner in dem alle Favoriten gespeichert sind öffnen
+Favoritenordner öffnen",
   },
   {
     "reference": "string.Resource.218",
-    "text": "Alle Fenster/Tabs schließen\nAlle schließen",
+    "text": "Alle Fenster/Tabs schließen
+Alle schließen",
   },
   {
     "reference": "string.Resource.219",
-    "text": "Alle Fenster/Tabs schließen, außer die aktive Suchanfrage\nAlle, außer die aktive Suche schließen",
+    "text": "Alle Fenster/Tabs schließen, außer die aktive Suchanfrage
+Alle, außer die aktive Suche schließen",
   },
   {
     "reference": "string.Resource.220",
-    "text": "Alle offenen Dateifenster schließen\nClose all files",
+    "text": "Alle offenen Dateifenster schließen
+Close all files",
   },
   {
     "reference": "string.Resource.221",
-    "text": "Aktuelle Such-Sitzung speichern\nSuch-Sitzung speichern",
+    "text": "Aktuelle Such-Sitzung speichern
+Such-Sitzung speichern",
   },
   {
     "reference": "string.Resource.222",
-    "text": "Alle Such-Sitzungen im Arbeitsbereich speichern\nArbeitsbereich speichern",
+    "text": "Alle Such-Sitzungen im Arbeitsbereich speichern
+Arbeitsbereich speichern",
   },
   {
     "reference": "string.Resource.224",
-    "text": "Bericht aktualisieren\nAktualisieren",
+    "text": "Bericht aktualisieren
+Aktualisieren",
   },
   {
     "reference": "string.Resource.225",
-    "text": "Bericht in die Zwischenablage kopieren\nKopieren",
+    "text": "Bericht in die Zwischenablage kopieren
+Kopieren",
   },
   {
     "reference": "string.Resource.226",
-    "text": "Bericht in eine Datei speichern\nBericht speichern",
+    "text": "Bericht in eine Datei speichern
+Bericht speichern",
   },
   {
     "reference": "string.Resource.227",
-    "text": "Bericht drucken\nBericht drucken",
+    "text": "Bericht drucken
+Bericht drucken",
   },
   {
     "reference": "string.Resource.228",
-    "text": "Felder und Layout des Berichts bearbeiten\nBerichtsoptionen",
+    "text": "Felder und Layout des Berichts bearbeiten
+Berichtsoptionen",
   },
   {
     "reference": "string.Resource.229",
-    "text": "Menüleiste ein-/ausblenden\nMenüleiste ein-/ausblenden",
+    "text": "Menüleiste ein-/ausblenden
+Menüleiste ein-/ausblenden",
   },
   {
     "reference": "string.Resource.230",
@@ -6133,11 +6266,13 @@
   },
   {
     "reference": "string.Resource.236",
-    "text": "Liste der Fehlermeldungen in die Zwischenablage kopieren\nIn die Zwischenablage kopieren",
+    "text": "Liste der Fehlermeldungen in die Zwischenablage kopieren
+In die Zwischenablage kopieren",
   },
   {
     "reference": "string.Resource.237",
-    "text": "Liste der Fehlermeldungen als Datei speichern\nFehlermeldungen speichern",
+    "text": "Liste der Fehlermeldungen als Datei speichern
+Fehlermeldungen speichern",
   },
   {
     "reference": "string.Resource.238",
@@ -6161,7 +6296,8 @@
   },
   {
     "reference": "string.Resource.243",
-    "text": "Aufwertung auf Pro-Funktionen\nAufwerten",
+    "text": "Aufwertung auf Pro-Funktionen
+Aufwerten",
   },
   {
     "reference": "string.Resource.244",
@@ -6557,11 +6693,13 @@
   },
   {
     "reference": "string.Text.93",
-    "text": "Lizenzschlüssel: \r\n%s",
+    "text": "Lizenzschlüssel: 
+%s",
   },
   {
     "reference": "string.Text.94",
-    "text": "Unterstützung/kostenlose Aktualisierungen bis: %s\r\n",
+    "text": "Unterstützung/kostenlose Aktualisierungen bis: %s
+",
   },
   {
     "reference": "string.Text.95",
@@ -6869,7 +7007,9 @@
   },
   {
     "reference": "string.Text.178",
-    "text": "Fehler beim Starten des externen Editors.\r\n\r\n%s",
+    "text": "Fehler beim Starten des externen Editors.
+
+%s",
   },
   {
     "reference": "string.Text.179",
@@ -6901,7 +7041,18 @@
   },
   {
     "reference": "string.Text.186",
-    "text": "●● LADEN FEHLGESCHLAGEN ●●\r\n\r\nLaden der Datei nicht möglich: %s\r\n\r\nBitte vergewissern Sie sich, dass Sie die entsprechenden Sicherheitsberechtigungen zum Lesen der Datei haben.\r\n\r\nFalls das Problem weiterhin anhält bitte kontaktieren Sie technischen Support für mehr Unterstützung mit diesem Fehlertext sowie alle Logdateien gespeichert in dem Ordner:\r\n%s\r\n\r\nMehr Informationen:\r\n%s\r\n",
+    "text": "●● LADEN FEHLGESCHLAGEN ●●
+
+Laden der Datei nicht möglich: %s
+
+Bitte vergewissern Sie sich, dass Sie die entsprechenden Sicherheitsberechtigungen zum Lesen der Datei haben.
+
+Falls das Problem weiterhin anhält bitte kontaktieren Sie technischen Support für mehr Unterstützung mit diesem Fehlertext sowie alle Logdateien gespeichert in dem Ordner:
+%s
+
+Mehr Informationen:
+%s
+",
   },
   {
     "reference": "string.Text.189",
@@ -7041,7 +7192,9 @@
   },
   {
     "reference": "string.Text.229",
-    "text": "Datei im benutzerdefinierten Format ist ungültig. Bitte vergewissern Sie sich, dass die datei existiert und dass Sie die entsprechenden Sicherheitsberechtigungen haben um die Datei zu öffnen.\r\n\r\n",
+    "text": "Datei im benutzerdefinierten Format ist ungültig. Bitte vergewissern Sie sich, dass die datei existiert und dass Sie die entsprechenden Sicherheitsberechtigungen haben um die Datei zu öffnen.
+
+",
   },
   {
     "reference": "string.Text.230",
@@ -7097,7 +7250,10 @@
   },
   {
     "reference": "string.Text.245",
-    "text": "Ausdruck wurde im Beispieltext gefunden.\r\nAusdruck beginnt: %d\r\nAusdruckslänge: %d\r\nGefunden: %s",
+    "text": "Ausdruck wurde im Beispieltext gefunden.
+Ausdruck beginnt: %d
+Ausdruckslänge: %d
+Gefunden: %s",
   },
   {
     "reference": "string.Text.246",
@@ -7169,11 +7325,15 @@
   },
   {
     "reference": "string.Text.268",
-    "text": "\r\nFolgende Suchverzeichnisse waren nicht gültig:\r\n\r\n",
+    "text": "
+Folgende Suchverzeichnisse waren nicht gültig:
+
+",
   },
   {
     "reference": "string.Text.269",
-    "text": "\r\nDer Verzeichnisname muss ein gültiger Pfad sein und den Laufwerkbuchstaben mit einschließen (z.B. C:\Windows) ODER ein richtig erstellter UNC-Name (e.g. \\ARBEITSSTATION\Geteilter_Ordner).",
+    "text": "
+Der Verzeichnisname muss ein gültiger Pfad sein und den Laufwerkbuchstaben mit einschließen (z.B. C:\Windows) ODER ein richtig erstellter UNC-Name (e.g. \\ARBEITSSTATION\Geteilter_Ordner).",
   },
   {
     "reference": "string.Text.272",
@@ -7181,7 +7341,8 @@
   },
   {
     "reference": "string.Text.273",
-    "text": "Parsingskript fehlgeschlagen:\r\n",
+    "text": "Parsingskript fehlgeschlagen:
+",
   },
   {
     "reference": "string.Text.274",
@@ -7225,7 +7386,8 @@
   },
   {
     "reference": "string.Text.284",
-    "text": "(Empfängerliste konnte nicht geladen werden - Kontaktieren Sie Techsupport für mehr Informationen)\r\n",
+    "text": "(Empfängerliste konnte nicht geladen werden - Kontaktieren Sie Techsupport für mehr Informationen)
+",
   },
   {
     "reference": "string.Text.285",
@@ -7241,7 +7403,8 @@
   },
   {
     "reference": "string.Text.288",
-    "text": "\r\nFehler beim Nachrichtenaufbau: ",
+    "text": "
+Fehler beim Nachrichtenaufbau: ",
   },
   {
     "reference": "string.Text.289",
@@ -7605,7 +7768,8 @@
   },
   {
     "reference": "string.Text.380",
-    "text": "Suchzeichenfolge ist ungültig: \n%s",
+    "text": "Suchzeichenfolge ist ungültig: 
+%s",
   },
   {
     "reference": "string.Text.381",
@@ -7669,7 +7833,11 @@
   },
   {
     "reference": "string.Text.396",
-    "text": "%s-Skript ist ungültig.\n\nZusätzliche Informationen:\n\n%s",
+    "text": "%s-Skript ist ungültig.
+
+Zusätzliche Informationen:
+
+%s",
   },
   {
     "reference": "string.Text.397",
@@ -7961,7 +8129,9 @@
   },
   {
     "reference": "string.Text.472",
-    "text": "%s existiert bereits.\r\n\r\nMöchtes Sie sie ersetzen?",
+    "text": "%s existiert bereits.
+
+Möchtes Sie sie ersetzen?",
   },
   {
     "reference": "string.Text.473",
@@ -7969,7 +8139,10 @@
   },
   {
     "reference": "string.Text.474",
-    "text": "Schließende Klammer „)” für entsprechende öffnende Klammer gefunden „(”. Verwenden Sie Anführungszeichen für bestimmten wörtlichen Text, z.B. "(beginnend" oder "Methode("\r\n\r\nPositionsfehler: %d\r\nText: %s",
+    "text": "Schließende Klammer „)” für entsprechende öffnende Klammer gefunden „(”. Verwenden Sie Anführungszeichen für bestimmten wörtlichen Text, z.B. "(beginnend" oder "Methode("
+
+Positionsfehler: %d
+Text: %s",
   },
   {
     "reference": "string.Text.475",
@@ -8421,27 +8594,27 @@
   },
   {
     "reference": "string.Text.588",
-    "text": "„Nur Ordner”\t–––→\tBegrenzt die Suche ausschließlich auf Ordner, d. h. das keine Dateien zurückgegeben werden.",
+    "text": "„Nur Ordner”	–––→	Begrenzt die Suche ausschließlich auf Ordner, d. h. das keine Dateien zurückgegeben werden.",
   },
   {
     "reference": "string.Text.589",
-    "text": "„Nur Dateien”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien, d. h. das keine Ordner zurückgegeben werden.",
+    "text": "„Nur Dateien”	–––→	Begrenzt die Suche ausschließlich auf Dateien, d. h. das keine Ordner zurückgegeben werden.",
   },
   {
     "reference": "string.Text.590",
-    "text": "„Dokumente”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien mit Standard-Dokumenterweiterungen.",
+    "text": "„Dokumente”	–––→	Begrenzt die Suche ausschließlich auf Dateien mit Standard-Dokumenterweiterungen.",
   },
   {
     "reference": "string.Text.591",
-    "text": "„Musik”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien mit Standard-Audio-Dateierweiterungen.",
+    "text": "„Musik”	–––→	Begrenzt die Suche ausschließlich auf Dateien mit Standard-Audio-Dateierweiterungen.",
   },
   {
     "reference": "string.Text.592",
-    "text": "„Bilder”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien mit Standard-Bilddateierweiterungen.",
+    "text": "„Bilder”	–––→	Begrenzt die Suche ausschließlich auf Dateien mit Standard-Bilddateierweiterungen.",
   },
   {
     "reference": "string.Text.593",
-    "text": "„Video”\t–––→\tbegrenzt die Suche ausschließlich auf Dateien mit Standard-Video-Dateierweiterungen.",
+    "text": "„Video”	–––→	begrenzt die Suche ausschließlich auf Dateien mit Standard-Video-Dateierweiterungen.",
   },
   {
     "reference": "string.Text.600",
@@ -8825,7 +8998,8 @@
   },
   {
     "reference": "string.Text.728",
-    "text": "Indizes werden derzeit aktualisiert.\nMöchten Sie alle Indizierungsprozesse abbrechen?",
+    "text": "Indizes werden derzeit aktualisiert.
+Möchten Sie alle Indizierungsprozesse abbrechen?",
   },
   {
     "reference": "string.Text.729",
@@ -9253,11 +9427,24 @@
   },
   {
     "reference": "string.Text.840",
-    "text": "NICHT REGISTRIERT!\r\nDieses Produkt ist nur für den persönlichen Gebrauch zu Hause lizenziert. \r\n\r\nGewerbliche Anwender:\r\n\n\r\nSie MÜSSEN dieses Produkt registrieren, um es weiterhin in einer kommerziellen Umgebung verwenden zu können, andernfalls verstoßen Sie gegen die Nutzungsbedingungen.\r\n\r\nFür einen KOSTENLOSEN Lizenzschlüssel besuchen Sie bitte:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "NICHT REGISTRIERT!
+Dieses Produkt ist nur für den persönlichen Gebrauch zu Hause lizenziert. 
+
+Gewerbliche Anwender:
+
+
+Sie MÜSSEN dieses Produkt registrieren, um es weiterhin in einer kommerziellen Umgebung verwenden zu können, andernfalls verstoßen Sie gegen die Nutzungsbedingungen.
+
+Für einen KOSTENLOSEN Lizenzschlüssel besuchen Sie bitte:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Text.841",
-    "text": "Nicht registriert \r\nGewerbliche Nutzer dieses Produkts müssen sich nach Ablauf der Testphase registrieren.\r\n\r\nFür einen KOSTENLOSEN Registrierungscode besuchen Sie bitte:\r\nhttps://www.mythicsoft.com/agentransack/register",
+    "text": "Nicht registriert 
+Gewerbliche Nutzer dieses Produkts müssen sich nach Ablauf der Testphase registrieren.
+
+Für einen KOSTENLOSEN Registrierungscode besuchen Sie bitte:
+https://www.mythicsoft.com/agentransack/register",
   },
   {
     "reference": "string.Text.842",
