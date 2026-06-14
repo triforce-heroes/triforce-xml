@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="Deutsch/German" helplang="de">
+	<dialog id="3531" name="IDD_EDITBOX" caption=""/>
+	<dialog id="333" name="IDD_SCHEDULE_EDIT" caption="Zeitplan bearbeiten">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Echtzeitüberwachung"/>
+		<res id="3" text="Aktualisierungshäufigkeit"/>
+		<res id="4" text="Starten um:"/>
+		<res id="5" text="HH:mm:ss"/>
+		<res id="6" text="Zugeordnete Indizes"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Abbrechen"/>
+	</dialog>
+	<dialog id="334" name="IDD_SCHEDULE_DAILY" caption="">
+		<res id="1" text="Wiederholen aller:"/>
+		<res id="2" text="Minuten"/>
+	</dialog>
+	<dialog id="335" name="IDD_SCHEDULE_WEEKLY" caption="">
+		<res id="1" text="Montag"/>
+		<res id="2" text="Dienstag"/>
+		<res id="3" text="Mittwoch"/>
+		<res id="4" text="Donnerstag"/>
+		<res id="5" text="Freitag"/>
+		<res id="6" text="Samstag"/>
+		<res id="7" text="Sonntag"/>
+	</dialog>
+	<dialog id="336" name="IDD_SCHEDULE_MONTHLY" caption="">
+		<res id="1" text="Tag im Monat:"/>
+	</dialog>
+	<dialog id="337" name="IDD_INDEXSCHEDULEVIEW" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Typ:"/>
+		<res id="3" text="Startzeit:"/>
+		<res id="4" text="Echtzeit:"/>
+		<res id="5" text="Status:"/>
+		<res id="10" text="Zugeordnete Indizes"/>
+	</dialog>
+	<dialog id="338" name="IDD_SCHEDULE_INDEXLIST" caption="Indizes dem Zeitplan zuordnen">
+		<res id="1" text="Indizes:"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Abbrechen"/>
+	</dialog>
+	<dialog id="339" name="IDD_INDEX_EDITADVANCED" caption="Erweiterte Indexeinstellungen">
+		<res id="1" text="Erweiterte Einstellungen"/>
+		<res id="2" text="Groß-/Kleinschreibung bei der Suche berücksichtigen."/>
+		<res id="3" text="Binäre Inhalte erkennen"/>
+		<res id="4" text="Teilweises Übertragen erlauben"/>
+		<res id="5" text="Komprimierte Archive indizieren:"/>
+		<res id="6" text="Texterkennung (OCR) in Bildern" t="g"/>
+		<res id="7" text="OCR-Einstellungen …" t="g"/>
+		<res id="8" text="Suchfilter verwenden" t="g"/>
+		<res id="9" text="Aktive Filter …" t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Abbrechen"/>
+		<res id="12" text="Eingebettete Dokumente (Word/PDF) extrahieren" t="g"/>
+	</dialog>
+	<dialog id="5559" name="IDD_FORMATS_OCR" caption="Einstellungen für die optische Zeichenerkennung (OCR)">
+		<res id="1" text="OCR-Einstellungen"/>
+		<res id="2" text="OCR-Text zwischenspeichern"/>
+		<res id="3" text="Mit OCR zu analysierende Dateiformate:"/>
+		<res id="4" text="Alle verfügbaren"/>
+		<res id="5" text="Ausgewählte Dateiformate:"/>
+		<res id="6" text="Sprache:"/>
+		<res id="7" text="PDF-Einstellungen"/>
+		<res id="8" text="Keine OCR von PDFs mit vorhandenem durchsuchbarem Text"/>
+		<res id="9" text="Automatische Erkennung der Seitenausrichtung" t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Abbrechen"/>
+	</dialog>
+	<dialog id="207" name="IDD_LICENSE_TYPE" caption="Lizenztyp">
+		<res id="1" text="Bitte den Lizenztyp auswählen:"/>
+		<res id="2" text="Professional (Testversion)"/>
+		<res id="3" text="Professional"/>
+		<res id="4" text="Professional-Lizenz kaufen"/>
+		<res id="5" text="Vollversion."/>
+		<res id="6" text="Name:"/>
+		<res id="7" text="E-Mail-Adresse:"/>
+		<res id="8" text="Lizenzschlüssel:"/>
+		<res id="9" text="Lite (Kostenlos)"/>
+		<res id="10" text="Funktionsunterschiede"/>
+		<res id="11" text="Version mit eingeschränkter Funktionalität — einige Funktionen werden ausgeblendet oder deaktiviert. Kostenlos für den privaten und gewerblichen Gebrauch."/>
+		<res id="12" text=""/>
+		<res id="13" text="OK"/>
+		<res id="14" text="Abbrechen"/>
+	</dialog>
+	<dialog id="5560" name="IDD_LICENSE_MGR" caption="Floating License Manager">
+		<res id="1" text="Lizenzordner:"/>
+		<res id="2" text=""/>
+		<res id="3" text=""/>
+		<res id="4" text="OK"/>
+		<res id="5" text="Abbrechen"/>
+		<res id="6" text="Aktualisieren"/>
+	</dialog>
+	<dialog id="260" name="IDD_COMMERCIAL_USE" caption="KOSTENLOSE Registrierung möglich!">
+		<res id="1" text=""/>
+		<res id="2" text="Wenn Sie dieses Produkt in einer kommerziellen Umgebung verwenden, müssen Sie es jetzt registrieren, aber keine Sorge, die Registrierung kostet nichts."/>
+		<res id="3" text="Für einen KOSTENLOSEN Lizenzschlüssel besuchen Sie bitte die Mythicsoft-Website:"/>
+		<res id="4" text="Wenn Sie das Produkt nur für den persönlichen Gebrauch verwenden, werden Sie gebeten, aber nicht verpflichtet, das Produkt zu registrieren."/>
+		<res id="5" text="Ich setze es ein:"/>
+		<res id="6" text="Nur für den persönlichen Gebrauch"/>
+		<res id="7" text="In einem gewerblichen Umfeld und möchte meinen Lizenzschlüssel eingeben."/>
+		<res id="8" text="OK"/>
+		<res id="9" text="Abbrechen"/>
+	</dialog>
+	<dialog id="3566" name="IDD_COLUMNLIST_OPTIONS" caption="Spalten auswählen">
+		<res id="1" text="&amp;Spalten"/>
+		<res id="2" text="Hinweis: Mit Drag &amp;&amp; Drop können die Felder neu angeordnet werden"/>
+		<res id="3" text="OK"/>
+		<res id="4" text="Abbrechen"/>
+	</dialog>
+	<dialog id="3565" name="IDD_EXPRESSIONEDITORDLG" caption="Ausdruck bearbeiten">
+		<res id="1" text="&amp;Ausdruckstyp:"/>
+		<res id="2" text="&amp;Geben Sie jede eigenständigen Suchbegriff auf einer separaten Zeile"/>
+		<res id="3" text="&amp;Referenztextdatei:"/>
+		<res id="4" text="&amp;Durchsuchen …"/>
+		<res id="5" text="OK"/>
+		<res id="6" text="Abbrechen"/>
+		<res id="7" text="Suchbegriffe:"/>
+	</dialog>
+	<dialog id="5558" name="IDD_GENERAL_COLORS" caption="">
+		<res id="1" text="Schlüsselwort-Treffer"/>
+		<res id="2" text="Textfarbe:"/>
+		<res id="3" text="Schlüsselwort-Treffer"/>
+		<res id="4" text="Fett"/>
+		<res id="5" text="Unterstreichen"/>
+		<res id="6" text="Schlüsselwörter mit verschiedenen Farben hervorheben:"/>
+		<res id="7" text="Hintergrundarbe der Schlüsselwort-Treffer"/>
+		<res id="8" text="Hervorhebungen im Tab „Text”"/>
+		<res id="9" text="Originalsuche:"/>
+		<res id="10" text="Sekundäre Suche:"/>
+		<res id="11" text="Linienfarbe der ursprünglichen Suche"/>
+		<res id="12" text="Linienfarbe der sekundären Suche"/>
+	</dialog>
+	<dialog id="3542" name="IDD_KEYWORD_COLOR" caption="">
+		<res id="1" text="Einstellungen …"/>
+	</dialog>
+	<dialog id="231" name="IDD_INDEX_SEARCH" caption=""/>
+	<dialog id="331" name="IDD_INDEXEDIT_GROUP_PANE" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Datei:"/>
+		<res id="3" text="Datei suchen"/>
+	</dialog>
+	<dialog id="310" name="IDD_INDEX_EDIT" caption="">
+		<res id="1" text="&amp;Schreibgeschützt"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Abbrechen"/>
+	</dialog>
+	<dialog id="312" name="IDD_INDEXACTIVITYVIEW" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Dateien:"/>
+		<res id="3" text="Speicherort:"/>
+		<res id="4" text="Zusammenfassung:"/>
+		<res id="5" text="Aktualisiert am:"/>
+		<res id="6" text="Status:"/>
+	</dialog>
+	<dialog id="332" name="IDD_INDEXGROUPVIEW" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Indizes:"/>
+	</dialog>
+	<dialog id="315" name="IDD_ADDINDEX_TYPEPAGE" caption="Index hinzufügen">
+		<res id="1" text="Art des hinzuzufügenden Index"/>
+		<res id="2" text="Neuen Index erstellen"/>
+		<res id="3" text="Verweis auf einen vorhandenen Index oder eine Gruppe"/>
+		<res id="4" text="Möchten Sie einen neuen Index, eine neue Gruppe oder einen Verweis auf einen bestehenden Index erstellen?"/>
+		<res id="5" text="Neue Gruppe erstellen"/>
+	</dialog>
+	<dialog id="316" name="IDD_ADDINDEX_NEWPAGE" caption="">
+		<res id="1" text="Neuen Index erstellen"/>
+		<res id="2" text="&amp;Nach Fertigstellung Indizierung starten"/>
+		<res id="3" text="Index erstellen"/>
+		<res id="4" text="Neue Gruppe erstellen"/>
+	</dialog>
+	<dialog id="317" name="IDD_ADDINDEX_IMPORTPAGE" caption="">
+		<res id="1" text="Einen bestehenden Index hinzufügen"/>
+		<res id="2" text="Pfad des hinzuzufügenden Indexspeichers angeben:"/>
+		<res id="3" text="Ordner:"/>
+		<res id="4" text="Schreibgeschützter Zugriff"/>
+		<res id="5" text="Durchsuchen"/>
+	</dialog>
+	<dialog id="319" name="IDD_ADDINDEX_AUTOUPDATE" caption="">
+		<res id="1" text="Möchten Sie, dass der Index automatisch aktualisiert wird?"/>
+		<res id="2" text="Nein, nur manuell aktualisieren"/>
+		<res id="3" text="Ja, Aktualisierungen planen"/>
+		<res id="4" text="Automatisches Aktualisieren planen" t="g"/>
+	</dialog>
+	<dialog id="318" name="IDD_INDEXEDIT_ENGINE_PANE" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Name des Index:"/>
+		<res id="3" text="Index gespeichert in:"/>
+		<res id="4" text="Inhalt des Index"/>
+		<res id="5" text="&amp;Dokumente/PDF/Textdateien"/>
+		<res id="6" text="Spezielle &amp;Dateien:"/>
+		<res id="7" text="&amp;Groß-/Kleinschreibung bei der Suche berücksichtigen (größerer Indexdateien) "/>
+		<res id="8" text="Alle anderen Dateien nur über deren Namen einbeziehen"/>
+		<res id="9" text="Speicherorte indizieren"/>
+		<res id="10" text="&amp;Standardspeicherorte für Dokumente"/>
+		<res id="11" text="&amp;Spezifische Speicherorte:"/>
+		<res id="12" text="Unterordner"/>
+		<res id="13" text="Durchsuchen"/>
+		<res id="14" text="Mehrere Ordner"/>
+		<res id="15" text="Outlook-/Thunderbird-Dateien"/>
+		<res id="16" text="E-Mail-Anhänge"/>
+		<res id="17" text="Erweitert …"/>
+	</dialog>
+	<dialog id="211" name="IDD_SAVE_BULKCOPY" caption="">
+		<res id="1" text="Datei kopieren in"/>
+		<res id="2" text="&amp;Ordner:"/>
+		<res id="3" text="&amp;ZIP Archiv:"/>
+		<res id="4" text="&amp;Durchsuchen …"/>
+		<res id="5" text="&amp;Durchsuchen …"/>
+		<res id="6" text="Einstellungen"/>
+		<res id="7" text="Ordnerstruktur:"/>
+		<res id="8" text="Vorhandene Datei:"/>
+		<res id="9" text="E-Mail-Elemente:"/>
+		<res id="10" text="Duplikate:"/>
+		<res id="11" text="Fehler:"/>
+		<res id="12" text="Dateiattribute kopieren"/>
+		<res id="13" text="Zu kopierende Dateien"/>
+		<res id="14" text="Alle Dateien"/>
+		<res id="15" text="Nur ausgewählte Dateien"/>
+		<res id="16" text="ZIP-Archiv erstellen"/>
+		<res id="17" text="Einem ZIP-Archiv hinzufügen"/>
+		<res id="18" text="Pfade kürzen, die länger als 255 Zeichen sind"/>
+		<res id="19" text="Ordner kopieren" t="g"/>
+		<res id="20" text="Unterordner einschließen" t="g"/>
+		<res id="21" text="Leere Ordner einschließen" t="g"/>
+	</dialog>
+	<dialog id="210" name="IDD_SAVE_SESSIONWORKSPACE" caption="">
+		<res id="1" text="Speichern unter"/>
+		<res id="2" text="&amp;Datei:"/>
+		<res id="3" text="&amp;Durchsuchen …"/>
+		<res id="4" text="Suche speichern"/>
+		<res id="5" text="Nur die aktuelle Suchsitzung"/>
+		<res id="6" text="Arbeitsbereich (d.h. ALLE Suchsitzungen)"/>
+		<res id="7" text="&amp;Suchverlauf für jede Suche einwschließen"/>
+	</dialog>
+	<dialog id="206" name="IDD_EXPORT" caption="Export">
+		<res id="1" text="OK"/>
+		<res id="2" text="Abbrechen"/>
+	</dialog>
+	<dialog id="209" name="IDD_EXPORT_TYPE" caption="">
+		<res id="1" text="Exportvorgang"/>
+		<res id="2" text="Massenkopieren"/>
+		<res id="3" text="Suchergebnisse exportieren"/>
+		<res id="4" text="Sitzung/Arbeitsbereich speichern"/>
+		<res id="5" text="Hilfe"/>
+	</dialog>
+	<dialog id="197" name="IDD_EXPR_WIZ_FILENAMEPRESET" caption="Dateinamen-Voreinstellungen">
+		<res id="1" text="Hinweis: Sie können Begriffe mit Standard Boole'sche Operatoren kombinieren, wie UND, ODER und NICHT."/>
+		<res id="2" text="Dateiendungen:"/>
+	</dialog>
+	<dialog id="3514" name="IDD_REPORTS_SELECTION" caption="" maxgrow="700">
+		<res id="1" text="Bericht:"/>
+		<res id="2" text="Stil"/>
+		<res id="3" text="Weiter"/>
+		<res id="4" text="Weiter"/>
+		<res id="5" text="Alle"/>
+		<res id="6" text="Dateien:"/>
+		<res id="7" text="Ausgewählte"/>
+	</dialog>
+	<dialog id="3530" name="IDD_REPORT_PROGRESS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Bericht erstellen …"/>
+		<res id="3" text="Abbrechen"/>
+	</dialog>
+	<dialog id="5556" name="IDD_ADV_MEMMANAGER" caption="">
+		<res id="1" text="Speichernutzung bei komplexen Suchanfragen begrenzen"/>
+		<res id="2" text="Speichergrenze je Suchanfrage:"/>
+		<res id="3" text="System berechnet den Wert"/>
+		<res id="4" text="Wert festlegen:"/>
+		<res id="5" text="Zeilen kürzen auf:"/>
+		<res id="6" text="Zeichenanzahl je Zeile kürzen auf:"/>
+		<res id="7" text="Abschneiden gilt nur für die Suchverlauf"/>
+	</dialog>
+	<dialog id="3524" name="IDD_REPORT_OPTIONS" caption="">
+		<res id="1" text="Anzeige"/>
+		<res id="2" text="Kriterien-Zusammenfassung"/>
+		<res id="3" text="Suchstatistiken"/>
+		<res id="4" text="Spaltenüberschriften"/>
+		<res id="5" text="Felder"/>
+		<res id="6" text="OK"/>
+		<res id="7" text="Abbrechen"/>
+		<res id="8" text="Hinweis: Mit Drag &amp;&amp; Drop können die Felder neu angeordnet werden"/>
+	</dialog>
+	<dialog id="5552" name="IDD_CACHE_SETTINGS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="Information"/>
+		<res id="4" text="Cache-Ordner:"/>
+		<res id="5" text="Elemente:"/>
+		<res id="6" text="Gesamtgröße:"/>
+		<res id="7" text="Zusammenfassen …"/>
+		<res id="8" text="Leeren …"/>
+		<res id="9" text="Einstellungen"/>
+		<res id="10" text="Maximal zulässige Große je Element (KB):"/>
+		<res id="11" text="Ablauf"/>
+		<res id="12" text="Niemals"/>
+		<res id="13" text="Nicht-refenzierte Elemente im Cache löschen nach:"/>
+		<res id="14" text="Zwischenspeicher beim Beenden leeren"/>
+		<res id="15" text="OK"/>
+		<res id="16" text="Abbrechen"/>
+		<res id="17" text="Tagen"/>
+	</dialog>
+	<dialog id="5553" name="IDD_GENERAL_SEARCH" caption="">
+		<res id="1" text="Suchmethode"/>
+		<res id="2" text="&amp;Mehrphasig (Standard)"/>
+		<res id="3" text="So&amp;fortige Abfrage"/>
+		<res id="4" text="&amp;Trefferanzahl berechnen"/>
+		<res id="7" text="&amp;Verzögerte Abfrage"/>
+		<res id="9" text="Automatisch direkt während der Eingabe suchen"/>
+		<res id="10" text="Inde&amp;xsuche"/>
+		<res id="11" text="&amp;Text öffnen"/>
+		<res id="12" text="&amp;Aufsteigend"/>
+	</dialog>
+	<dialog id="196" name="IDD_SAVE_WORKSPACE" caption="Arbeitsbereich speichern">
+		<res id="1" text="Speichern unter"/>
+		<res id="2" text="&amp;Datei:"/>
+		<res id="3" text="&amp;Durchsuchen …"/>
+		<res id="4" text="Zu speichernde Informationen"/>
+		<res id="5" text="&amp;Vollständigen Arbeitsbereich"/>
+		<res id="6" text="&amp;Teilweiser Arbeitsbereich"/>
+		<res id="7" text="&amp;Alle Suchanfragen"/>
+		<res id="8" text="Nur a&amp;ktuelle Suchanfrage:"/>
+		<res id="9" text="&amp;Einschließlich der Suchverlauf für jede Suchanfrage"/>
+		<res id="15" text="Speichern"/>
+		<res id="16" text="Abbrechen"/>
+	</dialog>
+	<dialog id="195" name="IDD_SAVE_SESSION" caption="Such-Sitzung speichern">
+		<res id="1" text="Speichern unter"/>
+		<res id="2" text="&amp;Datei:"/>
+		<res id="3" text="&amp;Durchsuchen …"/>
+		<res id="4" text="&amp;Einschließlich der Suchverlauf"/>
+		<res id="15" text="Speichern"/>
+		<res id="16" text="Abbrechen"/>
+	</dialog>
+	<dialog id="5523" name="IDD_CONFIGENTRY_EXTENSION" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="&lt;Name&gt;"/>
+		<res id="3" text="Dateitypen:"/>
+		<res id="4" text="(Jeden gültigen Dateityp in eine neue Zeile einfügen.)"/>
+		<res id="5" text="Programm-Kennung:"/>
+		<res id="6" text="&lt;progid&gt;"/>
+		<res id="7" text="Im &amp;Abgesicherten Modus ausführen"/>
+		<res id="8" text="&amp;Indexdienstfilter verwenden (falls verfügbar)"/>
+		<res id="9" text="&amp;Dateityp von Inhaltssuchen ausschließen, wenn nicht aktiv"/>
+	</dialog>
+	<dialog id="5527" name="IDD_CONFIGENTRY_EXTENSIONMAIN" caption="">
+		<res id="1" text="Wiederherstellen …"/>
+		<res id="2" text="Drücken Sie unten auf die Schaltfläche, um Erweiterungs-\neinstellungen zu den Installationsstandards wiederherzustellen."/>
+		<res id="3" text="Erweiterungskonfiguration wiederherstellen"/>
+		<res id="4" text="In diesem Konfigurationsabschnitt können die Erweiterungs-\neinstellungen für erweiterte Dateiverarbeitung festgelegt werden."/>
+	</dialog>
+	<dialog id="5533" name="IDD_CONFIGENTRY_GENERAL" caption="">
+		<res id="1" text="Diese Konfigurationsabschnitt enthält allgemeine Einstellungen zur Steuerung der Suche."/>
+	</dialog>
+	<dialog id="5534" name="IDD_CONFIGENTRY_EDITOR" caption="">
+		<res id="1" text="In diesem Konfigurationsabschnitt kann festgelegt werden, welcher Editor bei der Arbeit mit der Inhaltsanzeige eingesetzt werden soll."/>
+	</dialog>
+	<dialog id="5540" name="IDD_CONFIGENTRY_ADVANCED" caption="">
+		<res id="1" text="Diese Konfigurationsabschnitt enthält die erweiterten Einstellungen."/>
+	</dialog>
+	<dialog id="5524" name="IDD_CLEARARHISTORY_DIALOG" caption="Verlauf löschen">
+		<res id="1" text="&amp;Dateinamen"/>
+		<res id="2" text="&amp;Enthaltener Text"/>
+		<res id="3" text="&amp;Suchen in"/>
+		<res id="4" text="Löschen"/>
+		<res id="5" text="Abbrechen"/>
+		<res id="6" text="Angeben, welche Verlaufsinformationen gelöscht werden sollen"/>
+		<res id="7" text="Verlauf vollständig löschen"/>
+	</dialog>
+	<dialog id="5544" name="IDD_FILETYPE_UTF8" caption="">
+		<res id="1" text="Folgende Dateitypen standardmäßig als UTF-8 behandeln, auch wenn kein Byte Object Marker (BOM) gefunden wurde."/>
+		<res id="2" text="Dateitypen:"/>
+		<res id="3" text="(Jeden gültigen Dateityp in einer neuen Zeile hinzufügen.)"/>
+		<res id="4" text="UTF-8-Dateien automatisch erkennen"/>
+	</dialog>
+	<dialog id="5541" name="IDD_GENERAL_IFILTER" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="&amp;Aktualisieren"/>
+		<res id="3" text="Auf diesem Computer registrierte IFilter:"/>
+		<res id="4" text="Einschließlich IFilter für HTML/XML-basierten Dateitypen"/>
+		<res id="5" text="IFilter-Suchpriorität:"/>
+	</dialog>
+	<dialog id="5529" name="IDD_EDITORSETTINGS_DEFAULT" caption="">
+		<res id="1" text="Wählen Sie Ihren Standardeditor"/>
+		<res id="2" text="Interner Datei-Betrachter im Tab „Text”"/>
+		<res id="3" text="Interne Datei-Betrachter in einem neuen Fenster"/>
+		<res id="4" text="Microsoft Visual Studio"/>
+		<res id="5" text="Externer Editor"/>
+		<res id="6" text="Visual Studio Version"/>
+	</dialog>
+	<dialog id="5528" name="IDD_EDITORSETTINGS_EXTERNAL" caption="">
+		<res id="1" text="&amp;Suchen …"/>
+		<res id="2" text="Standards bekannter Text-Editoren:"/>
+		<res id="3" text="Befehlszeilenparameter:"/>
+		<res id="4" text="Variablen: "/>
+		<res id="5" text="$(FILEPATH)"/>
+		<res id="6" text="- Aktuell ausgewählte Datei"/>
+		<res id="7" text="$(LINENUM)"/>
+		<res id="8" text="- Aktuell ausgewählte Zeilennummer"/>
+		<res id="9" text="Pfad zur Anwendung:"/>
+		<res id="10" text="$(LONGPATH)"/>
+		<res id="11" text="- Aktuell ausgewählte Datei mit vollständiger Pfadangabe"/>
+	</dialog>
+	<dialog id="5526" name="IDD_CONFIGURATION_MAIN" caption="Konfigurationseinstellungen">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="Übernehmen"/>
+		<res id="4" text="Abbrechen"/>
+		<res id="5" text="Einstellungen"/>
+		<res id="6" text="Auf Standardwerten zurücksetzen"/>
+	</dialog>
+	<dialog id="5530" name="IDD_GENERAL_DISPLAYCONFIG" caption="">
+		<res id="1" text="Zeilen anzeigen"/>
+		<res id="2" text="Maximale angezeigte Zeilenanzahl je Datei:"/>
+		<res id="3" text="Maximale Zeichenanzahl je Zeile begrenzen auf:"/>
+		<res id="4" text="Umgebende Zeilen"/>
+		<res id="5" text="Zeilenanzahl davor:"/>
+		<res id="6" text="Zeilenanzahl danach:"/>
+		<res id="7" text="Datei-Listenansicht:"/>
+		<res id="8" text="Dateipfad-Anzeigeeinstellungen"/>
+		<res id="9" text="Inhaltsansicht:"/>
+	</dialog>
+	<dialog id="5531" name="IDD_GENERAL_HISTORY" caption="">
+		<res id="1" text="&amp;Gesamten Verlauf beim Beenden löschen"/>
+		<res id="2" text="Verlauf &amp;löschen …"/>
+		<res id="3" text="Beim Start wiederherzustellen"/>
+		<res id="4" text="&amp;Einstellungen im Tab „Optionen”"/>
+		<res id="5" text="&amp;Fenstergröße-, Position und Schriftarteinstellungen"/>
+		<res id="6" text="&amp;Letzte Suche beim Start erneut laden"/>
+		<res id="7" text="Maximale Listengröße"/>
+		<res id="8" text="Such-Navigation:"/>
+		<res id="9" text="Elemente im Auswahlmenü"/>
+		<res id="10" text="Anzahl der Elemente im Auswahlmenü:"/>
+		<res id="11" text="Anzahl der zuletzt geöffneten Dateien:"/>
+		<res id="12" text="Sortierreihenfolge der Spalten"/>
+		<res id="13" text="&amp;Bearbeiten …" t="e"/>
+	</dialog>
+	<dialog id="5532" name="IDD_GENERAL_CHARPROC" caption="">
+		<res id="1" text="Andere gültige Zeilenenden-Bezeichner (EOL)"/>
+		<res id="2" text="&amp;Unix (LF)"/>
+		<res id="3" text="&amp;Mac (CR)"/>
+		<res id="4" text="Maximale Zeichenanzahl je Zeile:"/>
+		<res id="5" text="Enthaltener Text"/>
+		<res id="6" text="&amp;Dateinamen in die Inhaltssuche einbeziehen"/>
+		<res id="7" text="Ordner&amp;pfad in die Inhaltssuche einbeziehen"/>
+		<res id="8" text="Dateiname"/>
+		<res id="9" text="Ordnerpfad in die Dateinamensuche einbeziehen"/>
+		<res id="10" refid="5545:9"/>
+	</dialog>
+	<dialog id="5535" name="IDD_GENERAL_THREADING" caption="">
+		<res id="1" text="Such-Prozesse"/>
+		<res id="2" text="Indizierungsprozesse"/>
+		<res id="3" text=""/>
+		<res id="4" text="(zwischen 1 - 99)"/>
+		<res id="5" text="Warnhinweis: Eine zu hohe Prozessanzahl kann die Leistung beeinträchtigen."/>
+		<res id="6" text="Prozesspriorität"/>
+		<res id="7" text="Vordergrund:"/>
+		<res id="8" text="Hintergrund:"/>
+		<res id="9" text="Minimiert:"/>
+		<res id="10" text="Indexer:" t="g"/>
+	</dialog>
+	<dialog id="5536" name="IDD_GENERAL_SHELL" caption="">
+		<res id="1" text="&amp;SRF-Dateityp zuordnen"/>
+		<res id="2" text="Zu den Kontextmenüoptionen eines &amp;Ordners hinzufügen"/>
+		<res id="3" text="Zu den Kontextmenüoptionen einer D&amp;atei hinzufügen"/>
+		<res id="4" text="Finden/&amp;Suchen dem Startmenü hinzufügen"/>
+		<res id="5" text="&amp;Standardsuche des Windows Explorers ersetzen (Strg+F, F3)"/>
+		<res id="6" text="&amp;Schnellstart mit Tastaturkürzel (WinTaste+Alt+F, WinTaste+Alt+F3)"/>
+		<res id="7" text="UAC-Hinweis: Änderungen der Shell-Integration resultiert aus dem Start der Anwendung „FLProShellAdmin.exe” mit den hierfür benötigten Rechten."/>
+		<res id="8" text="Anwendungsstartmodus:" t="g"/>
+		<res id="9" text="Mehrere Instanzen (Standard)" t="g"/>
+		<res id="10" text="Einzelinstanz" t="g"/>
+		<res id="11" text="Einzelinstanz aus der Shell-Integration" t="g"/>
+		<res id="12" text="Kontextmenü Dateiliste" t="g"/>
+		<res id="13" text="Grundlegende Kontextmenüoptionen für komplexe Auswahlen" t="g"/>
+		<res id="14" text="Große Auswahlbegrenzung:" t="g"/>
+	</dialog>
+	<dialog id="5537" name="IDD_GENERAL_FOLDERS" caption="">
+		<res id="1" text="&amp;Durchsuchen …"/>
+		<res id="2" text="&amp;Durchsuchen …"/>
+		<res id="3" text="&amp;Durchsuchen …"/>
+		<res id="4" text="&amp;Durchsuchen …"/>
+		<res id="5" text="Protokolldateiordner:"/>
+		<res id="6" text="Konfigurationsdateiordner:"/>
+		<res id="7" text="&amp;Durchsuchen …"/>
+		<res id="8" text="&amp;Durchsuchen …"/>
+		<res id="9" text="Favoritenordner:"/>
+		<res id="10" text="&amp;Durchsuchen …"/>
+		<res id="11" text="&amp;Durchsuchen …"/>
+		<res id="12" text="Ordner für temporäre Dateien:"/>
+		<res id="13" text="Standard-Indexordner:" t="g"/>
+	</dialog>
+	<dialog id="5538" name="IDD_GENERAL_ALERTS" caption="">
+		<res id="1" text="Akustische Meldung"/>
+		<res id="2" text=" …"/>
+		<res id="3" text=" …"/>
+		<res id="4" text="Meldung über der Taskleiste anzeigen"/>
+		<res id="5" text="Für jede gefundene Datei wiederholen"/>
+		<res id="6" text="Akustische Meldung"/>
+		<res id="7" text=" …"/>
+		<res id="8" text=" …"/>
+		<res id="9" text="Meldung über der Taskleiste anzeigen"/>
+		<res id="10" text="Datei gefunden"/>
+		<res id="11" text="Suche abgeschlossen"/>
+	</dialog>
+	<dialog id="5557" name="IDD_GENERAL_EMAIL" caption="">
+		<res id="1" text="Outlook/Thunderbird Dateien durchsuchen"/>
+		<res id="2" text="Einschl. Name der übergeordneten Nachricht im Anlagennamen"/>
+		<res id="3" text="Nachrichtentext als getrennten Textanhang hinzufügen"/>
+		<res id="4" text="HTML-Markup aus Nachrichtentext entfernen"/>
+		<res id="5" text="Thunderbird"/>
+		<res id="6" text="Profilordner"/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+	</dialog>
+	<dialog id="5539" name="IDD_ADV_TRANSFORM" caption="">
+		<res id="1" text="Wählen Sie den XSLT-Prozessor für Transformationen von zu speichernden Suchergebnissen in ein benutzerdefiniertes Format:"/>
+		<res id="2" text="DOM Prog-Kennung:"/>
+		<res id="3" text="Microsoft XML-Basisdienste"/>
+	</dialog>
+	<dialog id="5542" name="IDD_ADV_JUNCTIONS" caption="">
+		<res id="1" text="Symbolische Verknüpfungen und Verzeichnisverbindungen"/>
+		<res id="2" text="&amp;Nach Symbolischen Verknüpfungen und Verzeichnisverbindungen suchen"/>
+		<res id="3" text="&amp;Ausgeblendete Systemverknüpfungen ausschließen"/>
+		<res id="4" text="Verknüpfungen"/>
+		<res id="5" text="Verknüpfte Dateien suchen"/>
+		<res id="6" text="Verknüpfte Ordner suchen"/>
+	</dialog>
+	<dialog id="5543" name="IDD_ADV_FILELISTS" caption="">
+		<res id="1" text="Auswählen, welche Kriterienfelder Dateilisten akzeptieren\n(z.B., =C:\Liste.txt):"/>
+		<res id="2" text="&amp;Dateiname"/>
+		<res id="3" text="&amp;Enthaltener Text"/>
+		<res id="4" text="&amp;Suchen in"/>
+	</dialog>
+	<dialog id="5545" name="IDD_EXPRESSION_BOOLEAN" caption="">
+		<res id="1" text="Übereinstimmungs-Empfindlichkeit"/>
+		<res id="2" text=""/>
+		<res id="3" text="Sehr ähnlich"/>
+		<res id="4" text="Ähnlich"/>
+		<res id="5" text="Ungefähr"/>
+		<res id="6" text="Abstandsentfernung"/>
+		<res id="7" text="Max. Abstand zwischen Worten (in Zeichen):"/>
+		<res id="8" text="Ausdruck analysieren"/>
+		<res id="9" text="Stilistische Anführungszeichen als normale Anführungszeichen verarbeiten"/>
+	</dialog>
+	<dialog id="5546" name="IDD_FILTERS" caption="Permanente Suchfilter">
+		<res id="1" text="&amp;Permanente Suchfilter verwenden"/>
+		<res id="2" text="Suchfilter:"/>
+		<res id="3" text="&amp;Hinzufügen …"/>
+		<res id="4" text=""/>
+		<res id="5" text="OK"/>
+		<res id="6" text="Abbrechen"/>
+	</dialog>
+	<dialog id="5547" name="IDD_FILTERS_EDIT" caption="Neuen Suchfilter erstellen">
+		<res id="1" text="&amp;Beschreibung:"/>
+		<res id="2" text="&amp;Suchen in"/>
+		<res id="3" text="&amp;Dateiname"/>
+		<res id="4" text="Durchsuchen …"/>
+		<res id="5" text="Durchsuchen …"/>
+		<res id="6" text="Speichern"/>
+		<res id="7" text="Abbrechen"/>
+		<res id="8" text=""/>
+		<res id="9" text="Ein Suchfilter kann jeder Wert gültig für einen Suche In Ort sein. Es kann einen Ordner einschließen oder ausschließen oder einfach einen Lagerortfilter angeben."/>
+		<res id="10" text=""/>
+	</dialog>
+	<dialog id="5548" name="IDD_EXPRESSION_REGEX" caption="">
+		<res id="1" text="Syntax für Reguläre Ausdrücke"/>
+		<res id="2" text="&amp;Perl-kompatibel"/>
+		<res id="3" text="&amp;Klassisch"/>
+		<res id="4" text="&amp;Zeichenbereiche sortieren"/>
+		<res id="5" text="Mehrzeilige reguläre Ausdrücke"/>
+		<res id="6" text="Maximale Zeilenanzahl je Übereinstimmung"/>
+	</dialog>
+	<dialog id="5549" name="IDD_EXPRESSION_HASH" caption="">
+		<res id="1" text="Hash-Algorithmen"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+	</dialog>
+	<dialog id="5517" name="IDD_FORMATS_DOCUMENT" caption="Einstellungen zur Dokumentensuche">
+		<res id="1" text="Suchmethode zum Suchen von allgemeinen Office-Dokumentformaten (z.B. doc, pdf, xls, usw.) auswählen:"/>
+		<res id="2" text="Tiefensuche (durchsucht sowohl den Text als auch die Rohdaten in der Datei)"/>
+		<res id="3" text="Benutzerdefinierte Verarbeitungseinstellungen"/>
+		<res id="4" text="ALLE geeigneten Dokumentenbetrachte nutzen"/>
+		<res id="5" text="Nur ausgewählte Dokumentenbetrachter nutzen:"/>
+		<res id="6" text="&amp;Alle"/>
+		<res id="7" text="&amp;Keine"/>
+		<res id="8" text=""/>
+		<res id="9" text="Ebenfalls nach rohen Dokumentdaten von verarbeiteten Dateien suchen"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Abbrechen"/>
+		<res id="12" text="Textsuche"/>
+		<res id="13" text="Erweiterte Einstellungen (Word/PDF)" t="g"/>
+		<res id="14" text="Eingebettete Dokumente durchsuchen" t="g"/>
+	</dialog>
+	<dialog id="5525" name="IDD_FORMATS_ARCHIVE" caption="Komprimiert/Archivformat Sucheinstellungen">
+		<res id="1" text="Komprimierte Archive/Formate angeben, welche durchsucht werden sollen:"/>
+		<res id="2" text="ALLE komprimierten Archive/Formate durchsuchen"/>
+		<res id="3" text="Nur ausgewählte komprimierte Archive/Formate durchsuchen:"/>
+		<res id="4" text="&amp;Alle"/>
+		<res id="5" text="&amp;Keine"/>
+		<res id="6" text=""/>
+		<res id="7" text="OK"/>
+		<res id="8" text="Abbrechen"/>
+	</dialog>
+	<dialog id="5519" name="IDD_CONFIGENTRY_EXPRESSIONS" caption="">
+		<res id="1" text="Diese Konfigurationsabschnitt enthält die Einstellungen des Ausdrucks."/>
+	</dialog>
+	<dialog id="5520" name="IDD_EXPRESSION_DOS" caption="">
+		<res id="1" text="&amp;Streng übereinstimmende Syntax"/>
+		<res id="2" text="Dateimasken-Ausdrücke"/>
+		<res id="3" text="&amp;Grenzmarken einschließen, wenn eine Erweiterung angegeben ist"/>
+	</dialog>
+	<dialog id="5521" name="IDD_GENERAL_GUI" caption="">
+		<res id="1" text="Aussehen und Eindruck"/>
+		<res id="2" text="Standard (Suchen mit Tabs, Standardthema)"/>
+		<res id="3" text="Klassisch (MDI-Suche, Klassisches Thema)"/>
+		<res id="4" text="Benutzerdefiniert"/>
+		<res id="5" text="Thema:"/>
+		<res id="6" text="Suchen mit Tabs"/>
+		<res id="7" text="&amp;Taskleisten-Tab-Vorschauen *)"/>
+		<res id="8" text="*) Wird erst nach einem Neustart wirksam"/>
+		<res id="9" text="Inhaltsansicht in Tabs anzeigen"/>
+		<res id="10" text="Standard-Tab für die nächste Suche verwenden"/>
+		<res id="11" text="Standard Inhalt-Tab:"/>
+	</dialog>
+	<dialog id="5522" name="IDD_EDITORSETTINGS_INTERNALVIEWER" caption="">
+		<res id="1" text="Anzeigen"/>
+		<res id="2" text="• Wirkt sich auf alle neu geladenen Dateien aus."/>
+		<res id="3" text="Tabulatorweite:"/>
+	</dialog>
+	<dialog id="101" name="IDD_ABOUTBOX" caption="Über %APP_NAME%">
+		<res id="1" text="https://www.mythicsoft.com"/>
+		<res id="2" text="mailto:support@mythicsoft.com"/>
+		<res id="3" text="&amp;Lizenzschlüssel …"/>
+		<res id="4" text="Schließen"/>
+		<res id="5" text="Urheberrecht © 2022 Mythicsoft Ltd. Alle Rechte vorbehalten."/>
+		<res id="6" text="Lizenztyp:"/>
+		<res id="7" text="(ändern)"/>
+		<res id="8" text="Website:"/>
+		<res id="9" text="Datenschutzerklärung:Persönliche Informationen werden NICHT verkauft oder verteilt"/>
+		<res id="10" text="E-Mail-Adresse: "/>
+		<res id="11" text="Registriert auf:"/>
+		<res id="12" text="Datenschutzerklärung (engl.)"/>
+		<res id="13" text="https://www.mythicsoft.com/privacy-policy"/>
+		<res id="14" text=""/>
+	</dialog>
+	<dialog id="115" name="IDD_TESTREGEXP" caption="Dienstprogramm zum Testen regulärer Ausdrücke">
+		<res id="1" text="&amp;Regulärer Ausdruck:"/>
+		<res id="2" text="Groß-/Kleinschreibung beachten"/>
+		<res id="3" text="&amp;Beispieltext:"/>
+		<res id="4" text="Test starten"/>
+		<res id="5" text="Schließen"/>
+		<res id="6" text="Ergebnis:"/>
+		<res id="7" text="Unsicher, ob Ihr regulärer Ausdruck korrekt ist? In diesem Fenster können Sie das Modul der verwendeten regulären Ausdrücke testen. Geben Sie in die entsprechenden Bereiche einfach den zu prüfenden Ausdruck zusammen mit einigen Beispieltext ein und drücken Sie dann die Schaltfläche „Test starten”."/>
+		<res id="8" text="Hinweis: Das Prüfmodul verwendet reguläre Ausdrücke im Stil der Programmiersprache Perl."/>
+	</dialog>
+	<dialog id="102" name="IDD_SEARCHFOR_FORM" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="&amp;Experte"/>
+		<res id="3" text="Starten"/>
+		<res id="4" text="Stopp"/>
+		<res id="5" text="Status"/>
+		<res id="6" text="Animieren"/>
+		<res id="7" text=""/>
+	</dialog>
+	<dialog id="118" name="IDD_BASIC" caption="Hauptmenü">
+		<res id="1" text="Datei&amp;name:"/>
+		<res id="2" text="&amp;Enthaltener Text:"/>
+		<res id="3" text="&amp;Suchassistent …"/>
+		<res id="4" text="&amp;Suchen in:"/>
+		<res id="5" text=""/>
+		<res id="6" text="&amp;Unterordner suchen"/>
+		<res id="7" text="&amp;Durchsuchen …"/>
+	</dialog>
+	<dialog id="120" name="IDD_SEARCH_WIZ_NAME" caption="Dateiname">
+		<res id="1" text="Wie heisst die Datei die Sie finden möchten?"/>
+		<res id="2" text="Sie kennen den genauen Namen nicht? Keine Sorge, Sie können mit Teilen des Namens suchen. Wenn Sie keinen Teil des Namens kennen lassen Sie es leer."/>
+		<res id="3" text="Beispiele:"/>
+		<res id="4" text="Mein*Doc"/>
+		<res id="5" text="Findet alle Dokumente die „Mein” und dann „Doc” an einer anderen Stelle im Namen haben"/>
+		<res id="6" text="(z.B. Mein_Document.doc, Mein_Autodoc.txt usw.)"/>
+		<res id="7" text="Stellen Sie sicher, dass der Dateiname im Tab „Optionen” auf „Dateimasken-Ausdruck” festgelegt ist, bevor Sie Ausdrücke wie die in den Beispielen gezeigten verwenden."/>
+		<res id="8" text="MeinDoc"/>
+		<res id="9" text="Findet alle Dokumente mit „MeinDok” irgendwo im Namen"/>
+		<res id="10" text="(z.B. MeinDokument.doc, Note_From_MeinDoktor.txt usw.)"/>
+		<res id="11" text="*.doc;*.txt"/>
+		<res id="12" text="Findet alle .doc oder .txt Dateien"/>
+		<res id="13" text="(z.B. MeinDokument.doc, MeinDoktorsNote.txt usw.)"/>
+	</dialog>
+	<dialog id="121" name="IDD_SEARCH_WIZ_LOCATION" caption="Dateiort">
+		<res id="1" text="&amp;Alle lokalen Festplatten"/>
+		<res id="2" text="Bestimmte &amp;Laufwerke (z.B. C:, D: usw.)"/>
+		<res id="3" text=""/>
+		<res id="4" text="Bestimmter &amp;Ordner (z.B. C:\Windows, D:\Dateien\Meine Dokumente usw.)"/>
+		<res id="5" text=""/>
+		<res id="6" text="&amp;Durchsuchen …"/>
+		<res id="7" text="&amp;Ja, ebenfalls die Unterordner durchsuchen"/>
+		<res id="8" text="&amp;Nein, ausschließlich diesen Ordner durchsuchen"/>
+		<res id="9" text="&amp;Die Suche automatisch beginnen nach Klick auf die Schaltfläche „Fertigstellen”"/>
+		<res id="10" text="Wo möchten Sie nach der Datei suchen?"/>
+		<res id="11" text="Möchten Sie die Unterordner des Ordners ebenfalls durchsuchen?"/>
+		<res id="12" text="Leistungstipp: Die Auswahl eines bestimmten Ordners verringert die Anzahl der zu durchsuchenden Dateien stark und ist somit viel schneller."/>
+	</dialog>
+	<dialog id="122" name="IDD_SEARCH_WIZ_CONTENTS" caption="Dateiinhalt">
+		<res id="1" text="Mächten Sie nach der Datei aufgrund von Text innerhalb der Datei suchen?"/>
+		<res id="2" text="&amp;Nein, nur nach Dateinamen suchen"/>
+		<res id="3" text="&amp;Ja, den Inhalt der Datei durchsuchen"/>
+		<res id="4" text="Welchen Text sollte die Datei beinhalten?"/>
+		<res id="5" text="Beispiele:"/>
+		<res id="6" text="&quot;Lieber Bill&quot;"/>
+		<res id="7" text="Findet jede Datei die eine Zeile mit der Phrase „Lieber Bill” enthält ."/>
+		<res id="8" text="(z.B. Mein Lieber Bill …, Lieber Billy wie geht es dir … usw.)"/>
+		<res id="9" text="Lieber.*Bill"/>
+		<res id="10" text="Findet jede Datei die eine Zeile mit beiden Worten „Lieber” und „Bill” enthält (z.B. Lieber Fred wie geht es Bill …, Die liebsten Gegenstände sollten erneut berechnet werden …)"/>
+		<res id="11" text="Leistungstipp: Den Inhalt einer Datei zu durchsuchen kann lange dauern, besonders wenn ein Name nicht eingegeben wurde oder nicht sehr genau ist. Daher ist es viel schneller „Nein” zu wählen."/>
+	</dialog>
+	<dialog id="123" name="IDD_REGISTER" caption="Lizenzinformationen eingeben">
+		<res id="1" text="Übernehmen"/>
+		<res id="2" text="Abbrechen"/>
+		<res id="3" text="&amp;Name:"/>
+		<res id="4" text="&amp;Nachname:"/>
+		<res id="5" text="&amp;Lizenzschlüssel:"/>
+		<res id="6" text="&amp;E-Mail-Adresse:"/>
+		<res id="7" text="Hinweis: Der Name und die E-Mail-Adresse müssen genauso, wie in der Lizenzierungsmail angezeigt, eingegeben werden."/>
+		<res id="8" text="Wenn Sie irgendwelche Schwierigkeiten haben, kontaktieren Sie bitte support@mythicsoft.com für Unterstützung."/>
+		<res id="9" text="Bitte geben Sie Ihre Lizenzinformationen ein."/>
+	</dialog>
+	<dialog id="124" name="IDD_ADVANCED" caption="Hauptmenü">
+		<res id="1" text="&amp;Dateiname:"/>
+		<res id="2" text="&amp;Enthaltener Text:"/>
+		<res id="3" text="&amp;Suchen in:"/>
+		<res id="4" text=""/>
+		<res id="5" text="&amp;Nicht"/>
+		<res id="6" text=""/>
+		<res id="7" text="Hilfe …"/>
+		<res id="8" text=""/>
+		<res id="9" text="Hilfe …"/>
+		<res id="10" text="&amp;Unterordner"/>
+		<res id="11" text="Durchsuchen …"/>
+		<res id="12" text="Durchsuchen …"/>
+		<res id="13" text="&gt;"/>
+		<res id="14" text="&lt;"/>
+		<res id="15" text="&amp;Geändert:"/>
+		<res id="16" text="&amp;Nach:"/>
+		<res id="17" text="&amp;Vor:"/>
+		<res id="18" text="Kalender anzeigen …"/>
+		<res id="19" text="Kalender anzeigen …"/>
+		<res id="20" text=""/>
+	</dialog>
+	<dialog id="232" name="IDD_ADVANCED_LITE" copyid="124"/>
+	<dialog id="125" name="IDD_EXPR_WIZ" caption="Zusammenstellen eines regulären Ausdrucks">
+		<res id="1" text="Häufigkeit"/>
+		<res id="2" text="&amp;Hinzufügen"/>
+		<res id="3" text="&amp;Ändern"/>
+		<res id="4" text="&amp;Löschen"/>
+		<res id="5" text="Liste"/>
+		<res id="6" text="Resultierender regulärer Ausdruck"/>
+		<res id="7" text="Hinweis: Drag &amp;&amp; Drop, um Elemente umzuordnen"/>
+	</dialog>
+	<dialog id="126" name="IDD_EXPR_WIZ_INTRO" caption="Vorschau des Assistenten für reguläre Ausdrücke">
+		<res id="1" text="Willkommen zum Ausdrucksassistenten. Dieser Assistent wird Ihnen helfen genau zu definieren was Sie suchen."/>
+		<res id="2" text="Reguläre Ausdrücke werden verwendet, um Muster für Zeichenfolgenabgleich zu beschreiben. Während reguläre Ausdrücke sehr mächtig sind, so neigen diese ebenfalls sehr komplex und abschreckend für Neulinge zu sein."/>
+		<res id="3" text="Der Zweck des Ausdrucksassistenten ist es hiermit die Komplexität von regulären Ausdrücken zu reduzieren, ohne die Stärke zu opfern. Ausdrucksassistent wird helfen, den Ausdruck für Sie aufzubauen, indem er Sie mit einfacheren Worten das beschreiben lässt, was Sie suchen."/>
+		<res id="4" text="Hinweis:"/>
+		<res id="5" text="Der suchspezifische Hinweis kommt hier."/>
+		<res id="6" text="Diese Einleitung nicht erneut anzeigen."/>
+	</dialog>
+	<dialog id="131" name="IDD_EXPR_WIZ_SPECIAL" caption="Hinweis: Sonderzeichen sind eingegeben">
+		<res id="1" text="&amp;Ja. Bitte geben Sie geeigneten Backslashes (umgekehrte Schrägstriche) ein, denn keine der Zeichen die ich eingegeben habe sollten als Sonderzeichen behandelt werden."/>
+		<res id="2" text="&amp;Nein. Ich verwende absichtlich Sonderzeichen für die erweiterte Suche."/>
+		<res id="3" text="Eines oder mehrere der eingegebenen Ausdrücken beinhaltet mindestens eines der folgenden Sonderzeichen: ^$*?+.[]()|\ "/>
+		<res id="4" text="Sonderzeichen werden in regulären Ausdrücken verwendet, um Musterabgleichsregeln zu definieren und sollten mit Vorsicht eingesetzt werden. Wenn Sie nach einem Zeichen suchen möchten, dass ebenfalls ein Sonderzeichen ist dann müssen Sie ein Backslash (umgekehrter Schrägstrich) vor das Zeichen setzen. "/>
+		<res id="5" text=""/>
+		<res id="6" text="Beispiele:"/>
+		<res id="7" text="Suchen nach:"/>
+		<res id="8" text="der Ausdruck wäre:"/>
+		<res id="9" text="$400.00"/>
+		<res id="10" text="\$400\.00"/>
+		<res id="11" text="Was war das?"/>
+		<res id="12" text="Was war das\?"/>
+		<res id="13" text="(12\4)*5=15"/>
+		<res id="14" text="\(12\\4\)\*5=15"/>
+		<res id="15" text="Suchen nach:"/>
+		<res id="16" text="Suchen nach:"/>
+		<res id="17" text="der Ausdruck wäre:"/>
+		<res id="18" text="der Ausdruck wäre:"/>
+		<res id="19" text="Möchten Sie, dass der Ausdrucksassistent automatisch Backslashes (umgekehrte Schrägstriche) vor alle Sonderzeichen setzt?"/>
+	</dialog>
+	<dialog id="133" name="IDD_OPTIONS" caption="Optionen">
+		<res id="1" text="Angegebene &amp;NOT-Verknüpfung"/>
+		<res id="2" text="&amp;Groß-/Kleinschreibung beachten"/>
+		<res id="3" text="Groß-/Kleinschreibung &amp;beachten"/>
+		<res id="4" text=" Dateiname "/>
+		<res id="5" text=" Inhalt "/>
+		<res id="6" text="Suchen in"/>
+		<res id="7" text="Erweiterte Dokumentensuche"/>
+		<res id="8" text="Office-/PDF-Dokumente"/>
+	</dialog>
+	<dialog id="169" name="IDD_OPTIONS_ADVANCED_LITE" copyid="133"/>
+	<dialog id="140" name="IDD_SAVE_RESULTS" caption="Ergebnisse exportieren">
+		<res id="1" text="&amp;Zwischenablage"/>
+		<res id="2" text="&amp;Datei"/>
+		<res id="3" text="&amp;Durchsuchen …"/>
+		<res id="4" text="&amp;Datei überschreiben"/>
+		<res id="5" text="An Datei &amp;anhängen"/>
+		<res id="6" text="&amp;Zeichencodierung:"/>
+		<res id="7" text="Standard"/>
+		<res id="8" text="Benutzerdefiniert (XSLT)"/>
+		<res id="9" text="&amp;Durchsuchen …"/>
+		<res id="10" text="&amp;Alle Dateien"/>
+		<res id="11" text="&amp;Ausgewählte Dateien"/>
+		<res id="12" text="&amp;Dateiname"/>
+		<res id="13" text="&amp;Inhalt"/>
+		<res id="14" text="Umgebende &amp;Zeilen"/>
+		<res id="15" text="Exportieren"/>
+		<res id="16" text="Abbrechen"/>
+		<res id="17" text="Ergebnisse speichern von"/>
+		<res id="18" text="Informationen speichern"/>
+		<res id="19" text="Exportieren nach"/>
+		<res id="20" text="Formatieren"/>
+	</dialog>
+	<dialog id="141" name="IDD_OPTIONALMSG" caption="Dialog">
+		<res id="1" text="OK"/>
+		<res id="2" text="Nicht erneut nachfragen"/>
+	</dialog>
+	<dialog id="142" name="IDD_BLANK" caption="Dialog">
+		<res id="1" text="Dies ist ein leeres Dialogfeld"/>
+	</dialog>
+	<dialog id="143" name="IDD_SCRIPTING" caption="Skript-Aufgaben">
+		<res id="1" text="Dateinamen-Skript:"/>
+		<res id="2" text="Durchsuchen …"/>
+		<res id="3" text="Modul:"/>
+		<res id="4" text="Parameter:"/>
+		<res id="5" text="Enhält Textskript:"/>
+		<res id="6" text="Durchsuchen …"/>
+		<res id="7" text="Modul:"/>
+		<res id="8" text="Parameter:"/>
+		<res id="9" text="&amp;Test"/>
+	</dialog>
+	<dialog id="152" name="IDD_EXPR_WIZ_DOSEXPR" caption="Dateimaskenausdrücke">
+		<res id="1" text="Dateimaskenausdrücke verwenden die Standard-Windows-Syntax für die Angabe einer Gruppe von Dateien. Ein Semikolon wird verwendet, um mehrere Ausdrücke voneinander zu trennen."/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="*.txt\t\t\t–––→\tSucht alle Dateien, die dem Dateityp .TXT entsprechen\n\n*.xls;*.doc\t\t–––→\tSucht alle Dateien, die dem Dateityp .XLS oder .DOC entsprechen"/>
+		<res id="4" text="Erweiterte Beispiele:"/>
+		<res id="5" text="*.png;*.jpg:Urlaub\t–––→\tSucht alle PNG- und JPG-Dateien mit dem Wort „Urlaub” in deren Namen\n\nNOT:*.doc;*.xls\t\t–––→\tSucht alle Dateien, außer DOC- und XLS-Dateien\n\nUrlaub;NOT:*.exe;*.dll\t–––→\tSucht alle Dateien, außer EXE- oder DLL-Dateien mit dem Wort „Urlaub”\n\t\t\t\tin deren Dateinamen"/>
+	</dialog>
+	<dialog id="154" name="IDD_EXPR_WIZ_BOOLEANEXPR" caption="Modul für boole'sche Ausdrücke">
+		<res id="1" text="Boole'sche Ausdrücke verwenden Suchoperatoren im Webstil wie UND, ODER, NICHT, WIE und NAHE. Boole'sche Suchen können nach Zeilen oder nach Dateien sein:"/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="Arbeit UND Dokument\t–––→\tSucht nach den Wörtern „Arbeit” und „Dokument” in derselben Zeile/Datei"/>
+		<res id="4" text="Arbeit Dokument\t–––→\tFührt dieselbe Suche wie oben durch (das UND ist eingeschlossen)"/>
+		<res id="5" text="Arbeit ODER Dokument\t–––→\tSucht nach den Worten „Arbeit” ODER „Dokument” in derselben Zeile/Datei"/>
+		<res id="6" text="Arbeit NAHE Dokument\t–––→\tSucht nach „Arbeit” nahe dem Wort „Dokument” in einer Zeile/Datei"/>
+		<res id="7" text="&quot;Arbeit Dokument&quot;\t–––→\tSucht nach der genauen Phrase „Arbeit Dokument”"/>
+		<res id="8" text="Zeilenweise"/>
+		<res id="9" text="Ausdruck wird gegen jede individuelle Zeile getrennt geprüft"/>
+		<res id="10" text="Dateiweise"/>
+		<res id="11" text="Ausdruck wird über die ganze Datei geprüft"/>
+		<res id="12" text="Hinweis: Verwenden Sie Klammern um Ausdrücke zu gruppieren, z.B. (Arbeit UND doc) ODER (spezial UND Fall)"/>
+	</dialog>
+	<dialog id="155" name="IDD_EXPR_WIZ_BOOLEANEXPR_LITE" caption="Modul für Boole'sche Ausdrücke">
+		<res id="1" text="Boole'sche Ausdrücke verwenden die Suchoperatoren UND, ODER und NICHT. Boole'sche Suchen werden über die gesamte Datei abgeglichen."/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="Arbeit UND Dokument\t–––→\tsucht die Wörtern „Arbeit” und „Dokument” innerhalb derselben Datei."/>
+		<res id="4" text="Arbeit Dokumentt\t–––→\tführt die identische Suche wie oben durch (das UND ist eingeschlossen)"/>
+		<res id="5" text="Arbeit ODER Dokument\t–––→\tsucht die Wörtern „Arbeit” ODER „Dokument” innerhalb derselben Datei"/>
+		<res id="6" text="Arbeit NICHT Dokument\t–––→\tsucht nach „Arbeit”, jedoch ohne das Wort „Dokument” innerhalb derselben Datei"/>
+		<res id="7" text="&quot;Arbeits Dokument&quot;\t–––→\tsucht nach dem exakten Ausdruck „Arbeit Dokument”"/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text=""/>
+		<res id="11" text=""/>
+		<res id="12" text="Hinweis: Verwenden Sie Klammern, um Ausdrücke zu gruppieren, z.B. (arbeit UND doc) ODER (spezial UND fall)"/>
+	</dialog>
+	<dialog id="156" name="IDD_EXPR_WIZ_EXACTEXPR" caption="Einfacher Text">
+		<res id="1" text="Reiner Text behandelt den eingegebenen Suchkriterientext als Literalwert, d.h. genau wie der Text im Bearbeitungsfeld eingegeben ist. Die Suchkriterien werden mit dem ganzen oder dem Teil eines Wortes verglichen."/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="der Autor\t–––→\tFindet Phrasen wie „der Autor” oder „der Autoreifen”."/>
+		<res id="4" text="fisch\t\t–––→\tFindet auch „Fisch”, „Fischen”, oder „abfischen”."/>
+	</dialog>
+	<dialog id="157" name="IDD_ATTRIBUTES" caption="Attribute">
+		<res id="1" text="&amp;Attribute verwenden"/>
+		<res id="2" text="Zurücksetzen"/>
+		<res id="3" text="&amp;Archive:"/>
+		<res id="4" text="&amp;Komprimiert:"/>
+		<res id="5" text="&amp;Verschlüsselt:"/>
+		<res id="6" text="Index:"/>
+		<res id="7" text="&amp;Ordner:"/>
+		<res id="8" text="&amp;Ausgeblendet:"/>
+		<res id="9" text="&amp;Offline:"/>
+		<res id="10" text="&amp;Schreibgeschützt:"/>
+		<res id="11" text="&amp;System:"/>
+		<res id="12" text="&amp;Selten:"/>
+		<res id="13" text="&amp;Analysepunkt:"/>
+	</dialog>
+	<dialog id="158" name="IDD_ATTRIBUTE_SUMMARY" caption="Zusammenfassung Attribute">
+		<res id="1" text="Attribut"/>
+		<res id="2" text="Suchen nach:"/>
+	</dialog>
+	<dialog id="159" name="IDD_OPTIONS_ADVANCED" caption="Optionen" maxgrow="700">
+		<res id="1" text="Boole'scher Ausdruck"/>
+		<res id="2" text="Vergleich:"/>
+		<res id="3" text="&amp;Zeile für Zeile"/>
+		<res id="4" text="&amp;Über die ganze Datei"/>
+		<res id="5" text="Dateimasken zulassen (&amp;*, ?)"/>
+		<res id="6" text="E-Mail-Nachrichten"/>
+		<res id="10" text="Erweiterte Dateisuche"/>
+		<res id="11" text="&amp;Office-/PDF-Dokumente"/>
+		<res id="12" text="Einstellungen …"/>
+		<res id="13" text="O&amp;utlook-/Thunderbird-Dateien"/>
+		<res id="14" text="Anhänge &amp;durchsuchen"/>
+		<res id="15" text="&amp;HTML-Formatierung entfernen"/>
+		<res id="16" text="&amp;Text zwischenspeichern"/>
+		<res id="17" text="Zwischenspeicher …"/>
+		<res id="18" text="&amp;Binärdateien ausschließen"/>
+		<res id="19" text="Text in Grafiken (OCR )"/>
+		<res id="20" text="OCR …"/>
+	</dialog>
+	<dialog id="171" name="IDD_DATETIMEPICKER" caption="Datum und Zeit festlegen">
+		<res id="1" text="Datum"/>
+		<res id="2" text="Festes Datum:"/>
+		<res id="3" text="Relatives Datum:"/>
+		<res id="4" text=""/>
+		<res id="5" text="Anpassen (+/-)"/>
+		<res id="6" text="Tage:"/>
+		<res id="7" text="Wochen:"/>
+		<res id="8" text="Monate:"/>
+		<res id="9" text="Jahre:"/>
+		<res id="10" text="Zeit"/>
+		<res id="11" text="Uhrzeit angeben"/>
+		<res id="12" text="Feste Zeit:"/>
+		<res id="13" text="Relative Zeit:"/>
+		<res id="14" text="HH:mm:ss"/>
+		<res id="15" text="Anpassen (+/-)"/>
+		<res id="16" text="Sekunden:"/>
+		<res id="17" text="Minuten:"/>
+		<res id="18" text="Stunden:"/>
+		<res id="19" text="Übernehmen"/>
+		<res id="20" text="Abbrechen"/>
+		<res id="21" text="Aktueller Ausdruck:"/>
+		<res id="22" text="Wird ausgewertet zu:"/>
+	</dialog>
+	<dialog id="173" name="IDD_EXPR_WIZ_FILEHASH" caption="Datei-Hash">
+		<res id="1" text="Die Erstellung eines Datei-Hash erzeugt einen einzigartigen Identifikator fester Länge für jede auf den Dateiinhalt beruhende Datei. Dateien mit identischem Inhalt erzeugen identische Hash-Werte."/>
+		<res id="2" text="1. Geben Sie die Hash-Algorithmen vom Tab „Optionen” ein"/>
+		<res id="3" text="Nach Hash-Wert suchen:"/>
+		<res id="4" text="2. Geben Sie den zu suchenden Hash-Wert als eine von Kommatas getrennten Hashwertliste oder einen Zeiger zu einer Hashwertliste, z.B."/>
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848"/>
+		<res id="6" text="=c:\hashfile.txt"/>
+		<res id="7" text="ODER,"/>
+	</dialog>
+	<dialog id="175" name="IDD_EXPR_WIZ_BOOLEANREGEX" caption="Boole'sches Modul für Reguläre Ausdrücke (RegEx)">
+		<res id="1" text="Boole'sche RegEx-Ausdrücke sind ein Hybrid aus Boole'schen und Regulären Ausdrücken. Reguläre Ausdrücke können kombiniert werden durch die Verwendung der vertrauten Boole'schen Operatoren UND, ODER, und NICHT."/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="&quot;doc.*[0-9]+&quot; UND &quot;author&quot;"/>
+		<res id="4" text="&quot;Fehler (120|121|123)&quot; ODER &quot;info 344&quot; NICHT &quot;Archiv&quot;"/>
+		<res id="5" text="Hinweis: Verwenden Sie Klammern um Ausdrücke zu gruppieren, z.B. (Arbeit UND doc) ODER (spezielle UND Sache)"/>
+	</dialog>
+	<dialog id="177" name="IDD_EXPR_WIZ_WHOLEWORD" caption="Ganzes Wort">
+		<res id="1" text="Ganzes Wort behandelt den eingegebenen Suchkriterientext als einen Literalwert, d.h. genauso wie der Text im Bearbeitungsfeld eingegeben ist, aber es vergleicht ebenfalls den Anfang und das Ende des Kriterientexts mit der „Wortgrenze”. Begriffe können mit den vertrauten booleschen Operatoren UND, ODER und NICHT kombiniert werden"/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="der Autor\t–––→\tSucht genau nach diesen bestimmten Wörtern „der” und „Autor”, ausgenommen\n\t\t\tteilweiser Übereinstimmungen wie „deren” oder „Autorin”."/>
+		<res id="4" text="fisch\t\t–––→\tFindet auch „Fisch”, aber nicht „Fischen” oder „abfischen”."/>
+	</dialog>
+	<dialog id="235" name="IDD_EXPR_WIZ_FUZZY" caption="Ähnlichkeitssuche">
+		<res id="1" text="Fuzzy-Suchausdrücke finden ähnlichen Suchbegriffen in genau der gleichen Weise wie der LIKE-Operator für boole'sche Ausdrücke. Da „schwammige” Suchausdrücke eine spezielle Art von boole'schen Ausdrücken sind, können einzelne Suchbegriffe mit UND-, ODER- und NICHT-Operatoren kombiniert werden."/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text="separate\t–––→\tFindet nicht nur „separat” und „seperat”, sondern auch „separieren” und „separiert”."/>
+		<res id="4" text="zimmer\t\t–––→\tFindet nicht nur „Zimmer”, sondern auch „Zimmerer” und „Glimmer”."/>
+	</dialog>
+	<dialog id="236" name="IDD_EXPR_WIZ_MULTILINE_REGEX" caption="Mehrzeilige Regex">
+		<res id="1" text="Mehrzeilige Regex findet reguläre Ausdrücke über mehrere Zeilen."/>
+		<res id="2" text="Beispiele:"/>
+		<res id="3" text=".{0,20}gedanke.{0,20}"/>
+		<res id="4" text="findet das Wort „Gedanke” zusammen mit bis zu 20 Zeichen beiderseits, einschließlich der Zeichen auf führenden/nachfolgenden Zeilen."/>
+	</dialog>
+	<dialog id="180" name="IDD_DATES" caption="Datumsangaben">
+		<res id="1" text="Alles zurücksetzen"/>
+		<res id="2" text="&amp;Geändert:"/>
+		<res id="3" text="Nach:"/>
+		<res id="4" text="Kalender anzeigen …"/>
+		<res id="5" text="Vor:"/>
+		<res id="6" text="Kalender anzeigen …"/>
+		<res id="7" text="&amp;Erstellt:"/>
+		<res id="8" text="Nach:"/>
+		<res id="9" text="Kalender anzeigen …"/>
+		<res id="10" text="Vor:"/>
+		<res id="11" text="Kalender anzeigen …"/>
+		<res id="12" text="&amp;Letzter Zugriff:"/>
+		<res id="13" text="Nach:"/>
+		<res id="14" text="Kalender anzeigen …"/>
+		<res id="15" text="Vor:"/>
+		<res id="16" text="Kalender anzeigen …"/>
+	</dialog>
+	<dialog id="193" name="IDD_ADVANCEDTAB" caption="Erweiterte">
+		<res id="1" text="Datei-Hash-erstellen"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+		<res id="6" text="Regulärer Ausdruck"/>
+		<res id="7" text="&amp;Perl-kompatibel"/>
+		<res id="8" text="&amp;Klassisch"/>
+		<res id="9" text="Active Scripting"/>
+		<res id="10" text="Einstellungen …"/>
+	</dialog>
+	<dialog id="145" name="IDD_EXTENSIONS" caption="Komprimierte Dateien">
+		<res id="1" text=""/>
+		<res id="2" text="Wählen Sie die Dateiformate aus, die Sie durchsuchen möchten:"/>
+		<res id="3" text="Einstellungen …"/>
+		<res id="4" text="&amp;Keine"/>
+		<res id="5" text="&amp;Alle"/>
+	</dialog>
+	<dialog id="179" name="IDD_CHECKVERSION" caption="Auf Aktualisierungen überprüfen">
+		<res id="1" text="Auf Aktualisierungen prüfen …"/>
+		<res id="2" text=""/>
+		<res id="3" text="Weblinks:"/>
+		<res id="4" text="Herunterladen:"/>
+		<res id="5" text="https://www.mythicsoft.com/%app_name%/download"/>
+		<res id="6" text="Versionsgeschichte: "/>
+		<res id="7" text="https://www.mythicsoft.com/%app_name%/history"/>
+		<res id="8" text="Automatisch nach Updates suchen"/>
+		<res id="9" text="Schließen"/>
+	</dialog>
+	<dialog id="191" name="IDD_FAVOURITE_SEARCH" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Statisch"/>
+	</dialog>
+	<dialog id="192" name="IDD_FAVOURITE_ADD" caption="Favoriten hinzufügen">
+		<res id="1" text=""/>
+		<res id="2" text="Diese Suche zu Favoriten hinzufügen."/>
+		<res id="3" text="&amp;Beschreibung:"/>
+		<res id="4" text="&amp;Markierungen:"/>
+		<res id="5" text="&amp;Hinzufügen"/>
+		<res id="6" text="Abbrechen"/>
+	</dialog>
+	<dialog id="3539" name="IDD_MULTIFOLDER" caption="Mehrere Ordner">
+		<res id="1" text="Jeden Ordner durch direktes Tippen in eine neue Zeile eintragen, durch Hinzufügen aus der Auswahlliste, oder mittels Durchsuchen."/>
+		<res id="2" text="&amp;Zuletzt verwendet"/>
+		<res id="3" text=""/>
+		<res id="4" text="&amp;Hinzufügen"/>
+		<res id="5" text="&amp;Ausschließen"/>
+		<res id="6" text="&amp;Makros:"/>
+		<res id="7" text=""/>
+		<res id="8" text="&amp;Hinzufügen"/>
+		<res id="9" text="&amp;Ausschließen"/>
+		<res id="10" text="Or&amp;dner durchsuchen:"/>
+		<res id="11" text="&amp;Durchsuchen …"/>
+		<res id="12" text="Auszuschließende &amp;Ordner:"/>
+		<res id="13" text="&amp;Durchsuchen …"/>
+		<res id="14" text="&amp;Einschlussfilter:"/>
+		<res id="15" text="&amp;Ausschlussfilter:"/>
+		<res id="16" text="Übernehmen"/>
+		<res id="17" text="Abbrechen"/>
+	</dialog>
+	<dialog id="3523" name="IDD_FILEVIEWER_FIND" caption="">
+		<res id="1" text="Suchen:"/>
+		<res id="2" text="l"/>
+		<res id="3" text="Weiter"/>
+		<res id="4" text="Zurück"/>
+		<res id="5" text="Hervorheben:"/>
+		<res id="6" text=""/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text="l"/>
+		<res id="11" text="Weiter"/>
+		<res id="12" text="Weiter"/>
+		<res id="13" text="Hervorhebungsfarbe der Originalsuche"/>
+		<res id="14" text="Hervorhebungsfarbe der letzten Suche"/>
+		<res id="15" text="" t="e"/>
+		<res id="16" text="" t="e"/>
+	</dialog>
+	<dialog id="3521" name="IDD_ACTION_PROGRESS" caption="Aktion:">
+		<res id="1" text="Abbrechen"/>
+		<res id="2" text=""/>
+		<res id="3" text="Status"/>
+	</dialog>
+	<dialog id="5550" name="IDD_GENERAL_LOCALIZATION" caption="">
+		<res id="1" text="Bitte angeben, welche Sprache Sie verwenden möchten:"/>
+		<res id="2" text="• Änderungen werden erst nach einem Neustart wirksam"/>
+	</dialog>
+	<dialog id="5551" name="IDD_SINGLE_CONFIG" caption="Lokalisierungseinstellungen">
+		<res id="1" text="OK"/>
+		<res id="2" text="Abbrechen"/>
+	</dialog>
+	<dialog id="5562" name="IDD_EDITHISTORY_DIALOG" caption="Edit History">
+		<res id="1" text="Verlauf" t="e"/>
+		<res id="2" text="Elemente:" t="e"/>
+		<res id="3" text="Alles &amp;löschen …" t="g"/>
+		<res id="4" text="OK" t="e"/>
+		<res id="5" text="Abbrechen" t="e"/>
+	</dialog>
+	<menu id="322" name="IDR_MENU_REFRESHINDEX">
+		<res id="1" text=""/>
+		<res id="2" text="&amp;Index aktualisieren"/>
+		<res id="3" text="&amp;Index neu aufbauen"/>
+	</menu>
+	<menu id="328" name="IDR_INDEXLIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="Index bearbeiten …\tEnter"/>
+		<res id="3" text="Index löschen …\tDel"/>
+		<res id="4" text="Neuen Index erstellen …\tIns"/>
+		<res id="5" text="Index aktualisieren"/>
+		<res id="6" text="Index neu aufbauen"/>
+		<res id="7" text="Indizierung abbrechen"/>
+	</menu>
+	<menu id="340" name="IDR_SCHEDULELIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="Zeitplan ändern …"/>
+		<res id="3" text="Zeitplan entfernen …"/>
+		<res id="4" text="Neuer Zeitplan …"/>
+	</menu>
+	<menu id="329" name="IDR_INDEXMGR_MENU">
+		<res id="1" text="&amp;Datei"/>
+		<res id="2" text="&amp;Neuen Index erstellen …"/>
+		<res id="3" text="B&amp;eenden"/>
+		<res id="4" text="Neuer &amp;Zeitplan Zeitplan entfernen …"/>
+		<res id="10" text="&amp;Bearbeiten"/>
+		<res id="11" text="Index bea&amp;rbeiten …"/>
+		<res id="12" text="Index en&amp;tfernen …"/>
+		<res id="13" text="Index &amp;aktualisieren"/>
+		<res id="14" text="Index &amp;neu aufbauen"/>
+		<res id="15" text="Indi&amp;zierung abbrechen"/>
+		<res id="20" text="&amp;Hilfe"/>
+		<res id="21" text="&amp;Über die Indexverwaltung …"/>
+		<res id="22" text="&amp;Fehlerbericht erstellen …"/>
+	</menu>
+	<menu id="5512" name="IDR_FILTERLIST_CONTEXTMENU">
+		<res id="1" text="Auflisten"/>
+		<res id="2" text="&amp;Bearbeiten …"/>
+		<res id="3" text="&amp;Löschen"/>
+	</menu>
+	<menu id="5513" name="IDR_LICENSELIST_CONTEXTMENU">
+		<res id="1" text="Liste"/>
+		<res id="2" text="&amp;Nutzungsrecht zurückziehen"/>
+	</menu>
+	<menu id="150" name="IDR_VIEWERMENU_SPECIALIZATION">
+		<res id="6" text="&amp;Datei speichern"/>
+		<res id="7" text="Datei speichern &amp;unter …"/>
+	</menu>
+	<menu id="149" name="IDR_SHAREDMENU">
+		<res id="1" text="&amp;Datei"/>
+		<res id="2" text="&amp;Neue Suche …"/>
+		<res id="3" text="Neue &amp;leere Suche"/>
+		<res id="4" text="&amp;Kriteriendatei (*.srf) öffnen …"/>
+		<res id="5" text="&amp;Schließen"/>
+		<res id="6" text="Kriterien s&amp;peichern"/>
+		<res id="7" text="Kriterien speichern &amp;als …"/>
+		<res id="8" text="&amp;Suchergebnisliste"/>
+		<res id="9" text="&amp;Gegenwärtige Auswahl suchen"/>
+		<res id="10" text="&amp;Ergebnisse exportieren …"/>
+		<res id="12" text="&amp;Vorschau drucken"/>
+		<res id="13" text="&amp;Druckeinrichtung …"/>
+		<res id="14" text="Neueste Datei"/>
+		<res id="15" text="&amp;Beenden"/>
+		<res id="16" text="Be&amp;arbeiten"/>
+		<res id="17" text="&amp;Zeilenumbruch"/>
+		<res id="18" text="&amp;Schriftart festlegen …"/>
+		<res id="19" text="&amp;Hervorhebungsfarbe festlegen …"/>
+		<res id="20" text="&amp;Innerhalb der Datei suchen …"/>
+		<res id="21" text="&amp;Suchen …"/>
+		<res id="22" text="&amp;Weitersuchen"/>
+		<res id="23" text="&amp;Vorheriges Suchen"/>
+		<res id="24" text="&amp;Original hervorheben"/>
+		<res id="25" text="&amp;Aktuelles hervorheben"/>
+		<res id="26" text="Al&amp;le auswählen"/>
+		<res id="27" text="&amp;Öffnen"/>
+		<res id="28" text="&amp;In Explorer-Fenster öffnen …"/>
+		<res id="29" text="&amp;Pfad mit Namen in die Zwischenablage kopieren"/>
+		<res id="30" text="&amp;Kopieren"/>
+		<res id="31" text="&amp;Ausschneiden"/>
+		<res id="32" text="&amp;Löschen"/>
+		<res id="33" text="&amp;Umbenennen"/>
+		<res id="34" text="&amp;Eigenschaften …"/>
+		<res id="35" text="&amp;Anzeigen"/>
+		<res id="36" text="&amp;Favoriten"/>
+		<res id="37" text="&amp;Symbolleiste"/>
+		<res id="38" text="&amp;Statusleiste"/>
+		<res id="39" text="&amp;Fehlerbericht"/>
+		<res id="40" text="&amp;Sortieren nach …"/>
+		<res id="41" text="&amp;Dateiname"/>
+		<res id="42" text="&amp;Ort"/>
+		<res id="43" text="&amp;Größe"/>
+		<res id="44" text="&amp;Typ"/>
+		<res id="45" text="&amp;Datum"/>
+		<res id="46" text="&amp;Textvorschau …"/>
+		<res id="47" text="&amp;Vorherige Datei"/>
+		<res id="48" text="&amp;Weiter"/>
+		<res id="49" text="&amp;Vorschau …"/>
+		<res id="50" text="&amp;Extragroße Symbole"/>
+		<res id="51" text="&amp;Große Symbole"/>
+		<res id="52" text="&amp;Mittelgroße Symbole"/>
+		<res id="53" text="&amp;Kleine Symbole"/>
+		<res id="54" text="&amp;Zurück zur Hauptansicht"/>
+		<res id="55" text="&amp;Zurück"/>
+		<res id="56" text="Weiterleiten"/>
+		<res id="57" text="&amp;Suchen"/>
+		<res id="58" text="&amp;Starten"/>
+		<res id="59" text="&amp;Pause"/>
+		<res id="60" text="&amp;Stopp"/>
+		<res id="61" text="&amp;Extras"/>
+		<res id="62" text="&amp;Dienstprogramm zum Testen regulärer Ausdrücke …"/>
+		<res id="63" text="&amp;Suchverlauf bereinigen …"/>
+		<res id="64" text="&amp;Editoreinstellungen …"/>
+		<res id="65" text="&amp;Einstellungen …"/>
+		<res id="66" text="&amp;Shell-Integration …"/>
+		<res id="67" text="&amp;Fenster"/>
+		<res id="68" text="&amp;Inhaltsansicht"/>
+		<res id="69" text="&amp;Rechts anheften"/>
+		<res id="70" text="&amp;Unten anheften"/>
+		<res id="71" text="Anzeigen"/>
+		<res id="72" text="&amp;Überlappend"/>
+		<res id="73" text="&amp;Neben- bzw. Untereinander anordnen"/>
+		<res id="74" text="&amp;Symbole anordnen"/>
+		<res id="75" text="&amp;Fokus wechseln"/>
+		<res id="76" text="&amp;Suchkriterien"/>
+		<res id="77" text="&amp;Dateiliste"/>
+		<res id="78" text="&amp;Inhaltsansicht"/>
+		<res id="79" text="&amp;Aktueller Tab"/>
+		<res id="80" text="&amp;Zusammenfassung"/>
+		<res id="81" text="&amp;Treffer"/>
+		<res id="82" text="&amp;Text"/>
+		<res id="83" text="&amp;Miniaturansichten"/>
+		<res id="84" text="&amp;Favoriten"/>
+		<res id="85" text="&amp;Fehlerbericht"/>
+		<res id="86" text="&amp;Aktivierreihenfolge"/>
+		<res id="87" text="&amp;Optimiert"/>
+		<res id="88" text="&amp;Traditionelles Links nach Rechts"/>
+		<res id="89" text="&amp;Hilfe"/>
+		<res id="90" text="&amp;Inhalt …"/>
+		<res id="91" text="&amp;Befehlszeilen-Parameter …"/>
+		<res id="92" text="Nach &amp;Aktualisierungen suchen …"/>
+		<res id="93" text="&amp;Über %APP_NAME% …"/>
+		<res id="94" text="S&amp;uche speichern …"/>
+		<res id="95" text="&amp;Arbeitsbereich speichern …"/>
+		<res id="96" text="&amp;Alle schließen"/>
+		<res id="97" text="Alle &amp;Textfenster schließen"/>
+		<res id="98" text="Alle schließen, &amp;außer aktive Suchanfragen"/>
+		<res id="99" text="&amp;Technische Hilfe anfordern …"/>
+		<res id="100" text="&amp;Fehlerbericht erstellen …"/>
+		<res id="101" text="&amp;Lizenzschlüssel …"/>
+		<res id="102" text="Alle schließen, &amp;außer aktive Suchanfragen"/>
+		<res id="103" text="&amp;Menüleiste"/>
+		<res id="104" text="&amp;Berichte"/>
+		<res id="105" text="&amp;Filterleiste"/>
+		<res id="106" text="&amp;Such-Prozesse"/>
+		<res id="107" text="&amp;Such-Prozesse"/>
+		<res id="108" text="&amp;Experte"/>
+		<res id="109" text="&amp;Einfacher Nutzer"/>
+		<res id="110" text="&amp;Indexsuche"/>
+		<res id="111" text="&amp;Index verwalten …"/>
+		<res id="112" text="&amp;Suchkriterien"/>
+		<res id="113" text="&amp;Spalten auswählen …"/>
+		<res id="114" text="&amp;Lizenzart ändern …"/>
+		<res id="115" text="&amp;Aktualisieren …"/>
+		<res id="116" text="&amp;Zoom"/>
+		<res id="117" text="Zoom &amp;In"/>
+		<res id="118" text="Zoom &amp;Out"/>
+		<res id="119" text="&amp;Lizenz verwalten …"/>
+	</menu>
+	<menu id="170" name="IDR_SHAREDMENU_LITE" copyid="149"/>
+	<menu id="148" name="IDR_CONTENTSVIEWMENU">
+		<res id="1" text="Inhaltsansicht"/>
+		<res id="2" text="In der Registerkarte „Text” öffnen"/>
+		<res id="3" text="In neuem Fenster öffnen …"/>
+		<res id="4" text="In externem Editor öffnen …"/>
+		<res id="5" text="In Visual Studio öffnen …"/>
+		<res id="6" text="Ergebnisse Exportieren …"/>
+		<res id="7" text="Zeilenumbruch"/>
+		<res id="8" text="Kopieren"/>
+		<res id="9" text="Alle erweitern"/>
+		<res id="10" text="Alle reduzieren"/>
+		<res id="11" text="Rechts Anheften"/>
+		<res id="12" text="Unten Anheften"/>
+		<res id="13" text="Inhaltsansicht ausblenden"/>
+	</menu>
+	<menu id="186" name="IDR_MENU_PLACEHOLDER">
+		<res id="1" text="Leer"/>
+	</menu>
+	<menu id="194" name="IDR_FAVOURITES_MENU">
+		<res id="1" text="SuchMenü"/>
+		<res id="2" text="Öffnen"/>
+		<res id="3" text="In neuem Fenster öffnen"/>
+		<res id="4" text="Bearbeiten"/>
+		<res id="5" text="Löschen"/>
+	</menu>
+	<menu id="114" name="IDR_FILELOTYPE">
+		<res id="1" text="Platzhalter"/>
+	</menu>
+	<menu id="107" name="IDR_FILEVIEWER">
+		<res id="1" text="Platzhalter"/>
+	</menu>
+	<menu id="200" name="IDR_FILTERMENU">
+		<res id="1" text="Filter"/>
+		<res id="2" text="Suchfilter aktivieren"/>
+		<res id="3" text="Suchfilter deaktivieren"/>
+		<res id="4" text="Einstellungen …"/>
+	</menu>
+	<menu id="3522" name="IDR_FILEVIEWER_CONTEXTMENU">
+		<res id="1" text="Inhaltsansicht"/>
+		<res id="2" text="&amp;Zeilenumbruch"/>
+		<res id="3" text="Kopieren"/>
+		<res id="4" text="In neuem Fenster öffnen …"/>
+		<res id="5" text="In externem Editor öffnen …"/>
+		<res id="6" text="In Visual Studio öffnen …"/>
+		<res id="7" text="Suchen"/>
+		<res id="8" text="Weitersuchen"/>
+		<res id="9" text="Vorheriges suchen"/>
+		<res id="10" text="Original hervorheben"/>
+		<res id="11" text="Aktuelles hervorheben"/>
+		<res id="12" text="Schriftsatz festlegen …"/>
+		<res id="13" text="Datei"/>
+		<res id="14" text="Erneut suchen"/>
+		<res id="15" text="Neue Suche"/>
+	</menu>
+	<menu id="3526" name="IDR_REPORTVIEW_CONTEXTMENU">
+		<res id="1" text="Berichte"/>
+		<res id="2" text="Kopieren"/>
+		<res id="3" text="Alle auswählen"/>
+		<res id="4" text="Aktualisieren"/>
+	</menu>
+	<menu id="3507" name="IDR_IMAGESIZES_MENU">
+		<res id="1" text="Größe"/>
+		<res id="2" text="Extragroße Symbole"/>
+		<res id="3" text="Große Symbole"/>
+		<res id="4" text="Mittelgroße Symbole"/>
+		<res id="5" text="Kleine Symbole"/>
+		<res id="6" text="Vorschau"/>
+	</menu>
+	<menu id="3547" name="IDR_SEARCHTASKS_CONTEXTMENU">
+		<res id="1" text="Abbrechen"/>
+		<res id="2" text="Pfad kopieren"/>
+		<res id="3" text="Hier durchsuchen …"/>
+	</menu>
+	<menu id="3548" name="IDR_LISTHEADER_CONTEXTMENU">
+		<res id="1" text="Kopfzeile"/>
+		<res id="2" text="Spalten auswählen …"/>
+	</menu>
+	<string id="4" type="IndexManager">
+		<res id="1" text="Fügt einen neuen oder vorhandenen Index hinzu\nIndex hinzufügen"/>
+		<res id="2" text="Entfernt oder löscht dauerhhaft einen Index\nIndex entfernen oder löschen"/>
+		<res id="3" text="Ermöglicht das Bearbeiten der Index-Parameter\nIndex bearbeiten"/>
+		<res id="4" text="Aktualisieren Sie den Index mit allen Änderungen, die aufgetreten sein können\nIndex aktualisieren"/>
+		<res id="5" text="Index vollständig neu aufbauen\nIndex neu erstellen"/>
+		<res id="6" text="Indexerstellung abbrechen\nAbbrechen"/>
+		<res id="7" text="Liste aktualisieren\nListe aktualisieren"/>
+		<res id="8" text="Neuen Zeitplan hinzufügen\nZeitplan hinzufügen"/>
+		<res id="9" text="Zeitplan bearbeiten\nZeitplan bearbeiten"/>
+		<res id="10" text="Zeitplan löschen\nZeitplan löschen"/>
+		<res id="11" text="Mit dem Zeitplan verbundenen Indizes bearbeiten\nIndexliste bearbeiten"/>
+	</string>
+	<string id="3" type="InternalViewer">
+		<res id="37" text="Aktuelle Datei speichern\nDatei speichern"/>
+	</string>
+	<string id="1" type="Resource">
+		<res id="1" text="Bereit"/>
+		<res id="2" text="Nach Sounddatei durchsuchen"/>
+		<res id="3" text="Sounddatei wiedergeben"/>
+		<res id="4" refid="3"/>
+		<res id="5" text="Ordner suchen"/>
+		<res id="6" text="Pfad zur Sounddatei"/>
+		<res id="7" refid="2"/>
+		<res id="8" refid="6"/>
+		<res id="9" refid="5"/>
+		<res id="10" refid="5"/>
+		<res id="11" refid="5"/>
+		<res id="12" refid="5"/>
+		<res id="13" text="Ordner in Explorer öffnen"/>
+		<res id="14" refid="13"/>
+		<res id="15" text="Einstellung"/>
+		<res id="16" text="Inhaltsansicht"/>
+		<res id="18" text="Verzeichnissuche"/>
+		<res id="20" text="Erweiterungen-"/>
+		<res id="21" text="%APP_NAME%"/>
+		<res id="22" text="SDI_ONLY\nSuche\nNeue Suche\nSuchkriterien (*.srf)\n.srf\nFileLocatorPro.Suchkriterien\n%APP_NAME% Suchkriterien"/>
+		<res id="23" text="Eine oder mehrere der ausgewählten Dateien sind zusammengesetzte Dateien und werden nicht gelöscht werden. Möchten Sie fortfahren?"/>
+		<res id="24" text="Lizenzschlüssel ist abgelaufen. Bitte erwerben Sie einen neuen Schlüssel oder installieren Sie eine ältere Version des Produkts. Ältere Produktversionen sind im Bereich „MyAccount” der Mythicsoft Website (www.mythicsoft.com) verfügbar."/>
+		<res id="25" text="Wechseln zu einer vorherigen Suche wird aktuelle Suche einstellen. Möchten Sie fortfahren?"/>
+		<res id="26" text="FileLocatorPro"/>
+		<res id="27" refid="1"/>
+		<res id="34" text="Neue Suche erstellen, beruhend auf letzter Suche\nNeue Suche, beruhend auf letzter Suche"/>
+		<res id="35" text="Eine Suchkriteriendatei öffnen\nÖffnen"/>
+		<res id="36" text="Aktives Dokument schließen\nSchließen"/>
+		<res id="37" text="Aktuelle Suchkriterien speichern\nKriterien speichern"/>
+		<res id="38" text="Aktives Dokument unter einem neuen Namen speichern\nSpeichern Unter"/>
+		<res id="39" text="Druckeinstellungen ändern\nSeiteneinrichtung"/>
+		<res id="40" text="Drucker wechseln und Druckoptionen ändern\nDruckeinrichtung"/>
+		<res id="41" text="Druckt die ausgewählten Suchergebnisse\nDrucken"/>
+		<res id="42" text="Seiten vollständig anzeigen\nDruckvorschau"/>
+		<res id="43" text="Programminformationen, Versionnummer und Urheberrecht anzeigen\nBetreff"/>
+		<res id="44" text="Anwendung beenden; veranlasst Speicherung von Dokumenten\nBeenden"/>
+		<res id="45" text="Dieses Suche öffnen"/>
+		<res id="46" refid="45"/>
+		<res id="47" refid="45"/>
+		<res id="48" refid="45"/>
+		<res id="49" refid="45"/>
+		<res id="50" refid="45"/>
+		<res id="51" refid="45"/>
+		<res id="52" refid="45"/>
+		<res id="53" refid="45"/>
+		<res id="54" refid="45"/>
+		<res id="55" refid="45"/>
+		<res id="56" refid="45"/>
+		<res id="57" refid="45"/>
+		<res id="58" refid="45"/>
+		<res id="59" refid="45"/>
+		<res id="60" refid="45"/>
+		<res id="61" text="Zum nächsten Fensterbereich wechseln\nNächster Bereich"/>
+		<res id="62" text="Zum vorherigen Fensterbereich zurückwechseln\nVorheriger Bereich"/>
+		<res id="63" text="Ein anderes Fenster für das aktive Dokument öffnen\nNeues Fenster"/>
+		<res id="64" text="Ordnet Symbole am unteren Fensterrand an\nOrdnen Symbole"/>
+		<res id="65" text="Ordnet Fenster so an, dass sie sich überlappen\nÜberlappen Fenster"/>
+		<res id="66" text="Ordnet Fenster als sich nicht überlappende Kacheln an\nNebeneinander Fenster"/>
+		<res id="67" refid="66"/>
+		<res id="68" text="Teilt das aktive Fenster in Bereiche auf\nAufteilen"/>
+		<res id="69" text="Auswahl löschen\nLöschen"/>
+		<res id="70" text="Alles löschen\nAlle Löschen"/>
+		<res id="71" text="Aktuelle Auswahl in Zwischenablage kopieren\nKopieren"/>
+		<res id="72" text="Auswahl ausschneiden und in Zwischenablage legen\nAusschneiden"/>
+		<res id="73" text="Angegebenen Text suchen\nSuchen"/>
+		<res id="74" text="Zwischenablageninhalt einfügen\nEinfügen"/>
+		<res id="75" text="Letzte Aktion wiederholen\nWiederholen"/>
+		<res id="76" text="Angegebenen Text durch anderen Text ersetzen\nErsetzen"/>
+		<res id="77" text="Ganzes Dokument auswählen\nAlle Auswählen"/>
+		<res id="78" text="Letzte Aktion rückgängig machen\nRückgängig"/>
+		<res id="79" text="Vorherige rückgängig gemachte Aktion wiederholen\nWiederholen"/>
+		<res id="80" text="Symbolleiste anzeigen oder ausblenden\nUmschalten Symbolleiste"/>
+		<res id="81" text="Statusleiste anzeigen oder ausblenden\nUmschalten Statusleiste"/>
+		<res id="82" text="Fenstergröße ändern"/>
+		<res id="83" text="Fensterposition ändern"/>
+		<res id="84" text="Fenster zu einem Symbol reduzieren"/>
+		<res id="85" text="Fenster zu voller Größe vergrößern"/>
+		<res id="86" text="Zum nächsten Dokumentfenster wechseln"/>
+		<res id="87" text="Zum vorherigen Dokumentfenster wechseln"/>
+		<res id="88" text="Schließt aktives Fenster und veranlasst Speichern der Dokumente"/>
+		<res id="89" text="Fenster zur Normalgröße wiederherstellen"/>
+		<res id="90" text="Taskliste aktivieren"/>
+		<res id="91" text="Dieses Fenster aktivieren"/>
+		<res id="92" text="Druckvorschaumodus schließen\nVorschau Abbrechen"/>
+		<res id="93" text="Dieser Bereich zeigt alle in der Dateilistenansicht ausgewählten Dateien an. Wenn Sie nach Inhalten suchen dann zeigt dieser Bereich ebenfalls in den ausgewählten Dateien gefundene Zeilen an. Für verfügbare Optionen verwenden Sie die rechte Maustaste um das Kontextmenü hervorzubringen."/>
+		<res id="94" text="%s ist kein gültiges Suchverzeichnis. Der Verzeichnisname muss ein gültiger Pfad sein, inklusive Festplattenbuchstabe (z.B. C:\Windows) ODER ein richtig erstellter UNC Name (z.B. \\ARBEITSSTATION\Geteilter_Pfad)."/>
+		<res id="95" text="\nSuchenNach\nSuchen\nDateien Suchen (*.sea)\n.sea\nSuchenNach.Dokument\nDokument Suchen"/>
+		<res id="96" text="Kopiert die Pfade der zurzeit ausgewählten Datei(en) in die Zwischenablage\nDateipfade Kopieren"/>
+		<res id="97" text="Öffnet Eigenschaftendialog für zurzeit ausgewählte Datei(en)\nEigenschaften Öffnen"/>
+		<res id="98" text="Öffnet die zurzeit ausgewählte Datei \nDatei Öffnen"/>
+		<res id="99" text="Testet reguläres Ausdrucksmodul"/>
+		<res id="100" text="Wortumbruch bei Inhaltsansicht ein-/ausschalten\nWortumbruch"/>
+		<res id="101" text="Schriftart für Inhaltsansicht festlegen\nSchriftart Festlegen"/>
+		<res id="102" text="Suche ausführen\nStarten"/>
+		<res id="103" text="Aktuelle Suche beenden\nBeenden"/>
+		<res id="104" text="Hilfe öffnen\nHilfe"/>
+		<res id="105" text="Wählt alle Dateien in der Dateilistenansicht aus\nAlle auswählen"/>
+		<res id="106" text="Exportiert Suchergebnisse\nErgebnisse exportieren"/>
+		<res id="107" text="Löscht aktuelle Auswahl\nLöschen"/>
+		<res id="108" text="Löscht Historienelemente in den drop down Listen\nHistorieLöschen"/>
+		<res id="109" text="Sucheinstellungen ändern\nEinstellungen"/>
+		<res id="110" text="System ging der Speicherplatz während der Suche aus. Versuchen Sie die Suche erneut mit der Option „Einphasige Suche”. Falls das Problem weiterhin anhält kontaktieren Sie den technischen Support."/>
+		<res id="111" text="System traf auf eine unerwartete Ausnahme während der Suche. Falls das Problem weiterhin anhält kontaktieren Sie den technischen Support."/>
+		<res id="112" text="Bereit"/>
+		<res id="113" text="Bitte suchen Sie erneut um die Wirkung der neuen Einstellungen zu sehen."/>
+		<res id="114" text="Unterordner ebenfalls durchsuchen"/>
+		<res id="115" text="Nach einzelnem Ordner suchen"/>
+		<res id="116" text="Kalender öffnen • Datum und Uhrzeit festlegen"/>
+		<res id="117" text="Kalender öffnen • Datum und Uhrzeit festlegen"/>
+		<res id="118" text="Nach mehreren Ordnern suchen"/>
+		<res id="119" text="DATEI_ANZEIGE\nAnzeige\nAnzeige\n\n\nDateiLokator.DateiAnzeige\nADateiLokator DateiAnzeige"/>
+		<res id="120" text="Favoritenliste anzeigen/ausblenden\nFavoriten"/>
+		<res id="121" text="Editoreinstellungen ändern\nEditor Einstellungen"/>
+		<res id="122" text="Pfad der aktuell ausgewählten Datei(en) in einer Explorer-Instanz öffnen\nExplorer öffnen"/>
+		<res id="123" text="Systemintegrationseinstellungen ändern\nSystemeinstellungen"/>
+		<res id="124" text="Mehrfachen Erweiterungsdialog öffnen"/>
+		<res id="125" text="Wechselt zu vorherigen Suchergebnissen\nVorheriges Suchergebnis"/>
+		<res id="126" text="Wechselt zu nächsten Suchergebnissen\nNächstes Suchergebnis"/>
+		<res id="127" text="Aktuelle Auswahl umbenennen\nUmbenennen"/>
+		<res id="128" text="Wechselt zu vorherigen Suchergebnissen\nVorheriges Suchergebnis"/>
+		<res id="129" text="Wechselt zu nächsten Suchergebnissen\nNächstes Suchergebnis"/>
+		<res id="130" text="Dateigröße größer als …"/>
+		<res id="131" text="Dateigröße kleiner als …"/>
+		<res id="132" text="Mehr Informationen zum ausgewählten Ausdruckstyp"/>
+		<res id="133" text="Ausdruckstyp"/>
+		<res id="134" refid="133"/>
+		<res id="135" refid="133"/>
+		<res id="136" text="Gibt an, ob der Inhalt zeilenweise oder über die gesamte Datei abgeglichen werden soll."/>
+		<res id="137" text="Gibt an, ob der Dateinamenausdruck ein NICHT-Ausdruck ist"/>
+		<res id="138" text="Inhaltsanzeigebereich anzeigen oder ausblenden\nInhaltsanzeige anzeigen/ausblenden"/>
+		<res id="139" text="Suche anhalten\nAnhalten"/>
+		<res id="140" text="Neue Suche mit Standardeinstellungen erstellen\nNeue leere Suche"/>
+		<res id="141" text="Neue Suche beruhend auf aktuellen Kriterien erstellen\nNeue Suche mit aktuellen Kriterien"/>
+		<res id="142" text="Text innerhalb der Datei suchen\nSuchen …"/>
+		<res id="143" text="Zur nächsten hervorgehobenen Zeile des gefundenen Texts scrollen\nZum nächsten scrollen"/>
+		<res id="144" text="Zur vorherigen hervorgehobenen Zeile des gefundenen Texts scrollen \nZur vorherigen scrollen"/>
+		<res id="145" text="Hervorhebung des aktuellen Fundes umschalten\nHervorhebung umschalten"/>
+		<res id="146" text="Vorheriger Treffer"/>
+		<res id="147" text="Nächster Treffer"/>
+		<res id="148" text="Vorherige Datei"/>
+		<res id="149" text="Nächste Datei"/>
+		<res id="150" text="Zurzeit ausgewählten Favoriten bearbeiten\nFavoriten bearbeiten"/>
+		<res id="151" text="Zurzeit ausgewählten Favoriten löschen\nFavoriten löschen"/>
+		<res id="152" text="Zur Hauptansicht der Auswahl zurückkehren\nZurück zur Hauptansicht"/>
+		<res id="153" text="Suchfilter"/>
+		<res id="154" text="Dieses Wort suchen"/>
+		<res id="155" text="Aktuelle Suche als neuen Favoriten hinzufügen\nFavoriten hinzufügen"/>
+		<res id="156" text="Favoritenliste aktualisieren\nAktualisieren"/>
+		<res id="166" text="Suchen"/>
+		<res id="169" text="Bibliothek rendern"/>
+		<res id="170" text="Skript-Aufgaben"/>
+		<res id="172" text="Suchen"/>
+		<res id="175" text="Datei"/>
+		<res id="177" text="Inhalt suchen"/>
+		<res id="201" text="Sie müssen den Dateinamen als „Regulären Ausdruck” im Tab „Optionen” festlegen bevor Sie den Dateinamen als regulären Ausdruck angeben können."/>
+		<res id="202" text="Den gefundenen Inhalt anzeigen, indem Sie eine oder mehrere Dateien im rechten Fensterbereich auswählen.\n\nHinweis: Um diesen Bereich zu drucken, klicken Sie im Menü „Datei” auf „Drucken”."/>
+		<res id="204" text="Sie müssen den Inhalt auf „Regulärer Ausdruck” im Tab „Optionen” setzen, bevor Sie den enthaltenden Text als regulären Ausdruck angeben können."/>
+		<res id="205" text="Ausdrucksassistent stellt nicht alle Funktionalitäten von regulären Ausdrücken bereit aber wenn Sie wissen wie man reguläre Ausdrücke erstellt können Sie jeden regulären Ausdruck selbst angeben. Fügen Sie einfach Ihren regulären Ausdruck als Typ „Phrase” in die „Gefolgt von” Liste hinzu und schalten Sie Escapes auf der nächsten Assistentseite aus (was ermöglicht wird sobald Sie beginnen Sonderzeichen einzugeben)."/>
+		<res id="206" text="Hervorhebungsfarbe für gefundenen Text festlegen\nFarbe festlegen"/>
+		<res id="207" text="Inhaltsansichtsdaten speichern\nInhaltsansicht speichern"/>
+		<res id="208" text="Einphasensuche für effiziente Inhaltssuche von großen Laufwerken umschalten (keine Statusanzeige)\nEinphasensuche umschalten(für große Laufwerke)"/>
+		<res id="209" text="Inhaltsansicht unter der Dateilistenansicht andocken\nUnten andocken"/>
+		<res id="210" text="Inhaltsansicht rechts von der Dateilistenansicht andocken\n Nach Rechts andocken"/>
+		<res id="211" text="Hilfsdialog für Befehlszeilenparameter anzeigen\nBefehlszeile Parmameter"/>
+		<res id="212" text="Mehr Informationen zu den ausgewählten Ausdruckstypen"/>
+		<res id="213" text="Innerhalb der aktuellen Ergebnisliste suchen\nInnerhalb aktueller Ergebnisliste suchen"/>
+		<res id="214" text="Inhaltsanzeigebereich anzeigen/ausblenden\nInhaltsanzeige umschalten"/>
+		<res id="215" text="Innerhalb der zur Zeit ausgewählten Dateien suchen\nSuchen innerhalb aktueller Auswahl"/>
+		<res id="216" text="Hervorhebung der Originalsuche umschalten\nHervorhebung umschalten"/>
+		<res id="217" text="Ordner in dem alle Favoriten gespeichert sind öffnen\nFavoritenordner öffnen"/>
+		<res id="218" text="Alle Fenster/Tabs schließen\nAlle schließen"/>
+		<res id="219" text="Alle Fenster/Tabs schließen, außer die aktive Suchanfrage\nAlle, außer die aktive Suche schließen"/>
+		<res id="220" text="Alle offenen Dateifenster schließen\nClose all files"/>
+		<res id="221" text="Aktuelle Such-Sitzung speichern\nSuch-Sitzung speichern"/>
+		<res id="222" text="Alle Such-Sitzungen im Arbeitsbereich speichern\nArbeitsbereich speichern"/>
+		<res id="224" text="Bericht aktualisieren\nAktualisieren"/>
+		<res id="225" text="Bericht in die Zwischenablage kopieren\nKopieren"/>
+		<res id="226" text="Bericht in eine Datei speichern\nBericht speichern"/>
+		<res id="227" text="Bericht drucken\nBericht drucken"/>
+		<res id="228" text="Felder und Layout des Berichts bearbeiten\nBerichtsoptionen"/>
+		<res id="229" text="Menüleiste ein-/ausblenden\nMenüleiste ein-/ausblenden"/>
+		<res id="230" text="Primäre Suchtreffer hervorheben"/>
+		<res id="231" text="Sekundäre Suchtreffer hervorheben"/>
+		<res id="232" text="Liste in die Zwischenablage kopieren"/>
+		<res id="233" text="Liste aus Datei laden"/>
+		<res id="234" text="Liste in Datei speichern"/>
+		<res id="235" text="Liste leeren"/>
+		<res id="236" text="Liste der Fehlermeldungen in die Zwischenablage kopieren\nIn die Zwischenablage kopieren"/>
+		<res id="237" text="Liste der Fehlermeldungen als Datei speichern\nFehlermeldungen speichern"/>
+		<res id="238" refid="13"/>
+		<res id="239" refid="13"/>
+		<res id="240" refid="5"/>
+		<res id="241" text="Indexeinstellungen bearbeiten"/>
+		<res id="242" text="Index durchsuchen"/>
+		<res id="243" text="Aufwertung auf Pro-Funktionen\nAufwerten"/>
+		<res id="244" text="Vergrößern" t="g"/>
+		<res id="245" text="Herauszoomen" t="g"/>
+		<res id="246" text="Suchkriterientyp" t="g"/>
+		<res id="247" text="Suche starten" t="g"/>
+		<res id="248" text="Suche beenden" t="g"/>
+		<res id="249" text="Datum größer als" t="g"/>
+		<res id="250" text="Datum weniger als" t="g"/>
+	</string>
+	<string id="2" type="Text">
+		<res id="1" text="Welchen Ordner möchten Sie auswählen?"/>
+		<res id="2" text="Ungültiges Verzeichnis"/>
+		<res id="3" text="&lt; 1 Sek"/>
+		<res id="4" text="In die Zwischenablage kopieren"/>
+		<res id="5" text="Lokale Datenträger"/>
+		<res id="6" text="Boolesch"/>
+		<res id="7" text="Reiner Text"/>
+		<res id="8" text="Regulärer Ausdruck"/>
+		<res id="9" text="Dateimaske"/>
+		<res id="10" text="Datei-Hash"/>
+		<res id="11" text="Boole'scher RegEx"/>
+		<res id="12" text="Ganzes Wort"/>
+		<res id="13" text="Ausdruck"/>
+		<res id="14" text="(ungültiger Ausdruckstyp)"/>
+		<res id="15" text="Hoch"/>
+		<res id="16" text="Normal (Standard)"/>
+		<res id="17" text="Niedrig"/>
+		<res id="18" text="Standard (Standard)"/>
+		<res id="19" text="Standard"/>
+		<res id="20" text="Schwarz"/>
+		<res id="21" text="Blau"/>
+		<res id="22" text="Klassisch"/>
+		<res id="23" text="Silber"/>
+		<res id="24" text="Oben"/>
+		<res id="25" text="ASCII"/>
+		<res id="26" text="Unicode"/>
+		<res id="27" text="Unicode (Big Endian)"/>
+		<res id="28" text="UTF-8 (Ohne BOM)"/>
+		<res id="29" text="Text"/>
+		<res id="30" text="Kommagetrennt (CSV)"/>
+		<res id="31" text="Tabulatorgetrennt"/>
+		<res id="32" text="Öffnen der Dateiliste nicht möglich: "/>
+		<res id="34" text="Dateiordner"/>
+		<res id="35" text="Ein"/>
+		<res id="36" text="Aus"/>
+		<res id="37" text="SVN/HG/GIT/CVS Metadatenordner ausschließen"/>
+		<res id="38" text="Programmdateiordner ausschließen"/>
+		<res id="39" text="!$(ProgrammDateien)"/>
+		<res id="40" text="Windowssystemdateien ausschließen"/>
+		<res id="41" text="!$(WindowsOrdner)"/>
+		<res id="42" text="Papierkorb ausschließen"/>
+		<res id="43" text="Verlauf wird gelöscht"/>
+		<res id="44" text="Erweiterte"/>
+		<res id="45" text="Dateilisten"/>
+		<res id="46" text="Ordner"/>
+		<res id="47" text="Verknüpfungspunkte"/>
+		<res id="48" text="Prozesse/Priorität"/>
+		<res id="49" text="XSLT-Prozessor"/>
+		<res id="50" text="Editor"/>
+		<res id="51" text="Standardeditor"/>
+		<res id="52" text="Externer Editor"/>
+		<res id="53" text="Interne Ansicht"/>
+		<res id="54" text="Erstellung von XSL Parser mit angegebener Prog Id nicht möglich."/>
+		<res id="55" text="Anwendungsdateien (*.exe)|*.exe|Alle Dateien (*.*)|*.*||"/>
+		<res id="56" text="Ein Fehler ist beim Öffnen des Dateibrowsers aufgetreten. Bitte vergewissern Sie sich, dass der Dateiname gültig ist bevor Sie suchen."/>
+		<res id="57" text="Dies wird alle Erweiterungseinstellungen zu ihrem ursprünglichen Installationszustand zurücksetzen. Sind Sie sicher?"/>
+		<res id="58" text="Erweiterungen werden zurückgesetzt"/>
+		<res id="59" text="Bitte geben Sie einen Ton an der wiedergegeben werden soll wenn eine Datei gefunden wird"/>
+		<res id="60" text="Bitte geben Sie einen Ton an der wiedergegeben werden soll wenn eine Suche endet"/>
+		<res id="61" text="Tonwiedergabe nicht möglich. Die Sounddatei könnte beschädigt oder nicht in einem gültigen waveform Format sein"/>
+		<res id="62" text="Bitte geben Sie eine gültige Sounddatei zur Wiedergabe an."/>
+		<res id="63" text="Sounddateien (*.wav)|*.wav|Alle Dateien (*.*)|*.*||"/>
+		<res id="64" text="Suche nach Sounddatei nicht möglich."/>
+		<res id="65" text="Typ"/>
+		<res id="66" text="Status"/>
+		<res id="67" text="Zugehöriger IFilter"/>
+		<res id="68" text="Die Anwendung ist für den Einsatz von einem USB-Gerät konfiguriert. Shell-Einstellungen können nicht festgelegt werden."/>
+		<res id="69" text="Ausdrücke"/>
+		<res id="70" text="Boole'sche Ausdrücke"/>
+		<res id="71" text="Dateimaske"/>
+		<res id="72" text="Reguläre Ausdrücke"/>
+		<res id="73" text="Datei-Hash-Werte"/>
+		<res id="74" text="UTF-8 Standardformat"/>
+		<res id="75" text="Dateiendungen"/>
+		<res id="76" text="Allgemein"/>
+		<res id="77" text="Verlauf"/>
+		<res id="78" text="Anzeige"/>
+		<res id="79" text="Zeichenverarbeitung"/>
+		<res id="80" text="Shell-Integration"/>
+		<res id="81" text="Töne/Warnhinweise"/>
+		<res id="82" text="Benutzeroberfläche"/>
+		<res id="83" text="Konfigurationsinformationen anwenden"/>
+		<res id="84" text="Dies wird alle Konfigurationseinstellungen zu den Standardinstallationen zurücksetzen. Sind Sie sicher?"/>
+		<res id="85" text="Einstellungen werden zurückgesetzt"/>
+		<res id="86" text="Beschreibung"/>
+		<res id="87" text="Filterwert"/>
+		<res id="88" text="Dateidaten werden abgerufen …"/>
+		<res id="89" text="Einzelbenutzerlizenz"/>
+		<res id="90" text="Organisierung Multisite Lizenz (bis zu %s Benutzer)"/>
+		<res id="91" text="Organisierung Multisite Lizenz (unbegrenzte Benutzer)"/>
+		<res id="92" text="Multiuserlizenz: %s Lizenzen"/>
+		<res id="93" text="Lizenzschlüssel: \r\n%s"/>
+		<res id="94" text="Unterstützung/kostenlose Aktualisierungen bis: %s\r\n"/>
+		<res id="95" text="Probelizenz ist abgelaufen. Sie MÜSSEN sich registrieren um dieses Produkt legal weiternutzen zu können."/>
+		<res id="96" text="Probelizenz. Verbleibende Tage: %d."/>
+		<res id="97" text="Groß-/Kleinschreibung beachten ➜"/>
+		<res id="98" text="Dauerhafte Suchfilter ➜"/>
+		<res id="99" text="Größe (Bytes)"/>
+		<res id="100" text="Größe (KB)"/>
+		<res id="101" text="Größe (MB)"/>
+		<res id="102" text="Größe (GB)"/>
+		<res id="103" text="Fertig"/>
+		<res id="104" text="NEUE VERSION VERFÜGBAR"/>
+		<res id="105" text="Kein Update gefunden."/>
+		<res id="106" text="Neue Suche"/>
+		<res id="107" text="Anzeigen"/>
+		<res id="108" text="Öffnung der Kriteriendatei nicht möglich"/>
+		<res id="109" text="Die Suche über die Befehlszeile war nicht erfolgreich."/>
+		<res id="110" text="Datei(en) gefunden"/>
+		<res id="111" text=" ist kein anerkanntes Datum/Zeitformat."/>
+		<res id="112" text="Keine Dateien ausgewählt."/>
+		<res id="113" text="Suchstatistiken"/>
+		<res id="114" text="Zusammenfassung"/>
+		<res id="115" text="Miniaturansichten"/>
+		<res id="116" text="Fehler"/>
+		<res id="117" text="Geändertes Datum"/>
+		<res id="118" text="Erstelltes Datum"/>
+		<res id="119" text="Zuletzt verwendetes Datum"/>
+		<res id="120" text="Jetzt"/>
+		<res id="121" text="Beginn der Minute"/>
+		<res id="122" text="Beginn der Stunde"/>
+		<res id="123" text="Beginn des Tages"/>
+		<res id="124" text="Ende der Minute"/>
+		<res id="125" text="Ende der Stunde"/>
+		<res id="126" text="Ende des Tages"/>
+		<res id="133" text="%s ist kein gültiges Zeitformat"/>
+		<res id="134" text="Unerwarteter Ausdruckstyp"/>
+		<res id="135" text="Unbekannt"/>
+		<res id="136" text="Beliebiges Zeichen"/>
+		<res id="137" text="Das angegebene Zeichen"/>
+		<res id="138" text="Jedwelche dieser Zeichen"/>
+		<res id="139" text="Beliebiges Zeichen außer diesen"/>
+		<res id="140" text="Der Begriff"/>
+		<res id="141" text="Leerzeichen"/>
+		<res id="142" text="Beliebige Ziffer"/>
+		<res id="143" text="Beliebiger Buchstabe"/>
+		<res id="144" text="Kein oder einmal"/>
+		<res id="145" text="Kein oder viele Male"/>
+		<res id="146" text="Nur einmal"/>
+		<res id="147" text="Ein- oder viele Male"/>
+		<res id="148" text="Gefolgt von"/>
+		<res id="149" text="Häufigkeit"/>
+		<res id="150" text="Dateinamensausdrucksassistent"/>
+		<res id="151" text="Favoriten bearbeiten"/>
+		<res id="152" text="Speichern"/>
+		<res id="153" text="Wird angezeigt: %s of %s"/>
+		<res id="154" text="Wird geladen …"/>
+		<res id="155" text="Geladen: %s"/>
+		<res id="156" text="Unbekannter Favorit"/>
+		<res id="157" text="Vorbereitung der Favoritensuche fehlgeschlagen: "/>
+		<res id="158" text="Favoriten werden gelesen"/>
+		<res id="159" text="Favorit wird gelöscht"/>
+		<res id="160" text="Favorit wird bearbeitet"/>
+		<res id="161" text="Markierungen"/>
+		<res id="162" text="Suchen in"/>
+		<res id="163" text="Favorit wird gespeichert"/>
+		<res id="164" text="Favoritenordner wird geöffnet"/>
+		<res id="165" text="Abrufen der Suchkriterien fehlgeschlagen. Hinzufügen fehlgeschlagen."/>
+		<res id="166" text="Bitte öffnen oder erstellen Sie eine Suche die Sie den Favoriten hinzufügen möchten."/>
+		<res id="167" text="Die Probezeit ist abgelaufen. Sie müssen entweder eine Lizenz erwerben oder zum kostenlosen (reduziertem) Funktionsumfang wechseln."/>
+		<res id="168" text="Konfigurationseinstellungen werden gewechselt"/>
+		<res id="169" text="Der Lizenzschlüssel wurde entweder gelöscht oder ist nicht mehr verfügbar. Bitte kontaktieren Sie support@mythicsoft.com für weitere Informationen."/>
+		<res id="170" text="Konfigurationsdatei kann nicht geladen werden"/>
+		<res id="171" text="Konfigurationsdatei des Verlaufs kann nicht geladen werden"/>
+		<res id="172" text=""/>
+		<res id="173" text="Datei kann nicht geöffnet werden"/>
+		<res id="174" text="Datei wird geöffnet"/>
+		<res id="175" text="Dateiöffnung in Visual Studio fehlgeschlagen. Für mehr Informationen bitte überprüfen Sie die Logdatei."/>
+		<res id="176" text="Kein Externer Editor angegeben. Möchten Sie jetzt einen angeben?"/>
+		<res id="178" text="Fehler beim Starten des externen Editors.\r\n\r\n%s"/>
+		<res id="179" text="Suche konnte nicht geladen werden"/>
+		<res id="180" text="Ein Wert für Befehlszeilenkennzeichen „-%s” wird erwartet aber nicht geliefert"/>
+		<res id="181" text="Befehlszeilenkennzeichen „-%s” ist ungültig"/>
+		<res id="182" text="Ungültiges Datumsformat: %s"/>
+		<res id="183" text="Unerwarteter Befehlszeilenparameter: %s"/>
+		<res id="184" text="Suche wird ausgeführt …"/>
+		<res id="185" text="Suche wird gestartet"/>
+		<res id="186" text="●● LADEN FEHLGESCHLAGEN ●●\r\n\r\nLaden der Datei nicht möglich: %s\r\n\r\nBitte vergewissern Sie sich, dass Sie die entsprechenden Sicherheitsberechtigungen zum Lesen der Datei haben.\r\n\r\nFalls das Problem weiterhin anhält bitte kontaktieren Sie technischen Support für mehr Unterstützung mit diesem Fehlertext sowie alle Logdateien gespeichert in dem Ordner:\r\n%s\r\n\r\nMehr Informationen:\r\n%s\r\n"/>
+		<res id="189" text="Dateiöffnung nicht möglich."/>
+		<res id="190" text="Beendet"/>
+		<res id="191" text="Abgeschlossen"/>
+		<res id="192" text="Fehler sind während der Suche aufgetreten. Falls das Problem weiter anhält bitte kontaktieren Sie technischen Support"/>
+		<res id="193" text="Inhaltsanzeige"/>
+		<res id="194" text="Auswahl wird gewechselt"/>
+		<res id="195" text="Suchergebnisvorgang wird gespeichert"/>
+		<res id="197" text="%s in "/>
+		<res id="198" text="Die Kriteriendatei konnte nicht geladen werden. Bitte prüfen Sie, ob es sich um eine gültige Kriteriendatei handelt."/>
+		<res id="199" text="Sie sind gerade dabei einen Favoriten zu überscheiben. Sind Sie sicher?"/>
+		<res id="200" text="%s %s gefunden."/>
+		<res id="201" text="Suche abgeschlossen - %s %s gefunden."/>
+		<res id="202" text="Ansicht"/>
+		<res id="203" text="Favoriten"/>
+		<res id="204" text="Fehlerbericht"/>
+		<res id="205" text="Angehalten"/>
+		<res id="206" text="Suchzeit"/>
+		<res id="208" text="Aktuelle Suche"/>
+		<res id="209" text="Originalsuche"/>
+		<res id="210" text="Angezeigt"/>
+		<res id="211" text="Gefunden"/>
+		<res id="212" text="Wird angezeigt"/>
+		<res id="213" text="Ausgewählt"/>
+		<res id="215" text="Element"/>
+		<res id="216" text="Gefunden"/>
+		<res id="218" text="%s MB"/>
+		<res id="219" text="%s Dateien gefunden"/>
+		<res id="220" text="Eine neue Version dieser Anwendung ist verfügbar. Möchten Sie die Details kennenlernen?"/>
+		<res id="221" text="Registriert! Vielen Dank, dass Sie sich die Zeit zum Registrieren genommen haben"/>
+		<res id="222" text="Lizenzschlüssel ist ungültig. Bitte vergewissern Sie sich, dass die Lizenzinformationen GENAUSO eingegeben werden wie sie in der Lizenzsierungsmail angezeigt werden."/>
+		<res id="225" text="Bitte einen gültigen Dateinamen zum Speichern der Ergebnisse angeben."/>
+		<res id="226" text="Bitte eine gültige Transformationsdatei angeben."/>
+		<res id="227" text="SuchErgebnisse."/>
+		<res id="228" text="Alle Dateien (*.*)|*.*||"/>
+		<res id="229" text="Datei im benutzerdefinierten Format ist ungültig. Bitte vergewissern Sie sich, dass die datei existiert und dass Sie die entsprechenden Sicherheitsberechtigungen haben um die Datei zu öffnen.\r\n\r\n"/>
+		<res id="230" text="XSL (*.xsl)|*.xsl|Alle Dateien (*.*)|*.*||"/>
+		<res id="231" text="Öffnen des Dateiauswahldialogs nicht möglich: %d"/>
+		<res id="232" text="Test erfolgreich."/>
+		<res id="233" text="Gesucht"/>
+		<res id="234" text="Geprüft"/>
+		<res id="235" text="Status"/>
+		<res id="236" text="Nicht gestartet"/>
+		<res id="237" text="Pause"/>
+		<res id="238" text="Weiter"/>
+		<res id="240" text="%sMb von %sMb"/>
+		<res id="242" text="Wird gefiltert …"/>
+		<res id="243" text="Suche wird ausgeführt …"/>
+		<res id="244" text="Starten"/>
+		<res id="245" text="Ausdruck wurde im Beispieltext gefunden.\r\nAusdruck beginnt: %d\r\nAusdruckslänge: %d\r\nGefunden: %s"/>
+		<res id="246" text="Leere Ergebnisliste."/>
+		<res id="247" text="Ausdruck NICHT im Text gefunden."/>
+		<res id="248" text="Lizenzdateidatei ist beschädigt."/>
+		<res id="249" text="Lizenzinformationen nicht gefunden."/>
+		<res id="250" text="Lizenzschlüssel abgelaufen."/>
+		<res id="251" text="%APP_NAME% Tastaturhaken"/>
+		<res id="256" text="Das Installationsprotokoll konnte nicht gestartet werden, bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an den technischen Support."/>
+		<res id="258" text="Kopieren"/>
+		<res id="259" text="Pfad mit Namen in die Zwischenablage kopieren"/>
+		<res id="260" text="Ausschneiden"/>
+		<res id="261" text="Löschen"/>
+		<res id="262" text="In Explorer-Fenster öffnen …"/>
+		<res id="263" text="Eigenschaften"/>
+		<res id="264" text="Innerhalb von Auswahl suchen"/>
+		<res id="265" text="Innerhalb von Ergebnisliste suchen"/>
+		<res id="266" text="%s Inhaltsansicht"/>
+		<res id="267" text="Ausblenden"/>
+		<res id="268" text="\r\nFolgende Suchverzeichnisse waren nicht gültig:\r\n\r\n"/>
+		<res id="269" text="\r\nDer Verzeichnisname muss ein gültiger Pfad sein und den Laufwerkbuchstaben mit einschließen (z.B. C:\Windows) ODER ein richtig erstellter UNC-Name (e.g. \\ARBEITSSTATION\Geteilter_Ordner)."/>
+		<res id="272" text="Makros wird geladen"/>
+		<res id="273" text="Parsingskript fehlgeschlagen:\r\n"/>
+		<res id="274" text="Problem beim Erstellen eines Skriptmodul. "/>
+		<res id="275" text="(Kein Betreff)"/>
+		<res id="276" text="(unbekannt)"/>
+		<res id="277" text="Erstellt"/>
+		<res id="278" text="Kontakt"/>
+		<res id="279" text="Ort"/>
+		<res id="280" text="Datum"/>
+		<res id="281" text="Von"/>
+		<res id="282" text="Bis"/>
+		<res id="283" text="(leer)"/>
+		<res id="284" text="(Empfängerliste konnte nicht geladen werden - Kontaktieren Sie Techsupport für mehr Informationen)\r\n"/>
+		<res id="285" text="Empfangen von"/>
+		<res id="286" text="Gesendet"/>
+		<res id="287" text="Betreff"/>
+		<res id="288" text="\r\nFehler beim Nachrichtenaufbau: "/>
+		<res id="289" text=""/>
+		<res id="290" text="Attribute"/>
+		<res id="291" text="Dateigröße"/>
+		<res id="292" text="Ignorierte Erweiterungen"/>
+		<res id="294" text="Fehler gemeldet aber keine Details geliefert."/>
+		<res id="295" text="Inhaltsvalidierungsskript fehlgeschlagen mit: "/>
+		<res id="296" text="Sek"/>
+		<res id="297" text="Std"/>
+		<res id="298" text="Min"/>
+		<res id="299" text="Heute"/>
+		<res id="300" text="Beginn der Woche"/>
+		<res id="301" text="Beginn des Monats"/>
+		<res id="302" text="Beginn des Jahres"/>
+		<res id="303" text="Ende der Woche"/>
+		<res id="304" text="Ende des Monats"/>
+		<res id="305" text="Ende des Jahres"/>
+		<res id="306" text="Tag"/>
+		<res id="307" text="Woche"/>
+		<res id="308" text="Monat"/>
+		<res id="309" text="Jahr"/>
+		<res id="310" text="Dateien werden abgerufen …"/>
+		<res id="311" text="Elementnamenvalidationsskript wird erstellt: %s"/>
+		<res id="312" text="Elementnamenvalidationsskript fehlgeschlagen mit: "/>
+		<res id="313" text="Ja"/>
+		<res id="314" text="Nein"/>
+		<res id="315" text="Dateinamensausdruck"/>
+		<res id="316" text="Dateiname - Groß-/Kleinschreibung beachten"/>
+		<res id="317" text="Inhaltssuche"/>
+		<res id="318" text="Enthaltener Text"/>
+		<res id="319" text="Inhaltsausdruck"/>
+		<res id="320" text="Inhalt - Groß-/Kleinschreibung beachten"/>
+		<res id="321" text="Datei ausdehnen"/>
+		<res id="322" text="Suchen in"/>
+		<res id="323" text="Unterordner"/>
+		<res id="324" text="Suchen in Ausdruck"/>
+		<res id="325" text="Geändert Nach"/>
+		<res id="326" text="Geändert Bevor"/>
+		<res id="327" text="Zuletzt verwendet nach"/>
+		<res id="328" text="Zuletzt verwendet bevor"/>
+		<res id="329" text="Erstellt nach"/>
+		<res id="330" text="Erstellt vor"/>
+		<res id="331" text="Größer als"/>
+		<res id="332" text="Weniger als"/>
+		<res id="333" text="Enthaltener „Active Scripting”-Text wird nicht von Boole'schem Suchen unterstützt die die Ausdrücke in der ganzen Datei vergleichen. Wechseln Sie zu „Zeile für Zeile” in der Registerkarte „Optionen”."/>
+		<res id="334" text="Inhaltssuchwert"/>
+		<res id="335" text="Dateinamensfilter"/>
+		<res id="336" text="Kein Skripttyp angegeben"/>
+		<res id="337" text="Skriptdatei existiert nicht oder kann nicht geöffnet werden."/>
+		<res id="338" text="Skriptmodul nicht angegeben"/>
+		<res id="339" text="Skriptpfad:"/>
+		<res id="340" text="Modul:"/>
+		<res id="341" text="Benutzerdefinierte Parameter:"/>
+		<res id="342" text="Archiv"/>
+		<res id="343" text="Komprimiert"/>
+		<res id="344" text="Verschlüsselt"/>
+		<res id="345" text="Ordner"/>
+		<res id="346" text="Offline"/>
+		<res id="347" text="Schreibgeschützt"/>
+		<res id="348" text="Selten"/>
+		<res id="349" text="System"/>
+		<res id="350" text="Wird initialisiert …"/>
+		<res id="351" text="Abgeschlossen."/>
+		<res id="352" text="Dateien werden aus Archive extrahiert …"/>
+		<res id="353" text="%s ist kein gültiger Pfad auf diesem Computer."/>
+		<res id="354" text="Ungültige Anwendung des NAHE Operators. Kein vorhergehender Operand gefunden."/>
+		<res id="355" text="Suchergebnisse"/>
+		<res id="356" text="Wird abgebrochen …"/>
+		<res id="357" text="Vorgang wird abgebrochen …"/>
+		<res id="358" text="Eine oder mehrere der ausgewählten Dateien sind zusammengesetzte Dateien und werden nicht gelöscht werden. Möchten Sie fortfahren?"/>
+		<res id="359" text="Löschen nicht erfolgreich abgeschlossen. Einige der Dateien wurden nicht gelöscht."/>
+		<res id="360" text="Menüoptionen werden ausgeführt"/>
+		<res id="361" text="Warnung: Vorgang bei %d der verarbeiteten Dateien fehlgeschlagen. Siehe Protokoll für mehr Details."/>
+		<res id="362" text="Dateidaten werden extrahiert"/>
+		<res id="363" text="Zugang zu allen Elementen für Drag Drop fehlgeschlagen "/>
+		<res id="364" text="Dateidaten werden generiert"/>
+		<res id="365" text="Vorgang wird mit aktueller Auswahl ausgeführt"/>
+		<res id="366" text="Warnung: Vorgang (%s) bei %d der ausgewählten Dateien fehlgeschlagen. Siehe Protokoll für mehr Details."/>
+		<res id="367" text="Standard"/>
+		<res id="368" text="Kontextmenü wird ausgeführt"/>
+		<res id="369" text="Seite %d von %d"/>
+		<res id="370" text=" … zusätzliche Zeilen abgeschnitten  …"/>
+		<res id="371" text="Name"/>
+		<res id="372" text="Ort"/>
+		<res id="373" text="Geändert"/>
+		<res id="374" text="Erstellt"/>
+		<res id="375" text="Zuletzt verwendet"/>
+		<res id="376" text="Treffer"/>
+		<res id="377" text="Unbekannt"/>
+		<res id="378" text="CFileListCtrl::loadList() fehlgeschlagen"/>
+		<res id="379" text="Dateiansichtsrahmen wird erstellt"/>
+		<res id="380" text="Suchzeichenfolge ist ungültig: \n%s"/>
+		<res id="381" text="Laden des Editors nicht möglich. Falls das Problem weiterhin besteht kontaktieren Sie technischen Support"/>
+		<res id="382" text="Datei"/>
+		<res id="383" text="Nachricht"/>
+		<res id="384" text="Größe"/>
+		<res id="385" text="Kleine Symbole"/>
+		<res id="386" text="Mittelgroße Symbole"/>
+		<res id="387" text="Große Symbole"/>
+		<res id="388" text="Extragroße Symbole"/>
+		<res id="389" text="Vorschau"/>
+		<res id="390" text="Zusammenfassungsbericht wird angezeigt"/>
+		<res id="391" text="Möchten Sie auch alle mit dieser Anwendung verbundenen Benutzerdaten entfernen?"/>
+		<res id="392" text="Benutzerdaten löschen"/>
+		<res id="393" text="Löschen fehlgeschlagen"/>
+		<res id="394" text="Dialogübersetzung nicht möglich"/>
+		<res id="395" text="Sind Sie sicher, dass Sie den Favoriten „%s” löschen möchten?"/>
+		<res id="396" text="%s-Skript ist ungültig.\n\nZusätzliche Informationen:\n\n%s"/>
+		<res id="397" text="Sind Sie sicher, dass Sie den Suchfilter „%s” löschen möchten?"/>
+		<res id="398" text="IFilter"/>
+		<res id="399" text="Unten"/>
+		<res id="400" regex="(start|begin)[a-z]*"/>
+		<res id="401" regex="heute"/>
+		<res id="402" regex="jetzt"/>
+		<res id="403" regex="sek.*"/>
+		<res id="404" regex="mi.*"/>
+		<res id="405" regex="mo.*"/>
+		<res id="406" regex="st.*"/>
+		<res id="407" regex="t.*"/>
+		<res id="408" regex="w.*"/>
+		<res id="409" regex="j.*"/>
+		<res id="410" regex="\b(heute)|(start|begin|end)[a-z]* *(?: +(?:der|des|dies[a-z]*))* +(w|mo|j)[a-z]*"/>
+		<res id="411" regex="\b(jetzt)|(start|begin|end)[a-z]* *(?: +(?:der|des))* +(mi|st|t)[a-z]*"/>
+		<res id="412" regex="([+-]) *([0-9]+) *(t|w|mo|j)[a-z]*"/>
+		<res id="413" regex="([+-]) *([0-9]+) *(sek|mi|st)[a-z]*"/>
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b"/>
+		<res id="415" text="B"/>
+		<res id="416" text="KB"/>
+		<res id="417" text="MB"/>
+		<res id="418" text="GB"/>
+		<res id="420" text="UND"/>
+		<res id="421" text="ODER"/>
+		<res id="422" text="NICHT"/>
+		<res id="423" text="NAHE"/>
+		<res id="424" text="WIE"/>
+		<res id="425" text="REGEX"/>
+		<res id="426" text="DOSEX"/>
+		<res id="427" text="ZEILEN"/>
+		<res id="428" text="DATEILISTE"/>
+		<res id="430" regex="AND|UND" case="1"/>
+		<res id="431" regex="OR|ODER" case="1"/>
+		<res id="432" regex="NOT|NICHT" case="1"/>
+		<res id="433" regex="(NEAR|NAHE)(:\d+)?" case="1"/>
+		<res id="434" regex="LIKE|WIE" case="1"/>
+		<res id="435" regex="REGEX(:\w*)?" case="1"/>
+		<res id="436" regex="DOSEX" case="1"/>
+		<res id="437" regex="(LINES?|ZEILEN):([^ ]*)?" case="1"/>
+		<res id="438" regex="FILELIST|DATEILISTE" case="1"/>
+		<res id="440" text="Sprachauswahl"/>
+		<res id="441" text="Nicht genügend Arbeitsspeicher, um eine neue Suche zu starten. Bitte schließen Sie vorherige Suchabfragen und/oder andere Anwendungen und versuchen Sie es erneut."/>
+		<res id="442" text="Abgeschnitten (um Arbeitsspeicher freizugeben)."/>
+		<res id="443" text="Because regular expressions work slightly differently than Wildcard expressions the result of the Expression Wizard may look different to what you are used to. e.g. The Wildcard expression 'filename.*' as a regular expression is '^filename\.*'."/>
+		<res id="444" text="Die Suche erfolgt zeilenweise durch die Datei und sucht nach allen Zeilen, die dem definierten Ausdruck entsprechen. Mit dem Ausdruck können Sie festlegen, wie die Zeile beginnen soll, gefolgt von dem, was sie enthalten soll, und wie sie enden soll."/>
+		<res id="445" text="Dateiname"/>
+		<res id="446" text="Zeile"/>
+		<res id="447" text="Öffnen"/>
+		<res id="448" text="Anhänge"/>
+		<res id="449" text="Angehalten (nicht genügend Arbeitsspeicher)"/>
+		<res id="450" text="Enthaltener Text"/>
+		<res id="451" text="Elemente"/>
+		<res id="452" text="Tage"/>
+		<res id="453" text="Wochen"/>
+		<res id="454" text="Monate"/>
+		<res id="455" text="Jahre"/>
+		<res id="456" text="Treffer"/>
+		<res id="457" text="Treffer"/>
+		<res id="458" text="Tabulatorgetrennt (Kalkulationstabelle)"/>
+		<res id="459" text="Einstellungen • %s"/>
+		<res id="460" text="Das ist die neueste Version der Anwendung"/>
+		<res id="461" text="Fehler beim Versuch, nach Updates suchen. Bitte überprüfen Sie die Protokolldatei für weitere Details."/>
+		<res id="462" text="Arbeitsbereich speichern"/>
+		<res id="463" text="Such-Sitzung speichern"/>
+		<res id="464" text="Arbeitsbereichsdateien (*.flwx)|*.flwx"/>
+		<res id="465" text="%APP_NAME%-Dateien (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf"/>
+		<res id="466" text="Suchkriterien (*.srf)|*.srf"/>
+		<res id="467" text="Alle Dateien (*.*)|*.*"/>
+		<res id="468" text="Arbeitsbereich laden"/>
+		<res id="469" text="Such-Sitzung laden"/>
+		<res id="470" text="Datei konnte nicht geladen werden"/>
+		<res id="471" text="Such-Sitzungs-Dateien (*.flsx)|*.flsx"/>
+		<res id="472" text="%s existiert bereits.\r\n\r\nMöchtes Sie sie ersetzen?"/>
+		<res id="473" text="Öffnende Klammer „(” für entsprechende schließende Klammer gefunden „)”. Verwenden Sie Anführungszeichen für bestimmten wörtlichen Text, z. B. &quot;endet)&quot;"/>
+		<res id="474" text="Schließende Klammer „)” für entsprechende öffnende Klammer gefunden „(”. Verwenden Sie Anführungszeichen für bestimmten wörtlichen Text, z.B. &quot;(beginnend&quot; oder &quot;Methode(&quot;\r\n\r\nPositionsfehler: %d\r\nText: %s"/>
+		<res id="475" text="Das Schlüsselwort „%s” konnte nicht erstellt werden. Bitte überprüfen Sie Dokumentation für die korrekte Verwendung des Schlüsselworts."/>
+		<res id="476" text="Ändern des Cache-Speicherorts löscht alle aktuell zwischengespeicherten Text. Möchten Sie fortsetzen?"/>
+		<res id="477" text="Datenbank des Zwischenspeichers konnte nicht gelöscht werden. Bitte prüfen Sie, dass keine weitere Instanzen der Anwendung geöffnet sind und versuchen Sie es anschließend erneut."/>
+		<res id="478" text="Berichte"/>
+		<res id="479" text="Tabellarisch"/>
+		<res id="480" text="Standard"/>
+		<res id="481" text="Dateiliste"/>
+		<res id="482" text="Inhalt"/>
+		<res id="483" text="Schlüsselwörter-Zusammenfassung"/>
+		<res id="484" text="HTML"/>
+		<res id="485" text="Die Windows-Shell konnte kein Kontextmenü für die ausgewählten Dateien erstellen. Möchten Sie fortsetzen mit einem eingeschränkten Kontextmenü?"/>
+		<res id="486" text="Frage"/>
+		<res id="487" text="Fehler"/>
+		<res id="488" text="Information"/>
+		<res id="489" text="Speicherverwaltung"/>
+		<res id="490" text="Zusammenfassung"/>
+		<res id="491" text="Nach Datei"/>
+		<res id="492" text="Alle Dateien"/>
+		<res id="493" text="Nur ausgewähle Dateien"/>
+		<res id="494" text="Alle"/>
+		<res id="495" text="Ausgewählte"/>
+		<res id="496" text="CSV"/>
+		<res id="497" text="Tab"/>
+		<res id="498" text="Schlüsselwort von Datei"/>
+		<res id="499" text="Dateiendung"/>
+		<res id="500" text="Anzahl"/>
+		<res id="501" text="Schlüsselwort-Name"/>
+		<res id="502" text="Ergebnis"/>
+		<res id="503" text="Ausgeblendet"/>
+		<res id="504" text="Vorher"/>
+		<res id="505" text="Danach"/>
+		<res id="506" text="Suchkriterien"/>
+		<res id="507" text="Der %s-Bericht ist nur gültig beim Suchen nach Dateiinhalt"/>
+		<res id="508" text="Schlüsselwort-Treffer"/>
+		<res id="509" text="Speichern fehlgeschlagen. Bitte achten Sie darauf, dass Sie die entsprechenden Berechtigungen zum Schreiben in die angegebene Datei und Ordner haben."/>
+		<res id="510" text="Bericht stornieren …"/>
+		<res id="511" text="Bericht wurde nicht abgeschlossen"/>
+		<res id="512" text="Fehler beim Erstellen des Berichts."/>
+		<res id="513" text="Bericht wird erstellt …"/>
+		<res id="514" text="Fortlaufende ID"/>
+		<res id="515" text="SeqID"/>
+		<res id="516" text="Fortlaufende ID (je Datei)"/>
+		<res id="517" text="Datei-SeqID"/>
+		<res id="518" text="Vollständiger Dateipfad"/>
+		<res id="520" text="Nur Ordner"/>
+		<res id="521" text="Nur Dateien"/>
+		<res id="522" text="Dokumente"/>
+		<res id="523" text="Musik"/>
+		<res id="524" text="Bilder"/>
+		<res id="525" text="Video"/>
+		<res id="526" text="Technikerlizenz: %s Lizenz(en)"/>
+		<res id="527" text="Serverlizenz: %s Lizenz(en)"/>
+		<res id="528" text="Vorrangig"/>
+		<res id="529" text="Zweitrangig"/>
+		<res id="530" text="Zeilennr."/>
+		<res id="531" text="Zeilennummer"/>
+		<res id="532" text="Filter"/>
+		<res id="533" text="Anwenden eines Filters auf die Suchergebnisse"/>
+		<res id="534" text="Keine Dateien/Ordner gefunden, die den Suchkriterien entsprechen"/>
+		<res id="535" text="Keine Ergebnisse entsprechen Spaltenfilter"/>
+		<res id="536" text="Suche wird ausgeführt …"/>
+		<res id="537" text="'%s' ist für diesen Ausdruckstyp ungültig"/>
+		<res id="538" text="Gemeldete Fehler"/>
+		<res id="539" text="Problem der laufende Aufgabe"/>
+		<res id="540" text="Ein Fehler ist aufgetreten. Wenn das Problem weiterhin besteht, kontaktieren Sie bitte den technischen Support."/>
+		<res id="541" text="Weitere Informationen"/>
+		<res id="542" text="Title"/>
+		<res id="543" text="Interpret"/>
+		<res id="544" text="Album"/>
+		<res id="545" text="Kommentar"/>
+		<res id="546" text="Genre"/>
+		<res id="547" text="Jahr"/>
+		<res id="548" text="Titel"/>
+		<res id="549" text="Länge: %s Sek."/>
+		<res id="550" text="Bitrate: %s Kbps"/>
+		<res id="551" text="Abtastrate: %s Hz"/>
+		<res id="552" text="Kanäle: %s"/>
+		<res id="553" text="Breite"/>
+		<res id="554" text="Höhe"/>
+		<res id="555" text="Beispiele"/>
+		<res id="556" text="Dokument"/>
+		<res id="557" text="Bild"/>
+		<res id="558" text="Gerätebezeichnung"/>
+		<res id="559" text="Gerätemodell"/>
+		<res id="560" text="Seite"/>
+		<res id="561" text="Seitenzahl"/>
+		<res id="562" text="Software"/>
+		<res id="563" text="Datum"/>
+		<res id="564" text="Künstler"/>
+		<res id="565" text="Rechner"/>
+		<res id="566" text="Titel"/>
+		<res id="567" text="Frame-Verzögerung: %s/100 s"/>
+		<res id="568" text="Schleifenanzahl"/>
+		<res id="569" text="Urheberrecht"/>
+		<res id="570" text="Belichtung: %s s"/>
+		<res id="571" text="Blende: F%s"/>
+		<res id="572" text="Belichtungsprogramm"/>
+		<res id="573" text="Normal"/>
+		<res id="574" text="Manuell"/>
+		<res id="575" text="Blendeneinstellung"/>
+		<res id="576" text="Verschlusszeit"/>
+		<res id="577" text="Kreativ"/>
+		<res id="578" text="Aktion"/>
+		<res id="579" text="Hochformat"/>
+		<res id="580" text="Querformat"/>
+		<res id="581" text="ISO-Empfindlichkeit"/>
+		<res id="582" text="Aufnahmezeitpunkt"/>
+		<res id="583" text="Blitz"/>
+		<res id="584" text="Kommentar"/>
+		<res id="585" text="Größe"/>
+		<res id="586" text="Bits pro Pixel"/>
+		<res id="587" text="Alphakanal"/>
+		<res id="588" text="„Nur Ordner”\t–––→\tBegrenzt die Suche ausschließlich auf Ordner, d. h. das keine Dateien zurückgegeben werden."/>
+		<res id="589" text="„Nur Dateien”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien, d. h. das keine Ordner zurückgegeben werden."/>
+		<res id="590" text="„Dokumente”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien mit Standard-Dokumenterweiterungen."/>
+		<res id="591" text="„Musik”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien mit Standard-Audio-Dateierweiterungen."/>
+		<res id="592" text="„Bilder”\t–––→\tBegrenzt die Suche ausschließlich auf Dateien mit Standard-Bilddateierweiterungen."/>
+		<res id="593" text="„Video”\t–––→\tbegrenzt die Suche ausschließlich auf Dateien mit Standard-Video-Dateierweiterungen."/>
+		<res id="600" text="Ausstehende Suche"/>
+		<res id="601" text="Fehler: Suche konnte nicht gestartet werden"/>
+		<res id="602" text="Ungekürzt"/>
+		<res id="603" text="In der Mitte kürzen"/>
+		<res id="604" text="Am Anfang kürzen"/>
+		<res id="605" text="Am Ende kürzen"/>
+		<res id="606" text="Gefundene Elementen in einen anderen Speicherort oder in ein ZIP-Archiv kopieren"/>
+		<res id="607" text="Speichern Sie die aktuelle Suchen-Sitzung oder den gesamten Arbeitsbereich in eine Datei, die dann zum erneuten Laden der Suchergebnisse in %APP_NAME% verwendet werden kann."/>
+		<res id="608" text="Exportieren Sie die Suchergebnisse in einem externen Format, z. B. Text, CSV, HTML, XML usw."/>
+		<res id="609" text="Jetzt kopieren"/>
+		<res id="610" text="Exportieren"/>
+		<res id="611" text="Flach"/>
+		<res id="612" text="Von der Wurzel"/>
+		<res id="613" text="Von erstem gemeinsamen Ordner"/>
+		<res id="614" text="Überschreiben"/>
+		<res id="615" text="Mit laufender Nummer anfügen"/>
+		<res id="616" text="Datei nicht kopieren"/>
+		<res id="617" text="Nur einzelne gefundene Elemente kopieren"/>
+		<res id="618" text="Übergeordneten E-Mail-Datei kopieren"/>
+		<res id="619" text="Duplikate kopieren"/>
+		<res id="620" text="Verknüpfung zum Original erstellen"/>
+		<res id="621" text="Fehler protokollieren"/>
+		<res id="622" text="Stopp"/>
+		<res id="623" text="Nach Aktion fragen"/>
+		<res id="624" text="Datei konnte nicht erstellt werden"/>
+		<res id="625" text="Kopieren von"/>
+		<res id="626" text="Fehlgeschlagene Dateien"/>
+		<res id="627" text="Fehlgeschlagene kopieren"/>
+		<res id="628" text="Erfolgreich kopierte Dateien"/>
+		<res id="629" text="Kopieren abgebrochen"/>
+		<res id="630" text="Speicherorte"/>
+		<res id="631" text="Doppelklick zum Bearbeiten"/>
+		<res id="632" text="Textdateien (*.txt)|*.txt|Alle Dateien (*.*)|*.*||"/>
+		<res id="633" text="Aktuelle Datei überschreiben?"/>
+		<res id="634" text="Skript-Aufgaben"/>
+		<res id="635" text="Durch Suchkriterien wurden %s Elemente von der Liste ausgeschlossen"/>
+		<res id="636" text="Ausgeschlossene Dateien"/>
+		<res id="637" text="Ungültiger Speicherort"/>
+		<res id="638" text="Aufgetretene Fehler"/>
+		<res id="639" text="Durchsuchen von Unterordnern wurde abgeschaltet"/>
+		<res id="640" text="Textfeld enthält ausschließlich Leerzeichen"/>
+		<res id="641" text="Warnhinweis"/>
+		<res id="642" text="Während der Suche erzeugte Warnungen"/>
+		<res id="643" text="ZIP-Archiv (*.zip)|*.zip|Alle Dateien (*.*)|*.*||"/>
+		<res id="644" text="Groß-/Kleinschreibung beachten von Dateinamen ist aktiviert"/>
+		<res id="645" text="Groß-/Kleinschreibung beachten von enthaltenenText ist aktiviert"/>
+		<res id="646" text="Nachrichtentext"/>
+		<res id="647" text="E-Mail"/>
+		<res id="648" text="Seite"/>
+		<res id="649" text="Massenkopieren-Bericht"/>
+		<res id="650" text="Datei wird gespeichert"/>
+		<res id="651" text="Floating-Lizenz: für bis zu %s gleichzeitige Nutzer"/>
+		<res id="652" text="%s Datei(en) konnte nicht durchsucht werden"/>
+		<res id="653" text="Klicken Sie hier, um Einzelheiten anzuzeigen."/>
+		<res id="654" text="Schweregrad"/>
+		<res id="655" text="Details"/>
+		<res id="656" text="Anfang des Pfades anzeigen"/>
+		<res id="657" text="Ende des Pfades anzeigen"/>
+		<res id="658" text="Suchwarnung wurde von %s Datei(en) gemeldet"/>
+		<res id="659" text="Mit voreingestellten Dateinamen"/>
+		<res id="660" text="GPS Daten"/>
+		<res id="661" text="Firmenlizenz für max. %s Nutzer"/>
+		<res id="662" text="Extrahieren"/>
+		<res id="663" text="Ziel"/>
+		<res id="664" text="Nichts kopiert - Dateien existieren bereits im Zielbereich"/>
+		<res id="665" text="Massenkopieren"/>
+		<res id="666" text="Suchergebnisse exportieren"/>
+		<res id="700" text="Mehrzeilige RegEx"/>
+		<res id="701" text="Experte"/>
+		<res id="702" text="Einfacher Nutzer"/>
+		<res id="703" text="Indexsuche"/>
+		<res id="704" text="&lt;Neuen Index erstellen …&gt;"/>
+		<res id="705" text="Kein Index ausgewählt. Bitte wählen Sie einen Index und versuchen Sie es erneut."/>
+		<res id="706" text="Ungültiger Index"/>
+		<res id="707" text="Neuer Index"/>
+		<res id="708" text="Synchronisieren von Ordnernamen mit Indexname"/>
+		<res id="709" text="Zeit"/>
+		<res id="710" text="Analyse"/>
+		<res id="711" text="Indiziert: %s • Nur Namen: %s • Fehler: %s • Ungültig: %s • Entfernt: %s • Unverändert: %s"/>
+		<res id="712" text="Indizierung jetzt starten"/>
+		<res id="713" text="Indexdetails"/>
+		<res id="714" text="Indexliste"/>
+		<res id="715" text="Index"/>
+		<res id="716" text="Indiziert"/>
+		<res id="717" text="Möchten Sie „%s” wirklich löschen?"/>
+		<res id="718" text="Index bereinigen"/>
+		<res id="719" text="Optimieren"/>
+		<res id="720" text="Speichern"/>
+		<res id="721" text=" …"/>
+		<res id="722" text="Index konnte nicht geladen werden"/>
+		<res id="723" text="Abgebrochen"/>
+		<res id="724" text="Spreicherort der Standard-Dokumente"/>
+		<res id="725" text="Dateiformate"/>
+		<res id="726" text="Indexgröße: %s • Indizierte Dateien: %s • Nur Namen: %s • Gesamt: %s"/>
+		<res id="727" text="Indexverwaltung"/>
+		<res id="728" text="Indizes werden derzeit aktualisiert.\nMöchten Sie alle Indizierungsprozesse abbrechen?"/>
+		<res id="729" text="Index kann nicht ausgeführt werden"/>
+		<res id="730" text="Binärdatei ignoriert"/>
+		<res id="731" text="Index ist schreibgeschützt."/>
+		<res id="732" text="Datei konnte nicht gesucht werden."/>
+		<res id="733" text="Primäre Suchmethode ist fehlgeschlagen, Rohdatensuche wird verwendet."/>
+		<res id="734" text="Suchbegriff sieht aus wie ein Dateilisten-Ausdruck, aber die Konfigurationsoption wird ausgeschaltet."/>
+		<res id="735" text="Dateiname sieht aus wie ein Dateilisten-Ausdruck, aber die Konfigurationsoption wird ausgeschaltet."/>
+		<res id="736" text="Suchausdruck wurde Zeile für Zeile bewertet, wie im Tab „Optionen” festgelegt."/>
+		<res id="737" text="Umgebende Zeilen"/>
+		<res id="738" text="Umgebende Zeilenmarkierung"/>
+		<res id="739" text="Trefferzeilen"/>
+		<res id="740" text="Kommata im Dateimaskenausdruck — war ein Semikolon beabsichtigt?"/>
+		<res id="741" text="Analysepunkt"/>
+		<res id="742" text="Aktualisierung erforderlich - Index-Einstellungen stimmen nicht überein"/>
+		<res id="743" text="Index unterstützt keine Groß-/Kleinschreibung-Suchvorgänge. Um diese Option zu aktivieren, müssen Sie den Index neu aufbauen, wobei Sie  das Beachten der Groß-/Kleinschreibung in der Suche aktiviert müssen."/>
+		<res id="744" text="Suche kann nicht gestartet werden"/>
+		<res id="745" text="Groß-/Kleinschreibung ist eingeschaltet"/>
+		<res id="746" text="Index ist veraltet, die Suche wurde mithilfe von alten Indexeinstellungen ausgeführt."/>
+		<res id="747" text="Treffer für Datei konnten nicht angezeigt werden."/>
+		<res id="748" text="Suche wurde vorzeitig abgebrochen"/>
+		<res id="749" text="Idex leeren"/>
+		<res id="750" text="Niemals"/>
+		<res id="751" text="Index ist leer, verwenden Sie den Index-Manager zum Erstellen eines neuen Indexes."/>
+		<res id="752" text="Binäre Dateien ausgeschlossen"/>
+		<res id="753" text="Eindeutige Schlüsselwörter"/>
+		<res id="754" text="Ungültiges Datum. Die Zeit für eine Systemdatei darf nicht vor 1601 liegen."/>
+		<res id="755" text="Datei wurde nur teilweise durchsucht, da die Anzahl der gefundenen Zeilen mehr als das angegebene Maximum übersteigt."/>
+		<res id="756" text="Fehler bei der Verarbeitung des FILELIST-Operators"/>
+		<res id="757" text="Farben"/>
+		<res id="758" text="Weitere …"/>
+		<res id="759" text="Such-Prozesse"/>
+		<res id="760" text="Aktion bestätigen"/>
+		<res id="761" text="Diese Meldung nicht erneut anzeigen"/>
+		<res id="762" text="Achtung: Große Datei"/>
+		<res id="763" text="Die ausgewählte Datei ist sehr groß und deren Öffnen könnte möglicherweise das Programm verlangsamen oder dazu führen das es nicht mehr reagiert."/>
+		<res id="764" text="•• Laden der Datei abgebrochen ••"/>
+		<res id="765" text="Mehr Details"/>
+		<res id="766" text="Weniger Details"/>
+		<res id="767" text="Damit diese Funktion funktioniert, muss die Anwendung Browsererweiterungen von Drittanbietern im Internet Explorer aktivieren und Sie müssen den Rechner neu starten, bevor sie wirksam wird. Möchten Sie fortfahren?"/>
+		<res id="768" text="Kein Index angegeben."/>
+		<res id="769" text="Keine Index-Operation angegeben."/>
+		<res id="770" text="Dauer (Sek.)"/>
+		<res id="771" text="Such-Prozesse"/>
+		<res id="772" text="Abbrechen"/>
+		<res id="773" text="Für diese Suchanfrage werden dezeit keine Dateiinhalte-Suchprozesse ausgeführt"/>
+		<res id="774" text="Es wurde kein zu indizierenden Datenträger oder Pfad angegeben. Bitte festlegen welcher Ort indiziert werden soll."/>
+		<res id="775" text="Es wurde kein Inhalt angeben, der indiziert werden soll. Bitte festlegen welche Dateien in den Index eingeschlossen werden sollen."/>
+		<res id="776" text="Index ist für Aktualisierungen von einer anderen Anwendung gesperrt."/>
+		<res id="777" text="Schreiben Sie „quit” um abzuschließen."/>
+		<res id="778" text="Index-Manager konnte nicht gestartet werden"/>
+		<res id="779" text="Teilsuchergebnisse vervollständigen …"/>
+		<res id="780" text="Ähnlichkeitssuche"/>
+		<res id="781" text="Der Speicherort für die Index-Datenbank muss ein neu angelegter oder leere Ordner sein."/>
+		<res id="782" text="Beim aktuellen Vorgang ist ein Problem aufgetreten. Dies ist in der Regel aufgrund der Einstellung „Benutzerdefinierte Taskleisten-Tab-Vorschauen” in den Einstellungen der Benutzeroberfläche. Wenn dies weiterhin ein Problem darstellt, deaktivieren Sie diese Option."/>
+		<res id="783" text="Index neu erstellen"/>
+		<res id="784" text="Index aktualisieren"/>
+		<res id="785" text="Neuen Index erstellen"/>
+		<res id="786" text="Index-Name wurde nicht angegeben."/>
+		<res id="787" text="Index-Pfad wurde nicht angegeben."/>
+		<res id="788" text="Wenn Sie während einer Suche den Kriterientyp ändern, wird die aktuelle Suche abgebrochen. Möchten Sie fortfahren?"/>
+		<res id="789" text="Indizierung"/>
+		<res id="790" text="Der Pfad wurde aufgrund aktiver Ausschlusspfade und/oder Filter aus der Suche ausgeschlossen"/>
+		<res id="791" text="Kein durchsuchbarer Text in Datei gefunden"/>
+		<res id="792" text="Ausdruck kann nicht in einzelne Begriffe getrennt werden"/>
+		<res id="793" text="Leere Dateiliste angegeben"/>
+		<res id="794" text="Ausdruckstyp wurde in Boolean geändert, um mehrere Suchbegriffe zu unterstützen."/>
+		<res id="795" text="Umfangreicher Ausdruck"/>
+		<res id="796" text="Indizierungsvorgang fehlgeschlagen"/>
+		<res id="797" text="Dateispeicherort"/>
+		<res id="798" text="Inhaltstyp"/>
+		<res id="799" text="Möchten Sie die ausgewählten Elemente dauerhaft löschen?"/>
+		<res id="800" text="Elemente löschen"/>
+		<res id="801" text="Eine oder mehrere sehr lange Textzeilen wurden in kürzere Zeilen aufgeteilt, was sich auf die Suchtreffer auswirken kann."/>
+		<res id="802" text="Umbenennen fehlgeschlagen. Bitte überprüfen Sie, ob die Datei nicht gesperrt ist."/>
+		<res id="803" text="Indexliste wird geladen"/>
+		<res id="804" text="Referenz zu einem bestehenden Index hinzufügen"/>
+		<res id="805" text="Autoren"/>
+		<res id="806" text="Schlüsselwörter des Dokuments"/>
+		<res id="807" text="Kommentare"/>
+		<res id="808" text="Titel"/>
+		<res id="809" text="Besitzer"/>
+		<res id="810" text="Indexpfad und Name stimmen nicht überein"/>
+		<res id="811" text="Index entfernen"/>
+		<res id="812" text="Indizes auflisten"/>
+		<res id="813" text="Zuletzt gespeichert von"/>
+		<res id="814" text="Index löschen" t="g"/>
+		<res id="820" text="Schlüsselwörter ohne Treffer"/>
+		<res id="821" text="Das Schlüsselwort „%s” ist nur in der Professional-Version verfügbar. Wenn Sie einfach nach dem Begriff &quot;%s&quot; suchen, dann fügen Sie ihn bitte in Anführungszeichen ein."/>
+		<res id="822" text="Befristete Lizenz. Verbleibende Tage:"/>
+		<res id="823" text="Direkter Zugriff"/>
+		<res id="824" text="Interpretierter Text"/>
+		<res id="825" text="Umgewandelter Text"/>
+		<res id="826" text="IFilter Text"/>
+		<res id="827" text="Zwischengespeicherter Text"/>
+		<res id="828" text="Textdatei"/>
+		<res id="829" text="Rohdaten der Datei"/>
+		<res id="830" text="Inhalte lesen"/>
+		<res id="831" text="Anwendung für den ersten Einsatz einrichten …"/>
+		<res id="832" text="Die Testphase ist abgelaufen."/>
+		<res id="833" text="Diese Funktion ist in der kostenlosen Version der Anwendung nicht verfügbar."/>
+		<res id="834" text="Professional - Testversion"/>
+		<res id="835" text="Professional"/>
+		<res id="836" text="Lite"/>
+		<res id="837" text="Version mit eingeschränkter Funktionalität — einige Funktionen werden ausgeblendet oder deaktiviert. Kostenlos für den privaten und gewerblichen Gebrauch."/>
+		<res id="838" text="Vollversion"/>
+		<res id="839" text="Voll funktionsfähige Version für den Testzeitraum."/>
+		<res id="840" text="NICHT REGISTRIERT!\r\nDieses Produkt ist nur für den persönlichen Gebrauch zu Hause lizenziert. \r\n\r\nGewerbliche Anwender:\r\n\n\r\nSie MÜSSEN dieses Produkt registrieren, um es weiterhin in einer kommerziellen Umgebung verwenden zu können, andernfalls verstoßen Sie gegen die Nutzungsbedingungen.\r\n\r\nFür einen KOSTENLOSEN Lizenzschlüssel besuchen Sie bitte:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="841" text="Nicht registriert \r\nGewerbliche Nutzer dieses Produkts müssen sich nach Ablauf der Testphase registrieren.\r\n\r\nFür einen KOSTENLOSEN Registrierungscode besuchen Sie bitte:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="842" text="Bitte geben Sie an, wie Sie das Produkt einsetzen."/>
+		<res id="843" text="Änderungen werden erst nach einem Neustart der Anwendung wirksam."/>
+		<res id="844" text="Der eingegebene Lizenzschlüssel bezieht sich auf die (funktionsreduzierte) Lite-Version der Anwendung, so dass einige Funktionen jetzt deaktiviert werden."/>
+		<res id="845" text="Die kostenlose Version der Anwendung unterstützt die Funktion „%s” nicht"/>
+		<res id="846" text="Schnellste"/>
+		<res id="847" text="Mittel"/>
+		<res id="848" text="Benutzerdefiniert"/>
+		<res id="849" text="Pfad konnte nicht durchsucht werden"/>
+		<res id="899" text="Temporäre MS-Office-Dateien ausschließen"/>
+		<res id="900" text="Speicherort-Filter"/>
+		<res id="901" text="Relative(s) Datum/Zeiten"/>
+		<res id="902" text="Erweiterter Ausdrucksabgleich"/>
+		<res id="903" text="Dateilisten"/>
+		<res id="904" text="Arbeitsbereiche/Sitzungen"/>
+		<res id="905" text="Erweiterte Ausgabeformate"/>
+		<res id="906" text="Schlüsselwortberichte"/>
+		<res id="907" text="Datum-/Zeitverschiebungen"/>
+		<res id="908" text="Speicherort-Makros"/>
+		<res id="909" text="Massenkopie"/>
+		<res id="910" text="„%APP_NAME%” erfordert eine Ersteinrichtuing. Bitte führen Sie die Hauptanwendung „%APP_NAME%” aus, um das Einrichtung abzuschließen, und versuchen Sie es dann erneut."/>
+		<res id="911" text="Dateisuche durch Benutzer abgebrochen"/>
+		<res id="912" text="Neu starten"/>
+		<res id="913" text="Dauerhafter Dateinamensfilter"/>
+		<res id="914" text="EXE-, DLL- und SYS-Dateien ausschließen"/>
+		<res id="915" text="Warnungen/Fehler gemeldet. Zusammenfassung enthält weitere Informationen."/>
+		<res id="916" text="Neuer Index konnte nicht erstellt werden. Bitte überprüfen Sie, ob Sie über Schreibrechte verfügen: "/>
+		<res id="917" text="Ungültige zusammengesetzte Datei"/>
+		<res id="918" text="Ungültige zusammengesetzte Datei. Es wird stattdessen die Standardsuche verwendet."/>
+		<res id="919" text="More"/>
+		<res id="920" text="Umbenennen"/>
+		<res id="921" text="Neue Gruppe"/>
+		<res id="922" text="Quelle"/>
+		<res id="923" text="Gruppe indizieren"/>
+		<res id="924" text="Anker, der im Dateimaskenausdruck verwendet wird, wenn der vollständige Pfad statt nur des Dateinamens gefunden wird."/>
+		<res id="925" text="Ordnertiefe"/>
+		<res id="926" text="Index überwachen"/>
+		<res id="927" text="Erfolgreich"/>
+		<res id="928" text="Lizenz für Organisationen mit mehreren Niederlassungen"/>
+		<res id="929" text="Der Index wurde mit einer älteren Version des Produkts erstellt und unterstützt daher keine Suchfelder."/>
+		<res id="930" regex="name:(.*)" case="1"/>
+		<res id="931" regex="(?:lookin|suchin):(.*)" case="1"/>
+		<res id="932" regex="(?:ext|end):(.*)" case="1"/>
+		<res id="933" regex="(?:moddt|geändert):(.*)" case="1"/>
+		<res id="934" regex="(?:createdt|erstellt):(.*)" case="1"/>
+		<res id="935" regex="(?:size|größe):(.*)" case="1"/>
+		<res id="936" regex="(?:content|inhalt):(.*)" case="1"/>
+		<res id="940" text="Ordner gelöscht"/>
+		<res id="941" text="Ordner hinzugefügt"/>
+		<res id="942" text="Ordner umbenannt"/>
+		<res id="943" text="Datei gelöscht"/>
+		<res id="944" text="Datei hinzugefügt"/>
+		<res id="945" text="Indexaktionen verarbeiten"/>
+		<res id="946" text="Überwachung des Index wird gestartet"/>
+		<res id="947" text="Überwachung des Index wird ausgesetzt"/>
+		<res id="948" text="Aktualisierung abgeschlossen"/>
+		<res id="949" text="Wird überwacht"/>
+		<res id="950" text="Aktualisierungen"/>
+		<res id="951" text="Übersprungen"/>
+		<res id="952" text="Unverändert"/>
+		<res id="953" text="Indiziert - nur Name"/>
+		<res id="954" text="Möchten Sie den Indizierungsfortschritt speichern oder zum vorherigen Indexstand zurückkehren?"/>
+		<res id="955" text="Aktion"/>
+		<res id="956" text="Ereignis"/>
+		<res id="957" text="Wartung des Index"/>
+		<res id="958" text="Verbindung wird aufgebaut"/>
+		<res id="959" text="Verbindung wird getrennt"/>
+		<res id="960" text="Meldungen"/>
+		<res id="961" text="CSV-Dateien (*.csv)|*.csv|Alle Dateien (*.*)|*.*||"/>
+		<res id="962" text="Gemeinsame Lizenz wird erworben"/>
+		<res id="963" text="Computer"/>
+		<res id="964" text="Alter"/>
+		<res id="965" text="Aktualisiert"/>
+		<res id="966" text="Aktiv"/>
+		<res id="967" text="Wird aktualisiert"/>
+		<res id="968" text="Abgelaufen"/>
+		<res id="969" text="Alle gemeinsam genutzten Pro-Lizenzen werden derzeit verwendet. Möchten Sie warten oder im Lite-Modus fortfahren?"/>
+		<res id="970" text="Pro-Lizenz konnte nicht erworben werden"/>
+		<res id="971" text="Alle Pro-Lizenzen sind derzeit in Gebrauch. Möchten Sie auf eine frei werdende Lizenz warten oder die Anwendung schließen?"/>
+		<res id="972" text="Möchten Sie warten oder die Anwendung schließen?"/>
+		<res id="973" text="Warten"/>
+		<res id="974" text="Schließen"/>
+		<res id="975" text="Lite-Modus"/>
+		<res id="976" text="Nutzungsrechte werden zurückgezogen"/>
+		<res id="977" text="Lizenzordner konnte nicht geändert werden. Bitte überprüfen Sie, ob der Ordner existiert und ob Sie Lese-/Schreibrechte für den Ordner besitzen."/>
+		<res id="978" text="Lizenzschlüssel nicht gefunden"/>
+		<res id="979" text="Nutzungsrecht-ID"/>
+		<res id="980" text="Pro-Lizenz konnte nicht erneuert werden"/>
+		<res id="981" text="%APP_NAME% schließen"/>
+		<res id="982" text="Durchsuchen"/>
+		<res id="983" text="Protokoll aktualisieren"/>
+		<res id="984" text="Speicherorte indizieren"/>
+		<res id="985" text="Keine indizierten Elemente im Ordner"/>
+		<res id="986" text="Ordner enthält Unterordner, aber keine indizierten Elemente"/>
+		<res id="987" text="Binärdatei"/>
+		<res id="988" text="Inhalt"/>
+		<res id="989" text="Indizierungsprozess wird abgeschlossen"/>
+		<res id="990" text="Es wurden Fehler/Warnungen gemeldet, weitere Informationen finden Sie im Aktualisierungsprotokoll."/>
+		<res id="991" text="Nur teilweise Indizierung."/>
+		<res id="992" text="Speichergrenze überschritten."/>
+		<res id="993" text="Zu viele Suchbegriffe."/>
+		<res id="994" text="Suchbegriffe"/>
+		<res id="995" text="Datum indizieren"/>
+		<res id="996" text="Teilweiser Index"/>
+		<res id="997" text="Möchten Sie alle Suchergebnisse schließen?"/>
+		<res id="998" text="Täglich"/>
+		<res id="999" text="Wöchentlich"/>
+		<res id="1000" text="Monatlich"/>
+		<res id="1001" text="Standard (Echtzeitüberwachung mit täglicher Aktualisierung)"/>
+		<res id="1002" text="&lt;Neu erstellen …&gt;"/>
+		<res id="1003" text="Neuer Aktualisierungszeitplan"/>
+		<res id="1004" text="Es wurde kein Name angegeben."/>
+		<res id="1005" text="Zahl muss im Bereich von %d bis %d liegen"/>
+		<res id="1006" text="Zeitplan"/>
+		<res id="1007" text="Details zum Zeitplan"/>
+		<res id="1008" text="Echtzeitüberwachung"/>
+		<res id="1009" text="Gruppenliste"/>
+		<res id="1010" text="Deaktiviert"/>
+		<res id="1011" text="Aller %d Minuten wiederholen"/>
+		<res id="1012" text="Montag"/>
+		<res id="1013" text="Dienstag"/>
+		<res id="1014" text="Mittwoch"/>
+		<res id="1015" text="Donnerstag"/>
+		<res id="1016" text="Freitag"/>
+		<res id="1017" text="Samstag"/>
+		<res id="1018" text="Sonntag"/>
+		<res id="1019" text="Bitte mindestens einen Tag für den Zeitplan angeben"/>
+		<res id="1020" text="Zeitplan starten"/>
+		<res id="1021" text="Löschen Sie den Zeitplan und stoppen Sie alle geplanten Aktualisierungen oder die Echtzeitüberwachung:"/>
+		<res id="1022" text="Fortfahren?"/>
+		<res id="1023" text="Operation fehlgeschlagen"/>
+		<res id="1024" text="Geplante Ordnersynchronisatione"/>
+		<res id="1025" text="Dateien in Ordnern synchronisieren"/>
+		<res id="1026" text="Ordner synchronisieren"/>
+		<res id="1027" text="Geplante Aktion"/>
+		<res id="1028" text="Veraltete Quelle - ignoriert"/>
+		<res id="1029" text="Ungültiger Dateiname"/>
+		<res id="1030" text="Der Index wurde mit einer früheren Version erstellt. Bitte aktualisieren Sie den Index, um die indizierten Details anzuzeigen."/>
+		<res id="1031" text="Binärdatei (Inhalt nicht indiziert)"/>
+		<res id="1032" text="Bitte einen Aktualisierungszeitplan für den Index auswählen"/>
+		<res id="1033" text="Umkehren"/>
+		<res id="1034" text="Zurücksetzen"/>
+		<res id="1035" text="Entfernen oder Löschen"/>
+		<res id="1036" text="Möchten Sie den Index dauerhaft löschen oder ihn nur aus der Liste entfernen?"/>
+		<res id="1037" text="Entfernen"/>
+		<res id="1038" text="Indizierung wird abgebrochen"/>
+		<res id="1039" text="Unverankerter Dateimaske nicht erlaubt."/>
+		<res id="1040" text="Wird neu geladen"/>
+		<res id="1041" text="Indizierungskriterien"/>
+		<res id="1042" text="Geändert"/>
+		<res id="1043" text="Fehlerfrei"/>
+		<res id="1044" text="Die Konfigurationseinstellungen für Floating-Lizenzen konnten nicht geladen werden."/>
+		<res id="1045" text="Keine Floating-Lizenzen im Ordner gefunden. Weiter?"/>
+		<res id="1046" text="Kein Wert für Parameter angegeben: %s"/>
+		<res id="1047" text="Ungültige Parameter"/>
+		<res id="1048" text="Dateiversion"/>
+		<res id="1049" text="Produktversion"/>
+		<res id="1050" text="Diese Funktion wurde von Ihrem Systemadministrator deaktiviert."/>
+		<res id="1051" text="Das Feld „Dateiname“ enthält ein Platzhalterzeichen, aber der Ausdruckstyp ist auf „Nur-Text“ gesetzt."/>
+		<res id="1052" text="Fehlerbericht generieren"/>
+		<res id="1053" text="Möchten Sie einen Fehlerbericht erstellen und versenden?"/>
+		<res id="1054" text="Bericht generieren"/>
+		<res id="1055" text="Neuen Index erstellen"/>
+		<res id="1056" text="Bevor Sie eine Indexsuche durchführen können, müssen Sie einen Index erstellen. Möchten Sie einen Index erstellen?"/>
+		<res id="1057" text="Bitte wählen Sie den Index aus, den Sie durchsuchen möchten."/>
+		<res id="1058" text="Namenslänge"/>
+		<res id="1059" text="Gesamtpfadlänge"/>
+		<res id="1060" text="Index konnte nicht durchsucht werden" t="g"/>
+		<res id="1061" text="Suche fehlgeschlagen" t="g"/>
+		<res id="1062" text="Bewertung" t="g"/>
+		<res id="1063" text="Orientierung" t="g"/>
+		<res id="1064" text="Brennweite" t="g"/>
+		<res id="1065" text="Zip-Datei" t="g"/>
+		<res id="1066" text="Sitzung" t="g"/>
+		<res id="1067" text="Arbeitsplatz" t="g"/>
+		<res id="1068" text="Bild-OCR fehlgeschlagen" t="g"/>
+		<res id="1069" text="Scannen von Bildern mit OCR" t="g"/>
+		<res id="1070" text="Aktualisiert am" t="e"/>
+		<res id="1071" text="Eingebettetes Objekt" t="g"/>
+		<res id="1072" text="Das letzte Update wurde nicht erfolgreich abgeschlossen." t="g"/>
+		<res id="1073" text="Der Index wurde mit einer neueren Version von %APP_NAME% erstellt, bitte aktualisieren Sie diese Installation, um Indexdetails anzuzeigen. Durch die Aktualisierung des Index wird der Index neu erstellt und mit dieser Version von %APP_NAME% wiederhergestellt." t="g"/>
+		<res id="1074" text="Die primäre Suchmethode ist fehlgeschlagen. Die Sicherungsmethode wurde verwendet." t="g"/>
+		<res id="1075" text="Möchten Sie die in der Zwischenablage gespeicherten Registrierungsinformationen verwenden?" t="g"/>
+		<res id="1076" text="Die Datei ist passwortgeschützt." t="g"/>
+	</string>
+</translation>

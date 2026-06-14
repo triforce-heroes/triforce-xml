@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="Japanese (日本語)" helplang="en">
+	<dialog id="3531" name="IDD_EDITBOX" caption=""/>
+	<dialog id="333" name="IDD_SCHEDULE_EDIT" caption="スケジュールの編集">
+		<res id="1" text="名前:"/>
+		<res id="2" text="リアルタイムモニター"/>
+		<res id="3" text="リフレッシュの頻度"/>
+		<res id="4" text="開始時刻:"/>
+		<res id="5" text="HH:mm:ss"/>
+		<res id="6" text="アサインされたインデックス"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="キャンセル"/>
+	</dialog>
+	<dialog id="334" name="IDD_SCHEDULE_DAILY" caption="">
+		<res id="1" text="繰り返し間隔:"/>
+		<res id="2" text="分"/>
+	</dialog>
+	<dialog id="335" name="IDD_SCHEDULE_WEEKLY" caption="">
+		<res id="1" text="月曜日"/>
+		<res id="2" text="火曜日"/>
+		<res id="3" text="水曜日"/>
+		<res id="4" text="木曜日"/>
+		<res id="5" text="金曜日"/>
+		<res id="6" text="土曜日"/>
+		<res id="7" text="日曜日"/>
+	</dialog>
+	<dialog id="336" name="IDD_SCHEDULE_MONTHLY" caption="">
+		<res id="1" text="日にち:"/>
+	</dialog>
+	<dialog id="337" name="IDD_INDEXSCHEDULEVIEW" caption="">
+		<res id="1" text="名前:"/>
+		<res id="2" text="種類:"/>
+		<res id="3" text="開始時刻"/>
+		<res id="4" text="リアルタイム:"/>
+		<res id="5" text="ステータス:"/>
+		<res id="10" text="アサインされたインデックス"/>
+	</dialog>
+	<dialog id="338" name="IDD_SCHEDULE_INDEXLIST" caption="インデックスのスケジュールへのアサイン">
+		<res id="1" text="インデックス:"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="キャンセル"/>
+	</dialog>
+	<dialog id="339" name="IDD_INDEX_EDITADVANCED" caption="高度なインデックス設定">
+		<res id="1" text="高度な設定"/>
+		<res id="2" text="大文字/小文字を区別した検索を有効にする"/>
+		<res id="3" text="バイナリコンテンツを検出する"/>
+		<res id="4" text="部分的なコミットを許可する"/>
+		<res id="5" text="インデックスを作成する圧縮アーカイブ:"/>
+		<res id="6" text="OCR画像" t="g"/>
+		<res id="7" text="OCR 設定..." t="g"/>
+		<res id="8" text="検索フィルターを使用する" t="g"/>
+		<res id="9" text="アクティブなフィルタ..." t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="キャンセル"/>
+		<res id="12" text="埋め込まれたドキュメント（Word/PDF）の抽出" t="g"/>
+	</dialog>
+	<dialog id="5559" name="IDD_FORMATS_OCR" caption="OCR (光学文字認識) 設定">
+		<res id="1" text="OCR 設定"/>
+		<res id="2" text="OCR テキストをキャッシュする"/>
+		<res id="3" text="OCR で解析するファイル形式:"/>
+		<res id="4" text="利用可能なすべてファイル形式"/>
+		<res id="5" text="選択したファイル形式:"/>
+		<res id="6" text="言語:"/>
+		<res id="7" text="PDF 設定"/>
+		<res id="8" text="既存の検索可能なテキストで PDF の OCR を行わない"/>
+		<res id="9" text="ページの向きの自動検出" t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="キャンセル"/>
+	</dialog>
+	<dialog id="207" name="IDD_LICENSE_TYPE" caption="ライセンスの種類">
+		<res id="1" text="ライセンスの種類を選択してください:"/>
+		<res id="2" text="Professional (Trial)"/>
+		<res id="3" text="Professional"/>
+		<res id="4" text="Professional ライセンスの購入"/>
+		<res id="5" text="すべての機能が使用できるバージョンです。"/>
+		<res id="6" text="名前:"/>
+		<res id="7" text="メールアドレス:"/>
+		<res id="8" text="登録コード:"/>
+		<res id="9" text="Lite (Free)"/>
+		<res id="10" text="機能比較"/>
+		<res id="11" text="機能が制限されたバージョンです。一部の機能が非表示または無効になっています。個人的および業務上/商業的な使用の両方について無料です。"/>
+		<res id="12" text=""/>
+		<res id="13" text="OK"/>
+		<res id="14" text="キャンセル"/>
+	</dialog>
+	<dialog id="5560" name="IDD_LICENSE_MGR" caption="フローティングライセンスマネージャー">
+		<res id="1" text="ライセンスフォルダー:"/>
+		<res id="2" text=""/>
+		<res id="3" text=""/>
+		<res id="4" text="OK"/>
+		<res id="5" text="キャンセル"/>
+		<res id="6" text="リフレッシュ"/>
+	</dialog>
+	<dialog id="260" name="IDD_COMMERCIAL_USE" caption="無料で登録が可能です!">
+		<res id="1" text=""/>
+		<res id="2" text="本製品を業務上/商業的な目的で使用する場合は、製品登録を行う必要があります。登録には一切費用はかかりません。"/>
+		<res id="3" text="無料の登録コードは、Mythicsoft の Web サイトで入手できます:"/>
+		<res id="4" text="本製品を個人的な目的でのみ使用する場合でも、製品登録をお勧めします。ただし、登録は必須ではありません。"/>
+		<res id="5" text="この製品の使用目的:"/>
+		<res id="6" text="個人的な目的でのみ使用します"/>
+		<res id="7" text="業務上/商業的な目的で使用するため、登録コードを入力します"/>
+		<res id="8" text="OK"/>
+		<res id="9" text="キャンセル"/>
+	</dialog>
+	<dialog id="3566" name="IDD_COLUMNLIST_OPTIONS" caption="列の選択">
+		<res id="1" text="列(&amp;C)"/>
+		<res id="2" text="注: ドラッグ&amp;&amp;ドロップでフィールドを並べ替えることができます。"/>
+		<res id="3" text="OK"/>
+		<res id="4" text="キャンセル"/>
+	</dialog>
+	<dialog id="3565" name="IDD_EXPRESSIONEDITORDLG" caption="表現の編集">
+		<res id="1" text="表現の種類(&amp;E):"/>
+		<res id="2" text="検索語句を入力する (語句は行を分けて入力してください)(&amp;E):"/>
+		<res id="3" text="テキストファイルを参照する(&amp;R):"/>
+		<res id="4" text="参照(&amp;B)..."/>
+		<res id="5" text="OK"/>
+		<res id="6" text="キャンセル"/>
+		<res id="7" text="検索語句:"/>
+	</dialog>
+	<dialog id="5558" name="IDD_GENERAL_COLORS" caption="">
+		<res id="1" text="ヒットしたキーワード"/>
+		<res id="2" text="テキストの色:"/>
+		<res id="3" text="ヒットしたキーワード"/>
+		<res id="4" text="太字"/>
+		<res id="5" text="下線"/>
+		<res id="6" text="キーワードを色分けしてハイライトする:"/>
+		<res id="7" text="ヒットしたキーワードの背景色"/>
+		<res id="8" text="[テキスト] タブのハイライト"/>
+		<res id="9" text="一次検索:"/>
+		<res id="10" text="二次検索:"/>
+		<res id="11" text="一次検索の行の色"/>
+		<res id="12" text="二次検索の行の色"/>
+	</dialog>
+	<dialog id="3542" name="IDD_KEYWORD_COLOR" caption="">
+		<res id="1" text="設定..."/>
+	</dialog>
+	<dialog id="231" name="IDD_INDEX_SEARCH" caption=""/>
+	<dialog id="331" name="IDD_GROUPINDEX_DETAILS" caption="">
+		<res id="1" text="名前:"/>
+		<res id="2" text="ファイル:"/>
+		<res id="3" text="ファイルの参照"/>
+	</dialog>
+	<dialog id="310" name="IDD_INDEX_EDIT" caption="">
+		<res id="1" text="読み取り専用(&amp;R)"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="キャンセル"/>
+	</dialog>
+	<dialog id="312" name="IDD_INDEXACTIVITYVIEW" caption="">
+		<res id="1" text="名前:"/>
+		<res id="2" text="ファイル:"/>
+		<res id="3" text="場所:"/>
+		<res id="4" text="概要:"/>
+		<res id="5" text="最終更新日時:"/>
+		<res id="6" text="ステータス:"/>
+	</dialog>
+	<dialog id="332" name="IDD_INDEXGROUPVIEW" caption="">
+		<res id="1" text="名前:"/>
+		<res id="2" text="インデックス:"/>
+	</dialog>
+	<dialog id="315" name="IDD_ADDINDEX_TYPEPAGE" caption="インデックスの追加">
+		<res id="1" text="追加するインデックスの種類"/>
+		<res id="2" text="新規インデックスを作成する"/>
+		<res id="3" text="既存のインデックスを参照する"/>
+		<res id="4" text="新規インデックスを作成しますか、それとも既存のインデックスを参照しますか?"/>
+		<res id="5" text="新規グループを作成する"/>
+	</dialog>
+	<dialog id="316" name="IDD_ADDINDEX_NEWPAGE" caption="">
+		<res id="1" text="新規インデックスの作成"/>
+		<res id="2" text="[完了] ボタンをクリックしたらインデックス作成を開始する(&amp;S)"/>
+		<res id="3" text="インデックスの作成"/>
+		<res id="4" text="新規グループの作成"/>
+	</dialog>
+	<dialog id="317" name="IDD_ADDINDEX_IMPORTPAGE" caption="">
+		<res id="1" text="既存のインデックスへの追加"/>
+		<res id="2" text="追加するインデックス格納場所のパス:"/>
+		<res id="3" text="フォルダー:"/>
+		<res id="4" text="読み取り専用アクセス"/>
+		<res id="5" text="参照"/>
+	</dialog>
+	<dialog id="319" name="IDD_ADDINDEX_AUTOUPDATE" caption="">
+		<res id="1" text="インデックスを自動的に更新しますか?"/>
+		<res id="2" text="いいえ、更新は手動でのみ行います"/>
+		<res id="3" text="はい、更新をスケジュールします"/>
+		<res id="4" text="自動更新をスケジュールする" t="g"/>
+	</dialog>
+	<dialog id="318" name="IDD_INDEXEDIT_ENGINE_PANE" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="インデックス名:"/>
+		<res id="3" text="格納場所:"/>
+		<res id="4" text="インデックスを作成するコンテンツ"/>
+		<res id="5" text="ドキュメント/PDF/テキストファイル(&amp;D)"/>
+		<res id="6" text="特定のファイル(&amp;F):"/>
+		<res id="7" text="大文字/小文字を区別した検索を有効にする (インデックスが大きくなります)(&amp;E)"/>
+		<res id="8" text="非コンテンツファイルのファイル名を含める"/>
+		<res id="9" text="インデックスの場所"/>
+		<res id="10" text="ドキュメントの標準的な場所(&amp;S)"/>
+		<res id="11" text="特定の場所(&amp;S):"/>
+		<res id="12" text="サブフォルダー"/>
+		<res id="13" text="参照"/>
+		<res id="14" text="複数フォルダー"/>
+		<res id="15" text="Outlook/Thunderbird ファイル"/>
+		<res id="16" text="メールの添付ファイル"/>
+		<res id="17" text="高度..."/>
+	</dialog>
+	<dialog id="211" name="IDD_SAVE_BULKCOPY" caption="">
+		<res id="1" text="ファイルのコピー先"/>
+		<res id="2" text="フォルダー(&amp;F):"/>
+		<res id="3" text="ZIP ファイル(&amp;Z):"/>
+		<res id="4" text="参照(&amp;B)..."/>
+		<res id="5" text="参照(&amp;B)..."/>
+		<res id="6" text="オプション"/>
+		<res id="7" text="フォルダー構造:"/>
+		<res id="8" text="既存のファイル:"/>
+		<res id="9" text="メールアイテム:"/>
+		<res id="10" text="重複:"/>
+		<res id="11" text="エラー:"/>
+		<res id="12" text="ファイル属性をコピーする"/>
+		<res id="13" text="コピーするファイル"/>
+		<res id="14" text="すべてのファイル"/>
+		<res id="15" text="選択したファイルのみ"/>
+		<res id="16" text="ZIP を作成する"/>
+		<res id="17" text="ZIP に追加する"/>
+		<res id="18" text="255 文字を超えるパスを切り捨てる"/>
+		<res id="19" text="フォルダのコピー" t="g"/>
+		<res id="20" text="サブフォルダーを含める" t="g"/>
+		<res id="21" text="空のフォルダーを含める" t="g"/>
+	</dialog>
+	<dialog id="210" name="IDD_SAVE_SESSIONWORKSPACE" caption="">
+		<res id="1" text="保存先"/>
+		<res id="2" text="ファイル(&amp;F):"/>
+		<res id="3" text="参照(&amp;B)..."/>
+		<res id="4" text="保存する検索"/>
+		<res id="5" text="現在の検索セッションのみ"/>
+		<res id="6" text="ワークスペース (すべての検索セッション)"/>
+		<res id="7" text="検索ごとの検索履歴を含める(&amp;I)"/>
+	</dialog>
+	<dialog id="206" name="IDD_EXPORT" caption="エクスポート">
+		<res id="1" text="OK"/>
+		<res id="2" text="キャンセル"/>
+	</dialog>
+	<dialog id="209" name="IDD_EXPORT_TYPE" caption="">
+		<res id="1" text="エクスポート操作"/>
+		<res id="2" text="バルクコピー"/>
+		<res id="3" text="検索結果のエクスポート"/>
+		<res id="4" text="セッション/ワークスペースの保存"/>
+		<res id="5" text="ヘルプ"/>
+	</dialog>
+	<dialog id="197" name="IDD_EXPR_WIZ_FILENAMEPRESET" caption="ファイル名プリセット">
+		<res id="1" text="注: AND、OR、NOT などの標準的なブール演算子を使用して語句を連結することができます。"/>
+		<res id="2" text="ファイルの種類:"/>
+	</dialog>
+	<dialog id="3514" name="IDD_REPORTS_SELECTION" caption="" maxgrow="700">
+		<res id="1" text="レポート:"/>
+		<res id="2" text="スタイル:"/>
+		<res id="3" text="次へ"/>
+		<res id="4" text="次へ"/>
+		<res id="5" text="すべてのファイル"/>
+		<res id="6" text="ファイル:"/>
+		<res id="7" text="選択したファイル"/>
+	</dialog>
+	<dialog id="3530" name="IDD_REPORT_PROGRESS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="レポートを作成中..."/>
+		<res id="3" text="キャンセル"/>
+	</dialog>
+	<dialog id="5556" name="IDD_ADV_MEMMANAGER" caption="">
+		<res id="1" text="大規模な検索に対してメモリ使用量の上限を設ける"/>
+		<res id="2" text="検索あたりのメモリ使用量の上限:"/>
+		<res id="3" text="システムによって計算された量"/>
+		<res id="4" text="指定した量:"/>
+		<res id="5" text="切り詰め後の行数:"/>
+		<res id="6" text="行あたりの切り詰め後の文字数:"/>
+		<res id="7" text="切り詰めを検索履歴にのみ適用する"/>
+	</dialog>
+	<dialog id="3524" name="IDD_REPORT_OPTIONS" caption="">
+		<res id="1" text="表示"/>
+		<res id="2" text="条件の概要"/>
+		<res id="3" text="検索統計情報"/>
+		<res id="4" text="列の見出し"/>
+		<res id="5" text="フィールド"/>
+		<res id="6" text="OK"/>
+		<res id="7" text="キャンセル"/>
+		<res id="8" text="注: ドラッグ&amp;&amp;ドロップでフィールドを並べ替えることができます。"/>
+	</dialog>
+	<dialog id="5552" name="IDD_CACHE_SETTINGS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="情報"/>
+		<res id="4" text="キャッシュフォルダー:"/>
+		<res id="5" text="アイテム:"/>
+		<res id="6" text="合計サイズ:"/>
+		<res id="7" text="圧縮..."/>
+		<res id="8" text="消去..."/>
+		<res id="9" text="設定"/>
+		<res id="10" text="アイテムあたりの最大サイズ (KB):"/>
+		<res id="11" text="有効期限"/>
+		<res id="12" text="なし"/>
+		<res id="13" text="参照されないキャッシュアイテムを経過日数後に削除する:"/>
+		<res id="14" text="終了時にキャッシュを消去する"/>
+		<res id="15" text="OK"/>
+		<res id="16" text="キャンセル"/>
+		<res id="17" text="日"/>
+	</dialog>
+	<dialog id="5553" name="IDD_GENERAL_SEARCH" caption="">
+		<res id="1" text="検索方法"/>
+		<res id="2" text="多重フェーズ (デフォルト)(&amp;M)"/>
+		<res id="3" text="即時(&amp;E)"/>
+		<res id="4" text="ヒット数を計算する(&amp;C)"/>
+		<res id="7" text="順序付け(&amp;O)"/>
+		<res id="9" text="インクリメンタル検索"/>
+		<res id="10" text="インデックス検索(&amp;X)"/>
+		<res id="11" text="[テキスト] タブ(&amp;T)"/>
+		<res id="12" text="昇順(&amp;A)"/>
+	</dialog>
+	<dialog id="196" name="IDD_SAVE_WORKSPACE" caption="ワークスペースの保存">
+		<res id="1" text="保存先"/>
+		<res id="2" text="ファイル(&amp;F):"/>
+		<res id="3" text="参照(&amp;B)..."/>
+		<res id="4" text="保存する情報"/>
+		<res id="5" text="ワークスペースの全体(&amp;C)"/>
+		<res id="6" text="ワークスペースの一部(&amp;P)"/>
+		<res id="7" text="すべての検索(&amp;A)"/>
+		<res id="8" text="現在の検索のみ(&amp;U)"/>
+		<res id="9" text="検索ごとの検索履歴を含める(&amp;I)"/>
+		<res id="15" text="保存"/>
+		<res id="16" text="キャンセル"/>
+	</dialog>
+	<dialog id="195" name="IDD_SAVE_SESSION" caption="検索セッションの保存">
+		<res id="1" text="保存先"/>
+		<res id="2" text="ファイル(&amp;F):"/>
+		<res id="3" text="参照(&amp;B)..."/>
+		<res id="4" text="検索履歴を含める(&amp;I)"/>
+		<res id="15" text="保存"/>
+		<res id="16" text="キャンセル"/>
+	</dialog>
+	<dialog id="5523" name="IDD_CONFIGENTRY_EXTENSION" caption="">
+		<res id="1" text="名前:"/>
+		<res id="2" text="&lt;name&gt;"/>
+		<res id="3" text="ファイルの種類:"/>
+		<res id="4" text="有効なファイルの種類を行を分けて追加してください。"/>
+		<res id="5" text="Prog ID:"/>
+		<res id="6" text="&lt;progid&gt;"/>
+		<res id="7" text="セーフモードで実行する(&amp;S)"/>
+		<res id="8" text="Indexing Service Filter を使用する (可能な場合)(&amp;U)"/>
+		<res id="9" text="バイナリデータの検索は行わない(&amp;B)"/>
+	</dialog>
+	<dialog id="5527" name="IDD_CONFIGENTRY_EXTENSIONMAIN" caption="">
+		<res id="1" text="復元..."/>
+		<res id="2" text="下のボタンをクリックすると、拡張子の設定をインストール時のデフォルトに戻します。"/>
+		<res id="3" text="拡張子の設定の復元"/>
+		<res id="4" text="高度なファイル処理のための拡張子の設定を行います。"/>
+	</dialog>
+	<dialog id="5533" name="IDD_CONFIGENTRY_GENERAL" caption="">
+		<res id="1" text="検索をコントロールするための全般的な設定を行います。"/>
+	</dialog>
+	<dialog id="5534" name="IDD_CONFIGENTRY_EDITOR" caption="">
+		<res id="1" text="内容表示ペインで作業する際に使用するエディターの設定を行います。"/>
+	</dialog>
+	<dialog id="5540" name="IDD_CONFIGENTRY_ADVANCED" caption="">
+		<res id="1" text="高度な設定を行います。"/>
+	</dialog>
+	<dialog id="5524" name="IDD_CLEARARHISTORY_DIALOG" caption="履歴の消去">
+		<res id="1" text="ファイル名(&amp;F)"/>
+		<res id="2" text="検索テキスト(&amp;C)"/>
+		<res id="3" text="検索場所(&amp;L)"/>
+		<res id="4" text="OK"/>
+		<res id="5" text="キャンセル"/>
+		<res id="6" text="どの履歴を消去しますか?"/>
+		<res id="7" text="すべての履歴"/>
+	</dialog>
+	<dialog id="5544" name="IDD_FILETYPE_UTF8" caption="">
+		<res id="1" text="特定のエンコード情報が検出されない場合、以下のファイルの種類のデフォルトを UTF-8 にします。"/>
+		<res id="2" text="ファイルの種類:"/>
+		<res id="3" text="有効なファイルの種類を行を分けて追加してください。"/>
+		<res id="4" text="UTF-8 ファイルを自動検出する"/>
+	</dialog>
+	<dialog id="5541" name="IDD_GENERAL_IFILTER" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="リフレッシュ(&amp;R)"/>
+		<res id="3" text="このコンピューターに登録されている IFilter:"/>
+		<res id="4" text="HTML/XML ベースのファイルの IFilter を含める"/>
+		<res id="5" text="IFilter 検索の優先度:"/>
+	</dialog>
+	<dialog id="5529" name="IDD_EDITORSETTINGS_DEFAULT" caption="">
+		<res id="1" text="デフォルトのエディター"/>
+		<res id="2" text="内部ビューアー ([テキスト] タブ)"/>
+		<res id="3" text="内部ビューアー (新規ウィンドウ)"/>
+		<res id="4" text="Microsoft Visual Studio"/>
+		<res id="5" text="外部エディター"/>
+		<res id="6" text="Visual Studio のバージョン"/>
+	</dialog>
+	<dialog id="5528" name="IDD_EDITORSETTINGS_EXTERNAL" caption="">
+		<res id="1" text="参照(&amp;B)..."/>
+		<res id="2" text="一般的なエディターのデフォルト:"/>
+		<res id="3" text="コマンドラインパラメーター:"/>
+		<res id="4" text="変数: "/>
+		<res id="5" text="$(FILEPATH)"/>
+		<res id="6" text="- 現在選択しているファイル"/>
+		<res id="7" text="$(LINENUM)"/>
+		<res id="8" text="- 現在選択している行番号"/>
+		<res id="9" text="プログラムの場所:"/>
+		<res id="10" text="$(LONGPATH)"/>
+		<res id="11" text="- 現在選択しているファイル (長いパス形式)"/>
+	</dialog>
+	<dialog id="5526" name="IDD_CONFIGURATION_MAIN" caption="環境設定">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="OK"/>
+		<res id="4" text="キャンセル"/>
+		<res id="5" text="設定"/>
+		<res id="6" text="デフォルトの環境設定の復元"/>
+	</dialog>
+	<dialog id="5530" name="IDD_GENERAL_DISPLAYCONFIG" caption="">
+		<res id="1" text="行の表示"/>
+		<res id="2" text="ファイルあたりの最大表示行数:"/>
+		<res id="3" text="行あたりの最大表示文字数:"/>
+		<res id="4" text="周囲の行"/>
+		<res id="5" text="前の行数:"/>
+		<res id="6" text="後の行数:"/>
+		<res id="7" text="ファイルリスト表示ペイン:"/>
+		<res id="8" text="ファイルのパスの表示"/>
+		<res id="9" text="内容表示ペイン:"/>
+	</dialog>
+	<dialog id="5531" name="IDD_GENERAL_HISTORY" caption="">
+		<res id="1" text="終了時に履歴を消去する(&amp;C)"/>
+		<res id="2" text="履歴の消去(&amp;H)..."/>
+		<res id="3" text="記憶する設定"/>
+		<res id="4" text="オプション設定(&amp;O)"/>
+		<res id="5" text="ウィンドウのサイズと位置、フォントの設定"/>
+		<res id="6" text="起動時に最後の検索を読み込む(&amp;L)"/>
+		<res id="7" text="リストの最大サイズ"/>
+		<res id="8" text="検索ナビゲーション:"/>
+		<res id="9" text="ドロップダウンリスト"/>
+		<res id="10" text="ドロップダウンリスト:"/>
+		<res id="11" text="最近使ったファイル:"/>
+		<res id="12" text="列の並べ替え順序"/>
+		<res id="13" text="編集(&amp;E)..." t="e"/>
+	</dialog>
+	<dialog id="5532" name="IDD_GENERAL_CHARPROC" caption="">
+		<res id="1" text="その他の有効な行末 (EOL) 識別子"/>
+		<res id="2" text="&amp;Unix (LF)"/>
+		<res id="3" text="&amp;Mac (CR)"/>
+		<res id="4" text="行あたりの最大文字数:"/>
+		<res id="5" text="検索テキスト"/>
+		<res id="6" text="コンテンツ検索でファイル名を含める(&amp;I)"/>
+		<res id="7" text="コンテンツ検索でフォルダーのパスを含める"/>
+		<res id="8" text="ファイル名"/>
+		<res id="9" text="ファイル名検索でフォルダーのパスを含める"/>
+		<res id="10" refid="5545:9"/>
+	</dialog>
+	<dialog id="5535" name="IDD_GENERAL_THREADING" caption="">
+		<res id="1" text="検索スレッド"/>
+		<res id="2" text="インデックス作成スレッド"/>
+		<res id="3" text=""/>
+		<res id="4" text="(1 - 99 の範囲)"/>
+		<res id="5" text="警告: スレッド数を大きくし過ぎると、パフォーマンスに影響があります。 "/>
+		<res id="6" text="プロセスの優先度"/>
+		<res id="7" text="フォアグラウンド:"/>
+		<res id="8" text="バックグラウンド:"/>
+		<res id="9" text="最小化:"/>
+		<res id="10" text="インデクサー:" t="g"/>
+	</dialog>
+	<dialog id="5536" name="IDD_GENERAL_SHELL" caption="">
+		<res id="1" text="ファイルの種類 (SRF, FLSX, FLWX) と関連付ける(&amp;A)"/>
+		<res id="2" text="フォルダーのコンテキストメニューに追加する(&amp;F)"/>
+		<res id="3" text="ファイルのコンテキストメニューに追加する(&amp;I)"/>
+		<res id="4" text="スタートメニューの検索に追加する(&amp;S)"/>
+		<res id="5" text="エクスプローラーのデフォルトの検索機能 (Ctrl+F、F3) を置き換える*(&amp;R)"/>
+		<res id="6" text="ホットキー (WinKey+Alt+F、WinKey+Alt+F3) による起動を有効にする(&amp;H)"/>
+		<res id="7" text="* UAC に関する注: シェルの設定を変更すると、%APP_NAME% の Shell admin EXE が特権昇格で起動することが必要になる場合があります。"/>
+		<res id="8" text="アプリケーション起動モード:" t="g"/>
+		<res id="9" text="マルチインスタンス (デフォルト)" t="g"/>
+		<res id="10" text="単一インスタンス" t="g"/>
+		<res id="11" text="シェル統合による単一インスタンス" t="g"/>
+		<res id="12" text="ファイル リストのコンテキスト メニュー" t="g"/>
+		<res id="13" text="複雑な選択のための基本的なコンテキスト メニュー オプション" t="g"/>
+		<res id="14" text="大きな選択制限:" t="g"/>
+	</dialog>
+	<dialog id="5537" name="IDD_GENERAL_FOLDERS" caption="">
+		<res id="1" text="参照(&amp;B)..."/>
+		<res id="2" text="参照(&amp;B)..."/>
+		<res id="3" text="参照(&amp;B)..."/>
+		<res id="4" text="参照(&amp;B)..."/>
+		<res id="5" text="ログファイルフォルダー:"/>
+		<res id="6" text="環境設定ファイルフォルダー:"/>
+		<res id="7" text="参照(&amp;B)..."/>
+		<res id="8" text="参照(&amp;B)..."/>
+		<res id="9" text="お気に入りフォルダー:"/>
+		<res id="10" text="参照(&amp;B)..."/>
+		<res id="11" text="参照(&amp;B)..."/>
+		<res id="12" text="一時ファイルフォルダー:"/>
+		<res id="13" text="デフォルトのインデックス フォルダ:" t="g"/>
+	</dialog>
+	<dialog id="5538" name="IDD_GENERAL_ALERTS" caption="">
+		<res id="1" text="サウンドを再生する"/>
+		<res id="2" text="..."/>
+		<res id="3" text="..."/>
+		<res id="4" text="タスクバーに通知メッセージを表示する"/>
+		<res id="5" text="ファイルが検出されるごとに繰り返す"/>
+		<res id="6" text="サウンドを再生する"/>
+		<res id="7" text="..."/>
+		<res id="8" text="..."/>
+		<res id="9" text="タスクバーに通知メッセージを表示する"/>
+		<res id="10" text="ファイルが検出された時"/>
+		<res id="11" text="検索が完了した時"/>
+	</dialog>
+	<dialog id="5557" name="IDD_GENERAL_EMAIL" caption="">
+		<res id="1" text="検索"/>
+		<res id="2" text="添付ファイル名に親メールの件名を含める"/>
+		<res id="3" text="メール本文を独立したテキスト形式の添付ファイルとして追加する"/>
+		<res id="4" text="メール本文から HTML マークアップを削除する"/>
+		<res id="5" text="Thunderbird"/>
+		<res id="6" text="プロファイルフォルダー"/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+	</dialog>
+	<dialog id="5539" name="IDD_ADV_TRANSFORM" caption="">
+		<res id="1" text="検索結果エクスポート時のカスタム形式への変換に使用する XSLT プロセッサーを選択してください:"/>
+		<res id="2" text="DOM Prog Id:"/>
+		<res id="3" text="Microsoft XML コアサービス"/>
+	</dialog>
+	<dialog id="5542" name="IDD_ADV_JUNCTIONS" caption="">
+		<res id="1" text="シンボリックリンクとディレクトリジャンクション"/>
+		<res id="2" text="シンボリックリンクとディレクトリジャンクションを検索する(&amp;S)"/>
+		<res id="3" text="システムの隠しリンクを除外する(&amp;X)"/>
+		<res id="4" text="ショートカット"/>
+		<res id="5" text="ショートカットファイルを検索する"/>
+		<res id="6" text="ショートカットフォルダーを検索する"/>
+	</dialog>
+	<dialog id="5543" name="IDD_ADV_FILELISTS" caption="">
+		<res id="1" text="どの条件フィールドにファイルリスト (例: =c:\list.txt) を読み込むことができるかを選択してください:"/>
+		<res id="2" text="ファイル名(&amp;F)"/>
+		<res id="3" text="検索テキスト(&amp;C)"/>
+		<res id="4" text="検索場所(&amp;L)"/>
+	</dialog>
+	<dialog id="5545" name="IDD_EXPRESSION_BOOLEAN" caption="">
+		<res id="1" text="LIKE の感度"/>
+		<res id="2" text=""/>
+		<res id="3" text="非常に類似"/>
+		<res id="4" text="類似"/>
+		<res id="5" text="近似"/>
+		<res id="6" text="NEAR の距離"/>
+		<res id="7" text="単語間の最大距離 (文字数)"/>
+		<res id="8" text="表現の構文解析"/>
+		<res id="9" text="スタイル化された引用符を通常の引用符として処理する"/>
+	</dialog>
+	<dialog id="5546" name="IDD_FILTERS" caption="持続検索フィルター">
+		<res id="1" text="持続検索フィルターを使用する(&amp;U)"/>
+		<res id="2" text="検索フィルター:"/>
+		<res id="3" text="追加(&amp;A)..."/>
+		<res id="4" text=""/>
+		<res id="5" text="OK"/>
+		<res id="6" text="キャンセル"/>
+	</dialog>
+	<dialog id="5547" name="IDD_FILTERS_EDIT" caption="検索フィルターの定義">
+		<res id="1" text="説明(&amp;D):"/>
+		<res id="2" text="場所(&amp;L)"/>
+		<res id="3" text="ファイル名(&amp;F)"/>
+		<res id="4" text="参照..."/>
+		<res id="5" text="参照..."/>
+		<res id="6" text="保存"/>
+		<res id="7" text="キャンセル"/>
+		<res id="8" text=""/>
+		<res id="9" text="検索フィルターは、[検索場所] または [ファイル名] フィールドに対して有効な値です。フィルターをオンにすると、すべての検索に自動的に適用されます。"/>
+		<res id="10" text=""/>
+	</dialog>
+	<dialog id="5548" name="IDD_EXPRESSION_REGEX" caption="">
+		<res id="1" text="正規表現の構文規則"/>
+		<res id="2" text="Perl 互換(&amp;P)"/>
+		<res id="3" text="クラシック(&amp;C)"/>
+		<res id="4" text="文字範囲を照合する(&amp;C)"/>
+		<res id="5" text="複数行正規表現"/>
+		<res id="6" text="マッチあたりの最大行数"/>
+	</dialog>
+	<dialog id="5549" name="IDD_EXPRESSION_HASH" caption="">
+		<res id="1" text="ハッシュアルゴリズム"/>
+		<res id="2" text="SHA-1(&amp;1)"/>
+		<res id="3" text="SHA-256(&amp;2)"/>
+		<res id="4" text="SHA-512(&amp;5)"/>
+		<res id="5" text="MD5(&amp;M)"/>
+	</dialog>
+	<dialog id="5517" name="IDD_FORMATS_DOCUMENT" caption="ドキュメント検索の設定">
+		<res id="1" text="Office ドキュメントの一般的な形式 (doc、pdf、xls など) に対する検索方法を選択してください:"/>
+		<res id="2" text="ディープ検索 (ファイル内のテキストとローデータの両方を検索する)"/>
+		<res id="3" text="カスタム処理"/>
+		<res id="4" text="すべての適切なドキュメントリーダーを使用する"/>
+		<res id="5" text="選択したドキュメントリーダーのみ使用する:"/>
+		<res id="6" text="すべて(&amp;A)"/>
+		<res id="7" text="なし(&amp;N)"/>
+		<res id="8" text=""/>
+		<res id="9" text="処理されたファイルのロードキュメントデータも検索する"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="キャンセル"/>
+		<res id="12" text="テキスト検索"/>
+		<res id="13" text="拡張設定（Word/PDF）" t="g"/>
+		<res id="14" text="埋め込まれたドキュメントを検索する" t="g"/>
+	</dialog>
+	<dialog id="5525" name="IDD_FORMATS_ARCHIVE" caption="圧縮/アーカイブ形式の検索の設定">
+		<res id="1" text="ファイル内検索を行う圧縮/アーカイブ形式を選択してください:"/>
+		<res id="2" text="すべての圧縮/アーカイブファイル内を検索する"/>
+		<res id="3" text="選択した圧縮/アーカイブファイル内のみ検索する:"/>
+		<res id="4" text="すべて(&amp;A)"/>
+		<res id="5" text="なし(&amp;N)"/>
+		<res id="6" text=""/>
+		<res id="7" text="OK"/>
+		<res id="8" text="キャンセル"/>
+	</dialog>
+	<dialog id="5519" name="IDD_CONFIGENTRY_EXPRESSIONS" caption="">
+		<res id="1" text="表現に関する設定を行います。"/>
+	</dialog>
+	<dialog id="5520" name="IDD_EXPRESSION_DOS" caption="">
+		<res id="1" text="構文規則に厳格に準拠する(&amp;S)"/>
+		<res id="2" text="ワイルドカード表現"/>
+		<res id="3" text="拡張子が指定されている場合に境界マーカーを想定する(&amp;I)"/>
+	</dialog>
+	<dialog id="5521" name="IDD_GENERAL_GUI" caption="">
+		<res id="1" text="ルック&amp;&amp;フィール"/>
+		<res id="2" text="デフォルト (タブ型インターフェイス、標準テーマ)"/>
+		<res id="3" text="クラシック (ウィンドウ型インターフェイス、クラシックテーマ)"/>
+		<res id="4" text="カスタム"/>
+		<res id="5" text="テーマ:"/>
+		<res id="6" text="タブ型インターフェイス"/>
+		<res id="7" text="タスクバーのプレビューに個々のタブを表示する*(&amp;I)"/>
+		<res id="8" text="* プログラムの再起動後に有効になります。"/>
+		<res id="9" text="内容表示ペインにタブを表示する"/>
+		<res id="10" text="Default tab following search"/>
+		<res id="11" text="内容表示のデフォルトのタブ:"/>
+	</dialog>
+	<dialog id="5522" name="IDD_EDITORSETTINGS_INTERNALVIEWER" caption="">
+		<res id="1" text="表示"/>
+		<res id="2" text="* 新たに読み込まれるすべてのファイルに対して有効になります。"/>
+		<res id="3" text="タブサイズ:"/>
+	</dialog>
+	<dialog id="101" name="IDD_ABOUTBOX" caption="製品情報">
+		<res id="1" text="https://www.mythicsoft.com"/>
+		<res id="2" text="mailto:support@mythicsoft.com"/>
+		<res id="3" text="登録コード(&amp;R)..."/>
+		<res id="4" text="OK"/>
+		<res id="5" text="Copyright © 2026 Mythicsoft Ltd. All rights reserved."/>
+		<res id="6" text="ライセンスの種類:"/>
+		<res id="7" text="(変更)"/>
+		<res id="8" text="Web サイト:"/>
+		<res id="9" text="プライバシーポリシー: 個人情報の他者への販売や提供を行うことはありません"/>
+		<res id="10" text="メールアドレス: "/>
+		<res id="11" text="登録情報:"/>
+		<res id="12" text="プライバシーポリシー"/>
+		<res id="13" text="https://www.mythicsoft.com/privacy-policy"/>
+		<res id="14" text=""/>
+	</dialog>
+	<dialog id="115" name="IDD_TESTREGEXP" caption="正規表現のテスト">
+		<res id="1" text="正規表現(&amp;R):"/>
+		<res id="2" text="大文字/小文字を区別する"/>
+		<res id="3" text="サンプルテキスト(&amp;S):"/>
+		<res id="4" text="テスト"/>
+		<res id="5" text="閉じる"/>
+		<res id="6" text="結果:"/>
+		<res id="7" text="正しい正規表現かどうか分からないことはありませんか? このウィンドウでは、正規表現をテストすることができます。テストしたい表現とサンプルテキストを入力し、[テスト] をクリックしてください。"/>
+		<res id="8" text="注: 表現テスターは、Perl スタイルの正規表現を使用します。"/>
+	</dialog>
+	<dialog id="102" name="IDD_SEARCHFOR_FORM" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="エキスパートユーザー(&amp;X)"/>
+		<res id="3" text="開始"/>
+		<res id="4" text="中止"/>
+		<res id="5" text="Progress1"/>
+		<res id="6" text="Animate1"/>
+		<res id="7" text=""/>
+	</dialog>
+	<dialog id="118" name="IDD_BASIC" caption="メイン">
+		<res id="1" text="ファイル名(&amp;N):"/>
+		<res id="2" text="検索テキスト(&amp;C):"/>
+		<res id="3" text="検索ウィザード(&amp;Z)..."/>
+		<res id="4" text="検索場所(&amp;L):"/>
+		<res id="5" text=""/>
+		<res id="6" text="サブフォルダーも検索(&amp;U)"/>
+		<res id="7" text="参照(&amp;B)..."/>
+	</dialog>
+	<dialog id="120" name="IDD_SEARCH_WIZ_NAME" caption="ファイルの名前">
+		<res id="1" text="検索するファイルの名前は何ですか?"/>
+		<res id="2" text="正確な名前が分からない場合でも、ファイル名の一部分を指定することができます。ファイル名がまったく分からない場合は、空白のままにしてください。"/>
+		<res id="3" text="例:"/>
+		<res id="4" text="My*Doc"/>
+		<res id="5" text="ファイル名に My とその後のどこかに Doc があるすべてのドキュメントを検索します。"/>
+		<res id="6" text="(例: My_Document.doc、My_Autodoc.txt など)"/>
+		<res id="7" text="例に示されているような表現を使用する前に、ファイル名が [オプション] タブでワイルドカード表現になっていることを確認してください。"/>
+		<res id="8" text="MyDoc"/>
+		<res id="9" text="ファイル名のどこかに MyDoc があるすべてのドキュメントを検索します。"/>
+		<res id="10" text="(例: MyDocument.doc、Note_From_MyDoctor.txt など)"/>
+		<res id="11" text="*.doc;*.txt"/>
+		<res id="12" text="すべての .doc または .txt ファイルを検索します。"/>
+		<res id="13" text="(例: MyDocument.doc、DoctorsNote.txt など)"/>
+	</dialog>
+	<dialog id="121" name="IDD_SEARCH_WIZ_LOCATION" caption="ファイルの場所">
+		<res id="1" text="すべてのローカルハードディスク(&amp;A)"/>
+		<res id="2" text="特定のドライブ(&amp;D) (例: C:、D: など)"/>
+		<res id="3" text=""/>
+		<res id="4" text="特定のフォルダー(&amp;F) (例: C:\Windows、D:\Files\My Docs など)"/>
+		<res id="5" text=""/>
+		<res id="6" text="参照(&amp;B)..."/>
+		<res id="7" text="はい、サブフォルダーも検索します(&amp;Y)"/>
+		<res id="8" text="いいえ、指定したフォルダーだけを検索します(&amp;N)"/>
+		<res id="9" text="[完了] ボタンをクリックしたら自動的に検索を開始する(&amp;S)"/>
+		<res id="10" text="どこにあるファイルを検索しますか?"/>
+		<res id="11" text="フォルダーのサブフォルダーも検索しますか?"/>
+		<res id="12" text="パフォーマンスに関するヒント: フォルダーを具体的に指定すると、検索するファイルの数を大幅に減らすことができ、通常はより速く検索が行えます。"/>
+	</dialog>
+	<dialog id="122" name="IDD_SEARCH_WIZ_CONTENTS" caption="ファイルの内容">
+		<res id="1" text="ファイル内のテキストに基づいてファイルを検索しますか?"/>
+		<res id="2" text="いいえ、ファイル名でのみ検索します(&amp;N)"/>
+		<res id="3" text="はい、ファイルの内容を検索します(&amp;Y)"/>
+		<res id="4" text="どのようなテキストを含むファイルを検索しますか?"/>
+		<res id="5" text="例:"/>
+		<res id="6" text="&quot;Dear Bill&quot;"/>
+		<res id="7" text="Dear Bill という語句を含む行があるすべてのファイルを検索します。"/>
+		<res id="8" text="(例: My Dear Bill...、Dear Billy how are you... など)"/>
+		<res id="9" text="Dear Bill"/>
+		<res id="10" text="Dear および Bill という単語の両方を含む行があるすべてのファイルを検索します。\n(例: Dear Fred how is Bill...、The dearest items should be rebilled... など)"/>
+		<res id="11" text="パフォーマンスに関するヒント: ファイルの内容の検索には時間がかかることがあります。とくに、ファイル名が入力されていない、またはあまり具体的でない場合には時間が長くなります。[いいえ] を選択した時は、通常は検索がより速く行われます。"/>
+	</dialog>
+	<dialog id="123" name="IDD_REGISTER" caption="製品登録">
+		<res id="1" text="OK"/>
+		<res id="2" text="キャンセル"/>
+		<res id="3" text="名前(&amp;N):"/>
+		<res id="4" text="姓(名字)(&amp;L):"/>
+		<res id="5" text="登録キー(&amp;R):"/>
+		<res id="6" text="メールアドレス(&amp;E):"/>
+		<res id="7" text="注: 名前とメールアドレスは、登録メールに記載されているとおりに正確に入力されている必要があります。"/>
+		<res id="8" text="登録に関して問題が発生した場合は、support@mythicsoft.com までお問い合わせください。"/>
+		<res id="9" text="登録情報を入力してください:"/>
+	</dialog>
+	<dialog id="124" name="IDD_ADVANCED" caption="メイン">
+		<res id="1" text="ファイル名(&amp;N):"/>
+		<res id="2" text="検索テキスト(&amp;C):"/>
+		<res id="3" text="検索場所(&amp;L):"/>
+		<res id="4" text=""/>
+		<res id="5" text="Not(&amp;O)"/>
+		<res id="6" text=""/>
+		<res id="7" text="ヘルプ..."/>
+		<res id="8" text=""/>
+		<res id="9" text="ヘルプ..."/>
+		<res id="10" text="サブフォルダー(&amp;U)"/>
+		<res id="11" text="参照..."/>
+		<res id="12" text="参照..."/>
+		<res id="13" text="&gt;"/>
+		<res id="14" text="&lt;"/>
+		<res id="15" text="更新日時:"/>
+		<res id="16" text="より後"/>
+		<res id="17" text="より前"/>
+		<res id="18" text="カレンダーの表示..."/>
+		<res id="19" text="カレンダーの表示..."/>
+		<res id="20" text=""/>
+	</dialog>
+	<dialog id="232" name="IDD_ADVANCED_LITE" copyid="124"/>
+	<dialog id="125" name="IDD_EXPR_WIZ" caption="正規表現の作成">
+		<res id="1" text="が"/>
+		<res id="2" text="追加(&amp;A)"/>
+		<res id="3" text="変更(&amp;M)"/>
+		<res id="4" text="削除(&amp;D)"/>
+		<res id="5" text="List2"/>
+		<res id="6" text="正規表現による記述"/>
+		<res id="7" text="注: ドラッグ&amp;&amp;ドロップでアイテムを並べ替えることができます。"/>
+	</dialog>
+	<dialog id="126" name="IDD_EXPR_WIZ_INTRO" caption="正規表現ウィザードの紹介">
+		<res id="1" text="正規表現ウィザードへようこそ。このウィザードは、検索対象を正確に定義するためのお手伝いをします。"/>
+		<res id="2" text="正規表現は、文字列にマッチするパターンを記述するために使用されます。正規表現は非常に強力ですが、初心者には近づきがたいと思われがちです。"/>
+		<res id="3" text="正規表現ウィザードの目的は、その強力さを犠牲にせずに正規表現の複雑さを軽減することです。正規表現ウィザードは、理解しやすい言葉で質問しながら、検索対象を記述する表現を作り上げるお手伝いをします。"/>
+		<res id="4" text="注:"/>
+		<res id="5" text="The search specific note goes here."/>
+		<res id="6" text="次回はこの紹介を表示しない(&amp;D)"/>
+	</dialog>
+	<dialog id="131" name="IDD_EXPR_WIZ_SPECIAL" caption="警告: 特殊文字が入力されました">
+		<res id="1" text="はい。入力した文字が特殊文字として扱われたくないので、バックスラッシュ (円記号) を適切に挿入してください。(&amp;Y)"/>
+		<res id="2" text="いいえ。高度な検索のために、意図的に特殊文字を使用しています。(&amp;N)"/>
+		<res id="3" text="入力された表現の 1 つ以上に少なくとも 1 つ以上の特殊文字 ^$*?+.[]()|\ が含まれています。"/>
+		<res id="4" text="特殊文字は、正規表現ではパターンマッチングの規則を定義するために使用されます。したがって、その使用には注意が必要です。特殊文字そのものを検索する場合は、その文字の前にバックスラッシュ (円記号) を付ける必要があります。"/>
+		<res id="5" text=""/>
+		<res id="6" text="例:"/>
+		<res id="7" text="検索する語句:"/>
+		<res id="8" text="正規表現:"/>
+		<res id="9" text="$400.00"/>
+		<res id="10" text="\$400\.00"/>
+		<res id="11" text="What was that?"/>
+		<res id="12" text="What was that\?"/>
+		<res id="13" text="(12\4)*5=15"/>
+		<res id="14" text="\(12\\4\)\*5=15"/>
+		<res id="15" text="検索する語句:"/>
+		<res id="16" text="検索する語句:"/>
+		<res id="17" text="正規表現:"/>
+		<res id="18" text="正規表現:"/>
+		<res id="19" text="正規表現ウィザードが、すべての特殊文字の前にバックスラッシュ (円記号) を自動的に挿入してよいですか?"/>
+	</dialog>
+	<dialog id="133" name="IDD_OPTIONS" caption="オプション">
+		<res id="1" text="NOT 表現を指定する(&amp;N)"/>
+		<res id="2" text="大文字/小文字を区別(&amp;M)"/>
+		<res id="3" text="大文字/小文字を区別(&amp;C)"/>
+		<res id="4" text=" ファイル名 "/>
+		<res id="5" text=" 検索テキスト "/>
+		<res id="6" text="検索場所"/>
+		<res id="7" text="拡張ドキュメント検索"/>
+		<res id="8" text="Office/PDF ドキュメント"/>
+	</dialog>
+	<dialog id="169" name="IDD_OPTIONS_ADVANCED_LITE" copyid="133"/>
+	<dialog id="140" name="IDD_SAVE_RESULTS" caption="結果のエクスポート">
+		<res id="1" text="クリップボード(&amp;C)"/>
+		<res id="2" text="ファイル(&amp;F)"/>
+		<res id="3" text="参照(&amp;B)..."/>
+		<res id="4" text="ファイルを上書きする(&amp;O)"/>
+		<res id="5" text="ファイルに追加する(&amp;P)"/>
+		<res id="6" text="エンコード(&amp;E):"/>
+		<res id="7" text="標準"/>
+		<res id="8" text="カスタム (XSLT)"/>
+		<res id="9" text="参照(&amp;B)..."/>
+		<res id="10" text="すべてのファイル(&amp;A)"/>
+		<res id="11" text="選択したファイル(&amp;S)"/>
+		<res id="12" text="ファイル名(&amp;N)"/>
+		<res id="13" text="ファイルの内容(&amp;T)"/>
+		<res id="14" text="周囲の行(&amp;L)"/>
+		<res id="15" text="エクスポート"/>
+		<res id="16" text="キャンセル"/>
+		<res id="17" text="結果を保存するファイル"/>
+		<res id="18" text="保存する情報"/>
+		<res id="19" text="エクスポート先"/>
+		<res id="20" text="形式"/>
+	</dialog>
+	<dialog id="141" name="IDD_OPTIONALMSG" caption="Dialog">
+		<res id="1" text="OK"/>
+		<res id="2" text="再度表示しない。"/>
+	</dialog>
+	<dialog id="142" name="IDD_BLANK" caption="Dialog">
+		<res id="1" text="これは空のダイアログです"/>
+	</dialog>
+	<dialog id="143" name="IDD_SCRIPTING" caption="スクリプティング">
+		<res id="1" text="ファイル名スクリプト:"/>
+		<res id="2" text="参照..."/>
+		<res id="3" text="エンジン:"/>
+		<res id="4" text="パラメーター:"/>
+		<res id="5" text="検索テキストスクリプト:"/>
+		<res id="6" text="参照..."/>
+		<res id="7" text="エンジン:"/>
+		<res id="8" text="パラメーター:"/>
+		<res id="9" text="テスト(&amp;T)"/>
+	</dialog>
+	<dialog id="152" name="IDD_EXPR_WIZ_DOSEXPR" caption="ワイルドカード表現">
+		<res id="1" text="ワイルドカード表現では、Windows の標準的な構文規則を使用してファイルのグループを指定します。複数の表現を区切るには、セミコロンを使用します。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="*.txt\t\t拡張子が .txt のすべてのファイルを指定します。\n\n*.xls;*.doc\t拡張子が .xls または .doc のすべてのファイルを指定します。"/>
+		<res id="4" text="高度な例:"/>
+		<res id="5" text="*.png;*.jpg:holiday\t\tファイル名に holiday という単語が含まれるすべての .png および .jpg ファイルを指定します。\n\nNOT:*.doc;*.xls\t\t\t.doc および .xls ファイルを除くすべてのファイルを指定します。\n\nholiday;NOT:*.exe;*.dll\t\tファイル名に holiday という単語が含まれる .exe または .dll ファイルを除くすべてのファイルを指定します。"/>
+	</dialog>
+	<dialog id="154" name="IDD_EXPR_WIZ_BOOLEANEXPR" caption="ブール表現エンジン">
+		<res id="1" text="ブール表現は、Web スタイルの検索演算子 AND、OR、NOT、LIKE、NEAR を使用します。ブール検索は、行単位またはファイル単位で行うことができます。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="work AND document\t同一行または同一ファイル内にある 'work' および 'document' という単語を検索します。"/>
+		<res id="4" text="work document\t\t上と同じ検索を行います (AND で暗黙的に連結されています)。"/>
+		<res id="5" text="work OR document\t同一行または同一ファイル内にある 'work' または 'document' という単語を検索します。"/>
+		<res id="6" text="work NEAR document\t行またはファイル内にある 'document' という単語に近接した 'work' を検索します。"/>
+		<res id="7" text="&quot;work document&quot;\t'work document' と完全に一致する語句を検索します。"/>
+		<res id="8" text="行単位"/>
+		<res id="9" text="表現がそれぞれの行に対して個別にテストされます。"/>
+		<res id="10" text="ファイル単位"/>
+		<res id="11" text="表現がファイル全体にわたってテストされます。"/>
+		<res id="12" text="注: 表現をグループ化するには、(work AND doc) や (special AND case) のように括弧を使用します。"/>
+	</dialog>
+	<dialog id="155" name="IDD_EXPR_WIZ_BOOLEANEXPR_LITE" caption="ブール表現エンジン">
+		<res id="1" text="ブール表現は、Web スタイルの検索演算子 AND、OR、NOT を使用します。ブール検索では、ファイル全体にわたってマッチが行われます。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="work AND document\t同一ファイル内にある 'work' および 'document' という単語を検索します。"/>
+		<res id="4" text="work document\t\t上と同じ検索を行います (AND で暗黙的に連結されています)。"/>
+		<res id="5" text="work OR document\t同一ファイル内にある 'work' または 'document' という単語を検索します。"/>
+		<res id="6" text="work NOT document\t同一ファイル内にある 'work' という単語を検索します。ただし、'document' が含まれる場合を除きます。"/>
+		<res id="7" text="&quot;work document&quot;\t'work document' と完全に一致する語句を検索します。"/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text=""/>
+		<res id="11" text=""/>
+		<res id="12" text="注: 表現をグループ化するには、(work AND doc) や (special AND case) のように括弧を使用します。"/>
+	</dialog>
+	<dialog id="156" name="IDD_EXPR_WIZ_EXACTEXPR" caption="プレーンテキスト">
+		<res id="1" text="プレーンテキストは、検索条件テキストを文字値、つまり編集フィールドに入力されたテキストそのものとして扱います。検索条件は、単語の全体または部分に対してマッチします。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="the author\t'the author' または 'the authors' のような語句を検索します。"/>
+		<res id="4" text="fish\t\t'fish'、'fishing'、または 'elfish' に対してマッチします。"/>
+	</dialog>
+	<dialog id="157" name="IDD_ATTRIBUTES" caption="属性">
+		<res id="1" text="属性を使用(&amp;U)"/>
+		<res id="2" text="すべてクリア"/>
+		<res id="3" text="アーカイブ(&amp;A):"/>
+		<res id="4" text="圧縮(&amp;C):"/>
+		<res id="5" text="暗号化(&amp;N):"/>
+		<res id="6" text="インデックス:"/>
+		<res id="7" text="フォルダー(&amp;D):"/>
+		<res id="8" text="隠し(&amp;H):"/>
+		<res id="9" text="オフライン(&amp;O):"/>
+		<res id="10" text="読み取り専用(&amp;R):"/>
+		<res id="11" text="システム(&amp;Y):"/>
+		<res id="12" text="スパース(&amp;P):"/>
+		<res id="13" text="リパースポイント(&amp;R):"/>
+	</dialog>
+	<dialog id="158" name="IDD_ATTRIBUTE_SUMMARY" caption="Summary Attributes★NOT USED★">
+		<res id="1" text="Attribute"/>
+		<res id="2" text="Search for:"/>
+	</dialog>
+	<dialog id="159" name="IDD_OPTIONS_ADVANCED" caption="オプション" maxgrow="700">
+		<res id="1" text="ブール表現"/>
+		<res id="2" text="マッチ:"/>
+		<res id="3" text="行単位(&amp;)"/>
+		<res id="4" text="ファイル全体(&amp;A)"/>
+		<res id="5" text="ワイルドカード (*, ?) を許可(&amp;*)"/>
+		<res id="6" text="メール"/>
+		<res id="10" text="拡張ファイル検索"/>
+		<res id="11" text="Office/PDF ドキュメント(&amp;O)"/>
+		<res id="12" text="設定..."/>
+		<res id="13" text="Outlook/Thunderbird ファイル(&amp;U)"/>
+		<res id="14" text="添付ファイルも検索(&amp;R)"/>
+		<res id="15" text="HTML マークアップの削除(&amp;H)"/>
+		<res id="16" text="キャッシュテキスト(&amp;C)"/>
+		<res id="17" text="キャッシュ..."/>
+		<res id="18" text="バイナリファイルを除外(&amp;B)"/>
+		<res id="19" text="OCR 画像"/>
+		<res id="20" text="OCR..."/>
+	</dialog>
+	<dialog id="171" name="IDD_DATETIMEPICKER" caption="日時の選択">
+		<res id="1" text="日付"/>
+		<res id="2" text="特定の日付:"/>
+		<res id="3" text="相対的な日付:"/>
+		<res id="4" text=""/>
+		<res id="5" text="調整 (+/-)"/>
+		<res id="6" text="日:"/>
+		<res id="7" text="週:"/>
+		<res id="8" text="月:"/>
+		<res id="9" text="年:"/>
+		<res id="10" text="時刻"/>
+		<res id="11" text="時刻を指定する"/>
+		<res id="12" text="特定の時刻:"/>
+		<res id="13" text="相対的な時刻:"/>
+		<res id="14" text="HH:mm:ss"/>
+		<res id="15" text="調整 (+/-)"/>
+		<res id="16" text="秒:"/>
+		<res id="17" text="分:"/>
+		<res id="18" text="時:"/>
+		<res id="19" text="OK"/>
+		<res id="20" text="キャンセル"/>
+		<res id="21" text="現在の表現:"/>
+		<res id="22" text="表現の解釈結果:"/>
+	</dialog>
+	<dialog id="173" name="IDD_EXPR_WIZ_FILEHASH" caption="ファイルハッシュ">
+		<res id="1" text="ファイルのハッシュは、それぞれのファイルに対してそのファイルの内容に基づいて固定長の識別子を生成します。同じ内容のファイルからは、同じハッシュ値が生成されます。"/>
+		<res id="2" text="1. 環境設定でハッシュアルゴリズムを指定します。"/>
+		<res id="3" text="ハッシュ値で検索するには:"/>
+		<res id="4" text="2. 以下のように、検索するハッシュ値をハッシュ値のカンマ区切りリスト、またはハッシュ値のリストへのポインターとして入力します。"/>
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848"/>
+		<res id="6" text="=c:\hashfile.txt"/>
+		<res id="7" text="または、"/>
+	</dialog>
+	<dialog id="175" name="IDD_EXPR_WIZ_BOOLEANREGEX" caption="ブール正規表現エンジン">
+		<res id="1" text="ブール正規表現は、ブール表現と正規表現を合わせたものです。正規表現は、ブール演算子 AND、OR、NOT を使用して連結することができます。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;author&quot;"/>
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archive&quot;"/>
+		<res id="5" text="注: 表現をグループ化するには、(work AND doc) や (special AND case) のように括弧を使用します。"/>
+	</dialog>
+	<dialog id="177" name="IDD_EXPR_WIZ_WHOLEWORD" caption="単語全体">
+		<res id="1" text="単語全体表現は、それぞれの語句が検索テキスト内の完全に一致する単語にのみマッチする、つまり単語の一部分にはマッチしないという点を除いてブール表現に似ています。語句は、ブール演算子 AND、OR、NOT を使用して連結することができます。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="the author\t'the' および 'author' という単語を検索します。'these' や 'authority' のような部分的なマッチは除きます。"/>
+		<res id="4" text="fish\t\t'fish' に対してマッチしますが、'fishing' や 'elfish' に対してはマッチしません。"/>
+	</dialog>
+	<dialog id="235" name="IDD_EXPR_WIZ_FUZZY" caption="ファジー検索">
+		<res id="1" text="ファジー検索表現は、ブール表現の LIKE 演算子とまったく同じように、近似した検索語句にマッチします。ファジー検索はブール表現の特別な種類なので、個々の検索語句を AND、OR、NOT 演算子を使用して連結することができます。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text="separate\tseparate と seperate の両方だけでなく、separated や separately にもマッチします"/>
+		<res id="4" text="collected\tcollected はもちろん、collects や connected にもマッチします。"/>
+	</dialog>
+	<dialog id="236" name="IDD_EXPR_WIZ_MULTILINE_REGEX" caption="複数行正規表現">
+		<res id="1" text="複数行正規表現は、複数行にわたる正規表現にマッチします。"/>
+		<res id="2" text="例:"/>
+		<res id="3" text=".{0,20}thought.{0,20}"/>
+		<res id="4" text="先頭行/末尾行にある両側を 20 桁までの文字で囲まれた thought という単語にマッチします。"/>
+	</dialog>
+	<dialog id="180" name="IDD_DATES" caption="日時">
+		<res id="1" text="すべてクリア"/>
+		<res id="2" text="更新日時(&amp;M):"/>
+		<res id="3" text="より後:"/>
+		<res id="4" text="カレンダーの表示..."/>
+		<res id="5" text="より前:"/>
+		<res id="6" text="カレンダーの表示..."/>
+		<res id="7" text="作成日時(&amp;C):"/>
+		<res id="8" text="より後:"/>
+		<res id="9" text="カレンダーの表示..."/>
+		<res id="10" text="より前:"/>
+		<res id="11" text="カレンダーの表示..."/>
+		<res id="12" text="最終アクセス日時(&amp;L):"/>
+		<res id="13" text="より後:"/>
+		<res id="14" text="カレンダーの表示..."/>
+		<res id="15" text="より前:"/>
+		<res id="16" text="カレンダーの表示..."/>
+	</dialog>
+	<dialog id="193" name="IDD_ADVANCEDTAB" caption="高度">
+		<res id="1" text="ファイルハッシュ"/>
+		<res id="2" text="SHA-1(&amp;1)"/>
+		<res id="3" text="SHA-256(&amp;2)"/>
+		<res id="4" text="SHA-512(&amp;5)"/>
+		<res id="5" text="MD5(&amp;M)"/>
+		<res id="6" text="正規表現"/>
+		<res id="7" text="Perl 互換(&amp;P)"/>
+		<res id="8" text="クラシック(&amp;C)"/>
+		<res id="9" text="アクティブスクリプティング"/>
+		<res id="10" text="設定..."/>
+	</dialog>
+	<dialog id="145" name="IDD_EXTENSIONS" caption="圧縮ファイル">
+		<res id="1" text=""/>
+		<res id="2" text="ファイル内検索を行うファイル形式を選択してください:"/>
+		<res id="3" text="環境設定..."/>
+		<res id="4" text="なし(&amp;N)"/>
+		<res id="5" text="すべて(&amp;A)"/>
+	</dialog>
+	<dialog id="179" name="IDD_CHECKVERSION" caption="アップデートの確認">
+		<res id="1" text="アップデートを確認中..."/>
+		<res id="2" text=""/>
+		<res id="3" text="Web リンク:"/>
+		<res id="4" text="ダウンロードページ:"/>
+		<res id="5" text="https://www.mythicsoft.com/%app_name%/download"/>
+		<res id="6" text="バージョン履歴ページ: "/>
+		<res id="7" text="https://www.mythicsoft.com/%app_name%/history"/>
+		<res id="8" text="アップデートを自動的に確認する"/>
+		<res id="9" text="閉じる"/>
+	</dialog>
+	<dialog id="191" name="IDD_FAVOURITE_SEARCH" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Static"/>
+	</dialog>
+	<dialog id="192" name="IDD_FAVOURITE_ADD" caption="お気に入りの追加">
+		<res id="1" text=""/>
+		<res id="2" text="この検索をお気に入りとして追加します。"/>
+		<res id="3" text="説明(&amp;D):"/>
+		<res id="4" text="タグ(&amp;T):"/>
+		<res id="5" text="追加(&amp;A)"/>
+		<res id="6" text="キャンセル"/>
+	</dialog>
+	<dialog id="3539" name="IDD_MULTIFOLDER" caption="複数フォルダー">
+		<res id="1" text="フォルダーごとに行を分けて追加してください。フォルダーは、直接入力、ドロップダウンから追加、参照のいずれかで追加します。"/>
+		<res id="2" text="最近使ったフォルダー(&amp;R):"/>
+		<res id="3" text=""/>
+		<res id="4" text="追加(&amp;A)"/>
+		<res id="5" text="除外(&amp;E)"/>
+		<res id="6" text="マクロ(&amp;M):"/>
+		<res id="7" text=""/>
+		<res id="8" text="追加(&amp;A)"/>
+		<res id="9" text="除外(&amp;E)"/>
+		<res id="10" text="検索するフォルダー(&amp;L):"/>
+		<res id="11" text="参照(&amp;B)..."/>
+		<res id="12" text="除外するフォルダー(&amp;E):"/>
+		<res id="13" text="参照(&amp;B)..."/>
+		<res id="14" text="包含フィルター(&amp;I):"/>
+		<res id="15" text="除外フィルター(&amp;X):"/>
+		<res id="16" text="OK"/>
+		<res id="17" text="キャンセル"/>
+	</dialog>
+	<dialog id="3523" name="IDD_FILEVIEWER_FIND" caption="">
+		<res id="1" text="検索:"/>
+		<res id="2" text="l"/>
+		<res id="3" text="次へ"/>
+		<res id="4" text="前へ"/>
+		<res id="5" text="ハイライト:"/>
+		<res id="6" text=""/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text="l"/>
+		<res id="11" text="次へ"/>
+		<res id="12" text="次へ"/>
+		<res id="13" text="一次検索のハイライト色"/>
+		<res id="14" text="最後の検索のハイライト色"/>
+		<res id="15" text="" t="e"/>
+		<res id="16" text="" t="e"/>
+	</dialog>
+	<dialog id="3521" name="IDD_ACTION_PROGRESS" caption="アクション:">
+		<res id="1" text="キャンセル"/>
+		<res id="2" text=""/>
+		<res id="3" text="進捗"/>
+	</dialog>
+	<dialog id="5550" name="IDD_GENERAL_LOCALIZATION" caption="">
+		<res id="1" text="ユーザーインターフェイス言語:"/>
+		<res id="2" text="* 変更はプログラムの再起動後に有効になります。"/>
+	</dialog>
+	<dialog id="5551" name="IDD_SINGLE_CONFIG" caption="言語の設定">
+		<res id="1" text="OK"/>
+		<res id="2" text="キャンセル"/>
+	</dialog>
+	<dialog id="5562" name="IDD_EDITHISTORY_DIALOG" caption="Edit History">
+		<res id="1" text="履歴" t="e"/>
+		<res id="2" text="アイテム:" t="e"/>
+		<res id="3" text="すべてクリア..." t="g"/>
+		<res id="4" text="OK" t="e"/>
+		<res id="5" text="キャンセル" t="e"/>
+	</dialog>
+	<menu id="322" name="IDR_MENU_REFRESHINDEX">
+		<res id="1" text=""/>
+		<res id="2" text="インデックスの更新(&amp;U)"/>
+		<res id="3" text="インデックスの再作成(&amp;R)"/>
+	</menu>
+	<menu id="328" name="IDR_INDEXLIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="インデックスの編集...\tEnter"/>
+		<res id="3" text="インデックスの削除...\tDel"/>
+		<res id="4" text="新規インデックスの追加...\tIns"/>
+		<res id="5" text="インデックスの更新"/>
+		<res id="6" text="インデックスの再作成"/>
+		<res id="7" text="インデックス作成のキャンセル"/>
+	</menu>
+	<menu id="340" name="IDR_SCHEDULELIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="スケジュールの編集..."/>
+		<res id="3" text="スケジュールの削除..."/>
+		<res id="4" text="新規スケジュールの追加..."/>
+	</menu>
+	<menu id="329" name="IDR_INDEXMGR_MENU">
+		<res id="1" text="ファイル(&amp;F)"/>
+		<res id="2" text="新規インデックス(&amp;N)..."/>
+		<res id="3" text="終了(&amp;X)"/>
+		<res id="4" text="新規スケジュール(&amp;S)..."/>
+		<res id="10" text="編集(&amp;E)"/>
+		<res id="11" text="インデックスの編集(&amp;E)..."/>
+		<res id="12" text="インデックスの削除(&amp;R)..."/>
+		<res id="13" text="インデックスの更新(&amp;U)"/>
+		<res id="14" text="インデックスの再作成(&amp;R)"/>
+		<res id="15" text="インデックス作成のキャンセル(&amp;C)"/>
+		<res id="20" text="ヘルプ(&amp;H)"/>
+		<res id="21" text="インデックスマネージャーの製品情報(&amp;A)..."/>
+		<res id="22" text="エラーレポートの作成(&amp;G)..."/>
+	</menu>
+	<menu id="5512" name="IDR_FILTERLIST_CONTEXTMENU">
+		<res id="1" text="リスト"/>
+		<res id="2" text="編集(&amp;E)..."/>
+		<res id="3" text="削除(&amp;D)"/>
+	</menu>
+	<menu id="5513" name="IDR_LICENSELIST_CONTEXTMENU">
+		<res id="1" text="リスト"/>
+		<res id="2" text="リースの解除(&amp;K)"/>
+	</menu>
+	<menu id="150" name="IDR_VIEWERMENU_SPECIALIZATION">
+		<res id="6" text="ファイルの保存(&amp;S)"/>
+		<res id="7" text="ファイルに名前を付けて保存(&amp;A)"/>
+	</menu>
+	<menu id="149" name="IDR_SHAREDMENU">
+		<res id="1" text="ファイル(&amp;F)"/>
+		<res id="2" text="新規(&amp;N)"/>
+		<res id="3" text="条件を空欄にして検索(&amp;B)"/>
+		<res id="4" text="開く(&amp;O)..."/>
+		<res id="5" text="閉じる(&amp;C)"/>
+		<res id="6" text="条件の保存(&amp;S)"/>
+		<res id="7" text="条件に名前を付けて保存(&amp;A)"/>
+		<res id="8" text="結果リストの検索(&amp;L)"/>
+		<res id="9" text="選択しているファイル内の検索(&amp;U)"/>
+		<res id="10" text="結果のエクスポート(&amp;E)..."/>
+		<res id="12" text="印刷(&amp;P)..."/>
+		<res id="13" text="プリンターの設定(&amp;R)..."/>
+		<res id="14" text="最近使ったファイル"/>
+		<res id="15" text="終了(&amp;X)"/>
+		<res id="16" text="編集(&amp;E)"/>
+		<res id="17" text="ワードラップ(&amp;W)"/>
+		<res id="18" text="フォントの設定(&amp;S)..."/>
+		<res id="19" text="ハイライト色の設定(&amp;H)..."/>
+		<res id="20" text="検索(&amp;F)"/>
+		<res id="21" text="検索(&amp;F)..."/>
+		<res id="22" text="次を検索(&amp;N)"/>
+		<res id="23" text="前を検索(&amp;P)"/>
+		<res id="24" text="一次検索のハイライト(&amp;O)"/>
+		<res id="25" text="二次検索のハイライト(&amp;C)"/>
+		<res id="26" text="すべて選択(&amp;L)"/>
+		<res id="27" text="開く(&amp;O)"/>
+		<res id="28" text="この場所をエクスプローラーで開く(&amp;E)..."/>
+		<res id="29" text="パスのコピー(&amp;P)"/>
+		<res id="30" text="コピー(&amp;C)"/>
+		<res id="31" text="切り取り(&amp;T)"/>
+		<res id="32" text="削除(&amp;D)"/>
+		<res id="33" text="名前の変更(&amp;M)"/>
+		<res id="34" text="プロパティ(&amp;P)..."/>
+		<res id="35" text="表示(&amp;V)"/>
+		<res id="36" text="お気に入り(&amp;F)"/>
+		<res id="37" text="ツールバー(&amp;T)"/>
+		<res id="38" text="ステータスバー(&amp;S)"/>
+		<res id="39" text="エラーリスト(&amp;E)"/>
+		<res id="40" text="並べ替え(&amp;O)"/>
+		<res id="41" text="ファイル名(&amp;F)"/>
+		<res id="42" text="場所(&amp;L)"/>
+		<res id="43" text="サイズ(&amp;S)"/>
+		<res id="44" text="種類(&amp;T)"/>
+		<res id="45" text="更新日時(&amp;D)"/>
+		<res id="46" text="テキストのプレビュー(&amp;X)"/>
+		<res id="47" text="前のファイル(&amp;P)"/>
+		<res id="48" text="次のファイル(&amp;N)"/>
+		<res id="49" text="サムネイル(&amp;N)"/>
+		<res id="50" text="特大アイコン(&amp;E)"/>
+		<res id="51" text="大アイコン(&amp;L)"/>
+		<res id="52" text="中アイコン(&amp;M)"/>
+		<res id="53" text="小アイコン(&amp;S)"/>
+		<res id="54" text="メイン画面に戻る(&amp;R)"/>
+		<res id="55" text="前の検索(&amp;B)"/>
+		<res id="56" text="次の検索"/>
+		<res id="57" text="検索(&amp;S)"/>
+		<res id="58" text="開始(&amp;S)"/>
+		<res id="59" text="停止(&amp;P)"/>
+		<res id="60" text="中止(&amp;T)"/>
+		<res id="61" text="ツール(&amp;T)"/>
+		<res id="62" text="正規表現テスター(&amp;R)..."/>
+		<res id="63" text="履歴の消去(&amp;H)..."/>
+		<res id="64" text="エディターの設定(&amp;E)..."/>
+		<res id="65" text="環境設定(&amp;C)..."/>
+		<res id="66" text="シェル統合(&amp;H)..."/>
+		<res id="67" text="ウィンドウ(&amp;W)"/>
+		<res id="68" text="内容表示ペイン(&amp;V)"/>
+		<res id="69" text="右側に表示(&amp;R)"/>
+		<res id="70" text="下側に表示(&amp;B)"/>
+		<res id="71" text="表示"/>
+		<res id="72" text="カスケード表示(&amp;C)"/>
+		<res id="73" text="タイル表示(&amp;T)"/>
+		<res id="74" text="アイコンの配置(&amp;I)"/>
+		<res id="75" text="フォーカスの移動(&amp;F)"/>
+		<res id="76" text="検索条件(&amp;T)"/>
+		<res id="77" text="ファイルリスト(&amp;F)"/>
+		<res id="78" text="内容表示ペイン(&amp;E)"/>
+		<res id="79" text="現在のタブ(&amp;C)"/>
+		<res id="80" text="概要(&amp;S)"/>
+		<res id="81" text="ヒット(&amp;H)"/>
+		<res id="82" text="テキスト(&amp;T)"/>
+		<res id="83" text="サムネイル(&amp;N)"/>
+		<res id="84" text="お気に入り(&amp;I)"/>
+		<res id="85" text="エラーレポート(&amp;R)"/>
+		<res id="86" text="タブの順序(&amp;O)"/>
+		<res id="87" text="最適化(&amp;O)"/>
+		<res id="88" text="左から右へ(&amp;T)"/>
+		<res id="89" text="ヘルプ(&amp;H)"/>
+		<res id="90" text="%APP_NAME% のヘルプ(&amp;C)..."/>
+		<res id="91" text="コマンドラインパラメーター(&amp;P)..."/>
+		<res id="92" text="アップデートの確認(&amp;U)..."/>
+		<res id="93" text="%APP_NAME% の製品情報(&amp;A)..."/>
+		<res id="94" text="検索の保存(&amp;H)..."/>
+		<res id="95" text="ワークスペースの保存(&amp;W)..."/>
+		<res id="96" text="すべて閉じる(&amp;A)"/>
+		<res id="97" text="テキストウィンドウをすべて閉じる(&amp;T)"/>
+		<res id="98" text="アクティブな検索以外をすべて閉じる(&amp;E)"/>
+		<res id="99" text="テクニカルサポートに問い合わせ(&amp;T)..."/>
+		<res id="100" text="エラーレポートの作成(&amp;G)..."/>
+		<res id="101" text="登録コード(&amp;R)..."/>
+		<res id="102" text="アクティブな検索以外をすべて閉じる(&amp;E)"/>
+		<res id="103" text="メニューバー(&amp;M)"/>
+		<res id="104" text="レポート(&amp;R)"/>
+		<res id="105" text="フィルターバー(&amp;F)"/>
+		<res id="106" text="検索スレッド(&amp;S)"/>
+		<res id="107" text="検索スレッド(&amp;S)"/>
+		<res id="108" text="エキスパート(&amp;E)"/>
+		<res id="109" text="ベーシック(&amp;B)"/>
+		<res id="110" text="インデックス検索(&amp;I)"/>
+		<res id="111" text="インデックスマネージャー(&amp;I)..."/>
+		<res id="112" text="検索モード(&amp;C)"/>
+		<res id="113" text="列の選択(&amp;S)..."/>
+		<res id="114" text="ライセンスの種類の変更(&amp;C)..."/>
+		<res id="115" text="アップグレード(&amp;U)..."/>
+		<res id="116" text="ズーム(&amp;Z)"/>
+		<res id="117" text="ズームイン(&amp;I)"/>
+		<res id="118" text="ズームアウト(&amp;O)"/>
+		<res id="119" text="ライセンスマネージャー(&amp;L)..."/>
+	</menu>
+	<menu id="170" name="IDR_SHAREDMENU_LITE" copyid="149"/>
+	<menu id="148" name="IDR_CONTENTSVIEWMENU">
+		<res id="1" text="内容表示ペイン"/>
+		<res id="2" text="[テキスト] タブで開く"/>
+		<res id="3" text="新規ウィンドウで開く..."/>
+		<res id="4" text="外部エディターで開く..."/>
+		<res id="5" text="Visual Studio で開く..."/>
+		<res id="6" text="結果のエクスポート..."/>
+		<res id="7" text="ワードラップ"/>
+		<res id="8" text="コピー"/>
+		<res id="9" text="すべて展開"/>
+		<res id="10" text="すべて折りたたみ"/>
+		<res id="11" text="右側に表示"/>
+		<res id="12" text="下側に表示"/>
+		<res id="13" text="内容表示ペインの非表示"/>
+	</menu>
+	<menu id="186" name="IDR_MENU_PLACEHOLDER">
+		<res id="1" text="Blank"/>
+	</menu>
+	<menu id="194" name="IDR_FAVOURITES_MENU">
+		<res id="1" text="FindMenu"/>
+		<res id="2" text="開く"/>
+		<res id="3" text="新規ウィンドウで開く"/>
+		<res id="4" text="編集"/>
+		<res id="5" text="削除"/>
+	</menu>
+	<menu id="114" name="IDR_FILELOTYPE">
+		<res id="1" text="Dummy"/>
+	</menu>
+	<menu id="107" name="IDR_FILEVIEWER">
+		<res id="1" text="Dummy"/>
+	</menu>
+	<menu id="200" name="IDR_FILTERMENU">
+		<res id="1" text="フィルター"/>
+		<res id="2" text="検索フィルターをオン"/>
+		<res id="3" text="検索フィルターをオフ"/>
+		<res id="4" text="設定..."/>
+	</menu>
+	<menu id="3522" name="IDR_FILEVIEWER_CONTEXTMENU">
+		<res id="1" text="内容表示ペイン"/>
+		<res id="2" text="ワードラップ(&amp;W)"/>
+		<res id="3" text="コピー"/>
+		<res id="4" text="新規ウィンドウで開く..."/>
+		<res id="5" text="外部エディターで開く..."/>
+		<res id="6" text="Visual Studio で開く..."/>
+		<res id="7" text="検索"/>
+		<res id="8" text="次を検索"/>
+		<res id="9" text="前を検索"/>
+		<res id="10" text="一次検索のハイライト"/>
+		<res id="11" text="二次検索のハイライト"/>
+		<res id="12" text="フォントの設定..."/>
+		<res id="13" text="ファイル"/>
+		<res id="14" text="再検索"/>
+		<res id="15" text="新規検索"/>
+	</menu>
+	<menu id="3526" name="IDR_REPORTVIEW_CONTEXTMENU">
+		<res id="1" text="レポート"/>
+		<res id="2" text="コピー"/>
+		<res id="3" text="すべて選択"/>
+		<res id="4" text="リフレッシュ"/>
+	</menu>
+	<menu id="3507" name="IDR_IMAGESIZES_MENU">
+		<res id="1" text="サイズ"/>
+		<res id="2" text="特大アイコン"/>
+		<res id="3" text="大アイコン"/>
+		<res id="4" text="中アイコン"/>
+		<res id="5" text="小アイコン"/>
+		<res id="6" text="プレビュー"/>
+	</menu>
+	<menu id="3547" name="IDR_SEARCHTASKS_CONTEXTMENU">
+		<res id="1" text="キャンセル"/>
+		<res id="2" text="パスのコピー"/>
+		<res id="3" text="この場所をエクスプローラーで開く..."/>
+	</menu>
+	<menu id="3548" name="IDR_LISTHEADER_CONTEXTMENU">
+		<res id="1" text="ヘッダー"/>
+		<res id="2" text="列の選択..."/>
+	</menu>
+	<string id="4" type="IndexManager">
+		<res id="1" text="新規または既存のインデックスを追加します\nインデックスの追加"/>
+		<res id="2" text="インデックスを完全に削除またはリストから削除します\nインデックスの削除"/>
+		<res id="3" text="インデックス作成のパラメーターを編集します\nインデックスの編集"/>
+		<res id="4" text="新たな変更に合わせてインデックスを更新します\nインデックスの更新"/>
+		<res id="5" text="インデックス全体を再作成します\nインデックスの再作成"/>
+		<res id="6" text="インデックス作成処理をキャンセルします\nキャンセル"/>
+		<res id="7" text="リストをリフレッシュします\nリストのリフレッシュ"/>
+		<res id="8" text="新規スケジュールを追加します\nスケジュールの追加"/>
+		<res id="9" text="スケジュールを編集します\nスケジュールの編集"/>
+		<res id="10" text="スケジュールを削除します\nスケジュールの削除"/>
+		<res id="11" text="スケジュールに関連付けされたインデックスを編集します\nインデックスリストの編集"/>
+	</string>
+	<string id="3" type="InternalViewer">
+		<res id="37" text="現在のファイルを保存します\nファイルの保存"/>
+	</string>
+	<string id="1" type="Resource">
+		<res id="1" text="準備完了"/>
+		<res id="2" text="サウンドファイルの参照"/>
+		<res id="3" text="サウンドファイルの再生"/>
+		<res id="4" refid="3"/>
+		<res id="5" text="フォルダーの参照"/>
+		<res id="6" text="サウンドファイルのパス"/>
+		<res id="7" refid="2"/>
+		<res id="8" refid="6"/>
+		<res id="9" refid="5"/>
+		<res id="10" refid="5"/>
+		<res id="11" refid="5"/>
+		<res id="12" refid="5"/>
+		<res id="13" text="エクスプローラーでフォルダーを開く"/>
+		<res id="14" refid="13"/>
+		<res id="15" text="環境設定"/>
+		<res id="16" text="コンテンツビューアー"/>
+		<res id="18" text="ディレクトリ検索"/>
+		<res id="20" text="拡張子"/>
+		<res id="21" text="%APP_NAME%"/>
+		<res id="22" text="SDI_ONLY\n検索\n新規検索\n検索条件ファイル (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\n%APP_NAME% 検索条件"/>
+		<res id="23" text="選択したファイルの 1 つ以上は複合ファイルのため、削除することができません。続行しますか?"/>
+		<res id="24" text="Registration key has expired. Please purchase a new key or install an older version of the product. Older product versions are available in the MyAccount section of the Mythicsoft web site (www.mythicsoft.com).★NOT USED★"/>
+		<res id="25" text="前の検索に切り替えると、現在の検索は中止されます。続行しますか?"/>
+		<res id="26" text="FileLocatorPro"/>
+		<res id="27" refid="1"/>
+		<res id="34" text="最後に行った検索の条件に基づいて新規検索を行います\n最後の検索条件で新規検索"/>
+		<res id="35" text="検索条件ファイルを開きます\n開く"/>
+		<res id="36" text="アクティブな検索を閉じます\n閉じる"/>
+		<res id="37" text="現在の検索条件を保存します\n条件の保存"/>
+		<res id="38" text="現在の検索条件を名前を付けて保存します\n名前を付けて保存"/>
+		<res id="39" text="印刷オプションを変更します\nページの設定"/>
+		<res id="40" text="プリンターと印刷オプションを変更します\nプリンターの設定"/>
+		<res id="41" text="選択した検索結果を印刷します\n印刷"/>
+		<res id="42" text="ページ全体を表示します\n印刷プレビュー"/>
+		<res id="43" text="プログラムの情報、バージョン番号、著作権を表示します\n製品情報"/>
+		<res id="44" text="アプリケーションを終了します\n終了"/>
+		<res id="45" text="この検索を開く"/>
+		<res id="46" refid="45"/>
+		<res id="47" refid="45"/>
+		<res id="48" refid="45"/>
+		<res id="49" refid="45"/>
+		<res id="50" refid="45"/>
+		<res id="51" refid="45"/>
+		<res id="52" refid="45"/>
+		<res id="53" refid="45"/>
+		<res id="54" refid="45"/>
+		<res id="55" refid="45"/>
+		<res id="56" refid="45"/>
+		<res id="57" refid="45"/>
+		<res id="58" refid="45"/>
+		<res id="59" refid="45"/>
+		<res id="60" refid="45"/>
+		<res id="61" text="次のウィンドウペインに切り替えます\n次のペイン"/>
+		<res id="62" text="前のウィンドウペインに切り替えます\n前のペイン"/>
+		<res id="63" text="アクティブなドキュメントを別のウィンドウで開きます\n新規ウィンドウ"/>
+		<res id="64" text="アイコンをウィンドウの下部に配置します\nアイコンの配置"/>
+		<res id="65" text="ウィンドウを重ねて配置します\nウィンドウのカスケード表示"/>
+		<res id="66" text="ウィンドウを並べて配置します\nウィンドウのタイル表示"/>
+		<res id="67" refid="66"/>
+		<res id="68" text="アクティブなウィンドウをペインに分割します\n分割"/>
+		<res id="69" text="選択アイテムを消去します\n消去"/>
+		<res id="70" text="すべての選択アイテムを消去します\nすべて消去"/>
+		<res id="71" text="現在の選択アイテムをクリップボードにコピーします\nコピー"/>
+		<res id="72" text="選択アイテムを切り取ってクリップボードに置きます\n切り取り"/>
+		<res id="73" text="指定したテキストを検索します\n検索"/>
+		<res id="74" text="クリップボードの内容を挿入します\n貼り付け"/>
+		<res id="75" text="最後の操作を繰り返します\n繰り返し"/>
+		<res id="76" text="特定のテキストを別のテキストで置き換えます\n置換"/>
+		<res id="77" text="ドキュメント全体を選択します\nすべて選択"/>
+		<res id="78" text="最後の操作を取り消します\n取り消し"/>
+		<res id="79" text="取り消した操作をやり直します\nやり直し"/>
+		<res id="80" text="ツールバーの表示/非表示を切り替えます\nツールバーの表示切り替え"/>
+		<res id="81" text="ステータスバーの表示/非表示を切り替えます\nステータスバーの表示切り替え"/>
+		<res id="82" text="ウィンドウのサイズを変更します"/>
+		<res id="83" text="ウィンドウの位置を変更します"/>
+		<res id="84" text="ウィンドウをアイコン化します"/>
+		<res id="85" text="ウィンドウを最大化します"/>
+		<res id="86" text="次のドキュメントウィンドウに切り替えます"/>
+		<res id="87" text="前のドキュメントウィンドウに切り替えます"/>
+		<res id="88" text="アクティブなウィンドウを閉じ、ドキュメントの保存を求めます"/>
+		<res id="89" text="ウィンドウを通常のサイズに戻します"/>
+		<res id="90" text="タスクリストをアクティブにします"/>
+		<res id="91" text="このウィンドウをアクティブにします"/>
+		<res id="92" text="印刷プレビューモードを終了します\nプレビューを閉じる"/>
+		<res id="93" text="このペインには、ファイルリスト表示ペインで選択したすべてのファイルが表示されます。ファイルの内容で検索している場合には、選択したファイル内で検出された行も表示されます。マウスの右ボタンをクリックすると、コンテキストメニューに利用可能なオプションが表示されます。"/>
+		<res id="94" text="%s は有効な検索ディレクトリではありません。ディレクトリ名は、ドライブ文字を含む有効なパス (例えば C:\Windows)、または UNC 名 (例えば \\WORKSTATION\Shared_Folder) である必要があります。"/>
+		<res id="95" text="\nSearchFor\n検索\n検索ファイル (*.sea)\n.sea\nSearchFor.Document\nドキュメント検索"/>
+		<res id="96" text="現在選択しているファイルのパスをクリップボードにコピーします\nファイルのパスのコピー"/>
+		<res id="97" text="現在選択しているファイルのプロパティダイアログを開きます\nプロパティを開く"/>
+		<res id="98" text="現在選択しているファイルを開きます\nファイルを開く"/>
+		<res id="99" text="正規表現エンジンをテストします"/>
+		<res id="100" text="内容を表示する時のワードラップのオン/オフを切り替えます\nワードラップ"/>
+		<res id="101" text="内容表示ペインのフォントを設定します\nフォントの設定"/>
+		<res id="102" text="検索を開始します\n開始"/>
+		<res id="103" text="現在の検索を中止します\n中止"/>
+		<res id="104" text="ヘルプを開きます\nヘルプ"/>
+		<res id="105" text="ファイルリスト表示ペイン内のすべてのファイルを選択します\nすべて選択"/>
+		<res id="106" text="検索結果をエクスポートします\n結果のエクスポート"/>
+		<res id="107" text="現在の選択アイテムを削除します\n削除"/>
+		<res id="108" text="ドロップダウンリストに表示される履歴を消去します\n履歴の消去"/>
+		<res id="109" text="検索のための環境設定を行います\n環境設定"/>
+		<res id="110" text="検索中にシステムのメモリ不足が発生しました。'単一語句検索' オプションを使用して、検索をもう一度やり直してください。引き続き問題が発生する場合は、テクニカルサポートまでお問い合わせください。"/>
+		<res id="111" text="検索中にシステムに予期しない例外処理が発生しました。引き続き問題が発生する場合は、テクニカルサポートまでお問い合わせください。"/>
+		<res id="112" text="準備完了"/>
+		<res id="113" text="新しい設定の効果を見るには、再度検索を行ってください。"/>
+		<res id="114" text="サブフォルダーを検索する"/>
+		<res id="115" text="単一フォルダーの参照"/>
+		<res id="116" text="カレンダーを開く"/>
+		<res id="117" text="カレンダーを開く"/>
+		<res id="118" text="複数フォルダーの参照"/>
+		<res id="119" text="FILE_VIEWER\n表示\n表示\n\n\nFileLocator.FileViewer\nFileLocator ファイルビューアー"/>
+		<res id="120" text="お気に入りリストの表示/非表示を切り替えます\nお気に入り"/>
+		<res id="121" text="エディターの設定を変更します\nエディターの設定"/>
+		<res id="122" text="現在選択しているファイルのパスをエクスプローラーで開きます\nエクスプローラーを開く"/>
+		<res id="123" text="システム統合の設定を変更します\nシステム設定"/>
+		<res id="124" text="複数拡張子ダイアログを開く"/>
+		<res id="125" text="前の検索結果を表示します\n前の検索結果"/>
+		<res id="126" text="次の検索結果を表示します\n次の検索結果"/>
+		<res id="127" text="現在の選択アイテムの名前を変更します\n名前の変更"/>
+		<res id="128" text="前の検索結果を表示します\n前の検索結果"/>
+		<res id="129" text="次の検索結果を表示します\n次の検索結果"/>
+		<res id="130" text="より大きいサイズ"/>
+		<res id="131" text="より小さいサイズ"/>
+		<res id="132" text="選択した表現の種類の詳細情報"/>
+		<res id="133" text="表現の種類"/>
+		<res id="134" refid="133"/>
+		<res id="135" refid="133"/>
+		<res id="136" text="コンテンツのマッチを行単位で行うか、ファイル全体にわたって行うかを指定します"/>
+		<res id="137" text="ファイル名表現が NOT 表現の場合に指定します"/>
+		<res id="138" text="内容表示ペインの表示/非表示を切り替えます\n内容表示ペインの表示/非表示"/>
+		<res id="139" text="検索を停止します\n停止"/>
+		<res id="140" text="デフォルトの設定で新規検索を行います\n条件を空欄にして新規検索"/>
+		<res id="141" text="現在の条件に基づいて新規検索を行います\n現在の検索条件で新規検索"/>
+		<res id="142" text="ファイル内のテキストを検索します\n検索..."/>
+		<res id="143" text="次のハイライトされた行までスクロールします\n次へスクロール"/>
+		<res id="144" text="前のハイライトされた行までスクロールします\n前へスクロール"/>
+		<res id="145" text="二次検索のハイライトを切り替えます\nハイライトの切り替え"/>
+		<res id="146" text="前のヒット"/>
+		<res id="147" text="次のヒット"/>
+		<res id="148" text="前のファイル"/>
+		<res id="149" text="次のファイル"/>
+		<res id="150" text="現在選択しているお気に入りを編集します\nお気に入りの編集"/>
+		<res id="151" text="現在選択しているお気に入りを削除します\nお気に入りの削除"/>
+		<res id="152" text="メイン画面に戻ります\nメイン画面に戻る"/>
+		<res id="153" text="検索フィルター"/>
+		<res id="154" text="この単語を検索"/>
+		<res id="155" text="現在の検索を新規お気に入りとして追加します\nお気に入りの追加"/>
+		<res id="156" text="お気に入りリストをリフレッシュします\nリフレッシュ"/>
+		<res id="166" text="検索"/>
+		<res id="169" text="レンダーライブラリ"/>
+		<res id="170" text="スクリプト"/>
+		<res id="172" text="検索"/>
+		<res id="175" text="ファイル"/>
+		<res id="177" text="内容の検索"/>
+		<res id="201" text="ファイル名を正規表現として指定する前に、ファイル名の表現の種類を '正規表現' に設定する必要があります。"/>
+		<res id="202" text="1 つ以上のファイルを選択すると、検出された内容を右側のペインに表示します。\n\n注: このペインを印刷するには、[ファイル] メニューの [印刷] をクリックします。"/>
+		<res id="204" text="検索テキストを正規表現として指定する前に、検索テキストの表現の種類を '正規表現' に設定する必要があります。"/>
+		<res id="205" text="正規表現ウィザードは、正規表現のすべての機能を提供するわけではありません。しかし、正規表現の仕組みを知っていれば、どのような正規表現でも自分で指定することができます。自分で作成した正規表現を [表現の種類] リストに '特定の語句' として入力し、次のページ (特殊文字を入力すると表示されます) でエスケープをオフに切り替えてください。"/>
+		<res id="206" text="検出されたテキストをハイライトする色を設定します\n色の設定"/>
+		<res id="207" text="内容表示ペインのデータを保存します\n内容表示ペインの保存"/>
+		<res id="208" text="大容量ドライブの内容検索を効率的に行うために、単一語句検索の切り替えを行います (進捗非表示)\n単一語句検索の切り替え (大容量ドライブの検索時)"/>
+		<res id="209" text="内容表示ペインをファイルリスト表示ペインの下側に表示します\n下側に表示"/>
+		<res id="210" text="内容表示ペインをファイルリスト表示ペインの右側に表示します\n右側に表示"/>
+		<res id="211" text="コマンドラインパラメーターのヘルプを表示します\nコマンドラインパラメーター"/>
+		<res id="212" text="選択した表現の種類の詳細情報"/>
+		<res id="213" text="現在の結果リスト内を検索します\n現在の結果リスト内の検索"/>
+		<res id="214" text="内容表示ペインの表示/非表示を切り替えます\n内容表示ペインの表示切り替え"/>
+		<res id="215" text="現在選択しているファイル内を検索します\n現在選択しているファイル内の検索"/>
+		<res id="216" text="一次検索のハイライトを切り替えます\nハイライトの切り替え"/>
+		<res id="217" text="すべてのお気に入りが保存されているフォルダーを開きます\nお気に入りフォルダーを開く"/>
+		<res id="218" text="すべてのウィンドウ/タブを閉じます\nすべて閉じる"/>
+		<res id="219" text="アクティブな検索以外のすべてのウィンドウ/タブを閉じます\nアクティブな検索以外を閉じる"/>
+		<res id="220" text="開いているすべてのファイルウィンドウを閉じます\nファイルをすべて閉じる"/>
+		<res id="221" text="現在の検索セッションを保存します\n検索セッションの保存"/>
+		<res id="222" text="ワークスペース内のすべての検索セッションを保存します\nワークスペースの保存"/>
+		<res id="224" text="レポートをリフレッシュします\nリフレッシュ"/>
+		<res id="225" text="レポートをクリップボードにコピーします\nコピー"/>
+		<res id="226" text="レポートをファイルに保存します\nレポートの保存"/>
+		<res id="227" text="レポートを印刷します\n印刷プレビュー"/>
+		<res id="228" text="レポートのフィールドやレイアウトを変更します\nレポートオプション"/>
+		<res id="229" text="メニューバーの表示/非表示を切り替えます\nメニューバーの表示切り替え"/>
+		<res id="230" text="一次検索のヒットのハイライト"/>
+		<res id="231" text="二次検索のヒットのハイライト"/>
+		<res id="232" text="リストをクリップボードにコピー"/>
+		<res id="233" text="リストをファイルから読み込み"/>
+		<res id="234" text="リストをファイルに保存"/>
+		<res id="235" text="リストのクリア"/>
+		<res id="236" text="エラーのリストをクリップボードにコピーします\nクリップボードにコピー"/>
+		<res id="237" text="エラーのリストをファイルに保存します\nエラーの保存"/>
+		<res id="238" refid="13"/>
+		<res id="239" refid="13"/>
+		<res id="240" refid="5"/>
+		<res id="241" text="インデックス設定の編集"/>
+		<res id="242" text="インデックスの検索"/>
+		<res id="243" text="%APP_NAME% Professional にアップグレートします\nアップグレート"/>
+		<res id="244" text="ズームイン" t="g"/>
+		<res id="245" text="ズームアウト" t="g"/>
+		<res id="246" text="検索条件タイプ" t="g"/>
+		<res id="247" text="検索を開始" t="g"/>
+		<res id="248" text="検索を停止" t="g"/>
+		<res id="249" text="日付より大きい" t="g"/>
+		<res id="250" text="日付が" t="g"/>
+	</string>
+	<string id="2" type="Text">
+		<res id="1" text="どのフォルダーを選択しますか?"/>
+		<res id="2" text="無効なディレクトリです"/>
+		<res id="3" text="&lt; 1 sec"/>
+		<res id="4" text="クリップボードにコピー中"/>
+		<res id="5" text="ローカルハードディスク"/>
+		<res id="6" text="ブール"/>
+		<res id="7" text="プレーンテキスト"/>
+		<res id="8" text="正規表現"/>
+		<res id="9" text="ワイルドカード"/>
+		<res id="10" text="ファイルハッシュ"/>
+		<res id="11" text="ブール正規表現"/>
+		<res id="12" text="単語全体"/>
+		<res id="13" text="表現"/>
+		<res id="14" text="(無効な表現の種類)"/>
+		<res id="15" text="高"/>
+		<res id="16" text="通常 (デフォルト)"/>
+		<res id="17" text="低"/>
+		<res id="18" text="標準 (デフォルト)"/>
+		<res id="19" text="標準"/>
+		<res id="20" text="ダーク"/>
+		<res id="21" text="ブルー"/>
+		<res id="22" text="クラシック"/>
+		<res id="23" text="シルバー"/>
+		<res id="24" text="上部"/>
+		<res id="25" text="ASCII"/>
+		<res id="26" text="Unicode"/>
+		<res id="27" text="Unicode (Big Endian)"/>
+		<res id="28" text="UTF8 (BOM なし)"/>
+		<res id="29" text="テキスト"/>
+		<res id="30" text="カンマ区切り (CSV)"/>
+		<res id="31" text="タブ区切り"/>
+		<res id="32" text="ファイルリストを開くことができません: "/>
+		<res id="34" text="ファイルフォルダー"/>
+		<res id="35" text="オン"/>
+		<res id="36" text="オフ"/>
+		<res id="37" text="SVN/HG/GIT/CVS メタデータフォルダーを除外する"/>
+		<res id="38" text="Program Files フォルダーを除外する"/>
+		<res id="39" text="!$(ProgramFiles)"/>
+		<res id="40" text="Windows システムファイルを除外する"/>
+		<res id="41" text="!$(WindowsFolder)"/>
+		<res id="42" text="ごみ箱を除外する"/>
+		<res id="43" text="履歴の削除中"/>
+		<res id="44" text="高度"/>
+		<res id="45" text="ファイルリスト"/>
+		<res id="46" text="フォルダー"/>
+		<res id="47" text="シンボリックリンク/ショートカット"/>
+		<res id="48" text="スレッド/優先度"/>
+		<res id="49" text="XSLT プロセッサー"/>
+		<res id="50" text="エディター"/>
+		<res id="51" text="デフォルトのエディター"/>
+		<res id="52" text="外部エディター"/>
+		<res id="53" text="内部ビューアー"/>
+		<res id="54" text="指定された Prog ID を使用して XSL パーサーを作成することができません。"/>
+		<res id="55" text="アプリケーションファイル (*.exe)|*.exe|すべてのファイル (*.*)|*.*||"/>
+		<res id="56" text="ファイルブラウザーを開こうとした時にエラーが発生しました。参照する前に、ファイル名が正しいことを確認してください。"/>
+		<res id="57" text="すべての拡張子の設定をインストール時の状態にリセットします。本当にリセットしますか?"/>
+		<res id="58" text="拡張子のリセット中"/>
+		<res id="59" text="ファイルが検出された時に再生するサウンドを指定してください。"/>
+		<res id="60" text="検索が完了した時に再生するサウンドを指定してください。"/>
+		<res id="61" text="サウンドを再生することができません。サウンドファイルが破損しているか、有効なウェーブフォーム形式ではありません。"/>
+		<res id="62" text="再生するには、有効なサウンドファイルを指定してください。"/>
+		<res id="63" text="サウンドファイル (*.wav)|*.wav|すべてのファイル (*.*)|*.*||"/>
+		<res id="64" text="サウンドファイルを参照することができません。"/>
+		<res id="65" text="種類"/>
+		<res id="66" text="ステータス"/>
+		<res id="67" text="関連付けられた IFilter"/>
+		<res id="68" text="プログラムが USB デバイスから実行するように構成されています。シェルの設定は行うことができません。"/>
+		<res id="69" text="表現"/>
+		<res id="70" text="ブール表現"/>
+		<res id="71" text="ワイルドカード"/>
+		<res id="72" text="正規表現"/>
+		<res id="73" text="ファイルハッシュ"/>
+		<res id="74" text="UTF-8 デフォルト形式"/>
+		<res id="75" text="拡張子"/>
+		<res id="76" text="全般"/>
+		<res id="77" text="履歴"/>
+		<res id="78" text="表示"/>
+		<res id="79" text="文字処理"/>
+		<res id="80" text="シェル統合"/>
+		<res id="81" text="サウンド/アラート"/>
+		<res id="82" text="ユーザーインターフェイス"/>
+		<res id="83" text="環境設定情報の適用中"/>
+		<res id="84" text="すべての環境設定をインストール時のデフォルトにリセットします。本当にリセットしますか?"/>
+		<res id="85" text="環境設定のリセット中"/>
+		<res id="86" text="説明"/>
+		<res id="87" text="フィルター値"/>
+		<res id="88" text="ファイルデータを取得中..."/>
+		<res id="89" text="シングルユーザーライセンス"/>
+		<res id="90" text="組織内マルチサイトライセンス: ユーザー数 %s まで"/>
+		<res id="91" text="組織内マルチサイトライセンス: ユーザー数の制限なし"/>
+		<res id="92" text="マルチユーザーライセンス: %s ライセンス"/>
+		<res id="93" text="登録コード: \r\n%s"/>
+		<res id="94" text="サポート/無料アップグレードの期限: %s\r\n"/>
+		<res id="95" text="試用ライセンスの期限が切れました。本製品の使用を合法的に継続するには、製品登録を行う必要があります。"/>
+		<res id="96" text="すべての機能が使用できるバージョンです。試用期間があります。残り日数: %d"/>
+		<res id="97" text="大文字/小文字の区別"/>
+		<res id="98" text="持続検索フィルター"/>
+		<res id="99" text="サイズ (byte)"/>
+		<res id="100" text="サイズ (KB)"/>
+		<res id="101" text="サイズ (MB)"/>
+		<res id="102" text="サイズ (GB)"/>
+		<res id="103" text="完了"/>
+		<res id="104" text="新しいバージョンが利用可能です。"/>
+		<res id="105" text="アップデートはありませんでした。"/>
+		<res id="106" text="新規検索"/>
+		<res id="107" text="表示"/>
+		<res id="108" text="条件ファイルを開くことができません。"/>
+		<res id="109" text="コマンドライン検索は成功しませんでした。"/>
+		<res id="110" text="ファイル検出されました"/>
+		<res id="111" text=" は、認められた日時の書式ではありません。"/>
+		<res id="112" text="ファイルが選択されていません。"/>
+		<res id="113" text="検索統計情報"/>
+		<res id="114" text="概要"/>
+		<res id="115" text="サムネイル"/>
+		<res id="116" text="エラー"/>
+		<res id="117" text="更新日時"/>
+		<res id="118" text="作成日時"/>
+		<res id="119" text="最終アクセス日時"/>
+		<res id="120" text="Now"/>
+		<res id="121" text="Start of minute"/>
+		<res id="122" text="Start of hour"/>
+		<res id="123" text="Start of day"/>
+		<res id="124" text="End of minute"/>
+		<res id="125" text="End of hour"/>
+		<res id="126" text="End of day"/>
+		<res id="133" text="%s は正しい日時の書式ではありません。"/>
+		<res id="134" text="予期しない表現の種類です"/>
+		<res id="135" text="不明な表現"/>
+		<res id="136" text="任意の文字"/>
+		<res id="137" text="特定の文字"/>
+		<res id="138" text="次の文字のうちの任意の文字"/>
+		<res id="139" text="次の文字を除く任意の文字"/>
+		<res id="140" text="特定の語句"/>
+		<res id="141" text="スペース"/>
+		<res id="142" text="任意の数字"/>
+		<res id="143" text="任意のアルファベット"/>
+		<res id="144" text="0 回または 1 回出現"/>
+		<res id="145" text="0 回または複数回出現"/>
+		<res id="146" text="1 回のみ出現"/>
+		<res id="147" text="1 回または複数回出現"/>
+		<res id="148" text="表現の種類"/>
+		<res id="149" text="出現回数"/>
+		<res id="150" text="ファイル名表現ウィザード"/>
+		<res id="151" text="お気に入りの編集"/>
+		<res id="152" text="保存"/>
+		<res id="153" text="表示中: %s / %s"/>
+		<res id="154" text="読み込み中..."/>
+		<res id="155" text="読み込み済: %s"/>
+		<res id="156" text="不明なお気に入り"/>
+		<res id="157" text="お気に入りの検索の準備に失敗しました: "/>
+		<res id="158" text="お気に入りの読み取り中"/>
+		<res id="159" text="お気に入りの削除中"/>
+		<res id="160" text="お気に入りの編集中"/>
+		<res id="161" text="タグ"/>
+		<res id="162" text="検索"/>
+		<res id="163" text="お気に入りの保存中"/>
+		<res id="164" text="お気に入りフォルダーを開いています"/>
+		<res id="165" text="検索条件を取得することができません。追加に失敗しました。"/>
+		<res id="166" text="お気に入りに追加する検索を開くか、作成してください。"/>
+		<res id="167" text="試用期間が終了しました。ライセンスを購入するか、Lite バージョンに切り替える必要があります。"/>
+		<res id="168" text="環境設定の変更中"/>
+		<res id="169" text="登録キーが削除されたか、または使用できません。詳細は、support@mythicsoft.com までお問い合わせください。"/>
+		<res id="170" text="環境設定ファイルを読み込むことができません。"/>
+		<res id="171" text="履歴設定ファイルを読み込むことができません。"/>
+		<res id="172" text="Creating blank config mgr★NOT USED★"/>
+		<res id="173" text="ファイルを開くことができません。"/>
+		<res id="174" text="ファイルを開いています"/>
+		<res id="175" text="Visual Studio でファイルを開くのに失敗しました。詳細については、ログファイルを確認してください。"/>
+		<res id="176" text="外部エディターが指定されていません。今すぐ指定しますか?"/>
+		<res id="178" text="外部エディターの起動でエラーが発生しました。\r\n\r\n%s"/>
+		<res id="179" text="検索を読み込むことができませんでした。"/>
+		<res id="180" text="予期したコマンドラインフラグ '-%s' の値がありません。"/>
+		<res id="181" text="コマンドラインフラグ '-%s' が正しくありません。"/>
+		<res id="182" text="日付の書式が正しくありません: %s"/>
+		<res id="183" text="予期しないコマンドラインパラメーター: %s"/>
+		<res id="184" text="実行中"/>
+		<res id="185" text="検索の開始中"/>
+		<res id="186" text="** 読み込みに失敗しました **\r\n\r\n%s を読み込むことができません。\r\n\r\nファイルが存在し、かつファイルを読み取るための適切なアクセス権を持っていることを確認してください。\r\n\r\nさらにアドバイスが必要な場合は、テクニカルサポートまでお問い合わせください。その際には、このエラーメッセージとすべてのログファイルを用意してください:\r\n%s\r\n\r\n詳細情報:\r\n%s\r\n"/>
+		<res id="189" text="ファイルを開くことができません。"/>
+		<res id="190" text="中止"/>
+		<res id="191" text="完了"/>
+		<res id="192" text="検索中にエラーが発生しました。引き続き問題が発生する場合は、テクニカルサポートまでお問い合わせください。"/>
+		<res id="193" text="内容表示ペイン"/>
+		<res id="194" text="選択アイテムの変更中"/>
+		<res id="195" text="検索結果の操作の保存中"/>
+		<res id="197" text="%s  検索場所: "/>
+		<res id="198" text="条件ファイルを読み込むことができません。有効な条件ファイルであることを確認してください。"/>
+		<res id="199" text="お気に入りを上書きしようとしています。本当に上書きしますか?"/>
+		<res id="200" text="%s %s検出されました"/>
+		<res id="201" text="検索完了 - %s %s検出されました"/>
+		<res id="202" text="表示"/>
+		<res id="203" text="お気に入り"/>
+		<res id="204" text="エラーリスト"/>
+		<res id="205" text="停止中"/>
+		<res id="206" text="検索時間"/>
+		<res id="208" text="二次検索"/>
+		<res id="209" text="一次検索"/>
+		<res id="210" text="表示"/>
+		<res id="211" text="検出"/>
+		<res id="212" text="表示中"/>
+		<res id="213" text="選択"/>
+		<res id="215" text="アイテム"/>
+		<res id="216" text="検出"/>
+		<res id="218" text="%s MB"/>
+		<res id="219" text="%s ファイル検出"/>
+		<res id="220" text="%APP_NAME% の新しいバージョンが利用可能です。詳細を表示しますか?"/>
+		<res id="221" text="登録されました! 登録いただき、ありがとうございます。"/>
+		<res id="222" text="登録情報が正しくありません。登録メールに記載されているすべての登録情報が正確に入力されていることを確認してください。"/>
+		<res id="225" text="結果を保存するための有効なファイル名を指定してください。"/>
+		<res id="226" text="有効な変換ファイルを指定してください。"/>
+		<res id="227" text="SearchResults."/>
+		<res id="228" text="すべてのファイル (*.*)|*.*||"/>
+		<res id="229" text="カスタム書式ファイルが正しくありません。ファイルが存在し、かつファイルを開くための適切なアクセス権を持っていることを確認してください。\r\n\r\n"/>
+		<res id="230" text="XSL (*.xsl)|*.xsl|すべてのファイル (*.*)|*.*||"/>
+		<res id="231" text="ファイル選択ダイアログを開くことができません: %d"/>
+		<res id="232" text="テストが成功しました。"/>
+		<res id="233" text="検索済"/>
+		<res id="234" text="チェック済"/>
+		<res id="235" text="ステータス"/>
+		<res id="236" text="未開始"/>
+		<res id="237" text="停止"/>
+		<res id="238" text="再開"/>
+		<res id="240" text="%sMB / %sMB"/>
+		<res id="242" text="フィルター中"/>
+		<res id="243" text="検索中:"/>
+		<res id="244" text="開始"/>
+		<res id="245" text="テキスト内に表現が見つかりました。\r\n表現の開始位置: %d\r\n表現の長さ: %d\r\n見つかった表現: %s"/>
+		<res id="246" text="結果リストが空です。"/>
+		<res id="247" text="テキスト内に表現が見つかりません。"/>
+		<res id="248" text="登録ファイルが破損しています。"/>
+		<res id="249" text="登録情報が見つかりません。"/>
+		<res id="250" text="登録キーの期限が切れました。"/>
+		<res id="251" text="%APP_NAME% キーボードフック"/>
+		<res id="256" text="インストールのロギングの開始に失敗しました。インストールをもう一度やり直してください。引き続き問題が発生する場合は、テクニカルサポートまでお問い合わせください。"/>
+		<res id="258" text="コピー"/>
+		<res id="259" text="パスのコピー"/>
+		<res id="260" text="切り取り"/>
+		<res id="261" text="削除"/>
+		<res id="262" text="この場所をエクスプローラーで開く..."/>
+		<res id="263" text="プロパティ"/>
+		<res id="264" text="選択しているファイル内の検索"/>
+		<res id="265" text="結果リスト内の検索"/>
+		<res id="266" text="%s の内容表示ペイン"/>
+		<res id="267" text="非表示"/>
+		<res id="268" text="\r\n以下の検索ディレクトリが有効ではありません:\r\n\r\n"/>
+		<res id="269" text="\r\nディレクトリ名は、ドライブ文字を含む有効なパス (例えば C:\Windows)、または正しく構成された UNC 名 (例えば \\WORKSTATION\Shared_Folder) である必要があります。"/>
+		<res id="272" text="マクロの読み込み中"/>
+		<res id="273" text="スクリプトの構文解析に失敗しました:\r\n"/>
+		<res id="274" text="スクリプティングエンジンの作成で問題が発生しました。"/>
+		<res id="275" text="(件名なし)"/>
+		<res id="276" text="(不明)"/>
+		<res id="277" text="作成日時"/>
+		<res id="278" text="連絡先"/>
+		<res id="279" text="場所"/>
+		<res id="280" text="受信日時"/>
+		<res id="281" text="差出人"/>
+		<res id="282" text="宛先"/>
+		<res id="283" text="(空)"/>
+		<res id="284" text="(受信者リストを読み込むことができませんでした。詳細については、テクニカルサポートまでお問い合わせください)\r\n"/>
+		<res id="285" text="受信者"/>
+		<res id="286" text="送信済"/>
+		<res id="287" text="件名"/>
+		<res id="288" text="\r\nメッセージの作成中にエラーが発生しました: "/>
+		<res id="289" text=" file(s) could not be ★NOT USED★"/>
+		<res id="290" text="属性"/>
+		<res id="291" text="ファイルサイズ"/>
+		<res id="292" text="無視された表現"/>
+		<res id="294" text="エラーがレポートされましたが、詳細は不明です。"/>
+		<res id="295" text="内容バリデーションスクリプトが失敗しました: "/>
+		<res id="296" text="sec"/>
+		<res id="297" text="hr"/>
+		<res id="298" text="min"/>
+		<res id="299" text="Today"/>
+		<res id="300" text="Start of week"/>
+		<res id="301" text="Start of month"/>
+		<res id="302" text="Start of year"/>
+		<res id="303" text="End of week"/>
+		<res id="304" text="End of month"/>
+		<res id="305" text="End of year"/>
+		<res id="306" text="day"/>
+		<res id="307" text="week"/>
+		<res id="308" text="month"/>
+		<res id="309" text="year"/>
+		<res id="310" text="ファイルを取得中..."/>
+		<res id="311" text="アイテム名バリデーションスクリプトの作成中: %s"/>
+		<res id="312" text="アイテム名バリデーションスクリプトが失敗しました: "/>
+		<res id="313" text="Yes"/>
+		<res id="314" text="No"/>
+		<res id="315" text="ファイル名表現"/>
+		<res id="316" text="ファイル名 - 大文字/小文字の区別"/>
+		<res id="317" text="コンテンツ検索"/>
+		<res id="318" text="検索テキスト"/>
+		<res id="319" text="コンテンツ表現"/>
+		<res id="320" text="コンテンツ - 大文字/小文字の区別"/>
+		<res id="321" text="スパンファイル"/>
+		<res id="322" text="検索場所"/>
+		<res id="323" text="サブフォルダー"/>
+		<res id="324" text="検索場所表現"/>
+		<res id="325" text="更新日時 (より後)"/>
+		<res id="326" text="更新日時 (より前)"/>
+		<res id="327" text="最終アクセス日時 (より後)"/>
+		<res id="328" text="最終アクセス日時 (より前)"/>
+		<res id="329" text="作成日時 (より後)"/>
+		<res id="330" text="作成日時 (より前)"/>
+		<res id="331" text="サイズ (より大きい)"/>
+		<res id="332" text="サイズ (より小さい)"/>
+		<res id="333" text="検索テキストアクティブスクリプティングは、ファイル全体にわたってマッチを行うブール検索をサポートしていません。[オプション] タブで、[行単位] に切り替えてください。"/>
+		<res id="334" text="内容検索値"/>
+		<res id="335" text="ファイル名フィルター:"/>
+		<res id="336" text="スクリプトの種類が指定されていません。"/>
+		<res id="337" text="スクリプトファイルが存在しないか、開くことができません。"/>
+		<res id="338" text="スクリプトエンジンが指定されていません。"/>
+		<res id="339" text="スクリプトのパス:"/>
+		<res id="340" text="エンジン:"/>
+		<res id="341" text="カスタムパラメーター:"/>
+		<res id="342" text="アーカイブ"/>
+		<res id="343" text="圧縮"/>
+		<res id="344" text="暗号化"/>
+		<res id="345" text="フォルダー"/>
+		<res id="346" text="オフライン"/>
+		<res id="347" text="読み取り専用"/>
+		<res id="348" text="スパース"/>
+		<res id="349" text="システム"/>
+		<res id="350" text="初期化中..."/>
+		<res id="351" text="完了しました。"/>
+		<res id="352" text="ファイルをアーカイブから展開中..."/>
+		<res id="353" text="%s は、このマシン上で有効なパスではありません。"/>
+		<res id="354" text="NEAR 演算子が正しく使用されていません。先行する被演算子が見つかりません。"/>
+		<res id="355" text="結果"/>
+		<res id="356" text="キャンセル中..."/>
+		<res id="357" text="アクションをキャンセル中..."/>
+		<res id="358" text="選択したファイルの 1 つ以上は複合ファイルのため、削除することができません。続行しますか?"/>
+		<res id="359" text="削除は完全には成功しませんでした。いくつかのファイルは削除されませんでした。"/>
+		<res id="360" text="メニューオプションの実行中"/>
+		<res id="361" text="警告: 操作が処理されたファイルの %d で失敗しました。詳細については、ログファイルを確認してください。"/>
+		<res id="362" text="ファイルデータの展開中"/>
+		<res id="363" text="ドラッグ&amp;&amp;ドロップ対象のすべてのアイテムにアクセスできません。操作はキャンセルされました。"/>
+		<res id="364" text="ファイルデータの作成中"/>
+		<res id="365" text="現在の選択アイテムへの操作の実行中"/>
+		<res id="366" text="警告: 操作 (%s) が選択したファイルの %d で失敗しました。詳細については、ログファイルを確認してください。"/>
+		<res id="367" text="デフォルト"/>
+		<res id="368" text="コンテキストメニューの実行中"/>
+		<res id="369" text="%d / %d ページ"/>
+		<res id="370" text="... 切り詰められた行 ..."/>
+		<res id="371" text="ファイル名"/>
+		<res id="372" text="場所"/>
+		<res id="373" text="更新日時"/>
+		<res id="374" text="作成日時"/>
+		<res id="375" text="最終アクセス日時"/>
+		<res id="376" text="ヒット"/>
+		<res id="377" text="不明"/>
+		<res id="378" text="Failure during CFileListCtrl::loadList()"/>
+		<res id="379" text="Creating file viewer frame"/>
+		<res id="380" text="検索文字列が正しくありません: \n%s"/>
+		<res id="381" text="エディターを読み込むことができません。.引き続き問題が発生する場合は、テクニカルサポートまでお問い合わせください。"/>
+		<res id="382" text="ファイル"/>
+		<res id="383" text="メッセージ"/>
+		<res id="384" text="サイズ"/>
+		<res id="385" text="小アイコン"/>
+		<res id="386" text="中アイコン"/>
+		<res id="387" text="大アイコン"/>
+		<res id="388" text="特大アイコン"/>
+		<res id="389" text="プレビュー"/>
+		<res id="390" text="概要レポートの表示中"/>
+		<res id="391" text="プログラムに関連付けられたすべてのユーザーデータも削除しますか?"/>
+		<res id="392" text="ユーザーデータの削除"/>
+		<res id="393" text="削除に失敗しました。"/>
+		<res id="394" text="ダイアログをトランスレートすることができません。"/>
+		<res id="395" text="本当にお気に入り '%s' を削除しますか?"/>
+		<res id="396" text="%sスクリプトが正しくありません。\n\n追加情報:\n\n%s"/>
+		<res id="397" text="本当に検索フィルター '%s' を削除しますか?"/>
+		<res id="398" text="IFilter"/>
+		<res id="399" text="下部"/>
+		<res id="400" regex="start"/>
+		<res id="401" regex="today"/>
+		<res id="402" regex="now"/>
+		<res id="403" regex="s.*"/>
+		<res id="404" regex="mi.*"/>
+		<res id="405" regex="mo.*"/>
+		<res id="406" regex="h.*"/>
+		<res id="407" regex="d.*"/>
+		<res id="408" regex="w.*"/>
+		<res id="409" regex="y.*"/>
+		<res id="410" regex="\b(today)|(start|end) *(?: +(?:the|of|this))* +(w|mo|y)[a-z]*"/>
+		<res id="411" regex="\b(now)|(start|end) *(?: +(?:the|of|this))* +(mi|h|d)[a-z]*"/>
+		<res id="412" regex="([+-]) *([0-9]+) *(d|w|mo|y)[a-z]*"/>
+		<res id="413" regex="([+-]) *([0-9]+) *(s|mi|h)[a-z]*"/>
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b"/>
+		<res id="415" text="B"/>
+		<res id="416" text="KB"/>
+		<res id="417" text="MB"/>
+		<res id="418" text="GB"/>
+		<res id="420" text="AND"/>
+		<res id="421" text="OR"/>
+		<res id="422" text="NOT"/>
+		<res id="423" text="NEAR"/>
+		<res id="424" text="LIKE"/>
+		<res id="425" text="REGEX"/>
+		<res id="426" text="DOSEX"/>
+		<res id="427" text="LINES"/>
+		<res id="428" text="FILELIST"/>
+		<res id="430" regex="AND" case="1"/>
+		<res id="431" regex="OR" case="1"/>
+		<res id="432" regex="NOT" case="1"/>
+		<res id="433" regex="NEAR(:\d+)?" case="1"/>
+		<res id="434" regex="LIKE" case="1"/>
+		<res id="435" regex="REGEX(:\w*)?" case="1"/>
+		<res id="436" regex="DOSEX" case="1"/>
+		<res id="437" regex="LINES?:([^ ]*)?" case="1"/>
+		<res id="438" regex="FILELIST" case="1"/>
+		<res id="440" text="言語"/>
+		<res id="441" text="新規検索を開始するために十分なメモリがありません。以前に行った検索を閉じるか、他のアプリケーションを終了して、もう一度やり直してください。"/>
+		<res id="442" text="メモリの解放のため切り詰められました。"/>
+		<res id="443" text="正規表現の記述方法はワイルドカード表現とやや異なるので、正規表現ウィザードの結果が使い慣れた表現と異なっているかも知れません。例えば、ワイルドカード表現 'filename.*' を正規表現で記述すると '^filename\.*' になります。"/>
+		<res id="444" text="検索はファイル内の行単位で行われ、定義した表現にマッチするすべての行を探し出します。表現を使用すれば、行がどのように始まり、何が含まれ、どのように終わる必要があるのかを定義することができます。"/>
+		<res id="445" text="ファイル名"/>
+		<res id="446" text="行"/>
+		<res id="447" text="開く"/>
+		<res id="448" text="添付ファイル"/>
+		<res id="449" text="中止されました (メモリ不足)"/>
+		<res id="450" text="検索テキスト"/>
+		<res id="451" text="アイテム"/>
+		<res id="452" text="日"/>
+		<res id="453" text="週"/>
+		<res id="454" text="月"/>
+		<res id="455" text="年"/>
+		<res id="456" text="ヒット"/>
+		<res id="457" text="ヒット"/>
+		<res id="458" text="タブ区切り (スプレッドシート)"/>
+		<res id="459" text="%sの設定"/>
+		<res id="460" text="使用中のバージョンが最新です。"/>
+		<res id="461" text="アップデートの確認中にエラーが発生しました。詳細はログを確認してください。"/>
+		<res id="462" text="ワークスペースの保存中"/>
+		<res id="463" text="検索セッションの保存中"/>
+		<res id="464" text="ワークスペースファイル (*.flwx)|*.flwx"/>
+		<res id="465" text="%APP_NAME% ファイル (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf"/>
+		<res id="466" text="検索条件ファイル (*.srf)|*.srf"/>
+		<res id="467" text="すべてのファイル (*.*)|*.*"/>
+		<res id="468" text="ワークスペースの読み込み中"/>
+		<res id="469" text="検索セッションの読み込み中"/>
+		<res id="470" text="ファイルを読み込むことができません。"/>
+		<res id="471" text="検索セッションファイル (*.flsx)|*.flsx"/>
+		<res id="472" text="%s は既に存在します。\r\n\r\n置き換えますか?"/>
+		<res id="473" text="閉じ括弧 ')' に対応する開き括弧 '(' がありません。文字テキストを指定するには、&quot;ending)&quot; のように引用符を使用してください。"/>
+		<res id="474" text="開き括弧 '(' に対応する閉じ括弧 ')' がありません。文字テキストを指定するには、&quot;(starting&quot; または &quot;Method(&quot; のように引用符を使用してください。\r\n\r\nエラー位置: %d\r\nテキスト: %s"/>
+		<res id="475" text="キーワード '%s' をコンパイルできませんでした。キーワードの正しい使い方については、ドキュメントを確認したください。"/>
+		<res id="476" text="キャッシュの場所を変更すると、現在キャッシュされているすべてのテキストが削除されます。続行しますか?"/>
+		<res id="477" text="キャッシュデータベースを削除することができません。他のアプリケーションが開いていないことを確認して、もう一度やり直してください。"/>
+		<res id="478" text="レポート"/>
+		<res id="479" text="表形式"/>
+		<res id="480" text="標準"/>
+		<res id="481" text="ファイルリスト"/>
+		<res id="482" text="内容"/>
+		<res id="483" text="キーワードの概要"/>
+		<res id="484" text="HTML"/>
+		<res id="485" text="Windows Shell が選択したファイルに対するコンテキストメニューを作成できませんでした。制限されたコンテキストメニューで続行しますか?"/>
+		<res id="486" text="質問"/>
+		<res id="487" text="エラー"/>
+		<res id="488" text="情報"/>
+		<res id="489" text="メモリマネージャー"/>
+		<res id="490" text="概要"/>
+		<res id="491" text="ファイル単位"/>
+		<res id="492" text="すべてのファイル"/>
+		<res id="493" text="選択したファイル"/>
+		<res id="494" text="すべてのファイル"/>
+		<res id="495" text="選択したファイル"/>
+		<res id="496" text="CSV"/>
+		<res id="497" text="タブ"/>
+		<res id="498" text="ファイル単位のキーワード"/>
+		<res id="499" text="拡張子"/>
+		<res id="500" text="ヒット数"/>
+		<res id="501" text="キーワード"/>
+		<res id="502" text="結果"/>
+		<res id="503" text="隠し"/>
+		<res id="504" text="より前"/>
+		<res id="505" text="より後"/>
+		<res id="506" text="検索条件"/>
+		<res id="507" text="%sのレポートは、ファイルの内容の検索時のみ有効です。"/>
+		<res id="508" text="ヒットしたキーワード"/>
+		<res id="509" text="保存に失敗しました。指定されたファイルとフォルダーに書き込むための適切なアクセス権を持っていることを確認してください。"/>
+		<res id="510" text="レポートの作成をキャンセル中..."/>
+		<res id="511" text="レポートの作成が完了しませんでした。"/>
+		<res id="512" text="レポートの作成中にエラーが発生しました。"/>
+		<res id="513" text="レポートを作成中..."/>
+		<res id="514" text="連番"/>
+		<res id="515" text="連番"/>
+		<res id="516" text="連番 (ファイルごと)"/>
+		<res id="517" text="ファイル連番"/>
+		<res id="518" text="ファイルのフルパス"/>
+		<res id="520" text="フォルダーのみ"/>
+		<res id="521" text="ファイルのみ"/>
+		<res id="522" text="ドキュメント"/>
+		<res id="523" text="音楽"/>
+		<res id="524" text="画像"/>
+		<res id="525" text="動画"/>
+		<res id="526" text="テクニシャンライセンス: %s ライセンス"/>
+		<res id="527" text="サーバーライセンス: %s ライセンス"/>
+		<res id="528" text="第一位"/>
+		<res id="529" text="第二位"/>
+		<res id="530" text="行番号"/>
+		<res id="531" text="行番号"/>
+		<res id="532" text="フィルター"/>
+		<res id="533" text="検索結果にフィルターを適用"/>
+		<res id="534" text="検索条件に一致するファイル/フォルダーは検出されませんでした"/>
+		<res id="535" text="列フィルターにマッチする結果はありません。"/>
+		<res id="536" text="検索中"/>
+		<res id="537" text="'%s' は正しい表現ではありません:"/>
+		<res id="538" text="レポートされたエラー"/>
+		<res id="539" text="タスクの実行で問題が発生しました"/>
+		<res id="540" text="エラーが発生しました。引き続き問題が発生する場合は、テクニカルサポートまでお問い合わせください。"/>
+		<res id="541" text="追加情報"/>
+		<res id="542" text="タイトル"/>
+		<res id="543" text="アーティスト"/>
+		<res id="544" text="アルバム"/>
+		<res id="545" text="コメント"/>
+		<res id="546" text="ジャンル"/>
+		<res id="547" text="年"/>
+		<res id="548" text="トラック"/>
+		<res id="549" text="長さ: %s 秒"/>
+		<res id="550" text="ビットレート: %s Kbps"/>
+		<res id="551" text="サンプリングレート: %s Hz"/>
+		<res id="552" text="チャンネル: %s"/>
+		<res id="553" text="幅"/>
+		<res id="554" text="高さ"/>
+		<res id="555" text="サンプル"/>
+		<res id="556" text="ドキュメント"/>
+		<res id="557" text="画像"/>
+		<res id="558" text="撮影機器メーカー"/>
+		<res id="559" text="撮影機器モデル"/>
+		<res id="560" text="ページ"/>
+		<res id="561" text="ページ番号"/>
+		<res id="562" text="ソフトウェア"/>
+		<res id="563" text="日時"/>
+		<res id="564" text="撮影者"/>
+		<res id="565" text="コンピューター"/>
+		<res id="566" text="タイトル"/>
+		<res id="567" text="フレーム遅延: %s/100 秒"/>
+		<res id="568" text="ループ回数"/>
+		<res id="569" text="著作権者"/>
+		<res id="570" text="露出: %s 秒"/>
+		<res id="571" text="絞り: F%s"/>
+		<res id="572" text="露出プログラム"/>
+		<res id="573" text="ノーマル"/>
+		<res id="574" text="マニュアル"/>
+		<res id="575" text="絞り優先"/>
+		<res id="576" text="シャッター優先"/>
+		<res id="577" text="クリエイティブ"/>
+		<res id="578" text="アクション"/>
+		<res id="579" text="ポートレイト"/>
+		<res id="580" text="ランドスケープ"/>
+		<res id="581" text="ISO スピード"/>
+		<res id="582" text="撮影日時"/>
+		<res id="583" text="フラッシュ"/>
+		<res id="584" text="コメント"/>
+		<res id="585" text="サイズ"/>
+		<res id="586" text="色深度"/>
+		<res id="587" text="アルファチャンネル"/>
+		<res id="588" text="[フォルダーのみ] を指定すると、フォルダーだけを検索します。ファイルは検索されません。"/>
+		<res id="589" text="[ファイルのみ] を指定すると、ファイルだけを検索します。フォルダーは検索されません。"/>
+		<res id="590" text="[ドキュメント] を指定すると、標準的なドキュメントファイルの拡張子を持つファイルだけを検索します。"/>
+		<res id="591" text="[音楽] を指定すると、標準的な音楽ファイルの拡張子を持つファイルだけを検索します。"/>
+		<res id="592" text="[画像] を指定すると、標準的な画像ファイルの拡張子を持つファイルだけを検索します。"/>
+		<res id="593" text="[動画] を指定すると、標準的な動画ファイルの拡張子を持つファイルだけを検索します。"/>
+		<res id="600" text="未検索"/>
+		<res id="601" text="エラー - 検索を開始できません"/>
+		<res id="602" text="省略しない"/>
+		<res id="603" text="中間を省略する"/>
+		<res id="604" text="先頭を省略する"/>
+		<res id="605" text="末尾を省略する"/>
+		<res id="606" text="検出されたアイテムを別の場所または ZIP ファイルにコピーします。"/>
+		<res id="607" text="現在の検索セッションまたはワークスペースの全体をファイルに保存します。保存したファイルを使用すると、検索結果を再度 %APP_NAME% に読み込むことができます。"/>
+		<res id="608" text="検索結果をテキスト、CSV、HTML、XML などの形式にエクスポートします。"/>
+		<res id="609" text="コピー開始"/>
+		<res id="610" text="エクスポート"/>
+		<res id="611" text="フラット"/>
+		<res id="612" text="ルートから"/>
+		<res id="613" text="最初の共通するフォルダーから"/>
+		<res id="614" text="上書きする"/>
+		<res id="615" text="連番を付ける"/>
+		<res id="616" text="ファイルをコピーしない"/>
+		<res id="617" text="検出された個々のアイテムのみコピーする"/>
+		<res id="618" text="親メールファイルをコピーする"/>
+		<res id="619" text="複製をコピーする"/>
+		<res id="620" text="オリジナルへのショートカットを作成する"/>
+		<res id="621" text="ログエラー"/>
+		<res id="622" text="中止"/>
+		<res id="623" text="アクションを求める"/>
+		<res id="624" text="ファイルを作成することができません。"/>
+		<res id="625" text="コピー中"/>
+		<res id="626" text="失敗したファイル"/>
+		<res id="627" text="コピーに失敗しました。"/>
+		<res id="628" text="コピーに成功したファイル"/>
+		<res id="629" text="コピーがキャンセルされました。"/>
+		<res id="630" text="場所"/>
+		<res id="631" text="ダブルクリックして編集"/>
+		<res id="632" text="テキストファイル (*.txt)|*.txt|すべてのファイル (*.*)|*.*||"/>
+		<res id="633" text="現在のファイルを上書きしますか?"/>
+		<res id="634" text="スクリプト"/>
+		<res id="635" text="検索条件によって %s アイテムがリストから除外されました"/>
+		<res id="636" text="除外されたファイル"/>
+		<res id="637" text="無効な場所です"/>
+		<res id="638" text="エラーがレポートされました"/>
+		<res id="639" text="サブフォルダーの検索はオフに切り替わりました"/>
+		<res id="640" text="[検索テキスト] フィールドにホワイトスペース文字しか含まれていません。"/>
+		<res id="641" text="警告"/>
+		<res id="642" text="検索中に警告がレポートされました"/>
+		<res id="643" text="ZIP ファイル (*.zip)|*.zip|すべてのファイル (*.*)|*.*||"/>
+		<res id="644" text="ファイル名の大文字/小文字の区別はオンです"/>
+		<res id="645" text="検索テキストの大文字/小文字の区別はオンです"/>
+		<res id="646" text="メール本文"/>
+		<res id="647" text="メール"/>
+		<res id="648" text="ページ"/>
+		<res id="649" text="バルクコピーレポート"/>
+		<res id="650" text="ファイルの保存中"/>
+		<res id="651" text="フローティングライセンス: 同時使用ユーザー数 %s まで"/>
+		<res id="652" text="%s ファイルを検索することができませんでした。"/>
+		<res id="653" text="詳細を確認する"/>
+		<res id="654" text="重大度"/>
+		<res id="655" text="詳細"/>
+		<res id="656" text="パスの先頭を表示"/>
+		<res id="657" text="パスの末尾を表示"/>
+		<res id="658" text="%s ファイルについて検索に関する警告がレポートされました"/>
+		<res id="659" text="ファイル名プリセットの使用中"/>
+		<res id="660" text="GPS データ"/>
+		<res id="661" text="サイトライセンス: 最大ユーザー数 %s"/>
+		<res id="662" text="展開中"/>
+		<res id="663" text="コピー先"/>
+		<res id="664" text="コピーされませんでした。コピー先に既にファイルが存在します。"/>
+		<res id="665" text="バルクコピー"/>
+		<res id="666" text="検索結果のエクスポート中"/>
+		<res id="700" text="複数行正規表現"/>
+		<res id="701" text="エキスパート"/>
+		<res id="702" text="ベーシック"/>
+		<res id="703" text="インデックス検索"/>
+		<res id="704" text="&lt;新規インデックスの作成...&gt;"/>
+		<res id="705" text="インデックスが選択されていません。インデックスを選択して、もう一度やり直してください。"/>
+		<res id="706" text="無効なインデックスです"/>
+		<res id="707" text="新規インデックス"/>
+		<res id="708" text="フォルダー名のインデックス名との同期中"/>
+		<res id="709" text="日時"/>
+		<res id="710" text="分析中"/>
+		<res id="711" text="インデックス作成: %s | 名前のみ: %s | エラー: %s | 無効: %s | 削除: %s | 変更なし: %s"/>
+		<res id="712" text="インデックス作成処理の開始中"/>
+		<res id="713" text="インデックスの詳細"/>
+		<res id="714" text="インデックスリスト"/>
+		<res id="715" text="インデックス"/>
+		<res id="716" text="インデックス作成済"/>
+		<res id="717" text="本当に '%s' を削除しますか?"/>
+		<res id="718" text="インデックスのクリーンアップ中"/>
+		<res id="719" text="最適化中"/>
+		<res id="720" text="保存中"/>
+		<res id="721" text="..."/>
+		<res id="722" text="インデックスを読み込むことができません。"/>
+		<res id="723" text="キャンセルされました"/>
+		<res id="724" text="ドキュメントの標準的な場所"/>
+		<res id="725" text="ファイルの種類"/>
+		<res id="726" text="インデックスサイズ: %s | インデックス作成数: %s | 名前のみ: %s | 合計: %s"/>
+		<res id="727" text="インデックスマネージャー"/>
+		<res id="728" text="インデックスは現在更新中です。すべてのインデックス作成処理をキャンセルしますか?"/>
+		<res id="729" text="インデックスを作成することができません。"/>
+		<res id="730" text="バイナリファイルは無視されました。"/>
+		<res id="731" text="インデックスは読み取り専用モードです。"/>
+		<res id="732" text="ファイルを検索することができません。"/>
+		<res id="733" text="標準的な検索に失敗したため、ローデータ検索が行われました。"/>
+		<res id="734" text="検索テキストはファイルリスト表現と思われますが、環境設定オプションがオフになっています。"/>
+		<res id="735" text="ファイル名はファイルリスト表現と思われますが、環境設定オプションがオフになっています。"/>
+		<res id="736" text="検索表現は、[オプション] タブで指定されているとおり行単位で解釈されました。"/>
+		<res id="737" text="周囲の行"/>
+		<res id="738" text="周囲行マーカー"/>
+		<res id="739" text="ヒット行"/>
+		<res id="740" text="ワイルドカード表現でカンマが使用されています。セミコロンの誤りと考えてよろしいですか?"/>
+		<res id="741" text="リパースポイント"/>
+		<res id="742" text="更新が必要です。インデックスが設定にマッチしません。"/>
+		<res id="743" text="インデックスが大文字/小文字を区別した検索をサポートしていません。このオプションを有効にするには、大文字/小文字を区別した検索を有効にしてインデックスを再作成する必要があります。"/>
+		<res id="744" text="検索を開始することができません。"/>
+		<res id="745" text="大文字/小文字の区別がオンです"/>
+		<res id="746" text="インデックスが古くなっています。検索は古いインデックス設定を使用して実行されています。"/>
+		<res id="747" text="ファイルのヒットを表示することができません。"/>
+		<res id="748" text="検索が完了前に中止されました"/>
+		<res id="749" text="空のインデックス"/>
+		<res id="750" text="なし"/>
+		<res id="751" text="インデックスが空です。インデックスマネージャーを使用してインデックスを作成してください。"/>
+		<res id="752" text="除外されたバイナリファイル"/>
+		<res id="753" text="検出キーワード"/>
+		<res id="754" text="日時が正しくありません。Windows では、ファイルの日時は 1601 年より前には設定できません。"/>
+		<res id="755" text="検出された行数が指定された最大行数を超えたため、ファイルは部分的にしか検索されませんでした。"/>
+		<res id="756" text="FILELIST 演算子の処理でエラーが発生しました"/>
+		<res id="757" text="色"/>
+		<res id="758" text="その他..."/>
+		<res id="759" text="検索スレッド"/>
+		<res id="760" text="アクションを確認する"/>
+		<res id="761" text="このメッセージを再度表示しない"/>
+		<res id="762" text="警告: ファイルが大き過ぎます"/>
+		<res id="763" text="選択したファイルは非常に大きいため、開くとプログラムが遅くなったり、応答しなくなる場合があります。"/>
+		<res id="764" text="** ファイルの読み込みがキャンセルされました **"/>
+		<res id="765" text="詳細を表示 &gt;&gt;"/>
+		<res id="766" text="&lt;&lt; 詳細を非表示"/>
+		<res id="767" text="この機能を動作させるには、サードパーティの Internet Explorer ブラウザー拡張機能を有効にして再起動する必要があります。\r\n\r\n続行しますか?"/>
+		<res id="768" text="インデックスが指定されていません。"/>
+		<res id="769" text="インデックスの操作が指定されていません。"/>
+		<res id="770" text="存続期間 (秒)"/>
+		<res id="771" text="検索スレッド"/>
+		<res id="772" text="キャンセル"/>
+		<res id="773" text="この検索では、現在実行中のコンテンツ検索スレッドはありません。"/>
+		<res id="774" text="インデックスを作成する場所が指定されていません。どの場所のインデックスを作成するかを指定してください。"/>
+		<res id="775" text="インデックスを作成するコンテンツが指定されていません。どのファイルをインデックスに含めるかを指定してください。"/>
+		<res id="776" text="インデックスリストが他のアプリケーションによってロックされているため、更新できません。"/>
+		<res id="777" text="完了するには、'quit' と入力してください。"/>
+		<res id="778" text="インデックスマネージャーを起動することができません。"/>
+		<res id="779" text="部分的な検索結果を完成中..."/>
+		<res id="780" text="ファジー"/>
+		<res id="781" text="インデックスデータベースを格納する場所は、新規または空のフォルダーである必要があります。"/>
+		<res id="782" text="現在の操作で問題が発生しました。通常、この問題は、[ユーザーインターフェイス] 設定の [Windows タスクバーのプレビューに個々のタブを表示する] オプションが原因です。引き続きこの問題が発生する場合は、このオプションをオフにしてください。"/>
+		<res id="783" text="インデックスの再作成"/>
+		<res id="784" text="インデックスの更新"/>
+		<res id="785" text="新規インデックスの作成"/>
+		<res id="786" text="インデックスの名前が指定されていません。"/>
+		<res id="787" text="インデックスのパスが指定されていません。"/>
+		<res id="788" text="検索中に検索モードを変更すると、現在の検索はキャンセルされます。現在の検索をキャンセルしますか?"/>
+		<res id="789" text="インデックス作成"/>
+		<res id="790" text="パスは、アクティブな除外パス/フィルターのため検索から除外されました。"/>
+		<res id="791" text="空のファイルです。検索可能なテキストが含まれていません。"/>
+		<res id="792" text="表現を個々の語句に切り分けることができません。"/>
+		<res id="793" text="空のファイルリストが指定されました。"/>
+		<res id="794" text="複数語句検索をサポートするために、表現の種類がブールに変更されました。"/>
+		<res id="795" text="表現が大き過ぎます。"/>
+		<res id="796" text="インデックス作成の操作に失敗しました。"/>
+		<res id="797" text="インデックス格納場所"/>
+		<res id="798" text="コンテンツクラス"/>
+		<res id="799" text="選択したアイテムを完全に削除しますか?"/>
+		<res id="800" text="アイテムの削除中"/>
+		<res id="801" text="1 つ以上の長いテキスト行が短い行に分割されたため、検索のヒットに影響する場合があります。"/>
+		<res id="802" text="名前の変更に失敗しました。ファイルがロックされていないことを確認してください。"/>
+		<res id="803" text="インデックスリストの読み込み中"/>
+		<res id="804" text="既存のインデックスへの参照を追加する"/>
+		<res id="805" text="作成者"/>
+		<res id="806" text="ドキュメントキーワード"/>
+		<res id="807" text="コメント"/>
+		<res id="808" text="タイトル"/>
+		<res id="809" text="所有者"/>
+		<res id="810" text="インデックスの名前とパスが一致しません。"/>
+		<res id="811" text="インデックスの削除"/>
+		<res id="812" text="インデックスをリストアップする"/>
+		<res id="813" text="最終保存者"/>
+		<res id="814" text="インデックスを削除" t="g"/>
+		<res id="820" text="ヒットしなかったキーワード"/>
+		<res id="821" text="キーワード %s は、Professional バージョンでのみ利用可能です。単純に語句 &quot;%s&quot; を検索するだけの場合は、引用符で囲んでください。"/>
+		<res id="822" text="期限付きライセンスです。残り日数:"/>
+		<res id="823" text="ダイレクトアクセス"/>
+		<res id="824" text="解釈されたテキスト"/>
+		<res id="825" text="変換されたテキスト"/>
+		<res id="826" text="IFilter テキスト"/>
+		<res id="827" text="キャッシュされたテキスト"/>
+		<res id="828" text="テキストファイル"/>
+		<res id="829" text="ローファイルデータ"/>
+		<res id="830" text="コンテンツリーダー"/>
+		<res id="831" text="プログラムを初めて使用するために準備中..."/>
+		<res id="832" text="試用期間が終了しました。"/>
+		<res id="833" text="この機能は、無料版では使用することができません。"/>
+		<res id="834" text="Professional - Trial"/>
+		<res id="835" text="Professional"/>
+		<res id="836" text="Lite"/>
+		<res id="837" text="機能が制限されたバージョンです。一部の機能が非表示または無効になっています。個人的および業務上/商業的な使用の両方について無料です。"/>
+		<res id="838" text="すべての機能が使用できるバージョンです。"/>
+		<res id="839" text="試用期間中はすべての機能が使用できるバージョンです。"/>
+		<res id="840" text="登録されていません! \r\n本製品は、家庭内での個人的な使用に対してのみライセンスされています。\r\n\r\n業務上/商業的な目的で本製品の使用を継続するには、製品登録を行う必要があります。登録を行わないと、ユーザー使用許諾契約に違反することになります。\r\n\r\n無料の登録コードは、Mythicsoft の Web サイトで入手できます:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="841" text="登録されていません。\r\n試用期間の終了後に業務上/商業的な目的で本製品を使用するには、製品登録を行う必要があります。\r\n\r\n無料の登録コードは、Mythicsoft の Web サイトで入手できます:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="842" text="本製品の使用目的を選択してください。"/>
+		<res id="843" text="変更はプログラムの再起動後に有効になります。"/>
+		<res id="844" text="入力された登録コードは、Lite バージョン用です。一部の機能が無効になります。"/>
+		<res id="845" text="次の機能は、無料版ではサポートされていません: %s"/>
+		<res id="846" text="最高"/>
+		<res id="847" text="中"/>
+		<res id="848" text="カスタム"/>
+		<res id="849" text="パスを検索することができません。"/>
+		<res id="899" text="MS Office の一時ファイルを除外する"/>
+		<res id="900" text="場所フィルター"/>
+		<res id="901" text="相対的な日時"/>
+		<res id="902" text="高度な語句マッチング"/>
+		<res id="903" text="ファイルリスト"/>
+		<res id="904" text="ワークスペース/セッション"/>
+		<res id="905" text="拡張出力形式"/>
+		<res id="906" text="キーワードレポート"/>
+		<res id="907" text="日時のオフセット"/>
+		<res id="908" text="場所マクロ"/>
+		<res id="909" text="バルクコピー"/>
+		<res id="910" text="%APP_NAME% の初期セットアップが必要です。%APP_NAME% を実行してセットアップを完了し、もう一度やり直してください。"/>
+		<res id="911" text="ファイル検索がユーザーによってキャンセルされました"/>
+		<res id="912" text="再起動"/>
+		<res id="913" text="持続ファイル名フィルター"/>
+		<res id="914" text="EXE、DLL、SYS ファイルを除外する"/>
+		<res id="915" text="レポートされた警告/エラーの詳細については、[概要] タブを参照してください (Ctrl+0)"/>
+		<res id="916" text="新規インデックスを作成することができません。書き込みアクセス権を持っていることを確認してください: "/>
+		<res id="917" text="複合ファイルを開くことができません。"/>
+		<res id="918" text="無効な複合ファイルです。標準の検索が代用されました。"/>
+		<res id="919" text="詳細"/>
+		<res id="920" text="名前の変更"/>
+		<res id="921" text="新規グループ"/>
+		<res id="922" text="ソース"/>
+		<res id="923" text="インデックスグループ"/>
+		<res id="924" text="アンカーがワイルドカード表現内でファイル名だけではなくフルパスにマッチする場合に使用されています。"/>
+		<res id="925" text="フォルダーの深さ"/>
+		<res id="926" text="インデックスのモニター"/>
+		<res id="927" text="成功"/>
+		<res id="928" text="組織内マルチサイトライセンス"/>
+		<res id="929" text="インデックスは旧バージョンで作成されているため、検索フィールドをサポートしていません。"/>
+		<res id="930" regex="name:(.*)" case="1"/>
+		<res id="931" regex="lookin:(.*)" case="1"/>
+		<res id="932" regex="ext:(.*)" case="1"/>
+		<res id="933" regex="moddt:(.*)" case="1"/>
+		<res id="934" regex="createdt:(.*)" case="1"/>
+		<res id="935" regex="size:(.*)" case="1"/>
+		<res id="936" regex="content:(.*)" case="1"/>
+		<res id="940" text="フォルダーの削除"/>
+		<res id="941" text="フォルダーの追加"/>
+		<res id="942" text="フォルダーの名前変更"/>
+		<res id="943" text="ファイルの削除"/>
+		<res id="944" text="ファイルの追加"/>
+		<res id="945" text="インデックスアクションの処理"/>
+		<res id="946" text="インデックスモニターの開始"/>
+		<res id="947" text="インデックスモニターの中断"/>
+		<res id="948" text="アップデート完了"/>
+		<res id="949" text="モニター中"/>
+		<res id="950" text="更新"/>
+		<res id="951" text="スキップ"/>
+		<res id="952" text="変更なし"/>
+		<res id="953" text="インデックスの作成 - 名前のみ"/>
+		<res id="954" text="インデックス作成の進捗を保存しますか、それとも以前のインデックスの状態に戻しますか?"/>
+		<res id="955" text="アクション"/>
+		<res id="956" text="イベント"/>
+		<res id="957" text="インデックスメンテナンス"/>
+		<res id="958" text="接続中"/>
+		<res id="959" text="切断中"/>
+		<res id="960" text="メッセージ"/>
+		<res id="961" text="CSV ファイル (*.csv)|*.csv|すべてのファイル (*.*)|*.*||"/>
+		<res id="962" text="共有ライセンスの取得中"/>
+		<res id="963" text="コンピューター"/>
+		<res id="964" text="存続期間"/>
+		<res id="965" text="リフレッシュ済"/>
+		<res id="966" text="アクティブ"/>
+		<res id="967" text="リフレッシュ中"/>
+		<res id="968" text="期限切れ"/>
+		<res id="969" text="すべての共有 Pro ライセンスが現在使用中です。待機しますか、それとも Lite モードで続行しますか?"/>
+		<res id="970" text="Pro ライセンスを取得できません。"/>
+		<res id="971" text="すべての Pro ライセンスが現在使用中です。ライセンスを待機しますか、それともプログラムを閉じますか?"/>
+		<res id="972" text="待機しますか、それともプログラムを閉じますか?"/>
+		<res id="973" text="待機"/>
+		<res id="974" text="閉じる"/>
+		<res id="975" text="Lite モード"/>
+		<res id="976" text="リースの解除中"/>
+		<res id="977" text="ライセンスフォルダーを変更することができません。フォルダーが存在し、そのフォルダーに対して読み取り/書き込みアクセス権があることを確認してください。"/>
+		<res id="978" text="登録キーが見つかりません。"/>
+		<res id="979" text="リース ID"/>
+		<res id="980" text="Pro ライセンスを更新できません。"/>
+		<res id="981" text="%APP_NAME% を閉じる"/>
+		<res id="982" text="エクスプローラー"/>
+		<res id="983" text="更新ログ"/>
+		<res id="984" text="インデックスの場所"/>
+		<res id="985" text="フォルダー内にインデックス作成されたアイテムがありません。"/>
+		<res id="986" text="フォルダー内にサブフォルダーがありますが、インデックス作成されたアイテムはありません。"/>
+		<res id="987" text="バイナリファイル"/>
+		<res id="988" text="コンテンツ"/>
+		<res id="989" text="インデックスの作成処理を終了しています"/>
+		<res id="990" text="エラー/警告がレポートされました。詳細は更新ログを参照してください。"/>
+		<res id="991" text="部分インデックスの作成のみ"/>
+		<res id="992" text="メモリ使用量の上限を超過しました。"/>
+		<res id="993" text="語句が多過ぎます。"/>
+		<res id="994" text="語句数"/>
+		<res id="995" text="インデックス作成日時"/>
+		<res id="996" text="部分インデックス"/>
+		<res id="997" text="すべての検索結果を閉じますか?"/>
+		<res id="998" text="毎日"/>
+		<res id="999" text="毎週"/>
+		<res id="1000" text="毎月"/>
+		<res id="1001" text="デフォルト (リフレッシュを毎日行うリアルタイムモニター)"/>
+		<res id="1002" text="&lt;新規作成...&gt;"/>
+		<res id="1003" text="新規更新スケジュール"/>
+		<res id="1004" text="名前が指定されていません。"/>
+		<res id="1005" text="数値は %d から %d の範囲でなければなりません。"/>
+		<res id="1006" text="スケジュールリスト"/>
+		<res id="1007" text="スケジュールの詳細"/>
+		<res id="1008" text="リアルタイムモニター"/>
+		<res id="1009" text="グループリスト"/>
+		<res id="1010" text="無効"/>
+		<res id="1011" text="%d 分間隔で繰り返し"/>
+		<res id="1012" text="月曜日"/>
+		<res id="1013" text="火曜日"/>
+		<res id="1014" text="水曜日"/>
+		<res id="1015" text="木曜日"/>
+		<res id="1016" text="金曜日"/>
+		<res id="1017" text="土曜日"/>
+		<res id="1018" text="日曜日"/>
+		<res id="1019" text="スケジュールする曜日を少なくとも 1 日指定してください。"/>
+		<res id="1020" text="スケジューラーの開始"/>
+		<res id="1021" text="スケジュールを削除し、スケジュールされたすべての更新またはリアルタイムモニターを停止します:"/>
+		<res id="1022" text="よろしいですか?"/>
+		<res id="1023" text="操作が失敗しました"/>
+		<res id="1024" text="フォルダーの同期がスケジュールされました"/>
+		<res id="1025" text="フォルダーファイルの同期"/>
+		<res id="1026" text="フォルダーの同期"/>
+		<res id="1027" text="スケジューラーアクション"/>
+		<res id="1028" text="データソース外 - 無視されました"/>
+		<res id="1029" text="ファイル名が正しくありません"/>
+		<res id="1030" text="インデックスは以前のバージョンで作成されています。インデックスの詳細を表示するには、インデックスを更新してください。"/>
+		<res id="1031" text="バイナリファイルのためコンテンツはインデックス作成されません"/>
+		<res id="1032" text="インデックスの更新スケジュールを選択してください。"/>
+		<res id="1033" text="元に戻す"/>
+		<res id="1034" text="ロールバック"/>
+		<res id="1035" text="削除/リストから削除"/>
+		<res id="1036" text="インデックスを完全に削除しますか? それとも、リストから削除するだけにしますか?"/>
+		<res id="1037" text="リストから削除"/>
+		<res id="1038" text="インデックス作成のキャンセル"/>
+		<res id="1039" text="アンカーされていないワイルドカードは許可されていません。"/>
+		<res id="1040" text="再読み込み中"/>
+		<res id="1041" text="インデックス条件"/>
+		<res id="1042" text="変更"/>
+		<res id="1043" text="正常"/>
+		<res id="1044" text="フローティングライセンスの構成設定が読み込めませんでした。"/>
+		<res id="1045" text="フォルダ内にフローティングライセンスが見つかりませんでした。続けますか？"/>
+		<res id="1046" text="パラメータに値が指定されていません：％s"/>
+		<res id="1047" text="無効なパラメータ：％s"/>
+		<res id="1048" text="ファイルバージョン"/>
+		<res id="1049" text="製品バージョン"/>
+		<res id="1050" text="この機能は、システム管理者によって無効にされています。"/>
+		<res id="1051" text="[ファイル名]フィールドにはワイルドカード文字が含まれていますが、式の種類はプレーンテキストに設定されています。"/>
+		<res id="1052" text="エラーレポートの生成"/>
+		<res id="1053" text="エラーレポートを生成して送信しますか？"/>
+		<res id="1054" text="レポートの生成"/>
+		<res id="1055" text="新しいインデックスを作成する"/>
+		<res id="1056" text="インデックス検索を実行する前に、インデックスを作成する必要があります。インデックスを作成しますか？"/>
+		<res id="1057" text="検索したいインデックスを選択してください。"/>
+		<res id="1058" text="名前の長さ"/>
+		<res id="1059" text="合計パス長"/>
+		<res id="1060" text="インデックスを検索できません" t="g"/>
+		<res id="1061" text="検索に失敗しました" t="g"/>
+		<res id="1062" text="評価" t="g"/>
+		<res id="1063" text="オリエンテーション" t="g"/>
+		<res id="1064" text="焦点距離" t="g"/>
+		<res id="1065" text="ZIPファイル" t="g"/>
+		<res id="1066" text="セッション" t="g"/>
+		<res id="1067" text="ワークスペース" t="g"/>
+		<res id="1068" text="画像 OCR に失敗しました" t="g"/>
+		<res id="1069" text="OCRで画像をスキャン" t="g"/>
+		<res id="1070" text="最終更新日時" t="e"/>
+		<res id="1071" text="埋め込みオブジェクト" t="g"/>
+		<res id="1072" text="最新のアップデートは正常に完了しませんでした。" t="g"/>
+		<res id="1073" text="インデックスは %APP_NAME% の新しいバージョンを使用して作成されました。インデックスの詳細を表示するには、このインストールをアップグレードしてください。インデックスを更新すると、インデックスが再作成され、%APP_NAME% のこのバージョンに復元されます。" t="g"/>
+		<res id="1074" text="プライマリ検索方法が失敗しました。バックアップ方法を使用しました。" t="g"/>
+		<res id="1075" text="クリップボードに保存されている登録情報を使用しますか?" t="g"/>
+		<res id="1076" text="ファイルはパスワードで保護されています。" t="g"/>
+	</string>
+</translation>

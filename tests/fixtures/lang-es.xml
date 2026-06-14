@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="Español" helplang="en">
+	<dialog name="IDD_EDITBOX" id="3531" caption="" />
+	<dialog name="IDD_SCHEDULE_EDIT" id="333" caption="Editar horario">
+		<res id="1" text="Nombre:" />
+		<res id="2" text="Monitoreo en tiempo-real" />
+		<res id="3" text="Refrescar frecuencia" />
+		<res id="4" text="Hora de inicio:" />
+		<res id="5" text="HH:mm:ss" />
+		<res id="6" text="Índices Asignados" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_DAILY" id="334" caption="">
+		<res id="1" text="Repetir cada:" />
+		<res id="2" text="minutos" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_WEEKLY" id="335" caption="">
+		<res id="1" text="Lunes" />
+		<res id="2" text="Martes" />
+		<res id="3" text="Miércoles" />
+		<res id="4" text="Jueves" />
+		<res id="5" text="Viernes" />
+		<res id="6" text="Sábado" />
+		<res id="7" text="Domingo" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_MONTHLY" id="336" caption="">
+		<res id="1" text="Día del mes:" />
+	</dialog>
+	<dialog name="IDD_INDEXSCHEDULEVIEW" id="337" caption="">
+		<res id="1" text="Nombre:" />
+		<res id="2" text="Tipo:" />
+		<res id="3" text="Hora de inicio:" />
+		<res id="4" text="Tiempo-real:" />
+		<res id="5" text="Estatus:" />
+		<res id="10" text="Índices Asignados" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_INDEXLIST" id="338" caption="Asignar Horarios a los Índices">
+		<res id="1" text="Índices:" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_INDEX_EDITADVANCED" id="339" caption="Ajustes Avanzados de Índice">
+		<res id="1" text="Ajustes Avanzados" />
+		<res id="2" text="Activar búsqueda que distingue MAY/min" />
+		<res id="3" text="Detectar contenido binario" />
+		<res id="4" text="Permitir confirmaciones parciales" />
+		<res id="5" text="Indexar archivos comprimidos:" />
+		<res id="6" text="Imágenes OCR" t="g" />
+		<res id="7" text="Configuración de OCR..." t="g" />
+		<res id="8" text="Usar filtros de búsqueda" t="g" />
+		<res id="9" text="Filtros activos..." t="g" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancelar" />
+		<res id="12" text="Extraer documentos incrustados (Word/PDF)" t="g" />
+	</dialog>
+	<dialog name="IDD_FORMATS_OCR" id="5559" caption="Ajustes del Reconocimiento Óptico de Caracteres (OCR)">
+		<res id="1" text="Ajustes OCR" />
+		<res id="2" text="Caché del Texto OCR" />
+		<res id="3" text="Formatos de archivo para analizar con OCR:" />
+		<res id="4" text="Todo disponible" />
+		<res id="5" text="Formatos de archivos seleccionados:" />
+		<res id="6" text="Idioma:" />
+		<res id="7" text="Ajustes PDF" />
+		<res id="8" text="No pasar por el OCR PDFs con texto con capacidad de búsqueda" />
+		<res id="9" text="Detección automática de orientación de página" t="g" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_LICENSE_TYPE" id="207" caption="Tipo de licencia">
+		<res id="1" text="Seleccione el tipo de licencia:" />
+		<res id="2" text="Profesional (prueba)" />
+		<res id="3" text="Profesional" />
+		<res id="4" text="Comprar licencia profesional" />
+		<res id="5" text="Versión completamente funcional." />
+		<res id="6" text="Nombre:" />
+		<res id="7" text="E-mail:" />
+		<res id="8" text="Clave de registro:" />
+		<res id="9" text="Versión gratuita" />
+		<res id="10" text="Comparación de funciones" />
+		<res id="11" text="Gratis para uso personal y comercial. Algunas funciones estarán ocultas o deshabilitadas." />
+		<res id="12" text="" />
+		<res id="13" text="OK" />
+		<res id="14" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_LICENSE_MGR" id="5560" caption="Administrador de Licencia Flotante">
+		<res id="1" text="Folder de licencia:" />
+		<res id="2" text="" />
+		<res id="3" text="" />
+		<res id="4" text="OK" />
+		<res id="5" text="Cancelar" />
+		<res id="6" text="Refrescar" />
+	</dialog>
+	<dialog name="IDD_COMMERCIAL_USE" id="260" caption="¡Registro gratuito disponible!">
+		<res id="1" text="" />
+		<res id="2" text="Si usa este producto en un entorno comercial, debe registrarlo, pero no se preocupe, no cuesta nada registrarse." />
+		<res id="3" text="Para obtener un código de registro gratuito visite el sitio web de Mythicsoft:" />
+		<res id="4" text="Si utiliza el producto solo para uso personal, se le solicita amablemente registrarlo, pero no es obligatorio." />
+		<res id="5" text="Yo uso esto para:" />
+		<res id="6" text="Solo uso personal" />
+		<res id="7" text="Uso comercial, me gustaría ingresar mi código de registro" />
+		<res id="8" text="OK" />
+		<res id="9" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_COLUMNLIST_OPTIONS" id="3566" caption="Seleccionar columnas">
+		<res id="1" text="&amp;Columnas" />
+		<res id="2" text="Nota: Arrastre y suelte los campos para reorganizar" />
+		<res id="3" text="OK" />
+		<res id="4" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_EXPRESSIONEDITORDLG" id="3565" caption="Editar expresión">
+		<res id="1" text="Tipo expresión:" />
+		<res id="2" text="Introduzca los términos de búsqueda independiente en una línea separada" />
+		<res id="3" text="archivo de texto de referencia:" />
+		<res id="4" text="Vistazo..." />
+		<res id="5" text="OK" />
+		<res id="6" text="Cancelar" />
+		<res id="7" text="Términos de búsqueda:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_COLORS" id="5558" caption="">
+		<res id="1" text="Resultado de palabras clave" />
+		<res id="2" text="Color de texto:" />
+		<res id="3" text="Resultado de palabras clave" />
+		<res id="4" text="Negritas" />
+		<res id="5" text="Subrayado" />
+		<res id="6" text="Sombrado de palabras clave con diferentes colores:" />
+		<res id="7" text="Color de fondo de resultado de palabras clave" />
+		<res id="8" text="Etiqueta destacada de texto" />
+		<res id="9" text="Búsqueda original:" />
+		<res id="10" text="Búsqueda secundaria:" />
+		<res id="11" text="Color de línea de búsqueda original" />
+		<res id="12" text="Color de línea de búsqueda secundaria" />
+	</dialog>
+	<dialog name="IDD_KEYWORD_COLOR" id="3542" caption="">
+		<res id="1" text="Configuraciones..." />
+	</dialog>
+	<dialog name="IDD_INDEX_SEARCH" id="231" caption="" />
+	<dialog name="IDD_INDEXEDIT_GROUP_PANE" id="331" caption="">
+		<res id="1" text="Nombre:" />
+		<res id="2" text="Archivo:" />
+		<res id="3" text="Buscar Archivo" />
+	</dialog>
+	<dialog name="IDD_INDEX_EDIT" id="310" caption="">
+		<res id="1" text="&amp;Solo lectura" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_INDEXACTIVITYVIEW" id="312" caption="">
+		<res id="1" text="Nombre:" />
+		<res id="2" text="Archivos:" />
+		<res id="3" text="Ubicación:" />
+		<res id="4" text="Resumen:" />
+		<res id="5" text="Última actualización:" />
+		<res id="6" text="Estado:" />
+	</dialog>
+	<dialog name="IDD_INDEXGROUPVIEW" id="332" caption="">
+		<res id="1" text="Nombre:" />
+		<res id="2" text="Índices:" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_TYPEPAGE" id="315" caption="Agregar Índices">
+		<res id="1" text="Tipo de índice para agregar" />
+		<res id="2" text="Crear un nuevo índice" />
+		<res id="3" text="Referenciar un índice o grupo existente" />
+		<res id="4" text="Desea crear un nuevo índice, un nuevo grupo, o referenciar un índice existente?" />
+		<res id="5" text="Crear un nuevo grupo" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_NEWPAGE" id="316" caption="">
+		<res id="1" text="Crear un nuevo índice" />
+		<res id="2" text="&amp;Al terminar, comenzar a indexar" />
+		<res id="3" text="Crear Índice" />
+		<res id="4" text="Crear un nuevo grupo" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_IMPORTPAGE" id="317" caption="">
+		<res id="1" text="Agregar un índice existente" />
+		<res id="2" text="Especifique la ruta de almacenamiento del índice que desea agregar:" />
+		<res id="3" text="Carpeta:" />
+		<res id="4" text="Acceso de Solo-lectura" />
+		<res id="5" text="Navegar" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_AUTOUPDATE" id="319" caption="">
+		<res id="1" text="Desea que el índice se actualice automáticamente?" />
+		<res id="2" text="No, actualizaciones manuales únicamente" />
+		<res id="3" text="Yes, agendar actualizaciones" />
+		<res id="4" text="Programar actualizaciones automáticas" t="g" />
+	</dialog>
+	<dialog name="IDD_INDEXEDIT_ENGINE_PANE" id="318" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Nombre del Índice:" />
+		<res id="3" text="Índice Almacenado:" />
+		<res id="4" text="Contenido del Índice" />
+		<res id="5" text="&amp;Archivos de Documentos/PDF/Texto" />
+		<res id="6" text="Archivos &amp;específicos:" />
+		<res id="7" text="&amp;Activar búsqueda que distingue MAY/min (índice más grande) " />
+		<res id="8" text="Incluir todos los demás archivos usando solo el nombre" />
+		<res id="9" text="Indexar Ubicaciones" />
+		<res id="10" text="&amp;Ubicaciones estándar de documentos" />
+		<res id="11" text="&amp;Ubicaciones específicas:" />
+		<res id="12" text="Subcarpetas" />
+		<res id="13" text="Navegar" />
+		<res id="14" text="Múltiples carpetas" />
+		<res id="15" text="Archivos Outlook/Thunderbird" />
+		<res id="16" text="Adjuntos de correo" />
+		<res id="17" text="Avanzado..." />
+	</dialog>
+	<dialog name="IDD_SAVE_BULKCOPY" id="211" caption="">
+		<res id="1" text="Copiar archivos a" />
+		<res id="2" text="&amp;Carpeta:" />
+		<res id="3" text="&amp;Archivo ZIP:" />
+		<res id="4" text="&amp;Navegar..." />
+		<res id="5" text="&amp;Navegar..." />
+		<res id="6" text="Opciones" />
+		<res id="7" text="Carpeta:" />
+		<res id="8" text="Archivos existentes:" />
+		<res id="9" text="Artículos de e-Mail:" />
+		<res id="10" text="Duplicados:" />
+		<res id="11" text="Errores:" />
+		<res id="12" text="Copiar atributos de archivo" />
+		<res id="13" text="Archivos a copiar" />
+		<res id="14" text="Todos los archivos" />
+		<res id="15" text="Únicamente archivos seleccionados" />
+		<res id="16" text="Crear ZIP" />
+		<res id="17" text="Agregar a ZIP" />
+		<res id="18" text="Truncar rutas de más de 255 caracteres" />
+		<res id="19" text="Copiar carpetas" t="g" />
+		<res id="20" text="Incluir subcarpétas" t="g" />
+		<res id="21" text="Incluir carpetas vacías" t="g" />
+	</dialog>
+	<dialog name="IDD_SAVE_SESSIONWORKSPACE" id="210" caption="">
+		<res id="1" text="Guardar como" />
+		<res id="2" text="&amp;Archivo:" />
+		<res id="3" text="&amp;Navegar..." />
+		<res id="4" text="Búsquedas a guardar" />
+		<res id="5" text="Solo sesión de búsqueda actual" />
+		<res id="6" text="Espacio de trabajo (IE. TODAS las sesiones de búsqueda)" />
+		<res id="7" text="&amp;Incluir historial de búsqueda en cada búsqueda" />
+	</dialog>
+	<dialog name="IDD_EXPORT" id="206" caption="Exportar">
+		<res id="1" text="OK" />
+		<res id="2" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_EXPORT_TYPE" id="209" caption="">
+		<res id="1" text="Exportación" />
+		<res id="2" text="Copia masiva" />
+		<res id="3" text="Exportar resultados de búsqueda" />
+		<res id="4" text="Guardar sesión/Espacio de trabajo" />
+		<res id="5" text="Ayuda" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FILENAMEPRESET" id="197" caption="Nombre predeterminado de archivo">
+		<res id="1" text="Nota: Puede combinar términos para los operadores booleanos estándar como AND, OR y NOT." />
+		<res id="2" text="Tipo de archivo:" />
+	</dialog>
+	<dialog name="IDD_REPORTS_SELECTION" id="3514" caption="" maxgrow="700">
+		<res id="1" text="Reporte:" />
+		<res id="2" text="Estilo:" />
+		<res id="3" text="Siguiente" />
+		<res id="4" text="Siguiente" />
+		<res id="5" text="Todo" />
+		<res id="6" text="Archivos:" />
+		<res id="7" text="Seleccionado" />
+	</dialog>
+	<dialog name="IDD_REPORT_PROGRESS" id="3530" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Generando reporte..." />
+		<res id="3" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_ADV_MEMMANAGER" id="5556" caption="">
+		<res id="1" text="Limitar el consumo de memoria en búsquedas grandes" />
+		<res id="2" text="Límite de memoria por búsqueda:" />
+		<res id="3" text="Cantidad calculada del sistema" />
+		<res id="4" text="Cantidad específica:" />
+		<res id="5" text="Cortar líneas en:" />
+		<res id="6" text="Cortar caracteres por línea en:" />
+		<res id="7" text="Solo aplicar el corte al historial de búsquedas" />
+	</dialog>
+	<dialog name="IDD_REPORT_OPTIONS" id="3524" caption="">
+		<res id="1" text="Ver" />
+		<res id="2" text="Resumen de criterios" />
+		<res id="3" text="Estadísticas de búsqueda" />
+		<res id="4" text="Encabezados de columna" />
+		<res id="5" text="Campos" />
+		<res id="6" text="OK" />
+		<res id="7" text="Cancelar" />
+		<res id="8" text="Nota: Arrastre y suelte los campos para reorganizar" />
+	</dialog>
+	<dialog name="IDD_CACHE_SETTINGS" id="5552" caption="">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="Información" />
+		<res id="4" text="Carpeta de caché:" />
+		<res id="5" text="Artículos:" />
+		<res id="6" text="Tamaño total:" />
+		<res id="7" text="Compactar..." />
+		<res id="8" text="Limpiar..." />
+		<res id="9" text="Configuración" />
+		<res id="10" text="Tamaño máximo permitido por artículo (KB):" />
+		<res id="11" text="Expiración" />
+		<res id="12" text="Nunca" />
+		<res id="13" text="Borrar elementos sin referencia del caché después de:" />
+		<res id="14" text="Limpiar caché al salir" />
+		<res id="15" text="OK" />
+		<res id="16" text="Cancelar" />
+		<res id="17" text="días" />
+	</dialog>
+	<dialog name="IDD_GENERAL_SEARCH" id="5553" caption="">
+		<res id="1" text="Método de búsqueda" />
+		<res id="2" text="&amp;Multifrase (predeterminado)" />
+		<res id="3" text="Inmediátamen&amp;te" />
+		<res id="4" text="&amp;Calcular recuento de visitas" />
+		<res id="7" text="&amp;Ordenado" />
+		<res id="9" text="Buscar a medida que escribe" />
+		<res id="10" text="Índice de &amp;búsqueda" />
+		<res id="11" text="&amp;Ficha Texto" />
+		<res id="12" text="&amp;Ascendente" />
+	</dialog>
+	<dialog name="IDD_SAVE_WORKSPACE" id="196" caption="Guardar espacio de trabajo">
+		<res id="1" text="Guardar en" />
+		<res id="2" text="&amp;Archivo:" />
+		<res id="3" text="&amp;Navegar..." />
+		<res id="4" text="Información a guardar" />
+		<res id="5" text="&amp;Espacio de trabajo completo" />
+		<res id="6" text="&amp;Espacio de trabajo parcial" />
+		<res id="7" text="&amp;Todas las búsquedas" />
+		<res id="8" text="B&amp;úsqueda actual únicamente:" />
+		<res id="9" text="&amp;Incluir historial de búsqueda en cada búsqueda" />
+		<res id="15" text="Guardar" />
+		<res id="16" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_SAVE_SESSION" id="195" caption="Guardar sesión de búsqueda">
+		<res id="1" text="Guardar en" />
+		<res id="2" text="&amp;Archivo:" />
+		<res id="3" text="&amp;Navegar..." />
+		<res id="4" text="&amp;Incluir historial de búsqueda" />
+		<res id="15" text="Guardar" />
+		<res id="16" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSION" id="5523" caption="">
+		<res id="1" text="Nombre:" />
+		<res id="2" text="&lt;nombre&gt;" />
+		<res id="3" text="Tipo de archivo:" />
+		<res id="4" text="(Agregue cada tipo de archivo en una línea separada.)" />
+		<res id="5" text="Programa:" />
+		<res id="6" text="&lt;progid&gt;" />
+		<res id="7" text="Iniciar en &amp;Modo seguro" />
+		<res id="8" text="&amp;Usar filtro del servicio de indexado (si está disponible)" />
+		<res id="9" text="&amp;Excluir tipos de archivo en las búsquedas de contenido cuando no se activen" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSIONMAIN" id="5527" caption="">
+		<res id="1" text="Restaurar..." />
+		<res id="2" text="Presione el boton inferior para restablecer la configuración de la extensión a los valores predeterminados." />
+		<res id="3" text="Restuarar configuración de extensión" />
+		<res id="4" text="Esta configuración controla los ajustes de la extensión para el procesamiento avanzado de archivos." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_GENERAL" id="5533" caption="">
+		<res id="1" text="Esta configuración contiene los parámetros generales para controlar las búsquedas con %APP_NAME%." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EDITOR" id="5534" caption="">
+		<res id="1" text="Esta configuración controla al editor que se usará cuando se trabaja con la vista del contenido." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_ADVANCED" id="5540" caption="">
+		<res id="1" text="Esta configuración contiene la configuración avanzada de %APP_NAME%." />
+	</dialog>
+	<dialog name="IDD_CLEARARHISTORY_DIALOG" id="5524" caption="Limpiar historial">
+		<res id="1" text="&amp;Nombre de archivo" />
+		<res id="2" text="&amp;Texto contenido" />
+		<res id="3" text="&amp;Ver en" />
+		<res id="4" text="OK" />
+		<res id="5" text="Cancelar" />
+		<res id="6" text="¿Qué historial le gustaría limpiar?" />
+		<res id="7" text="Todo el historial" />
+	</dialog>
+	<dialog name="IDD_FILETYPE_UTF8" id="5544" caption="">
+		<res id="1" text="Tipos de archivos UTF-8 que no tienen un marcados Byte Object Marker (BOM)." />
+		<res id="2" text="Tipos de archivo:" />
+		<res id="3" text="(Agregar cada tipo de archivo válido en una línea separada.)" />
+		<res id="4" text="Autodetectar archivos UTF-8" />
+	</dialog>
+	<dialog name="IDD_GENERAL_IFILTER" id="5541" caption="">
+		<res id="1" text="" />
+		<res id="2" text="&amp;Actualizar" />
+		<res id="3" text="IFiltros registrados en el equipo:" />
+		<res id="4" text="Incluir IFiltros para HTML/XML basado en tipo de archivo" />
+		<res id="5" text="Prioridad de IFiltros:" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_DEFAULT" id="5529" caption="">
+		<res id="1" text="Seleccionar el editor predeterminado:" />
+		<res id="2" text="Visor interno en pestaña de texto" />
+		<res id="3" text="Visor interno en nueva ventana" />
+		<res id="4" text="Microsoft Visual Studio.NET" />
+		<res id="5" text="Editor externo" />
+		<res id="6" text="Versión de Visual Studio" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_EXTERNAL" id="5528" caption="">
+		<res id="1" text="&amp;Navegar..." />
+		<res id="2" text="Valor predeterminado de editor común:" />
+		<res id="3" text="Parámetros de línea de comandos:" />
+		<res id="4" text="Variables: " />
+		<res id="5" text="$(FILEPATH)" />
+		<res id="6" text="- archivo seleccionado actualmente" />
+		<res id="7" text="$(LINENUM)" />
+		<res id="8" text="- número de línea seleccionada actualmente" />
+		<res id="9" text="Ubicación del programa:" />
+		<res id="10" text="$(LONGPATH)" />
+		<res id="11" text="-Archivo actualmente seleccionado en ubicación de formato largo" />
+	</dialog>
+	<dialog name="IDD_CONFIGURATION_MAIN" id="5526" caption="Configuración de %APP_NAME%">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="OK" />
+		<res id="4" text="Cancelar" />
+		<res id="5" text="Configuración" />
+		<res id="6" text="Reiniciar configuración" />
+	</dialog>
+	<dialog name="IDD_GENERAL_DISPLAYCONFIG" id="5530" caption="">
+		<res id="1" text="Líneas visualizadas" />
+		<res id="2" text="Máximo de líneas visualizadas por archivo:" />
+		<res id="3" text="Máximo de caracteres visualizados por línea:" />
+		<res id="4" text="Líneas de contorno" />
+		<res id="5" text="Líneas anteriores:" />
+		<res id="6" text="Líneas posteriores:" />
+		<res id="7" text="Configuración de la columna Vista de lista de archivos" />
+		<res id="8" text="Mostrar final de ruta si no hay suficiente espacio para mostrarlo" />
+		<res id="9" text="Ver contenido:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_HISTORY" id="5531" caption="">
+		<res id="1" text="&amp;Limpiar todo el historial al salir" />
+		<res id="2" text="Limpiar &amp;historial..." />
+		<res id="3" text="Recordar" />
+		<res id="4" text="&amp;Configurar opciones" />
+		<res id="5" text="Tamaño de ven&amp;tana, posición &amp;de fuentes de configuración" />
+		<res id="6" text="&amp;Cargar última búsqueda al iniciar" />
+		<res id="7" text="Tamaño máximo de la lista" />
+		<res id="8" text="Navegación de búsqueda:" />
+		<res id="9" text="Listas desplegables" />
+		<res id="10" text="Listas desplegables:" />
+		<res id="11" text="Archivos recientes:" />
+		<res id="12" text="Ordenar columna" />
+		<res id="13" text="&amp;Editar..." t="e" />
+	</dialog>
+	<dialog name="IDD_GENERAL_CHARPROC" id="5532" caption="">
+		<res id="1" text="Otros identificadores de Final de línea(EOL)" />
+		<res id="2" text="&amp;Unix (LF)" />
+		<res id="3" text="&amp;Mac (CR)" />
+		<res id="4" text="Máximo de caracteres por línea:" />
+		<res id="5" text="Conteniendo texto" />
+		<res id="6" text="&amp;Incluir nombre de archivo en la búsqueda de contenido" />
+		<res id="7" text="Incluir ruta &amp;de carpeta en la búsqueda de contenido" />
+		<res id="8" text="Nombre de archivo" />
+		<res id="9" text="Incluir la ruta de la carpeta en la búsqueda de nombre de archivo" />
+		<res id="10" refid="5545:9" />
+	</dialog>
+	<dialog name="IDD_GENERAL_THREADING" id="5535" caption="">
+		<res id="1" text="Buscar subprocesos" />
+		<res id="2" text="Indexación de subprocesos" />
+		<res id="3" text="" />
+		<res id="4" text="(entre 1 - 99)" />
+		<res id="5" text="Aviso: La configuración de muchos hilos puede afectar el rendimiento. " />
+		<res id="6" text="Prioridad del proceso" />
+		<res id="7" text="Primer plano:" />
+		<res id="8" text="En 2/o plano:" />
+		<res id="9" text="Minimizado:" />
+		<res id="10" text="Indexador:" t="g" />
+	</dialog>
+	<dialog name="IDD_GENERAL_SHELL" id="5536" caption="">
+		<res id="1" text="&amp;Asociar tipos de archivo con FileLocator (SRF, FLSX, FLWX)" />
+		<res id="2" text="Agregar '%APP_NAME%...' al menú contextual de &amp;carpetas" />
+		<res id="3" text="Agregar '%APP_NAME%...' al menú contextual de a&amp;rchivos" />
+		<res id="4" text="Agregar Buscar&amp; a las opciones de búsqueda del menú inicio" />
+		<res id="5" text="&amp;Reemplazar el buscador predeterminado del explorador (Ctrl+F, F3)" />
+		<res id="6" text="Activar &amp;teclas rápidas (WinKey+Alt+F, WinKey+Alt+F3)" />
+		<res id="7" text="Nota UAC: Cambiar la configuración Shell ocasiona que el programa FLProShellAdmin.exe sea iniciado con privilegios de administrador." />
+		<res id="8" text="Modo de inicio de la aplicación:" t="g" />
+		<res id="9" text="Múltiples instancias (predeterminado)" t="g" />
+		<res id="10" text="Única instancia" t="g" />
+		<res id="11" text="Instancia única desde la integración de shell" t="g" />
+		<res id="12" text="Menú contextual de la lista de archivos" t="g" />
+		<res id="13" text="Opciones básicas del menú contextual para selecciones complejas" t="g" />
+		<res id="14" text="Gran límite de selección:" t="g" />
+	</dialog>
+	<dialog name="IDD_GENERAL_FOLDERS" id="5537" caption="">
+		<res id="1" text="&amp;Navegar..." />
+		<res id="2" text="&amp;Navegar..." />
+		<res id="3" text="&amp;Navegar..." />
+		<res id="4" text="&amp;Navegar..." />
+		<res id="5" text="Carpeta de registro de archivos:" />
+		<res id="6" text="Carpeta de configuración de archivos:" />
+		<res id="7" text="&amp;Navegar..." />
+		<res id="8" text="&amp;Navegar..." />
+		<res id="9" text="Carpetas favoritas:" />
+		<res id="10" text="&amp;Navegar..." />
+		<res id="11" text="&amp;Navegar..." />
+		<res id="12" text="Carpeta de archivos temporales:" />
+		<res id="13" text="Carpeta de índice predeterminada:" t="g" />
+	</dialog>
+	<dialog name="IDD_GENERAL_ALERTS" id="5538" caption="">
+		<res id="1" text="Reproducir sonido" />
+		<res id="2" text="..." />
+		<res id="3" text="..." />
+		<res id="4" text="Mostrar mensaje en la barra de notificaciones" />
+		<res id="5" text="Repetir para cada archivo encontrado" />
+		<res id="6" text="Reproducir sonido" />
+		<res id="7" text="..." />
+		<res id="8" text="..." />
+		<res id="9" text="Mostrar mensaje en la barra de notificaciones" />
+		<res id="10" text="Archivo encontrado" />
+		<res id="11" text="Búsqueda finalizada" />
+	</dialog>
+	<dialog name="IDD_GENERAL_EMAIL" id="5557" caption="">
+		<res id="1" text="Buscando en Outlook/Thunderbird" />
+		<res id="2" text="Incluir nombre de padre en el nombre del archivo adjunto" />
+		<res id="3" text="Agregar separacion de texto en cuerpo del mensaje adjunto" />
+		<res id="4" text="Eliminar marcadores HTML de cuerpo del mensaje" />
+		<res id="5" text="Thunderbird" />
+		<res id="6" text="Profile Folders" />
+		<res id="7" text="" />
+		<res id="8" text="" />
+	</dialog>
+	<dialog name="IDD_ADV_TRANSFORM" id="5539" caption="">
+		<res id="1" text="Seleccionar el procesador XSLT usado para guardar resultados personalizados al transformar el formato:" />
+		<res id="2" text="Progr.DOM:" />
+		<res id="3" text="Servicios Microsoft XML Core" />
+	</dialog>
+	<dialog name="IDD_ADV_JUNCTIONS" id="5542" caption="">
+		<res id="1" text="¿Cómo desea que %APP_NAME% maneje los puntos de unión?" />
+		<res id="2" text="&amp;La búsqueda puntos de unión" />
+		<res id="3" text="E&amp;xcluir puntos de unión ocultos del sistema" />
+		<res id="4" text="Atajos" />
+		<res id="5" text="Buscar atajos de archivos" />
+		<res id="6" text="Buscar atajos de carpetas" />
+	</dialog>
+	<dialog name="IDD_ADV_FILELISTS" id="5543" caption="">
+		<res id="1" text="Seleccionar campos de criterios aceptados en lista de archivos (ej. =c:\lista.txt):" />
+		<res id="2" text="&amp;Archivo" />
+		<res id="3" text="&amp;Texto contenido" />
+		<res id="4" text="&amp;Buscar" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_BOOLEAN" id="5545" caption="">
+		<res id="1" text="Sensibilidad" />
+		<res id="2" text="" />
+		<res id="3" text="Muy similar" />
+		<res id="4" text="Similar" />
+		<res id="5" text="Aproximado" />
+		<res id="6" text="Cercano" />
+		<res id="7" text="Distancia máxima entre palabras (caracteres)" />
+		<res id="8" text="Análisis de expresión" />
+		<res id="9" text="Tratar citas estilizadas como citas normales" />
+	</dialog>
+	<dialog name="IDD_FILTERS" id="5546" caption="Filtro de búsquedas persistentes">
+		<res id="1" text="&amp;Usar filtro de búsquedas persistentes" />
+		<res id="2" text="Filtro de búsquedas:" />
+		<res id="3" text="&amp;Agregar..." />
+		<res id="4" text="" />
+		<res id="5" text="OK" />
+		<res id="6" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_FILTERS_EDIT" id="5547" caption="Filtro de definiciones de búsqueda">
+		<res id="1" text="&amp;Descripción:" />
+		<res id="2" text="Buscar en" />
+		<res id="3" text="&amp;Nombre de archivo" />
+		<res id="4" text="Navegar..." />
+		<res id="5" text="Navegar..." />
+		<res id="6" text="Guardar" />
+		<res id="7" text="Cancelar" />
+		<res id="8" text="" />
+		<res id="9" text="Un filtro de búsqueda puede ser cualquier valor para una Vista en una posición. Puede incluir o excluir una carpeta o simplemente especificar un fitro de posición." />
+		<res id="10" text="" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_REGEX" id="5548" caption="">
+		<res id="1" text="Sintaxis de expresiones regulares" />
+		<res id="2" text="&amp;Compatible con Perl" />
+		<res id="3" text="&amp;Clásico" />
+		<res id="4" text="&amp;Intercalar rangos de caracteres" />
+		<res id="5" text="Multilíneas de expresiones regulares" />
+		<res id="6" text="Máximo de líneas por búsqueda" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_HASH" id="5549" caption="">
+		<res id="1" text="Dividir algoritmos" />
+		<res id="2" text="SHA-&amp;1" />
+		<res id="3" text="SHA-&amp;256" />
+		<res id="4" text="SHA-&amp;512" />
+		<res id="5" text="&amp;MD5" />
+	</dialog>
+	<dialog name="IDD_FORMATS_DOCUMENT" id="5517" caption="Configuración de búsqueda de documentos">
+		<res id="1" text="Seleccione el método para buscar en formatos de documentos comunes (ej. doc, pdf, xls, etc):" />
+		<res id="2" text="Búsqueda profunda (busca en la información en bruto y en extensiones disponibles)" />
+		<res id="3" text="Personalizar la configuración de procesamiento" />
+		<res id="4" text="Usar todas las extesiones apropiadas de documentos" />
+		<res id="5" text="Usar solo las extensiones de documentos seleccionadas:" />
+		<res id="6" text="&amp;Todo" />
+		<res id="7" text="&amp;Ninguna" />
+		<res id="8" text="" />
+		<res id="9" text="También buscar en los datos en bruto de los archivos procesados" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancelar" />
+		<res id="12" text="Buscar texto" />
+		<res id="13" text="Configuración extendida (Word/PDF)" t="g" />
+		<res id="14" text="Buscar documentos incrustados" t="g" />
+	</dialog>
+	<dialog name="IDD_FORMATS_ARCHIVE" id="5525" caption="Configuración de búsqueda para formatos Comprimido/Archivo">
+		<res id="1" text="Seleccione como desea buscar en los formatos comprimidos/archivo:" />
+		<res id="2" text="Buscar en todos los archivos comprimidos/archivo" />
+		<res id="3" text="Buscar solo en los formatos comprimidos/archivo seleccionados:" />
+		<res id="4" text="&amp;Todo" />
+		<res id="5" text="&amp;Ninguno" />
+		<res id="6" text="" />
+		<res id="7" text="OK" />
+		<res id="8" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXPRESSIONS" id="5519" caption="">
+		<res id="1" text="Esta configuración contiene los parámetros de expresión para %APP_NAME%." />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_DOS" id="5520" caption="">
+		<res id="1" text="&amp;Sintaxis estricta" />
+		<res id="2" text="Expresiones Comodín" />
+		<res id="3" text="&amp;Implica marcadores de límite si se especifica la extensión" />
+	</dialog>
+	<dialog name="IDD_GENERAL_GUI" id="5521" caption="">
+		<res id="1" text="Interfaz del programa" />
+		<res id="2" text="Predeterminado (Búsqueda por pestañas, Tema estándar)" />
+		<res id="3" text="Clásico (Búsqueda por MDI, Tema clásico)" />
+		<res id="4" text="Personalizado" />
+		<res id="5" text="Tema:" />
+		<res id="6" text="Pestaña de búsqueda" />
+		<res id="7" text="&amp;Barra individual de vista previa (Solo Windows 7)*" />
+		<res id="8" text="* Los cambios se aplicarán después de reiniciar %APP_NAME%" />
+		<res id="9" text="Mostrar pestaña para vista de contenido" />
+		<res id="10" text="Pestaña predeterminada para Siguiente búsqueda" />
+		<res id="11" text="Pestaña predeterminada de contenido:" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_INTERNALVIEWER" id="5522" caption="">
+		<res id="1" text="Mostrar" />
+		<res id="2" text="* Los cambios se aplicarán para los archivos recién cargados." />
+		<res id="3" text="Tamaño de pestaña:" />
+	</dialog>
+	<dialog name="IDD_ABOUTBOX" id="101" caption="Acerca de %APP_NAME%">
+		<res id="1" text="https://www.mythicsoft.com" />
+		<res id="2" text="mailto:support@mythicsoft.com" />
+		<res id="3" text="&amp;Clave de registro..." />
+		<res id="4" text="OK" />
+		<res id="5" text="Copyright © 2026 Mythicsoft Ltd. All rights reserved." />
+		<res id="6" text="Tipo de licencia:" />
+		<res id="7" text="(cambiar)" />
+		<res id="8" text="Sitio web:" />
+		<res id="9" text="Politica de privacidad: La información personal no será vendida o distribuida" />
+		<res id="10" text="Email: " />
+		<res id="11" text="Registrado a:" />
+		<res id="12" text="Política de Privacidad" />
+		<res id="13" text="https://www.mythicsoft.com/privacy-policy" />
+		<res id="14" text="" />
+	</dialog>
+	<dialog name="IDD_TESTREGEXP" id="115" caption="Expresiones de prueba regulares">
+		<res id="1" text="&amp;Expresiones regulares:" />
+		<res id="2" text="Coincidir MAY/min" />
+		<res id="3" text="&amp;Texto de ejemplo:" />
+		<res id="4" text="Probar" />
+		<res id="5" text="Cerrar" />
+		<res id="6" text="Resultado:" />
+		<res id="7" text="¿No está seguro si la expresión regular es correcta? Esta ventana le permite probar el motor de expresiones regulares. Solo ingrese la expresión que desea probar junto con algunos ejemplos de texto y presione Probar." />
+		<res id="8" text="Nota: El motor de pruebas de expresiones utiliza expresiones regulares al estilo Perl." />
+	</dialog>
+	<dialog name="IDD_SEARCHFOR_FORM" id="102" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Usuario e&amp;xperto" />
+		<res id="3" text="Iniciar" />
+		<res id="4" text="Alto" />
+		<res id="5" text="Progreso1" />
+		<res id="6" text="Animar1" />
+		<res id="7" text="" />
+	</dialog>
+	<dialog name="IDD_BASIC" id="118" caption="Principal">
+		<res id="1" text="&amp;Archivo:" />
+		<res id="2" text="&amp;Texto contenido:" />
+		<res id="3" text="Asistente de bú&amp;squeda..." />
+		<res id="4" text="&amp;Buscar en:" />
+		<res id="5" text="" />
+		<res id="6" text="Buscar en s&amp;ubcarpetas" />
+		<res id="7" text="&amp;Navegar..." />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_NAME" id="120" caption="Nombre de archivo">
+		<res id="1" text="¿Cuál es el nombre del archivo que desea encontrar?" />
+		<res id="2" text="¿No sabe el nombre exacto? No se preocupe, puede buscar partes del nombre. Si no sabe alguna parte del nombre lo puede dejar en blanco." />
+		<res id="3" text="Ejemplos:" />
+		<res id="4" text="Mi.*Doc" />
+		<res id="5" text="Se buscarán todos los documentos que tienen Mi y luego .Doc en algun otro sitio del nombre" />
+		<res id="6" text="(ej. Mi_Documento.doc, Mi_Autodoc.txt etc.)" />
+		<res id="7" text="Asegúrese de que el nombre de archivo esté colocado como expresión comodín en la pestaña de opciones antes de usar expresiones como las mostradas en los ejemplos." />
+		<res id="8" text="MiDoc" />
+		<res id="9" text="Encontrará todos los documentos con MiDoc an alguna parte del nombre" />
+		<res id="10" text="(ej. MiDocumento.doc, Nota_para_MiDoctor.txt etc.)" />
+		<res id="11" text="^MiDoc" />
+		<res id="12" text="Buscará todos los nombres que inicien con MiDoc" />
+		<res id="13" text="(ej. MiDocumento.doc, MiDoctor.txt etc.)" />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_LOCATION" id="121" caption="Ubicación del archivo">
+		<res id="1" text="&amp;Todos los discos duros locales" />
+		<res id="2" text="Unidad &amp;específica (ej. C:, D: etc.)" />
+		<res id="3" text="" />
+		<res id="4" text="Carpeta &amp;específica (ej. C:\Windows, D:\Files\My Docs etc.)" />
+		<res id="5" text="" />
+		<res id="6" text="&amp;Navegar..." />
+		<res id="7" text="&amp;Si, buscar solo en subcarpetas" />
+		<res id="8" text="&amp;No, buscar solo en esta carpeta" />
+		<res id="9" text="&amp;Iniciar la búsqueda automáticamente al presionar el boton Finalizar" />
+		<res id="10" text="¿Dónde desea buscar el archivo?" />
+		<res id="11" text="¿Desea buscar también en las subcarpetas de la carpeta?" />
+		<res id="12" text="Sugerencia: Elegir una carpeta específica reduce en gran medida el número de archivos que se buscarán y el proceso es mucho más rápido." />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_CONTENTS" id="122" caption="Contenido del archivo">
+		<res id="1" text="¿Desea buscar el archivo basado en un texto del archivo?" />
+		<res id="2" text="&amp;No, solo buscar por nombre del archivo" />
+		<res id="3" text="&amp;Si, buscar en el contenido del archivo" />
+		<res id="4" text="¿Qué texto contiene el archivo?" />
+		<res id="5" text="Ejemplos:" />
+		<res id="6" text="Querido Bill" />
+		<res id="7" text="Encontrar cualquier archivo que contenga una línea con la frase Querido Bill." />
+		<res id="8" text="(ej. Mi querido Bill..., Querido Billy, ¿cómo estas?... etc.)" />
+		<res id="9" text="Querido.*Bill" />
+		<res id="10" text="Encontrar cualquier archivo que tenga una línea, tanto con las palabras Querido y Bill en el mismo lugar (ej. Querido Fred, ¿cómo está?..., Los elementos más queridos se deben de conservar...)" />
+		<res id="11" text="Sugerencia: Buscar en el contenido del archivo puede tomar mucho tiempo, especialmente si no ha ingresado un nombre o no es muy específico. Se le sugiere elegir No por ser mucho más rápido." />
+	</dialog>
+	<dialog name="IDD_REGISTER" id="123" caption="Ingresar información de registro">
+		<res id="1" text="OK" />
+		<res id="2" text="Cancelar" />
+		<res id="3" text="&amp;Nombre:" />
+		<res id="4" text="&amp;Apellidos:" />
+		<res id="5" text="&amp;Clave de registro:" />
+		<res id="6" text="&amp;E-mail:" />
+		<res id="7" text="Nota: El nombre y dirección de e-mail deben de ingresarse tal como se indica en el e-mail de registro." />
+		<res id="8" text="Si presenta algún problema por favor contáctenos en support@mythicsoft.com para ayudarle." />
+		<res id="9" text="Ingrese su información de registro." />
+	</dialog>
+	<dialog name="IDD_ADVANCED" id="124" caption="Principal">
+		<res id="1" text="&amp;Archivo:" />
+		<res id="2" text="&amp;Texto contenido:" />
+		<res id="3" text="&amp;Buscar en:" />
+		<res id="4" text="" />
+		<res id="5" text="N&amp;o" />
+		<res id="6" text="" />
+		<res id="7" text="Ayuda..." />
+		<res id="8" text="" />
+		<res id="9" text="Ayuda..." />
+		<res id="10" text="S&amp;ubcarpetas" />
+		<res id="11" text="Navegar..." />
+		<res id="12" text="Navegar..." />
+		<res id="13" text="&gt;" />
+		<res id="14" text="&lt;" />
+		<res id="15" text="&amp;Modificado:" />
+		<res id="16" text="&amp;Después:" />
+		<res id="17" text="&amp;Antes:" />
+		<res id="18" text="Calendario..." />
+		<res id="19" text="Calendario..." />
+		<res id="20" text="" />
+	</dialog>
+	<dialog name="IDD_ADVANCED_LITE" id="232" copyid="124" />
+	<dialog name="IDD_EXPR_WIZ" id="125" caption="Crear expresiones">
+		<res id="1" text="occurs" />
+		<res id="2" text="&amp;Agregar" />
+		<res id="3" text="&amp;Modificar" />
+		<res id="4" text="&amp;Borrar" />
+		<res id="5" text="Lista2" />
+		<res id="6" text="Resultado de expresiones" />
+		<res id="7" text="Nota: Arrastre &amp;&amp; suelte para reorganizar los elementos" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_INTRO" id="126" caption="Introducción al asistente de expresiones">
+		<res id="1" text="Bienvenido al asistente de expresiones. Este asistente le ayudará a definir exactamente lo que está buscando." />
+		<res id="2" text="%APP_NAME% usa el concepto de 'expresiones regulares' para describir los patrones de coincidencia en la cadena. Mientras que las expresiones regulares son muy poderosas también pueden ser desalentadoras para las personas con poca experiencia." />
+		<res id="3" text="El asistente de expresiones regulares pretende reducir la complejidad de las expresiones regulares sin restarles efectividad. El asistente de expresiones le ayudará a construir expresiones describiendo de una manera fácil los términos que está buscando." />
+		<res id="4" text="Nota:" />
+		<res id="5" text="La nota específica de búsqueda va aquí." />
+		<res id="6" text="&amp;No mostrar esta introducción la proxima vez." />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_SPECIAL" id="131" caption="Aviso: Se ingresaron caracteres especiales">
+		<res id="1" text="&amp;Si. Ingresar barras invertidas apropiadas porque ninguno de los caracteres ingresados puede tratarse como caracteres especiales." />
+		<res id="2" text="&amp;No. Estoy usando deliberadamente caracteres especiales para una búsqueda avanzada." />
+		<res id="3" text="Una o más expresiones ingresadas contienen al menos uno de los siguientes caracteres especiales: ^$*?+.[]()|\ " />
+		<res id="4" text="Los caracteres especiales se usan en expresiones regulares para definir las reglas de coincidencia de patrones por lo que deben ser usados con precaución. Si desea buscar un caracter que también es un caracter especial debe de poner una barra invertida delante del caracter a buscar. " />
+		<res id="5" text="" />
+		<res id="6" text="Por ejemplo:" />
+		<res id="7" text="Para buscar:" />
+		<res id="8" text="la expresión sería:" />
+		<res id="9" text="$400.00" />
+		<res id="10" text="\$400\.00" />
+		<res id="11" text="¿Qué fue eso?" />
+		<res id="12" text="¿Qué fue eso\?" />
+		<res id="13" text="(12\4)*5=15" />
+		<res id="14" text="\(12\\4\)\*5=15" />
+		<res id="15" text="Para buscar:" />
+		<res id="16" text="Para buscar:" />
+		<res id="17" text="la expresión sería:" />
+		<res id="18" text="la expresión sería:" />
+		<res id="19" text="¿Quiere que el asistente de expresiones ingrese automáticamente las barras invertidas antes de todos los caracteres especiales?" />
+	</dialog>
+	<dialog name="IDD_OPTIONS" id="133" caption="Opciones">
+		<res id="1" text="Expresiones &amp;NO específicas" />
+		<res id="2" text="&amp;Coincidir MAY/min" />
+		<res id="3" text="MAY &amp;min" />
+		<res id="4" text=" Nombre de archivo " />
+		<res id="5" text=" Contenido " />
+		<res id="6" text="Buscar en" />
+		<res id="7" text="Búsqueda de documentos mejorada" />
+		<res id="8" text="Documentos Office/PDF" />
+	</dialog>
+	<dialog name="IDD_OPTIONS_ADVANCED_LITE" id="169" copyid="133" />
+	<dialog name="IDD_SAVE_RESULTS" id="140" caption="Exportar resultados">
+		<res id="1" text="&amp;Portapapeles" />
+		<res id="2" text="&amp;Archivo" />
+		<res id="3" text="&amp;Navegar..." />
+		<res id="4" text="&amp;Sobreescribir archivo" />
+		<res id="5" text="A&amp;nexar al archivo" />
+		<res id="6" text="&amp;Codificacion:" />
+		<res id="7" text="Estándar" />
+		<res id="8" text="Otro (XSLT)" />
+		<res id="9" text="&amp;Navegar..." />
+		<res id="10" text="&amp;Todos los archivos" />
+		<res id="11" text="&amp;Archivos seleccionados" />
+		<res id="12" text="Nombre de &amp;archivo" />
+		<res id="13" text="Con&amp;tenido" />
+		<res id="14" text="Líneas &amp;circundantes" />
+		<res id="15" text="Exportar" />
+		<res id="16" text="Cancelar" />
+		<res id="17" text="Guardar resultados" />
+		<res id="18" text="Guardar información" />
+		<res id="19" text="Exportar a" />
+		<res id="20" text="Formato" />
+	</dialog>
+	<dialog name="IDD_OPTIONALMSG" id="141" caption="Diálogo">
+		<res id="1" text="OK" />
+		<res id="2" text="No volver a mostrar." />
+	</dialog>
+	<dialog name="IDD_BLANK" id="142" caption="Diálogo">
+		<res id="1" text="Es un diálogo en blanco" />
+	</dialog>
+	<dialog name="IDD_SCRIPTING" id="143" caption="Secuencia de comandos">
+		<res id="1" text="Archivo de secuencias:" />
+		<res id="2" text="Navegar..." />
+		<res id="3" text="Motor:" />
+		<res id="4" text="Parámetro:" />
+		<res id="5" text="Texto en la secuencia:" />
+		<res id="6" text="Navegar..." />
+		<res id="7" text="Motor:" />
+		<res id="8" text="Parámetro:" />
+		<res id="9" text="&amp;Probar" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_DOSEXPR" id="152" caption="Expresiones DOS">
+		<res id="1" text="Las expresiones comodín usan la sintaxis estándar de Windows para especificar un grupo de archivos. Un punto y coma es utilizado para separar múltiples expresiones." />
+		<res id="2" text="Ejemplo:" />
+		<res id="3" text="*.txt\t\tEspecifica todos los archivos con extensión .txt\n\n*.xls;*.doc\tespecifica todos los archivos con extensión .xls o .doc" />
+		<res id="4" text="Ejemplos avanzados:" />
+		<res id="5" text="*.png;*.jpg:cumpleaños\t\tEspecifica todos los archivos .png y .jpg con la palabra cumpleaños en el nombre\n\nNOT:*.doc;*.xls\t\t\tEspecifica todos los archivos excepto .doc y .xls\n\nholiday;NOT:*.exe;*.dll\t\tEspecifica todos los archivos excepto .exe o .dll con cumpleaños en el nombre" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANEXPR" id="154" caption="Motor de expresiones booleanas">
+		<res id="1" text="Las expresiones booleanas usan operadores de búsqueda estilo web AND, OR, NOT, LIKE y NEAR. Las búsquedas booleanas pueden ser por línea o por archivo:" />
+		<res id="2" text="Ejemplos:" />
+		<res id="3" text="trabajo AND documento\tBusca las palabras 'TRABAJO' y 'DOCUMENTO' en la misma línea/archivo" />
+		<res id="4" text="trabajo documento\t\tRealiza la misma búsqueda que en el caso anterior (el AND está implicito)" />
+		<res id="5" text="trabajo OR documento\tBusca las palabras 'TRABAJO' O 'DOCUMENTO' en la misma línea/archivo" />
+		<res id="6" text="trabajo NEAR documento\tBusca 'TRABAJO' cerca de la palabra 'DOCUMENTO' en la línea/archivo" />
+		<res id="7" text="&quot;trabajo documento&quot;\tBusca la frase exacta 'TRABAJO DOCUMENTO'" />
+		<res id="8" text="Por línea:" />
+		<res id="9" text="La expresión se prueba por separado en cada línea individual" />
+		<res id="10" text="Por archivo:" />
+		<res id="11" text="La expresión se prueba en todo el documento" />
+		<res id="12" text="Nota: Use paréntesis para agrupar expresiones, ej. (trabajo AND documento) O (especial AND caso)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANEXPR_LITE" id="155" caption="Motor de expresión booleano">
+		<res id="1" text="Las expresiones booleanas usan los operadores de búsqueda de estilo web AND, OR y NOT. Las búsquedas booleanas se combinan en todo el archivo." />
+		<res id="2" text="Ejemplos:" />
+		<res id="3" text="trabajo AND documento\tbusca las palabras 'trabajo' y 'documento' en el mismo archivo" />
+		<res id="4" text="trabajo documento\t\trealiza la misma búsqueda que antes (el AND está implícito)" />
+		<res id="5" text="trabajo OR documento\tbusca las palabras 'trabajo' OR 'documento' en el mismo archivo" />
+		<res id="6" text="trabajo NOT documento\tbusca 'trabajo' sin la palabra 'documento' en el mismo archivo" />
+		<res id="7" text="&quot;trabajo documento&quot;\tbusca la frase exacta 'trabajo documento'" />
+		<res id="8" text="" />
+		<res id="9" text="" />
+		<res id="10" text="" />
+		<res id="11" text="" />
+		<res id="12" text="Nota: Use paréntesis para agrupar expresiones, p. Ej. (trabajo AND doc) OR (especial AND caso)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_EXACTEXPR" id="156" caption="Texto plano">
+		<res id="1" text="El texto sin formato trata al texto ingresado con un criterio de valor literal, o sea, tal y como se ingresa el texto en el campo editable. Los criterios de búsqueda parte de toda o una parte de la palabra." />
+		<res id="2" text="Por ejemplo:" />
+		<res id="3" text="autor\tEncontraría frases como 'AUTOR', 'AUTOMÓVIL' o 'AUTORES'." />
+		<res id="4" text="pesca\t\tEncontraría palabras como 'PESCADO', 'PESCADOR', o 'PESCADOS'." />
+	</dialog>
+	<dialog name="IDD_ATTRIBUTES" id="157" caption="Atributos">
+		<res id="1" text="&amp;Usar atributos" />
+		<res id="2" text="Limpiar todo" />
+		<res id="3" text="&amp;Archivo:" />
+		<res id="4" text="&amp;Comprimido:" />
+		<res id="5" text="E&amp;ncriptado:" />
+		<res id="6" text="Índice:" />
+		<res id="7" text="Car&amp;peta:" />
+		<res id="8" text="&amp;Oculto:" />
+		<res id="9" text="&amp;Sin conexión:" />
+		<res id="10" text="&amp;Solo lectura:" />
+		<res id="11" text="S&amp;istema:" />
+		<res id="12" text="E&amp;scaso:" />
+		<res id="13" text="&amp;Punto de análisis:" />
+	</dialog>
+	<dialog name="IDD_ATTRIBUTE_SUMMARY" id="158" caption="Resumen de atributos">
+		<res id="1" text="Atributo" />
+		<res id="2" text="Buscar por:" />
+	</dialog>
+	<dialog name="IDD_OPTIONS_ADVANCED" id="159" caption="Opciones" maxgrow="700">
+		<res id="1" text="Expresiones Booleanas" />
+		<res id="2" text="Conjunto:" />
+		<res id="3" text="&amp;Línea por línea" />
+		<res id="4" text="&amp;A través del archivo" />
+		<res id="5" text="Permitir comodines (&amp;*, ?)" />
+		<res id="6" text="E-mail" />
+		<res id="10" text="Búsqueda mejorada de archivos" />
+		<res id="11" text="&amp;Documentos Office/PDF" />
+		<res id="12" text="Configuración..." />
+		<res id="13" text="Archivos de O&amp;utlook/Thunderbird" />
+		<res id="14" text="Bus&amp;car en adjuntos" />
+		<res id="15" text="Eliminar marcador &amp;HTML" />
+		<res id="16" text="&amp;Texto en caché" />
+		<res id="17" text="Cache..." />
+		<res id="18" text="Excluir archivos &amp;binarios" />
+		<res id="19" text="Imágenes OCR" />
+		<res id="20" text="OCR..." />
+	</dialog>
+	<dialog name="IDD_DATETIMEPICKER" id="171" caption="Seleccionar Fecha/Hora">
+		<res id="1" text="Fecha" />
+		<res id="2" text="Fecha fija:" />
+		<res id="3" text="Fecha relativa:" />
+		<res id="4" text="" />
+		<res id="5" text="Ajustar (+/-)" />
+		<res id="6" text="Días:" />
+		<res id="7" text="Semanas:" />
+		<res id="8" text="Meses:" />
+		<res id="9" text="Años:" />
+		<res id="10" text="Hora" />
+		<res id="11" text="Hora específica" />
+		<res id="12" text="Hora fija:" />
+		<res id="13" text="Hora relativa:" />
+		<res id="14" text="HH:mm:ss" />
+		<res id="15" text="Ajustar (+/-)" />
+		<res id="16" text="Segundos:" />
+		<res id="17" text="Minutos:" />
+		<res id="18" text="Horas:" />
+		<res id="19" text="OK" />
+		<res id="20" text="Cancelar" />
+		<res id="21" text="Expresión actual:" />
+		<res id="22" text="Evaluar como:" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FILEHASH" id="173" caption="Hash del archivo">
+		<res id="1" text="El archivo Hash genera un identificador único de longitud fija para cada archivo basándose en el contenido del archivo. Archivos con contenido idéntico producirán valores Hash idénticos." />
+		<res id="2" text="1. Especifique el algoritmo Hash en la pestaña Opciones" />
+		<res id="3" text="Para buscar por valor Hash:" />
+		<res id="4" text="2. Ingrese el valor Hash para buscar como una lista de valores Hash separados por comas o una lista de valores Hash, ej." />
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848" />
+		<res id="6" text="=c:\hashfile.txt" />
+		<res id="7" text="O," />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANREGEX" id="175" caption="Motor booleano RegEx">
+		<res id="1" text="Las expresiones booleanas RegEx son un híbrido de expresiones booleanas y expresiones regulares. Las expresiones regulares pueden combinarse utilizando los operadores booleanos comunesAND, OR, y NOT." />
+		<res id="2" text="Ejemplos:" />
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;autor&quot;" />
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archivo&quot;" />
+		<res id="5" text="Nota: Use paréntesis para agrupar expresiones, ej. (trabajo AND doc) O (especial AND caso)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_WHOLEWORD" id="177" caption="Toda la palabra">
+		<res id="1" text="Toda la palabra trata al texto ingresado con un criterio de valor literal, o sea, tal y como se ingresa el texto en el campo de edición, también busca coincidir con el inicio y el final del texto con el criterio 'límite de palabra'." />
+		<res id="2" text="Por ejemplo:" />
+		<res id="3" text="el autor\tBusca específicamente la frase 'EL AUTOR'." />
+		<res id="4" text="pesca\t\tEncontraría palabras como 'PESCA' pero no 'PESCADOR' o 'PESCADOS'." />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FUZZY" id="235" caption="Búsqueda borrosa">
+		<res id="1" text="Las expresiones de búsqueda difusa coinciden con los términos de búsqueda aproximadas, exactamente de la misma manera que el operador LIKE para expresiones booleanas. El uso de expresiones de búsqueda difusa puede combinarse con expresiones booleanas como AND, OR y NOT." />
+		<res id="2" text="Por ejemplo:" />
+		<res id="3" text="pensamiento\tpartidos tanto en el pensamiento y pensamento." />
+		<res id="4" text="" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_MULTILINE_REGEX" id="236" caption="Multilíneas RegEx">
+		<res id="1" text="Expresiones regulares de varias líneas coincide con las expresiones regulares a través de múltiples líneas." />
+		<res id="2" text="Por ejemplo:" />
+		<res id="3" text=".{0,20}pensamiento.{0,20}" />
+		<res id="4" text="coincide con la palabra 'pensamiento' junto con un máximo de 20 caracteres, o bien secundarios incluyendo caracteres en líneas de ataque y de salida." />
+	</dialog>
+	<dialog name="IDD_DATES" id="180" caption="Fechas">
+		<res id="1" text="Limpiar todo" />
+		<res id="2" text="&amp;Modificado:" />
+		<res id="3" text="Despues:" />
+		<res id="4" text="Mostrar calendario..." />
+		<res id="5" text="Antes:" />
+		<res id="6" text="Mostrar calendario..." />
+		<res id="7" text="&amp;Creado:" />
+		<res id="8" text="Despues:" />
+		<res id="9" text="Mostrar calendario..." />
+		<res id="10" text="Antes:" />
+		<res id="11" text="Mostrar calendario..." />
+		<res id="12" text="&amp;Último acceso:" />
+		<res id="13" text="Despues:" />
+		<res id="14" text="Mostrar calendario..." />
+		<res id="15" text="Antes:" />
+		<res id="16" text="Mostrar calendario..." />
+	</dialog>
+	<dialog name="IDD_ADVANCEDTAB" id="193" caption="Avanzado">
+		<res id="1" text="Archivo Hash" />
+		<res id="2" text="SHA-&amp;1" />
+		<res id="3" text="SHA-&amp;256" />
+		<res id="4" text="SHA-&amp;512" />
+		<res id="5" text="&amp;MD5" />
+		<res id="6" text="Expresión regular" />
+		<res id="7" text="&amp;Compatible con Perl" />
+		<res id="8" text="&amp;Clásico" />
+		<res id="9" text="Activar Secuencia de comandos" />
+		<res id="10" text="Configuración..." />
+	</dialog>
+	<dialog name="IDD_EXTENSIONS" id="145" caption="Archivos comprimidos">
+		<res id="1" text="" />
+		<res id="2" text="Seleccione los formatos de archivo para realizar la búsqueda:" />
+		<res id="3" text="Configuración..." />
+		<res id="4" text="&amp;Ninguno" />
+		<res id="5" text="&amp;Todo" />
+	</dialog>
+	<dialog name="IDD_CHECKVERSION" id="179" caption="Verificar actualizaciones">
+		<res id="1" text="Verificando actualizaciones..." />
+		<res id="2" text="" />
+		<res id="3" text="Página web %APP_NAME%:" />
+		<res id="4" text="Descargar desde:" />
+		<res id="5" text="https://www.mythicsoft.com/%app_name%/download?fwd=upd" />
+		<res id="6" text="Historial de versiones: " />
+		<res id="7" text="https://www.mythicsoft.com/%app_name%/history?fwd=upd" />
+		<res id="8" text="Verificar automáticamente" />
+		<res id="9" text="Cerrar" />
+	</dialog>
+	<dialog name="IDD_FAVOURITE_SEARCH" id="191" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Estático" />
+	</dialog>
+	<dialog name="IDD_FAVOURITE_ADD" id="192" caption="Agregar a favoritos">
+		<res id="1" text="" />
+		<res id="2" text="Agregar esta búsqueda a favoritos." />
+		<res id="3" text="&amp;Descripción:" />
+		<res id="4" text="&amp;Etiquetas:" />
+		<res id="5" text="&amp;Agregar" />
+		<res id="6" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_MULTIFOLDER" id="3539" caption="Múltiples carpetas">
+		<res id="1" text="Agregue cada carpeta en una línea separada, ya sea escribiendo directamente en el menú desplegable o navegando por las carpetas." />
+		<res id="2" text="&amp;Carpetas recientes:" />
+		<res id="3" text="" />
+		<res id="4" text="&amp;Agregar" />
+		<res id="5" text="&amp;Excluir" />
+		<res id="6" text="&amp;Macros:" />
+		<res id="7" text="" />
+		<res id="8" text="&amp;Agregar" />
+		<res id="9" text="&amp;Excluir" />
+		<res id="10" text="&amp;Buscar en carpetas:" />
+		<res id="11" text="&amp;Navegar..." />
+		<res id="12" text="&amp;Excluir carpetas:" />
+		<res id="13" text="&amp;Navegar..." />
+		<res id="14" text="&amp;Incluir filtro:" />
+		<res id="15" text="E&amp;xcluir filtro:" />
+		<res id="16" text="OK" />
+		<res id="17" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_FILEVIEWER_FIND" id="3523" caption="">
+		<res id="1" text="Buscar:" />
+		<res id="2" text="l" />
+		<res id="3" text="Siguiente" />
+		<res id="4" text="Anterior" />
+		<res id="5" text="Resaltar:" />
+		<res id="6" text="" />
+		<res id="7" text="" />
+		<res id="8" text="" />
+		<res id="9" text="" />
+		<res id="10" text="l" />
+		<res id="11" text="Siguiente" />
+		<res id="12" text="Siguiente" />
+		<res id="13" text="Color de resaltado de búsqueda original" />
+		<res id="14" text="Color de resaltado de última búsqueda" />
+		<res id="15" text="" t="e" />
+		<res id="16" text="" t="e" />
+	</dialog>
+	<dialog name="IDD_ACTION_PROGRESS" id="3521" caption="Acción:">
+		<res id="1" text="Cancelar" />
+		<res id="2" text="" />
+		<res id="3" text="Progreso" />
+	</dialog>
+	<dialog name="IDD_GENERAL_LOCALIZATION" id="5550" caption="">
+		<res id="1" text="Idioma de interfaz:" />
+		<res id="2" text="* Los cambios surtirán efecto después de reiniciar%APP_NAME%" />
+	</dialog>
+	<dialog name="IDD_SINGLE_CONFIG" id="5551" caption="Configuración de idioma">
+		<res id="1" text="OK" />
+		<res id="2" text="Cancelar" />
+	</dialog>
+	<dialog name="IDD_EDITHISTORY_DIALOG" id="5562" caption="Edit History">
+		<res id="1" text="Historial" t="e" />
+		<res id="2" text="Artículos:" t="e" />
+		<res id="3" text="Limpiar todo..." t="g" />
+		<res id="4" text="OK" t="e" />
+		<res id="5" text="Cancelar" t="e" />
+	</dialog>
+	<menu name="IDR_MENU_REFRESHINDEX" id="322">
+		<res id="1" text="" />
+		<res id="2" text="&amp;Actualizar índice" />
+		<res id="3" text="&amp;Rehacer índice" />
+	</menu>
+	<menu name="IDR_INDEXLIST_CONTEXTMENU" id="328">
+		<res id="1" text="" />
+		<res id="2" text="Editar índice...\tEnter" />
+		<res id="3" text="Eliminar índice...\tDel" />
+		<res id="4" text="Agregar nuevo índice...\tIns" />
+		<res id="5" text="Actualizar índice" />
+		<res id="6" text="Rehacer índice" />
+		<res id="7" text="Cancelar indexado" />
+	</menu>
+	<menu name="IDR_SCHEDULELIST_CONTEXTMENU" id="340">
+		<res id="1" text="" />
+		<res id="2" text="Editar Horario..." />
+		<res id="3" text="Eliminar Horario..." />
+		<res id="4" text="Agregar Nuevo Horario..." />
+	</menu>
+	<menu name="IDR_INDEXMGR_MENU" id="329">
+		<res id="1" text="&amp;Archivo" />
+		<res id="2" text="&amp;Nuevo índice..." />
+		<res id="3" text="S&amp;alir" />
+		<res id="4" text="Nuevo &amp;Horario..." />
+		<res id="10" text="&amp;Editar" />
+		<res id="11" text="&amp;Editar índice..." />
+		<res id="12" text="&amp;Eliminar índice..." />
+		<res id="13" text="&amp;Actualizar índice" />
+		<res id="14" text="&amp;Rehacer índice" />
+		<res id="15" text="&amp;Cancelar indexado" />
+		<res id="20" text="&amp;Ayuda" />
+		<res id="21" text="&amp;Acerca de IndexManager..." />
+		<res id="22" text="&amp;Generar reporte de error..." />
+	</menu>
+	<menu name="IDR_FILTERLIST_CONTEXTMENU" id="5512">
+		<res id="1" text="Lista" />
+		<res id="2" text="&amp;Editar..." />
+		<res id="3" text="&amp;Borrar" />
+	</menu>
+	<menu name="IDR_LICENSELIST_CONTEXTMENU" id="5513">
+		<res id="1" text="Lista" />
+		<res id="2" text="&amp;Kill Lease" />
+	</menu>
+	<menu name="IDR_VIEWERMENU_SPECIALIZATION" id="150">
+		<res id="6" text="&amp;Guardar archivo" />
+		<res id="7" text="Guardar archivo &amp;como..." />
+	</menu>
+	<menu name="IDR_SHAREDMENU" id="149">
+		<res id="1" text="&amp;Archivo" />
+		<res id="2" text="&amp;Nuevo" />
+		<res id="3" text="&amp;Búsqueda en blanco" />
+		<res id="4" text="&amp;Abrir..." />
+		<res id="5" text="&amp;Cerrar" />
+		<res id="6" text="&amp;Guardar criterio" />
+		<res id="7" text="Guardar criterio &amp;como..." />
+		<res id="8" text="Guardar lista de &amp;resultados" />
+		<res id="9" text="Buscar selección a&amp;ctual" />
+		<res id="10" text="&amp;Exportar resultados..." />
+		<res id="12" text="&amp;Imprimir..." />
+		<res id="13" text="Configurar imp&amp;resión..." />
+		<res id="14" text="Archivos recientes" />
+		<res id="15" text="S&amp;alir" />
+		<res id="16" text="&amp;Editar" />
+		<res id="17" text="&amp;Ajuste de línea" />
+		<res id="18" text="&amp;Establecer fuente..." />
+		<res id="19" text="Establecer &amp;color de resaltado..." />
+		<res id="20" text="&amp;Buscar" />
+		<res id="21" text="&amp;Buscar..." />
+		<res id="22" text="Buscar &amp;Siguiente" />
+		<res id="23" text="Buscar &amp;anterior" />
+		<res id="24" text="Resaltado &amp;original" />
+		<res id="25" text="Resaltado &amp;actual" />
+		<res id="26" text="Seleccionar to&amp;do" />
+		<res id="27" text="&amp;Abrir" />
+		<res id="28" text="&amp;Explorar..." />
+		<res id="29" text="Copiar &amp;ruta" />
+		<res id="30" text="&amp;Copiar" />
+		<res id="31" text="Cor&amp;tar" />
+		<res id="32" text="&amp;Borrar" />
+		<res id="33" text="Renom&amp;brar" />
+		<res id="34" text="&amp;Propiedades..." />
+		<res id="35" text="&amp;Vista" />
+		<res id="36" text="&amp;Favoritos" />
+		<res id="37" text="&amp;Barra de herramientas" />
+		<res id="38" text="&amp;Barra de estado" />
+		<res id="39" text="&amp;Reporte de error" />
+		<res id="40" text="Or&amp;ganizar por" />
+		<res id="41" text="&amp;Nombre de archivo" />
+		<res id="42" text="&amp;Localización" />
+		<res id="43" text="&amp;Tamaño" />
+		<res id="44" text="&amp;Tipo" />
+		<res id="45" text="&amp;Fecha" />
+		<res id="46" text="Vista previa de te&amp;xto" />
+		<res id="47" text="&amp;Archivo anterior" />
+		<res id="48" text="&amp;Siguiente" />
+		<res id="49" text="&amp;Vista previa" />
+		<res id="50" text="&amp;Íconos muy grandes" />
+		<res id="51" text="&amp;Íconos grandes" />
+		<res id="52" text="&amp;Íconos medianos" />
+		<res id="53" text="&amp;Íconos pequeños" />
+		<res id="54" text="&amp;Regresar a la vista principal" />
+		<res id="55" text="&amp;Atrás" />
+		<res id="56" text="Adelante" />
+		<res id="57" text="&amp;Buscar" />
+		<res id="58" text="&amp;Iniciar" />
+		<res id="59" text="&amp;Pausa" />
+		<res id="60" text="A&amp;lto" />
+		<res id="61" text="&amp;Herramientas" />
+		<res id="62" text="&amp;Probador de expresiones regulares..." />
+		<res id="63" text="Limpiar historial de &amp;búsquedas..." />
+		<res id="64" text="&amp;Configuración del editor..." />
+		<res id="65" text="&amp;Configuración..." />
+		<res id="66" text="Integración de S&amp;hell..." />
+		<res id="67" text="&amp;Ventana" />
+		<res id="68" text="Vista de &amp;contenido" />
+		<res id="69" text="Ventana a la &amp;derecha" />
+		<res id="70" text="Ventana &amp;inferior" />
+		<res id="71" text="Mostrar" />
+		<res id="72" text="&amp;Cascada" />
+		<res id="73" text="&amp;Cuadros" />
+		<res id="74" text="Organizar &amp;íconos" />
+		<res id="75" text="Mover &amp;foco" />
+		<res id="76" text="Cri&amp;terio de búsqueda" />
+		<res id="77" text="&amp;Lista de archivo" />
+		<res id="78" text="Vista de cont&amp;enidos" />
+		<res id="79" text="&amp;Pestaña actual" />
+		<res id="80" text="&amp;Resumen" />
+		<res id="81" text="&amp;Encontrados" />
+		<res id="82" text="&amp;Texto" />
+		<res id="83" text="Mini&amp;aturas" />
+		<res id="84" text="Favor&amp;itos" />
+		<res id="85" text="Reporte de &amp;error" />
+		<res id="86" text="Orden de &amp;pestañas" />
+		<res id="87" text="&amp;Optimizar" />
+		<res id="88" text="&amp;Tradicional de izquierda a derecha" />
+		<res id="89" text="&amp;Ayuda" />
+		<res id="90" text="&amp;Contenidos..." />
+		<res id="91" text="Parámetros de línea de &amp;comandos..." />
+		<res id="92" text="Verificar &amp;actualizaciones..." />
+		<res id="93" text="&amp;Acerca de %APP_NAME%..." />
+		<res id="94" text="Guardar búsque&amp;da..." />
+		<res id="95" text="Guardar &amp;espacio de trabajo..." />
+		<res id="96" text="Cerrar &amp;todo" />
+		<res id="97" text="Cerrar toda &amp;ventana de texto" />
+		<res id="98" text="Cerrar todo &amp;excepto búsqueda activa" />
+		<res id="99" text="Contactar a soporte &amp;Técnico..." />
+		<res id="100" text="&amp;Generar reporte de error..." />
+		<res id="101" text="&amp;Clave de registro..." />
+		<res id="102" text="Cerrar todo &amp;excepto búsqueda activa" />
+		<res id="103" text="&amp;Barra de menú" />
+		<res id="104" text="&amp;Reportes" />
+		<res id="105" text="&amp;Barra de filtros" />
+		<res id="106" text="&amp;Hilos de búsqueda" />
+		<res id="107" text="&amp;Hilos de búsqueda" />
+		<res id="108" text="&amp;Experto" />
+		<res id="109" text="&amp;Básico" />
+		<res id="110" text="&amp;Índice de búsqueda" />
+		<res id="111" text="&amp;Administrador de índices..." />
+		<res id="112" text="&amp;Criterios de búsqueda" />
+		<res id="113" text="&amp;Seleccionar columnas..." />
+		<res id="114" text="&amp;Cambiar tipo de licencia..." />
+		<res id="115" text="&amp;Actualizar..." />
+		<res id="116" text="&amp;Zoom" />
+		<res id="117" text="Zoom &amp;In" />
+		<res id="118" text="Zoom &amp;Out" />
+		<res id="119" text="&amp;Administrador de Licencia..." />
+	</menu>
+	<menu name="IDR_SHAREDMENU_LITE" id="170" copyid="149" />
+	<menu name="IDR_CONTENTSVIEWMENU" id="148">
+		<res id="1" text="Vista de contenido" />
+		<res id="2" text="Abrir en pestañana nueva" />
+		<res id="3" text="Abrir en nueva ventana..." />
+		<res id="4" text="Abrir en editor externo..." />
+		<res id="5" text="Abrir en Visual Studio..." />
+		<res id="6" text="Exportar resultados..." />
+		<res id="7" text="Ajuste de línea" />
+		<res id="8" text="Copiar" />
+		<res id="9" text="Expandir todo" />
+		<res id="10" text="Colapsar todo" />
+		<res id="11" text="Ventana a la derecha" />
+		<res id="12" text="Ventana inferior" />
+		<res id="13" text="Ocultar vista de contenido" />
+	</menu>
+	<menu name="IDR_MENU_PLACEHOLDER" id="186">
+		<res id="1" text="Blanco" />
+	</menu>
+	<menu name="IDR_FAVOURITES_MENU" id="194">
+		<res id="1" text="Menú buscar" />
+		<res id="2" text="Abrir" />
+		<res id="3" text="Abrir en nueva ventana" />
+		<res id="4" text="Editar" />
+		<res id="5" text="Borrar" />
+	</menu>
+	<menu name="IDR_FILELOTYPE" id="114">
+		<res id="1" text="Muestra" />
+	</menu>
+	<menu name="IDR_FILEVIEWER" id="107">
+		<res id="1" text="Muestra" />
+	</menu>
+	<menu name="IDR_FILTERMENU" id="200">
+		<res id="1" text="Filtro" />
+		<res id="2" text="Filtro de búsqueda ON" />
+		<res id="3" text="Filtro de búsqueda OFF" />
+		<res id="4" text="Configuración..." />
+	</menu>
+	<menu name="IDR_FILEVIEWER_CONTEXTMENU" id="3522">
+		<res id="1" text="Vista de contenido" />
+		<res id="2" text="&amp;Ajuste de línea" />
+		<res id="3" text="Copiar" />
+		<res id="4" text="Abrir en nueva ventana..." />
+		<res id="5" text="Abrir en editor externo..." />
+		<res id="6" text="Abrir en Visual Studio..." />
+		<res id="7" text="Buscar" />
+		<res id="8" text="Búsqueda siguiente" />
+		<res id="9" text="Búsqueda anterior" />
+		<res id="10" text="Resaltado original" />
+		<res id="11" text="Resaltado actual" />
+		<res id="12" text="Establecer fuente..." />
+		<res id="13" text="Archivo" />
+		<res id="14" text="Buscar de nuevo" />
+		<res id="15" text="Nueva búsqueda" />
+	</menu>
+	<menu name="IDR_REPORTVIEW_CONTEXTMENU" id="3526">
+		<res id="1" text="Reportes" />
+		<res id="2" text="Copiar" />
+		<res id="3" text="Seleccionar todo" />
+		<res id="4" text="Actualizar" />
+	</menu>
+	<menu name="IDR_IMAGESIZES_MENU" id="3507">
+		<res id="1" text="Tamaño" />
+		<res id="2" text="Íconos muy grandes" />
+		<res id="3" text="Íconos grandes" />
+		<res id="4" text="Íconos medianos" />
+		<res id="5" text="Íconos pequeños" />
+		<res id="6" text="Vista previa" />
+	</menu>
+	<menu name="IDR_SEARCHTASKS_CONTEXTMENU" id="3547">
+		<res id="1" text="Cancelar" />
+		<res id="2" text="Copiar ruta" />
+		<res id="3" text="Explorar aqui..." />
+	</menu>
+	<menu name="IDR_LISTHEADER_CONTEXTMENU" id="3548">
+		<res id="1" text="Encabezado" />
+		<res id="2" text="Seleccionar columnas..." />
+	</menu>
+	<string id="4" type="Administrador de índices">
+		<res id="1" text="Agregar nuevo o índice existente\nAgregar índice" />
+		<res id="2" text="Quitar índice o eliminar permanentemente\nQuitar o eliminar índice" />
+		<res id="3" text="Editar parámetros de indexado\nEditar índice" />
+		<res id="4" text="Actualizar índice con cambios realizados\nActualizar índice" />
+		<res id="5" text="Volver a crear todo el índice\nRehacer índice" />
+		<res id="6" text="Cancelar proceso de indexado\nCancelar" />
+		<res id="7" text="Refresh the list\nRefresh List" />
+		<res id="8" text="Agregar un nuevo Horario\nAgregar Horario" />
+		<res id="9" text="Editar el Horario\nEditar Horario" />
+		<res id="10" text="Borrar el Horario\nBorrar Horario" />
+		<res id="11" text="Editar los índices asociados al horario\nEditar Lista de Índices" />
+	</string>
+	<string id="3" type="Visor interno">
+		<res id="37" text="Guardar archivo actual\nGuardar archivo" />
+	</string>
+	<string id="1" type="Recurso">
+		<res id="1" text="Listo" />
+		<res id="2" text="Navegar al archivo de sonido" />
+		<res id="3" text="Reproducir archivo de sonido" />
+		<res id="4" refid="3" />
+		<res id="5" text="Navegar a la carpeta" />
+		<res id="6" text="Ruta del archivo de sonido" />
+		<res id="7" refid="2" />
+		<res id="8" refid="6" />
+		<res id="9" refid="5" />
+		<res id="10" refid="5" />
+		<res id="11" refid="5" />
+		<res id="12" refid="5" />
+		<res id="13" text="Abrir carpeta en el explorador" />
+		<res id="14" refid="13" />
+		<res id="15" text="Configuración" />
+		<res id="16" text="Visor de contenido" />
+		<res id="18" text="Búsqueda de carpetas" />
+		<res id="20" text="Extensiones" />
+		<res id="21" text="%APP_NAME%" />
+		<res id="22" text="SDI_ONLY\nBuscar\nNueva búsqueda\nCriterios de búsqueda (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\n%APP_NAME% Search Criteria" />
+		<res id="23" text="Uno o más de los archivos seleccionados son archivos compuestos y no se borrarán. ¿Desea continuar?" />
+		<res id="24" text="La clave de registro ha expirado. Debe de adquirir una nueva clave de registro o instalar una versión anterior del programa. Las versiones anteriores del programa están disponibles en la sección Mi cuenta del sisio web (www.mythicsoft.com)." />
+		<res id="25" text="Cambiar a una búsqueda anterior detendrá la búsqueda actual. ¿Desea continuar?" />
+		<res id="26" text="FileLocatorPro" />
+		<res id="27" refid="1" />
+		<res id="34" text="Crear nueva búsqueda basada en la última búsqueda\nNueva búsqueda basada en la última búsqueda" />
+		<res id="35" text="Abrir archivo de criterios de búsqueda\nAbrir" />
+		<res id="36" text="Cerrar la búsqueda activa\nCerrar" />
+		<res id="37" text="Guardar criterios de la búsqueda actual\nGuardar criterios" />
+		<res id="38" text="Guardar criterios de la búsqueda actual con nuevo nombre\nGuardar como" />
+		<res id="39" text="Cambiar las opciones de impresión\nConfigurar página" />
+		<res id="40" text="Cambiar la impresora y las opciones de impresión\nConfigurar impresión" />
+		<res id="41" text="Imprimir resultados seleccionados de la búsqueda\nImprimir" />
+		<res id="42" text="Mostrar página completa\nVista previa de impresión" />
+		<res id="43" text="Mostrar información del programa, número de versión y derechos de autor\nAcerca de" />
+		<res id="44" text="Cerrar el programa\nSalir" />
+		<res id="45" text="Abrir esta búsqueda" />
+		<res id="46" refid="45" />
+		<res id="47" refid="45" />
+		<res id="48" refid="45" />
+		<res id="49" refid="45" />
+		<res id="50" refid="45" />
+		<res id="51" refid="45" />
+		<res id="52" refid="45" />
+		<res id="53" refid="45" />
+		<res id="54" refid="45" />
+		<res id="55" refid="45" />
+		<res id="56" refid="45" />
+		<res id="57" refid="45" />
+		<res id="58" refid="45" />
+		<res id="59" refid="45" />
+		<res id="60" refid="45" />
+		<res id="61" text="Cambiar a la siguiente ventana\nSiguiente ventana" />
+		<res id="62" text="Cambiar a la ventana anterior\nVentana anterior" />
+		<res id="63" text="Abrir otra ventana para el documento activo\nNueva ventana" />
+		<res id="64" text="Organizar íconos en la parte inferior de la ventana\nOrganizar íconos" />
+		<res id="65" text="Organizar las ventanas para que se superpongan\nVentanas en cascada" />
+		<res id="66" text="Organizar las ventanas como recuadros para que no se superpongan\nRecuadros" />
+		<res id="67" refid="66" />
+		<res id="68" text="Dividir la ventana actual en paneles\nDividir" />
+		<res id="69" text="Borrar la selección\nBorrar" />
+		<res id="70" text="Borrar todo\nBorrar todo" />
+		<res id="71" text="Copiar la selección actual al portapapeles\nCopiar" />
+		<res id="72" text="Cortar la selección al portapapeles\nCortar" />
+		<res id="73" text="Buscar el texto específico\nBuscar" />
+		<res id="74" text="Insertar el contenido del portapapeles\nPegar" />
+		<res id="75" text="Repetir la última acción\nRepetir" />
+		<res id="76" text="Reemplazar el texto específico con un texto diferente\nReemplazar" />
+		<res id="77" text="Seleccionar todo el documento\nSeleccionar todo" />
+		<res id="78" text="Deshacer la última acción\nDeshacer" />
+		<res id="79" text="Rehacer la última acción\nRehacer" />
+		<res id="80" text="Mostrar u ocultar la barra de herramientas\nMostrar/Ocultar barra de herramientas" />
+		<res id="81" text="Mostrar u ocultar la barra de estado\nMostrar/Ocultar barra de estado" />
+		<res id="82" text="Cambiar tamaño de la ventana" />
+		<res id="83" text="cambiar la posición de la ventana" />
+		<res id="84" text="Reducir la ventana a un ícono" />
+		<res id="85" text="Agrandar la ventana a tamaño completo" />
+		<res id="86" text="Cambiar a la siguiente ventana del documento" />
+		<res id="87" text="Cambiar a la ventana anterior del documento" />
+		<res id="88" text="Cerrar la ventana activa y preguntar su se guarda el documento" />
+		<res id="89" text="Restaurar la ventana a su tamaño normal" />
+		<res id="90" text="Activar lista de tareas" />
+		<res id="91" text="Activar esta ventana" />
+		<res id="92" text="Cerrar vista previa de impresión\nCancelar vista previa" />
+		<res id="93" text="Este panel muestra losarchivos selecionados de la lista de archivos. Si está buscando por contenido este panel muestra también las líneas encontradas dentro de los archivos selecionados. Para las opciones disponibles use el boton derecho del mouse para abrir el menú contextual." />
+		<res id="94" text="%s no es un directorio de búsqueda válido. El nombre del directorio debe tener una ruta válida, incluyendo la letra de unidad (ej. C:\Windows) O escribir un nombre UNC correctamente (ej. \\WORKSTATION\Shared_Folder)." />
+		<res id="95" text="\nBuscar\nBuscar\nArchivo de búsqueda (*.sea)\n.sea\nBuscar.Documento\nBuscar documento" />
+		<res id="96" text="Copiar las rutas de acceso al archivo seleccionado al portapapeles\nCopiar ruta de archivo" />
+		<res id="97" text="Abrir el diálogo de propiedades para el archivo seleccionado\nAbrir propiedades" />
+		<res id="98" text="Abrir el archivo seleccionado\nAbrir archivo" />
+		<res id="99" text="Motor de prueba de expresiones regulares" />
+		<res id="100" text="Cambiar el ajuste de línea a ON/OFF al visualizar el contenido\nAjuste de línea" />
+		<res id="101" text="Establecer la fuente para ver el contenido\nEstablecer fuente" />
+		<res id="102" text="Iniciar la búsqueda\nIniciar" />
+		<res id="103" text="detener la búsqueda\nAlto" />
+		<res id="104" text="Abrir ayuda de %APP_NAME%\nAyuda" />
+		<res id="105" text="Seleccionar todos los archivos en la lista de archivos\nSeleccionar todo" />
+		<res id="106" text="Exportar resultados de búsqueda\nExportar resultados" />
+		<res id="107" text="Borrar selección actual\nBorrar" />
+		<res id="108" text="Limpiar la lista de historial de artículos\nLimpiar historial" />
+		<res id="109" text="Modificar la configuración de búsqueda\nConfiguración" />
+		<res id="110" text="La memoria del sistema se agoto durante la búsqueda. Pruebe la búsqueda nuevamente con la opción 'Búsqueda de una fase'. Si el problema persiste póngase en contacto con soporte técnico." />
+		<res id="111" text="Se encontró un error inesperado en el sistema durante la búsqueda. Si el problema persiste póngase en contacto con soporte técnico." />
+		<res id="112" text="Listo" />
+		<res id="113" text="Reiniciar la búsqueda para ver los efectos de la nueva configuración." />
+		<res id="114" text="Buscar en subcarpetas" />
+		<res id="115" text="Navegar a una carpeta simple" />
+		<res id="116" text="Abrir calendario" />
+		<res id="117" text="Abrir calendario" />
+		<res id="118" text="Navegar por múltiples carpetas" />
+		<res id="119" text="FILE_VIEWER\nVer\nVer\n\n\nFileLocator.Visor de archivo\nAVisor de archivos de File Locator" />
+		<res id="120" text="Mostrar/Ocultar la lista de favoritos\nFavoritos" />
+		<res id="121" text="Cambiar la configuración del editor\nConfigurar el editor" />
+		<res id="122" text="Abrir en el explorador la ruta del archivo seleccionado\nAbrir explorador" />
+		<res id="123" text="Modificar la integración con el sistema\nConfiguracion del sistema" />
+		<res id="124" text="Abrir diálogo de múltiples extensiones" />
+		<res id="125" text="Ir a los resultados de la búsqueda anterior\nResultados anteriores" />
+		<res id="126" text="Ir a los resultados de la siguiente búsqueda\nSiguientes resultados" />
+		<res id="127" text="Renombrar selección actual\nRenombrar" />
+		<res id="128" text="Ir a los resultados de la búsqueda anterior\nResultados anteriores" />
+		<res id="129" text="Ir a los resultados de la siguiente búsqueda\nSiguientes resultados" />
+		<res id="130" text="Tamaño mayor que" />
+		<res id="131" text="Tamaño menor que" />
+		<res id="132" text="Más información acerca del tipo de expresión ejegida" />
+		<res id="133" text="Tipo de expresión" />
+		<res id="134" refid="133" />
+		<res id="135" refid="133" />
+		<res id="136" text="Especificar si el contenido corresponde a línea por línea o a todo el archivo" />
+		<res id="137" text="Especificar si el nombre de la expresión es una expresión NOT" />
+		<res id="138" text="Mostrar u ocultar el panel de vista de contenido\nMostrar/Ocultar vista de contenido" />
+		<res id="139" text="Pausar la búsqueda\nPausar" />
+		<res id="140" text="Crear nueva búsqueda con la configuración predeterminada\nNueva búsqueda en blanco" />
+		<res id="141" text="Crear nueva búsqueda basada en los criterior de búsqueda actual\nNueva búsqueda con criterios actuales" />
+		<res id="142" text="Buscar texto dentro del archivo\nBuscar..." />
+		<res id="143" text="Ir a la siguiente línea resaltada del texto encontrado\nAvanzar" />
+		<res id="144" text="Ir a la línea anterior resaltada del texto encontrado\nRetroceder" />
+		<res id="145" text="Alternar el resaltado de la búsqueda actual\nAlternar resaltado" />
+		<res id="146" text="Resultado anterior" />
+		<res id="147" text="Siguiente resultado" />
+		<res id="148" text="Archivo anterior" />
+		<res id="149" text="Siguiente archivo" />
+		<res id="150" text="Editar la selección actual de favoritos\nEditar favoritos" />
+		<res id="151" text="Borrar la seccion actual de favoritos\nBorrar favoritos" />
+		<res id="152" text="Regresar a la vista principal de la selección\nRegresar a la vista principal" />
+		<res id="153" text="Filtros de búsqueda" />
+		<res id="154" text="Buscar esta palabra" />
+		<res id="155" text="Agregar búsqueda actual como nuevo favorito\nAgregar favorito" />
+		<res id="156" text="Actualizar lista de favoritos\nActualziar" />
+		<res id="166" text="Buscar" />
+		<res id="169" text="Presentacion de biblioteca" />
+		<res id="170" text="Secuencia de comandos" />
+		<res id="172" text="Buscar" />
+		<res id="175" text="Archivo" />
+		<res id="177" text="Buscar contenido" />
+		<res id="201" text="Debe de establecer el nombre del archivo como 'Expresión regular' en la pestaña de opciones antes de especificar el combre del archivo como una expresión regular." />
+		<res id="202" text="Para la vista del contenido seleccione uno o más archivos del panel a la derecha.\n\nNota: Para imprimir este panel presione la opción Imprimir del menú Archivo." />
+		<res id="204" text="Debe de establecer el contenido como 'Expresión regular' en la pestaña opciones antes de especificar si el contenido tiene alguna expresión regular." />
+		<res id="205" text="El asistente de expresiones no proporciona toda la funcionalidad de las expresiones regulares pero si sabe como construirlas puede especificar cualquier expresión regular. Solo debe de agregar la expresión regular como de tipo 'Frase' en la lista 'Seguir por' para pasar a la siguiente página del asistente (que se activa al ingresar caracteres especiales)." />
+		<res id="206" text="Establecer el color de resaltado del texto encontrado\nEstablecer color" />
+		<res id="207" text="Guardar el contenido visualizado\nGuardar contenido visto" />
+		<res id="208" text="Alternar a Fase uno de búsqueda para eficientar la búsqueda de contenido en unidades grandes (sinmedidor de progreso)\nAlternar a Fase uno de búsqueda (para unidades grandes)" />
+		<res id="209" text="Acoplar la vista de contenido debajo de la lista de archivos\nAcoplar abajo" />
+		<res id="210" text="Acoplar la vista de contenido a la derecha de la lista de archivos\nAcoplar a la derecha" />
+		<res id="211" text="Mostrar diálogo de ayuda para parámetros de línea de comandos\nParámetros de línea de comandos" />
+		<res id="212" text="Más información sobre el tipo de expresión elegida" />
+		<res id="213" text="Buscar en la lista de resultados actual\nBuscar en la lista de resultados actual" />
+		<res id="214" text="Mostrar/Ocultar panel de vista de contenido\nAlternar vista de contenido" />
+		<res id="215" text="Buscar en los archivos seleccionados\nBuscar en los archivos seleccionados" />
+		<res id="216" text="Alternar el resaltado original de búsqueda\nAlternar resaltado" />
+		<res id="217" text="Abrir la carpeta de guardado de favoritos\nAbrir carpeta de favoritos" />
+		<res id="218" text="Cerrar todas las ventanas/Pestañas\nCerrar todo" />
+		<res id="219" text="Cerrar todas las ventanas/Pestañas excepto la búsqueda actual\nCerrar todo excepto búsqueda actual" />
+		<res id="220" text="Cerrar ventana de archivos abiertos\nCerrar todos los archivos" />
+		<res id="221" text="Guardar la sesión de búsqueda actual\nGuardar sesión de búsqueda" />
+		<res id="222" text="Guardar todas las sesiones de búsqueda del espacio de trabajo\nGuardar espacio de trabajo" />
+		<res id="224" text="Actualizar reporte\nActualizar" />
+		<res id="225" text="Copiar reporte al portapapeles\nCopiar" />
+		<res id="226" text="Guadar el reporte en archivo\nGuardar reporte" />
+		<res id="227" text="Imprimir reporte\nImprimir vista previa" />
+		<res id="228" text="Modificar los campos y el diseño del informe\nOpciones de reporte" />
+		<res id="229" text="Mostrar/Ocultar la barra de menú\nAlternar barra de menú" />
+		<res id="230" text="Resaltar resultados de búsquedas primarias" />
+		<res id="231" text="Resaltar resultados de búsquedas secundarias" />
+		<res id="232" text="Copiar lista al portapapeles" />
+		<res id="233" text="Cargar lista desde archivo" />
+		<res id="234" text="Guardar lista a archivo" />
+		<res id="235" text="Limpiar lista" />
+		<res id="236" text="Copiar lista de errores al portapapeles\nCopiar al portapapeles" />
+		<res id="237" text="Guardar lista de errores a archivo\nGuardar errores" />
+		<res id="238" refid="13" />
+		<res id="239" refid="13" />
+		<res id="240" refid="5" />
+		<res id="241" text="Editar configuración de índice" />
+		<res id="242" text="Buscar índice" />
+		<res id="243" text="Actualice a las características Pro\nActualizar" />
+		<res id="244" text="Dar un golpe de zoom" t="g" />
+		<res id="245" text="Alejar" t="g" />
+		<res id="246" text="Tipo de criterio de búsqueda" t="g" />
+		<res id="247" text="Iniciar búsqueda" t="g" />
+		<res id="248" text="Detener la búsqueda" t="g" />
+		<res id="249" text="Fecha mayor a" t="g" />
+		<res id="250" text="Fecha menor a" t="g" />
+	</string>
+	<string id="2" type="Texto">
+		<res id="1" text="¿Qué carpeta seleccionará?" />
+		<res id="2" text="Directorio inválido" />
+		<res id="3" text="&lt; 1 seg" />
+		<res id="4" text="Copiando al portapapeles" />
+		<res id="5" text="Unidades de disco local" />
+		<res id="6" text="Booleano" />
+		<res id="7" text="Texto plano" />
+		<res id="8" text="Expresión regular" />
+		<res id="9" text="Comodines" />
+		<res id="10" text="Hash de archivo" />
+		<res id="11" text="Booleano RegEx" />
+		<res id="12" text="Palabra completa" />
+		<res id="13" text="Expresión" />
+		<res id="14" text="(tipo de expresión inválida)" />
+		<res id="15" text="Alto" />
+		<res id="16" text="Normal (predeterminado)" />
+		<res id="17" text="bajo" />
+		<res id="18" text="Estándar (predeterminado)" />
+		<res id="19" text="Estándar" />
+		<res id="20" text="Oscuro" />
+		<res id="21" text="Azul" />
+		<res id="22" text="Clásico" />
+		<res id="23" text="Plata" />
+		<res id="24" text="Superior" />
+		<res id="25" text="ASCII" />
+		<res id="26" text="Unicode" />
+		<res id="27" text="Unicode (Big Endian)" />
+		<res id="28" text="UTF8 (No BOM)" />
+		<res id="29" text="Texto" />
+		<res id="30" text="Separado por comas (CSV)" />
+		<res id="31" text="Separado por tabulación" />
+		<res id="32" text="No se puede abrir la lista de archivos: " />
+		<res id="34" text="Carpeta de archivos" />
+		<res id="35" text="ON" />
+		<res id="36" text="OFF" />
+		<res id="37" text="Excluir carpetas de metadatos SVN/HG/GIT/CVS" />
+		<res id="38" text="Excluir carpeta de archivo de programas" />
+		<res id="39" text="!$(ProgramFiles)" />
+		<res id="40" text="Excluir archivos del sistema" />
+		<res id="41" text="!$(WindowsFolder)" />
+		<res id="42" text="Excluir Papelera de reciclaje" />
+		<res id="43" text="Borrando historial" />
+		<res id="44" text="Avanzado" />
+		<res id="45" text="Lista de archivos" />
+		<res id="46" text="Carpetas" />
+		<res id="47" text="Puntos de unión" />
+		<res id="48" text="Temas/Prioridad" />
+		<res id="49" text="Procesador XSLT" />
+		<res id="50" text="Editor" />
+		<res id="51" text="Editor predeterminado" />
+		<res id="52" text="Editor externo" />
+		<res id="53" text="Visor interno" />
+		<res id="54" text="No se puede crear analizador XSL usando el ID del programa especificado." />
+		<res id="55" text="Ejecutables (*.exe)|*.exe|Todos los archivos (*.*)|*.*||" />
+		<res id="56" text="Se produjo un error al intentar abrir el explorador de archivos. Verifique que el nombre del archivo sea válido antes de intentar abrirlo." />
+		<res id="57" text="Esto reestablecerá todos los ajustes de la extensión a su estado original de instalación. ¿Desea continuar?" />
+		<res id="58" text="Reestableciendo extensiones" />
+		<res id="59" text="Especifique que sonido se reproducirá al encontrar un archivo" />
+		<res id="60" text="Especifique que sonido se reproducirá al finalizar la búsqueda" />
+		<res id="61" text="No se puede reproducir el sonido. El sonido puede estar dañado o estar en un formato inválido (solo *.wav)" />
+		<res id="62" text="Especifique que sonido se reproducirá." />
+		<res id="63" text="Archivos de sonido (*.wav)|*.wav|Todos los archivos (*.*)|*.*||" />
+		<res id="64" text="No se puede ubicar el archivo de sonido." />
+		<res id="65" text="Tipo" />
+		<res id="66" text="Estado" />
+		<res id="67" text="IFiltros asociados" />
+		<res id="68" text="%APP_NAME% está configurado para funcionar desde un dispositivo USB. La integración Shell no se puede establecer." />
+		<res id="69" text="Expresiones" />
+		<res id="70" text="Expresiones booleanas" />
+		<res id="71" text="Comodines" />
+		<res id="72" text="Expresiones regulares" />
+		<res id="73" text="Hash de archivo" />
+		<res id="74" text="Formato predeterminado UTF-8" />
+		<res id="75" text="Extensiones" />
+		<res id="76" text="General" />
+		<res id="77" text="Historial" />
+		<res id="78" text="Ver" />
+		<res id="79" text="Proceso de caracteres" />
+		<res id="80" text="Integración Shell" />
+		<res id="81" text="Sonidos/Alertas" />
+		<res id="82" text="Interfaz de usuario" />
+		<res id="83" text="Aplicando información de configuración" />
+		<res id="84" text="Esto reestablecerá todos los ajustes de configuración a los valores predeterminados de instalación. ¿Desea continuar?" />
+		<res id="85" text="Reestableciendo configuración" />
+		<res id="86" text="Descripción" />
+		<res id="87" text="Valor de filtro" />
+		<res id="88" text="Recuperando datos de archivo..." />
+		<res id="89" text="Licencia de usuario simple" />
+		<res id="90" text="Licencia de organización multisitio (hasta %s usuarios)" />
+		<res id="91" text="Licencia de organización multisitio (usuarios ilimitados)" />
+		<res id="92" text="Licencia multiusuario: %s licencias" />
+		<res id="93" text="Clave de registro: \r\n%s" />
+		<res id="94" text="Soporte/Actualizaciones gratis hasta: %s\r\n" />
+		<res id="95" text="La licencia de prueba ha caducado. Debe de registrarse para continuar usando legalmente este programa." />
+		<res id="96" text="Licencia de prueba. Días restantes: %d." />
+		<res id="97" text="Coincidir MAY/min" />
+		<res id="98" text="Filtros de búsqueda persistentes " />
+		<res id="99" text="Tamaño (byte)" />
+		<res id="100" text="Tamaño (kB)" />
+		<res id="101" text="Tamaño (MB)" />
+		<res id="102" text="Tamaño (GB)" />
+		<res id="103" text="Terminado" />
+		<res id="104" text="NUEVA VERSIÓN DISPONIBLE" />
+		<res id="105" text="No se encontraron actualizaciones." />
+		<res id="106" text="Nueva búsqueda" />
+		<res id="107" text="Mostrar" />
+		<res id="108" text="No se puede abrir el archivo de criterios" />
+		<res id="109" text="La búsqueda de línea de comando no tuvo éxito." />
+		<res id="110" text="archivo encontrado" />
+		<res id="111" text=" no es un formato de fecha/hora válido." />
+		<res id="112" text="Ningún archivo seleccionado." />
+		<res id="113" text="Estadísticas de búsqueda" />
+		<res id="114" text="Resumen" />
+		<res id="115" text="Miniaturas" />
+		<res id="116" text="Errores" />
+		<res id="117" text="Modificado" />
+		<res id="118" text="Creado" />
+		<res id="119" text="Último acceso" />
+		<res id="120" text="Ahora" />
+		<res id="121" text="Inicio de minuto" />
+		<res id="122" text="Inicio de hora" />
+		<res id="123" text="Inicio del día" />
+		<res id="124" text="Fin de minuto" />
+		<res id="125" text="Fin de hora" />
+		<res id="126" text="Fin del día" />
+		<res id="133" text="%s no es un formato válido de hora" />
+		<res id="134" text="Tipo de expresión inesperada" />
+		<res id="135" text="No lo sé" />
+		<res id="136" text="Cualquier caracter" />
+		<res id="137" text="El caracter" />
+		<res id="138" text="Cualquiera de estos caracteres" />
+		<res id="139" text="Cualquier caracter excepto este" />
+		<res id="140" text="La frase" />
+		<res id="141" text="Espacio" />
+		<res id="142" text="Cualquier caracter numérico" />
+		<res id="143" text="Cualquier caracter de texto" />
+		<res id="144" text="Cero o una vez" />
+		<res id="145" text="Cero o varias veces" />
+		<res id="146" text="Solo una vez" />
+		<res id="147" text="Una o varias veces" />
+		<res id="148" text="Seguido de" />
+		<res id="149" text="Se produce" />
+		<res id="150" text="Asistente de expresiones de archivos" />
+		<res id="151" text="Editar favoritos" />
+		<res id="152" text="Guadar" />
+		<res id="153" text="Mostrando: %s de %s" />
+		<res id="154" text="Cargando..." />
+		<res id="155" text="Cargado: %s" />
+		<res id="156" text="Favorito desconocido" />
+		<res id="157" text="Error al preparar encontrar favoritos: " />
+		<res id="158" text="Leyendo favoritos" />
+		<res id="159" text="Borrando favoritos" />
+		<res id="160" text="Editando favoritos" />
+		<res id="161" text="Etiquetas" />
+		<res id="162" text="Buscar" />
+		<res id="163" text="Guardando favoritos" />
+		<res id="164" text="Abriendo carpeta de favoritos" />
+		<res id="165" text="No se pueden recuperar criterios de búsqueda. Falla al agregar." />
+		<res id="166" text="Abra o cree una búsqueda para poder agregarla a favoritos." />
+		<res id="167" text="El período de prueba ha expirado. Necesita comprar una licencia o cambiar al conjunto de funciones gratuitas." />
+		<res id="168" text="Modificando la configuración" />
+		<res id="169" text="La clave de registro ha sido borrada o no está disponible. Por favor contacte a support@mythicsoft.com para más información." />
+		<res id="170" text="No se puede cargar el archivo de configuración" />
+		<res id="171" text="No se puede cargar el archivo de configuración del historial" />
+		<res id="172" text="" />
+		<res id="173" text="No se puede abrir el archivo" />
+		<res id="174" text="Abriendo archivo" />
+		<res id="175" text="Falla al archivo el archivo en Visual Studio. Para más información revise el archivo de registro." />
+		<res id="176" text="Ningún editor externo especificado. ¿Desea especificar uno?" />
+		<res id="178" text="Error al iniciar el editor externo.\r\n\r\n%s" />
+		<res id="179" text="La búsqueda no se puede cargar" />
+		<res id="180" text="Contando un valor de línea de comandos '-%s' pero no se ha especificado ninguno" />
+		<res id="181" text="Valor de línea de comandos '-%s' no válido" />
+		<res id="182" text="Formato de fecha inválido: %s" />
+		<res id="183" text="Parámetro de línea de comandos desconocido: %s" />
+		<res id="184" text="Procesando" />
+		<res id="185" text="Iniciando búsqueda" />
+		<res id="186" text="** FALLA AL CARGAR **\r\n\r\nNo se puede cargar: %s\r\n\r\nVerifique que el archivo exista y que tenga los permisos de seguridad para leerlo.\r\n\r\nPóngase en contacto con soporte técnico si requiere de más ayuda e incluya el texto de error y los archivos de registro almacenados en la carpeta:\r\n%s\r\n\r\nMás información:\r\n%s\r\n" />
+		<res id="189" text="No se puede abrir el archivo." />
+		<res id="190" text="Detenido" />
+		<res id="191" text="Completado" />
+		<res id="192" text="Han ocurrido errores durante la búsqueda. El el problema persiste contacte al soporte técnico" />
+		<res id="193" text="Vista de contenido" />
+		<res id="194" text="cambiando selección" />
+		<res id="195" text="Guardando resultados de búsqueda" />
+		<res id="197" text="%s en " />
+		<res id="198" text="No se puede cargar el archivo de criterios. Verifique que se trata de un archivo de criterios válido y que no sea de una versión anterior de %APP_NAME%." />
+		<res id="199" text="Está por sobreescribir un favorito. ¿Desea continuar?" />
+		<res id="200" text="%s %s encontrado." />
+		<res id="201" text="Búsqueda finalizada - %s %s encontrado." />
+		<res id="202" text="Ver" />
+		<res id="203" text="Favoritos" />
+		<res id="204" text="Reporte de errores" />
+		<res id="205" text="Pausado" />
+		<res id="206" text="Fecha de búsqueda" />
+		<res id="208" text="Búsqueda actual" />
+		<res id="209" text="Búsqueda original" />
+		<res id="210" text="Mostrado" />
+		<res id="211" text="Encontrado" />
+		<res id="212" text="Mostrando" />
+		<res id="213" text="Seleccionado" />
+		<res id="215" text="artículo" />
+		<res id="216" text="Filtrando" />
+		<res id="218" text="%s MB" />
+		<res id="219" text="%s archivos encontrados" />
+		<res id="220" text="Una nueva versión de %APP_NAME% está disponible. ¿Desea ver los detalles?" />
+		<res id="221" text="¡Registrado! Muchas gracias por apoyar el desarrollo de este programa" />
+		<res id="222" text="La información de registro no es válida. Asegúrese de ingresar toda la información de registro tal como aparece en el correo de registro." />
+		<res id="225" text="Especifique un nombre de archivo válido para guardar los resultados." />
+		<res id="226" text="Especifique un archivo de transformacion válido." />
+		<res id="227" text="Resultados." />
+		<res id="228" text="Todos los archivos (*.*)|*.*||" />
+		<res id="229" text="El archivo de formato personalizado no es válido. Verifique que el archivo exista y que tenga los permisos de seguridad apropiados para abrir el archivo.\r\n\r\n" />
+		<res id="230" text="XSL (*.xsl)|*.xsl|Todos los archivos (*.*)|*.*||" />
+		<res id="231" text="No se puede abrir el cuadro de diálogo de selección de archivos: %d" />
+		<res id="232" text="Prueba satisfactoria." />
+		<res id="233" text="Buscando en" />
+		<res id="234" text="Verificados" />
+		<res id="235" text="Estado" />
+		<res id="236" text="No iniciado" />
+		<res id="237" text="Pausa" />
+		<res id="238" text="Resumen" />
+		<res id="240" text="%sMb de %sMb" />
+		<res id="242" text="Filtrado" />
+		<res id="243" text="Buscando" />
+		<res id="244" text="Iniciar" />
+		<res id="245" text="La expresión se encontró en el texto.\r\nIniciar expresión: %d\r\nLongitud de expresión: %d\r\nBuscar: %s" />
+		<res id="246" text="Lista de resultados vacía." />
+		<res id="247" text="La expresión NOT encontrada en el texto." />
+		<res id="248" text="El archivo de registro está dañado." />
+		<res id="249" text="No se encuentra la información de registro." />
+		<res id="250" text="La clave de registro ha expirado." />
+		<res id="251" text="Combinación de teclas de %APP_NAME%" />
+		<res id="256" text="El registro de la instalación no se inicia. Intente instalar el programa nuevamente. Si el problema persiste póngase en contacto con el soporte técnico de %APP_NAME%." />
+		<res id="258" text="Copiar" />
+		<res id="259" text="Copiar ruta" />
+		<res id="260" text="Cortar" />
+		<res id="261" text="Borrar" />
+		<res id="262" text="Explorar aqui..." />
+		<res id="263" text="Propiedades" />
+		<res id="264" text="Buscar en la selección" />
+		<res id="265" text="Buscar en la lista de resultados" />
+		<res id="266" text="Ver contenido de %s" />
+		<res id="267" text="Ocultar" />
+		<res id="268" text="\r\nEl directorio de búsqueda siguiente no es válido:\r\n\r\n" />
+		<res id="269" text="\r\nEl nombre del directorio debe tener una ruta de acceso válida e incluir la letra de la unidad (ej. C:\Windows) O escribir un nombre UNC correctamente (ej. \\WORKSTATION\Shared_Folder)." />
+		<res id="272" text="Cargando macros" />
+		<res id="273" text="Falla de análisis de script:\r\n" />
+		<res id="274" text="Hay problemas al crear el motor de script. " />
+		<res id="275" text="(Sin asunto)" />
+		<res id="276" text="(Desconocido)" />
+		<res id="277" text="Creado" />
+		<res id="278" text="Contacto" />
+		<res id="279" text="Localización" />
+		<res id="280" text="Fecha" />
+		<res id="281" text="De" />
+		<res id="282" text="Para" />
+		<res id="283" text="(vacío)" />
+		<res id="284" text="(La lista de destinatarios no se puede cargar - Contacte a soporte técnico para obtener más información)\r\n" />
+		<res id="285" text="Recibido por" />
+		<res id="286" text="Enviado" />
+		<res id="287" text="Asunto" />
+		<res id="288" text="\r\nError durante la construcción del mensaje: " />
+		<res id="289" text="" />
+		<res id="290" text="Atributo" />
+		<res id="291" text="Tamaño de archivo" />
+		<res id="292" text="Extensiones ignoradas" />
+		<res id="294" text="Error reportado pero sin detalles enviados." />
+		<res id="295" text="Falla al validar el contenido de script: " />
+		<res id="296" text="seg" />
+		<res id="297" text="hr" />
+		<res id="298" text="min" />
+		<res id="299" text="Hoy" />
+		<res id="300" text="Inicio de semana" />
+		<res id="301" text="Inicio de mes" />
+		<res id="302" text="Inicio de año" />
+		<res id="303" text="Fin de semana" />
+		<res id="304" text="Fin de mes" />
+		<res id="305" text="Fin de año" />
+		<res id="306" text="día" />
+		<res id="307" text="semana" />
+		<res id="308" text="mes" />
+		<res id="309" text="año" />
+		<res id="310" text="Recuperando archivos..." />
+		<res id="311" text="Creando nombre de script de validación: %s" />
+		<res id="312" text="Falla en la creacion de nombre de script de validación: " />
+		<res id="313" text="Si" />
+		<res id="314" text="No" />
+		<res id="315" text="Nombre de archivo de expresión" />
+		<res id="316" text="Nombre de archivo - Coincidir MAY/min" />
+		<res id="317" text="Buscar contenido" />
+		<res id="318" text="Texto contenido" />
+		<res id="319" text="Expresión de contenido" />
+		<res id="320" text="Contenido - Coincidir con el caso" />
+		<res id="321" text="Archivo de envergadura" />
+		<res id="322" text="Ver en" />
+		<res id="323" text="Subcarpetas" />
+		<res id="324" text="Ver en expresiones" />
+		<res id="325" text="Modificado después de" />
+		<res id="326" text="Modificado antes de" />
+		<res id="327" text="Último acceso después de" />
+		<res id="328" text="Último acceso antes de" />
+		<res id="329" text="Creado después de" />
+		<res id="330" text="Creado antes de" />
+		<res id="331" text="Mayor que" />
+		<res id="332" text="Menor que" />
+		<res id="333" text="Los scripts activos de búsqueda de contenido no usan expresiones booleanas que corresponden a la expresión dentro del archivo. cambie a 'Línea por línea' en la pestaña de opciones." />
+		<res id="334" text="Valor de búsqueda de contenido:" />
+		<res id="335" text="Filtro de nombre de archivo:" />
+		<res id="336" text="Tipo de script no especificado" />
+		<res id="337" text="El archivo Script no existe o no se puede abrir." />
+		<res id="338" text="Motor Script no especificado" />
+		<res id="339" text="Ruta de Script:" />
+		<res id="340" text="Motor:" />
+		<res id="341" text="Parámetro personal:" />
+		<res id="342" text="Archivo" />
+		<res id="343" text="Comprimido" />
+		<res id="344" text="Encriptado" />
+		<res id="345" text="Carpeta" />
+		<res id="346" text="Sin conexión" />
+		<res id="347" text="Solo lectura" />
+		<res id="348" text="Escaso" />
+		<res id="349" text="Sistema" />
+		<res id="350" text="Inicializando..." />
+		<res id="351" text="Completado." />
+		<res id="352" text="Extrayendo archivos..." />
+		<res id="353" text="%s no es una ruta válida del equipo." />
+		<res id="354" text="Uso inválido del operador NEAR. No se procederá con la búsqueda." />
+		<res id="355" text="Resultados de %APP_NAME%" />
+		<res id="356" text="Cancelando..." />
+		<res id="357" text="Cancelando acción..." />
+		<res id="358" text="Uno o más archivos seleccionados son archivos compuestos y no se borrarán. ¿Desea continuar?" />
+		<res id="359" text="La eliminación no se completó correctamente. Algunos archivos aún no se han eliminado." />
+		<res id="360" text="Ejecutando acción del menú" />
+		<res id="361" text="Aviso: Error en la operación de %d de los archivos procesados. Revise el archivo de registro para más detalles." />
+		<res id="362" text="Extrayendo datos del archivo" />
+		<res id="363" text="No se puede acceder a todos los elementos arrastrados y soltados" />
+		<res id="364" text="Generando archivo de datos" />
+		<res id="365" text="Ejecutando operación para la selección actual" />
+		<res id="366" text="Aviso: La operación (%s) ha fallado en %d de los archivos seleccionados. Revise el archivo de registro para más detalles." />
+		<res id="367" text="predeterminado" />
+		<res id="368" text="Ejecutando menú contextual" />
+		<res id="369" text="Página %d de %d" />
+		<res id="370" text="... líneas adicionales truncadas ..." />
+		<res id="371" text="Nombre" />
+		<res id="372" text="Localización" />
+		<res id="373" text="Modificado" />
+		<res id="374" text="Creado" />
+		<res id="375" text="Último acceso" />
+		<res id="376" text="Encontrados" />
+		<res id="377" text="Desconocido" />
+		<res id="378" text="Falla durante CFileListCtrl::loadList()" />
+		<res id="379" text="Creando marco del visor de archivo" />
+		<res id="380" text="La frase de búsqueda es inválida: \n%s" />
+		<res id="381" text="No se puede cargar el editor. Si el problema persiste contacte a soporte técnico" />
+		<res id="382" text="Archivo" />
+		<res id="383" text="Mensaje" />
+		<res id="384" text="Tamaño" />
+		<res id="385" text="Íconos pequeños" />
+		<res id="386" text="Íconos medianos" />
+		<res id="387" text="Íconos grandes" />
+		<res id="388" text="Íconos muy grandes" />
+		<res id="389" text="Preview" />
+		<res id="390" text="Mostrando reporte" />
+		<res id="391" text="¿Desea eliminar también todos los datos de usuario asociados con %APP_NAME%?" />
+		<res id="392" text="Borrar datos de usuario" />
+		<res id="393" text="Error de borrado" />
+		<res id="394" text="No se puede traducir el diálogo" />
+		<res id="395" text="¿Desea eliminar el favorito '%s'?" />
+		<res id="396" text="%s el script no es válido.\n\nInformación adicional:\n\n%s" />
+		<res id="397" text="¿Desea eliminar el filtro de búsqueda '%s'?" />
+		<res id="398" text="IFiltros" />
+		<res id="399" text="Abajo" />
+		<res id="400" regex="inicio" />
+		<res id="401" regex="hoy" />
+		<res id="402" regex="ahora" />
+		<res id="403" regex="sec.*" />
+		<res id="404" regex="mi.*" />
+		<res id="405" regex="me.*" />
+		<res id="406" regex="h.*" />
+		<res id="407" regex="d.*" />
+		<res id="408" regex="sem.*" />
+		<res id="409" regex="a.*" />
+		<res id="410" regex="\b(hoy)|(Inicio|Fin) *(?: +(?:de))* +(sem|me|a)[a-z]*" />
+		<res id="411" regex="\b(ahora)|(Inicio|Fin) *(?: +(?:de|del))* +(mi|h|día|día)[a-z]*" />
+		<res id="412" regex="([+-]) *([0-9]+) *(d|sem|me|a)[a-z]*" />
+		<res id="413" regex="([+-]) *([0-9]+) *(sec|mi|h)[a-z]*" />
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b" />
+		<res id="415" text="B" />
+		<res id="416" text="KB" />
+		<res id="417" text="MB" />
+		<res id="418" text="GB" />
+		<res id="420" text="AND" />
+		<res id="421" text="OR" />
+		<res id="422" text="NOT" />
+		<res id="423" text="NEAR" />
+		<res id="424" text="LIKE" />
+		<res id="425" text="REGEX" />
+		<res id="426" text="DOSEX" />
+		<res id="427" text="LINES" />
+		<res id="428" text="FILELIST" />
+		<res id="430" regex="AND" case="1" />
+		<res id="431" regex="OR" case="1" />
+		<res id="432" regex="NOT" case="1" />
+		<res id="433" regex="NEAR(:\d+)?" case="1" />
+		<res id="434" regex="LIKE" case="1" />
+		<res id="435" regex="REGEX(:\w*)?" case="1" />
+		<res id="436" regex="DOSEX" case="1" />
+		<res id="437" regex="LINES?:([^ ]*)?" case="1" />
+		<res id="438" regex="FILELIST" case="1" />
+		<res id="440" text="Idioma" />
+		<res id="441" text="No hay suficiente memoria para iniciar una nueva búsqueda. Cierre las búsquedas anteriores y/u otras aplicaciones e inténtelo nuevamente." />
+		<res id="442" text="Búsqueda parcial (para liberar memoria)." />
+		<res id="443" text="Dado que las expresiones regulares funcionan ligeramente diferente que las expresiones comodín, el resultado del Asistente de Expresiones puede visualizarse diferente a lo que normalmente esperaría. p. ej. La expresión comodín 'nombrearchivo.*' como una expresión regular es '^nombrearchivo\.*'." />
+		<res id="444" text="%APP_NAME% busca en una base de línea por línea a través de todo el archivo en busca de todas las líneas que coincidan con la expresión definida. La expresión le permite definir como debe iniciar la línea seguido de lo debe contener y luego la forma de como debe de terminar.  %APP_NAME% inicia el proceso de búsqueda y encuentra todas las líneas en los archivos que coincidan con la expresión." />
+		<res id="445" text="Nombre de archivo" />
+		<res id="446" text="Línea" />
+		<res id="447" text="Abrir" />
+		<res id="448" text="Adjuntos" />
+		<res id="449" text="Detenido (memoria insuficiente)" />
+		<res id="450" text="Texto contenido" />
+		<res id="451" text="artículos" />
+		<res id="452" text="días" />
+		<res id="453" text="semanas" />
+		<res id="454" text="meses" />
+		<res id="455" text="años" />
+		<res id="456" text="encontrado" />
+		<res id="457" text="encontrados" />
+		<res id="458" text="Separado por tabulador (hoja de cálculo)" />
+		<res id="459" text="Configurar: %s" />
+		<res id="460" text="Esta es la versión más reciente de %APP_NAME%." />
+		<res id="461" text="Ocurrió un error al buscar actualizaciones, revise el registro para más detalles." />
+		<res id="462" text="Guardando espacio de trabajo" />
+		<res id="463" text="Guardando sesión de búsqueda" />
+		<res id="464" text="Archivos de espacio de trabajo (*.flwx)|*.flwx" />
+		<res id="465" text="Archivos %APP_NAME% (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf" />
+		<res id="466" text="Criterios de búsqueda (*.srf)|*.srf" />
+		<res id="467" text="Todos los archivos (*.*)|*.*" />
+		<res id="468" text="Cargando espacio de trabajo" />
+		<res id="469" text="Cargando sesión de búsqueda" />
+		<res id="470" text="No se puede cargar el archivo" />
+		<res id="471" text="Archivos de sesión de búsqueda (*.flsx)|*.flsx" />
+		<res id="472" text="%s ya existe.\r\n\r\n¿Desea reemplazarlo?" />
+		<res id="473" text="No se encontró el paréntesis de apertura '(' correspondiente al paréntesis de cierre ')'. Use comillas para especificar un texto literal, ej. &quot;terminando)&quot;" />
+		<res id="474" text="No se encontró el paréntesis de cierre ')' correspondiente al paréntesis de apertura '('. Use comillas para especificar un texto literal, ej. &quot;(iniciando&quot; o &quot;Método(&quot;\r\n\r\nError de posición: %d\r\nTexto: %s" />
+		<res id="475" text="La palabra clave '%s' no puede ser compilada. Revise la documentación para el uso correcto de las palabras clave." />
+		<res id="476" text="El cambio de la ubicación de la memoria caché eliminará todo el texto existente en la memoria caché actual. ¿Desea continuar?" />
+		<res id="477" text="No se puede borrar la caché de base de datos. Verifique que no haya otras instancias del programa y vuelva a intentarlo." />
+		<res id="478" text="Reporte" />
+		<res id="479" text="Tabulado" />
+		<res id="480" text="Estándar" />
+		<res id="481" text="Lista de archivos" />
+		<res id="482" text="Contenido" />
+		<res id="483" text="Resumen de palabras clave" />
+		<res id="484" text="HTML" />
+		<res id="485" text="No se pudo crear un menú contextual para los archivos seleccionados en la Shell de Windows. ¿Desea continuar con un menú contextual restringido?" />
+		<res id="486" text="Preguntas" />
+		<res id="487" text="Error" />
+		<res id="488" text="Información" />
+		<res id="489" text="Administrador de memoria" />
+		<res id="490" text="Resumen" />
+		<res id="491" text="Por archivo" />
+		<res id="492" text="Todos los archivos" />
+		<res id="493" text="Solo archivos seleccionados" />
+		<res id="494" text="Todo" />
+		<res id="495" text="Seleccionado" />
+		<res id="496" text="CSV" />
+		<res id="497" text="Tab" />
+		<res id="498" text="Palabras clave por archivo" />
+		<res id="499" text="Extensión de archivo" />
+		<res id="500" text="Contador" />
+		<res id="501" text="Nombre de palabra clave" />
+		<res id="502" text="Resultados" />
+		<res id="503" text="Oculto" />
+		<res id="504" text="Antes" />
+		<res id="505" text="Despues" />
+		<res id="506" text="Criterios de búsqueda" />
+		<res id="507" text="El reporte %s solo es válido cuando se busca contenido dentro del archivo" />
+		<res id="508" text="Palabra clave encontrada" />
+		<res id="509" text="Error de guardado. Verifique que tiene los permisos apropiados para escribir en el archivo especificado y en la carpeta." />
+		<res id="510" text="Cancelando reporte..." />
+		<res id="511" text="El reporte no ha finalizado." />
+		<res id="512" text="Ocurrió un error durante la generación del informe." />
+		<res id="513" text="Generando reporte..." />
+		<res id="514" text="ID secuencial" />
+		<res id="515" text="ID Sec" />
+		<res id="516" text="ID secuencial (por archivo)" />
+		<res id="517" text="OD sec de archivo" />
+		<res id="518" text="Ruta completa del archivo" />
+		<res id="520" text="Solo carpetas" />
+		<res id="521" text="Solo archivos" />
+		<res id="522" text="Documentos" />
+		<res id="523" text="Música" />
+		<res id="524" text="Imágenes" />
+		<res id="525" text="Video" />
+		<res id="526" text="Licencia técnica: %s licencia(s)" />
+		<res id="527" text="Licencia de servidor: %s licencia(s)" />
+		<res id="528" text="Primario" />
+		<res id="529" text="Secondario" />
+		<res id="530" text="No.Línea" />
+		<res id="531" text="Número de línea" />
+		<res id="532" text="Filtro" />
+		<res id="533" text="Aplicar un filtro a los resultados de la búsqueda" />
+		<res id="534" text="Ningún archivo/carpeta encontrado que coincidan con el criterio de búsqueda" />
+		<res id="535" text="Ningún resultado coincide con la columna de filtros" />
+		<res id="536" text="Buscando" />
+		<res id="537" text="'%s' no es un tipo de expresión válida" />
+		<res id="538" text="Errores reportados" />
+		<res id="539" text="Error al ejecutar la tares" />
+		<res id="540" text="Ha ocurrido un error. Si el problema persiste contacte al soporte técnico." />
+		<res id="541" text="Información adicional" />
+		<res id="542" text="Título" />
+		<res id="543" text="Artista" />
+		<res id="544" text="Album" />
+		<res id="545" text="Comentarios" />
+		<res id="546" text="Género" />
+		<res id="547" text="Año" />
+		<res id="548" text="Pista" />
+		<res id="549" text="Longitud: %s segs" />
+		<res id="550" text="Tasa de Bits: %s Kbps" />
+		<res id="551" text="Frecuencia de muestro: %s Hz" />
+		<res id="552" text="Canales: %s" />
+		<res id="553" text="Anchura" />
+		<res id="554" text="Altura" />
+		<res id="555" text="Ejemplos" />
+		<res id="556" text="Documento" />
+		<res id="557" text="Imagen" />
+		<res id="558" text="Marca de equipo" />
+		<res id="559" text="Modelo de equipo" />
+		<res id="560" text="Página" />
+		<res id="561" text="Número de página" />
+		<res id="562" text="Software" />
+		<res id="563" text="Fecha" />
+		<res id="564" text="Artista" />
+		<res id="565" text="Equipo" />
+		<res id="566" text="Título" />
+		<res id="567" text="Retraso de cuadro: %s/100 s" />
+		<res id="568" text="Contador de lazo" />
+		<res id="569" text="Marca registrada" />
+		<res id="570" text="Exposición: %s s" />
+		<res id="571" text="Apertura: F%s" />
+		<res id="572" text="Programa de exposición" />
+		<res id="573" text="Normal" />
+		<res id="574" text="Manual" />
+		<res id="575" text="Prioridad de apertura" />
+		<res id="576" text="Prioridad del obturador" />
+		<res id="577" text="Creativa" />
+		<res id="578" text="Acción" />
+		<res id="579" text="Vertical" />
+		<res id="580" text="Horizontal" />
+		<res id="581" text="Velocidad ISO" />
+		<res id="582" text="Fecha original" />
+		<res id="583" text="Flash" />
+		<res id="584" text="Comentario" />
+		<res id="585" text="Tamaño" />
+		<res id="586" text="Bits por pixel" />
+		<res id="587" text="Canal Alfa" />
+		<res id="588" text="La búsqueda Solo carpetas limita la búsqueda a las carpetas, o sea, ningún archivo será revisado." />
+		<res id="589" text="La búsqueda Solo archivos limita la búsqueda a los archivos, o sea, ninguna carpeta será revisada." />
+		<res id="590" text="La búsqueda Documentos limita la búsqueda a los archivos de documentos convencionales." />
+		<res id="591" text="La búsqueda Música limita la búsqueda a los archivos de música convencionales." />
+		<res id="592" text="La búsqueda Imágenes limita la búsqueda a los archivos de imagen convencionales." />
+		<res id="593" text="La búsqueda Video limita la búsqueda a los archivos de video convencionales." />
+		<res id="600" text="Búsqueda pendiente" />
+		<res id="601" text="Error - La búsqueda no se puede iniciar" />
+		<res id="602" text="No cortar" />
+		<res id="603" text="Cortar a la mitad" />
+		<res id="604" text="Cortar al inicio" />
+		<res id="605" text="Cortar al final" />
+		<res id="606" text="Copiar los artículos encontrados a otro archivo o archivo ZIP." />
+		<res id="607" text="Guardar la sesión actual de búsqueda o espacio de trabajo completo en un archivo que después puede volver a usar para cargar los resultados de búsqueda en %APP_NAME%." />
+		<res id="608" text="Exportar los resultados de la búsqueda en un formato externo como Texto, CSV, HTML, XML etc." />
+		<res id="609" text="Iniciar copia" />
+		<res id="610" text="Exportar" />
+		<res id="611" text="Plano" />
+		<res id="612" text="Desde raíz" />
+		<res id="613" text="Desde primera carpeta común" />
+		<res id="614" text="Sobrescribir" />
+		<res id="615" text="Anexar con secuencia numérica" />
+		<res id="616" text="No copiar archivo" />
+		<res id="617" text="Copiar artículos individuales encontrados" />
+		<res id="618" text="Copiar padres de archivo" />
+		<res id="619" text="Copiar duplicados" />
+		<res id="620" text="Crear acceso directo a original" />
+		<res id="621" text="Registro de errores" />
+		<res id="622" text="Alto" />
+		<res id="623" text="Preguntar por acción" />
+		<res id="624" text="No se puede crear archivo" />
+		<res id="625" text="Copiando" />
+		<res id="626" text="Archivos fallidos" />
+		<res id="627" text="Copia fallida" />
+		<res id="628" text="Archivos copiados satisfactoriamente" />
+		<res id="629" text="Copia cancelada" />
+		<res id="630" text="ubicaciones" />
+		<res id="631" text="doble click para editar" />
+		<res id="632" text="Archivo de Texto (*.txt)|*.txt|Todos los archivo (*.*)|*.*||" />
+		<res id="633" text="¿Sobrescribir archivo actual?" />
+		<res id="634" text="Secuencia de comandos" />
+		<res id="635" text="Criterio de búsqueda excluído %s de artículos de la lista" />
+		<res id="636" text="Excluir archivos" />
+		<res id="637" text="Ubicación inválida" />
+		<res id="638" text="Reportar errores" />
+		<res id="639" text="La búsqueda en subcarpetas está apagado" />
+		<res id="640" text="Campo de texto contenido solo presenta espacios en blanco" />
+		<res id="641" text="Aviso" />
+		<res id="642" text="Avisos generados durante la búsqueda" />
+		<res id="643" text="Archivos Zip (*.zip)|*.zip|Todos los archivos (*.*)|*.*||" />
+		<res id="644" text="Campo de Nombre de archivo está encendido" />
+		<res id="645" text="Campo de Texto contenido está encendido" />
+		<res id="646" text="Cuerpo de mensaje" />
+		<res id="647" text="e-Mail" />
+		<res id="648" text="Página" />
+		<res id="649" text="Copia de reporte general" />
+		<res id="650" text="Guardando archivo" />
+		<res id="651" text="Licencia flotante: hasta %s usuarios simultáneos" />
+		<res id="652" text="%s archivo(s) no pueden buscarse" />
+		<res id="653" text="Clic para detalles" />
+		<res id="654" text="Severidad" />
+		<res id="655" text="Detalles" />
+		<res id="656" text="Mostrar inicio de ruta" />
+		<res id="657" text="Mostrar final de ruta" />
+		<res id="658" text="%s archivo(s) con reporte de búsqueda" />
+		<res id="659" text="Uso de nombre preestablecido" />
+		<res id="660" text="Datos GPS" />
+		<res id="661" text="Licencia de sitio. Máximo de usuarios: %s" />
+		<res id="662" text="Extrayendo" />
+		<res id="663" text="Ubicación" />
+		<res id="664" text="No se copian - archivos ya existen en el destino" />
+		<res id="665" text="Copia masiva" />
+		<res id="666" text="Exportación de resultados de la búsqueda" />
+		<res id="700" text="Multilíneas RegEx" />
+		<res id="701" text="Experto" />
+		<res id="702" text="Básico" />
+		<res id="703" text="Índice de búsqueda" />
+		<res id="704" text="&lt;Crear nuevo índice...&gt;" />
+		<res id="705" text="Ningún índice seleccionado. Seleccione un índice y vuelva a intentarlo." />
+		<res id="706" text="Índice inválido" />
+		<res id="707" text="Nuevo índice" />
+		<res id="708" text="Sincronizando carpeta con índice de nombres" />
+		<res id="709" text="Fecha" />
+		<res id="710" text="Analizando" />
+		<res id="711" text="Indexado: %s | Nombre solo: %s | Errores: %s | Inválidos: %s | Removidos: %s | Sin cambio: %s" />
+		<res id="712" text="Iniciando proceso de indexado" />
+		<res id="713" text="Detalles de índice" />
+		<res id="714" text="Lista de índice" />
+		<res id="715" text="Índice" />
+		<res id="716" text="Indexado" />
+		<res id="717" text="¿Desea eliminar a: %s?" />
+		<res id="718" text="Limpiando índice" />
+		<res id="719" text="Optimizando" />
+		<res id="720" text="Guardando" />
+		<res id="721" text="..." />
+		<res id="722" text="No se puede cargar el índice" />
+		<res id="723" text="Cancelado" />
+		<res id="724" text="Ubicación estándar de documentos" />
+		<res id="725" text="Tipos de archivo" />
+		<res id="726" text="Tamaño de índice: %s | Conteo de Indexado: %s | Nombre solo: %s | Total: %s" />
+		<res id="727" text="Administrador de índice" />
+		<res id="728" text="Los índices se están actualizando. ¿Desea cancelar todos los procesos de indexado?" />
+		<res id="729" text="No se puede indexar" />
+		<res id="730" text="Archivo nicario indexado" />
+		<res id="731" text="Índice está en modo de Solo-lectura." />
+		<res id="732" text="No se puede buscar el archivo." />
+		<res id="733" text="Falla en método primario de búsqueda, utilizando búsqueda de datos en directo." />
+		<res id="734" text="Término de búsqueda parece una expresión de lista de archivos pero la opción de configuración está desactivada." />
+		<res id="735" text="Nombre de archivo parece una expresión de lista de archivos pero la opción de configuración está desactivada." />
+		<res id="736" text="Expresión de búsqueda fue evaluada sobre una base línea por línea somo se especifica en el apartado Opciones." />
+		<res id="737" text="Alrededor de las líneas" />
+		<res id="738" text="Marcador de líneas circundantes" />
+		<res id="739" text="Línea de encontrados" />
+		<res id="740" text="Comas usadas en expresión comodín, intentó usar un punto y coma?" />
+		<res id="741" text="Punto de análisis" />
+		<res id="742" text="Actualización requerida: el índice no coincide con la configuración" />
+		<res id="743" text="Índice no soporta búsquedas sensibles. Para habilitar esta opción debe reconstruir el índice con la opción de búsqueda sensible activada." />
+		<res id="744" text="No se puede iniciar la búsqueda" />
+		<res id="745" text="Activadas Mayúsculas y Minúsculas" />
+		<res id="746" text="El índice es antiguo, la búsqueda se ha ejecutado utilizando parámetros con la fecha del índice." />
+		<res id="747" text="No se pueden mostrar archivos encontrados." />
+		<res id="748" text="La búsqueda se detuvo antes de terminar" />
+		<res id="749" text="Índice vacío" />
+		<res id="750" text="Nunca" />
+		<res id="751" text="Índice vacío, use el Administrador de índices para construirlo." />
+		<res id="752" text="Archivos binarios excluídos" />
+		<res id="753" text="Solo palabras clave" />
+		<res id="754" text="Fecha inválida. Un archivo del sistema no puede tener una fecha antes de 1601." />
+		<res id="755" text="Búsqueda parcial del archivo porque el número de líneas se encuentra por arriba del máximo especificado." />
+		<res id="756" text="Proceso del operador de LISTA DE ARCHIVOS ha generado un error" />
+		<res id="757" text="Colores" />
+		<res id="758" text="Otros..." />
+		<res id="759" text="Hilos de búsqueda" />
+		<res id="760" text="Confirmar acción" />
+		<res id="761" text="No volver a mostrar el mensaje" />
+		<res id="762" text="Aviso: Archivo grande" />
+		<res id="763" text="El archivo seleccionado es muy grande, puede que su apertura haga que el programa se retrase o deje de funcionar." />
+		<res id="764" text="** CARGA DE ARCHIVO CANCELADO **" />
+		<res id="765" text="Mostrar detalles &gt;&gt;" />
+		<res id="766" text="&lt;&lt; Ocultar detalles" />
+		<res id="767" text="Para esta característica de trabajo de %APP_NAME% necesita habilitar extensiones de terceros en Internet Explorer y debe reiniciar para que los cambios surtan efecto. \r\n\r\n¿Desea continuar?" />
+		<res id="768" text="Ningún índice especificado." />
+		<res id="769" text="Ningún índice de operaciones especificado." />
+		<res id="770" text="Duración (segs)" />
+		<res id="771" text="Hilos de búsqueda" />
+		<res id="772" text="Cancelar" />
+		<res id="773" text="No existen hilos de búsqueda en ejecución actualmente para esta operación" />
+		<res id="774" text="Seleccione una ubicación a indexar." />
+		<res id="775" text="Especifique el contenido que debe incluir en el índice." />
+		<res id="776" text="Otra aplicación está bloqueando las actualizaciones del índice" />
+		<res id="777" text="Presione 'quit' para terminar." />
+		<res id="778" text="No se puede iniciar el Administrador de índices" />
+		<res id="779" text="Completar resultados de la búsqueda parcial..." />
+		<res id="780" text="Búsqueda borrosa" />
+		<res id="781" text="El lugar elegido para almacenar la base de datos de índice debe ser una carpeta nueva o vacía." />
+		<res id="782" text="Se ha producido un problema con la operación actual. Esto normalmente se debe a la configuración 'Previsualizaciones de pestañas de la barra de tareas individuales' en la Configuración de la interfaz de usuario. Si esto sigue teniendo el problema, desactive esta opción." />
+		<res id="783" text="Volver a crear el índice" />
+		<res id="784" text="índice de actualización" />
+		<res id="785" text="Crear nuevo índice" />
+		<res id="786" text="Sin Nombre del índice se ha especificado." />
+		<res id="787" text="Sin carpeta de índice se ha especificado." />
+		<res id="788" text="Si cambia el tipo de criterio durante una búsqueda, se cancelará la búsqueda actual. ¿Desea continuar?" />
+		<res id="789" text="Indexando" />
+		<res id="790" text="Se excluyó la ruta de búsqueda debido a rutas de exclusión activa y / o filtros" />
+		<res id="791" text="Archivo vacío, ningún texto buscable encontrado" />
+		<res id="792" text="No es posible separar la expresión en términos individuales" />
+		<res id="793" text="lista de archivos vacío especificada" />
+		<res id="794" text="Tipo de expresión fue cambiado a Boole para soportar múltiples términos de búsqueda." />
+		<res id="795" text="Ampliación de expresión" />
+		<res id="796" text="operación de indexación falló." />
+		<res id="797" text="Almacén de índices" />
+		<res id="798" text="Clase de contenido" />
+		<res id="799" text="¿Desea eliminar permanentemente los elementos seleccionados?" />
+		<res id="800" text="Eliminando elementos" />
+		<res id="801" text="Una o más líneas de texto muy grandes se dividieron en líneas más cortas, lo que podría afectar los resultados de búsqueda." />
+		<res id="802" text="Falló el remonbrado. Verifique que el archivo no esté bloqueado." />
+		<res id="803" text="Cargando lista de índices" />
+		<res id="804" text="Agregar referencia a un índice existente" />
+		<res id="805" text="Autores" />
+		<res id="806" text="Palabras clave del documento" />
+		<res id="807" text="Comentarios" />
+		<res id="808" text="Título" />
+		<res id="809" text="Propietario" />
+		<res id="810" text="La ruta del índice y el nombre no coinciden" />
+		<res id="811" text="Eliminar índice" />
+		<res id="812" text="List indexes" />
+		<res id="813" text="Guardado por última vez por" />
+		<res id="814" text="Eliminar índice" t="g" />
+		<res id="820" text="Palabras clave cero" />
+		<res id="821" text="Las palabra clave %s solo están disponibles en la versión Profesional. Si solo está buscando el término &quot;%s&quot; enciérrelo entre comillas." />
+		<res id="822" text="Licencia de plazo fijo. Días restantes:" />
+		<res id="823" text="Acceso directo" />
+		<res id="824" text="Texto interpretado" />
+		<res id="825" text="Texto convertido" />
+		<res id="826" text="Texto IFilter" />
+		<res id="827" text="Texto en caché" />
+		<res id="828" text="Archivo de texto" />
+		<res id="829" text="Datos de archivo RAW" />
+		<res id="830" text="Lector de contenido" />
+		<res id="831" text="Preparación del programa para el primer uso..." />
+		<res id="832" text="El período de prueba ha expirado." />
+		<res id="833" text="Esta característica no está disponible en la versión gratuita del programa." />
+		<res id="834" text="Profesional - Prueba" />
+		<res id="835" text="Profesional" />
+		<res id="836" text="Lite" />
+		<res id="837" text="Gratis para uso personal y comercial. Algunas funciones estarán ocultas o deshabilitadas." />
+		<res id="838" text="Versión completamente funcional." />
+		<res id="839" text="Versión completamente funcionar para periodo de prueba." />
+		<res id="840" text="¡NO REGISTRADO! \r\nEste producto solo tiene licencia para uso personal en el hogar. \r\n\r\nUsuarios comerciales:\r\n\r\nDebe registrar este producto para continuar usándolo en un entorno comercial, de lo contrario, usted está violando los términos y condiciones del acuerdo de usuario.\r\n\r\nPara obtener un código de registro gratuito, visite:\r\nhttps://www.mythicsoft.com/agentransack/register" />
+		<res id="841" text="No registrado. \r\nLos usuarios comerciales de este producto deben registrarse una vez que el período de prueba haya finalizado.\r\n\r\nPara obtener un código de registro gratuito, visite:\r\nhttps://www.mythicsoft.com/agentransack/register" />
+		<res id="842" text="Por favor especifique cómo usa el producto." />
+		<res id="843" text="Los cambios tendrán efecto cuando reinicie el producto." />
+		<res id="844" text="El código de registro ingresado es para la versión Lite del producto, por lo que algunas funciones ahora estarán deshabilitadas.." />
+		<res id="845" text="La versión gratuita del programa no es compatible con la función: %s" />
+		<res id="846" text="Rápido" />
+		<res id="847" text="Medio" />
+		<res id="848" text="Personalizado" />
+		<res id="849" text="No se puede buscar la ruta" />
+		<res id="899" text="Excluir los Archivos Temporales de MS Office" />
+		<res id="900" text="Ubicación de filtros" />
+		<res id="901" text="Fecha/Hora relativa" />
+		<res id="902" text="Concordancia de términos avanzada" />
+		<res id="903" text="Lista de archivos" />
+		<res id="904" text="Espacios de trabajo/Sesiones" />
+		<res id="905" text="Formatos de salida mejorados" />
+		<res id="906" text="Informe de palabras clave" />
+		<res id="907" text="Desfase de Fecha/Hora" />
+		<res id="908" text="Ubicación de Macros" />
+		<res id="909" text="Copia masiva" />
+		<res id="910" text="%APP_NAME% requiere una configuración inicial. Por favor ejecute la principal %APP_NAME% applicación para completar la instalación y vuelva a intentarlo." />
+		<res id="911" text="Búsqueda de archivo cancelada por el usuario" />
+		<res id="912" text="Reiniciar" />
+		<res id="913" text="Filtro de nombre de archivo persistente" />
+		<res id="914" text="Excluir EXE, DLL, SYS files" />
+		<res id="915" text="Precauciones/Errores reportados, ver Resumen para más información" />
+		<res id="916" text="No es posible crear un nuevo índice. Por favor verifique que tenga acceso de escritura a: " />
+		<res id="917" text="Archivo compuesto inválido" />
+		<res id="918" text="Archivo compuesto inválido, se sugiere que use una búsqueda estándar." />
+		<res id="919" text="Más" />
+		<res id="920" text="Renombrar" />
+		<res id="921" text="Nuevo Grupo" />
+		<res id="922" text="Fuente" />
+		<res id="923" text="Grupo de índices" />
+		<res id="924" text="Ancla usada en expresión comodín cuando coincide con la ruta completa en vez de únicamente con el nombre de archivo." />
+		<res id="925" text="Profundidad de carpeta" />
+		<res id="926" text="Monitor de Índices" />
+		<res id="927" text="Éxito" />
+		<res id="928" text="Licencia de Organización Multi-Sitio" />
+		<res id="929" text="El índice fue creado con una versión anterior del producto y no soporta campos de búsqueda." />
+		<res id="930" regex="(?:name|nombre):(.*)" case="1" />
+		<res id="931" regex="(?:lookin|buscaren):(.*)" case="1" />
+		<res id="932" regex="ext:(.*)" case="1" />
+		<res id="933" regex="(?:moddt|modificadot):(.*)" case="1" />
+		<res id="934" regex="(?:createdt|creadot):(.*)" case="1" />
+		<res id="935" regex="(?:size|tamaño):(.*)" case="1" />
+		<res id="936" regex="(?:content|contenido):(.*)" case="1" />
+		<res id="940" text="Carpeta borrada" />
+		<res id="941" text="Carpeta agregada" />
+		<res id="942" text="Carpeta renombrada" />
+		<res id="943" text="Archivo borrado" />
+		<res id="944" text="Archivo agregado" />
+		<res id="945" text="Procesar acciones de índexado" />
+		<res id="946" text="Comenzar el monitoreo de índice" />
+		<res id="947" text="Suspender el monitoreo de índice" />
+		<res id="948" text="Actualización completada" />
+		<res id="949" text="Monitoreando" />
+		<res id="950" text="Actualizaciones" />
+		<res id="951" text="Omitido" />
+		<res id="952" text="Sin cambio" />
+		<res id="953" text="Indexado - Nombre solo" />
+		<res id="954" text="Le gustaría guardar el proceso de indexado o revertir al estado previo del índice?" />
+		<res id="955" text="Acción" />
+		<res id="956" text="Evento" />
+		<res id="957" text="Mantenimiento de Índice" />
+		<res id="958" text="Connectando" />
+		<res id="959" text="Desconectando" />
+		<res id="960" text="Mensajes" />
+		<res id="961" text="Archivos CSV (*.csv)|*.csv|Todos los archivos (*.*)|*.*||" />
+		<res id="962" text="Adquiriendo licencia compartida" />
+		<res id="963" text="Computadora" />
+		<res id="964" text="Edad" />
+		<res id="965" text="Actualizado" />
+		<res id="966" text="Activo" />
+		<res id="967" text="Actualizando" />
+		<res id="968" text="Expirado" />
+		<res id="969" text="Todas las licencias Pro están siendo utilizadas actualmente, le gustaría esperar o continuar en Modo Ligero?." />
+		<res id="970" text="Incapaz de adquirir licencia Pro" />
+		<res id="971" text="Todas las licencias Pro están siendo utilizadas actualmente, le gustaría esperar por una licencia o cerrar el programa?" />
+		<res id="972" text="Le gustaría Esperar o Cerrar el programa?" />
+		<res id="973" text="Esperar" />
+		<res id="974" text="Cerrar" />
+		<res id="975" text="Modo Ligero" />
+		<res id="976" text="Removing Leases" />
+		<res id="977" text="Incapaz de cambiar la carpeta de la licencia. Por favor verifique que la carpeta exista y que tenga permisos de lectura/escritura en la carpeta." />
+		<res id="978" text="Clave de registro no encontrada" />
+		<res id="979" text="Lease Id" />
+		<res id="980" text="Incapaz de renovar licencia Pro" />
+		<res id="981" text="Cerrar %APP_NAME%" />
+		<res id="982" text="Explorar" />
+		<res id="983" text="Actualizar registro" />
+		<res id="984" text="Localización de Índices" />
+		<res id="985" text="No hay elementos indexados en la carpeta" />
+		<res id="986" text="La carpeta tiene subcarpetas per no elementos indexados" />
+		<res id="987" text="Archivo Binario" />
+		<res id="988" text="Contenido" />
+		<res id="989" text="Cerrando proceso de indexación" />
+		<res id="990" text="Errores/Precauciones reportadas, vea el Registro Actualizado para más información." />
+		<res id="991" text="Indexado Parcial Únicamente." />
+		<res id="992" text="Límite de Memoria Excedido." />
+		<res id="993" text="Demasiados Términos." />
+		<res id="994" text="Términos" />
+		<res id="995" text="Fecha de Índice" />
+		<res id="996" text="Índice Parcial" />
+		<res id="997" text="Desea cerrar todos los resultados de búsqueda?" />
+		<res id="998" text="Diariamente" />
+		<res id="999" text="Semanalmente" />
+		<res id="1000" text="Mensualmente" />
+		<res id="1001" text="Predeterminado (Monitoreo en tiempo-real con actualización diaria)" />
+		<res id="1002" text="&lt;Crear Nuevo...&gt;" />
+		<res id="1003" text="Nueva Actualización Programada" />
+		<res id="1004" text="No se ha especificado un nombre." />
+		<res id="1005" text="El número debe de estar en el rango: %d a %d" />
+		<res id="1006" text="Lista de Horarios" />
+		<res id="1007" text="Detalle de Horarios" />
+		<res id="1008" text="Monitoreo en tiempo-real" />
+		<res id="1009" text="Lista de Grupo" />
+		<res id="1010" text="Desactivado" />
+		<res id="1011" text="Repetir cada %d minutos" />
+		<res id="1012" text="Lunes" />
+		<res id="1013" text="Martes" />
+		<res id="1014" text="Miércoles" />
+		<res id="1015" text="Jueves" />
+		<res id="1016" text="Viernes" />
+		<res id="1017" text="Sábado" />
+		<res id="1018" text="Domingo" />
+		<res id="1019" text="Por favor especifique por lo menos un día para el horario" />
+		<res id="1020" text="Comenzar Horario" />
+		<res id="1021" text="Borrar horario actual y detener cualquier actualización programada o monitoreo en tiempo-real?:" />
+		<res id="1022" text="Está seguro?" />
+		<res id="1023" text="Operación fallida" />
+		<res id="1024" text="Sincronización de carpetas programado" />
+		<res id="1025" text="Sincronización de carpeta de archivos" />
+		<res id="1026" text="Sincronización de carpetas" />
+		<res id="1027" text="Acciones de Horario" />
+		<res id="1028" text="Sin fecha de origen - ignorado" />
+		<res id="1029" text="Nombre Inválido" />
+		<res id="1030" text="Índice creado en una versión previa. Por favor actualice el índice para ver sus detalles." />
+		<res id="1031" text="Archivo binario, contenido no indexado" />
+		<res id="1032" text="Por favor selecciones un horario de actualización para el índice" />
+		<res id="1033" text="Revertir" />
+		<res id="1034" text="Retroceder" />
+		<res id="1035" text="Remover o Borrar" />
+		<res id="1036" text="Desea borrar el índice permanentemente o solo removerlo de la lista?" />
+		<res id="1037" text="Remover" />
+		<res id="1038" text="Cancelar Indexación" />
+		<res id="1039" text="Comodín sin ancla no permitido." />
+		<res id="1040" text="Recargando" />
+		<res id="1041" text="Criterios de Índice" />
+		<res id="1042" text="Cambiado" />
+		<res id="1043" text="Saludable" />
+		<res id="1044" text="No se han podido cargar los ajustes de configuración de las licencias flotantes." />
+		<res id="1045" text="No se han encontrado licencias flotantes en la carpeta. ¿Continuar?" />
+		<res id="1046" text="No se especificó ningún valor para el parámetro: %s" />
+		<res id="1047" text="Parámetros inválidos" />
+		<res id="1048" text="Versión del archivo" />
+		<res id="1049" text="version del producto" />
+		<res id="1050" text="Esta función ha sido deshabilitada por el administrador del sistema." />
+		<res id="1051" text="El campo Nombre de archivo contiene un carácter comodín, pero el tipo de expresión se establece en Texto sin formato." />
+		<res id="1052" text="Generar informe de errores" />
+		<res id="1053" text="¿Le gustaría generar y enviar un informe de error?" />
+		<res id="1054" text="Generar informe" />
+		<res id="1055" text="Crear nuevo índice" />
+		<res id="1056" text="Antes de poder realizar una búsqueda de índice, debe crear un índice. ¿Te gustaría crear un índice?" />
+		<res id="1057" text="Seleccione el índice que desea buscar." />
+		<res id="1058" text="Longitud del nombre" />
+		<res id="1059" text="Longitud total de la ruta" />
+		<res id="1060" text="No se puede buscar el índice" t="g" />
+		<res id="1061" text="Búsqueda fallida" t="g" />
+		<res id="1062" text="Clasificación" t="g" />
+		<res id="1063" text="Orientación" t="g" />
+		<res id="1064" text="Longitud focal" t="g" />
+		<res id="1065" text="Archivo zip" t="g" />
+		<res id="1066" text="Sesión" t="g" />
+		<res id="1067" text="espacio de trabajo" t="g" />
+		<res id="1068" text="Imagen OCR fallida" t="g" />
+		<res id="1069" text="Escaneo de imagen con OCR" t="g" />
+		<res id="1070" text="Última actualización" t="e" />
+		<res id="1071" text="Objeto incrustado" t="g" />
+		<res id="1072" text="La última actualización no se completó correctamente." t="g" />
+		<res id="1073" text="El índice se creó utilizando una versión más reciente de %APP_NAME%. Actualice esta instalación para ver los detalles del índice. La actualización del índice recreará y restaurará el índice a esta versión de %APP_NAME%." t="g" />
+		<res id="1074" text="El método de búsqueda principal falló al utilizar el método de respaldo." t="g" />
+		<res id="1075" text="¿Le gustaría utilizar la información de registro almacenada en el portapapeles?" t="g" />
+		<res id="1076" text="El archivo está protegido con contraseña." t="g" />
+	</string>
+</translation>

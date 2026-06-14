@@ -1,0 +1,45 @@
+{
+  "name": "@triforce-heroes/triforce-xml",
+  "version": "1.0.0",
+  "description": "Extract and rebuild .XML files.",
+  "license": "Apache License 2.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    "./Extract": "./dist/Extract.js",
+    "./Rebuild": "./dist/Rebuild.js"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tspc -p ./tsconfig.build.json && swc ./dist -d .",
+    "watch": "tsx --watch ./tools/watch.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "npm run typecheck && npm run eslint && npm run oxfmt",
+    "lint:fix": "npm run typecheck && npm run eslint:fix && npm run oxfmt:fix",
+    "oxfmt": "oxfmt --check ./src ./tests ./tools ./*.mjs ./*.json",
+    "oxfmt:fix": "oxfmt --write ./src ./tests ./tools ./*.mjs ./*.json",
+    "eslint": "eslint ./src ./tests ./tools ./*.mjs",
+    "eslint:fix": "eslint --fix ./src ./tests ./tools ./*.mjs",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@rheactor/eslint-config-rheactor": "github:rheactor/eslint-config-rheactor",
+    "@swc/cli": "^0.8.1",
+    "@swc/core": "^1.15.41",
+    "@triforce-heroes/triforce-core": "github:triforce-heroes/triforce-core",
+    "@triforce-heroes/triforce-publisher": "github:triforce-heroes/triforce-publisher",
+    "@types/node": "^25.9.3",
+    "arkregex": "^0.0.5",
+    "esbuild": "^0.28.1",
+    "eslint": "^10.5.0",
+    "oxfmt": "^0.54.0",
+    "rimraf": "^6.1.3",
+    "ts-patch": "^4.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "typescript-transform-paths": "^4.0.0",
+    "vitest": "^4.1.8",
+    "xml-js": "^1.6.11"
+  }
+}

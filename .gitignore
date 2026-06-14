@@ -1,0 +1,6 @@
+/tests/fixtures/*.rebuilded
+/tools/entries.json
+/tools/letters.json
+/tools/uniques.json
+/tools/query_v*.sql
+/tools/query_v*.json

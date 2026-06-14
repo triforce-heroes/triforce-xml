@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="Nederlands" helplang="en">
+	<dialog id="3531" name="IDD_EDITBOX" caption=""/>
+	<dialog id="333" name="IDD_SCHEDULE_EDIT" caption="Edit Schedule">
+		<res id="1" text="Naam:"/>
+		<res id="2" text="Realtime monitoring"/>
+		<res id="3" text="Vernieuwingsfrequentie"/>
+		<res id="4" text="Starttijd:"/>
+		<res id="5" text="UU:mm:ss"/>
+		<res id="6" text="Toegewezen indexen"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Annuleren"/>
+	</dialog>
+	<dialog id="334" name="IDD_SCHEDULE_DAILY" caption="">
+		<res id="1" text="Herhaal elke:"/>
+		<res id="2" text="minuten"/>
+	</dialog>
+	<dialog id="335" name="IDD_SCHEDULE_WEEKLY" caption="">
+		<res id="1" text="Maandag"/>
+		<res id="2" text="Dinsdag"/>
+		<res id="3" text="Woensdag"/>
+		<res id="4" text="Donderdag"/>
+		<res id="5" text="Vrijdag"/>
+		<res id="6" text="Zaterdag"/>
+		<res id="7" text="Zondag"/>
+	</dialog>
+	<dialog id="336" name="IDD_SCHEDULE_MONTHLY" caption="">
+		<res id="1" text="Dag van de maand:"/>
+	</dialog>
+	<dialog id="337" name="IDD_INDEXSCHEDULEVIEW" caption="">
+		<res id="1" text="Naam:"/>
+		<res id="2" text="Type:"/>
+		<res id="3" text="Starttijd:"/>
+		<res id="4" text="Huidige tijd:"/>
+		<res id="5" text="Status:"/>
+		<res id="10" text="Toegewezen indexen"/>
+	</dialog>
+	<dialog id="338" name="IDD_SCHEDULE_INDEXLIST" caption="Assign Indexes to Schedule">
+		<res id="1" text="Indexen:"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Annuleren"/>
+	</dialog>
+	<dialog id="339" name="IDD_INDEX_EDITADVANCED" caption="Advanced Index Settings">
+		<res id="1" text="Geavanceerde instellingen"/>
+		<res id="2" text="Hoofdlettergevoelig zoeken inschakelen"/>
+		<res id="3" text="Detecteer binaire inhoud"/>
+		<res id="4" text="Gedeeltelijke vastleggingen toestaan"/>
+		<res id="5" text="Gecomprimeerde archieven indexeren:"/>
+		<res id="6" text="OCR-afbeeldingen" t="g"/>
+		<res id="7" text="OCR-instellingen..." t="g"/>
+		<res id="8" text="Gebruik zoekfilters" t="g"/>
+		<res id="9" text="Actieve filters..." t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Annuleren"/>
+		<res id="12" text="Ingesloten documenten extraheren (Word/PDF)" t="g"/>
+	</dialog>
+	<dialog id="5559" name="IDD_FORMATS_OCR" caption="Optical Character Recognition (OCR) Settings">
+		<res id="1" text="OCR-instellingen"/>
+		<res id="2" text="Cache OCR-tekst"/>
+		<res id="3" text="Bestandsindelingen om te analyseren met OCR:"/>
+		<res id="4" text="Allemaal beschikbaar"/>
+		<res id="5" text="Geselecteerde bestandsindelingen:"/>
+		<res id="6" text="Taal:"/>
+		<res id="7" text="PDF-instellingen"/>
+		<res id="8" text="Gebruik geen OCR-pdf's met bestaande doorzoekbare tekst"/>
+		<res id="9" text="Automatische detectie van paginarichting" t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Annuleren"/>
+	</dialog>
+	<dialog id="207" name="IDD_LICENSE_TYPE" caption="Soort licentie">
+		<res id="1" text="Selecteer het soort licentie:"/>
+		<res id="2" text="Professional (probeerversie)"/>
+		<res id="3" text="Professional"/>
+		<res id="4" text="Koop professional licentie"/>
+		<res id="5" text="Volledig functionele versie."/>
+		<res id="6" text="Naam:"/>
+		<res id="7" text="E-mail:"/>
+		<res id="8" text="Registratie nummer:"/>
+		<res id="9" text="Lite (gratis)"/>
+		<res id="10" text="Vergelijk versies"/>
+		<res id="11" text="Verminderde functionaliteit. Sommige functies zullen worden verborgen of uitgeschakeld. Deze versie is gratis voor zowel persoonlijk als commercieel gebruik.."/>
+		<res id="12" text=""/>
+		<res id="13" text="OK"/>
+		<res id="14" text="Annuleren"/>
+	</dialog>
+	<dialog id="5560" name="IDD_LICENSE_MGR" caption="Floating License Manager">
+		<res id="1" text="Licentiemap:"/>
+		<res id="2" text=""/>
+		<res id="3" text=""/>
+		<res id="4" text="OK"/>
+		<res id="5" text="Annuleren"/>
+		<res id="6" text="Vernieuwen"/>
+	</dialog>
+	<dialog id="260" name="IDD_COMMERCIAL_USE" caption="GRATIS Registratie beschikbaar!">
+		<res id="1" text=""/>
+		<res id="2" text="Als u dit product in een commerciële omgeving gebruikt bent u verplicht om te registreren, maar maak u geen zorgen het registreren is gratis.."/>
+		<res id="3" text="Voor een gratis registratie code kunt u terecht op de Mythicsoft website:"/>
+		<res id="4" text="Als u het product alleen voor persoonlijk gebruik gebruikt, dan wordt u vriendelijk verzocht, maar het is niet verplicht, om het product te registreren."/>
+		<res id="5" text="Ik gebruik het voor:"/>
+		<res id="6" text="alleen voor persoonlijk gebruik:"/>
+		<res id="7" text="commercieel gebruik, wil ik mijn registratie code invoeren"/>
+		<res id="8" text="OK"/>
+		<res id="9" text="Annuleren"/>
+	</dialog>
+	<dialog id="3566" name="IDD_COLUMNLIST_OPTIONS" caption="Selecteer kolommen">
+		<res id="1" text="&amp;Kolommen"/>
+		<res id="2" text="Opmerking: slepen en neerzetten om velden opnieuw in te delen"/>
+		<res id="3" text="OK"/>
+		<res id="4" text="Annuleren"/>
+	</dialog>
+	<dialog id="3565" name="IDD_EXPRESSIONEDITORDLG" caption="Bewerk uitdrukking">
+		<res id="1" text="&amp;Type uitdrukking:"/>
+		<res id="2" text="&amp;Voer elke onafhankelijke zoekterm in op een aparte regel"/>
+		<res id="3" text="&amp;Referenie tekst bestand:"/>
+		<res id="4" text="&amp;Bladeren..."/>
+		<res id="5" text="OK"/>
+		<res id="6" text="Annuleren"/>
+		<res id="7" text="Zoektermen:"/>
+	</dialog>
+	<dialog id="5558" name="IDD_GENERAL_COLORS" caption="">
+		<res id="1" text="Gevonden trefwoorden"/>
+		<res id="2" text="Tekst kleur:"/>
+		<res id="3" text="Trefwoord gevonden"/>
+		<res id="4" text="Vet"/>
+		<res id="5" text="Onderstrepen"/>
+		<res id="6" text="Markeer zoekwoorden met verschillende kleuren:"/>
+		<res id="7" text="Zoekwoord gevonden achtergrondkleur"/>
+		<res id="8" text="Tabblad Tekst"/>
+		<res id="9" text="Originele zoekopdracht:"/>
+		<res id="10" text="Volgende zoekopdracht:"/>
+		<res id="11" text="Lijnkleur originele zoekopdracht"/>
+		<res id="12" text="Lijnkleur volgende zoekopdracht"/>
+	</dialog>
+	<dialog id="3542" name="IDD_KEYWORD_COLOR" caption="">
+		<res id="1" text="Instellingen..."/>
+	</dialog>
+	<dialog id="231" name="IDD_INDEX_SEARCH" caption=""/>
+	<dialog id="331" name="IDD_INDEXEDIT_GROUP_PANE" caption="">
+		<res id="1" text="Naam:"/>
+		<res id="2" text="Bestand:"/>
+		<res id="3" text="Blader naar bestand"/>
+	</dialog>
+	<dialog id="310" name="IDD_INDEX_EDIT" caption="">
+		<res id="1" text="&amp;Alleenlezen"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Annuleren"/>
+	</dialog>
+	<dialog id="312" name="IDD_INDEXACTIVITYVIEW" caption="">
+		<res id="1" text="Naam:"/>
+		<res id="2" text="Bestanden:"/>
+		<res id="3" text="Locatie:"/>
+		<res id="4" text="Samenvatting:"/>
+		<res id="5" text="Laatste keer vernieuwd:"/>
+		<res id="6" text="Status:"/>
+	</dialog>
+	<dialog id="332" name="IDD_INDEXGROUPVIEW" caption="">
+		<res id="1" text="Naam:"/>
+		<res id="2" text="Indexen:"/>
+	</dialog>
+	<dialog id="315" name="IDD_ADDINDEX_TYPEPAGE" caption="Add Index">
+		<res id="1" text="Type index om toe te voegen"/>
+		<res id="2" text="Maak een nieuwe index aan"/>
+		<res id="3" text="Verwijzen naar een bestaande index of groep"/>
+		<res id="4" text="Wilt u een nieuwe index, een nieuwe groep of een bestaande index maken?"/>
+		<res id="5" text="Maak een nieuwe groep aan"/>
+	</dialog>
+	<dialog id="316" name="IDD_ADDINDEX_NEWPAGE" caption="">
+		<res id="1" text="Maak een nieuwe index aan"/>
+		<res id="2" text="&amp;Begin met het indexeren van de taak op Voltooien"/>
+		<res id="3" text="Index maken"/>
+		<res id="4" text="Maak een nieuwe groep aan"/>
+	</dialog>
+	<dialog id="317" name="IDD_ADDINDEX_IMPORTPAGE" caption="">
+		<res id="1" text="Een bestaande index toevoegen"/>
+		<res id="2" text="Specificeer het pad van het indexarchief dat u wilt toevoegen:"/>
+		<res id="3" text="Map:"/>
+		<res id="4" text="Alleen-lezen toegang"/>
+		<res id="5" text="Bladeren"/>
+	</dialog>
+	<dialog id="319" name="IDD_ADDINDEX_AUTOUPDATE" caption="">
+		<res id="1" text="Wilt u dat de index automatisch wordt bijgewerkt?"/>
+		<res id="2" text="Nee, alleen handmatige updates"/>
+		<res id="3" text="Ja, updates plannen"/>
+		<res id="4" text="Automatische updates plannen" t="g"/>
+	</dialog>
+	<dialog id="318" name="IDD_INDEXEDIT_ENGINE_PANE" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Indexnaam:"/>
+		<res id="3" text="Opslagindex:"/>
+		<res id="4" text="Inhoud index"/>
+		<res id="5" text="&amp;Documenten/PDF/Tekstbestanden"/>
+		<res id="6" text="Specifieke &amp;bestanden:"/>
+		<res id="7" text="&amp;Hoofdlettergevoelig zoeken inschakelen (grotere index) "/>
+		<res id="8" text="Alle andere bestanden opnemen met alleen naam"/>
+		<res id="9" text="Indexlocaties"/>
+		<res id="10" text="&amp;Standaard documentlocaties"/>
+		<res id="11" text="&amp;Specifieke locaties:"/>
+		<res id="12" text="Submappen"/>
+		<res id="13" text="Bladeren"/>
+		<res id="14" text="Meerdere mappen"/>
+		<res id="15" text="Outlook/Thunderbird-bestanden"/>
+		<res id="16" text="E-mailbijlagen"/>
+		<res id="17" text="Geavanceerd..."/>
+	</dialog>
+	<dialog id="211" name="IDD_SAVE_BULKCOPY" caption="">
+		<res id="1" text="Kopieer bestanden naar"/>
+		<res id="2" text="&amp;Map:"/>
+		<res id="3" text="&amp;ZIP bestand:"/>
+		<res id="4" text="&amp;Bladeren..."/>
+		<res id="5" text="&amp;Bladeren..."/>
+		<res id="6" text="Opties"/>
+		<res id="7" text="Map structuur:"/>
+		<res id="8" text="Bestaand bestand:"/>
+		<res id="9" text="E-mail items:"/>
+		<res id="10" text="Dubbele:"/>
+		<res id="11" text="Fouten:"/>
+		<res id="12" text="Kopieer bestandskenmerken"/>
+		<res id="13" text="Te kopiëren bestanden"/>
+		<res id="14" text="Alle bestanden"/>
+		<res id="15" text="Selecteer alleen bestanden"/>
+		<res id="16" text="Maak Zip bestand"/>
+		<res id="17" text="Voeg aan Zip bestand toe"/>
+		<res id="18" text="Kap paden langer dan 255 tekens af"/>
+		<res id="19" text="Kopieer mappen" t="g"/>
+		<res id="20" text="Inclusief submappen" t="g"/>
+		<res id="21" text="Inclusief lege mappen" t="g"/>
+	</dialog>
+	<dialog id="210" name="IDD_SAVE_SESSIONWORKSPACE" caption="">
+		<res id="1" text="Opslaan als"/>
+		<res id="2" text="&amp;Bestand:"/>
+		<res id="3" text="&amp;Bladeren..."/>
+		<res id="4" text="Zoekopdrachten om te bewaren"/>
+		<res id="5" text="Alleen huidige zoekopdracht"/>
+		<res id="6" text="Werkruimte (bijv. alle zoekopdrachten)"/>
+		<res id="7" text="&amp;Inclusief de zoekgeschiedenis van elke zoekopdracht"/>
+	</dialog>
+	<dialog id="206" name="IDD_EXPORT" caption="Exporteren">
+		<res id="1" text="OK"/>
+		<res id="2" text="Annuleren"/>
+	</dialog>
+	<dialog id="209" name="IDD_EXPORT_TYPE" caption="">
+		<res id="1" text="Export bewerking"/>
+		<res id="2" text="Meerdere opdrachten"/>
+		<res id="3" text="Zoekresultaten exporteren"/>
+		<res id="4" text="Bewaar sessie/werkruimte"/>
+		<res id="5" text="Help"/>
+	</dialog>
+	<dialog id="197" name="IDD_EXPR_WIZ_FILENAMEPRESET" caption="Vooraf ingestelde bestandsnaam">
+		<res id="1" text="Opmerking: U kunt termen combineren met standaard Boolean operatoren zoals AND, OR en NOT."/>
+		<res id="2" text="File types:"/>
+	</dialog>
+	<dialog id="3514" name="IDD_REPORTS_SELECTION" caption="" maxgrow="700">
+		<res id="1" text="Verslag:"/>
+		<res id="2" text="Stijl:"/>
+		<res id="3" text="Volgende"/>
+		<res id="4" text="Volgende"/>
+		<res id="5" text="Alle"/>
+		<res id="6" text="Bestanden:"/>
+		<res id="7" text="Geselecteerd"/>
+	</dialog>
+	<dialog id="3530" name="IDD_REPORT_PROGRESS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Rapport genereren..."/>
+		<res id="3" text="Annuleren"/>
+	</dialog>
+	<dialog id="5556" name="IDD_ADV_MEMMANAGER" caption="">
+		<res id="1" text="Beperk geheugenverbruik van grote zoekopdrachten"/>
+		<res id="2" text="Beperk geheugen van een grote zoekopdracht"/>
+		<res id="3" text="Systeem berekend hoeveel geheugen gebruikt wordt"/>
+		<res id="4" text="Specificeer geheugengebruik:"/>
+		<res id="5" text="Kort regels af tot:"/>
+		<res id="6" text="Kort tekens per regels in tot:"/>
+		<res id="7" text="Alleen afkorten toepassen op de zoekgeschiedenis"/>
+	</dialog>
+	<dialog id="3524" name="IDD_REPORT_OPTIONS" caption="">
+		<res id="1" text="Tonen"/>
+		<res id="2" text="Samenvatting"/>
+		<res id="3" text="Zoek statistieken"/>
+		<res id="4" text="Kolomkoppen"/>
+		<res id="5" text="Velden"/>
+		<res id="6" text="OK"/>
+		<res id="7" text="Annuleren"/>
+		<res id="8" text="Opmerking: slepen en neerzetten om velden opnieuw in te delen"/>
+	</dialog>
+	<dialog id="5552" name="IDD_CACHE_SETTINGS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="Informatie"/>
+		<res id="4" text="Cachemap:"/>
+		<res id="5" text="Items:"/>
+		<res id="6" text="Totale grootte:"/>
+		<res id="7" text="Compact..."/>
+		<res id="8" text="Leeg maken..."/>
+		<res id="9" text="Instellingen"/>
+		<res id="10" text="Maximaal toegestane grootte per item (KB):"/>
+		<res id="11" text="Verwijderen"/>
+		<res id="12" text="Nooit"/>
+		<res id="13" text="Verwijder niet gerefereerde cache items na:"/>
+		<res id="14" text="Cache wissen bij afsluiten"/>
+		<res id="15" text="OK"/>
+		<res id="16" text="Annuleren"/>
+		<res id="17" text="dagen"/>
+	</dialog>
+	<dialog id="5553" name="IDD_GENERAL_SEARCH" caption="">
+		<res id="1" text="Zoekmethode"/>
+		<res id="2" text="&amp;Meerdere opdrachten (Standaard)"/>
+		<res id="3" text="Dir&amp;ect"/>
+		<res id="4" text="&amp;Bereken aantal treffers"/>
+		<res id="7" text="&amp;Op volgorde"/>
+		<res id="9" text="Zoeken zoals u typt"/>
+		<res id="10" text="Zoeken in de inde&amp;x"/>
+		<res id="11" text="&amp;Tekst tabblad"/>
+		<res id="12" text="&amp;Oplopend"/>
+	</dialog>
+	<dialog id="196" name="IDD_SAVE_WORKSPACE" caption="Werkruimte bewaren">
+		<res id="1" text="Opslaan in"/>
+		<res id="2" text="&amp;Bestand:"/>
+		<res id="3" text="&amp;Bladeren..."/>
+		<res id="4" text="Informatie om op te slaan"/>
+		<res id="5" text="&amp;Volledige werkruimte"/>
+		<res id="6" text="&amp;Gedeeltelijke werkruimte"/>
+		<res id="7" text="&amp;Alle zoekopdrachten"/>
+		<res id="8" text="Alleen h&amp;uidige zoekopdracht:"/>
+		<res id="9" text="&amp;Inclusief zoekgeschiedenis voor elke zoekopdracht"/>
+		<res id="15" text="Opslaan"/>
+		<res id="16" text="Annuleren"/>
+	</dialog>
+	<dialog id="195" name="IDD_SAVE_SESSION" caption="Zoekopdracht bewaren">
+		<res id="1" text="Opslaan in"/>
+		<res id="2" text="&amp;Bestand:"/>
+		<res id="3" text="&amp;Bladeren..."/>
+		<res id="4" text="&amp;Inclusief zoekgeschiedenis"/>
+		<res id="15" text="Opslaan"/>
+		<res id="16" text="Annuleren"/>
+	</dialog>
+	<dialog id="5523" name="IDD_CONFIGENTRY_EXTENSION" caption="">
+		<res id="1" text="Naam:"/>
+		<res id="2" text="&lt;naam&gt;"/>
+		<res id="3" text="Bestand types:"/>
+		<res id="4" text="(Voeg elk geldig bestandstype op een aparte regel toe.)"/>
+		<res id="5" text="Prog Id:"/>
+		<res id="6" text="&lt;progid&gt;"/>
+		<res id="7" text="&amp;Start in veilige modus"/>
+		<res id="8" text="&amp;Gebruik indexering service filter (indien beschikbaar)"/>
+		<res id="9" text="&amp;Binaire gegevens zijn niet geschikt voor zoeken"/>
+	</dialog>
+	<dialog id="5527" name="IDD_CONFIGENTRY_EXTENSIONMAIN" caption="">
+		<res id="1" text="Herstel..."/>
+		<res id="2" text="Druk op de onderstaande knop om de uitbreidingsinstellingen terug te zetten naar de standaardinstellingen van de installatie."/>
+		<res id="3" text="Configuratie van de uitbreiding herstellen"/>
+		<res id="4" text="Deze configuratiegroep regelt de uitbreidingsinstellingen voor geavanceerde bestandsverwerking."/>
+	</dialog>
+	<dialog id="5533" name="IDD_CONFIGENTRY_GENERAL" caption="">
+		<res id="1" text="Deze configuratiegroep bevat algemene instellingen die gebruikt worden om zoekopdrachten te controleren."/>
+	</dialog>
+	<dialog id="5534" name="IDD_CONFIGENTRY_EDITOR" caption="">
+		<res id="1" text="Deze configuratiegroep bepaalt welke bewerkingsprogramma wordt gebruikt bij het werken met de inhoudsweergave."/>
+	</dialog>
+	<dialog id="5540" name="IDD_CONFIGENTRY_ADVANCED" caption="">
+		<res id="1" text="Deze configuratiegroep bevat geavanceerde instellingen."/>
+	</dialog>
+	<dialog id="5524" name="IDD_CLEARARHISTORY_DIALOG" caption="Geschiedenis wissen">
+		<res id="1" text="&amp;Bestandsnaam"/>
+		<res id="2" text="&amp;Bevat tekst"/>
+		<res id="3" text="&amp;Zoek in"/>
+		<res id="4" text="OK"/>
+		<res id="5" text="Annuleren"/>
+		<res id="6" text="Welke geschiedenis wilt u verwijderen?"/>
+		<res id="7" text="Alle geschiedenis"/>
+	</dialog>
+	<dialog id="5544" name="IDD_FILETYPE_UTF8" caption="">
+		<res id="1" text="Standaard volgende bestandstypen naar UTF-8 als er geen specifieke coderingsinformatie wordt gedetecteerd."/>
+		<res id="2" text="Bestands type:"/>
+		<res id="3" text="(Voeg elk geldig bestandstype op een aparte regel toe.)"/>
+		<res id="4" text="Automatische detectie van UTF-8 bestanden"/>
+	</dialog>
+	<dialog id="5541" name="IDD_GENERAL_IFILTER" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="&amp;Vernieuwen"/>
+		<res id="3" text="IFilters geregistreerd op deze computer:"/>
+		<res id="4" text="Inclusief IFilters voor HTML/XML-gebaseerde bestandstypen"/>
+		<res id="5" text="IFilter zoekprioriteit:"/>
+	</dialog>
+	<dialog id="5529" name="IDD_EDITORSETTINGS_DEFAULT" caption="">
+		<res id="1" text="Standaard editor opties"/>
+		<res id="2" text="Interne viewer in tabblad"/>
+		<res id="3" text="Interne viewer in nieuw venster"/>
+		<res id="4" text="Microsoft Visual Studio"/>
+		<res id="5" text="Bewerkings programma"/>
+		<res id="6" text="Visual Studio Versie"/>
+	</dialog>
+	<dialog id="5528" name="IDD_EDITORSETTINGS_EXTERNAL" caption="">
+		<res id="1" text="&amp;Bladeren..."/>
+		<res id="2" text="Instellingen bewerkingsprogramma:"/>
+		<res id="3" text="Parameters voor de opdrachtregel (commandline):"/>
+		<res id="4" text="Variabelen: "/>
+		<res id="5" text="$(FILEPATH)"/>
+		<res id="6" text="-Geselecteerd bestand"/>
+		<res id="7" text="$(LINENUM)"/>
+		<res id="8" text="-Geselecteerde regel"/>
+		<res id="9" text="Map van het programma:"/>
+		<res id="10" text="$(LONGPATH)"/>
+		<res id="11" text="-Geselecteerd bestand in lang pad formaat"/>
+	</dialog>
+	<dialog id="5526" name="IDD_CONFIGURATION_MAIN" caption="Configuratie instellingen">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="OK"/>
+		<res id="4" text="Annuleren"/>
+		<res id="5" text="Instellingen"/>
+		<res id="6" text="Herstellen naar standaard instellingen"/>
+	</dialog>
+	<dialog id="5530" name="IDD_GENERAL_DISPLAYCONFIG" caption="">
+		<res id="1" text="Weergave regels"/>
+		<res id="2" text="Maximaal weer te gegeven regels per bestand:"/>
+		<res id="3" text="Weer te gegeven tekens per regel beperken tot:"/>
+		<res id="4" text="Omliggende regels"/>
+		<res id="5" text="Regels voor:"/>
+		<res id="6" text="Regels na:"/>
+		<res id="7" text="Bestandsoverzicht weergave:"/>
+		<res id="8" text="Hoe wordt het bestandspad weergegeven"/>
+		<res id="9" text="Inhoudsopgave:"/>
+	</dialog>
+	<dialog id="5531" name="IDD_GENERAL_HISTORY" caption="">
+		<res id="1" text="&amp;Wis alle geschiedenis bij afsluiten"/>
+		<res id="2" text="W&amp;is geschiedenis..."/>
+		<res id="3" text="Onthouden"/>
+		<res id="4" text="&amp;Instellingen opties"/>
+		<res id="5" text="Venstergr&amp;ootte, positie &amp;&amp; instellingen lettertype"/>
+		<res id="6" text="&amp;Open de laatste zoekopdracht bij het opstarten"/>
+		<res id="7" text="Maximale afmetingen van de overzichten"/>
+		<res id="8" text="Zoeken in navigatie:"/>
+		<res id="9" text="Slepen en neerzetten lijst"/>
+		<res id="10" text="Slepen en neerzetten lijst:"/>
+		<res id="11" text="Recente bestanden:"/>
+		<res id="12" text="Sorteervolgorde kolom"/>
+		<res id="13" text="&amp;Bewerk..." t="e"/>
+	</dialog>
+	<dialog id="5532" name="IDD_GENERAL_CHARPROC" caption="">
+		<res id="1" text="Andere geldige End of Line (EOL) codes"/>
+		<res id="2" text="&amp;Unix (LF)"/>
+		<res id="3" text="&amp;Mac (CR)"/>
+		<res id="4" text="Maximum aantal tekens per regel:"/>
+		<res id="5" text="Bevat tekst"/>
+		<res id="6" text="&amp;Ook de bestandsnaam in de inhoud zoeken"/>
+		<res id="7" text="Ook het pad &amp;in de inhoud zoeken"/>
+		<res id="8" text="Bestandsnaam"/>
+		<res id="9" text="Neem het pad op in het zoeken naar bestandsnamen"/>
+		<res id="10" refid="5545:9"/>
+	</dialog>
+	<dialog id="5535" name="IDD_GENERAL_THREADING" caption="">
+		<res id="1" text="Hoeveel zoekopdrachten tegelijk uitvoeren"/>
+		<res id="2" text="Verbindingen indexeren"/>
+		<res id="3" text=""/>
+		<res id="4" text="(tussen 1 - 99)"/>
+		<res id="5" text="Waarschuwing: Veel verbindingen kunnen de prestaties beïnvloeden"/>
+		<res id="6" text="Proces prioriteit"/>
+		<res id="7" text="Voorgrond:"/>
+		<res id="8" text="Achtergrond:"/>
+		<res id="9" text="Geminimaliseerd:"/>
+		<res id="10" text="Indexeerder:" t="g"/>
+	</dialog>
+	<dialog id="5536" name="IDD_GENERAL_SHELL" caption="">
+		<res id="1" text="&amp;Koppel aan bestandstypen (SRF, FLSX, FLWX)"/>
+		<res id="2" text="Toevoe&amp;gen aan map context menu opties"/>
+		<res id="3" text="Toevoegen &amp;aan bestand context menu opties"/>
+		<res id="4" text="Toevo&amp;egen aan 'Zoeken in' in het menu Start"/>
+		<res id="5" text="&amp;Vervang de standaard Explorer zoek functie (Ctrl+F, F3)*"/>
+		<res id="6" text="Schakel &amp;sneltoets in (WinKey+Alt+F, WinKey+Alt+F3)"/>
+		<res id="7" text="* UAC Opmerking: Als u de Shell-instellingen wijzigt, het nodig zijn dat de Shell-beheerder een EXE moet starten waarvoor meer bevoegdheden nodig zijn."/>
+		<res id="8" text="Applicatie startmodus:" t="g"/>
+		<res id="9" text="Meerdere exemplaren (standaard)" t="g"/>
+		<res id="10" text="Enkele instantie" t="g"/>
+		<res id="11" text="Single-instance van shell-integratie" t="g"/>
+		<res id="12" text="Contextmenu Bestandslijst" t="g"/>
+		<res id="13" text="Basis contextmenu-opties voor complexe selecties" t="g"/>
+		<res id="14" text="Grote selectielimiet:" t="g"/>
+	</dialog>
+	<dialog id="5537" name="IDD_GENERAL_FOLDERS" caption="">
+		<res id="1" text="&amp;Bladeren..."/>
+		<res id="2" text="&amp;Bladeren..."/>
+		<res id="3" text="&amp;Bladeren..."/>
+		<res id="4" text="&amp;Bladeren..."/>
+		<res id="5" text="Map met logbestand:"/>
+		<res id="6" text="Map met configuratie bestanden:"/>
+		<res id="7" text="&amp;Bladeren..."/>
+		<res id="8" text="&amp;Bladeren..."/>
+		<res id="9" text="Map met favorieten:"/>
+		<res id="10" text="&amp;Bladeren..."/>
+		<res id="11" text="&amp;Bladeren..."/>
+		<res id="12" text="Map met tijdelijke bestanden:"/>
+		<res id="13" text="Standaard indexmap:" t="g"/>
+	</dialog>
+	<dialog id="5538" name="IDD_GENERAL_ALERTS" caption="">
+		<res id="1" text="Geluid afspelen"/>
+		<res id="2" text="..."/>
+		<res id="3" text="..."/>
+		<res id="4" text="Toon taakbalkbericht"/>
+		<res id="5" text="Herhaal dit voor elk gevonden bestand"/>
+		<res id="6" text="Geluid afspelen"/>
+		<res id="7" text="..."/>
+		<res id="8" text="..."/>
+		<res id="9" text="Toon taakbalkbericht"/>
+		<res id="10" text="Bestand gevonden"/>
+		<res id="11" text="Zoekopdracht voltooid"/>
+	</dialog>
+	<dialog id="5557" name="IDD_GENERAL_EMAIL" caption="">
+		<res id="1" text="Zoeken"/>
+		<res id="2" text="Naam van het bericht opnemen in de naam van de bijlage"/>
+		<res id="3" text="Afzonderlijke tekstbijlage toevoegen"/>
+		<res id="4" text="HTML opmaak uit het bericht verwijderen"/>
+		<res id="5" text="Thunderbird"/>
+		<res id="6" text="Profiel mappen"/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+	</dialog>
+	<dialog id="5539" name="IDD_ADV_TRANSFORM" caption="">
+		<res id="1" text="Selecteer de XSLT-processor die wordt gebruikt voor het opslaan van resultaten in aangepaste formaten:"/>
+		<res id="2" text="DOM Prog Id:"/>
+		<res id="3" text="Microsoft XML Core Services"/>
+	</dialog>
+	<dialog id="5542" name="IDD_ADV_JUNCTIONS" caption="">
+		<res id="1" text="Symbolische links en map kruisingen"/>
+		<res id="2" text="&amp;Zoek symbolische- en kruislingse koppelingen"/>
+		<res id="3" text="U&amp;itgezonderd verborgen systeem bestanden"/>
+		<res id="4" text="Snelkoppelingen"/>
+		<res id="5" text="Snelkoppelingen zoeken"/>
+		<res id="6" text="Zoeken in mappen waar snelkoppelingen staan"/>
+	</dialog>
+	<dialog id="5543" name="IDD_ADV_FILELISTS" caption="">
+		<res id="1" text="Welke criteriavelden moeten bestandsoverzichten accepteren (b.v., =c:\list.txt):"/>
+		<res id="2" text="&amp;Bestandsnaam"/>
+		<res id="3" text="&amp;Bevat tekst"/>
+		<res id="4" text="&amp;Zoek in"/>
+	</dialog>
+	<dialog id="5545" name="IDD_EXPRESSION_BOOLEAN" caption="">
+		<res id="1" text="Gevoeligheid gelijkend"/>
+		<res id="2" text=""/>
+		<res id="3" text="Zeer gelijkend"/>
+		<res id="4" text="Soortgelijk"/>
+		<res id="5" text="Bij benadering"/>
+		<res id="6" text="Heel dichtbij"/>
+		<res id="7" text="Maximale afstand tussen woorden (in tekens)"/>
+		<res id="8" text="Taalkundige woorduitdrukking"/>
+		<res id="9" text="Afwijkende aanhalingstekens verwerken als normale aanhalingstekens"/>
+	</dialog>
+	<dialog id="5546" name="IDD_FILTERS" caption="Altijd gebruikte zoekfilters">
+		<res id="1" text="&amp;Gebruik deze zoekfilters altijd"/>
+		<res id="2" text="Zoekfilters:"/>
+		<res id="3" text="&amp;Toevoegen..."/>
+		<res id="4" text=""/>
+		<res id="5" text="OK"/>
+		<res id="6" text="Annuleren"/>
+	</dialog>
+	<dialog id="5547" name="IDD_FILTERS_EDIT" caption="Search Filter Definition">
+		<res id="1" text="&amp;Beschrijving:"/>
+		<res id="2" text="&amp;Locatie"/>
+		<res id="3" text="B&amp;estandsnaam"/>
+		<res id="4" text="Bladeren..."/>
+		<res id="5" text="Bladeren..."/>
+		<res id="6" text="Opslaan"/>
+		<res id="7" text="Annuleren"/>
+		<res id="8" text=""/>
+		<res id="9" text="Een zoekfilter kan elke geldige waarde hebben voor het veld Zoeken in of Bestandsnaam. Als het actief is, wordt het automatisch toegepast op elke zoekopdracht."/>
+		<res id="10" text=""/>
+	</dialog>
+	<dialog id="5548" name="IDD_EXPRESSION_REGEX" caption="">
+		<res id="1" text="Zinsopbouw met standaard uitdrukkingen"/>
+		<res id="2" text="&amp;Perl gelijkend"/>
+		<res id="3" text="&amp;Klassiek"/>
+		<res id="4" text="&amp;Sorteer tekenreeksen"/>
+		<res id="5" text="Standaard uitdrukkingen met meerdere regels"/>
+		<res id="6" text="Maximaal aantal regels per opdracht"/>
+	</dialog>
+	<dialog id="5549" name="IDD_EXPRESSION_HASH" caption="">
+		<res id="1" text="Hashing algoritmes"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+	</dialog>
+	<dialog id="5517" name="IDD_FORMATS_DOCUMENT" caption="Instellingen om documenten te zoeken">
+		<res id="1" text="Selecteer de zoekmethode voor het zoeken naar gangbare Office documenten (b.v. doc, pdf, xls, enz.):"/>
+		<res id="2" text="Diep zoeken (doorzoekt zowel de tekst als de ruwe gegevens in het bestand)"/>
+		<res id="3" text="Aangepaste verwerkingsinstellingen"/>
+		<res id="4" text="Gebruik alle geschikte document lezers"/>
+		<res id="5" text="Alleen geselecteerde documenten lezers gebruiken:"/>
+		<res id="6" text="&amp;Alle"/>
+		<res id="7" text="&amp;Geen"/>
+		<res id="8" text=""/>
+		<res id="9" text="Ook in ruwe documentgegevens van verwerkte bestanden zoeken"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Annuleren"/>
+		<res id="12" text="Tekst zoeken"/>
+		<res id="13" text="Uitgebreide instellingen (Word/PDF)" t="g"/>
+		<res id="14" text="Ingesloten documenten zoeken" t="g"/>
+	</dialog>
+	<dialog id="5525" name="IDD_FORMATS_ARCHIVE" caption="Zoekinstellingen gecomprimeerd/archief">
+		<res id="1" text="Selecteer binnen welke gecomprimeerde archieven u wilt zoeken:"/>
+		<res id="2" text="Zoek binnen alle gecomprimeerde bestanden"/>
+		<res id="3" text="Zoek alleen binnen de geselecteerde gecomprimeerde archieven"/>
+		<res id="4" text="&amp;Alle"/>
+		<res id="5" text="&amp;Geen"/>
+		<res id="6" text=""/>
+		<res id="7" text="OK"/>
+		<res id="8" text="Annuleren"/>
+	</dialog>
+	<dialog id="5519" name="IDD_CONFIGENTRY_EXPRESSIONS" caption="">
+		<res id="1" text="Deze groep bevat instellingen van uitdrukkingen."/>
+	</dialog>
+	<dialog id="5520" name="IDD_EXPRESSION_DOS" caption="">
+		<res id="1" text="&amp;Strikt conform de tekenreeks"/>
+		<res id="2" text="Uitdrukkingen met jokertekens"/>
+		<res id="3" text="&amp;Grensmarkeringen impliceren indien extensie gespecificeerd"/>
+	</dialog>
+	<dialog id="5521" name="IDD_GENERAL_GUI" caption="">
+		<res id="1" text="Thema"/>
+		<res id="2" text="Standaard (zoeken op tabbladen, standaard thema)"/>
+		<res id="3" text="Klassiek (MDI zoeken, Klassiek thema)"/>
+		<res id="4" text="Aangepast"/>
+		<res id="5" text="Thema:"/>
+		<res id="6" text="Zoeken met tabbladen"/>
+		<res id="7" text="&amp;Individuele tabbladen op de taakbalk*"/>
+		<res id="8" text="* Heeft effect nadat u opnieuw bent opgestart"/>
+		<res id="9" text="Toon de tabbladen in inhoudsoverzicht"/>
+		<res id="10" text="Standaardtabblad na zoeken"/>
+		<res id="11" text="Standaardinhoud tabblad:"/>
+	</dialog>
+	<dialog id="5522" name="IDD_EDITORSETTINGS_INTERNALVIEWER" caption="">
+		<res id="1" text="Weergave"/>
+		<res id="2" text="* Heeft effect voor alle nieuw geladen bestanden.."/>
+		<res id="3" text="Tabblad grootte:"/>
+	</dialog>
+	<dialog id="101" name="IDD_ABOUTBOX" caption="Over product">
+		<res id="1" text="https://www.mythicsoft.com"/>
+		<res id="2" text="mailto:support@mythicsoft.com"/>
+		<res id="3" text="&amp;Registratie nummer..."/>
+		<res id="4" text="OK"/>
+		<res id="5" text="Copyright © 2026 Mythicsoft Ltd. All rights reserved."/>
+		<res id="6" text="Soort licentie:"/>
+		<res id="7" text="(Veranderen)"/>
+		<res id="8" text="Web site:"/>
+		<res id="9" text="Privacy beleid: Persoonlijke gegevens worden NIET verkocht of gedistribueerd"/>
+		<res id="10" text="E-mail: "/>
+		<res id="11" text="Geregistreerd door:"/>
+		<res id="12" text="Privacy beleid"/>
+		<res id="13" text="https://www.mythicsoft.com/privacy-policy"/>
+		<res id="14" text=""/>
+	</dialog>
+	<dialog id="115" name="IDD_TESTREGEXP" caption="Test standaard uitdrukking">
+		<res id="1" text="&amp;Standaard uitdrukking:"/>
+		<res id="2" text="Komt overeen"/>
+		<res id="3" text="&amp;Voorbeeldtekst:"/>
+		<res id="4" text="Test"/>
+		<res id="5" text="Sluiten"/>
+		<res id="6" text="Resultaat:"/>
+		<res id="7" text="Niet helemaal zeker of je standaard uitdrukking juist is? In dit venster kunt u de uitvoering voor de standaard uitdrukking testen. Voer eenvoudig de uitdrukking in die u wilt testen, samen met een voorbeeldtekst en druk vervolgens op Test."/>
+		<res id="8" text="Opmerking: de uitdrukkingentester maakt gebruik van standaard uitdrukkingen in Perl-stijl."/>
+	</dialog>
+	<dialog id="102" name="IDD_SEARCHFOR_FORM" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="D&amp;eskundige gebruiker"/>
+		<res id="3" text="Start"/>
+		<res id="4" text="Stop"/>
+		<res id="5" text="Vooruitgang1"/>
+		<res id="6" text="Animeren1"/>
+		<res id="7" text=""/>
+	</dialog>
+	<dialog id="118" name="IDD_BASIC" caption="Hoofd">
+		<res id="1" text="Bestands&amp;naam:"/>
+		<res id="2" text="&amp;Bevat tekst:"/>
+		<res id="3" text="Zoek &amp;hulp..."/>
+		<res id="4" text="&amp;Zoek in:"/>
+		<res id="5" text=""/>
+		<res id="6" text="Zoek &amp;in onderliggende mappen"/>
+		<res id="7" text="B&amp;laderen..."/>
+	</dialog>
+	<dialog id="120" name="IDD_SEARCH_WIZ_NAME" caption="Bestandsnaam">
+		<res id="1" text="Wat is de naam van het bestand dat u wilt vinden?"/>
+		<res id="2" text="U weet de exacte naam niet? Geen zorgen, u kunt zoeken op delen van de naam. Als u niets weet van de naam, laat het dan leeg."/>
+		<res id="3" text="Voorbeelden:"/>
+		<res id="4" text="My*Doc"/>
+		<res id="5" text="Zou alle documenten met My dan Doc ergens in de naam moeten vinden"/>
+		<res id="6" text="(b.v. My_Document.doc, My_Autodoc.txt enz.)"/>
+		<res id="7" text="Make sure the file name is set to Wildcard expression in the options tab before using expressions like those shown in the examples."/>
+		<res id="8" text="MyDoc"/>
+		<res id="9" text="Zou alle documenten met MyDoc ergens in de naam moeten vinden"/>
+		<res id="10" text="(b.v. MyDocument.doc, Note_From_MyDoctor.txt enz.)"/>
+		<res id="11" text="*.doc;*.txt"/>
+		<res id="12" text="Zou alle .doc of .txt bestanden moeten vinden"/>
+		<res id="13" text="(b.v. MyDocument.doc, DoctorsNote.txt enz.)"/>
+	</dialog>
+	<dialog id="121" name="IDD_SEARCH_WIZ_LOCATION" caption="Plaats van bestand">
+		<res id="1" text="&amp;Alle lokale harde schijven"/>
+		<res id="2" text="Specifieke schijf (b.v. C:, D: enz.)"/>
+		<res id="3" text=""/>
+		<res id="4" text="Specifieke &amp;map (b.v. C:\Windows, D:\Files\My Docs enz.)"/>
+		<res id="5" text=""/>
+		<res id="6" text="&amp;Bladeren..."/>
+		<res id="7" text="&amp;Ja, ook in de onderliggende mappen zoeken"/>
+		<res id="8" text="&amp;Nee, alleen in die map zoeken"/>
+		<res id="9" text="&amp;Start het zoeken automatisch wanneer u op de knop Voltooien klikt"/>
+		<res id="10" text="Waar wilt u naar het bestand zoeken?"/>
+		<res id="11" text="Wilt u ook in de onderliggende mappen van de map zoeken?"/>
+		<res id="12" text="Prestatietip: door een bepaalde map te kiezen, wordt het aantal bestanden dat moet worden opgezocht aanzienlijk beperkt en dat gaat meestal veel sneller."/>
+	</dialog>
+	<dialog id="122" name="IDD_SEARCH_WIZ_CONTENTS" caption="Inhoud van het bestand">
+		<res id="1" text="Wilt u naar het bestand zoeken op basis van tekst in het bestand?"/>
+		<res id="2" text="&amp;Nee, zoek alleen op bestandsnaam"/>
+		<res id="3" text="&amp;Ja; zoek de inhoud van het bestand"/>
+		<res id="4" text="Welke tekst moet het bestand bevatten?"/>
+		<res id="5" text="Voorbeelden:"/>
+		<res id="6" text="&quot;Beste Bill&quot;"/>
+		<res id="7" text="Zou een bestand moeten vinden met Beste Bill erin."/>
+		<res id="8" text="(b.v. Beste Bill ..., beste Billy, hoe gaat het met jou enz.)"/>
+		<res id="9" text="Beste Bill"/>
+		<res id="10" text="Zou een bestand moeten vinden met de woorden Beste en Bill erin (b.v. Beste Fred, hoe is Bill ..., De worden hoeven elkaar niet op te volgen)"/>
+		<res id="11" text="Prestatietip: het doorzoeken van de inhoud van bestanden kan lang duren, vooral als een naam niet is ingevoerd of niet erg specifiek is. Daarom is het kiezen van Nee meestal veel sneller"/>
+	</dialog>
+	<dialog id="123" name="IDD_REGISTER" caption="Product Registratie">
+		<res id="1" text="OK"/>
+		<res id="2" text="Annuleren"/>
+		<res id="3" text="&amp;Naam:"/>
+		<res id="4" text="&amp;Achternaam:"/>
+		<res id="5" text="&amp;Registratie nummer:"/>
+		<res id="6" text="&amp;E-mail adres:"/>
+		<res id="7" text="Opmerking: de naam en het e-mail adres moeten exact worden ingevoerd zoals weergegeven in de registratie e-mail."/>
+		<res id="8" text="Als u problemen ondervindt neem dan contact op met support@mythicsoft.com."/>
+		<res id="9" text="Voer uw registratiegegevens in."/>
+	</dialog>
+	<dialog id="124" name="IDD_ADVANCED" caption="Start">
+		<res id="1" text="Bestands&amp;naam:"/>
+		<res id="2" text="&amp;Bevat tekst:"/>
+		<res id="3" text="&amp;Zoek in:"/>
+		<res id="4" text=""/>
+		<res id="5" text="N&amp;iet"/>
+		<res id="6" text=""/>
+		<res id="7" text="Help..."/>
+		<res id="8" text=""/>
+		<res id="9" text="Help..."/>
+		<res id="10" text="On&amp;derliggend"/>
+		<res id="11" text="Bladeren..."/>
+		<res id="12" text="Bladeren..."/>
+		<res id="13" text="&gt;"/>
+		<res id="14" text="&lt;"/>
+		<res id="15" text="&amp;Gewijzigd:"/>
+		<res id="16" text="&amp;Na:"/>
+		<res id="17" text="&amp;Voor:"/>
+		<res id="18" text="Toon kalender..."/>
+		<res id="19" text="Toon kalender..."/>
+		<res id="20" text=""/>
+	</dialog>
+	<dialog id="232" name="IDD_ADVANCED_LITE" copyid="124"/>
+	<dialog id="125" name="IDD_EXPR_WIZ" caption="Maak de uitdrukking">
+		<res id="1" text="occurs"/>
+		<res id="2" text="&amp;Toevoegen"/>
+		<res id="3" text="&amp;Veranderen"/>
+		<res id="4" text="&amp;Verwijderen"/>
+		<res id="5" text="List2"/>
+		<res id="6" text="Resultaat uitdrukking"/>
+		<res id="7" text="Opmerking: slepen en neerzetten om items opnieuw in te delen"/>
+	</dialog>
+	<dialog id="126" name="IDD_EXPR_WIZ_INTRO" caption="Introductie van de uitdrukkingen hulp">
+		<res id="1" text="Welkom bij de uitdrukkingen hulp. Met deze hulp kunt u precies bepalen waarnaar u op zoek bent.."/>
+		<res id="2" text="Standaard uitdrukkingen worden gebruikt om patronen voor tekenreeksen te beschrijven. Hoewel standaard uitdrukkingen expressies erg krachtig zijn, zijn ze ook vaak ontmoedigend voor de niet specialisten onder ons."/>
+		<res id="3" text="Het doel van uitzonderingen hulp is daarom om de complexiteit van standaard uitdrukkingen te verminderen zonder de kracht hiervan te hoeven op te offeren. Uitzonderingen hulp zal helpen de uitdrukking voor u op te bouwen door u te vragen om deze te beschrijven."/>
+		<res id="4" text="Opmerking:"/>
+		<res id="5" text="De zoek specifieke notitie gaat naar hier."/>
+		<res id="6" text="&amp;Laat deze introductie de volgende keer niet meer zien."/>
+	</dialog>
+	<dialog id="131" name="IDD_EXPR_WIZ_SPECIAL" caption="Waarschuwing: speciale karakters ingevoerd ">
+		<res id="1" text="&amp;Ja; voeg de juiste backslashes toe omdat geen van de tekens die ik heb ingevoerd moet worden behandeld als een speciaal teken."/>
+		<res id="2" text="&amp;Nee, ik gebruik bewust speciale tekens voor geavanceerd zoeken."/>
+		<res id="3" text="Een of meer van de uitdrukkingen die u hebt ingevoerd, bevat ten minste één van de volgende speciale tekens: ^$*?+.[]()|\ "/>
+		<res id="4" text="Speciale tekens worden gebruikt in standaard uitdrukkingen om de overeenkomstige regels te definiëren en moeten daarom met voorzichtigheid worden gebruikt. Als u wilt zoeken naar een teken dat een speciaal teken is dan moet u er een backslash vóór plaatsen. "/>
+		<res id="5" text=""/>
+		<res id="6" text="Als voorbeeld:"/>
+		<res id="7" text="Zoeken naar:"/>
+		<res id="8" text="de uitdrukking zou zijn:"/>
+		<res id="9" text="$400.00"/>
+		<res id="10" text="\$400\.00"/>
+		<res id="11" text="Wat was dat?"/>
+		<res id="12" text="Wat was dat\?"/>
+		<res id="13" text="(12\4)*5=15"/>
+		<res id="14" text="\(12\\4\)\*5=15"/>
+		<res id="15" text="Zoeken naar:"/>
+		<res id="16" text="Zoeken naar:"/>
+		<res id="17" text="de uitdrukking zou zijn:"/>
+		<res id="18" text="de uitdrukking zou zijn:"/>
+		<res id="19" text="Wilt u dat de uitdrukkingen hulp automatisch backslashes invoegt vóór alle speciale tekens?"/>
+	</dialog>
+	<dialog id="133" name="IDD_OPTIONS" caption="Opties">
+		<res id="1" text="Specificeert de &amp;NOT uitdrukking"/>
+		<res id="2" text="&amp;Gelijk aan"/>
+		<res id="3" text="Gelijk &amp;aan"/>
+		<res id="4" text=" Bestandsnaam "/>
+		<res id="5" text=" Inhoud "/>
+		<res id="6" text="Zoek in"/>
+		<res id="7" text="Verbeterd zoeken naar documenten"/>
+		<res id="8" text="Office en PDF documenten"/>
+	</dialog>
+	<dialog id="169" name="IDD_OPTIONS_ADVANCED_LITE" copyid="133"/>
+	<dialog id="140" name="IDD_SAVE_RESULTS" caption="Resultaten exporteren">
+		<res id="1" text="&amp;Klembord"/>
+		<res id="2" text="&amp;Bestand"/>
+		<res id="3" text="B&amp;laderen..."/>
+		<res id="4" text="&amp;Overschrijf bestand"/>
+		<res id="5" text="Voeg &amp;aan bestand toe"/>
+		<res id="6" text="&amp;Versleuteling:"/>
+		<res id="7" text="Standaard"/>
+		<res id="8" text="Aangepast (XSLT)"/>
+		<res id="9" text="&amp;Bladeren..."/>
+		<res id="10" text="All&amp;e bestanden"/>
+		<res id="11" text="&amp;Geselecteerde bestanden"/>
+		<res id="12" text="Bestands &amp;naam"/>
+		<res id="13" text="Inho&amp;ud"/>
+		<res id="14" text="Omliggende &amp;regels"/>
+		<res id="15" text="Exporteren"/>
+		<res id="16" text="Annuleren"/>
+		<res id="17" text="Bewaar resultaten voor"/>
+		<res id="18" text="Bewaar informatie"/>
+		<res id="19" text="Exporteer naar"/>
+		<res id="20" text="Grootte"/>
+	</dialog>
+	<dialog id="141" name="IDD_OPTIONALMSG" caption="Venster">
+		<res id="1" text="OK"/>
+		<res id="2" text="Vertel het me niet nog een keer."/>
+	</dialog>
+	<dialog id="142" name="IDD_BLANK" caption="Venster">
+		<res id="1" text="Dit is een leeg venster"/>
+	</dialog>
+	<dialog id="143" name="IDD_SCRIPTING" caption="Scripting">
+		<res id="1" text="Bestandsnaam script:"/>
+		<res id="2" text="Bladeren..."/>
+		<res id="3" text="Opdracht:"/>
+		<res id="4" text="Parm:"/>
+		<res id="5" text="Met tekstscript:"/>
+		<res id="6" text="Bladeren..."/>
+		<res id="7" text="Opdracht:"/>
+		<res id="8" text="Parm:"/>
+		<res id="9" text="&amp;Test"/>
+	</dialog>
+	<dialog id="152" name="IDD_EXPR_WIZ_DOSEXPR" caption="DOS uitdrukkingen">
+		<res id="1" text="Uitdrukkingen met jokertekens gebruiken de standaard Windows-syntaxis voor het specificeren van een groep bestanden. Een puntkomma wordt gebruikt om meerdere uitdrukkingen te scheiden."/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="*.txt\t\tSpecificeert alle bestanden met een txt extensie\n\n*.xls;*.doc\tSpecificeert alle bestanden met een .xls of een .doc extensie"/>
+		<res id="4" text="Geavanceerde voorbeelden:"/>
+		<res id="5" text="*.png;*.jpg:vissen\t\tSpecificeert alle .png en jpg bestanden met het woord vissen in de naam\n\nNOT:*.doc;*.xls\t\t\tSpecificeert alle bestanden behalve .doc and .xls bestanden\n\nvis;NOT:*.exe;*.dll\t\tspecificeert alle bestanden behalve .exe of .dll met het woord vis in de naam"/>
+	</dialog>
+	<dialog id="154" name="IDD_EXPR_WIZ_BOOLEANEXPR" caption="Boolean uitdrukkingen opdracht">
+		<res id="1" text="Boolean uitdrukkingen maken gebruik van de webstijlzoekoperators AND OR NOT, LIKE en NEAR. Boolean zoekopdrachten kunnen per regel of per bestand zijn:"/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="werk AND document\tZoekt naar de woorden 'werk' en 'document' in dezelfde regel of bestand"/>
+		<res id="4" text="werk document\t\tGebruikt dezelfde zoek opdracht al hierboven (de AND is onvoorwaardelijk)"/>
+		<res id="5" text="werk OR document\tZoekt naar de woorden 'werk' of 'document' in dezelfde regel of bestand"/>
+		<res id="6" text="werk NEAR document\tZoekt naar 'werk' in de buurt van het woord 'document' in een regel of bestand"/>
+		<res id="7" text="&quot;werk document&quot;\tZoekt naar de exacte woordcombinatie 'werk document'"/>
+		<res id="8" text="Op regel"/>
+		<res id="9" text="Uitdrukking wordt afzonderlijk uitgevoerd op elke individuele regel"/>
+		<res id="10" text="Op bestand"/>
+		<res id="11" text="Uitdrukking wordt uitgevoerd in het gehele bestand"/>
+		<res id="12" text="Opmerking: gebruik haakjes om de uitdrukking te groeperen, b.v. (werk AND doc) OR (speciaal AND patat)"/>
+	</dialog>
+	<dialog id="155" name="IDD_EXPR_WIZ_BOOLEANEXPR_LITE" caption="Boolean uitdrukkingen opdracht">
+		<res id="1" text="Boolean uitdrukkingen maken gebruik van de webstijlzoekoperators AND, OR, en NOT. Boolean zoekopdrachten zijn in het hele bestand."/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="werk AND document\tZoekt naar de woorden 'werk' en 'document' in dezelfde regel of bestand"/>
+		<res id="4" text="werk document\t\tGebruikt dezelfde zoek opdracht als hierboven (de AND is onvoorwaardelijk)"/>
+		<res id="5" text="werk OR document\tZoekt naar de woorden 'werk' of 'document' in hetzelfde bestand"/>
+		<res id="6" text="werk NOT document\tZoekt naar 'werk' zonder het woord 'document' in hetzelfde bestand"/>
+		<res id="7" text="&quot;werk document&quot;\tZoekt naar de exacte woordcombinatie 'werk document'"/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text=""/>
+		<res id="11" text=""/>
+		<res id="12" text="Opmerking: gebruik haakjes om de uitdrukking te groeperen, b.v. (werk AND doc) OR (speciaal AND patat)"/>
+	</dialog>
+	<dialog id="156" name="IDD_EXPR_WIZ_EXACTEXPR" caption="Platte tekst">
+		<res id="1" text="Met Platte tekst wordt de tekst van de zoekcriteria behandeld als een letterlijke waarde, d.w.z. precies zoals de tekst in het bewerkingsveld is ingevoerd. De zoekcriteria komen overeen met het geheel of een deel van een woord."/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="de schrijver\tzou zinnen moeten vinden met 'de schrijver' of 'de schrijvers'."/>
+		<res id="4" text="vis\t\tgelijk of tegenaan 'vis', 'vissen', or 'gevist'."/>
+	</dialog>
+	<dialog id="157" name="IDD_ATTRIBUTES" caption="Eigenschappen">
+		<res id="1" text="&amp;Gebruik eigenschappen"/>
+		<res id="2" text="Alles verwijderen"/>
+		<res id="3" text="&amp;Archief:"/>
+		<res id="4" text="&amp;Gecomprimeerd:"/>
+		<res id="5" text="Ver&amp;sleuteld:"/>
+		<res id="6" text="Inhouds:"/>
+		<res id="7" text="Ma&amp;p:"/>
+		<res id="8" text="&amp;Verborgen:"/>
+		<res id="9" text="&amp;Offline:"/>
+		<res id="10" text="&amp;Alleen-lezen:"/>
+		<res id="11" text="S&amp;ysteem:"/>
+		<res id="12" text="A&amp;nalyseren:"/>
+		<res id="13" text="&amp;Herstelpunt:"/>
+	</dialog>
+	<dialog id="158" name="IDD_ATTRIBUTE_SUMMARY" caption="Samenvatting eigenschappen">
+		<res id="1" text="Eigenschappen"/>
+		<res id="2" text="Zoeken:"/>
+	</dialog>
+	<dialog id="159" name="IDD_OPTIONS_ADVANCED" caption="Opties" maxgrow="700">
+		<res id="1" text="Boolean uitdrukking"/>
+		<res id="2" text="Gelijk:"/>
+		<res id="3" text="&amp;Regel voor regel"/>
+		<res id="4" text="&amp;In het gehele bestand"/>
+		<res id="5" text="Jokertekens toegestaan (&amp;*, ?)"/>
+		<res id="6" text="E-mail"/>
+		<res id="10" text="Verbeterd zoeken naar bestanden"/>
+		<res id="11" text="&amp;Office en PDF documenten"/>
+		<res id="12" text="Instellingen..."/>
+		<res id="13" text="O&amp;utlook en Thunderbird"/>
+		<res id="14" text="Zoek &amp;ook in bijlages"/>
+		<res id="15" text="Verwijder &amp;HTML opmaak"/>
+		<res id="16" text="&amp;Tekst in cache"/>
+		<res id="17" text="Cache..."/>
+		<res id="18" text="Sluit &amp;binaire bestanden uit"/>
+		<res id="19" text="OCR Images"/>
+		<res id="20" text="OCR..."/>
+	</dialog>
+	<dialog id="171" name="IDD_DATETIMEPICKER" caption="Datum en tijd selectie">
+		<res id="1" text="Datum"/>
+		<res id="2" text="Vaste datum:"/>
+		<res id="3" text="In de buurt van:"/>
+		<res id="4" text=""/>
+		<res id="5" text="Aanpassen (+/-)"/>
+		<res id="6" text="Dagen:"/>
+		<res id="7" text="Weken:"/>
+		<res id="8" text="Maanden:"/>
+		<res id="9" text="Jaren:"/>
+		<res id="10" text="Tijd"/>
+		<res id="11" text="Geef tijd op"/>
+		<res id="12" text="Vaste tijd:"/>
+		<res id="13" text="In de buurt van:"/>
+		<res id="14" text="HH:mm:ss"/>
+		<res id="15" text="Aanpassen (+/-)"/>
+		<res id="16" text="Seconden:"/>
+		<res id="17" text="Minuten:"/>
+		<res id="18" text="Uren:"/>
+		<res id="19" text="OK"/>
+		<res id="20" text="Annuleren"/>
+		<res id="21" text="Huidige uitdrukking:"/>
+		<res id="22" text="Dichtbij:"/>
+	</dialog>
+	<dialog id="173" name="IDD_EXPR_WIZ_FILEHASH" caption="Bestand Hash">
+		<res id="1" text="File Hashing genereert een unieke ID van een vaste lengte voor elk bestand op basis van de inhoud van het bestand. Bestanden met identieke inhoud produceren identieke hash-waarden."/>
+		<res id="2" text="1. Specificeer de hash-algoritmen in de configuratie-instellingen"/>
+		<res id="3" text="Zoeken op hash-waarde:"/>
+		<res id="4" text="2. Voer de hash waarde in om te zoeken als een door een komma's gescheiden lijst van hash waarden of bijvoorbeeld een aanwijzer naar een lijst met hash waarden."/>
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848"/>
+		<res id="6" text="=c:\hashfile.txt"/>
+		<res id="7" text="of"/>
+	</dialog>
+	<dialog id="175" name="IDD_EXPR_WIZ_BOOLEANREGEX" caption="Boolean RegEx opdracht">
+		<res id="1" text="Booleaanse RegEx uitdrukkingen zijn een mengeling van Boolean en standaard uitdrukkingen. Standaard uitdrukkingen kunnen worden gecombineerd met behulp van de bekende boolean waarden AND, OR, en NOT."/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;author&quot;"/>
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archive&quot;"/>
+		<res id="5" text="Note: gebruik haakjes om uitdrukkingen te groeperen (werk AND doc) OR (speciaal AND patat)"/>
+	</dialog>
+	<dialog id="177" name="IDD_EXPR_WIZ_WHOLEWORD" caption="Heel woord">
+		<res id="1" text="Hele woorduitdrukkingen zijn vergelijkbaar met Boolean waarden, behalve dat elke term alleen overeenkomt met exacte woorden in de zoektekst, d.w.z. gedeeltelijke woordovereenkomsten uitsluiten. Termen kunnen worden gecombineerd met behulp van de bekende booleaanse waarden AND, OR, and NOT"/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="de auteur\tzoekt naar het specifieke woord 'de' en 'auteur' met uitzondering van gedeeltelijke overeenkomsten zoals 'deze' or 'auteurisatie'."/>
+		<res id="4" text="Vis\t\tHeel woord 'vis' maar niet 'vissen' of 'gevist'."/>
+	</dialog>
+	<dialog id="235" name="IDD_EXPR_WIZ_FUZZY" caption="Fuzzy zoeken">
+		<res id="1" text="Fuzzy zoekuitdrukkingen komen overeen met de geschatte zoektermen, precies zoals de LIKE-operator voor Boolean uitdrukkingen. Omdat Fuzzy zoekuitdrukkingen een speciaal type Boolean uitdrukking zijn, kunnen individuele zoekzinnen worden gecombineerd met behulp van de AND, OR en NOT operatoren."/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text="Harken\tKomt overeen met Harken en Hurken maar ook Harkende en Hurkend."/>
+		<res id="4" text="Dollen\tkomt overeen met Dollen maar ook met Doppen en Dollend."/>
+	</dialog>
+	<dialog id="236" name="IDD_EXPR_WIZ_MULTILINE_REGEX" caption="Regex met meerdere regels">
+		<res id="1" text="Regex met meerdere regels gebruikt standaard uitdrukkingen over meerderen regels."/>
+		<res id="2" text="Voorbeeld:"/>
+		<res id="3" text=".{0,20}denken.{0,20}"/>
+		<res id="4" text="komt overeen met het woord denken dat overeenkomt met maximaal 20 tekens aan beide zijden, inclusief tekens aan het begin en einde."/>
+	</dialog>
+	<dialog id="180" name="IDD_DATES" caption="Datum">
+		<res id="1" text="Alles verwijderen"/>
+		<res id="2" text="&amp;Veranderd:"/>
+		<res id="3" text="Na:"/>
+		<res id="4" text="Toon kalender..."/>
+		<res id="5" text="Voor:"/>
+		<res id="6" text="Toon kalender..."/>
+		<res id="7" text="&amp;Gemaakt:"/>
+		<res id="8" text="Na:"/>
+		<res id="9" text="Toon kalender..."/>
+		<res id="10" text="Voor:"/>
+		<res id="11" text="Toon kalender..."/>
+		<res id="12" text="&amp;Laatst benaderd:"/>
+		<res id="13" text="Na:"/>
+		<res id="14" text="Toon kalender..."/>
+		<res id="15" text="Voor:"/>
+		<res id="16" text="Toon kalender..."/>
+	</dialog>
+	<dialog id="193" name="IDD_ADVANCEDTAB" caption="Gevorderden">
+		<res id="1" text="Bestand hashing"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+		<res id="6" text="Standaard uitdrukking"/>
+		<res id="7" text="&amp;Perl gelijkend"/>
+		<res id="8" text="&amp;Klassiek"/>
+		<res id="9" text="Actief Script gebruik"/>
+		<res id="10" text="Instellingen..."/>
+	</dialog>
+	<dialog id="145" name="IDD_EXTENSIONS" caption="Gecomprimeerde bestanden">
+		<res id="1" text=""/>
+		<res id="2" text="Selecteer de bestandsformaten waarin u wilt zoeken:"/>
+		<res id="3" text="Configuratie..."/>
+		<res id="4" text="&amp;Geen"/>
+		<res id="5" text="&amp;Alle"/>
+	</dialog>
+	<dialog id="179" name="IDD_CHECKVERSION" caption="Controleren op updates">
+		<res id="1" text="Controleren op updates..."/>
+		<res id="2" text=""/>
+		<res id="3" text="Web links:"/>
+		<res id="4" text="Downloads:"/>
+		<res id="5" text="https://www.mythicsoft.com/%app_name%/download"/>
+		<res id="6" text="Versiegeschiedenis: "/>
+		<res id="7" text="https://www.mythicsoft.com/%app_name%/history"/>
+		<res id="8" text="Automatisch controleren op updates"/>
+		<res id="9" text="Sluiten"/>
+	</dialog>
+	<dialog id="191" name="IDD_FAVOURITE_SEARCH" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Statisch"/>
+	</dialog>
+	<dialog id="192" name="IDD_FAVOURITE_ADD" caption="Favorieten toevoegen">
+		<res id="1" text=""/>
+		<res id="2" text="Voeg deze zoekopdracht toe als favoriet."/>
+		<res id="3" text="&amp;Omschrijving:"/>
+		<res id="4" text="&amp;Label:"/>
+		<res id="5" text="&amp;Toevoegen"/>
+		<res id="6" text="Annuleren"/>
+	</dialog>
+	<dialog id="3539" name="IDD_MULTIFOLDER" caption="Meerdere mappen">
+		<res id="1" text="Voeg elke map toe op een afzonderlijke regel door direct te typen of door te kiezen vanuit de vervolgkeuzelijst of door te bladeren."/>
+		<res id="2" text="&amp;Recente mappen:"/>
+		<res id="3" text=""/>
+		<res id="4" text="&amp;Toevoegen"/>
+		<res id="5" text="&amp;Uitsluiten"/>
+		<res id="6" text="&amp;Macro's:"/>
+		<res id="7" text=""/>
+		<res id="8" text="&amp;Toevoegen"/>
+		<res id="9" text="&amp;Uitsluiten"/>
+		<res id="10" text="&amp;Zoek in mappen:"/>
+		<res id="11" text="&amp;Bladeren..."/>
+		<res id="12" text="&amp;Mappen uitsluiten:"/>
+		<res id="13" text="B&amp;laderen..."/>
+		<res id="14" text="&amp;Inclusief filter:"/>
+		<res id="15" text="E&amp;xclusief filter:"/>
+		<res id="16" text="OK"/>
+		<res id="17" text="Annuleren"/>
+	</dialog>
+	<dialog id="3523" name="IDD_FILEVIEWER_FIND" caption="">
+		<res id="1" text="Vinden:"/>
+		<res id="2" text="l"/>
+		<res id="3" text="Volgende"/>
+		<res id="4" text="Vorige"/>
+		<res id="5" text="Markeren:"/>
+		<res id="6" text=""/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text="l"/>
+		<res id="11" text="Volgende"/>
+		<res id="12" text="Volgende"/>
+		<res id="13" text="Oorspronkelijke zoek kleur"/>
+		<res id="14" text="Kleur van de laatste zoekopdracht"/>
+		<res id="15" text="" t="e"/>
+		<res id="16" text="" t="e"/>
+	</dialog>
+	<dialog id="3521" name="IDD_ACTION_PROGRESS" caption="Actie:">
+		<res id="1" text="Annuleren"/>
+		<res id="2" text=""/>
+		<res id="3" text="Vooruitgang"/>
+	</dialog>
+	<dialog id="5550" name="IDD_GENERAL_LOCALIZATION" caption="">
+		<res id="1" text="Gebruikers taal:"/>
+		<res id="2" text="* Wijzigingen worden van kracht nadat u dit programma opnieuw heeft opgestart"/>
+	</dialog>
+	<dialog id="5551" name="IDD_SINGLE_CONFIG" caption="Plaats instellingen">
+		<res id="1" text="OK"/>
+		<res id="2" text="Annuleren"/>
+	</dialog>
+	<dialog id="5562" name="IDD_EDITHISTORY_DIALOG" caption="Edit History">
+		<res id="1" text="Geschiedenis" t="e"/>
+		<res id="2" text="Items:" t="e"/>
+		<res id="3" text="Wis alles..." t="g"/>
+		<res id="4" text="OK" t="e"/>
+		<res id="5" text="Annuleren" t="e"/>
+	</dialog>
+	<menu id="322" name="IDR_MENU_REFRESHINDEX">
+		<res id="1" text=""/>
+		<res id="2" text="&amp;Index bijwerken"/>
+		<res id="3" text="&amp;Index opnieuw maken"/>
+	</menu>
+	<menu id="328" name="IDR_INDEXLIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="Bewerk de index...\tEnter"/>
+		<res id="3" text="Index verwijderen...\tDel"/>
+		<res id="4" text="Nieuwe index toevoegen...\tIns"/>
+		<res id="5" text="Index bijwerken"/>
+		<res id="6" text="Index opnieuw maken"/>
+		<res id="7" text="Indexeren stoppen"/>
+	</menu>
+	<menu id="340" name="IDR_SCHEDULELIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="Schema bewerken..."/>
+		<res id="3" text="Schema verwijderen..."/>
+		<res id="4" text="Nieuw schema toevoegen..."/>
+	</menu>
+	<menu id="329" name="IDR_INDEXMGR_MENU">
+		<res id="1" text="&amp;Bestand"/>
+		<res id="2" text="&amp;Nieuwe index toevoegen..."/>
+		<res id="3" text="S&amp;toppen"/>
+		<res id="4" text="New &amp;Schedule..."/>
+		<res id="10" text="&amp;Bewerken"/>
+		<res id="11" text="&amp;Bewerk index..."/>
+		<res id="12" text="&amp;Index verwijderen..."/>
+		<res id="13" text="&amp;Index bijwerken"/>
+		<res id="14" text="&amp;Index opnieuw maken"/>
+		<res id="15" text="&amp;Indexeren stoppen"/>
+		<res id="20" text="&amp;Help"/>
+		<res id="21" text="&amp;Over Index Manager..."/>
+		<res id="22" text="&amp;Genereer een foutenrapport..."/>
+	</menu>
+	<menu id="5512" name="IDR_FILTERLIST_CONTEXTMENU">
+		<res id="1" text="List"/>
+		<res id="2" text="&amp;Bewerk..."/>
+		<res id="3" text="&amp;Verwijder"/>
+	</menu>
+	<menu id="5513" name="IDR_LICENSELIST_CONTEXTMENU">
+		<res id="1" text="List"/>
+		<res id="2" text="&amp;Kill Lease"/>
+	</menu>
+	<menu id="150" name="IDR_VIEWERMENU_SPECIALIZATION">
+		<res id="6" text="&amp;Bestand opslaan"/>
+		<res id="7" text="Bestand opslaan &amp;als..."/>
+	</menu>
+	<menu id="149" name="IDR_SHAREDMENU">
+		<res id="1" text="&amp;Bestand"/>
+		<res id="2" text="&amp;Nieuw"/>
+		<res id="3" text="&amp;Lege zoekopdracht"/>
+		<res id="4" text="&amp;Open..."/>
+		<res id="5" text="&amp;Sluiten"/>
+		<res id="6" text="&amp;Bewaar criteria"/>
+		<res id="7" text="Bewaar criteria &amp;als..."/>
+		<res id="8" text="Zoekresultaten&amp;lijst"/>
+		<res id="9" text="In h&amp;uidige selectie zoeken"/>
+		<res id="10" text="&amp;Resultaten exporteren..."/>
+		<res id="12" text="&amp;Afdrukken..."/>
+		<res id="13" text="P&amp;rinter instellingen..."/>
+		<res id="14" text="Recent bestand"/>
+		<res id="15" text="A&amp;fsluiten"/>
+		<res id="16" text="&amp;Bewerken"/>
+		<res id="17" text="&amp;Automatische terugloop"/>
+		<res id="18" text="&amp;Stel lettertype in..."/>
+		<res id="19" text="Stel &amp;Markeringskleur in..."/>
+		<res id="20" text="&amp;Zoek"/>
+		<res id="21" text="&amp;Zoek..."/>
+		<res id="22" text="Zoek &amp;volgende"/>
+		<res id="23" text="Zoek &amp;vorige"/>
+		<res id="24" text="Markeer &amp;Origineel"/>
+		<res id="25" text="Markeer &amp;huidig"/>
+		<res id="26" text="Selecteer Al&amp;les"/>
+		<res id="27" text="&amp;Openen"/>
+		<res id="28" text="&amp;Verkennen..."/>
+		<res id="29" text="Kopieer &amp;map"/>
+		<res id="30" text="&amp;Kopieer"/>
+		<res id="31" text="Kn&amp;ippen"/>
+		<res id="32" text="&amp;Verwijder"/>
+		<res id="33" text="Hernoe&amp;m"/>
+		<res id="34" text="&amp;Eigenschappen..."/>
+		<res id="35" text="&amp;Beeld"/>
+		<res id="36" text="&amp;Favorieten"/>
+		<res id="37" text="&amp;Werkbalk"/>
+		<res id="38" text="&amp;Statusbalk"/>
+		<res id="39" text="&amp;Lijst met fouten"/>
+		<res id="40" text="S&amp;orteer op"/>
+		<res id="41" text="&amp;Bestandsnaam"/>
+		<res id="42" text="&amp;Pad"/>
+		<res id="43" text="&amp;Grootte"/>
+		<res id="44" text="&amp;Soort"/>
+		<res id="45" text="&amp;Datum"/>
+		<res id="46" text="Te&amp;kst voorbeeld"/>
+		<res id="47" text="&amp;Vorig bestand"/>
+		<res id="48" text="&amp;Volgend bestand"/>
+		<res id="49" text="Pi&amp;ctogram"/>
+		<res id="50" text="&amp;Extra grote pictogrammen"/>
+		<res id="51" text="G&amp;rote pictogrammen"/>
+		<res id="52" text="&amp;Gewone pictogrammen"/>
+		<res id="53" text="&amp;Kleine pictogramman"/>
+		<res id="54" text="&amp;Terug naar de hoofdweergave"/>
+		<res id="55" text="&amp;Terug"/>
+		<res id="56" text="Verder"/>
+		<res id="57" text="&amp;Zoekopdracht"/>
+		<res id="58" text="&amp;Start"/>
+		<res id="59" text="&amp;Pauze"/>
+		<res id="60" text="S&amp;top"/>
+		<res id="61" text="&amp;Gereedschap"/>
+		<res id="62" text="&amp;Standaard uitdrukkingen tester..."/>
+		<res id="63" text="Zoekgesc&amp;hiedenis verwijderen..."/>
+		<res id="64" text="&amp;Instellingen voor bewerken..."/>
+		<res id="65" text="&amp;Voorkeuren..."/>
+		<res id="66" text="W&amp;indows integratie..."/>
+		<res id="67" text="&amp;Vensters"/>
+		<res id="68" text="Inhoudso&amp;verzicht"/>
+		<res id="69" text="Venster &amp;rechts"/>
+		<res id="70" text="Venster &amp;onder"/>
+		<res id="71" text="Laat zien"/>
+		<res id="72" text="&amp;Overlappend"/>
+		<res id="73" text="&amp;Niet overlappend"/>
+		<res id="74" text="&amp;Pictogrammen schikken"/>
+		<res id="75" text="&amp;Focus verplaatsen"/>
+		<res id="76" text="Zoek cri&amp;teria"/>
+		<res id="77" text="&amp;Bestandsoverzicht"/>
+		<res id="78" text="Inhoudsopgav&amp;e"/>
+		<res id="79" text="&amp;Huidige tabblad"/>
+		<res id="80" text="&amp;Samenvatting"/>
+		<res id="81" text="&amp;Treffers"/>
+		<res id="82" text="&amp;Tekst"/>
+		<res id="83" text="Mi&amp;niaturen"/>
+		<res id="84" text="Favor&amp;ieten"/>
+		<res id="85" text="Fout&amp;rapport"/>
+		<res id="86" text="Tabblad v&amp;olgorde"/>
+		<res id="87" text="Ge&amp;optimimaliseerd"/>
+		<res id="88" text="&amp;Traditioneel van links naar rechts"/>
+		<res id="89" text="&amp;Help"/>
+		<res id="90" text="&amp;Inhoud..."/>
+		<res id="91" text="Opdrachtregel &amp;parameters..."/>
+		<res id="92" text="Controleer op &amp;updates..."/>
+		<res id="93" text="&amp;Over %APP_NAME%..."/>
+		<res id="94" text="Bewaar &amp;zoekopdracht..."/>
+		<res id="95" text="Bewaar &amp;werkruimte..."/>
+		<res id="96" text="Alles &amp;sluiten"/>
+		<res id="97" text="Alle &amp;tekst vensters sluiten"/>
+		<res id="98" text="Alles sluiten &amp;behalve actieve zoekopdracht"/>
+		<res id="99" text="Contact opnemen met de &amp;technische ondersteuning..."/>
+		<res id="100" text="&amp;Genereer een foutenrapport..."/>
+		<res id="101" text="&amp;Registratie nummer..."/>
+		<res id="102" text="Alles sluiten &amp;behalve actieve zoekopdracht"/>
+		<res id="103" text="&amp;Menubalk"/>
+		<res id="104" text="&amp;Rapporten"/>
+		<res id="105" text="&amp;Filterbalk"/>
+		<res id="106" text="&amp;Zoekopdrachten"/>
+		<res id="107" text="&amp;Zoekopdrachten"/>
+		<res id="108" text="&amp;Expert"/>
+		<res id="109" text="&amp;Standaard"/>
+		<res id="110" text="&amp;Index zoeken"/>
+		<res id="111" text="&amp;Index manager..."/>
+		<res id="112" text="&amp;Expertise"/>
+		<res id="113" text="&amp;Selecteer kolommen..."/>
+		<res id="114" text="&amp;Wijzig het soort licentie..."/>
+		<res id="115" text="&amp;Upgrade..."/>
+		<res id="116" text="&amp;Zoom"/>
+		<res id="117" text="Zoom &amp;In"/>
+		<res id="118" text="Zoom &amp;Out"/>
+		<res id="119" text="&amp;License Manager..."/>
+	</menu>
+	<menu id="170" name="IDR_SHAREDMENU_LITE" copyid="149"/>
+	<menu id="148" name="IDR_CONTENTSVIEWMENU">
+		<res id="1" text="Inhoudsopgave"/>
+		<res id="2" text="Open in teksttabblad"/>
+		<res id="3" text="Open in een nieuw venster..."/>
+		<res id="4" text="Open in een extern bewerkprogramma..."/>
+		<res id="5" text="Open in Visual Studio..."/>
+		<res id="6" text="Resultaten exporteren..."/>
+		<res id="7" text="Automatische terugloop"/>
+		<res id="8" text="Kopiëren"/>
+		<res id="9" text="Alles uitvouwen"/>
+		<res id="10" text="Alles invouwen"/>
+		<res id="11" text="Venster rechts"/>
+		<res id="12" text="Venster onder"/>
+		<res id="13" text="Inhoud verbergen"/>
+	</menu>
+	<menu id="186" name="IDR_MENU_PLACEHOLDER">
+		<res id="1" text="Leeg"/>
+	</menu>
+	<menu id="194" name="IDR_FAVOURITES_MENU">
+		<res id="1" text="Zoek menu"/>
+		<res id="2" text="Open"/>
+		<res id="3" text="Open in nieuw venster"/>
+		<res id="4" text="Bewerk"/>
+		<res id="5" text="Verwijder"/>
+	</menu>
+	<menu id="114" name="IDR_FILELOTYPE">
+		<res id="1" text="Dummy"/>
+	</menu>
+	<menu id="107" name="IDR_FILEVIEWER">
+		<res id="1" text="Dummy"/>
+	</menu>
+	<menu id="200" name="IDR_FILTERMENU">
+		<res id="1" text="Filter"/>
+		<res id="2" text="Zoek filters aan"/>
+		<res id="3" text="Zoek filters uit"/>
+		<res id="4" text="Instellingen..."/>
+	</menu>
+	<menu id="3522" name="IDR_FILEVIEWER_CONTEXTMENU">
+		<res id="1" text="Inhoudsopgave"/>
+		<res id="2" text="&amp;Automatische terugloop"/>
+		<res id="3" text="Kopieer"/>
+		<res id="4" text="Open in nieuw venster..."/>
+		<res id="5" text="Open in een extern bewerkprogramma..."/>
+		<res id="6" text="Open in Visual Studio..."/>
+		<res id="7" text="Zoek"/>
+		<res id="8" text="Zoek volgende"/>
+		<res id="9" text="Zoek vorige"/>
+		<res id="10" text="Markeer origineel"/>
+		<res id="11" text="Markeer huidige"/>
+		<res id="12" text="Lettertype instellen..."/>
+		<res id="13" text="Bestand"/>
+		<res id="14" text="Opnieuw zoeken"/>
+		<res id="15" text="Nieuwe zoekopdracht"/>
+	</menu>
+	<menu id="3526" name="IDR_REPORTVIEW_CONTEXTMENU">
+		<res id="1" text="Rapporten"/>
+		<res id="2" text="Kopieer"/>
+		<res id="3" text="Alles selecteren"/>
+		<res id="4" text="Vernieuwen"/>
+	</menu>
+	<menu id="3507" name="IDR_IMAGESIZES_MENU">
+		<res id="1" text="Grote"/>
+		<res id="2" text="Extra grote pictogrammen"/>
+		<res id="3" text="Grote pictogrammen"/>
+		<res id="4" text="Standaard pictogrammen"/>
+		<res id="5" text="Kleine pictogrammen"/>
+		<res id="6" text="Voorbeeld"/>
+	</menu>
+	<menu id="3547" name="IDR_SEARCHTASKS_CONTEXTMENU">
+		<res id="1" text="Annuleren"/>
+		<res id="2" text="Kopieer pad"/>
+		<res id="3" text="Verken hier..."/>
+	</menu>
+	<menu id="3548" name="IDR_LISTHEADER_CONTEXTMENU">
+		<res id="1" text="Kopteksten"/>
+		<res id="2" text="Selecteer Kolommen..."/>
+	</menu>
+	<string id="4" type="IndexManager">
+		<res id="1" text="Voeg een nieuwe of bestaande index toe\nIndex toevoegen"/>
+		<res id="2" text="Index verplaatsen of definitief verwijderen\nVerplaats of verwijder Index"/>
+		<res id="3" text="Bewerk de index instellingen\nIndex bewerken"/>
+		<res id="4" text="Werk de index bij met eventuele wijzigingen die zich hebben voorgedaan\nIndex bijwerken"/>
+		<res id="5" text="Maak een heel nieuwe index\nMaak een nieuwe index aan"/>
+		<res id="6" text="Indexeringsproces annuleren\nAnnuleren"/>
+		<res id="7" text="Vernieuw de lijst\nVernieuw lijst"/>
+		<res id="8" text="Voeg een nieuw schema toe\nVoeg schema toe"/>
+		<res id="9" text="Bewerk het schema\nBewerk schema"/>
+		<res id="10" text="Verwijder het schema\nVerwijder schema"/>
+		<res id="11" text="Bewerk de indexen die aan het schema zijn gekoppeld\nBewerk indexlijst"/>
+	</string>
+	<string id="3" type="Interne viewer">
+		<res id="37" text="Sla het huidige bestand op\nBestand opslaan"/>
+	</string>
+	<string id="1" type="Bron">
+		<res id="1" text="Klaar"/>
+		<res id="2" text="Bladeren naar geluidsbestand"/>
+		<res id="3" text="Geluidsbestand afspelen"/>
+		<res id="4" refid="3"/>
+		<res id="5" text="Blader naar map"/>
+		<res id="6" text="Pad van het geluidsbestand"/>
+		<res id="7" refid="2"/>
+		<res id="8" refid="6"/>
+		<res id="9" refid="5"/>
+		<res id="10" refid="5"/>
+		<res id="11" refid="5"/>
+		<res id="12" refid="5"/>
+		<res id="13" text="Map openen in verkenner"/>
+		<res id="14" refid="13"/>
+		<res id="15" text="Configuratie"/>
+		<res id="16" text="Inhoud bekijken"/>
+		<res id="18" text="Map zoeken"/>
+		<res id="20" text="Extensies"/>
+		<res id="21" text="%APP_NAME%"/>
+		<res id="22" text="SDI_ONLY\nZoeken\nNieuwe zoekopdracht\nZoekcriteria (*.srf)\n.srf\nFileLocatorPro.Zoekcriteria\n%APP_NAME% Zoekcriteria"/>
+		<res id="23" text="Een of meer van de geselecteerde bestanden zijn samengestelde bestanden en worden niet verwijderd. Wil je doorgaan?"/>
+		<res id="24" text="Registratienummer is verlopen. Koop een nieuw nummer of installeer een oudere versie van het product. Oudere productversies zijn beschikbaar in het gedeelte MyAccount van de Mythicsoft-website(www.mythicsoft.com)."/>
+		<res id="25" text="Overschakelen naar een vorige zoekopdracht stopt de huidige zoekopdracht. Wil je doorgaan?"/>
+		<res id="26" text="FileLocatorPro"/>
+		<res id="27" refid="1"/>
+		<res id="34" text="Maak een nieuwe zoekopdracht op basis van de laatste zoekopdracht\nNieuwe zoekopdracht op basis van de laatste zoekopdracht"/>
+		<res id="35" text="Een bestand met zoekcriteria openen\nOpen"/>
+		<res id="36" text="Sluit de actieve zoekopdracht\nSluiten"/>
+		<res id="37" text="Bewaar de huidige zoekcriteria.\nBewaar criteria"/>
+		<res id="38" text="Bewaar de huidige zoekcriteria onder een andere naam.\nOpslaan als"/>
+		<res id="39" text="De afdrukinstellingen wijzigen\nPagina-instelling"/>
+		<res id="40" text="De printer en afdrukinstellingen wijzigen\nPrinter instellingen"/>
+		<res id="41" text="De geselecteerde zoekresultaten afdrukken\nAfdrukken"/>
+		<res id="42" text="Toon volledige pagina's\nAfdrukvoorbeeld"/>
+		<res id="43" text="Programma informatie, versienummer en copyrechten weergeven\nOver"/>
+		<res id="44" text="Programma afsluiten\nAfsluiten"/>
+		<res id="45" text="Open deze zoekopdracht"/>
+		<res id="46" refid="45"/>
+		<res id="47" refid="45"/>
+		<res id="48" refid="45"/>
+		<res id="49" refid="45"/>
+		<res id="50" refid="45"/>
+		<res id="51" refid="45"/>
+		<res id="52" refid="45"/>
+		<res id="53" refid="45"/>
+		<res id="54" refid="45"/>
+		<res id="55" refid="45"/>
+		<res id="56" refid="45"/>
+		<res id="57" refid="45"/>
+		<res id="58" refid="45"/>
+		<res id="59" refid="45"/>
+		<res id="60" refid="45"/>
+		<res id="61" text="Naar het volgende venster gaan\nVolgende venster"/>
+		<res id="62" text="Terug naar het vorige venster\nVorige venster"/>
+		<res id="63" text="Een ander venster voor het actieve document openen\nNieuw venster"/>
+		<res id="64" text="Plaats pictogrammen op volgorde onderin het venster\nPictogrammen schikken"/>
+		<res id="65" text="Vensters zo ordenen dat ze elkaar overlappen\nOverlappende vensters"/>
+		<res id="66" text="Vensters zo ordenen dat ze elkaar niet overlappen\nNiet overlappende vensters"/>
+		<res id="67" refid="66"/>
+		<res id="68" text="Splits het actieve venster op in delen\nSpliten"/>
+		<res id="69" text="De selectie wissen\nwissen"/>
+		<res id="70" text="Alles wissen\nWis alles"/>
+		<res id="71" text="Kopieer de huidige selectie naar het klembord\nKopieer"/>
+		<res id="72" text="Knip de selectie uit en plaats deze op het klembord\nKnippen"/>
+		<res id="73" text="Zoek de opgegeven tekst\nZoeken"/>
+		<res id="74" text="Inhoud van het klembord invoegen\nPlakken"/>
+		<res id="75" text="Herhaal de laatste actie\nHerhalen"/>
+		<res id="76" text="Specifieke tekst vervangen door andere tekst\nVervangen"/>
+		<res id="77" text="Selecteer het volledige document\nAlles selecteren"/>
+		<res id="78" text="Maak de laatste actie ongedaan\nOngedaan maken"/>
+		<res id="79" text="Herhaal de eerder ongedaan gemaakte actie\nOpnieuw ongedaan maken"/>
+		<res id="80" text="Toon of verberg de werkbalk\nWerkbalk zichbaar maken of verbergen"/>
+		<res id="81" text="Toon of verberg de statusbalk\nstatusbalk zichbaar maken of verbergen"/>
+		<res id="82" text="De grootte van het venster wijzigen"/>
+		<res id="83" text="Verander de positie van het venster"/>
+		<res id="84" text="Verklein het venster tot een pictogram"/>
+		<res id="85" text="Vergroot het venster tot volledige grootte"/>
+		<res id="86" text="Naar het volgende documentvenster gaan"/>
+		<res id="87" text="Naar het vorige documentvenster gaan"/>
+		<res id="88" text="Sluit het actieve venster en vraagt om de documenten op te slaan"/>
+		<res id="89" text="Herstel het venster naar normale grootte"/>
+		<res id="90" text="Takenlijst activeren"/>
+		<res id="91" text="Activeer dit venster"/>
+		<res id="92" text="Afdrukvoorbeeld sluiten\nVoorbeeld sluiten"/>
+		<res id="93" text="In dit deelvenster worden alle bestanden weergegeven die in de bestandslijstweergave zijn geselecteerd. Als u op inhoud zoekt, worden in dit deelvenster ook de regels van de geselecteerde bestanden weergegeven. Voor beschikbare opties gebruikt u het rechtermuisknop om het contextmenu te openen muisknop om het contextmenu te openen."/>
+		<res id="94" text="%s is geen geldige zoek map. De naam van de map moet een geldig pad zijn, inclusief de stationsletter (b.v. C:\Windows) of een goede UNC naam (b.v. \\WORKSTATION\Shared_Folder)."/>
+		<res id="95" text="\nZoekennaar\nZoeken\nZoekbestanden (*.sea)\n.sea\nzoekennaar.Document\nZoek Document"/>
+		<res id="96" text="Kopieer de paden van het momenteel geselecteerde bestand(en) naar het klembord\nBestandspaden kopiëren"/>
+		<res id="97" text="Open het dialoogvenster Eigenschappen van het (de) momenteel geselecteerde bestand(en)\nOpen Eigenschappen"/>
+		<res id="98" text="Open het geselecteerde bestand\nOpen bestand"/>
+		<res id="99" text="Test de standaard uitdrukingen hulp"/>
+		<res id="100" text="Automatische terugloop aan of uitschakelen bij het bekijken van de inhoud\nAutomatische terugloop"/>
+		<res id="101" text="Stel het lettertype voor de inhoudsweergave in\nStel lettertype in"/>
+		<res id="102" text="Start the zoekopdracht\nStart"/>
+		<res id="103" text="Stop de huidige zoekopdracht\nStop"/>
+		<res id="104" text="Open help\nHelp"/>
+		<res id="105" text="Selecteer alle bestanden in de bestandslijst\nAlles selecteren"/>
+		<res id="106" text="Zoekresultaten exporteren\nZoekresultaten exporteren"/>
+		<res id="107" text="Huidige selectie verwijderen\nVerwijderen"/>
+		<res id="108" text="Geschiedenis van de slepen en neerzetten lijsten verwijderen \nGeschiedenis wissen"/>
+		<res id="109" text="Wijzig zoekconfiguratie\nConfiguratie"/>
+		<res id="110" text="Systeem had onvoldoende geheugen tijdens het zoeken. Probeer de zoekopdracht opnieuw met de optie 'Zoeken in één opdracht'. Neem contact op met de technische ondersteuning als het probleem aanhoudt."/>
+		<res id="111" text="Er is een onverwachte uitzondering opgetreden tijdens het zoeken. Neem contact op met de technische ondersteuning als het probleem aanhoudt."/>
+		<res id="112" text="Klaar"/>
+		<res id="113" text="Probeer opnieuw om de effecten van de nieuwe instellingen te bekijken."/>
+		<res id="114" text="Zoeken in onderliggende mappen"/>
+		<res id="115" text="Zoeken in een map"/>
+		<res id="116" text="Open kalender"/>
+		<res id="117" text="Open kalender"/>
+		<res id="118" text="Blader naar meerdere mappen"/>
+		<res id="119" text="FILE_VIEWER\nView\nView\n\n\nFileLocator.FileViewer\nAFile Locator File Viewer"/>
+		<res id="120" text="Toon of verberg de favorietenlijst\nFavorieten"/>
+		<res id="121" text="Verander de instellingen van het programma om bestanden te bewerken\nInstellingen bewerker"/>
+		<res id="122" text="Open Explorer op het pad van het (de) momenteel geselecteerde bestand(en)\nOpen Explorer"/>
+		<res id="123" text="Systeemintegratie instellingen wijzigen\nSysteem instellingen"/>
+		<res id="124" text="Meerdere extensies openen"/>
+		<res id="125" text="Gaat naar de vorige zoekresultaten\nVorig zoekresultaat"/>
+		<res id="126" text="Gaat naar de volgende zoekresultaten\nVolgend zoekresultaat"/>
+		<res id="127" text="Huidige selectie hernoemen\nHernoemen"/>
+		<res id="128" text="Gaat naar de vorige zoekresultaten\nVorig zoekresultaat"/>
+		<res id="129" text="Gaat naar de volgende zoekresultaten\nVolgend zoekresultaat"/>
+		<res id="130" text="Groter dan"/>
+		<res id="131" text="Kleiner dan"/>
+		<res id="132" text="Meer informatie over de gekozen uitvoering"/>
+		<res id="133" text="Soort uitvoering"/>
+		<res id="134" refid="133"/>
+		<res id="135" refid="133"/>
+		<res id="136" text="Geeft aan of de inhoud regel voor regel of over het hele bestand wordt gematcht."/>
+		<res id="137" text="Geeft aan of de bestandsnaam expressie een NOT uitvoering is"/>
+		<res id="138" text="Toon of verberg het inhoudsvenster\nInhoudsvenster tonen of verbergen"/>
+		<res id="139" text="Pauzeer de zoekopdracht\nPauze"/>
+		<res id="140" text="Maak een nieuwe zoekopdracht met standaardinstellingen\nNieuwe lege zoekopdracht"/>
+		<res id="141" text="Creëer een nieuwe zoekopdracht op basis van de huidige criteria\nNieuwe zoekopdracht met huidige criteria"/>
+		<res id="142" text="Zoeken naar tekst in een bestand\nZoeken..."/>
+		<res id="143" text="Blader naar de volgende gemarkeerde regel met gevonden tekst\nBlader naar de volgende"/>
+		<res id="144" text="Blader naar de vorige gemarkeerde regel met gevonden tekst\nBlader naar de vorige"/>
+		<res id="145" text="Schakelen tussen markeringen van de huidige vondst\nSchakel tussen markereringen"/>
+		<res id="146" text="Vorige treffer"/>
+		<res id="147" text="Volgende treffer"/>
+		<res id="148" text="Vorig bestand"/>
+		<res id="149" text="Volgend bestand"/>
+		<res id="150" text="Bewerk de momenteel geselecteerde favoriet\nFavoriet bewerken"/>
+		<res id="151" text="Verwijder de momenteel geselecteerde favoriet\nFavoriet verwijderen"/>
+		<res id="152" text="Terug naar het hoofdvenster van de selectie\nTerug naar het hoofdvenster"/>
+		<res id="153" text="Zoek filter"/>
+		<res id="154" text="Zoek dit woord"/>
+		<res id="155" text="Huidige zoekopdracht als nieuwe favoriet toevoegen\nFavoriet toevoegen"/>
+		<res id="156" text="Vernieuw de lijst met favorieten\nVernieuwen"/>
+		<res id="166" text="Zoeken"/>
+		<res id="169" text="Render bibliotheek"/>
+		<res id="170" text="Scripting"/>
+		<res id="172" text="Zoeken"/>
+		<res id="175" text="Bestand"/>
+		<res id="177" text="Inhoud zoeken"/>
+		<res id="201" text="U moet de bestandsnaam instellen op 'standaard uitvoering' in het tabblad Opties voordat u de bestandsnaam als standaard uitvoering kunt opgeven.."/>
+		<res id="202" text="Bekijk de gevonden inhoud door een of meer bestanden in het rechterpaneel te selecteren.\n\nOpmerking: Om dit venster af te drukken klikt u op Afdrukken in het menu Bestand."/>
+		<res id="204" text="U moet de inhoud instellen op 'standaard uitvoering' in het tabblad Opties voordat u de tekst als standaard uitvoering kunt opgeven."/>
+		<res id="205" text="De uitvoering hulp biedt niet alle functionaliteit van standaard uitvoeringen, maar als je weet hoe je standaard uitvoeringen moet construeren, kun je elke standaard uitvoering zelf specificeren. Voeg gewoon uw standaard uitvoering toe als type 'Phrase' in de lijst 'Gevolgd door' en schakel ontsnap mogelijkheden  uit op de volgende wizard pagina (die wordt ingeschakeld zodra u speciale tekens begint in te voeren).."/>
+		<res id="206" text="Stel de kleur in voor het markeren van gevonden tekst\nKleur kiezen"/>
+		<res id="207" text="Sla de gegevens van de weergave op\nBewaar weergave"/>
+		<res id="208" text="Omschakelen naar één opdracht zoeken. Dat is efficiënter om naar inhoud te zoeken op grote schijven (geen voortgangsmeter)\nSchakel zoeken van één opdracht in (voor grote schijven)"/>
+		<res id="209" text="Verplaats venster onder de bestandsweergave\nVerplaats naar onder"/>
+		<res id="210" text="Verplaats venster rechts naast bestandsweergave\nVerplaats naar rechts"/>
+		<res id="211" text="Toon helpvenster voor opdrachtregel\nCommandline parms"/>
+		<res id="212" text="Meer informatie over het soort uitvoering wat u hebt gekozen"/>
+		<res id="213" text="Zoeken in de huidige resultaten\nZoeken huidige resultaten"/>
+		<res id="214" text="Toon/verberg de inhoud van het venster\nToon/verberg venster"/>
+		<res id="215" text="Zoeken binnen de momenteel geselecteerde bestanden\nZoeken binnen geselecteerde bestanden"/>
+		<res id="216" text="Schakelt tussen de markering van de oorspronkelijke zoekopdracht\nWissel markering"/>
+		<res id="217" text="Open de map waarin alle favorieten zijn opgeslagen\nOpen favorieten map"/>
+		<res id="218" text="Sluit alle vensters/tabbladen\nAlles sluiten"/>
+		<res id="219" text="Sluit alle vensters/tabbladen behalve de actieve zoekopdracht\nAlles sluiten behalve zoekopdracht"/>
+		<res id="220" text="Alle geopende bestandsvensters sluiten\nSluit alle vensters"/>
+		<res id="221" text="Sla de huidige zoeksessie op\nSla zoeksessie op"/>
+		<res id="222" text="Sla alle zoeksessies in de werkruimte op\nBewaar werkruimte"/>
+		<res id="224" text="Vernieuw het rapport\nVernieuwen"/>
+		<res id="225" text="Kopieer het rapport naar het klembord\nKopieer"/>
+		<res id="226" text="Kopieer het rapport naar een bestand\nBewaar rapport"/>
+		<res id="227" text="Druk het rapport af\nAfdrukvoorbeeld"/>
+		<res id="228" text="Wijzig de velden en de opmaak van het rapport\nRapport Opties"/>
+		<res id="229" text="De menubalk weergeven of verbergen\nMenubalk verbergen of tonen"/>
+		<res id="230" text="Markeer oorspronkelijke zoekresultaten"/>
+		<res id="231" text="Markeer onderliggende zoekresultaten"/>
+		<res id="232" text="Kopieer lijst naar klembord"/>
+		<res id="233" text="Lijst van bestand laden"/>
+		<res id="234" text="Lijst opslaan in een bestand"/>
+		<res id="235" text="Lijst wissen"/>
+		<res id="236" text="Kopieer de lijst met fouten naar het klembord\nKopieer naar klembord"/>
+		<res id="237" text="Kopieer de lijst met fouten naar een bestand\nFouten opslaan"/>
+		<res id="238" refid="13"/>
+		<res id="239" refid="13"/>
+		<res id="240" refid="5"/>
+		<res id="241" text="Wijzig indexinstellingen"/>
+		<res id="242" text="Zoeken in de index"/>
+		<res id="243" text="Upgrade naar Pro functies\nUpgrade"/>
+		<res id="244" text="Inzoomen" t="g"/>
+		<res id="245" text="Uitzoomen" t="g"/>
+		<res id="246" text="Zoekcriteria type" t="g"/>
+		<res id="247" text="Zoeken starten" t="g"/>
+		<res id="248" text="Stop met zoeken" t="g"/>
+		<res id="249" text="Datum groter dan" t="g"/>
+		<res id="250" text="Datum minder dan" t="g"/>
+	</string>
+	<string id="2" type="Text">
+		<res id="1" text="Welke map wilt u selecteren?"/>
+		<res id="2" text="Ongeldige map"/>
+		<res id="3" text="&lt; 1 sec"/>
+		<res id="4" text="Kopiëren naar klembord"/>
+		<res id="5" text="Lokale harde schijven"/>
+		<res id="6" text="Boolean"/>
+		<res id="7" text="Platte tekst"/>
+		<res id="8" text="Standaard uitdrukking"/>
+		<res id="9" text="Jokertekens"/>
+		<res id="10" text="Bestands Hash"/>
+		<res id="11" text="Boolean RegEx"/>
+		<res id="12" text="Heel woord"/>
+		<res id="13" text="Uitdrukking"/>
+		<res id="14" text="(Ongeldig soort uitdrukking)"/>
+		<res id="15" text="Hoog"/>
+		<res id="16" text="Normaal (Standard)"/>
+		<res id="17" text="Laag"/>
+		<res id="18" text="Standaard (Standaard)"/>
+		<res id="19" text="Standaard"/>
+		<res id="20" text="Donker"/>
+		<res id="21" text="Blauw"/>
+		<res id="22" text="Klassiek"/>
+		<res id="23" text="Zilver"/>
+		<res id="24" text="Top"/>
+		<res id="25" text="ASCII"/>
+		<res id="26" text="Unicode"/>
+		<res id="27" text="Unicode (Big Endian)"/>
+		<res id="28" text="UTF8 (No BOM)"/>
+		<res id="29" text="Tekst"/>
+		<res id="30" text="Komma geschijden (CSV)"/>
+		<res id="31" text="Tab gescheiden"/>
+		<res id="32" text="Kan bestandslijst niet openen: "/>
+		<res id="34" text="Bestandsmap"/>
+		<res id="35" text="Aan"/>
+		<res id="36" text="Uit"/>
+		<res id="37" text="Sluit uit SVN/HG/GIT/CVS metagegevens mappen"/>
+		<res id="38" text="Sluit de map Program Files uit"/>
+		<res id="39" text="!$(ProgramFiles)"/>
+		<res id="40" text="Windows systeembestanden uitsluiten"/>
+		<res id="41" text="!$(WindowsFolder)"/>
+		<res id="42" text="Prullenbak uitsluiten"/>
+		<res id="43" text="Geschiedenis verwijderen"/>
+		<res id="44" text="Gevorderd"/>
+		<res id="45" text="Bestandsoverzichten"/>
+		<res id="46" text="Mappen"/>
+		<res id="47" text="Symbolische links en snelkoppelingen"/>
+		<res id="48" text="Opdrachten en prioriteit"/>
+		<res id="49" text="XSLT Processor"/>
+		<res id="50" text="Bewerkings programma"/>
+		<res id="51" text="Standaard bewerkings programma"/>
+		<res id="52" text="Extern bewerkings programma"/>
+		<res id="53" text="Intern bekijk programma"/>
+		<res id="54" text="Kan XSL parser niet maken met opgegeven Prog ID."/>
+		<res id="55" text="Applicatie bestanden (*.exe)|*.exe|Alle bestanden (*.*)|*.*||"/>
+		<res id="56" text="Er is een fout opgetreden bij het openen van de bestandsbrowser. Zorg ervoor dat de bestandsnaam geldig is voordat u probeert te browsen."/>
+		<res id="57" text="Hiermee worden alle uitbreidingsinstellingen teruggezet naar de oorspronkelijke installatietoestand. Weet u het zeker?"/>
+		<res id="58" text="Uitbreidingen resetten"/>
+		<res id="59" text="Geef een geluid op om af te spelen wanneer een bestand is gevonden"/>
+		<res id="60" text="Geef een geluid op om af te spelen wanneer een zoekopdracht eindigt"/>
+		<res id="61" text="Kan geen geluid afspelen. Het geluidsbestand kan corrupt zijn of niet in een geldig formaat"/>
+		<res id="62" text="Geef een geldig geluidsbestand op om af te spelen."/>
+		<res id="63" text="Geluidsbestanden (*.wav)|*.wav|Alle bestanden (*.*)|*.*||"/>
+		<res id="64" text="Niet in staat om naar een geluidsbestand te bladeren."/>
+		<res id="65" text="Soort bestand"/>
+		<res id="66" text="Status"/>
+		<res id="67" text="Bijbehorend IFilter"/>
+		<res id="68" text="Het programma is geconfigureerd voor gebruik vanaf een USB-apparaat. Windows integratie kan niet worden ingesteld."/>
+		<res id="69" text="Uitdrukkingen"/>
+		<res id="70" text="Boolean uitdrukkingen"/>
+		<res id="71" text="Wildcards"/>
+		<res id="72" text="Standaard uitdrukkingen"/>
+		<res id="73" text="Bestand hashing"/>
+		<res id="74" text="UTF-8 Standaardformaat"/>
+		<res id="75" text="Uitbreidingen"/>
+		<res id="76" text="Algemeen"/>
+		<res id="77" text="Geschiedenis"/>
+		<res id="78" text="Weergave"/>
+		<res id="79" text="Tekenverwerking"/>
+		<res id="80" text="Windows integratie"/>
+		<res id="81" text="Geluiden en waarschuwingen"/>
+		<res id="82" text="Gebruikers interface"/>
+		<res id="83" text="Pas configuratie informatie toe"/>
+		<res id="84" text="Hiermee worden ALLE configuratie-instellingen gereset naar de standaardinstellingen van de installatie. Weet u het zeker?"/>
+		<res id="85" text="Configuratie resetten"/>
+		<res id="86" text="Beschrijving"/>
+		<res id="87" text="Filter waarde"/>
+		<res id="88" text="Bestandsgegevens opvragen..."/>
+		<res id="89" text="Licentie voor één gebruiker"/>
+		<res id="90" text="Organisatie multi-site licentie (tot %s gebruikers)"/>
+		<res id="91" text="Organisatie multi-site licentie (onbeperkte aantal gebruikers)"/>
+		<res id="92" text="Multi-user licentie: %s licenties"/>
+		<res id="93" text="Registratienummer: \r\n%s"/>
+		<res id="94" text="Ondersteuning / gratis upgrades tot: %s\r\n"/>
+		<res id="95" text="Proeflicentie is verlopen. U MOET u registreren om dit product legaal te blijven gebruiken."/>
+		<res id="96" text="Volledig functionele, proefversie. Resterende dagen: %d"/>
+		<res id="97" text="Hoofdlettergevoelig"/>
+		<res id="98" text="Altijd gebruikte zoekfilters"/>
+		<res id="99" text="Grootte (byte)"/>
+		<res id="100" text="Grootte (kB)"/>
+		<res id="101" text="Grootte (MB)"/>
+		<res id="102" text="Grootte (GB)"/>
+		<res id="103" text="Klaar"/>
+		<res id="104" text="Nieuwe versie beschikbaar"/>
+		<res id="105" text="Geen update gevonden."/>
+		<res id="106" text="Nieuwe zoekopdracht"/>
+		<res id="107" text="Laat zien"/>
+		<res id="108" text="Kan geen criteriabestand openen"/>
+		<res id="109" text="Opdrachtregel zoekopdracht was niet succesvol."/>
+		<res id="110" text="Bestand(en) gevonden"/>
+		<res id="111" text=" is geen herkenbare datum of tijd."/>
+		<res id="112" text="Geen bestanden geselecteerd."/>
+		<res id="113" text="Zoekstatistieken"/>
+		<res id="114" text="Samenvatting"/>
+		<res id="115" text="Voorbeeld"/>
+		<res id="116" text="Fouten"/>
+		<res id="117" text="Datum wijziging"/>
+		<res id="118" text="Datum aangemaakt"/>
+		<res id="119" text="Datum laatste toegang"/>
+		<res id="120" text="Nu"/>
+		<res id="121" text="Start binnen een minuut"/>
+		<res id="122" text="Start binnen een uur"/>
+		<res id="123" text="Start binnen een dag"/>
+		<res id="124" text="Eindigt binnen een minuut"/>
+		<res id="125" text="Eindigt binnen een uur"/>
+		<res id="126" text="Eindigt binnen een dag"/>
+		<res id="133" text="%s is geen geldig tijdformaat"/>
+		<res id="134" text="Onverwachte uitdrukking"/>
+		<res id="135" text="Ik weet het niet"/>
+		<res id="136" text="Elk karakter"/>
+		<res id="137" text="Het karakter"/>
+		<res id="138" text="Een van deze karakters"/>
+		<res id="139" text="Alle karakters behalve deze"/>
+		<res id="140" text="The phrase"/>
+		<res id="141" text="Ruimte"/>
+		<res id="142" text="Elk numeriek teken"/>
+		<res id="143" text="Elk tekst karakter"/>
+		<res id="144" text="Nul of eenmaal"/>
+		<res id="145" text="Nul of vele malen"/>
+		<res id="146" text="Eenmalig"/>
+		<res id="147" text="Eenmalig of vaak"/>
+		<res id="148" text="Gevolgd door"/>
+		<res id="149" text="Voorkomt"/>
+		<res id="150" text="Bestandsnaam uitdrukkingen hulp"/>
+		<res id="151" text="Favoriet bewerken"/>
+		<res id="152" text="Opslaan"/>
+		<res id="153" text="Weergeven: %s van %s"/>
+		<res id="154" text="Laden..."/>
+		<res id="155" text="Geladen: %s"/>
+		<res id="156" text="Onbekende favoriet"/>
+		<res id="157" text="Voorbereiden om favorieten te vinden is mislukt: "/>
+		<res id="158" text="Favorieten lezen"/>
+		<res id="159" text="Favoriet verwijderen"/>
+		<res id="160" text="Favoriet bewerken"/>
+		<res id="161" text="Labels"/>
+		<res id="162" text="Zoeken"/>
+		<res id="163" text="Favoriet opslaan"/>
+		<res id="164" text="Favorietenmap openen"/>
+		<res id="165" text="Kan de zoekcriteria niet terugvinden. Toevoegen mislukt."/>
+		<res id="166" text="Open of maak een zoekopdracht die u aan uw favorieten wilt toevoegen."/>
+		<res id="167" text="Proefperiode is verstreken. U moet een licentie kopen of overschakelen naar de gratis versie."/>
+		<res id="168" text="Configuratie instellingen wijzigen"/>
+		<res id="169" text="The registration key has either been deleted or is unavailable. Please contact support@mythicsoft.com for more information."/>
+		<res id="170" text="Configuratiebestand kan niet worden geladen"/>
+		<res id="171" text="Niet in staat om geschiedenis configuratiebestand te laden"/>
+		<res id="172" text=""/>
+		<res id="173" text="Kan bestand niet openen"/>
+		<res id="174" text="Bestand openen"/>
+		<res id="175" text="Mislukt om bestand te openen in Visual Studio. Voor meer informatie kunt u het logbestand raadplegen."/>
+		<res id="176" text="Geen programma geselecteerd on te bewerken. Wilt u er nu een kiezen?"/>
+		<res id="178" text="Fout bij het uitvoeren van het bewerkingsprogramma.\r\n\r\n%s"/>
+		<res id="179" text="Zoeken kon niet worden geladen"/>
+		<res id="180" text="Verwacht een waarde voor de opdrachtregel flag '-%s' is niet geldig"/>
+		<res id="181" text="Opdrachtregel flag '-%s' is not valid"/>
+		<res id="182" text="Ongeldig datumformaat: %s"/>
+		<res id="183" text="Onverwachte opdrachtregel parameter: %s"/>
+		<res id="184" text="Bezig"/>
+		<res id="185" text="Zoeken starten"/>
+		<res id="186" text="** LADEN MISLUKT **\r\n\r\nkan niet worden geladen: %s\r\n\r\nControleer of het bestand nog steeds bestaat en of u over de juiste machtigingen beschikt om het te lezen.\r\n\r\nde technische ondersteuning als u meer hulp nodig heeft en voeg zowel deze foutmelding als eventuele logbestanden bewaard in de logmap:\r\n%s\r\n\r\nMeer informatie:\r\n%s\r\n"/>
+		<res id="189" text="Kan het bestand niet openen."/>
+		<res id="190" text="Gestopt"/>
+		<res id="191" text="Voltooid"/>
+		<res id="192" text="Fouten tijdens het zoeken. Als het probleem aanhoudt, neem dan contact op met de technische ondersteuning"/>
+		<res id="193" text="Inhoudsopgave"/>
+		<res id="194" text="selectie veranderen"/>
+		<res id="195" text="Bewaren van zoekresultaten"/>
+		<res id="197" text="%s in "/>
+		<res id="198" text="Kan geen criteriabestand laden. Controleer of het een geldig criteriabestand is."/>
+		<res id="199" text="U staat op het punt om een favoriet te overschrijven. Weet u het zeker?"/>
+		<res id="200" text="%s %s gevonden."/>
+		<res id="201" text="Zoeken voltooid  - %s %s gevonden."/>
+		<res id="202" text="Bekijken"/>
+		<res id="203" text="Favorieten"/>
+		<res id="204" text="Foutenlijst"/>
+		<res id="205" text="Pauze"/>
+		<res id="206" text="Zoektijd"/>
+		<res id="208" text="Huidige zoekopdracht"/>
+		<res id="209" text="Oorspronkelijke zoekopdracht"/>
+		<res id="210" text="Weergegeven"/>
+		<res id="211" text="Gevonden"/>
+		<res id="212" text="Tonen"/>
+		<res id="213" text="Geselecteerd"/>
+		<res id="215" text="item"/>
+		<res id="216" text="Ontdekt"/>
+		<res id="218" text="%s MB"/>
+		<res id="219" text="%s bestanden gevonden"/>
+		<res id="220" text="Een nieuwe versie van dit programma is beschikbaar. Wilt u de details zien?"/>
+		<res id="221" text="Geregistreerd! Dank u voor het nemen van de tijd om u te registreren"/>
+		<res id="222" text="Registratie informatie is niet geldig. Zorg ervoor dat alle registratie informatie precies zo is ingevuld als in de registratie E-mail."/>
+		<res id="225" text="Geef een geldige bestandsnaam op voor het opslaan van de resultaten."/>
+		<res id="226" text="Geef een geldig transformatiebestand op."/>
+		<res id="227" text="Zoekresultaten."/>
+		<res id="228" text="Alle bestanden (*.*)|*.*||"/>
+		<res id="229" text="Aangepast formaat bestand is niet geldig. Controleer of het bestand bestaat en of u over de juiste machtigingen beschikt om het bestand te openen.\r\n\r\n"/>
+		<res id="230" text="XSL (*.xsl)|*.xsl|Alle bestanden (*.*)|*.*||"/>
+		<res id="231" text="Kan het dialoogvenster voor bestandselectie niet openen: %d"/>
+		<res id="232" text="Test succesvol."/>
+		<res id="233" text="Gezocht"/>
+		<res id="234" text="Gecontroleerd"/>
+		<res id="235" text="Status"/>
+		<res id="236" text="Niet gestart"/>
+		<res id="237" text="Pauze"/>
+		<res id="238" text="Hervatten"/>
+		<res id="240" text="%sMb van %sMb"/>
+		<res id="242" text="Filteren"/>
+		<res id="243" text="Zoeken"/>
+		<res id="244" text="Start"/>
+		<res id="245" text="Uitdrukking werd gevonden in tekst.\r\nUitdrukking start: %d\r\nUitdrukkingslengte: %d\r\nGevonden: %s"/>
+		<res id="246" text="Geen resultaten."/>
+		<res id="247" text="Uitdrukking NOT gevonden in tekst."/>
+		<res id="248" text="Registratiebestand is corrupt."/>
+		<res id="249" text="Registratie-informatie niet gevonden."/>
+		<res id="250" text="Registratiesleutel is verlopen."/>
+		<res id="251" text="%APP_NAME% Keyboard Hook"/>
+		<res id="256" text="Installation log is niet gestart, probeer het opnieuw te installeren. Als het probleem aanhoudt, neem dan contact op met de technische ondersteuning."/>
+		<res id="258" text="Kopiëren"/>
+		<res id="259" text="Kopieer pad"/>
+		<res id="260" text="Knippen"/>
+		<res id="261" text="Verwijderen"/>
+		<res id="262" text="Hier verkennen..."/>
+		<res id="263" text="Eigenschappen"/>
+		<res id="264" text="Zoeken binnen de selectie"/>
+		<res id="265" text="Zoeken binnen de resultaten"/>
+		<res id="266" text="%s Bekijk de inhoud"/>
+		<res id="267" text="Verberg"/>
+		<res id="268" text="\r\nVolgende zoekmappen waren niet geldig:\r\n\r\n"/>
+		<res id="269" text="\r\nDe naam van de map moet een geldig pad zijn en een schijfletter bevatten (e.g. C:\Windows) OF een goede UNC-naam (e.g. \\WORKSTATION\Shared_Folder)."/>
+		<res id="272" text="Macro's laden"/>
+		<res id="273" text="Parsing script mislukt:\r\n"/>
+		<res id="274" text="Probleem met het maken van script opdracht. "/>
+		<res id="275" text="(Geen onderwerp)"/>
+		<res id="276" text="(onbekend)"/>
+		<res id="277" text="Gemaakt"/>
+		<res id="278" text="Contact"/>
+		<res id="279" text="Pad"/>
+		<res id="280" text="Datum"/>
+		<res id="281" text="Van"/>
+		<res id="282" text="Aan"/>
+		<res id="283" text="(leeg)"/>
+		<res id="284" text="(Ontvangerslijst kon niet worden geladen - Contact tech support voor meer informatie)\r\n"/>
+		<res id="285" text="Ontvangen door"/>
+		<res id="286" text="Verzonden"/>
+		<res id="287" text="Onderwerp"/>
+		<res id="288" text="\r\nFout bij het opbouwen van het bericht: "/>
+		<res id="289" text=""/>
+		<res id="290" text="Eigenschappen"/>
+		<res id="291" text="Bestandsgrootte"/>
+		<res id="292" text="Genegeerde extensies"/>
+		<res id="294" text="Fout gemeld maar geen details verstrekt."/>
+		<res id="295" text="Inhoud validatie script mislukt met: "/>
+		<res id="296" text="sec"/>
+		<res id="297" text="uur"/>
+		<res id="298" text="min"/>
+		<res id="299" text="Vandaag"/>
+		<res id="300" text="Begin van de week"/>
+		<res id="301" text="Begin van de maand"/>
+		<res id="302" text="Begin van het jaar"/>
+		<res id="303" text="Einde van de week"/>
+		<res id="304" text="Einde van de maand"/>
+		<res id="305" text="Einde van het jaar "/>
+		<res id="306" text="dag"/>
+		<res id="307" text="week"/>
+		<res id="308" text="maand"/>
+		<res id="309" text="jaar"/>
+		<res id="310" text="Bestanden ophalen..."/>
+		<res id="311" text="Itemnaam voor validatiescript maken %s"/>
+		<res id="312" text="Itemnaam validatie script is mislukt: "/>
+		<res id="313" text="Ja"/>
+		<res id="314" text="Nee"/>
+		<res id="315" text="Bestandsnaam Uitdrukking"/>
+		<res id="316" text="Bestandsnaam hoofdlettergevoelig"/>
+		<res id="317" text="Inhoud zoeken"/>
+		<res id="318" text="Bevat tekst"/>
+		<res id="319" text="Inhoud uitdrukking"/>
+		<res id="320" text="Inhoud hoofdlettergevoelig "/>
+		<res id="321" text="Span bestand"/>
+		<res id="322" text="Zoek in"/>
+		<res id="323" text="Onderliggende mappen"/>
+		<res id="324" text="Zoek de uitdrukking"/>
+		<res id="325" text="Gewijzigd na"/>
+		<res id="326" text="Gewijzigd voor"/>
+		<res id="327" text="Laatst benaderd na"/>
+		<res id="328" text="Laatst benaderd voor"/>
+		<res id="329" text="Gemaakt na"/>
+		<res id="330" text="Gemaakt voor"/>
+		<res id="331" text="Groter dan"/>
+		<res id="332" text="Kleiner dan"/>
+		<res id="333" text="Active Scripting met tekst wordt niet ondersteund met Boolean zoekopdrachten die het hele bestand benaderen. Schakel over naar 'Regel per Regel' in het tabblad Opties."/>
+		<res id="334" text="Inhoud zoekresultaat waarde:"/>
+		<res id="335" text="Bestandsnaam filter:"/>
+		<res id="336" text="Geen script soort gespecificeerd"/>
+		<res id="337" text="Scriptbestand bestaat niet of kan niet worden geopend."/>
+		<res id="338" text="Scriptopdracht niet gespecificeerd"/>
+		<res id="339" text="Scriptmap:"/>
+		<res id="340" text="Opdracht:"/>
+		<res id="341" text="Aangepaste param.:"/>
+		<res id="342" text="Archief"/>
+		<res id="343" text="Gecomprimeerd"/>
+		<res id="344" text="Versleuteld"/>
+		<res id="345" text="Map"/>
+		<res id="346" text="Offline"/>
+		<res id="347" text="Alleen-lezen"/>
+		<res id="348" text="Analyseren"/>
+		<res id="349" text="Systeem"/>
+		<res id="350" text="Initialiseren..."/>
+		<res id="351" text="Klaar."/>
+		<res id="352" text="Bestanden uitpakken uit het archief..."/>
+		<res id="353" text="%s is geen geldig pad op deze machine."/>
+		<res id="354" text="Ongeldig gebruik van NEAR opdracht. Geen eerdere opdracht gevonden."/>
+		<res id="355" text="Resultaat"/>
+		<res id="356" text="Annuleren..."/>
+		<res id="357" text="Actie wordt geannuleerd..."/>
+		<res id="358" text="Een of meer van de geselecteerde bestanden zijn samengestelde bestanden en worden niet verwijderd. Wilt u doorgaan?"/>
+		<res id="359" text="Verwijderen is niet succesvol afgerond. Sommige bestanden zijn niet verwijderd."/>
+		<res id="360" text="Uitvoeren van de menuoptie"/>
+		<res id="361" text="Waarschuwing: Verwerking mislukt op %d van de verwerkte bestanden. Zie logboek voor meer details."/>
+		<res id="362" text="Bestandsgegevens uitpakken"/>
+		<res id="363" text="Niet in staat om toegang te krijgen tot alle items voor slepen en neerzetten"/>
+		<res id="364" text="Bestandsgegevens genereren"/>
+		<res id="365" text="Uitvoeren van bewerkingen bij de huidige selectie"/>
+		<res id="366" text="Waarschuwing: Verwerking (%s) is mislukt op %d van de geselecteerde bestanden. Zie logboek voor meer details."/>
+		<res id="367" text="standaard"/>
+		<res id="368" text="Uitvoeren van het contextmenu"/>
+		<res id="369" text="Map %d van %d"/>
+		<res id="370" text="... extra regels worden afgekapt ..."/>
+		<res id="371" text="Naam"/>
+		<res id="372" text="Pad"/>
+		<res id="373" text="Gewijzigd"/>
+		<res id="374" text="Gemaakt"/>
+		<res id="375" text="Laatst benaderd"/>
+		<res id="376" text="Treffers"/>
+		<res id="377" text="Onbekend"/>
+		<res id="378" text="Fout opgetreden tijdens CFileListCtrl::loadList()"/>
+		<res id="379" text="Bestandsviewer frame maken"/>
+		<res id="380" text="Zoekterm is ongeldig: \n%s"/>
+		<res id="381" text="Kan de bestands bewerker niet laden. Als het probleem aanhoudt, neem dan contact op met de technische ondersteuning"/>
+		<res id="382" text="Bestand"/>
+		<res id="383" text="Bericht"/>
+		<res id="384" text="Grootte"/>
+		<res id="385" text="Kleine pictogrammen"/>
+		<res id="386" text="Standaard pictogrammen"/>
+		<res id="387" text="Grote pictogrammen"/>
+		<res id="388" text="Extra grote pictogrammen"/>
+		<res id="389" text="Voorbeeld"/>
+		<res id="390" text="Samenvattend verslag tonen"/>
+		<res id="391" text="Wilt u ook alle gebruikersgegevens van het programma verwijderen?"/>
+		<res id="392" text="Verwijder gebruikersgegevens"/>
+		<res id="393" text="Verwijderen mislukt"/>
+		<res id="394" text="Dialoog niet kunnen vertalen"/>
+		<res id="395" text="Weet u zeker dat u de favoriet '%s' wilt verwijderen"/>
+		<res id="396" text="%s script is niet geldig.\n\nAanvullende informatie:\n\n%s"/>
+		<res id="397" text="Weet u zeker dat u het zoekfilter wilt verwijderen '%s'?"/>
+		<res id="398" text="IFilters"/>
+		<res id="399" text="Onderste"/>
+		<res id="400" regex="start|begin"/>
+		<res id="401" regex="vandaag"/>
+		<res id="402" regex="nu"/>
+		<res id="403" regex="s.*"/>
+		<res id="404" regex="mi.*"/>
+		<res id="405" regex="ma.*"/>
+		<res id="406" regex="uur.*"/>
+		<res id="407" regex="d.*"/>
+		<res id="408" regex="w.*"/>
+		<res id="409" regex="j.*"/>
+		<res id="410" regex="\b(vandaag)|(begin|eind[a-z]*) *(?: +(?:van|de|het))* +(w|ma|j)[a-z]*"/>
+		<res id="411" regex="\b(nu)|(start|eind[a-z]*) *(?: +(?:binnen|een))* +(mi|uur|d)[a-z]*"/>
+		<res id="412" regex="([+-]) *([0-9]+) *(d|w|ma|j)[a-z]*"/>
+		<res id="413" regex="([+-]) *([0-9]+) *(s|mi|uur)[a-z]*"/>
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b"/>
+		<res id="415" text="B"/>
+		<res id="416" text="KB"/>
+		<res id="417" text="MB"/>
+		<res id="418" text="GB"/>
+		<res id="420" text="AND"/>
+		<res id="421" text="OR"/>
+		<res id="422" text="NOT"/>
+		<res id="423" text="NEAR"/>
+		<res id="424" text="LIKE"/>
+		<res id="425" text="REGEX"/>
+		<res id="426" text="DOSEX"/>
+		<res id="427" text="LINES"/>
+		<res id="428" text="FILELIST"/>
+		<res id="430" regex="AND" case="1"/>
+		<res id="431" regex="OR" case="1"/>
+		<res id="432" regex="NOT" case="1"/>
+		<res id="433" regex="NEAR(:\d+)?" case="1"/>
+		<res id="434" regex="LIKE" case="1"/>
+		<res id="435" regex="REGEX(:\w*)?" case="1"/>
+		<res id="436" regex="DOSEX" case="1"/>
+		<res id="437" regex="LINES?:([^ ]*)?" case="1"/>
+		<res id="438" regex="FILELIST" case="1"/>
+		<res id="440" text="Taal"/>
+		<res id="441" text="Onvoldoende geheugen om een nieuwe zoekopdracht te starten. Sluit eerdere zoekopdrachten en/of andere toepassingen en probeer het opnieuw."/>
+		<res id="442" text="Afgebroken (om geheugen vrij te maken)."/>
+		<res id="443" text="Because regular expressions work slightly differently than Wildcard expressions the result of the Expression Wizard may look different to what you are used to. e.g. The Wildcard expression 'filename.*' as a regular expression is '^filename\.*'."/>
+		<res id="444" text="Zoekopdrachten worden regel voor regel door het bestand uitgevoerd, waarbij gezocht wordt naar alle regels die overeenkomen met de gedefinieerde uitdrukking. De expressie laat u toe om te definiëren hoe de regel moet beginnen, gevolgd door wat deze moet bevatten, en vervolgens hoe deze moet eindigen."/>
+		<res id="445" text="Bestandsnaam"/>
+		<res id="446" text="Regel"/>
+		<res id="447" text="Open"/>
+		<res id="448" text="Bijlage"/>
+		<res id="449" text="Gestopt (Geheugen is vol)"/>
+		<res id="450" text="Bevat tekst"/>
+		<res id="451" text="items"/>
+		<res id="452" text="dagen"/>
+		<res id="453" text="weken"/>
+		<res id="454" text="maanden"/>
+		<res id="455" text="jaren"/>
+		<res id="456" text="treffer"/>
+		<res id="457" text="treffers"/>
+		<res id="458" text="Tabblad gescheiden (spreadsheet)"/>
+		<res id="459" text="Instellingen - %s"/>
+		<res id="460" text="Dit is de meest recente versie van het programma."/>
+		<res id="461" text="Er is een fout opgetreden tijdens het controleren op updates, controleer het logboek voor meer details."/>
+		<res id="462" text="Sla werkruimte op"/>
+		<res id="463" text="Sla zoekopdracht op"/>
+		<res id="464" text="Werkruimte bestanden (*.flwx)|*.flwx"/>
+		<res id="465" text="%APP_NAME% bestanden (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf"/>
+		<res id="466" text="Criteria voor het zoeken (*.srf)|*.srf"/>
+		<res id="467" text="Alle bestanden (*.*)|*.*"/>
+		<res id="468" text="Werkruimte laden"/>
+		<res id="469" text="Zoekopdracht laden"/>
+		<res id="470" text="Kan geen bestand laden"/>
+		<res id="471" text="Zoekopdracht bestanden (*.flsx)|*.flsx"/>
+		<res id="472" text="%s bestaat al.\r\n\r\nWilt u deze vervangen?"/>
+		<res id="473" text="Openen tussen haakjes '(' niet gevonden voor overeenkomstige sluitende haakjes ')'. Gebruik citaten om letterlijke tekst te specificeren, b.v. &quot;Eindig)&quot;"/>
+		<res id="474" text="Sluiten tussen haakjes ')' niet gevonden voor overeenkomstige opening tussen haakjes '('. Gebruik citaten om letterlijke tekst te specificeren, b.v. &quot;(start&quot; of &quot;Methode(&quot;\r\n\r\nFoutieve positie: %d\r\nTekst: %s"/>
+		<res id="475" text="Het sleutelwoord '%s' kan niet worden gecompileerd. Controleer de documentatie voor het juiste gebruik van het sleutelwoord."/>
+		<res id="476" text="Als u de locatie van de cache wijzigt, wordt alle tekst in de cache verwijderd. Wilt u verdergaan?"/>
+		<res id="477" text="Kan de cache database niet verwijderen. Controleer of er geen andere exemplaren van de applicatie geopend zijn en probeer het opnieuw."/>
+		<res id="478" text="Rapporten"/>
+		<res id="479" text="In tabelvorm"/>
+		<res id="480" text="Standaard"/>
+		<res id="481" text="Bestandslijst"/>
+		<res id="482" text="Inhoud"/>
+		<res id="483" text="Trefwoorden Samenvatting"/>
+		<res id="484" text="HTML"/>
+		<res id="485" text="De Windows Shell kon geen contextmenu voor de geselecteerde bestanden maken. Wilt u verdergaan met een beperkt contextmenu?"/>
+		<res id="486" text="Vraag"/>
+		<res id="487" text="Fout"/>
+		<res id="488" text="Informatie"/>
+		<res id="489" text="Geheugenbeheerder"/>
+		<res id="490" text="Samenvatting"/>
+		<res id="491" text="Per bestand"/>
+		<res id="492" text="Alle bestanden"/>
+		<res id="493" text="Alleen geselecteerde bestanden"/>
+		<res id="494" text="Alles"/>
+		<res id="495" text="Geselecteerd"/>
+		<res id="496" text="CSV"/>
+		<res id="497" text="Tab"/>
+		<res id="498" text="Trefwoorden per bestand"/>
+		<res id="499" text="Bestandsextensie"/>
+		<res id="500" text="Tellen"/>
+		<res id="501" text="Trefwoord Naam"/>
+		<res id="502" text="Resultaten"/>
+		<res id="503" text="Verborgen"/>
+		<res id="504" text="Voor"/>
+		<res id="505" text="Achter"/>
+		<res id="506" text="Zoekcriteria"/>
+		<res id="507" text="Het %s rapport is alleen geldig bij het zoeken naar de inhoud van het bestand"/>
+		<res id="508" text="Trefwoord Hit"/>
+		<res id="509" text="Opslaan mislukt. Zorg ervoor dat u over de juiste rechten beschikt om naar het opgegeven bestand en de opgegeven map te schrijven."/>
+		<res id="510" text="Annuleringsrapport..."/>
+		<res id="511" text="Rapport is niet afgerond."/>
+		<res id="512" text="Fout opgetreden tijdens het genereren van het verslag."/>
+		<res id="513" text="Opstellen van een rapport..."/>
+		<res id="514" text="Sequential Id"/>
+		<res id="515" text="Seq Id"/>
+		<res id="516" text="Sequential Id (per bestand)"/>
+		<res id="517" text="Bestand Seq Id"/>
+		<res id="518" text="Volledig bestandspad"/>
+		<res id="520" text="Alleen mappen"/>
+		<res id="521" text="Alleen bestanden"/>
+		<res id="522" text="Documenten"/>
+		<res id="523" text="Muziek"/>
+		<res id="524" text="Afbeeldingen"/>
+		<res id="525" text="Video"/>
+		<res id="526" text="Technicuslicentie: %s licentie(s)"/>
+		<res id="527" text="Server licentie: %s licentie(s)"/>
+		<res id="528" text="Primair"/>
+		<res id="529" text="Secundair"/>
+		<res id="530" text="Regel Nr."/>
+		<res id="531" text="Regel Nummer"/>
+		<res id="532" text="Filter"/>
+		<res id="533" text="Pas een filter toe op de zoekresultaten"/>
+		<res id="534" text="Geen bestanden/mappen gevonden die voldoen aan de zoekopdracht"/>
+		<res id="535" text="Geen resultaten komen overeen met kolomfilters"/>
+		<res id="536" text="Zoeken"/>
+		<res id="537" text="'%s' is niet geldig voor deze uitdrukking"/>
+		<res id="538" text="Gerapporteerde fout"/>
+		<res id="539" text="Probleem met lopende opdracht"/>
+		<res id="540" text="Er is een fout opgetreden. Als het probleem aanhoudt, neem dan contact op met de technische ondersteuning."/>
+		<res id="541" text="Aanvullende informatie"/>
+		<res id="542" text="Titel"/>
+		<res id="543" text="Artiest"/>
+		<res id="544" text="Album"/>
+		<res id="545" text="Opmerking"/>
+		<res id="546" text="Genre"/>
+		<res id="547" text="Jaar"/>
+		<res id="548" text="Track"/>
+		<res id="549" text="Lengte: %s sec's"/>
+		<res id="550" text="Bit waarde: %s Kbps"/>
+		<res id="551" text="Bemonsteringsfrequentie: %s Hz"/>
+		<res id="552" text="Kanalen: %s"/>
+		<res id="553" text="Breedte"/>
+		<res id="554" text="Hoogte"/>
+		<res id="555" text="Proef monster"/>
+		<res id="556" text="Document"/>
+		<res id="557" text="Afbeelding"/>
+		<res id="558" text="Merk"/>
+		<res id="559" text="Model"/>
+		<res id="560" text="Pagina"/>
+		<res id="561" text="Paginanummer"/>
+		<res id="562" text="Software"/>
+		<res id="563" text="Datum"/>
+		<res id="564" text="Artiest"/>
+		<res id="565" text="Computer"/>
+		<res id="566" text="Titel"/>
+		<res id="567" text="Framesnelheid: %s/100 s"/>
+		<res id="568" text="Aantal keer opnieuw gestart"/>
+		<res id="569" text="Auteursrecht"/>
+		<res id="570" text="Belichtingstijd: %s s"/>
+		<res id="571" text="Lensopening: F%s"/>
+		<res id="572" text="Belichtingsprogramma"/>
+		<res id="573" text="Normaal"/>
+		<res id="574" text="Handmatig"/>
+		<res id="575" text="Diafragma prioriteit"/>
+		<res id="576" text="Sluiter prioriteit"/>
+		<res id="577" text="Creatief"/>
+		<res id="578" text="Actie"/>
+		<res id="579" text="Portret"/>
+		<res id="580" text="Landschap"/>
+		<res id="581" text="ISO snelheid"/>
+		<res id="582" text="Datum opname"/>
+		<res id="583" text="Flits"/>
+		<res id="584" text="Opmerkingen"/>
+		<res id="585" text="Grootte"/>
+		<res id="586" text="Bits per pixel"/>
+		<res id="587" text="Alfa kanaal"/>
+		<res id="588" text="Alleen mappen: beperkt het zoeken tot alleen mappen, er worden geen bestanden meegenomen."/>
+		<res id="589" text="Alleen bestanden: beperkt het zoeken tot alleen bestanden, er worden geen mappen meegenomen."/>
+		<res id="590" text="Alleen documenten: Zoekt alleen bestanden met standaard document extensies b.v. DOC."/>
+		<res id="591" text="Alleen muziek: Zoekt alleen bestanden met standaard audio extensies b.v. MP3."/>
+		<res id="592" text="Alleen afbeeldingen: Zoekt alleen bestanden met standaard afbeeldingen extensies b.v. JPG."/>
+		<res id="593" text="Alleen video: Zoekt alleen bestanden met standaard video bestands extensies b.v. MP4."/>
+		<res id="600" text="Wachtend op een zoekopdracht"/>
+		<res id="601" text="Fout - Zoeken kon niet gestart worden"/>
+		<res id="602" text="Niet inkorten"/>
+		<res id="603" text="In het midden inkorten"/>
+		<res id="604" text="Aan het begin inkorten"/>
+		<res id="605" text="Aan het einde inkorten"/>
+		<res id="606" text="Kopieer de gevonden items naar een andere map of zip bestand."/>
+		<res id="607" text="Sla de huidige zoeksessie of de volledige werkruimte op in een bestand dat vervolgens kan worden gebruikt om de zoekresultaten opnieuw te laden in %APP_NAME%."/>
+		<res id="608" text="Exporteer de zoekresultaten naar een extern formaat, zoals Tekst, CSV, HTML, XML enz."/>
+		<res id="609" text="Uitvoeren "/>
+		<res id="610" text="Exporteren"/>
+		<res id="611" text="Zonder pad"/>
+		<res id="612" text="Vanaf de root"/>
+		<res id="613" text="Vanuit de eerste gemeenschappelijke map"/>
+		<res id="614" text="Overschrijven"/>
+		<res id="615" text="Toevoegen met volgnummer"/>
+		<res id="616" text="Geen bestand kopiëren"/>
+		<res id="617" text="Kopieer alleen afzonderlijk gevonden artikelen"/>
+		<res id="618" text="Kopieer ouder e-mail bestand"/>
+		<res id="619" text="Kopieer dubbele"/>
+		<res id="620" text="Maak snelkoppeling naar origineel"/>
+		<res id="621" text="Log fout"/>
+		<res id="622" text="Stop"/>
+		<res id="623" text="Wacht op actie"/>
+		<res id="624" text="Kan geen bestand maken"/>
+		<res id="625" text="Kopieer"/>
+		<res id="626" text="Mislukte bestanden"/>
+		<res id="627" text="Kopiëren mislukt"/>
+		<res id="628" text="Succesvol gekopieerde bestanden"/>
+		<res id="629" text="Kopiëren geannuleerd"/>
+		<res id="630" text="plaatsen"/>
+		<res id="631" text="Dubbelklikken om te bewerken"/>
+		<res id="632" text="Tekst bestanden (*.txt)|*.txt|Alle bestanden (*.*)|*.*||"/>
+		<res id="633" text="Overschrijf het huidige bestand?"/>
+		<res id="634" text="Scripting"/>
+		<res id="635" text="Zoekopdracht heeft %s items uitgesloten van de lijst"/>
+		<res id="636" text="Uitgesloten bestanden"/>
+		<res id="637" text="Ongeldige locatie"/>
+		<res id="638" text="Gemelde fouten"/>
+		<res id="639" text="Zoeken in onderliggende mappen is uitgeschakeld"/>
+		<res id="640" text="Het tekstveld bevat alleen spaties"/>
+		<res id="641" text="Waarschuwing"/>
+		<res id="642" text="Waarschuwingen gegenereerd tijdens het zoeken"/>
+		<res id="643" text="Zip bestanden (*.zip)|*.zip|Alle bestanden (*.*)|*.*||"/>
+		<res id="644" text="Bestandsnaam hoofdlettergevoelig is AAN"/>
+		<res id="645" text="Bevat tekst hoofdlettergevoelig is AAN"/>
+		<res id="646" text="Berichttekst"/>
+		<res id="647" text="E-mail"/>
+		<res id="648" text="Pagina"/>
+		<res id="649" text="Rapport van meerdere kopieer opdrachten"/>
+		<res id="650" text="Bestand opslaan"/>
+		<res id="651" text="Zwevende licentie: tot %s gelijktijdige gebruikers"/>
+		<res id="652" text="%s bestand(en) kon(den) niet worden doorzocht"/>
+		<res id="653" text="Klik voor details"/>
+		<res id="654" text="Ernst"/>
+		<res id="655" text="Details"/>
+		<res id="656" text="Toon begin van het pad"/>
+		<res id="657" text="Toon eind van het pad"/>
+		<res id="658" text="%s bestand(en) meld(en) zoekwaarschuwingen"/>
+		<res id="659" text="Gebruik van de vooraf ingestelde bestandsnaam"/>
+		<res id="660" text="GPS gegevens"/>
+		<res id="661" text="Site licentie. Maximaal aantal gebruikers: %s"/>
+		<res id="662" text="Uitpakken"/>
+		<res id="663" text="Bestemming"/>
+		<res id="664" text="Niet gekopieerd - bestanden bestaan al"/>
+		<res id="665" text="Meerdere kopieer opdrachten"/>
+		<res id="666" text="Exporteren zoekresultaten"/>
+		<res id="700" text="Multi-line RegEx"/>
+		<res id="701" text="Expert"/>
+		<res id="702" text="Standaard"/>
+		<res id="703" text="Index zoeken"/>
+		<res id="704" text="&lt;Maak een nieuwe index...&gt;"/>
+		<res id="705" text="Geen index geselecteerd. Kies een index en probeer het opnieuw."/>
+		<res id="706" text="Ongeldige index"/>
+		<res id="707" text="Nieuwe index"/>
+		<res id="708" text="Synchroniseer mapnaam met indexnaam"/>
+		<res id="709" text="Tijd"/>
+		<res id="710" text="Analyseren"/>
+		<res id="711" text="Indexed: %s | Name only: %s | Errors: %s | Invalid: %s | Removed: %s | Unchanged: %s"/>
+		<res id="712" text="Indexeringsproces starten"/>
+		<res id="713" text="Indexgegevens"/>
+		<res id="714" text="Indexlijst"/>
+		<res id="715" text="Index"/>
+		<res id="716" text="Geïndexeerd"/>
+		<res id="717" text="Weet u zeker dat u wilt verwijderen: %s?"/>
+		<res id="718" text="Index opschonen"/>
+		<res id="719" text="Optimaliseren"/>
+		<res id="720" text="Opslaan"/>
+		<res id="721" text="..."/>
+		<res id="722" text="Index kan niet worden geladen"/>
+		<res id="723" text="Geannuleerd"/>
+		<res id="724" text="Standaard document mappen"/>
+		<res id="725" text="Soort bestand"/>
+		<res id="726" text="Index size: %s | Indexed count: %s | Name only: %s | Total: %s"/>
+		<res id="727" text="Index manager"/>
+		<res id="728" text="Indexen worden momenteel bijgewerkt. Wilt u alle indexeringsprocessen annuleren?"/>
+		<res id="729" text="Kan niet indexeren"/>
+		<res id="730" text="Binair bestand genegeerd "/>
+		<res id="731" text="Index bevindt zich in de modus Alleen-lezen. "/>
+		<res id="732" text="Kan bestand niet doorzoeken."/>
+		<res id="733" text="Primaire zoekmethode mislukt, 'Raw data' zoeken is gebruikt."/>
+		<res id="734" text="Zoekterm ziet eruit als een uitdrukking in de bestandenlijst, maar de configuratieoptie is uitgeschakeld."/>
+		<res id="735" text="Bestandsnaam ziet eruit als een uitdrukking in de bestandenlijst, maar de configuratieoptie is uitgeschakeld."/>
+		<res id="736" text="Zoekuitdrukking is per regel beoordeeld, zoals aangegeven op het tabblad Opties."/>
+		<res id="737" text="Omliggende regels"/>
+		<res id="738" text="Markeer omliggende regels"/>
+		<res id="739" text="Treffers op regels"/>
+		<res id="740" text="Commas used in Wildcard expression, was semi-colon intended?"/>
+		<res id="741" text="Herstelpunt"/>
+		<res id="742" text="Update vereist - Index komt niet overeen met instellingen"/>
+		<res id="743" text="Index ondersteunt geen hoofdlettergevoelige zoekopdrachten. Om deze optie in te schakelen, moet u de index opnieuw opbouwen met hoofdlettergevoelig zoeken ingeschakeld."/>
+		<res id="744" text="Zoeken kan niet worden gestart"/>
+		<res id="745" text="Hoofdlettergevoelig staat AAN"/>
+		<res id="746" text="Index is verouderd, de zoekopdracht is uitgevoerd met behulp van oude indexinstellingen."/>
+		<res id="747" text="Kan treffers voor bestand niet weergeven. "/>
+		<res id="748" text="Het zoeken is gestopt voordat de opdracht klaar was"/>
+		<res id="749" text="Lege index"/>
+		<res id="750" text="Nooit"/>
+		<res id="751" text="Index is leeg, gebruik de Index manager om de index te bouwen. "/>
+		<res id="752" text="Uitgesloten binaire bestanden"/>
+		<res id="753" text="Unieke trefwoorden"/>
+		<res id="754" text="Ongeldige datum. Een systeem bestandstijd kan niet vóór 1601 zijn."/>
+		<res id="755" text="Bestand is slechts gedeeltelijk doorzocht vanwege het aantal gevonden regels dat het opgegeven maximum overschrijdt."/>
+		<res id="756" text="Bestandsbeheerder heeft een fout gegenereerd."/>
+		<res id="757" text="Kleuren"/>
+		<res id="758" text="Overig..."/>
+		<res id="759" text="Doorzoek opdrachten"/>
+		<res id="760" text="Bevestig opdracht"/>
+		<res id="761" text="Laat dit bericht niet meer zien"/>
+		<res id="762" text="Waarschuwing: Groot bestand"/>
+		<res id="763" text="Het geselecteerde bestand is erg groot en als dit wordt geopend, kan het programma langzamer worden of niet meer reageren"/>
+		<res id="764" text="** BESTAND LADEN IS AFGEBROKEN **"/>
+		<res id="765" text="Laat details zien &gt;"/>
+		<res id="766" text="&lt;&lt; verberg details"/>
+		<res id="767" text="Om deze functie te laten werken, moet het programma browserextensies van derden in Internet Explorer inschakelen en moet u opnieuw opstarten voordat het van kracht wordt \r\n\r\nwil je verder gaan?"/>
+		<res id="768" text="Geen index gespecificeerd."/>
+		<res id="769" text="Geen indexbewerking opgegeven."/>
+		<res id="770" text="Zoektijd in seconden"/>
+		<res id="771" text="Zoekopdrachten"/>
+		<res id="772" text="Annuleren"/>
+		<res id="773" text="Er zijn momenteel geen inhoudszoekopdrachten"/>
+		<res id="774" text="Er zijn geen indexlocaties opgegeven. Geef a.u.b. aan welke locaties geïndexeerd moeten worden."/>
+		<res id="775" text="Er is geen inhoud gespecificeerd voor indexering. Geef a.u.b. aan welke bestanden in de index moeten worden opgenomen."/>
+		<res id="776" text="Indexoverzicht is vergrendeld voor updates door een andere toepassing"/>
+		<res id="777" text="Tik 'quit' om te stoppen."/>
+		<res id="778" text="Kan index manager niet starten"/>
+		<res id="779" text="Gedeeltelijke zoekresultaten voltooien..."/>
+		<res id="780" text="Wollig"/>
+		<res id="781" text="De gekozen locatie om de index database op te slaan moet een nieuwe of lege map zijn."/>
+		<res id="782" text="Er is een probleem opgetreden met de huidige bewerking. Dit is normaal te wijten aan de instelling 'Individuele taakbalk tabblad voorbeelden' in de instellingen van de gebruikersinterface. Als dit een probleem blijft, zet deze optie dan UIT."/>
+		<res id="783" text="Index opnieuw aanmaken"/>
+		<res id="784" text="Index bijwerken"/>
+		<res id="785" text="Maak nieuwe index"/>
+		<res id="786" text="Geen indexnaam opgegeven."/>
+		<res id="787" text="Geen indexpad opgegeven."/>
+		<res id="788" text="Als u de criteria wijzigt tijdens een zoekopdracht wordt de huidige zoekopdracht geannuleerd. Wilt u de huidige zoekopdracht annuleren?"/>
+		<res id="789" text="Indexeren"/>
+		<res id="790" text="Pad werd uitgesloten van het zoeken vanwege actieve uitsluitingspaden en/of filters"/>
+		<res id="791" text="Leeg bestand, geen doorzoekbare tekst gevonden"/>
+		<res id="792" text="Kan uitdrukking niet in afzonderlijke termen onderverdelen"/>
+		<res id="793" text="Lege bestandenlijst gespecificeerd"/>
+		<res id="794" text="Soort uitdrukking is gewijzigd in Boolean om meerdere zoektermen te ondersteunen."/>
+		<res id="795" text="Grote uitdrukking"/>
+		<res id="796" text="Indexering is mislukt."/>
+		<res id="797" text="Index opslaan"/>
+		<res id="798" text="Inhoudsklasse"/>
+		<res id="799" text="Wilt u de geselecteerde items permanent verwijderen?"/>
+		<res id="800" text="Items verwijderen"/>
+		<res id="801" text="Een of meer zeer grote regels tekst werden opgesplitst in kortere regels, wat van invloed kan zijn op de zoekresultaten."/>
+		<res id="802" text="Hernoemen is mislukt. Controleer of het bestand niet vergrendeld is."/>
+		<res id="803" text="Indexoverzicht laden"/>
+		<res id="804" text="Verwijzing naar een bestaande index toevoegen"/>
+		<res id="805" text="Auteurs"/>
+		<res id="806" text="Document trefwoorden"/>
+		<res id="807" text="Opmerkingen"/>
+		<res id="808" text="Titel"/>
+		<res id="809" text="Eigenaar"/>
+		<res id="810" text="Index pad en naam komen niet overeen"/>
+		<res id="811" text="Index verwijderen"/>
+		<res id="812" text="Index overzicht"/>
+		<res id="813" text="Laatst opgeslagen door"/>
+		<res id="814" text="Index verwijderen" t="g"/>
+		<res id="820" text="Geen treffer op de zoekwoorden"/>
+		<res id="821" text="Trefwoord %s  is alleen beschikbaar in de Professional versie. Als u gewoon op zoek bent naar de term &quot;%s&quot; voeg deze dan toe aan de aanhalingstekens."/>
+		<res id="822" text="Vaste termijn licentie. Resterend aantal dagen:"/>
+		<res id="823" text="Directe toegang"/>
+		<res id="824" text="Geïnterpreteerde tekst"/>
+		<res id="825" text="Omgezette tekst"/>
+		<res id="826" text="IFiltertekst"/>
+		<res id="827" text="Tekst in het cachegeheugen"/>
+		<res id="828" text="Tekstbestand"/>
+		<res id="829" text="'Raw file' bestandsgegevens"/>
+		<res id="830" text="Inhoud lezer"/>
+		<res id="831" text="Programma voorbereiden voor het eerste gebruik..."/>
+		<res id="832" text="Proefperiode is verstreken."/>
+		<res id="833" text="Deze functie is niet beschikbaar in de gratis versie van het programma."/>
+		<res id="834" text="Professional - Probeerversie"/>
+		<res id="835" text="Professional"/>
+		<res id="836" text="Lite"/>
+		<res id="837" text="Versie met minder functionaliteit, sommige functies worden verborgen of uitgeschakeld. Gratis voor zowel persoonlijk als commercieel gebruik."/>
+		<res id="838" text="Volledig functionele versie."/>
+		<res id="839" text="Volledig functionele versie tijdens de proefperiode."/>
+		<res id="840" text="NIET GEREGISTREERD! \r\nDit product is alleen in licentie gegeven voor persoonlijk thuis gebruik.\r\n\r\nCommerciële gebruikers:\r\n\r\nMOETEN dit product registreren om het te blijven gebruiken in een commerciële omgeving, anders schendt u de voorwaarden van de gebruikersovereenkomst.\r\n\r\nFor a FREE registration code please go to:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="841" text="Niet geregistreerd. \r\nCommerciële gebruikers van dit product moeten zich registreren zodra de proefperiode is verstreken.\r\n\r\nVoor een GRATIS registratiecode gaat u naar:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="842" text="Geef aan hoe u het product gebruikt"/>
+		<res id="843" text="Wijzigingen worden van kracht wanneer u het product opnieuw opstart."/>
+		<res id="844" text="De ingevoerde registratiecode is voor de Lite versie van het product, dus sommige functies zijn nu uitgeschakeld."/>
+		<res id="845" text="De gratis versie van het programma ondersteunt de functie %s niet."/>
+		<res id="846" text="Snelste"/>
+		<res id="847" text="Gemiddeld"/>
+		<res id="848" text="Aangepast"/>
+		<res id="849" text="Kan het pad niet zoeken"/>
+		<res id="899" text="Tijdelijke MS Office-bestanden uitsluiten"/>
+		<res id="900" text="Locatie filters"/>
+		<res id="901" text="Relatieve datum/tijden"/>
+		<res id="902" text="Uitgebreide termijn instelling"/>
+		<res id="903" text="Bestandslijsten"/>
+		<res id="904" text="Werkruimte/Sessies"/>
+		<res id="905" text="Verbeterde uitvoerformaten"/>
+		<res id="906" text="Zoekwoorden rapport"/>
+		<res id="907" text="Datum/tijd verschuivingen"/>
+		<res id="908" text="Locatie macro's"/>
+		<res id="909" text="Meerdere kopieer opdrachten"/>
+		<res id="910" text="%APP_NAME% vereist een eerste installatie. Voer de hoofdapplicatie %APP_NAME% uit om de installatie te voltooien en probeer het dan opnieuw. "/>
+		<res id="911" text="Bestand zoeken geannuleerd door gebruiker"/>
+		<res id="912" text="Opnieuw starten"/>
+		<res id="913" text="Steeds terugkerend bestandsnaam filter"/>
+		<res id="914" text="Uitgesloten EXE, DLL, SYS bestanden"/>
+		<res id="915" text="Waarschuwingen/Fouten gemeld zie de samenvatting voor meer informatie"/>
+		<res id="916" text="Onmogelijk om een nieuwe index te maken. Controleer of u schrijfrechten heeft voor: "/>
+		<res id="917" text="Ongeldig samengesteld bestand"/>
+		<res id="918" text="Ongeldig samengesteld bestand, gebruik in plaats hiervan standaard zoeken."/>
+		<res id="919" text="Meer"/>
+		<res id="920" text="Hernoemen"/>
+		<res id="921" text="Nieuwe groep"/>
+		<res id="922" text="Bron"/>
+		<res id="923" text="Indexgroep"/>
+		<res id="924" text="Anker gebruikt in joker-expressie bij het matchen van het volledige pad in plaats van alleen de bestandsnaam."/>
+		<res id="925" text="Mapdiepte"/>
+		<res id="926" text="Monitorindex"/>
+		<res id="927" text="Geslaagd"/>
+		<res id="928" text="Licentie voor meerdere locaties voor organisaties"/>
+		<res id="929" text="Index is gemaakt met een oudere versie van het product en ondersteunt geen zoekvelden."/>
+		<res id="930" regex="name:(.*)" case="1"/>
+		<res id="931" regex="lookin:(.*)" case="1"/>
+		<res id="932" regex="ext:(.*)" case="1"/>
+		<res id="933" regex="moddt:(.*)" case="1"/>
+		<res id="934" regex="createdt:(.*)" case="1"/>
+		<res id="935" regex="size:(.*)" case="1"/>
+		<res id="936" regex="content:(.*)" case="1"/>
+		<res id="940" text="Map verwijderd"/>
+		<res id="941" text="Map toegevoegd"/>
+		<res id="942" text="Map hernoemd"/>
+		<res id="943" text="Bestand verwijderd"/>
+		<res id="944" text="Bestand toegevoegd"/>
+		<res id="945" text="Indexacties verwerken"/>
+		<res id="946" text="Indexmonitor starten"/>
+		<res id="947" text="Indexmonitor opschorten"/>
+		<res id="948" text="Update voltooid"/>
+		<res id="949" text="Monitoring"/>
+		<res id="950" text="Updates"/>
+		<res id="951" text="Overgeslagen"/>
+		<res id="952" text="Ongewijzigd"/>
+		<res id="953" text="Geïndexeerd - Alleen naam"/>
+		<res id="954" text="Wilt u de voortgang van het indexeren opslaan of terugkeren naar de vorige indexstatus?"/>
+		<res id="955" text="Actie"/>
+		<res id="956" text="Gebeurtenis"/>
+		<res id="957" text="Indexonderhoud"/>
+		<res id="958" text="Verbinden"/>
+		<res id="959" text="Verbinding verbreken"/>
+		<res id="960" text="Berichten"/>
+		<res id="961" text="CSV-bestanden (*.csv)|*.csv|Alle bestanden (*.*)|*.*||"/>
+		<res id="962" text="Gedeelde licentie verkrijgen"/>
+		<res id="963" text="Computer"/>
+		<res id="964" text="Leeftijd"/>
+		<res id="965" text="Vernieuwd"/>
+		<res id="966" text="Actief"/>
+		<res id="967" text="Vernieuwen"/>
+		<res id="968" text="Verlopen"/>
+		<res id="969" text="Alle gedeelde Pro-licenties worden momenteel gebruikt, wilt u wachten of doorgaan in Lite-modus."/>
+		<res id="970" text="Kan Pro-licentie niet verkrijgen"/>
+		<res id="971" text="Alle Pro-licenties zijn momenteel in gebruik. Wilt u wachten op een licentie of het programma sluiten?"/>
+		<res id="972" text="Wilt u wachten of het programma sluiten?"/>
+		<res id="973" text="Wachten"/>
+		<res id="974" text="Sluiten"/>
+		<res id="975" text="Lite-modus"/>
+		<res id="976" text="Leaseovereenkomsten verwijderen"/>
+		<res id="977" text="Kan de licentiemap niet wijzigen. Controleer of de map bestaat en of u lees-/schrijfrechten hebt voor de map."/>
+		<res id="978" text="Registratiesleutel niet gevonden"/>
+		<res id="979" text="Lease-ID"/>
+		<res id="980" text="Kan Pro-licentie niet verlengen"/>
+		<res id="981" text="Sluit %APP_NAME%"/>
+		<res id="982" text="Verkennen"/>
+		<res id="983" text="Logboek bijwerken"/>
+		<res id="984" text="Indexlocaties"/>
+		<res id="985" text="Geen geïndexeerde items in map"/>
+		<res id="986" text="Map heeft submappen maar geen geïndexeerde items"/>
+		<res id="987" text="Binair bestand"/>
+		<res id="988" text="Inhoud"/>
+		<res id="989" text="Indexproces sluiten"/>
+		<res id="990" text="Fouten/waarschuwingen gemeld, zie updatelogboek voor meer informatie."/>
+		<res id="991" text="Alleen gedeeltelijke indexering."/>
+		<res id="992" text="Geheugenlimiet overschreden."/>
+		<res id="993" text="Te veel termen."/>
+		<res id="994" text="Termen"/>
+		<res id="995" text="Indexdatum"/>
+		<res id="996" text="Gedeeltelijke index"/>
+		<res id="997" text="Wilt u alle zoekresultaten sluiten?"/>
+		<res id="998" text="Dagelijks"/>
+		<res id="999" text="Wekelijks"/>
+		<res id="1000" text="Maandelijks"/>
+		<res id="1001" text="Standaard (realtime monitoring met dagelijkse verversing)"/>
+		<res id="1002" text="&lt;Maak nieuw...&gt;"/>
+		<res id="1003" text="Nieuw updateschema"/>
+		<res id="1004" text="Er is geen naam opgegeven."/>
+		<res id="1005" text="Nummer moet tussen het bereik liggen: %d tot %d"/>
+		<res id="1006" text="Schemalijst"/>
+		<res id="1007" text="Schemadetails"/>
+		<res id="1008" text="Realtime monitoring"/>
+		<res id="1009" text="Groepslijst"/>
+		<res id="1010" text="Uitgeschakeld"/>
+		<res id="1011" text="Herhaal elke %d minuten"/>
+		<res id="1012" text="Maandag"/>
+		<res id="1013" text="Dinsdag"/>
+		<res id="1014" text="Woensdag"/>
+		<res id="1015" text="Donderdag"/>
+		<res id="1016" text="Vrijdag"/>
+		<res id="1017" text="Zaterdag"/>
+		<res id="1018" text="Zondag"/>
+		<res id="1019" text="Geef ten minste één dag op voor het schema"/>
+		<res id="1020" text="Planner starten"/>
+		<res id="1021" text="Schema verwijderen en geplande updates of realtime monitoring stoppen:"/>
+		<res id="1022" text="Weet u het zeker?"/>
+		<res id="1023" text="Bewerking is mislukt"/>
+		<res id="1024" text="Mapsynchronisatie gepland"/>
+		<res id="1025" text="Synchronisatie van mapbestanden"/>
+		<res id="1026" text="Mapsynchronisatie"/>
+		<res id="1027" text="Planneractie"/>
+		<res id="1028" text="Verouderde bron - genegeerd"/>
+		<res id="1029" text="Ongeldige bestandsnaam"/>
+		<res id="1030" text="ndex gemaakt in vorige versie. Werk de index bij om de indexdetails te bekijken."/>
+		<res id="1031" text="Binair bestand, inhoud niet geïndexeerd"/>
+		<res id="1032" text="Selecteer een updateschema voor de index"/>
+		<res id="1033" text="Omkeren"/>
+		<res id="1034" text="Terugrollen"/>
+		<res id="1035" text="Verwijderen of verwijderen"/>
+		<res id="1036" text="Wilt u de index permanent verwijderen of alleen van de lijst verwijderen?"/>
+		<res id="1037" text="Verwijderen"/>
+		<res id="1038" text="Indexering annuleren"/>
+		<res id="1039" text="Onverankerde joker niet toegestaan."/>
+		<res id="1040" text="Herladen"/>
+		<res id="1041" text="Indexcriteria"/>
+		<res id="1042" text="Gewijzigd"/>
+		<res id="1043" text="Gezond"/>
+		<res id="1044" text="De configuratie-instellingen voor zwevende licenties konden niet worden geladen."/>
+		<res id="1045" text="Geen zwevende licenties gevonden in map. Doorgaan?"/>
+		<res id="1046" text="Geen waarde opgegeven voor parameter: %s"/>
+		<res id="1047" text="Ongeldige parameters"/>
+		<res id="1048" text="Bestandsversie"/>
+		<res id="1049" text="Product versie"/>
+		<res id="1050" text="Deze functie is uitgeschakeld door uw systeembeheerder."/>
+		<res id="1051" text="Het veld Bestandsnaam bevat een jokerteken, maar het expressietype is ingesteld op Tekst zonder opmaak."/>
+		<res id="1052" text="Foutrapport genereren"/>
+		<res id="1053" text="Wilt u een foutenrapport genereren en verzenden?"/>
+		<res id="1054" text="Rapport genereren"/>
+		<res id="1055" text="Nieuwe index maken"/>
+		<res id="1056" text="Voordat u een indexzoekopdracht kunt uitvoeren, moet u een index maken. Wilt u een index maken?"/>
+		<res id="1057" text="Selecteer de index waarin u wilt zoeken."/>
+		<res id="1058" text="Naam Lengte"/>
+		<res id="1059" text="Totale padlengte"/>
+		<res id="1060" text="Kan index niet zoeken" t="g"/>
+		<res id="1061" text="Zoeken mislukt" t="g"/>
+		<res id="1062" text="Beoordeling" t="g"/>
+		<res id="1063" text="oriëntatie" t="g"/>
+		<res id="1064" text="Brandpuntsafstand" t="g"/>
+		<res id="1065" text="Zip bestand" t="g"/>
+		<res id="1066" text="Sessie" t="g"/>
+		<res id="1067" text="Werkruimte" t="g"/>
+		<res id="1068" text="Afbeelding OCR mislukt" t="g"/>
+		<res id="1069" text="Afbeelding scannen met OCR" t="g"/>
+		<res id="1070" text="Laatste keer vernieuwd" t="e"/>
+		<res id="1071" text="Ingesloten object" t="g"/>
+		<res id="1072" text="De laatste update is niet succesvol voltooid." t="g"/>
+		<res id="1073" text="De index is gemaakt met een nieuwere versie van %APP_NAME%. Upgrade deze installatie om de indexdetails te bekijken. Als u de index bijwerkt, wordt de index opnieuw gemaakt en hersteld naar deze versie van %APP_NAME%." t="g"/>
+		<res id="1074" text="Primaire zoekmethode is mislukt bij gebruik van back-upmethode." t="g"/>
+		<res id="1075" text="Wilt u de registratiegegevens gebruiken die in het klembord zijn opgeslagen?" t="g"/>
+		<res id="1076" text="Het bestand is met een wachtwoord beveiligd." t="g"/>
+	</string>
+</translation>

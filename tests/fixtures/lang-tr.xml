@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="Turkish" helplang="en">
+	<dialog name="IDD_EDITBOX" id="3531" caption="" />
+	<dialog name="IDD_SCHEDULE_EDIT" id="333" caption="Programı Düzenle">
+		<res id="1" text="İsim:" />
+		<res id="2" text="Gerçek zamanlı görüntüleme" />
+		<res id="3" text="Yenileme aralığı" />
+		<res id="4" text="Başlangıç zamanı:" />
+		<res id="5" text="s:dk:sn" />
+		<res id="6" text="Atanan Dizinler" />
+		<res id="10" text="Tamam" />
+		<res id="11" text="İptal Et" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_DAILY" id="334" caption="">
+		<res id="1" text="Tekrarlanma aralığı:" />
+		<res id="2" text="dakika" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_WEEKLY" id="335" caption="">
+		<res id="1" text="Pazartesi" />
+		<res id="2" text="Salı" />
+		<res id="3" text="Çarşamba" />
+		<res id="4" text="Perşembe" />
+		<res id="5" text="Cuma" />
+		<res id="6" text="Cumartesi" />
+		<res id="7" text="Pazar" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_MONTHLY" id="336" caption="">
+		<res id="1" text="Ayın Günü:" />
+	</dialog>
+	<dialog name="IDD_INDEXSCHEDULEVIEW" id="337" caption="">
+		<res id="1" text="İsim:" />
+		<res id="2" text="Tip:" />
+		<res id="3" text="Başlangıç zamanı:" />
+		<res id="4" text="Gerçek zamanlı:" />
+		<res id="5" text="Durum:" />
+		<res id="10" text="Atanan Dizinler" />
+	</dialog>
+	<dialog name="IDD_SCHEDULE_INDEXLIST" id="338" caption="Programa Dizin Atayın">
+		<res id="1" text="Dizinler:" />
+		<res id="10" text="Tamam" />
+		<res id="11" text="İptal Et" />
+	</dialog>
+	<dialog name="IDD_INDEX_EDITADVANCED" id="339" caption="Gelişmiş Dizin Ayarları">
+		<res id="1" text="Gelişmiş Ayarlar" />
+		<res id="2" text="Büyük küçük harf duyarlı aramayı etkinleştir" />
+		<res id="3" text="İkili içeriği algıla" />
+		<res id="4" text="Kısmi işlemeye izin ver" />
+		<res id="5" text="Sıkıştırılmış arşivleri indeksle:" />
+		<res id="6" text="OCR Görüntüleri" t="g" />
+		<res id="7" text="OCR Ayarları..." t="g" />
+		<res id="8" text="Arama filtrelerini kullanın" t="g" />
+		<res id="9" text="Aktif Filtreler..." t="g" />
+		<res id="10" text="Tamam" />
+		<res id="11" text="İptal Et" />
+		<res id="12" text="Gömülü belgeleri çıkartın (Word/PDF)" t="g" />
+	</dialog>
+	<dialog name="IDD_FORMATS_OCR" id="5559" caption="Optical Character Recognition (OCR) Ayarları">
+		<res id="1" text="OCR Ayarları" />
+		<res id="2" text="OCR Metnini Ön Belleğe Al" />
+		<res id="3" text="OCR ile analiz edilecek dosya biçimleri:" />
+		<res id="4" text="Hepsi mevcuz" />
+		<res id="5" text="Seçilen dosya biçimleri:" />
+		<res id="6" text="Dil:" />
+		<res id="7" text="PDF Ayarları" />
+		<res id="8" text="Mevcut aranabilir metne sahip PDF'lere OCR işlemi uygulama" />
+		<res id="9" text="Otomatik sayfa yönü algılama" t="g" />
+		<res id="10" text="Tamam" />
+		<res id="11" text="İptal Et" />
+	</dialog>
+	<dialog name="IDD_LICENSE_TYPE" id="207" caption="Lisans Türü">
+		<res id="1" text="Lütfen lisans tipini seçiniz:" />
+		<res id="2" text="Profesyonel (deneme)" />
+		<res id="3" text="Profesyonel" />
+		<res id="4" text="Profesyonel lisans al" />
+		<res id="5" text="Tamamen işlevsel versiyon." />
+		<res id="6" text="Adı:" />
+		<res id="7" text="E-posta:" />
+		<res id="8" text="Kayıt Kodu:" />
+		<res id="9" text="Lite (ücretsiz)" />
+		<res id="10" text="Özellik karşılaştırma" />
+		<res id="11" text="Azaltılmış işlevsellik sürümü, bazı özellikler gizlenir veya devre dışı bırakılır. Hem kişisel hem de ticari kullanım için ücretsiz." />
+		<res id="12" text="" />
+		<res id="13" text="TAMAM" />
+		<res id="14" text="İptal" />
+	</dialog>
+	<dialog name="IDD_LICENSE_MGR" id="5560" caption="Yüzen Lisans Yönetimi">
+		<res id="1" text="Lisans klasörü:" />
+		<res id="2" text="" />
+		<res id="3" text="" />
+		<res id="4" text="Tamam" />
+		<res id="5" text="İptal Et" />
+		<res id="6" text="Yenile" />
+	</dialog>
+	<dialog name="IDD_COMMERCIAL_USE" id="260" caption="ÜCRETSİZ Kayıt mevcut!">
+		<res id="1" text="" />
+		<res id="2" text="Bu ürünü ticari bir ortamda kullanırsanız, şimdi kayıt yaptırmanız gerekir, ancak endişelenmeyin, kayıt olmak için hiçbir şey gerekmez." />
+		<res id="3" text="ÜCRETSİZ kayıt kodu için lütfen Mythicsoft web sitesini ziyaret edin:" />
+		<res id="4" text="Ürünü sadece kişisel kullanım için kullanırsanız, ürünü kaydetmenizi rica ederiz, ancak şart değildir." />
+		<res id="5" text="Kullanım amacım:" />
+		<res id="6" text="Sadece kişisel kullanım" />
+		<res id="7" text="Ticari kullanım, kayıt kodumu girmek istiyorum" />
+		<res id="8" text="TAMAM" />
+		<res id="9" text="İptal" />
+	</dialog>
+	<dialog name="IDD_COLUMNLIST_OPTIONS" id="3566" caption="Sütun Seç">
+		<res id="1" text="&amp;Sütunlar" />
+		<res id="2" text="Not: Alanları yeniden sıralamak için Sürükle + Bırak" />
+		<res id="3" text="TAMAM" />
+		<res id="4" text="İptal" />
+	</dialog>
+	<dialog name="IDD_EXPRESSIONEDITORDLG" id="3565" caption="İfadeyi Düzenle">
+		<res id="1" text="&amp;İfade Türü:" />
+		<res id="2" text="&amp;Her bağımsız arama terimini ayrı bir satıra girin" />
+		<res id="3" text="&amp;Referans metin dosyası:" />
+		<res id="4" text="&amp;Göz at..." />
+		<res id="5" text="TAMAM" />
+		<res id="6" text="İptal" />
+		<res id="7" text="Arama Terimleri:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_COLORS" id="5558" caption="">
+		<res id="1" text="Anahtar Kelime Eşleşmeleri" />
+		<res id="2" text="Metin rengi:" />
+		<res id="3" text="Anahtar Kelime Eşleşmeleri" />
+		<res id="4" text="Koyu" />
+		<res id="5" text="Altçizgi" />
+		<res id="6" text="Farklı renklerdeki anahtar kelimeleri vurgulayın:" />
+		<res id="7" text="Anahtar kelime eşleştirme arka plan rengi" />
+		<res id="8" text="Metin Sekmesi Vurgulama" />
+		<res id="9" text="Orijinal arama:" />
+		<res id="10" text="İkincil arama:" />
+		<res id="11" text="Orijinal arama satırı rengi" />
+		<res id="12" text="İkincil arama satırı rengi" />
+	</dialog>
+	<dialog name="IDD_KEYWORD_COLOR" id="3542" caption="">
+		<res id="1" text="Ayarlar ..." />
+	</dialog>
+	<dialog name="IDD_INDEX_SEARCH" id="231" caption="" />
+	<dialog name="IDD_INDEXEDIT_GROUP_PANE" id="331" caption="">
+		<res id="1" text="İsim:" />
+		<res id="2" text="Dosya:" />
+		<res id="3" text="Dosyaya göz at" />
+	</dialog>
+	<dialog name="IDD_INDEX_EDIT" id="310" caption="">
+		<res id="1" text="&amp;Salt okunur" />
+		<res id="10" text="Tamam" />
+		<res id="11" text="İptal Et" />
+	</dialog>
+	<dialog name="IDD_INDEXACTIVITYVIEW" id="312" caption="">
+		<res id="1" text="Adı:" />
+		<res id="2" text="Dosyalar:" />
+		<res id="3" text="Yer:" />
+		<res id="4" text="Özet:" />
+		<res id="5" text="Son yenileme:" />
+		<res id="6" text="Durum:" />
+	</dialog>
+	<dialog name="IDD_INDEXGROUPVIEW" id="332" caption="">
+		<res id="1" text="İsim:" />
+		<res id="2" text="Dizinler:" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_TYPEPAGE" id="315" caption="Dizin Ekle">
+		<res id="1" text="Eklenecek dizin tipi" />
+		<res id="2" text="Yeni dizin oluştur" />
+		<res id="3" text="Mevcut dizin veya gruba referans ver" />
+		<res id="4" text="Mevcut dizine yeni dizin, yeni grup veya referans oluşturmak ister misiniz?" />
+		<res id="5" text="Yeni grup oluştur" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_NEWPAGE" id="316" caption="">
+		<res id="1" text="Yeni dizin oluştur" />
+		<res id="2" text="&amp;Bitince endeksleme işini başlat" />
+		<res id="3" text="Dizin Oluştur" />
+		<res id="4" text="Yeni grup oluştur" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_IMPORTPAGE" id="317" caption="">
+		<res id="1" text="Mevcut dizine ekle" />
+		<res id="2" text="Eklemek istediğiniz dizin deposunun yolunu belirtin:" />
+		<res id="3" text="Klasör:" />
+		<res id="4" text="Salt okunur erişim" />
+		<res id="5" text="Göz At" />
+	</dialog>
+	<dialog name="IDD_ADDINDEX_AUTOUPDATE" id="319" caption="">
+		<res id="1" text="Dizinin otomatik güncellenmesini ister misiniz?" />
+		<res id="2" text="Hayır, sadece manüel güncelleme" />
+		<res id="3" text="Evet, güncellemeleri planla" />
+		<res id="4" text="Otomatik güncellemeleri zamanlayın" t="g" />
+	</dialog>
+	<dialog name="IDD_INDEXEDIT_ENGINE_PANE" id="318" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Dizin İsmi:" />
+		<res id="3" text="Mağaza Dizini:" />
+		<res id="4" text="Dizin İçeriği" />
+		<res id="5" text="&amp;Belgeler/PDF/Metin dosyaları" />
+		<res id="6" text="Belirli &amp;dosyaları:" />
+		<res id="7" text="&amp;Büyük/küçük harfe duyarlı aramayı etkinleştir (daha büyük dizin) " />
+		<res id="8" text="Diğer tüm dosyaları yalnızca isim kullanarak dahil et" />
+		<res id="9" text="Konumları indeksle" />
+		<res id="10" text="&amp;Standart belge konumları" />
+		<res id="11" text="&amp;Belirli konumlar:" />
+		<res id="12" text="Alt Klasörler" />
+		<res id="13" text="Göz At" />
+		<res id="14" text="Birden fazla klasör" />
+		<res id="15" text="Outlook/Thunderbird Dosyaları" />
+		<res id="16" text="E-posta ekleri" />
+		<res id="17" text="Gelişmiş..." />
+	</dialog>
+	<dialog name="IDD_SAVE_BULKCOPY" id="211" caption="">
+		<res id="1" text="Dosyalara kopyala" />
+		<res id="2" text="&amp;Klasör:" />
+		<res id="3" text="&amp;Sıkıştırılmış dosya:" />
+		<res id="4" text="&amp;Göz at..." />
+		<res id="5" text="&amp;Göz at..." />
+		<res id="6" text="Seçenekler" />
+		<res id="7" text="Klasör yapısı:" />
+		<res id="8" text="Mevcut dosya:" />
+		<res id="9" text="E-posta ürün:" />
+		<res id="10" text="Kopyasını çıkar:" />
+		<res id="11" text="Hatalar:" />
+		<res id="12" text="Dosya özelliklerini kopyala" />
+		<res id="13" text="Kopyalanacak dosyalar" />
+		<res id="14" text="Tüm dosyalar" />
+		<res id="15" text="Sadece seçilen dosyalar" />
+		<res id="16" text="Sıkıştırma oluştur" />
+		<res id="17" text="Sıkıştırmaya ekle" />
+		<res id="18" text="255 karakterden uzun yolları kısalt" />
+		<res id="19" text="Klasörleri kopyala" t="g" />
+		<res id="20" text="Alt klasörler dahil" t="g" />
+		<res id="21" text="Boş klasörleri dahil et" t="g" />
+	</dialog>
+	<dialog name="IDD_SAVE_SESSIONWORKSPACE" id="210" caption="">
+		<res id="1" text="Kaydetme yeri" />
+		<res id="2" text="&amp;Dosya:" />
+		<res id="3" text="&amp;Göz at..." />
+		<res id="4" text="Kaydedilecek aramalar" />
+		<res id="5" text="Sadece mevcut arama oturumu" />
+		<res id="6" text="Çalışma Alanı (ie. TÜM arama seansları)" />
+		<res id="7" text="&amp;Her arama için arama geçmişini dahil et" />
+	</dialog>
+	<dialog name="IDD_EXPORT" id="206" caption="Dışa aktar">
+		<res id="1" text="TAMAM" />
+		<res id="2" text="İptal" />
+	</dialog>
+	<dialog name="IDD_EXPORT_TYPE" id="209" caption="">
+		<res id="1" text="Dışa aktarma işlemi" />
+		<res id="2" text="Toplu Kopyalama" />
+		<res id="3" text="Arama Sonuçlarını Dışarı Aktar" />
+		<res id="4" text="Oturumu/Çalışma Alanını Kaydet" />
+		<res id="5" text="Yardım" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FILENAMEPRESET" id="197" caption="Dosya Adı Ön Ayarı">
+		<res id="1" text="Not: AND, OR ve NOT gibi standart Boolean operatörlerini kullanarak terimleri birleştirebilirsiniz." />
+		<res id="2" text="Dosya türleri:" />
+	</dialog>
+	<dialog name="IDD_REPORTS_SELECTION" id="3514" caption="" maxgrow="700">
+		<res id="1" text="Raporla:" />
+		<res id="2" text="Stil:" />
+		<res id="3" text="Sonraki" />
+		<res id="4" text="Sonraki" />
+		<res id="5" text="Hepsi" />
+		<res id="6" text="Dosyalar:" />
+		<res id="7" text="Seçili" />
+	</dialog>
+	<dialog name="IDD_REPORT_PROGRESS" id="3530" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Rapor oluşturuluyor..." />
+		<res id="3" text="İptal" />
+	</dialog>
+	<dialog name="IDD_ADV_MEMMANAGER" id="5556" caption="">
+		<res id="1" text="Büyük aramalarda bellek tüketimini sınırla" />
+		<res id="2" text="Arama başına bellek limiti:" />
+		<res id="3" text="Sistemin hesapladığı tutar" />
+		<res id="4" text="Belirli miktar:" />
+		<res id="5" text="Hatları kesme limiti:" />
+		<res id="6" text="Satır başına karakterleri kısaltın:" />
+		<res id="7" text="Sadece arama geçmişine kısaltma uygula" />
+	</dialog>
+	<dialog name="IDD_REPORT_OPTIONS" id="3524" caption="">
+		<res id="1" text="Görüntüle" />
+		<res id="2" text="Ölçüt özeti" />
+		<res id="3" text="Arama istatistikleri" />
+		<res id="4" text="Sütun başlıkları" />
+		<res id="5" text="Alanlar" />
+		<res id="6" text="TAMAM" />
+		<res id="7" text="İptal" />
+		<res id="8" text="Not: Alanları yeniden sıralamak için Sürükle + Bırak" />
+	</dialog>
+	<dialog name="IDD_CACHE_SETTINGS" id="5552" caption="">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="Bilgi" />
+		<res id="4" text="Önbellek klasörü:" />
+		<res id="5" text="Öğeler:" />
+		<res id="6" text="Toplam boyut:" />
+		<res id="7" text="Kompakt..." />
+		<res id="8" text="Temizle..." />
+		<res id="9" text="Ayarlar" />
+		<res id="10" text="Ürün başına maksimum izin verilen boyut (KB):" />
+		<res id="11" text="Son" />
+		<res id="12" text="Hiçbir zaman" />
+		<res id="13" text="Sonra tekrar verilmeyen önbellek öğelerini sil:" />
+		<res id="14" text="Çıkışta önbelleği temizle" />
+		<res id="15" text="TAMAM" />
+		<res id="16" text="İptal" />
+		<res id="17" text="günler" />
+	</dialog>
+	<dialog name="IDD_GENERAL_SEARCH" id="5553" caption="">
+		<res id="1" text="Arama Yöntemi" />
+		<res id="2" text="&amp;Çok aşamalı (varsayılan)" />
+		<res id="3" text="&amp;Acil" />
+		<res id="4" text="&amp;Eşleşme Sayısını Hesapla" />
+		<res id="7" text="&amp;Sipariş verildi" />
+		<res id="9" text="Yazarken Ara" />
+		<res id="10" text="&amp;Dizin Arama" />
+		<res id="11" text="&amp;Metin Sekmesi" />
+		<res id="12" text="&amp;Artan" />
+	</dialog>
+	<dialog name="IDD_SAVE_WORKSPACE" id="196" caption="Çalışma Alanını Kaydet">
+		<res id="1" text="Kaydetme yeri" />
+		<res id="2" text="&amp;Dosya:" />
+		<res id="3" text="&amp;Göz at..." />
+		<res id="4" text="Kaydetmek için bilgi" />
+		<res id="5" text="&amp;Tam çalışma alanı" />
+		<res id="6" text="&amp;Kısmi çalışma alanı" />
+		<res id="7" text="&amp;Tüm aramalar" />
+		<res id="8" text="&amp;Yalnızca geçerli arama:" />
+		<res id="9" text="&amp;Her arama için arama geçmişini ekle" />
+		<res id="15" text="Kaydet" />
+		<res id="16" text="İptal" />
+	</dialog>
+	<dialog name="IDD_SAVE_SESSION" id="195" caption="Arama Oturumunu Kaydet">
+		<res id="1" text="Kaydetme yeri" />
+		<res id="2" text="&amp;Dosya:" />
+		<res id="3" text="&amp;Göz at..." />
+		<res id="4" text="&amp;Arama geçmişini ekle" />
+		<res id="15" text="Kaydet" />
+		<res id="16" text="İptal" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSION" id="5523" caption="">
+		<res id="1" text="Adı:" />
+		<res id="2" text="&lt;adı&gt;" />
+		<res id="3" text="Dosya türleri:" />
+		<res id="4" text="(Her geçerli dosya türünü ayrı bir satıra ekleme.)" />
+		<res id="5" text="Prog kimliği:" />
+		<res id="6" text="&lt;progid&gt;" />
+		<res id="7" text="&amp;Güvenli moda Çalıştır" />
+		<res id="8" text="&amp;Dizin oluşturma hizmeti filtresini kullan (varsa)" />
+		<res id="9" text="&amp;İkili veri arama için uygun değil" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSIONMAIN" id="5527" caption="">
+		<res id="1" text="Geri yükle..." />
+		<res id="2" text="Uzatma ayarlarını yükleme varsayılanlarına geri yüklemek için aşağıdaki düğmeye basın." />
+		<res id="3" text="Uzantı yapılandırmasını geri yükle" />
+		<res id="4" text="Bu yapılandırma grubu, gelişmiş dosya işleme için uzantı ayarlarını denetler." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_GENERAL" id="5533" caption="">
+		<res id="1" text="Bu yapılandırma grubu, aramaları denetlemek için kullanılan genel ayarları içerir." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EDITOR" id="5534" caption="">
+		<res id="1" text="Bu yapılandırma grubu, İçindekiler Görünümü ile çalışırken hangi düzenleyicinin kullanılacağı denetler." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_ADVANCED" id="5540" caption="">
+		<res id="1" text="Bu yapılandırma grubu Gelişmiş ayarları içerir." />
+	</dialog>
+	<dialog name="IDD_CLEARARHISTORY_DIALOG" id="5524" caption="Geçmişi Temizle">
+		<res id="1" text="&amp;Dosya adı" />
+		<res id="2" text="&amp;Metin içeren" />
+		<res id="3" text="&amp;Bak" />
+		<res id="4" text="TAMAM" />
+		<res id="5" text="İptal" />
+		<res id="6" text="Hangi geçmişin temizlenmesini istersiniz?" />
+		<res id="7" text="Tüm geçmiş" />
+	</dialog>
+	<dialog name="IDD_FILETYPE_UTF8" id="5544" caption="">
+		<res id="1" text="Belirli bir kodlama bilgisi algılanmazsa varsayılan olarak aşağıdaki dosya türleri UTF-8 olarak verilmiştir." />
+		<res id="2" text="Dosya türleri:" />
+		<res id="3" text="(Her geçerli dosya türünü ayrı bir satıra ekleme.)" />
+		<res id="4" text="Otomatik algılama UTF-8 dosyaları" />
+	</dialog>
+	<dialog name="IDD_GENERAL_IFILTER" id="5541" caption="">
+		<res id="1" text="" />
+		<res id="2" text="&amp;Yenile" />
+		<res id="3" text="Bu bilgisayarda kayıtlı IFilters:" />
+		<res id="4" text="HTML/XML tabanlı dosya türleri için IFilters Ekle" />
+		<res id="5" text="Filtre arama önceliği:" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_DEFAULT" id="5529" caption="">
+		<res id="1" text="Varsayılan düzenleyici seçenekleri" />
+		<res id="2" text="Metin sekmesinde Iç Görüntüleyici" />
+		<res id="3" text="Yeni pencerede Iç Görüntüleyici" />
+		<res id="4" text="Microsoft Visual Studio" />
+		<res id="5" text="Dış düzenleyici" />
+		<res id="6" text="Visual Studio sürümü" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_EXTERNAL" id="5528" caption="">
+		<res id="1" text="&amp;Göz at..." />
+		<res id="2" text="Genel düzenleyici Varsayılanları:" />
+		<res id="3" text="Komut satırı parametreleri:" />
+		<res id="4" text="Değişken: " />
+		<res id="5" text="$(DOSYAYOLU)" />
+		<res id="6" text="- Şu anda seçili dosya" />
+		<res id="7" text="$(SATIRNUMARASI)" />
+		<res id="8" text="- Şu anda seçili satır numarası" />
+		<res id="9" text="Program konumu:" />
+		<res id="10" text="$(UZUNYOL)" />
+		<res id="11" text="- Şu anda seçili dosya uzun yol biçiminde" />
+	</dialog>
+	<dialog name="IDD_CONFIGURATION_MAIN" id="5526" caption="Yapılandırma Ayarları">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="TAMAM" />
+		<res id="4" text="İptal" />
+		<res id="5" text="Ayarlar" />
+		<res id="6" text="Varsayılan yapılandırmaya Sıfırla" />
+	</dialog>
+	<dialog name="IDD_GENERAL_DISPLAYCONFIG" id="5530" caption="">
+		<res id="1" text="Çizgileri görüntüle" />
+		<res id="2" text="Dosya başına en fazla görüntülenen satırlar:" />
+		<res id="3" text="Satır başına görüntülenen maksimum karakterleri limit:" />
+		<res id="4" text="Çevre hatları" />
+		<res id="5" text="Önce satır:" />
+		<res id="6" text="Satırları sonra:" />
+		<res id="7" text="Dosya listesi görünümü:" />
+		<res id="8" text="Dosya yolu görüntüleme tercihi" />
+		<res id="9" text="İçindekiler görünümü:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_HISTORY" id="5531" caption="">
+		<res id="1" text="&amp;Çıkışta tüm geçmişini temizle" />
+		<res id="2" text="Temizle &amp;Geçmiş..." />
+		<res id="3" text="Hatırla" />
+		<res id="4" text="&amp;Seçenekler ayarları" />
+		<res id="5" text="Pencere &amp;boyut, pozisyon &amp;&amp; yazı tipi ayarları" />
+		<res id="6" text="&amp;Başlangıçta son aramayı yükle" />
+		<res id="7" text="Maksimum liste boyutları" />
+		<res id="8" text="Arama navigasyon:" />
+		<res id="9" text="Açılan listeler" />
+		<res id="10" text="Açılan listeler:" />
+		<res id="11" text="Son dosyalar:" />
+		<res id="12" text="Sütun sıralama düzeni" />
+		<res id="13" text="&amp;Düzenle..." t="e" />
+	</dialog>
+	<dialog name="IDD_GENERAL_CHARPROC" id="5532" caption="">
+		<res id="1" text="Diğer geçerli satır sonu (EOL) tanımlayıcıları" />
+		<res id="2" text="&amp;Unix (LF)" />
+		<res id="3" text="&amp;Mac (CR)" />
+		<res id="4" text="Satır başına en fazla karakter:" />
+		<res id="5" text="Metin İçeren" />
+		<res id="6" text="&amp;İçerik aramada dosya adını Ekle" />
+		<res id="7" text="Klasör Ekle &amp;içerik aramada yol" />
+		<res id="8" text="Dosya Adı" />
+		<res id="9" text="Dosya adı araması 'nda klasör yolunu ekle" />
+		<res id="10" refid="5545:9" />
+	</dialog>
+	<dialog name="IDD_GENERAL_THREADING" id="5535" caption="">
+		<res id="1" text="Arama konuları" />
+		<res id="2" text="Dizin oluşturma iş parçacıkları" />
+		<res id="3" text="" />
+		<res id="4" text="(between 1 - 99)" />
+		<res id="5" text="Uyarı: İş parçacığı sayısını çok yüksek olarak ayarlamak performansı etkileyebilir. " />
+		<res id="6" text="İşlem önceliği" />
+		<res id="7" text="Ön plan:" />
+		<res id="8" text="Arka plan:" />
+		<res id="9" text="Küçültülmüş:" />
+		<res id="10" text="Dizin oluşturucu:" t="g" />
+	</dialog>
+	<dialog name="IDD_GENERAL_SHELL" id="5536" caption="">
+		<res id="1" text="&amp;Dosya türleriyle ilişkilendirin (SRF, FLSX, FLWX)" />
+		<res id="2" text="A ekle &amp;Klasörün bağlam menüsü seçenekleri" />
+		<res id="3" text="A ekle &amp;Dosyalar bağlam menüsü seçenekleri" />
+		<res id="4" text="Bulmak için Ekle/&amp;Arama Başlat menüsü seçenekleri" />
+		<res id="5" text="&amp;Varsayılan Explorer araması Değiştir (Ctrl+F, F3)*" />
+		<res id="6" text="Etkinleştir &amp;HotKey launch (WinKey+Alt+F, WinKey+Alt+F3)" />
+		<res id="7" text="* UAC Not: kabuk ayarları değiştirme gerekli ayrıcalık yükseltme ile başlatmak kabuk yönetici EXE neden olabilir." />
+		<res id="8" text="Uygulama başlatma modu:" t="g" />
+		<res id="9" text="Çoklu örnek (varsayılan)" t="g" />
+		<res id="10" text="Tek örnek" t="g" />
+		<res id="11" text="Kabuk entegrasyonundan tek örnek" t="g" />
+		<res id="12" text="Dosya Listesi Bağlam Menüsü" t="g" />
+		<res id="13" text="Karmaşık seçimler için temel bağlam menüsü seçenekleri" t="g" />
+		<res id="14" text="Geniş seçim sınırı:" t="g" />
+	</dialog>
+	<dialog name="IDD_GENERAL_FOLDERS" id="5537" caption="">
+		<res id="1" text="&amp;Göz at..." />
+		<res id="2" text="&amp;Göz at..." />
+		<res id="3" text="&amp;Göz at..." />
+		<res id="4" text="&amp;Göz at..." />
+		<res id="5" text="Günlük dosyası klasörü:" />
+		<res id="6" text="Yapılandırma dosyaları klasörü:" />
+		<res id="7" text="&amp;Göz at..." />
+		<res id="8" text="&amp;Göz at..." />
+		<res id="9" text="Sık Kullanılanlar klasörü:" />
+		<res id="10" text="&amp;Göz at..." />
+		<res id="11" text="&amp;Göz at..." />
+		<res id="12" text="Geçici dosyalar klasörü:" />
+		<res id="13" text="Varsayılan Dizin klasörü:" t="g" />
+	</dialog>
+	<dialog name="IDD_GENERAL_ALERTS" id="5538" caption="">
+		<res id="1" text="Ses oynat" />
+		<res id="2" text="..." />
+		<res id="3" text="..." />
+		<res id="4" text="Görev çubuğu bildirim iletisini göster" />
+		<res id="5" text="Bulunan her dosya için yineleyin" />
+		<res id="6" text="Ses oynat" />
+		<res id="7" text="..." />
+		<res id="8" text="..." />
+		<res id="9" text="Görev çubuğu bildirim iletisini göster" />
+		<res id="10" text="Dosya Bulundu" />
+		<res id="11" text="Arama Tamamlandı" />
+	</dialog>
+	<dialog name="IDD_GENERAL_EMAIL" id="5557" caption="">
+		<res id="1" text="Arıyor" />
+		<res id="2" text="Üst ileti adını ek adına Ekle" />
+		<res id="3" text="Ayrı ileti gövdesi metin eki Ekle" />
+		<res id="4" text="İleti gövdesinde HTML biçimlendirmesini kaldırma" />
+		<res id="5" text="Thunderbird" />
+		<res id="6" text="Profil Klasörleri" />
+		<res id="7" text="" />
+		<res id="8" text="" />
+	</dialog>
+	<dialog name="IDD_ADV_TRANSFORM" id="5539" caption="">
+		<res id="1" text="Sonuçları kaydetmek için kullanılan XSLT işlemcisini seçin özel biçim dönüşümleri:" />
+		<res id="2" text="DOM prog kimliği:" />
+		<res id="3" text="Microsoft XML Çekirdek Hizmetleri" />
+	</dialog>
+	<dialog name="IDD_ADV_JUNCTIONS" id="5542" caption="">
+		<res id="1" text="Simgesel bağlantılar ve Dizin kavşak" />
+		<res id="2" text="Sembolik bağlantıları ve dizin bağlantılarını ara" />
+		<res id="3" text="Yeni dizin oluşturulamıyor. Lütfen yazma erişiminizin olup olmadığını kontrol edin" />
+		<res id="4" text="Kısayollar" />
+		<res id="5" text="Kısayol dosyalarını ara" />
+		<res id="6" text="Kısayol klasörlerini ara" />
+	</dialog>
+	<dialog name="IDD_ADV_FILELISTS" id="5543" caption="">
+		<res id="1" text="Hangi ölçüt alanlarının dosya listelerini kabul ettiğini seçin (ör., =c:\list.txt):" />
+		<res id="2" text="&amp;Dosya Adı" />
+		<res id="3" text="&amp;İçerdiği Metin" />
+		<res id="4" text="&amp;Bak" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_BOOLEAN" id="5545" caption="">
+		<res id="1" text="Hassasiyet GİBİ" />
+		<res id="2" text="" />
+		<res id="3" text="Çok benzer" />
+		<res id="4" text="Benzer" />
+		<res id="5" text="Yaklaşık" />
+		<res id="6" text="Mesafe YAKIN" />
+		<res id="7" text="Sözcükler arasındaki maksimum uzaklık (karakterler)" />
+		<res id="8" text="İfade Ayrıştırma" />
+		<res id="9" text="Stilize tırnakları normal tırnak olarak işleme" />
+	</dialog>
+	<dialog name="IDD_FILTERS" id="5546" caption="Kalıcı Arama Filtreleri">
+		<res id="1" text="&amp;Kalıcı Arama Filtreleri Kullanma" />
+		<res id="2" text="Arama Filtreleri:" />
+		<res id="3" text="&amp;Ekle..." />
+		<res id="4" text="" />
+		<res id="5" text="TAMAM" />
+		<res id="6" text="İptal" />
+	</dialog>
+	<dialog name="IDD_FILTERS_EDIT" id="5547" caption="Arama Filtresi Tanımı">
+		<res id="1" text="&amp;Açıklama:" />
+		<res id="2" text="&amp;Konum" />
+		<res id="3" text="&amp;Dosya adı" />
+		<res id="4" text="Göz at..." />
+		<res id="5" text="Göz at..." />
+		<res id="6" text="Kaydet" />
+		<res id="7" text="İptal" />
+		<res id="8" text="" />
+		<res id="9" text="Arama filtresi, Bak veya Dosya adı alanı için geçerli herhangi bir değer olabilir. Etkin olduğunda her aramaya otomatik olarak uygulanır." />
+		<res id="10" text="" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_REGEX" id="5548" caption="">
+		<res id="1" text="Normal İfade Sözdizimi" />
+		<res id="2" text="&amp;Perl uyumlu" />
+		<res id="3" text="&amp;Klasik" />
+		<res id="4" text="&amp;Karakter aralıklarını Harmanle" />
+		<res id="5" text="Çok Satırlı Normal İfadeler" />
+		<res id="6" text="Eşleşme başına maksimum satır" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_HASH" id="5549" caption="">
+		<res id="1" text="Karma algoritmalar" />
+		<res id="2" text="SHA-&amp;1" />
+		<res id="3" text="SHA-&amp;256" />
+		<res id="4" text="SHA-&amp;512" />
+		<res id="5" text="&amp;MD5" />
+	</dialog>
+	<dialog name="IDD_FORMATS_DOCUMENT" id="5517" caption="Belge Arama Ayarları">
+		<res id="1" text="Ortak Office belge biçimlerini aramak için arama yöntemini seçin (ör. doc, pdf, xls, vb):" />
+		<res id="2" text="Derin arama (dosyadaki hem metin hem de ham verileri arar)" />
+		<res id="3" text="Özel işleme ayarları" />
+		<res id="4" text="Tüm uygun belge okuyucularını kullanma" />
+		<res id="5" text="Yalnızca seçili belge okuyucularını kullanma:" />
+		<res id="6" text="&amp;Tüm" />
+		<res id="7" text="&amp;Hiçbiri" />
+		<res id="8" text="" />
+		<res id="9" text="Ayrıca işlenmiş dosyaların RAW belge verilerini arama" />
+		<res id="10" text="TAMAM" />
+		<res id="11" text="İptal" />
+		<res id="12" text="Metin Arama" />
+		<res id="13" text="Genişletilmiş Ayarlar (Word/PDF)" t="g" />
+		<res id="14" text="Gömülü belgeleri arayın" t="g" />
+	</dialog>
+	<dialog name="IDD_FORMATS_ARCHIVE" id="5525" caption="Sıkıştırılmış/Arşiv Biçimi Arama Ayarları">
+		<res id="1" text="İçinde aramak istediğiniz sıkıştırılmış/arşiv biçimlerini seçin:" />
+		<res id="2" text="TÜM sıkıştırılmış/arşiv dosyaları içinde arama" />
+		<res id="3" text="Yalnızca seçilen sıkıştırılmış/arşiv formatları içinde arama:" />
+		<res id="4" text="&amp;Tüm" />
+		<res id="5" text="&amp;Hiçbiri" />
+		<res id="6" text="" />
+		<res id="7" text="TAMAM" />
+		<res id="8" text="İptal" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXPRESSIONS" id="5519" caption="">
+		<res id="1" text="Bu yapılandırma grubu ifade ayarlarını içerir." />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_DOS" id="5520" caption="">
+		<res id="1" text="&amp;Kesinlikle uygun sözdizimi" />
+		<res id="2" text="Wildcard İfadeleri" />
+		<res id="3" text="&amp;Uzantı belirtilmişse sınır işaretçilerini ima edin" />
+	</dialog>
+	<dialog name="IDD_GENERAL_GUI" id="5521" caption="">
+		<res id="1" text="Bak ve Hisset" />
+		<res id="2" text="Varsayılan (sekmeli arama, standart tema)" />
+		<res id="3" text="Klasik (MDI arama, klasik tema)" />
+		<res id="4" text="Özel" />
+		<res id="5" text="Tema:" />
+		<res id="6" text="Sekmeli arama" />
+		<res id="7" text="&amp;Bireysel görev çubuğu sekmesi önizlemeleri*" />
+		<res id="8" text="* Yeniden başlatıldıktan sonra etkinleşir" />
+		<res id="9" text="İçindekiler görünümünde sekmeleri göster" />
+		<res id="10" text="Varsayılan sekme arama aşağıdaki" />
+		<res id="11" text="Varsayılan İçindekiler sekmesi:" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_INTERNALVIEWER" id="5522" caption="">
+		<res id="1" text="Görüntü" />
+		<res id="2" text="* Yeni yüklenen tüm dosyalar için etkili olur." />
+		<res id="3" text="Sekme boyutu:" />
+	</dialog>
+	<dialog name="IDD_ABOUTBOX" id="101" caption="Ürün Hakkında">
+		<res id="1" text="https://www.mythicsoft.com" />
+		<res id="2" text="mailto:support@mythicsoft.com" />
+		<res id="3" text="&amp;Kayıt Kodu..." />
+		<res id="4" text="TAMAM" />
+		<res id="5" text="Copyright © 2026 Mythicsoft Ltd. Bütün hakları saklıdır." />
+		<res id="6" text="Lisans türü:" />
+		<res id="7" text="(Değiştir)" />
+		<res id="8" text="Web sitesi:" />
+		<res id="9" text="Gizlilik Politikası: Kişisel bilgiler satılmayacak veya dağıtılyacaktır" />
+		<res id="10" text="E-posta: " />
+		<res id="11" text="Kayıtlı:" />
+		<res id="12" text="Gizlilik Politikası" />
+		<res id="13" text="https://www.mythicsoft.com/privacy-policy" />
+		<res id="14" text="" />
+	</dialog>
+	<dialog name="IDD_TESTREGEXP" id="115" caption="Normal İfadeyi Sına">
+		<res id="1" text="&amp;Normal İfade:" />
+		<res id="2" text="Eşleşme Durumu" />
+		<res id="3" text="&amp;Örnek Metin:" />
+		<res id="4" text="Test" />
+		<res id="5" text="Kapat" />
+		<res id="6" text="Sonuç:" />
+		<res id="7" text="Normal ifadesinin doğru olup olmadığından emin değil misiniz? Bu pencere, normal ifade motorunu sınamanızı sağlar. Sadece bazı örnek metin ile birlikte test etmek istediğiniz ifadeyi girin ve sonra test tuşuna basın." />
+		<res id="8" text="Not: İfade test cihazı, Perl stili düzenli ifadeler kullanır." />
+	</dialog>
+	<dialog name="IDD_SEARCHFOR_FORM" id="102" caption="">
+		<res id="1" text="" />
+		<res id="2" text="&amp;Uzman Kullanıcı" />
+		<res id="3" text="Başla" />
+		<res id="4" text="Dur" />
+		<res id="5" text="İlerleme1" />
+		<res id="6" text="Animasyon1" />
+		<res id="7" text="" />
+	</dialog>
+	<dialog name="IDD_BASIC" id="118" caption="Ana">
+		<res id="1" text="Dosya &amp;adı:" />
+		<res id="2" text="&amp;Metin içeren:" />
+		<res id="3" text="Arama &amp;Sihirbazı..." />
+		<res id="4" text="&amp;Bak:" />
+		<res id="5" text="" />
+		<res id="6" text="Arama &amp;Alt klasör" />
+		<res id="7" text="&amp;Göz at..." />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_NAME" id="120" caption="Dosya adı">
+		<res id="1" text="Bulmak istediğiniz dosyanın adı nedir?" />
+		<res id="2" text="Tam adını bilmiyor musunuz? Endişelenmeyin, adın bazı bölümlerinde arama yapabilirsiniz. Adın herhangi bir bölümünü bilmiyorsanız boş bırakın." />
+		<res id="3" text="Örnekler:" />
+		<res id="4" text="My*Doc" />
+		<res id="5" text="Benim ve sonra doc başka bir yerde adı olan tüm belgeleri bulmak mı istiyorsunuz?" />
+		<res id="6" text="(ör. My_Document.doc, My_Autodoc.txt vb.)" />
+		<res id="7" text="Örneklerde gösterilenler gibi ifadeleri kullanmadan önce, seçenekler sekmesinde dosya adının Wildcard karakter ifadesi olarak ayarlandığından emin olun." />
+		<res id="8" text="MyDoc" />
+		<res id="9" text="MyDoc somwhere adı ile tüm belgeleri bulmak istiyorsunuz" />
+		<res id="10" text="(ör. MyDocument.doc, Note_From_MyDoctor.txt vb.)" />
+		<res id="11" text="*.doc;*.txt" />
+		<res id="12" text="Tüm bulmak .doc or .txt dosyaları" />
+		<res id="13" text="(ör. MyDocument.doc, DoctorsNote.txt vb.)" />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_LOCATION" id="121" caption="Dosyanın konumu">
+		<res id="1" text="&amp;Tüm yerel sabit diskler" />
+		<res id="2" text="Belirli &amp;Sürücü (ör. C:, D: vb.)" />
+		<res id="3" text="" />
+		<res id="4" text="Belirli &amp;Klasör (ör. C:\Windows, D:\Files\My Docs vb.)" />
+		<res id="5" text="" />
+		<res id="6" text="&amp;Göz at..." />
+		<res id="7" text="&amp;Evet, ayrıca alt klasörleri arama" />
+		<res id="8" text="&amp;Hayır, sadece bu klasörü ara" />
+		<res id="9" text="&amp;Son düğmesini tıklattığınızda aramayı otomatik olarak başlatma" />
+		<res id="10" text="Dosyayı nerede aramak istiyorsunuz?" />
+		<res id="11" text="Klasörün alt klasörlerini de aramak istiyor musunuz?" />
+		<res id="12" text="Performans ipucu: Belirli bir klasör seçmek, aranacak dosya sayısını büyük ölçüde azaltır ve bu nedenle genellikle çok daha hızlıdır." />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_CONTENTS" id="122" caption="Dosyanın içeriği">
+		<res id="1" text="Dosyayı dosya içindeki metne göre aramak istiyor musunuz?" />
+		<res id="2" text="&amp;Hayır, sadece dosya adına göre ara" />
+		<res id="3" text="&amp;Evet, dosyanın içeriğini ara" />
+		<res id="4" text="Dosyanın hangi metni içermesi gerekir?" />
+		<res id="5" text="Örnekler:" />
+		<res id="6" text="&quot;Sevgili Bill&quot;" />
+		<res id="7" text="İçinde Sevgili Bill ifadesinin olduğu bir satırı olan herhangi bir dosyayı bulurdum." />
+		<res id="8" text="(ör. Sevgili Bill..., Sevgili Billy, nasılsın... vb.)" />
+		<res id="9" text="Sevgili Bill" />
+		<res id="10" text="İçinde hem Sevgili hem de Bill kelimelerinin bulunduğu herhangi bir dosyayı bulabilirim (örneğin, Sevgili Fred  Bill nasıl..., En sevgili öğeler yeniden faturalandırılmalıdır...)" />
+		<res id="11" text="Performans ipucu: Dosyaların içeriğinin aranması, özellikle bir ad girilmemişse veya çok belirgin değilse, uzun zaman alabilir. Bu nedenle, Hayır'ı seçmek genellikle çok daha hızlıdır." />
+	</dialog>
+	<dialog name="IDD_REGISTER" id="123" caption="Ürün Kaydı">
+		<res id="1" text="TAMAM" />
+		<res id="2" text="İptal" />
+		<res id="3" text="&amp;Adı:" />
+		<res id="4" text="&amp;Soyadı:" />
+		<res id="5" text="&amp;Kayıt anahtarı:" />
+		<res id="6" text="&amp;E-posta Adresi:" />
+		<res id="7" text="Not: ad ve e-posta adresi tam olarak kayıt e-postada gösterildiği gibi girilmelidir." />
+		<res id="8" text="Herhangi bir sorunuz varsa lütfen yardım için support@mythicsoft.com adresine başvurun." />
+		<res id="9" text="Lütfen kayıt bilgilerinizi girin." />
+	</dialog>
+	<dialog name="IDD_ADVANCED" id="124" caption="Ana">
+		<res id="1" text="Dosya &amp;adı:" />
+		<res id="2" text="&amp;Metin içeren:" />
+		<res id="3" text="&amp;Bak:" />
+		<res id="4" text="" />
+		<res id="5" text="N&amp;ot" />
+		<res id="6" text="" />
+		<res id="7" text="Yardım..." />
+		<res id="8" text="" />
+		<res id="9" text="Yardım..." />
+		<res id="10" text="&amp;Alt klasör" />
+		<res id="11" text="Göz at..." />
+		<res id="12" text="Göz at..." />
+		<res id="13" text="&gt;" />
+		<res id="14" text="&lt;" />
+		<res id="15" text="&amp;Değiştirildi:" />
+		<res id="16" text="&amp;Sonra:" />
+		<res id="17" text="&amp;Önce:" />
+		<res id="18" text="Takvimi göster..." />
+		<res id="19" text="Takvimi göster..." />
+		<res id="20" text="" />
+	</dialog>
+	<dialog name="IDD_ADVANCED_LITE" id="232" copyid="124" />
+	<dialog name="IDD_EXPR_WIZ" id="125" caption="İfadeyi oluşturma">
+		<res id="1" text="gerçekleşir" />
+		<res id="2" text="&amp;Ekle" />
+		<res id="3" text="&amp;Değiştir" />
+		<res id="4" text="&amp;Sil" />
+		<res id="5" text="List2" />
+		<res id="6" text="Sonuç ifadesi" />
+		<res id="7" text="Not: Sürükle &amp;&amp; Öğeleri yeniden düzenlemek için bırak" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_INTRO" id="126" caption="İfade Sihirbazı tanıtımı">
+		<res id="1" text="İfade Sihirbazı'na hoş geldiniz. Bu sihirbaz tam olarak ne aradığınızı tanımlamanıza yardımcı olur." />
+		<res id="2" text="Dize eşleştirme modellerini tanımlamak için normal ifadeler kullanılır. Normal ifadeler çok güçlü olsa da, deneyimsizler için göz korkutucu olabilir." />
+		<res id="3" text="İfade Sihirbazı'nın amacı, bu nedenle, güçten ödün vermeden normal ifadelerin karmaşıklığını azaltmaktır. İfade Sihirbazı, aradığınızı daha kolay anlaşılır terimlerle açıklamanızı isteyerek sizin için ifadeyi oluşturmaya yardımcı olacaktır.." />
+		<res id="4" text="Not:" />
+		<res id="5" text="Aramaya özel not buraya gelir." />
+		<res id="6" text="&amp;Bu tanıtımı bir dahaki sefere gösterme." />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_SPECIAL" id="131" caption="Uyarı: Girilen özel karakterler">
+		<res id="1" text="&amp;Evet. Lütfen uygun ters eğik çizgi ekleyin çünkü girdiğim karakterlerin hiçbiri özel karakter olarak değerlendirilmemeli." />
+		<res id="2" text="&amp;Hayır. Gelişmiş arama için kasıtlı olarak özel karakterler kullanıyorum." />
+		<res id="3" text="Girdiğiniz ifadelerden biri veya birkaçı şu özel karakterlerden en az birini içeriyor: ^$*?+.[]()|\ " />
+		<res id="4" text="Düzenli ifadelerde kalıp eşleştirme kurallarını tanımlamak için özel karakterler kullanılır ve bu nedenle dikkatli kullanılmalıdır. Aynı zamanda özel bir karakter olan bir karakteri aramak istiyorsanız, karakterden önce ters eğik çizgi koymalısınız. " />
+		<res id="5" text="" />
+		<res id="6" text="Örneğin:" />
+		<res id="7" text="Aramak için:" />
+		<res id="8" text="ifade olurdu:" />
+		<res id="9" text="$400.00" />
+		<res id="10" text="\$400\.00" />
+		<res id="11" text="O ne?" />
+		<res id="12" text="O ne\?" />
+		<res id="13" text="(12\4)*5=15" />
+		<res id="14" text="\(12\\4\)\*5=15" />
+		<res id="15" text="Aramak için:" />
+		<res id="16" text="Aramak için:" />
+		<res id="17" text="ifade şöyle olurdu:" />
+		<res id="18" text="ifade şöyle olurdu:" />
+		<res id="19" text="Ifade Sihirbazı'nı otomatik olarak tüm özel karakterler önce ters eğik çizgi eklemek ister misiniz?" />
+	</dialog>
+	<dialog name="IDD_OPTIONS" id="133" caption="Seçenekler">
+		<res id="1" text="&amp;NOT ifadesini belirtir" />
+		<res id="2" text="&amp;Eşleşme durumu" />
+		<res id="3" text="Eşleşme &amp;durumu" />
+		<res id="4" text=" Dosya adı " />
+		<res id="5" text=" İçeriği " />
+		<res id="6" text="Bak" />
+		<res id="7" text="Gelişmiş Belge Arama" />
+		<res id="8" text="Office/PDF belge" />
+	</dialog>
+	<dialog name="IDD_OPTIONS_ADVANCED_LITE" id="169" copyid="133" />
+	<dialog name="IDD_SAVE_RESULTS" id="140" caption="Sonuçları Ver">
+		<res id="1" text="&amp;Pano" />
+		<res id="2" text="&amp;Dosya" />
+		<res id="3" text="&amp;Göz at..." />
+		<res id="4" text="&amp;Dosya üzerine yaz" />
+		<res id="5" text="&amp;Dosyaya ekle" />
+		<res id="6" text="&amp;Kodlama:" />
+		<res id="7" text="Standard" />
+		<res id="8" text="Özel (XSLT)" />
+		<res id="9" text="&amp;Göz at..." />
+		<res id="10" text="&amp;Tüm dosyalar" />
+		<res id="11" text="&amp;Seçilen dosyalar" />
+		<res id="12" text="Dosya &amp;adı" />
+		<res id="13" text="&amp;İçeriği" />
+		<res id="14" text="Çevreleyen &amp;satır" />
+		<res id="15" text="Dışa aktar" />
+		<res id="16" text="İptal" />
+		<res id="17" text="Sonuçları Kaydet" />
+		<res id="18" text="Bilgileri Kaydet" />
+		<res id="19" text="Dışa Aktar" />
+		<res id="20" text="Biçim" />
+	</dialog>
+	<dialog name="IDD_OPTIONALMSG" id="141" caption="İletişim">
+		<res id="1" text="TAMAM" />
+		<res id="2" text="Bana bir daha gösterme." />
+	</dialog>
+	<dialog name="IDD_BLANK" id="142" caption="İletişim">
+		<res id="1" text="Bu boş bir iletişim kutusu" />
+	</dialog>
+	<dialog name="IDD_SCRIPTING" id="143" caption="Komut dosyası">
+		<res id="1" text="Dosya adı komut dosyası:" />
+		<res id="2" text="Göz at..." />
+		<res id="3" text="Motoru:" />
+		<res id="4" text="Parm:" />
+		<res id="5" text="Metin komut dosyası içeren:" />
+		<res id="6" text="Göz at..." />
+		<res id="7" text="Motoru:" />
+		<res id="8" text="Parm:" />
+		<res id="9" text="&amp;Test" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_DOSEXPR" id="152" caption="DOS İfade">
+		<res id="1" text="Wildcard karakter ifadeleri, bir grup dosya belirtmek için standart Windows sözdizimini kullanır. Birden çok ifadeyi ayırmak için noktalı virgül kullanılır." />
+		<res id="2" text="Örnek:" />
+		<res id="3" text="*.txt\t\t .txt uzantılı tüm dosyaları belirtir\n\n*.xls;*.doc\t .xls veya .doc uzantılı tüm dosyaları belirtir." />
+		<res id="4" text="Gelişmiş örnekler:" />
+		<res id="5" text="*.png;*.jpg:holiday\t\t adlarında tatil kelimesi bulunan tüm .png ve .jpg dosyalarını belirtir\n\nNOT:*.doc;*.xls\t\t\t .doc dışındaki tüm dosyaları belirtir ve .xls dosyaları\n\nholiday;NOT:*.exe;*.dll\t\t adlarında tatil kelimesi bulunan .exe veya .dll dosyaları dışındaki tüm dosyaları belirtir" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANEXPR" id="154" caption="Boolean İfade Motoru">
+		<res id="1" text="Boolean ifadeleri, web stili arama işleçlerini ve ya da benzeri ve yakın olmayan bir şekilde kullanır. Boolean aramaları satır veya dosya tarafından ya olabilir:" />
+		<res id="2" text="Örnekler:" />
+		<res id="3" text="iş AND belge\t'iş' ve 'belge' sözcüklerini aynı satırda/dosyada arar" />
+		<res id="4" text="iş belgesi\t\t yukarıdakiyle aynı aramayı gerçekleştirir (AND örtüktür)" />
+		<res id="5" text="iş OR belge\t'iş' VEYA 'belge' kelimelerini aynı satırda/dosyada arar" />
+		<res id="6" text="iş NEAR belgesi\tbir satırda/dosyada 'belge' kelimesine yakın 'iş' arar" />
+		<res id="7" text="&quot;iş belgesi &quot;\tam olarak 'iş belgesi' ifadesini arar" />
+		<res id="8" text="Satıra Göre" />
+		<res id="9" text="ifade ayrı ayrı her satıra karşı test edilir" />
+		<res id="10" text="Dosyaya Göre" />
+		<res id="11" text="ifade tüm dosya boyunca test edilir" />
+		<res id="12" text="Not: Grup ifadeleri için parantez kullanın, ör. (iş AND doc) OR (özel AND durum)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANEXPR_LITE" id="155" caption="Boolean İfade Motoru">
+		<res id="1" text="Boolean ifadeleri web stili arama operatörleri VE, VEYA, DEĞİL kullanın. Boolean aramaları tüm dosya boyunca eşleştirilir." />
+		<res id="2" text="Örnekler:" />
+		<res id="3" text="iş AND belge\t'iş' ve 'belge' sözcüklerini aynı dosyada arar" />
+		<res id="4" text="iş belgesi\t\t yukarıdakiyle aynı aramayı gerçekleştirir (AND örtüktür)" />
+		<res id="5" text="iş OR belge\t'iş' VEYA 'belge' kelimelerini aynı dosyada arar" />
+		<res id="6" text="iş NOT belge\taynı dosyada 'iş' kelimesi olan ve 'belge' kelimesi olmayan durumları arar" />
+		<res id="7" text="&quot;iş belgesi &quot;\ttam olarak 'kelime belgesi' ifadesini arar" />
+		<res id="8" text="" />
+		<res id="9" text="" />
+		<res id="10" text="" />
+		<res id="11" text="" />
+		<res id="12" text="Not: Grup ifadeleri için parantez kullanın, ör. (iş AND doc) OR (özel AND durum)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_EXACTEXPR" id="156" caption="Düz Metin">
+		<res id="1" text="Düz Metin, girilen arama ölçütü metnini değişmez değer olarak, yani metnin tam olarak düzenleme alanına girildiği gibi ele alır. Arama kriterleri, bir kelimenin tamamı veya bir kısmı ile eşleşir." />
+		<res id="2" text="Örneğin:" />
+		<res id="3" text="yazar\t 'yazar' veya 'yazarlar' gibi ifadeler bulur'." />
+		<res id="4" text="balık\t\t'balık', veya 'alabalık' ile eşleşir'." />
+	</dialog>
+	<dialog name="IDD_ATTRIBUTES" id="157" caption="Öznitelik">
+		<res id="1" text="&amp;Öznitelikleri Kullan" />
+		<res id="2" text="Tümünü Temizle" />
+		<res id="3" text="&amp;Arşiv:" />
+		<res id="4" text="&amp;Sıkıştırılmış:" />
+		<res id="5" text="&amp;Şifreli:" />
+		<res id="6" text="Dizin:" />
+		<res id="7" text="&amp;Klasör:" />
+		<res id="8" text="&amp;Gizli:" />
+		<res id="9" text="&amp;Çevrimdışı:" />
+		<res id="10" text="&amp;Salt okunur:" />
+		<res id="11" text="&amp;Sistem:" />
+		<res id="12" text="&amp;Seyrek:" />
+		<res id="13" text="&amp;Yeniden ayrıştırma noktası:" />
+	</dialog>
+	<dialog name="IDD_ATTRIBUTE_SUMMARY" id="158" caption="Özet Öznitelikleri">
+		<res id="1" text="Öznitelik" />
+		<res id="2" text="Arama:" />
+	</dialog>
+	<dialog name="IDD_OPTIONS_ADVANCED" id="159" caption="Seçenekler" maxgrow="700">
+		<res id="1" text="Boolean İfade" />
+		<res id="2" text="Match:" />
+		<res id="3" text="&amp;Satıra göre satır" />
+		<res id="4" text="&amp;Tüm Dosya arasında" />
+		<res id="5" text="Wildcard karakterlere izin ver (&amp;*, ?)" />
+		<res id="6" text="E-posta" />
+		<res id="10" text="Gelişmiş dosya arama" />
+		<res id="11" text="&amp;Office/PDF belge" />
+		<res id="12" text="Ayarlar..." />
+		<res id="13" text="O&amp;utlook/Thunderbird dosyaları" />
+		<res id="14" text="&amp;Ekleri ara" />
+		<res id="15" text="Kaldır &amp;HTML biçimlendirme" />
+		<res id="16" text="&amp;Metin önbelleği" />
+		<res id="17" text="Önbellek..." />
+		<res id="18" text="&amp;binary dosyaları hariç tut" />
+		<res id="19" text="OCR İmajları" />
+		<res id="20" text="OCR..." />
+	</dialog>
+	<dialog name="IDD_DATETIMEPICKER" id="171" caption="Tarih/Saat Seçimi">
+		<res id="1" text="Tarih" />
+		<res id="2" text="Sabit Tarih:" />
+		<res id="3" text="Göreceli Tarih:" />
+		<res id="4" text="" />
+		<res id="5" text="Ayarla (+/-)" />
+		<res id="6" text="Gün:" />
+		<res id="7" text="Hafta:" />
+		<res id="8" text="Ay:" />
+		<res id="9" text="Yıl:" />
+		<res id="10" text="Zaman" />
+		<res id="11" text="Saat Belirt" />
+		<res id="12" text="Sabit Zaman:" />
+		<res id="13" text="Göreceli Zaman:" />
+		<res id="14" text="HH:mm:ss" />
+		<res id="15" text="Ayarla (+/-)" />
+		<res id="16" text="Saniye:" />
+		<res id="17" text="Dakika:" />
+		<res id="18" text="Saat:" />
+		<res id="19" text="TAMAM" />
+		<res id="20" text="İptal" />
+		<res id="21" text="Geçerli ifade:" />
+		<res id="22" text="Değerlendirme kriteri:" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FILEHASH" id="173" caption="Sağlama dosyası">
+		<res id="1" text="Sağlama dosyası, dosyanın içeriğine bağlı olarak her dosya için sabit uzunlukta benzersiz bir tanımlayıcı oluşturur. Aynı içeriğe sahip dosyalar, aynı sağlama değerleri üretecektir." />
+		<res id="2" text="1. Konfigürasyon ayarlarında sağlama algoritmalarını belirtin" />
+		<res id="3" text="To Sağlama değerine göre ara:" />
+		<res id="4" text="2. Sağlama değerlerinin virgülle ayrılmış listesi veya sağlama değerlerinin listesi için bir işaretçi olarak aranacak sağlama değerini girin, ör." />
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848" />
+		<res id="6" text="=c:\hashfile.txt" />
+		<res id="7" text="OR," />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANREGEX" id="175" caption="Boolean RegEx Motoru">
+		<res id="1" text="Boolean RegEx ifadeleri, Boolean ve normal Ifadeler karma şeklindedir. Normal ifadeler aşina olduğunuz AND, OR, ve NOT Boolean işleçleri kullanılarak birleştirilebilir." />
+		<res id="2" text="Örnekler:" />
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;author&quot;" />
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archive&quot;" />
+		<res id="5" text="Not: Grup ifadeleri için parantez kullanın, ör. (iş AND doc) OR (özel AND durum)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_WHOLEWORD" id="177" caption="Tüm Kelime">
+		<res id="1" text="Tüm kelime ifadeleri, her terim yalnızca arama metninde tam kelimelerle eşleştiği, yani kısmi kelime eşleşmeleri hariç olmak üzere, Boolean ifadelerine benzer. Terimler AND, OR, ve NOT Boolean işleçleri kullanılarak birleştirilebilir" />
+		<res id="2" text="Örneğin:" />
+		<res id="3" text="bir yazar\t 'birkaç' veya 'yazarlık' gibi ekısmi eşleşmeleri hariç tutarak 'bir' ve 'yazar' kelimelerini arar." />
+		<res id="4" text="balık\t\t'balık' ile eşleşir ama 'balıklama' veya 'alabalık' ile eşleşmez." />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FUZZY" id="235" caption="Bulanık Arama">
+		<res id="1" text="Bulanık arama ifadeleri, Boole İfadeleri için LIKE operatörüyle tamamen aynı şekilde yaklaşık arama terimleriyle eşleşir. Bulanık arama ifadeleri özel bir Boole ifadesi türü olduğundan, bireysel arama ifadeleri AND, OR ve NOT operatörleri kullanılarak birleştirilebilir." />
+		<res id="2" text="Örneğin:" />
+		<res id="3" text="separate\teşleştirir hem ayrı hem de ayrı ama aynı zamanda ayrı ve farklı." />
+		<res id="4" text="collected\tmatches yanı sıra toplar ve bağlı toplanır." />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_MULTILINE_REGEX" id="236" caption="Çok satırlı Regex">
+		<res id="1" text="Çok satırlı Regex birden çok satır üzerinde normal ifadeler eşleşir." />
+		<res id="2" text="Örneğin:" />
+		<res id="3" text=".{0,20}düşünce.{0,20}" />
+		<res id="4" text="önde gelen/sondaki satırlarda karakterler dahil olmak üzere her iki yan yana kadar 20 karakter ile birlikte düşünce sözcüğü eşleşir." />
+	</dialog>
+	<dialog name="IDD_DATES" id="180" caption="Tarih">
+		<res id="1" text="Tümünü Temizle" />
+		<res id="2" text="&amp;Değiştirildi:" />
+		<res id="3" text="Sonra:" />
+		<res id="4" text="Takvimi göster..." />
+		<res id="5" text="Önce:" />
+		<res id="6" text="Takvimi göster..." />
+		<res id="7" text="&amp;Düzenleyen:" />
+		<res id="8" text="Sonra:" />
+		<res id="9" text="Takvimi göster..." />
+		<res id="10" text="Önce:" />
+		<res id="11" text="Takvimi göster..." />
+		<res id="12" text="&amp;Son Erişim:" />
+		<res id="13" text="Sonra:" />
+		<res id="14" text="Takvimi göster..." />
+		<res id="15" text="Önce:" />
+		<res id="16" text="Takvimi göster..." />
+	</dialog>
+	<dialog name="IDD_ADVANCEDTAB" id="193" caption="Gelişmiş">
+		<res id="1" text="Dosya Sağlama" />
+		<res id="2" text="SHA-&amp;1" />
+		<res id="3" text="SHA-&amp;256" />
+		<res id="4" text="SHA-&amp;512" />
+		<res id="5" text="&amp;MD5" />
+		<res id="6" text="Düzenli ifade" />
+		<res id="7" text="&amp;Uyumlu perl" />
+		<res id="8" text="&amp;Klasik" />
+		<res id="9" text="Aktif Komut Dosyası" />
+		<res id="10" text="Ayarlar ..." />
+	</dialog>
+	<dialog name="IDD_EXTENSIONS" id="145" caption="Sıkıştırılmış Dosyalar">
+		<res id="1" text="" />
+		<res id="2" text="İçinde aramak istediğiniz dosya formatlarını seçin:" />
+		<res id="3" text="Yapılandırma ..." />
+		<res id="4" text="&amp;Hiçbiri" />
+		<res id="5" text="&amp;Hepsi" />
+	</dialog>
+	<dialog name="IDD_CHECKVERSION" id="179" caption="Güncellemeleri Kontrol Et">
+		<res id="1" text="Güncellemeler kontrol ediliyor ..." />
+		<res id="2" text="" />
+		<res id="3" text="İnternet linkleri:" />
+		<res id="4" text="Sayfayı indir:" />
+		<res id="5" text="https://www.mythicsoft.com/%app_name%/download" />
+		<res id="6" text="Sürüm Geçmişi Sayfası: " />
+		<res id="7" text="https://www.mythicsoft.com/%app_name%/history" />
+		<res id="8" text="Güncellemeleri otomatik kontrol et" />
+		<res id="9" text="Kapat" />
+	</dialog>
+	<dialog name="IDD_FAVOURITE_SEARCH" id="191" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Statik" />
+	</dialog>
+	<dialog name="IDD_FAVOURITE_ADD" id="192" caption="Sık Kullanılan ekle">
+		<res id="1" text="" />
+		<res id="2" text="Bu aramayı favori olarak ekle." />
+		<res id="3" text="&amp;Açıklama:" />
+		<res id="4" text="&amp;Etiketler:" />
+		<res id="5" text="&amp;Ekle" />
+		<res id="6" text="İptal" />
+	</dialog>
+	<dialog name="IDD_MULTIFOLDER" id="3539" caption="Birden Çok Klasör">
+		<res id="1" text="Doğrudan yazarak, açılır listeden ekleyerek veya göz atarak her klasörü ayrı bir satıra ekleyin." />
+		<res id="2" text="&amp;Güncel klasörler:" />
+		<res id="3" text="" />
+		<res id="4" text="&amp;Ekle" />
+		<res id="5" text="&amp;Hariç tut" />
+		<res id="6" text="&amp;Makrolar:" />
+		<res id="7" text="" />
+		<res id="8" text="&amp;Ekle" />
+		<res id="9" text="&amp;Hariç tut" />
+		<res id="10" text="&amp;Klasörlere bak:" />
+		<res id="11" text="&amp;Göz at..." />
+		<res id="12" text="&amp;Klasörleri hariç tut:" />
+		<res id="13" text="&amp;Göz at..." />
+		<res id="14" text="&amp;Dahil etme filtresi:" />
+		<res id="15" text="&amp;Hariç tutma filtresi:" />
+		<res id="16" text="TAMAM" />
+		<res id="17" text="İptal" />
+	</dialog>
+	<dialog name="IDD_FILEVIEWER_FIND" id="3523" caption="">
+		<res id="1" text="Bul:" />
+		<res id="2" text="l" />
+		<res id="3" text="Sonraki" />
+		<res id="4" text="Önceki" />
+		<res id="5" text="Vurgula:" />
+		<res id="6" text="" />
+		<res id="7" text="" />
+		<res id="8" text="" />
+		<res id="9" text="" />
+		<res id="10" text="l" />
+		<res id="11" text="Sonraki" />
+		<res id="12" text="Sonraki" />
+		<res id="13" text="Orijinal arama vurgu rengi" />
+		<res id="14" text="Son arama rengi vurgula" />
+		<res id="15" text="" t="e" />
+		<res id="16" text="" t="e" />
+	</dialog>
+	<dialog name="IDD_ACTION_PROGRESS" id="3521" caption="Aksiyon:">
+		<res id="1" text="İptal" />
+		<res id="2" text="" />
+		<res id="3" text="İlerleme" />
+	</dialog>
+	<dialog name="IDD_GENERAL_LOCALIZATION" id="5550" caption="">
+		<res id="1" text="Kullanıcı arayüzü dili:" />
+		<res id="2" text="* Değişiklikler, yeniden başlattıktan sonra yürürlüğe girer" />
+	</dialog>
+	<dialog name="IDD_SINGLE_CONFIG" id="5551" caption="Yerelleştirme Ayarları">
+		<res id="1" text="TAMAM" />
+		<res id="2" text="İptal" />
+	</dialog>
+	<dialog name="IDD_EDITHISTORY_DIALOG" id="5562" caption="Edit History">
+		<res id="1" text="Geçmiş" t="e" />
+		<res id="2" text="Öğeler:" t="e" />
+		<res id="3" text="Hepsini temizle..." t="g" />
+		<res id="4" text="Tamam" t="e" />
+		<res id="5" text="İptal Et" t="e" />
+	</dialog>
+	<menu name="IDR_MENU_REFRESHINDEX" id="322">
+		<res id="1" text="" />
+		<res id="2" text="&amp;Güncelleme Dizini" />
+		<res id="3" text="&amp;Dizini yeniden oluştur" />
+	</menu>
+	<menu name="IDR_INDEXLIST_CONTEXTMENU" id="328">
+		<res id="1" text="" />
+		<res id="2" text="Dizini Düzenle...\tEnter" />
+		<res id="3" text="Dizini Kaldır...\tDel" />
+		<res id="4" text="Yeni dizin ekle...\tIns" />
+		<res id="5" text="Güncelleme Dizini" />
+		<res id="6" text="Dizini yeniden oluştur" />
+		<res id="7" text="Dizinlemeyi İptal Et" />
+	</menu>
+	<menu name="IDR_SCHEDULELIST_CONTEXTMENU" id="340">
+		<res id="1" text="" />
+		<res id="2" text="Programı Düzenle..." />
+		<res id="3" text="Programı Kaldır..." />
+		<res id="4" text="Yeni Program Ekle..." />
+	</menu>
+	<menu name="IDR_INDEXMGR_MENU" id="329">
+		<res id="1" text="&amp;Dosya" />
+		<res id="2" text="&amp;Yeni dizin..." />
+		<res id="3" text="&amp;Çıkış" />
+		<res id="4" text="Yeni &amp;Program..." />
+		<res id="10" text="&amp;Düzenle" />
+		<res id="11" text="&amp;Dizini Düzenle..." />
+		<res id="12" text="&amp;Dizini Kaldır..." />
+		<res id="13" text="&amp;Güncelleme Dizini" />
+		<res id="14" text="&amp;Dizini yeniden oluştur" />
+		<res id="15" text="&amp;Dizinlemeyi İptal Et" />
+		<res id="20" text="&amp;Yardım" />
+		<res id="21" text="&amp;Dizin Yöneticisi Hakkında..." />
+		<res id="22" text="&amp;Hata Raporu Oluştur..." />
+	</menu>
+	<menu name="IDR_FILTERLIST_CONTEXTMENU" id="5512">
+		<res id="1" text="Liste" />
+		<res id="2" text="&amp;Düzenle..." />
+		<res id="3" text="&amp;Sil" />
+	</menu>
+	<menu name="IDR_LICENSELIST_CONTEXTMENU" id="5513">
+		<res id="1" text="List" />
+		<res id="2" text="&amp;Kill Lease" />
+	</menu>
+	<menu name="IDR_VIEWERMENU_SPECIALIZATION" id="150">
+		<res id="6" text="&amp;Dosyayı kaydet" />
+		<res id="7" text="Dosyayı kaydet &amp;Gibi..." />
+	</menu>
+	<menu name="IDR_SHAREDMENU" id="149">
+		<res id="1" text="&amp;Dosya" />
+		<res id="2" text="&amp;Yeni" />
+		<res id="3" text="&amp;Boş Arama" />
+		<res id="4" text="&amp;Açık..." />
+		<res id="5" text="&amp;Kapat" />
+		<res id="6" text="&amp;Ölçütleri Kaydet" />
+		<res id="7" text="Ölçütleri Kaydet &amp;Gibi..." />
+		<res id="8" text="Arama sonuçları &amp;Liste" />
+		<res id="9" text="Arama &amp;Şu anki seçim" />
+		<res id="10" text="&amp;Sonuçları Dışa Aktar..." />
+		<res id="12" text="&amp;Yazıcı..." />
+		<res id="13" text="&amp;Yazıcı Kurulumu..." />
+		<res id="14" text="Son Dosya" />
+		<res id="15" text="&amp;Çıkış" />
+		<res id="16" text="&amp;Düzen" />
+		<res id="17" text="&amp;Kelime Wrap" />
+		<res id="18" text="&amp;Yazı Tipini Ayarla..." />
+		<res id="19" text="Set &amp;Vurgu Rengi..." />
+		<res id="20" text="&amp;Bul" />
+		<res id="21" text="&amp;Bul..." />
+		<res id="22" text="Bul &amp;Sonraki" />
+		<res id="23" text="Bul &amp;Önceki" />
+		<res id="24" text="Vurgula &amp;Orijinal" />
+		<res id="25" text="Vurgula &amp;Şimdiki" />
+		<res id="26" text="Seç Al&amp;l" />
+		<res id="27" text="&amp;Açık" />
+		<res id="28" text="&amp;Burayı keşfedin..." />
+		<res id="29" text="Kopya &amp;Yol" />
+		<res id="30" text="&amp;Kopya" />
+		<res id="31" text="&amp;Kes" />
+		<res id="32" text="&amp;Sil" />
+		<res id="33" text="&amp;Adlandırmak" />
+		<res id="34" text="&amp;Özellikler..." />
+		<res id="35" text="&amp;Görünüm" />
+		<res id="36" text="&amp;Sık kullanılanlar" />
+		<res id="37" text="&amp;Araç çubuğu" />
+		<res id="38" text="&amp;Durum çubuğu" />
+		<res id="39" text="&amp;Hata listesi" />
+		<res id="40" text="&amp;Sıralama ölçütü" />
+		<res id="41" text="&amp;Dosya adı" />
+		<res id="42" text="&amp;Konum" />
+		<res id="43" text="&amp;Boyut" />
+		<res id="44" text="&amp;Türü" />
+		<res id="45" text="&amp;Tarih" />
+		<res id="46" text="&amp;Metin önizleme" />
+		<res id="47" text="&amp;Önceki dosya" />
+		<res id="48" text="&amp;Next" />
+		<res id="49" text="&amp;Küçük" />
+		<res id="50" text="&amp;Ekstra büyük simgeler" />
+		<res id="51" text="&amp;Büyük simgeler" />
+		<res id="52" text="&amp;Orta simgeler" />
+		<res id="53" text="&amp;Küçük simgeler" />
+		<res id="54" text="&amp;Ana görünüme dön" />
+		<res id="55" text="&amp;Geri" />
+		<res id="56" text="İleri" />
+		<res id="57" text="&amp;Arama" />
+		<res id="58" text="&amp;Başla" />
+		<res id="59" text="&amp;Durakla" />
+		<res id="60" text="&amp;Dur" />
+		<res id="61" text="&amp;Araçlar" />
+		<res id="62" text="&amp;Normal İfade Tester..." />
+		<res id="63" text="Arama temizle &amp;Geçmiş..." />
+		<res id="64" text="&amp;Düzenleyici ayarları..." />
+		<res id="65" text="&amp;Yapılandırma..." />
+		<res id="66" text="S&amp;hell Entegrasyon..." />
+		<res id="67" text="&amp;Pencere" />
+		<res id="68" text="İçeriği &amp;Görüntüle" />
+		<res id="69" text="Ancak &amp;Doğru" />
+		<res id="70" text="Ancak &amp;Aşağıda" />
+		<res id="71" text="Göster" />
+		<res id="72" text="&amp;Basamak" />
+		<res id="73" text="&amp;Karo" />
+		<res id="74" text="Düzenle &amp;Simgeler" />
+		<res id="75" text="Taşın &amp;Odaklan" />
+		<res id="76" text="Arat &amp;Ölçüt" />
+		<res id="77" text="&amp;Dosya Listesi" />
+		<res id="78" text="&amp;İçindekiler Görünümü" />
+		<res id="79" text="&amp;Geçerli Sekme" />
+		<res id="80" text="&amp;Özet" />
+		<res id="81" text="&amp;Vurma" />
+		<res id="82" text="&amp;Metin" />
+		<res id="83" text="&amp;Küçükler" />
+		<res id="84" text="&amp;Sık kullanılanlar" />
+		<res id="85" text="Hata &amp;Rapor" />
+		<res id="86" text="Sekme &amp;Sipariş" />
+		<res id="87" text="&amp;Optimize" />
+		<res id="88" text="&amp;Geleneksel soldan sağa" />
+		<res id="89" text="&amp;Yardım" />
+		<res id="90" text="&amp;İçerik..." />
+		<res id="91" text="Komut Satırı &amp;Parametre..." />
+		<res id="92" text="Kontrol Et &amp;Güncelleştirme..." />
+		<res id="93" text="&amp;Hakkında %APP_NAME%..." />
+		<res id="94" text="Kaydet Searc&amp;h..." />
+		<res id="95" text="Kaydet &amp;Çalışma..." />
+		<res id="96" text="Kapat &amp;Tüm" />
+		<res id="97" text="Tümünü Kapat &amp;Metin Pencereleri" />
+		<res id="98" text="Tümünü Kapat &amp;aktif arama hariç" />
+		<res id="99" text="Contact &amp;Teknik Destek..." />
+		<res id="100" text="&amp;Hata Raporu Oluştur..." />
+		<res id="101" text="&amp;Kayıt Kodu..." />
+		<res id="102" text="Tümünü Kapat &amp;aktif arama hariç" />
+		<res id="103" text="&amp;Menü Çubuğu" />
+		<res id="104" text="&amp;Rapor" />
+		<res id="105" text="&amp;Filtre Çubuğu" />
+		<res id="106" text="&amp;Arama Konuları" />
+		<res id="107" text="&amp;Arama Konuları" />
+		<res id="108" text="&amp;Uzman" />
+		<res id="109" text="&amp;Temel" />
+		<res id="110" text="&amp;Dizin Arama" />
+		<res id="111" text="&amp;Dizin Yöneticisi..." />
+		<res id="112" text="&amp;Ölçüt" />
+		<res id="113" text="&amp;Sütunları Seçin..." />
+		<res id="114" text="&amp;Lisans Türünü Değiştirme..." />
+		<res id="115" text="&amp;Yükselt..." />
+		<res id="116" text="&amp;Zoom" />
+		<res id="117" text="Zoom &amp;In" />
+		<res id="118" text="Zoom &amp;Out" />
+		<res id="119" text="&amp;License Manager..." />
+	</menu>
+	<menu name="IDR_SHAREDMENU_LITE" id="170" copyid="149" />
+	<menu name="IDR_CONTENTSVIEWMENU" id="148">
+		<res id="1" text="İçindekiler Görünümü" />
+		<res id="2" text="Metin sekmesinde aç" />
+		<res id="3" text="Yeni pencerede aç..." />
+		<res id="4" text="Harici düzenleyicide aç..." />
+		<res id="5" text="Visual Studio'da aç..." />
+		<res id="6" text="Dışa Aktarma Sonuçları..." />
+		<res id="7" text="Word Sarma" />
+		<res id="8" text="Kopyala" />
+		<res id="9" text="Tümünü Genişletin" />
+		<res id="10" text="Çöküşü Tüm" />
+		<res id="11" text="Sağdaki Dock" />
+		<res id="12" text="Aşağıdaki Dock" />
+		<res id="13" text="İçeriği Gizle Görünümü" />
+	</menu>
+	<menu name="IDR_MENU_PLACEHOLDER" id="186">
+		<res id="1" text="Boş" />
+	</menu>
+	<menu name="IDR_FAVOURITES_MENU" id="194">
+		<res id="1" text="Menüyü Bul" />
+		<res id="2" text="Açık" />
+		<res id="3" text="Yeni pencerede aç" />
+		<res id="4" text="Düzenle" />
+		<res id="5" text="Sil" />
+	</menu>
+	<menu name="IDR_FILELOTYPE" id="114">
+		<res id="1" text="Aptal" />
+	</menu>
+	<menu name="IDR_FILEVIEWER" id="107">
+		<res id="1" text="Aptal" />
+	</menu>
+	<menu name="IDR_FILTERMENU" id="200">
+		<res id="1" text="Filtre" />
+		<res id="2" text="Arama Filtreleri AÇIK" />
+		<res id="3" text="Arama Filtreleri KAPALI" />
+		<res id="4" text="Ayarlar..." />
+	</menu>
+	<menu name="IDR_FILEVIEWER_CONTEXTMENU" id="3522">
+		<res id="1" text="İçindekiler Görünümü" />
+		<res id="2" text="&amp;Word Sarma" />
+		<res id="3" text="Kopyala" />
+		<res id="4" text="Yeni pencerede aç..." />
+		<res id="5" text="Harici düzenleyicide aç..." />
+		<res id="6" text="Visual Studio'da aç..." />
+		<res id="7" text="Bul" />
+		<res id="8" text="Sonraki Bul" />
+		<res id="9" text="Önceki Bul" />
+		<res id="10" text="Orijinali Vurgula" />
+		<res id="11" text="Mevcut olanı Vurgula" />
+		<res id="12" text="Yazı Tipini Ayarla..." />
+		<res id="13" text="Dosya" />
+		<res id="14" text="Tekrar Ara" />
+		<res id="15" text="Yeni Arama" />
+	</menu>
+	<menu name="IDR_REPORTVIEW_CONTEXTMENU" id="3526">
+		<res id="1" text="Rapor" />
+		<res id="2" text="Kopyala" />
+		<res id="3" text="Tümünü Seç" />
+		<res id="4" text="Yenile" />
+	</menu>
+	<menu name="IDR_IMAGESIZES_MENU" id="3507">
+		<res id="1" text="Boyutu" />
+		<res id="2" text="Ekstra Büyük Simgeler" />
+		<res id="3" text="Büyük Simgeler" />
+		<res id="4" text="Orta Simgeler" />
+		<res id="5" text="Küçük Simgeler" />
+		<res id="6" text="Önizlemek" />
+	</menu>
+	<menu name="IDR_SEARCHTASKS_CONTEXTMENU" id="3547">
+		<res id="1" text="İptal" />
+		<res id="2" text="Yolu Kopyala" />
+		<res id="3" text="Burada Keşfet..." />
+	</menu>
+	<menu name="IDR_LISTHEADER_CONTEXTMENU" id="3548">
+		<res id="1" text="Üstbilgi" />
+		<res id="2" text="Sütunları Seçin..." />
+	</menu>
+	<string id="4" type="Dizin Yöneticisi">
+		<res id="1" text="Yeni veya varolan dizin ekle\nAdd dizini" />
+		<res id="2" text="Dizini Kaldır veya kalıcı olarak sil\ndizin Kaldır veya Sil" />
+		<res id="3" text="Dizin oluşturma parametrelerini Düzenle\nEdit dizini" />
+		<res id="4" text="Dizini\nupdate dizini olabilecek değişikliklerle güncelleyin" />
+		<res id="5" text="Tüm Index\nyeniden oluşturma dizini yeniden oluşturun" />
+		<res id="6" text="Dizin oluşturmayı İptal et\nİptal et" />
+		<res id="7" text="Listeyi yenile\nListeyi Yenile" />
+		<res id="8" text="Yeni program ekle\nProgram Ekle" />
+		<res id="9" text="Programı Düzenle\nProgramı Düzenle" />
+		<res id="10" text="Programı Sil\nProgramı Sil" />
+		<res id="11" text="Programla ilişkili dizinleri düzenle\nDizin Listesini Düzenle" />
+	</string>
+	<string id="3" type="İç Görüntüleyici">
+		<res id="37" text="Geçerli dosya\nSave dosyasını kaydedin" />
+	</string>
+	<string id="1" type="Kaynak">
+		<res id="1" text="Hazır" />
+		<res id="2" text="Ses dosyasına göz at" />
+		<res id="3" text="Ses dosyasını çal" />
+		<res id="4" refid="3" />
+		<res id="5" text="Klasöre göz at" />
+		<res id="6" text="Ses dosyasının yolu" />
+		<res id="7" refid="2" />
+		<res id="8" refid="6" />
+		<res id="9" refid="5" />
+		<res id="10" refid="5" />
+		<res id="11" refid="5" />
+		<res id="12" refid="5" />
+		<res id="13" text="Explorer'da klasörü aç" />
+		<res id="14" refid="13" />
+		<res id="15" text="Yapılandırma" />
+		<res id="16" text="İçerik Görüntüleyici" />
+		<res id="18" text="Dizin Arama" />
+		<res id="20" text="Uzantıları" />
+		<res id="21" text="%APP_NAME%" />
+		<res id="22" text="SDI_ONLY\nSearch\nNew Search\nSearch Criteria (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\n%APP_NAME% Search Criteria" />
+		<res id="23" text="Seçilen dosyaların bir veya daha fazlası bileşik dosyalardır ve silinmez. Devam etmek istiyor musun?" />
+		<res id="24" text="Kayıt anahtarının süresi doldu. Lütfen yeni bir anahtar satın alın veya ürünün eski bir sürümünü yükleyin. Eski ürün sürümleri, Mythicsoft web sitesinin MyAccount bölümünde bulunabilir (www.mythicsoft.com)." />
+		<res id="25" text="Önceki aramaya geçmek mevcut aramayı durduracaktır. Devam etmek istiyor musun?" />
+		<res id="26" text="FileLocatorPro" />
+		<res id="27" refid="1" />
+		<res id="34" text="Son aramaya göre yeni bir arama oluşturun\nSon aramaya dayalı yeni arama" />
+		<res id="35" text="Bir arama kriteri dosyası açın\nAçık" />
+		<res id="36" text="Etkin aramayı kapat\nKapat" />
+		<res id="37" text="Mevcut arama kriterini kaydet\nÖlçütleri Kaydet" />
+		<res id="38" text="Mevcut arama kriterlerini yeni bir adla kaydet\nFarklı kaydet" />
+		<res id="39" text="Yazdırma seçeneklerini değiştir\nSayfa Ayarı" />
+		<res id="40" text="Yazıcıyı ve yazdırma seçeneklerini değiştirin\nYazıcı Kurulumu" />
+		<res id="41" text="Seçilen arama sonuçlarını yazdır\nYazdır" />
+		<res id="42" text="Tam sayfaları göster\nBaskı Önizleme" />
+		<res id="43" text="Program bilgilerini, sürüm numarasını ve telif hakkını görüntüleyin\nHakkında" />
+		<res id="44" text="Uygulamadan çık\nÇıkış" />
+		<res id="45" text="Bu aramayı aç" />
+		<res id="46" refid="45" />
+		<res id="47" refid="45" />
+		<res id="48" refid="45" />
+		<res id="49" refid="45" />
+		<res id="50" refid="45" />
+		<res id="51" refid="45" />
+		<res id="52" refid="45" />
+		<res id="53" refid="45" />
+		<res id="54" refid="45" />
+		<res id="55" refid="45" />
+		<res id="56" refid="45" />
+		<res id="57" refid="45" />
+		<res id="58" refid="45" />
+		<res id="59" refid="45" />
+		<res id="60" refid="45" />
+		<res id="61" text="Bir sonraki pencere bölmesine geç\nSonraki Bölme" />
+		<res id="62" text="Önceki pencere bölmesine geri dön\nÖnceki Bölme" />
+		<res id="63" text="Etkin belge için başka bir pencere aç\nYeni Pencere" />
+		<res id="64" text="Pencerenin altındaki simgeleri düzenleyin\nİkonları Düzenle" />
+		<res id="65" text="Pencereleri, birbiriyle çakışacak şekilde düzenleyin\nCascade Windows" />
+		<res id="66" text="Pencereleri örtüşmeyen döşemeler olarak düzenleyin\nÇini Windows" />
+		<res id="67" refid="66" />
+		<res id="68" text="Etkin pencereyi bölmelere ayır\nBölünmüş" />
+		<res id="69" text="Seçimi sil\nSil" />
+		<res id="70" text="Her şeyi sil\nHepsini sil" />
+		<res id="71" text="Geçerli seçimi panoya kopyala\nKopya" />
+		<res id="72" text="Seçimi kes ve Pano'ya koy\nKes" />
+		<res id="73" text="Belirtilen metni bul \nBul" />
+		<res id="74" text="Pano içeriğini ekle\nYapıştır" />
+		<res id="75" text="Son eylemi tekrarla\nTekrar et" />
+		<res id="76" text="Belirli metni farklı metinlerle değiştir\nDeğiştir" />
+		<res id="77" text="Tüm belgeyi seç\nHepsini seç" />
+		<res id="78" text="Son eylemi geri al\nGeri al" />
+		<res id="79" text="Önceden iptal edilen eylemi yeniden yap\nHazır" />
+		<res id="80" text="Araç çubuğunu göster veya gizle\nAraç Çubuğunu Değiştir" />
+		<res id="81" text="Durum çubuğunu göster veya gizle\nDurum Çubuğunu Değiştir" />
+		<res id="82" text="Pencere boyutunu değiştir" />
+		<res id="83" text="Pencere konumunu değiştir" />
+		<res id="84" text="Pencereyi bir simgeye küçültme" />
+		<res id="85" text="Pencereyi tam boyuta büyüt" />
+		<res id="86" text="Bir sonraki belge penceresine geç" />
+		<res id="87" text="Önceki belge penceresine geç" />
+		<res id="88" text="Etkin pencereyi kapatın ve belgeleri kaydetmeyi ister" />
+		<res id="89" text="Pencereyi normal boyuta geri yükle" />
+		<res id="90" text="Görev Listesini Etkinleştir" />
+		<res id="91" text="Bu pencereyi aktifleştir" />
+		<res id="92" text="Baskı önizleme modunu kapat\nÖnizleme iptal et" />
+		<res id="93" text="Bu bölme Dosya Listesi görünümünde seçilen herhangi bir dosyayı görüntüler. İçeriğe göre arama yapıyorsanız, bu bölme ayrıca seçilen dosyalar içinde bulunan satırları da görüntüler. Mevcut seçenekler için içerik menüsünü getirmek için farenin sağ tuşunu kullanın." />
+		<res id="94" text="%s Geçerli bir arama dizini değil. Dizin adı, sürücü harfi de dahil olmak üzere geçerli bir yol olmalıdır (ör. C:\Windows) VEYA düzgün bir şekilde oluşturulmuş UNC name (ör. \\WORKSTATION\Shared_Folder)." />
+		<res id="95" text="\nSearchFor\nSearch\nSearch Files (*.sea)\n.sea\nSearchFor.Document\nSearch Document" />
+		<res id="96" text="Seçili olan dosyaların yollarını panoya kopyala\nDosya yollarını kopyala" />
+		<res id="97" text="Seçili olan dosyalar için özellikler iletişim kutusunu aç\nÖzellikleri aç" />
+		<res id="98" text="Seçili dosyayı aç\nAçık dosya" />
+		<res id="99" text="Normal ifade motorunu test et" />
+		<res id="100" text="İçeriği görüntülerken kelimeyi sarma/kapatma\nKelime Wrap" />
+		<res id="101" text="İçerik görünümü için yazı tipini ayarla\nYazı Tipini Ayarla" />
+		<res id="102" text="Aramayı Başlat\nBaşla" />
+		<res id="103" text="Geçerli aramayı Durdur\nDur" />
+		<res id="104" text="Yardım aç\nYardım" />
+		<res id="105" text="Dosya listesi görünümündeki tüm dosyaları seçin\nTümünü Seç" />
+		<res id="106" text="Dışa aktarma arama sonuçları\nDışa aktarma sonuçları" />
+		<res id="107" text="Geçerli seçimi sil\nSil" />
+		<res id="108" text="Açılır listelerdeki geçmiş öğelerini Temizle\nGeçmişi Temizle" />
+		<res id="109" text="Arama yapılandırmasını değiştirme\nYapılandırma" />
+		<res id="110" text="Sistem arama sırasında bellek tükendi. 'Tek fazlı arama' seçeneği ile tekrar aramayı deneyin. Sorun devam ederse teknik destek ile irtibata geçiniz." />
+		<res id="111" text="Sistem arama sırasında beklenmedik bir özel durumla karşılaştı. Sorun devam ederse teknik destek ile irtibata geçiniz." />
+		<res id="112" text="Hazır" />
+		<res id="113" text="Yeni ayarların etkilerini görmek için lütfen yeniden arama yapın." />
+		<res id="114" text="Alt klasörlerde arama" />
+		<res id="115" text="Tek klasör için Gözat" />
+		<res id="116" text="Takvimi Aç" />
+		<res id="117" text="Takvimi Aç" />
+		<res id="118" text="Birden çok klasöre Gözat" />
+		<res id="119" text="FILE_VIEWER\nView\nView\n\n\nFileLocator.FileViewer\nAFile Locator File Viewer" />
+		<res id="120" text="Gösteri/Sık Kullanılanlar listesini gizle\nSık kullanılanlar" />
+		<res id="121" text="Düzenleyici ayarlarını değiştirme\nDüzenleyici Ayarları" />
+		<res id="122" text="Şu anda seçili dosyalar için yolda bir Explorer örneği açın\nExplorer 'ı açın" />
+		<res id="123" text="Sistem tümleştirme ayarlarını değiştirme\nSistem ayarları" />
+		<res id="124" text="Birden çok uzantı iletişim kutusunu açın" />
+		<res id="125" text="Önceki arama sonuçlarına gider\nÖnceki arama sonucu" />
+		<res id="126" text="Bir sonraki arama sonuçlarına gider\nSonraki arama sonucu" />
+		<res id="127" text="Geçerli seçimi Yeniden Adlandır\nAdlandır" />
+		<res id="128" text="Önceki arama sonuçlarına gider\nÖnceki arama sonucu" />
+		<res id="129" text="Bir sonraki arama sonuçlarına gider\nSonraki arama sonucu" />
+		<res id="130" text="Boyut daha büyük" />
+		<res id="131" text="Boyut daha az" />
+		<res id="132" text="Seçilen ifade türü hakkında daha fazla bilgi" />
+		<res id="133" text="İfade türü" />
+		<res id="134" refid="133" />
+		<res id="135" refid="133" />
+		<res id="136" text="İçeriğin satır bazında veya Tüm dosya boyunca bir satırla eşleştirilip eşleştirilmediğini belirtir" />
+		<res id="137" text="Dosya adı ifadesi değil ifade olup olmadığını belirtir" />
+		<res id="138" text="İçeriği görüntüleme bölmesini göster veya gizle\nİçeriği Göster/Gizle Görünümü" />
+		<res id="139" text="Aramayı Duraklat\nDuraklat" />
+		<res id="140" text="Varsayılan ayarlarla yeni arama oluşturma\nYeni boş arama" />
+		<res id="141" text="Geçerli kriterlere göre yeni arama oluşturun\nGeçerli kriterlere sahip yeni arama" />
+		<res id="142" text="Dosya içinde metin Ara\nBul..." />
+		<res id="143" text="Bulunan metnin bir sonraki vurgulanan satırına ilerleyin\nSonraki kaydırma" />
+		<res id="144" text="Bulunan metnin önceki vurgulanan satırına ilerleyin\nÖnceki kaydırma" />
+		<res id="145" text="Geçerli bulmak vurgulama geçiş\nGeçiş vurgulama" />
+		<res id="146" text="Önceki hit" />
+		<res id="147" text="Sonraki hit" />
+		<res id="148" text="Önceki dosya" />
+		<res id="149" text="Sonraki dosya" />
+		<res id="150" text="Şu anda seçilen favoriyi Düzenle\nFavori Düzenle" />
+		<res id="151" text="Şu anda seçilen favoriyi sil\nFavori Sil" />
+		<res id="152" text="Seçimin ana görünümüne dönün\nAna görünüme dön" />
+		<res id="153" text="Arama Filtresi" />
+		<res id="154" text="Bu kelimeyi bul" />
+		<res id="155" text="Yeni favori olarak geçerli arama Ekle\nFavori Ekle" />
+		<res id="156" text="Sık Kullanılanlar listesini yenile\nYenile" />
+		<res id="166" text="Ara" />
+		<res id="169" text="Kütüphane Oluşturma" />
+		<res id="170" text="Scripting" />
+		<res id="172" text="Arat" />
+		<res id="175" text="Dosya" />
+		<res id="177" text="Arama İçeriği" />
+		<res id="201" text="Dosya adını normal bir ifade olarak belirtmeden önce Seçenekler sekmesinde dosya adını 'normal ifade' olarak düzenlemeniz gerekir." />
+		<res id="202" text="Sağ bölmede bir veya daha fazla dosya seçerek bulunan içeriği görüntüleyin.\n\nNot: bu bölmeyi yazdırmak için Dosya menüsünde Yazdır'ı tıklatın." />
+		<res id="204" text="İçeriği içeren metni normal bir ifade olarak belirtmeden önce Seçenekler sekmesinde 'normal ifade' olarak düzenlemeniz gerekir." />
+		<res id="205" text="Expression wizard, normal ifadelerin tüm işlevlerini sağlamaz, ancak normal ifadelerin nasıl oluşturulacağını biliyorsanız, herhangi bir normal ifadeyi kendiniz belirtebilirsiniz. Düzenli ifadenizi 'ardından' listesinde 'ifade' türü olarak ekleyin ve bir sonraki sihirbaz sayfasında kaçışları kapatın (özel karakterler girmeye başladığınızda hangi etkinleştirilir)." />
+		<res id="206" text="Bulunan metni vurgulamak için rengi ayarlayın\nSet Rengi" />
+		<res id="207" text="İçeriği görüntüleme verilerini kaydetme\nİçeriği Kaydet Görünümü" />
+		<res id="208" text="Büyük sürücülerin verimli içeriği arama için bir faz geçiş (ilerleme yok)\nGeçiş Bir Faz Arama (büyük sürücüler için)" />
+		<res id="209" text="Dosya listesi görünümünün altındaki içeriği görüntüleme\nAşağıdaki Dock" />
+		<res id="210" text="Dosya listesi görünümünün sağındaki içerik görünümünü sabitleyin\nSağdaki Dock" />
+		<res id="211" text="Komut satırı parametreleri için yardım iletişim kutusunu göster\nKomut satırı parametreler" />
+		<res id="212" text="Seçilen ifade türü hakkında daha fazla bilgi" />
+		<res id="213" text="Geçerli sonuç listesi içinde arama\nGeçerli sonuç listesi içinde arama" />
+		<res id="214" text="İçeriği Göster/Gizle görünüm bölmesi\nİçindekiler Görünümünü Değiştir" />
+		<res id="215" text="Şu anda seçilen dosyalar içinde arama\nGeçerli seçim içinde arama" />
+		<res id="216" text="Orijinal arama vurgulama geçiş\nGeçiş vurgulama" />
+		<res id="217" text="Tüm favorilerin kaydedildiği klasörü açın\nSık Kullanılanlar Klasörünü Aç" />
+		<res id="218" text="Tüm pencereleri/sekmeleri kapatın\nTümünü kapat" />
+		<res id="219" text="Etkin arama dışında tüm Windows/sekmeleri kapatın\nTüm ama etkin arama kapat" />
+		<res id="220" text="Tüm açık dosya pencereleri kapatın\nTüm dosyaları kapatın" />
+		<res id="221" text="Geçerli arama oturumunu Kaydet\nArama oturumunu Kaydet" />
+		<res id="222" text="Tüm arama oturumlarını çalışma alanına kaydedin\nÇalışma alanını Kaydet" />
+		<res id="224" text="Raporu yenile\nYenile" />
+		<res id="225" text="Raporu panoya kopyalayın\nKopyala" />
+		<res id="226" text="Raporu bir dosyaya kaydedin\nRaporu Kaydet" />
+		<res id="227" text="Raporu Yazdır\nÖnizleme Yazdır" />
+		<res id="228" text="Raporun alanlarını ve düzenini değiştirme\nRapor Seçenekleri" />
+		<res id="229" text="Menü çubuğunu göster veya gizle\nGeçiş Menü Çubuğu" />
+		<res id="230" text="Birincil arama hitlerini vurgulayın" />
+		<res id="231" text="İkincil arama hitlerini vurgulayın" />
+		<res id="232" text="Kopya listesi panoya" />
+		<res id="233" text="Dosyadan yük listesi" />
+		<res id="234" text="Listeyi dosyaya Kaydet" />
+		<res id="235" text="Liste Temizle" />
+		<res id="236" text="Panoya hataların listesini kopyalayın\nPanoya kopyala" />
+		<res id="237" text="Hataların listesini bir dosyaya kaydedin\nHataları Kaydet" />
+		<res id="238" refid="13" />
+		<res id="239" refid="13" />
+		<res id="240" refid="5" />
+		<res id="241" text="Dizin ayarlarını Düzenle" />
+		<res id="242" text="Arama dizini" />
+		<res id="243" text="Pro özelliklerine yükseltme\nYükselt" />
+		<res id="244" text="Yakınlaştır" t="g" />
+		<res id="245" text="Uzaklaştır" t="g" />
+		<res id="246" text="Arama kriteri türü" t="g" />
+		<res id="247" text="Aramayı başlat" t="g" />
+		<res id="248" text="Aramayı durdur" t="g" />
+		<res id="249" text="Tarih şu tarihten büyük:" t="g" />
+		<res id="250" text="Tarihten az" t="g" />
+	</string>
+	<string id="2" type="Metin">
+		<res id="1" text="Hangi klasörü seçmek istersiniz?" />
+		<res id="2" text="Geçersiz dizin" />
+		<res id="3" text="&lt; 1 saniye" />
+		<res id="4" text="Panoya kopyalama" />
+		<res id="5" text="Yerel Sabit Diskler" />
+		<res id="6" text="Boolean" />
+		<res id="7" text="Düz Metin" />
+		<res id="8" text="Düzenli İfade" />
+		<res id="9" text="Wildcards" />
+		<res id="10" text="Dosya Hash" />
+		<res id="11" text="Boolean RegEx" />
+		<res id="12" text="Tüm Word" />
+		<res id="13" text="İfade" />
+		<res id="14" text="(geçersiz ifade türü)" />
+		<res id="15" text="Yüksek" />
+		<res id="16" text="Normal (varsayılan)" />
+		<res id="17" text="Düşük" />
+		<res id="18" text="Standart (varsayılan)" />
+		<res id="19" text="Standard" />
+		<res id="20" text="Dark" />
+		<res id="21" text="Mavi" />
+		<res id="22" text="Klasik" />
+		<res id="23" text="Gümüş" />
+		<res id="24" text="Üstlük" />
+		<res id="25" text="ASCII" />
+		<res id="26" text="Unicode" />
+		<res id="27" text="Unicode (Big Endian)" />
+		<res id="28" text="UTF8 (No BOM)" />
+		<res id="29" text="Metin" />
+		<res id="30" text="Virgül ayrılmış (CSV)" />
+		<res id="31" text="Sekme ayrılmış" />
+		<res id="32" text="Dosya listesini açılamıyor: " />
+		<res id="34" text="Dosya Klasörü" />
+		<res id="35" text="Açık" />
+		<res id="36" text="Kapalı" />
+		<res id="37" text="Hariç tutulan SVN/HG/GIT/CVS meta veri klasörleri" />
+		<res id="38" text="Program Dosyaları klasörünü hariç tut" />
+		<res id="39" text="!$(ProgramFiles)" />
+		<res id="40" text="Windows sistem dosyalarını hariç tutma" />
+		<res id="41" text="!$(WindowsFolder)" />
+		<res id="42" text="Geri Dönüşüm Kutusu'nu hariç tut" />
+		<res id="43" text="Geçmişi silme" />
+		<res id="44" text="Gelişmiş" />
+		<res id="45" text="Dosya Listeleri" />
+		<res id="46" text="Klasör" />
+		<res id="47" text="Sembolik Bağlantılar / Kısayol" />
+		<res id="48" text="İş Parçacığı / Öncelik" />
+		<res id="49" text="XSLT İşlemci" />
+		<res id="50" text="Düzenleyici" />
+		<res id="51" text="Varsayılan Düzenleyici" />
+		<res id="52" text="Harici Editör" />
+		<res id="53" text="İç Görüntüleyici" />
+		<res id="54" text="Belirtilen Prog kimliği kullanarak XSL ayrıştırıcı oluşturulamıyor." />
+		<res id="55" text="Uygulama dosyaları (*.exe)|*.exe|Tüm dosyalar (*.*)|*.*||" />
+		<res id="56" text="Dosya tarayıcısını açmaya çalışırken bir hata oluştu. Göz atmaya çalışmadan önce dosya adının geçerli olduğundan emin olun." />
+		<res id="57" text="Bu, tüm uzantı ayarlarını orijinal kurulum durumuna geri döndürür. Emin misin?" />
+		<res id="58" text="Uzantıları sıfırlama" />
+		<res id="59" text="Bir dosya bulunduğunda oynamak için bir ses belirtiniz" />
+		<res id="60" text="Bir arama sona erdiğinde oynamak için bir ses belirtiniz" />
+		<res id="61" text="Ses çalamıyor. Ses dosyası bozuk olabilir veya geçerli bir dalga biçimi biçiminde olmayabilir" />
+		<res id="62" text="Oynamak için geçerli bir ses dosyası belirtin." />
+		<res id="63" text="Ses dosyaları (*.wav)|*.wav|Tüm dosyalar (*.*)|*.*||" />
+		<res id="64" text="Ses dosyası için göz atılamıyor." />
+		<res id="65" text="Tür" />
+		<res id="66" text="Durum" />
+		<res id="67" text="İlişkili Ifilter" />
+		<res id="68" text="Program bir USB cihazından çalışması için yapılandırılmıştır. Kabuk ayarları ayarlanamaz." />
+		<res id="69" text="İfadeler" />
+		<res id="70" text="Boolean İfadeler" />
+		<res id="71" text="Wildcards" />
+		<res id="72" text="Düzenli İfadeler" />
+		<res id="73" text="Dosya Hashing" />
+		<res id="74" text="UTF-8 Varsayılan Biçim" />
+		<res id="75" text="Uzantılar" />
+		<res id="76" text="Genel" />
+		<res id="77" text="Geçmiş" />
+		<res id="78" text="Görüntüleme" />
+		<res id="79" text="Karakter İşleme" />
+		<res id="80" text="Shell Entegrasyon" />
+		<res id="81" text="Sesler/Uyarılar" />
+		<res id="82" text="Kullanıcı Arayüzü" />
+		<res id="83" text="yapılandırma bilgilerini uygulama" />
+		<res id="84" text="Bu, tüm yapılandırma ayarlarını yükleme varsayılanlarına sıfırlayacaktır. Emin misin?" />
+		<res id="85" text="Yapılandırma sıfırlama" />
+		<res id="86" text="Açıklama" />
+		<res id="87" text="Filtre Değeri" />
+		<res id="88" text="Dosya verilerini alma..." />
+		<res id="89" text="Tek kullanıcı lisansı" />
+		<res id="90" text="Organizasyon çok site lisansı (kadar %s kullanıcı)" />
+		<res id="91" text="Organizasyon çok site lisansı (sınırsız kullanıcılar)" />
+		<res id="92" text="Çoklu kullanıcı lisansı: %s lisanslar" />
+		<res id="93" text="Kayıt kodu: \r\n%s" />
+		<res id="94" text="Destek/ücretsiz yükseltmeleri kadar: %s\r\n" />
+		<res id="95" text="Deneme lisansı süresi doldu. Bu ürünü yasal olarak kullanmaya devam etmek için kayıt olmanız gerekir." />
+		<res id="96" text="Tamamen işlevsel zaman sınırlı deneme. Kalan günler: %d" />
+		<res id="97" text="Matc durumda" />
+		<res id="98" text="Kalıcı Arama Filtreleri " />
+		<res id="99" text="Boyut (byte)" />
+		<res id="100" text="Boyut (kB)" />
+		<res id="101" text="Boyut (MB)" />
+		<res id="102" text="Boyut (GB)" />
+		<res id="103" text="Tamamlanmış" />
+		<res id="104" text="YENİ SÜRÜM MEVCUT" />
+		<res id="105" text="Güncelleme bulunamadı." />
+		<res id="106" text="Yeni Arama" />
+		<res id="107" text="Gösteri" />
+		<res id="108" text="Dosyayı açılamıyor" />
+		<res id="109" text="Komut satırı araması başarılı değildi." />
+		<res id="110" text="dosyalar bulundu" />
+		<res id="111" text=" tanınan bir tarih/saat biçimi değil mi." />
+		<res id="112" text="Seçilen dosyalar yok." />
+		<res id="113" text="Arama İstatistikleri" />
+		<res id="114" text="Özet" />
+		<res id="115" text="Küçükler" />
+		<res id="116" text="Hatalar" />
+		<res id="117" text="Değiştirildiği Tarih" />
+		<res id="118" text="Oluşturulan Tarih" />
+		<res id="119" text="Son Erişilen Tarih" />
+		<res id="120" text="Şimdi" />
+		<res id="121" text="Dakika başlangıcı" />
+		<res id="122" text="Saat başlangıcı" />
+		<res id="123" text="Günün başlangıcı" />
+		<res id="124" text="Dakika sonu" />
+		<res id="125" text="Saat sonu" />
+		<res id="126" text="Günün sonu" />
+		<res id="133" text="%s geçerli bir zaman biçimi değil mi" />
+		<res id="134" text="Beklenmeyen ifade türü" />
+		<res id="135" text="Bilmiyorum" />
+		<res id="136" text="Herhangi bir karakter" />
+		<res id="137" text="Karakter" />
+		<res id="138" text="Bu karakterlerden herhangi biri" />
+		<res id="139" text="Bunlar dışında herhangi bir karakter" />
+		<res id="140" text="İfade" />
+		<res id="141" text="Alanlar" />
+		<res id="142" text="Herhangi bir sayısal karakter" />
+		<res id="143" text="Herhangi bir metin karakteri" />
+		<res id="144" text="Sıfır veya bir kez" />
+		<res id="145" text="Sıfır veya birçok kez" />
+		<res id="146" text="Sadece bir kez" />
+		<res id="147" text="Bir veya daha fazla kez" />
+		<res id="148" text="Ardından" />
+		<res id="149" text="Oluşuyor" />
+		<res id="150" text="Dosya Adı İfade Sihirbazı" />
+		<res id="151" text="Favori Düzenle" />
+		<res id="152" text="Kaydet" />
+		<res id="153" text="Gösteri: %s of %s" />
+		<res id="154" text="Yükleme..." />
+		<res id="155" text="Yüklü: %s" />
+		<res id="156" text="Bilinmeyen Favori" />
+		<res id="157" text="Favorileri bulmaya hazırlanmak başarısız oldu: " />
+		<res id="158" text="Sık okuma" />
+		<res id="159" text="Favori silme" />
+		<res id="160" text="Favori düzenleme" />
+		<res id="161" text="Etiketler" />
+		<res id="162" text="Arat" />
+		<res id="163" text="Favori kaydetme" />
+		<res id="164" text="Sık klasör açma" />
+		<res id="165" text="Arama kriterleri alınamıyor. Başarısız Ekle." />
+		<res id="166" text="Lütfen Sık Kullanılanlara eklemek istediğiniz bir arama açın veya oluşturun." />
+		<res id="167" text="Deneme süresi doldu. Bir lisans satın almanız veya ücretsiz özellik kümesine geçmeniz gerekir." />
+		<res id="168" text="Yapılandırma ayarlarını değiştirme" />
+		<res id="169" text="The registration key has either been deleted or is unavailable. Please contact support@mythicsoft.com for more information." />
+		<res id="170" text="Yapılandırma dosyası yüklenemiyor" />
+		<res id="171" text="Geçmiş yapılandırma dosyası yüklenemiyor" />
+		<res id="172" text="" />
+		<res id="173" text="Dosyayı açılamıyor" />
+		<res id="174" text="Dosya açma" />
+		<res id="175" text="Visual Studio'da dosya açılamadı. Daha fazla bilgi için günlük dosyasını kontrol edin." />
+		<res id="176" text="Harici Editör belirtilmedi. Şimdi bir tane belirtmek ister misiniz?" />
+		<res id="178" text="Harici düzenleyiciyi başlatma hatası.\r\n\r\n%s" />
+		<res id="179" text="Arama yüklenemedi" />
+		<res id="180" text="Komut satırı bayrağı için bir değer bekliyor '-%s' ama hiçbiri sağlanan" />
+		<res id="181" text="Komut satırı bayrağı '-%s' geçerli değil" />
+		<res id="182" text="Geçersiz tarih biçimi: %s" />
+		<res id="183" text="Beklenmeyen komut satırı parametresi: %s" />
+		<res id="184" text="Çalışma" />
+		<res id="185" text="Başlangıç arama" />
+		<res id="186" text="** YÜK BAŞARISIZ OLDU **\r\n\r\nYüklenemiyor: %s\r\n\r\nLütfen dosyanın hala var olduğunu ve okumak için uygun güvenlik izinlerine sahip olduğunuzu kontrol edin.\r\n\r\nDaha fazla yardıma ihtiyacınız varsa lütfen teknik destek ile iletişime geçin ve hem bu hata metnini hem de klasörde saklanan günlük dosyalarını ekleyin:\r\n%s\r\n\r\nMore bilgi:\r\n%s\r\n" />
+		<res id="189" text="Dosyayı açılamıyor." />
+		<res id="190" text="Durmuş" />
+		<res id="191" text="Tamamlandı" />
+		<res id="192" text="Arama sırasında hatalar oluştu. Sorun devam ederse teknik destek ile irtibata geçiniz" />
+		<res id="193" text="İçindekiler Görünümü" />
+		<res id="194" text="seçimi değiştirme" />
+		<res id="195" text="Arama sonuçlarını kaydetme işlemi" />
+		<res id="197" text="%s için " />
+		<res id="198" text="Dosya yüklenemiyor. Geçerli bir ölçüt dosyası olduğunu kontrol edin." />
+		<res id="199" text="Bir favori yazmak üzeresiniz. Emin misin?" />
+		<res id="200" text="%s %s Bulundu." />
+		<res id="201" text="Arama tamamlandı - %s %s Bulundu." />
+		<res id="202" text="Görünüm" />
+		<res id="203" text="Sık kullanılanlar" />
+		<res id="204" text="Hata Listesi" />
+		<res id="205" text="Duraklatıldı" />
+		<res id="206" text="Arama zamanı" />
+		<res id="208" text="Güncel Bul" />
+		<res id="209" text="Orijinal Arama" />
+		<res id="210" text="Gösterilen" />
+		<res id="211" text="Bulundu" />
+		<res id="212" text="Gösteri" />
+		<res id="213" text="Seçili" />
+		<res id="215" text="öğe" />
+		<res id="216" text="Tespit" />
+		<res id="218" text="%s MB" />
+		<res id="219" text="%s dosyalar bulundu" />
+		<res id="220" text="Bu programın yeni bir sürümü mevcuttur. Detayları görmek ister misin?" />
+		<res id="221" text="Kayıtlı! Kayıt için zaman ayırdığınız için teşekkür ederiz" />
+		<res id="222" text="Kayıt bilgileri geçerli değildir. Lütfen Kayıt e-postasında gösterildiği gibi tüm kayıt bilgilerinin tam olarak girildiğinden emin olun." />
+		<res id="225" text="Sonuçları kaydetmek için Lütfen geçerli bir dosya adı belirtin." />
+		<res id="226" text="Lütfen geçerli bir dönüştürme dosyası belirtin." />
+		<res id="227" text="Arama Sonuçları." />
+		<res id="228" text="Tüm dosyalar (*.*)|*.*||" />
+		<res id="229" text="Özel biçim dosyası geçerli değildir. Lütfen dosyanın var olduğunu ve dosyayı açmak için uygun güvenlik izinlerine sahip olduğunuzu kontrol edin.\r\n\r\n" />
+		<res id="230" text="XSL (*.xsl)|*.xsl|Tüm dosyalar (*.*)|*.*||" />
+		<res id="231" text="Dosya seçimi iletişim kutusunu açılamıyor: %d" />
+		<res id="232" text="Test başarılı." />
+		<res id="233" text="Aratıyor" />
+		<res id="234" text="Kontrol" />
+		<res id="235" text="Durum" />
+		<res id="236" text="Başlamadı" />
+		<res id="237" text="Duraklat" />
+		<res id="238" text="Devam" />
+		<res id="240" text="%sMb of %sMb" />
+		<res id="242" text="Filtre" />
+		<res id="243" text="Arama" />
+		<res id="244" text="Başla" />
+		<res id="245" text="Metinde ifade bulundu.\r\nİfade Başlat: %d\r\nİfade uzunluğu: %d\r\nBulundu: %s" />
+		<res id="246" text="Boş sonuçlar listesi." />
+		<res id="247" text="Metin bulunamadı ifade." />
+		<res id="248" text="Kayıt dosyası bozuk." />
+		<res id="249" text="Kayıt bilgileri bulunamadı." />
+		<res id="250" text="Kayıt anahtarı süresi doldu." />
+		<res id="251" text="%APP_NAME% Klavye Kanca" />
+		<res id="256" text="Yükleme günlüğü başlatılamadı, lütfen tekrar yüklemeyi deneyin. Sorun devam ederse teknik destek ile irtibata geçiniz." />
+		<res id="258" text="Kopyala" />
+		<res id="259" text="Yolu Kopyala" />
+		<res id="260" text="Kes" />
+		<res id="261" text="Sil" />
+		<res id="262" text="Burada keşfetmek..." />
+		<res id="263" text="Özellikler" />
+		<res id="264" text="Seçim İçinde Arama" />
+		<res id="265" text="Sonuç Listesi İçinde Arama" />
+		<res id="266" text="%s İçindekiler Görünümü" />
+		<res id="267" text="Gizle" />
+		<res id="268" text="\r\nAşağıdaki arama dizinleri geçerli değildi:\r\n\r\n" />
+		<res id="269" text="\r\nDizin adı geçerli bir yol olmalıdır ve sürücü harfini içerir (ör. C:\Windows) VEYA düzgün oluşturulmuş bir UNC adı (ör. \\WORKSTATION\Shared_Folder)." />
+		<res id="272" text="Makro Yükleme" />
+		<res id="273" text="Ayrıştırma komut dosyası başarısız oldu:\r\n" />
+		<res id="274" text="Komut dosyası oluşturma altyapısı oluşturma sorunu. " />
+		<res id="275" text="(Konu yok)" />
+		<res id="276" text="(Bilinmeyen)" />
+		<res id="277" text="Oluşturulan" />
+		<res id="278" text="Iİletişim" />
+		<res id="279" text="Konum" />
+		<res id="280" text="Tarih" />
+		<res id="281" text="Kaynak" />
+		<res id="282" text="İçin" />
+		<res id="283" text="(boş)" />
+		<res id="284" text="(Alıcı listesi yüklenemedi - daha fazla bilgi için içerik teknik destek)\r\n" />
+		<res id="285" text="Tarafından alınan" />
+		<res id="286" text="Gönderilen" />
+		<res id="287" text="Konu" />
+		<res id="288" text="\r\nİleti oluşturma sırasında hata: " />
+		<res id="289" text="" />
+		<res id="290" text="Öznitelik" />
+		<res id="291" text="Dosya boyutu" />
+		<res id="292" text="Göz ardı edilen uzantılar" />
+		<res id="294" text="Hata bildirildi, ancak hiçbir ayrıntı sağlanmadı." />
+		<res id="295" text="İçindekiler doğrulama komut dosyası ile başarısız oldu: " />
+		<res id="296" text="Sn" />
+		<res id="297" text="hr" />
+		<res id="298" text="Dk" />
+		<res id="299" text="Bugünkü" />
+		<res id="300" text="Haftanın başlangıcı" />
+		<res id="301" text="Ayın başlangıcı" />
+		<res id="302" text="Yılın başlangıcı" />
+		<res id="303" text="Hafta sonu" />
+		<res id="304" text="Ayın sonu" />
+		<res id="305" text="Yıl sonu" />
+		<res id="306" text="gün" />
+		<res id="307" text="hafta" />
+		<res id="308" text="aylık" />
+		<res id="309" text="yıllık" />
+		<res id="310" text="Dosyaları alma..." />
+		<res id="311" text="Öğe adı doğrulama komut dosyası oluşturma: %s" />
+		<res id="312" text="Öğe adı doğrulama komut dosyası ile başarısız oldu: " />
+		<res id="313" text="Evet" />
+		<res id="314" text="Hayır" />
+		<res id="315" text="Dosya adı ifadesi" />
+		<res id="316" text="Dosya adı - Match durum" />
+		<res id="317" text="İçerik Arama" />
+		<res id="318" text="Metin içeren" />
+		<res id="319" text="İçerik İfadesi" />
+		<res id="320" text="İçerik - Match durum" />
+		<res id="321" text="Span dosyası" />
+		<res id="322" text="Bak" />
+		<res id="323" text="Klasörler" />
+		<res id="324" text="Ifadeye bak" />
+		<res id="325" text="Sonra Modifiye" />
+		<res id="326" text="Önce Değiştirildi" />
+		<res id="327" text="Son Erişilen Sonra" />
+		<res id="328" text="Son Önce Erişilen" />
+		<res id="329" text="Sonra Oluşturuldu" />
+		<res id="330" text="Daha Önce Oluşturulmuş" />
+		<res id="331" text="Daha büyük" />
+		<res id="332" text="Daha az" />
+		<res id="333" text="Metin aktif komut dosyası içeren tüm dosya boyunca ifade eşleşen Boole aramalar ile desteklenmez. Seçenekler sekmesinde 'satır satırına' geçin." />
+		<res id="334" text="İçerik arama değeri:" />
+		<res id="335" text="Dosya adı filtresi:" />
+		<res id="336" text="Komut dosyası türü belirtilmedi" />
+		<res id="337" text="Komut dosyası yok veya açılamıyor." />
+		<res id="338" text="Komut dosyası altyapısı belirtilmedi" />
+		<res id="339" text="Komut Dosyası Yolu:" />
+		<res id="340" text="Motor:" />
+		<res id="341" text="Özel Parm:" />
+		<res id="342" text="Arşiv" />
+		<res id="343" text="Sıkıştırılmış" />
+		<res id="344" text="Şifreli" />
+		<res id="345" text="Klasör" />
+		<res id="346" text="Çevrimdışı" />
+		<res id="347" text="Sadece Oku" />
+		<res id="348" text="Seyrek" />
+		<res id="349" text="Sistem" />
+		<res id="350" text="Başlatılıyor..." />
+		<res id="351" text="Tamamlandı." />
+		<res id="352" text="Arşivden dosyaları çıkarma..." />
+		<res id="353" text="%s bu makinede geçerli bir yol değil mi." />
+		<res id="354" text="Near operatörün geçersiz kullanımı. Önceki işlenen bulunamadı." />
+		<res id="355" text="Sonuçlar" />
+		<res id="356" text="İptal..." />
+		<res id="357" text="Eylem iptal..." />
+		<res id="358" text="Seçilen dosyaların bir veya daha fazlası kompozit dosyalardır ve silinmez. Devam etmek ister misin?" />
+		<res id="359" text="Silme başarıyla tamamlanmadı. Bazı dosyalar silinmedi." />
+		<res id="360" text="Menü seçeneği yürütme" />
+		<res id="361" text="Uyarı: işlem işlenen dosyaların %d başarısız oldu. Daha fazla bilgi için günlüğe bakın ." />
+		<res id="362" text="Dosya verilerini çıkarma" />
+		<res id="363" text="Sürükle bırak için tüm öğeleri erişemiyor" />
+		<res id="364" text="Dosya verileri oluşturma" />
+		<res id="365" text="Geçerli seçim işlemi yürütme" />
+		<res id="366" text="Uyarı: Operasyon (%s) başarısız oldu %d seçilen dosyaların. Daha fazla bilgi için günlüğe bakın ." />
+		<res id="367" text="Varsayılan" />
+		<res id="368" text="Bağlam menüsünü yürütme" />
+		<res id="369" text="Sayfası %d of %d" />
+		<res id="370" text="... ek çizgiler kesilmiş ..." />
+		<res id="371" text="Ad" />
+		<res id="372" text="Konum" />
+		<res id="373" text="Modifiye" />
+		<res id="374" text="Oluşturulan" />
+		<res id="375" text="Son Erişilen" />
+		<res id="376" text="Hit" />
+		<res id="377" text="Bilinmeyen" />
+		<res id="378" text="CFileList sırasında başarısızlıkCtrl::Yükleme listesi()" />
+		<res id="379" text="Dosya görüntüleyici çerçevesi oluşturma" />
+		<res id="380" text="Arama dizesi geçersiz: \n%s" />
+		<res id="381" text="Düzenleyici yüklenemiyor. Sorun devam ederse teknik destek ile irtibata geçiniz" />
+		<res id="382" text="Dosya" />
+		<res id="383" text="İleti" />
+		<res id="384" text="Boyut" />
+		<res id="385" text="Küçük Simgeler" />
+		<res id="386" text="Orta Simgeler" />
+		<res id="387" text="Büyük Simgeler" />
+		<res id="388" text="Ekstra Büyük Simgeler" />
+		<res id="389" text="Önizlemek" />
+		<res id="390" text="Özet raporu gösteriliyor" />
+		<res id="391" text="Programla ilişkili tüm kullanıcı verilerini de kaldırmak ister misiniz?" />
+		<res id="392" text="Kullanıcı Verilerini Sil" />
+		<res id="393" text="Silme başarısız oldu" />
+		<res id="394" text="Çevirilemiyor iletişim kutusu" />
+		<res id="395" text="Eğer favori silmek istediğinizden emin misiniz '%s'?" />
+		<res id="396" text="%s komut dosyası geçerli değildir.\n\nAdditional bilgi:\n\n%s" />
+		<res id="397" text="Arama filtresini silmek istediğinizden emin misiniz '%s'?" />
+		<res id="398" text="IFiltre" />
+		<res id="399" text="Alt" />
+		<res id="400" regex="Başla" />
+		<res id="401" regex="bugünkü" />
+		<res id="402" regex="şimdi" />
+		<res id="403" regex="s.*" />
+		<res id="404" regex="mi.*" />
+		<res id="405" regex="mo.*" />
+		<res id="406" regex="h.*" />
+		<res id="407" regex="d.*" />
+		<res id="408" regex="w.*" />
+		<res id="409" regex="y.*" />
+		<res id="410" regex="\b(bugünkü)|(Başla|end) *(?: +(?:the|of|this))* +(w|mo|y)[a-z]*" />
+		<res id="411" regex="\b(şimdi)|(Başla|end) *(?: +(?:the|of|this))* +(mi|h|d)[a-z]*" />
+		<res id="412" regex="([+-]) *([0-9]+) *(d|w|mo|y)[a-z]*" />
+		<res id="413" regex="([+-]) *([0-9]+) *(s|mi|h)[a-z]*" />
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b" />
+		<res id="415" text="B" />
+		<res id="416" text="KB" />
+		<res id="417" text="MB" />
+		<res id="418" text="GB" />
+		<res id="420" text="AND" />
+		<res id="421" text="OR" />
+		<res id="422" text="NOT" />
+		<res id="423" text="NEAR" />
+		<res id="424" text="LIKE" />
+		<res id="425" text="REGEX" />
+		<res id="426" text="DOSEX" />
+		<res id="427" text="LINES" />
+		<res id="428" text="FILELIST" />
+		<res id="430" regex="AND" case="1" />
+		<res id="431" regex="OR" case="1" />
+		<res id="432" regex="NOT" case="1" />
+		<res id="433" regex="NEAR(:\d+)?" case="1" />
+		<res id="434" regex="LIKE" case="1" />
+		<res id="435" regex="REGEX(:\w*)?" case="1" />
+		<res id="436" regex="DOSEX" case="1" />
+		<res id="437" regex="LINES?:([^ ]*)?" case="1" />
+		<res id="438" regex="FILELIST" case="1" />
+		<res id="440" text="Yerelleştirme" />
+		<res id="441" text="Yeni aramayı başlatmak için yetersiz bellek. Önceki aramaları ve/veya diğer uygulamaları kapatın ve tekrar deneyin." />
+		<res id="442" text="Kesilmiş (belleği serbest bırakmak için)." />
+		<res id="443" text="Because regular expressions work slightly differently than Wildcard expressions the result of the Expression Wizard may look different to what you are used to. ör. The Wildcard expression 'filename.*' as a regular expression is '^filename\.*'." />
+		<res id="444" text="Aramalar, tanımlanan ifadeyle eşleşen tüm satırları arayan dosya aracılığıyla satır bazında bir satırda gerçekleştirilir. İfade, çizginin nasıl başlaması gerektiğini, ardından ne içermesi gerektiğini ve ardından nasıl biteceğini tanımlamanıza izin verir." />
+		<res id="445" text="Dosya adı" />
+		<res id="446" text="Satır" />
+		<res id="447" text="Açık" />
+		<res id="448" text="Ekler" />
+		<res id="449" text="Durdu (bellek dışı)" />
+		<res id="450" text="Metin içeren" />
+		<res id="451" text="öğeler" />
+		<res id="452" text="günler" />
+		<res id="453" text="haftalar" />
+		<res id="454" text="aylar" />
+		<res id="455" text="yıllar" />
+		<res id="456" text="vurma" />
+		<res id="457" text="vurma" />
+		<res id="458" text="Sekme ayrılmış (elektronik tablo" />
+		<res id="459" text="%s Ayarlar" />
+		<res id="460" text="Bu programın en son sürümüdür." />
+		<res id="461" text="Güncellemeleri kontrol etmeye çalışırken bir hata oluştu, daha fazla bilgi için günlüğü kontrol edin." />
+		<res id="462" text="Saving Workspace" />
+		<res id="463" text="Arama Oturumu Kaydetme" />
+		<res id="464" text="Workspace Dosyaları (*.flwx)|*.flwx" />
+		<res id="465" text="%APP_NAME% Files (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf" />
+		<res id="466" text="Arama Kriteria (*.srf)|*.srf" />
+		<res id="467" text="Tüm Dosyalar (*.*)|*.*" />
+		<res id="468" text="Çalışma Alanını Yükleme" />
+		<res id="469" text="Arama Oturumu Yükleniyor" />
+		<res id="470" text="Dosya yüklenemiyor" />
+		<res id="471" text="Oturum Dosyalarını Ara (*.flsx)|*.flsx" />
+		<res id="472" text="%s zaten var.\r\n\r\nDeğiştirmek ister misin?" />
+		<res id="473" text="Parantez açma '(' Kapanış parantezi için bulunamadı ')'. Harf metni belirtmek için tırnak işaretleri kullanın, ör. &quot;son)&quot;" />
+		<res id="474" text="Kapanış parantezi ')' ilgili açılış parantezi bulunamadı  '('. Harf metni belirtmek için tırnak işaretleri kullanın, ör. &quot;(başlama&quot; veya &quot;Yöntem(&quot;\r\n\r\nHata konumu: %d\r\nMetin: %s" />
+		<res id="475" text="Anahtar sözcüğü '%s' derlenemedi. Anahtar kelimenin doğru kullanımı için belgeleri kontrol edin." />
+		<res id="476" text="Önbellek konumunu değiştirme tüm şu anda önbelleğe alınmış metni silecektir. Devam etmek ister misin?" />
+		<res id="477" text="Önbellek veritabanını silemiyor. Açık uygulamanın başka örnekleri var ve tekrar deneyin kontrol edin." />
+		<res id="478" text="Rapor" />
+		<res id="479" text="Tablolanmış" />
+		<res id="480" text="Standard" />
+		<res id="481" text="Dosya Listesi" />
+		<res id="482" text="İçerik" />
+		<res id="483" text="Anahtar Kelimeler Özeti" />
+		<res id="484" text="HTML" />
+		<res id="485" text="Windows kabuğu, seçilen dosyalar için bir bağlam menüsü oluşturamadı. Kısıtlı bir bağlam menüsü ile devam etmek ister misiniz?" />
+		<res id="486" text="Soru" />
+		<res id="487" text="Hata" />
+		<res id="488" text="Bilgi" />
+		<res id="489" text="Bellek Yöneticisi" />
+		<res id="490" text="Özet" />
+		<res id="491" text="Dosyaya Göre" />
+		<res id="492" text="Tüm dosyalar" />
+		<res id="493" text="Yalnızca seçilen dosyalar" />
+		<res id="494" text="Tüm" />
+		<res id="495" text="Seçili" />
+		<res id="496" text="CSV" />
+		<res id="497" text="Tab" />
+		<res id="498" text="Dosyaya göre anahtar kelimeler" />
+		<res id="499" text="Dosya Uzantısı" />
+		<res id="500" text="Sayma" />
+		<res id="501" text="Anahtar Kelime Adı" />
+		<res id="502" text="Sonuçlar" />
+		<res id="503" text="Gizlenmiş" />
+		<res id="504" text="Önünde" />
+		<res id="505" text="Sonrasında" />
+		<res id="506" text="Arama Kriterleri" />
+		<res id="507" text="Bu %s rapor yalnızca dosya içeriğini ararken geçerlidir" />
+		<res id="508" text="Anahtar Kelime Hit" />
+		<res id="509" text="Kaydet başarısız oldu. Belirtilen dosya ve klasöre yazmak için uygun izinlere sahip olduğunuzdan emin olun." />
+		<res id="510" text="Raporu iptal etme..." />
+		<res id="511" text="Rapor bitirmedi." />
+		<res id="512" text="Rapor oluşturma sırasında hata oluştu." />
+		<res id="513" text="Rapor oluşturma..." />
+		<res id="514" text="Sıralı Kimlik" />
+		<res id="515" text="Seq Kimliği" />
+		<res id="516" text="Sıralı Kimlik (dosya başına)" />
+		<res id="517" text="File Seq Id" />
+		<res id="518" text="Tam Dosya Yolu" />
+		<res id="520" text="Sadece Klasörler" />
+		<res id="521" text="Dosyalar Sadece" />
+		<res id="522" text="Belge" />
+		<res id="523" text="Müzik" />
+		<res id="524" text="Resim" />
+		<res id="525" text="Video" />
+		<res id="526" text="Teknisyen Lisansı: %s lisanslar" />
+		<res id="527" text="Sunucu Lisansı: %s lisanslar" />
+		<res id="528" text="Birincil" />
+		<res id="529" text="İkincil" />
+		<res id="530" text="Satır Yok." />
+		<res id="531" text="Satır Numarası" />
+		<res id="532" text="Filtre" />
+		<res id="533" text="Arama sonuçlarına bir filtre uygulayın" />
+		<res id="534" text="Arama ölçütleriyle eşleşen dosya/klasör bulunamadı" />
+		<res id="535" text="Sonuç yok sütun filtreleriyle eşleşiyor" />
+		<res id="536" text="Arama" />
+		<res id="537" text="'%s' ifade türü için geçerli değil" />
+		<res id="538" text="Bildirilen Hata" />
+		<res id="539" text="Sorun çalışan görev" />
+		<res id="540" text="Bir hata oluştu. Sorun devam ederse teknik destek ile irtibata geçiniz." />
+		<res id="541" text="Ek bilgi" />
+		<res id="542" text="Başlık" />
+		<res id="543" text="Sanatçı" />
+		<res id="544" text="Albüm" />
+		<res id="545" text="Nasıl" />
+		<res id="546" text="Tür" />
+		<res id="547" text="Yıl" />
+		<res id="548" text="İzleme" />
+		<res id="549" text="Uzunluk: %s secs" />
+		<res id="550" text="Bit hızı: %s Kbps" />
+		<res id="551" text="Örnek oranı: %s Hz" />
+		<res id="552" text="Kanallar: %s" />
+		<res id="553" text="Genişlik" />
+		<res id="554" text="Yükseklik" />
+		<res id="555" text="Örnekler" />
+		<res id="556" text="Belge" />
+		<res id="557" text="Görüntü" />
+		<res id="558" text="Ekipman yapmak" />
+		<res id="559" text="Ekipman modeli" />
+		<res id="560" text="Sayfa" />
+		<res id="561" text="Sayfa numarası" />
+		<res id="562" text="Yazılım" />
+		<res id="563" text="Tarih" />
+		<res id="564" text="Sanatçı" />
+		<res id="565" text="Bilgisayar" />
+		<res id="566" text="Başlık" />
+		<res id="567" text="Çerçeve gecikmesi: %s/100 s" />
+		<res id="568" text="Döngü sayısı" />
+		<res id="569" text="Telif hakkı" />
+		<res id="570" text="Maruz kalma: %s s" />
+		<res id="571" text="Diyafram: F%s" />
+		<res id="572" text="Pozlama programı" />
+		<res id="573" text="Normal" />
+		<res id="574" text="El ile" />
+		<res id="575" text="Diyafram önceliği" />
+		<res id="576" text="Deklanşör önceliği" />
+		<res id="577" text="Yaratıcı" />
+		<res id="578" text="Aksiyon" />
+		<res id="579" text="Portre" />
+		<res id="580" text="Manzara" />
+		<res id="581" text="ISO Hız" />
+		<res id="582" text="Orijinal tarih" />
+		<res id="583" text="Flash" />
+		<res id="584" text="Nasıl" />
+		<res id="585" text="Boyut" />
+		<res id="586" text="Piksel başına bit" />
+		<res id="587" text="Alfa kanalı" />
+		<res id="588" text="Klasörler sadece sadece klasörler için arama sınırlar, yani hiçbir dosya iade edilecektir." />
+		<res id="589" text="Dosyalar sadece sadece dosyalar için arama sınırlar, yani hiçbir klasör iade edilecektir." />
+		<res id="590" text="Belgeler, aramayı yalnızca standart belge uzantılarına sahip dosyalara sınırlar." />
+		<res id="591" text="Müzik, aramayı yalnızca standart ses dosya uzantılarına sahip dosyalara sınırlar." />
+		<res id="592" text="Resimler, aramayı yalnızca standart görüntü dosya uzantılarına sahip dosyalara sınırlar." />
+		<res id="593" text="Video, aramayı yalnızca standart video dosya uzantılarına sahip dosyalara sınırlar." />
+		<res id="600" text="Bekleyen arama" />
+		<res id="601" text="Hata - arama başlatılamadı" />
+		<res id="602" text="Kesmeyin" />
+		<res id="603" text="Kesme orta" />
+		<res id="604" text="Kesme başlangıç" />
+		<res id="605" text="Kesme sonu" />
+		<res id="606" text="Bulunan öğeleri başka bir konuma veya zip dosyasına kopyalayın." />
+		<res id="607" text="Mevcut arama oturumunu veya çalışma alanını, arama sonuçlarını yeniden yüklemek için kullanılabilecek bir dosyaya kaydedin %APP_NAME%." />
+		<res id="608" text="Arama sonuçlarını harici bir biçime dışa aktarın, such as Text, CSV, HTML, XML vb." />
+		<res id="609" text="Kopyalama Başlat" />
+		<res id="610" text="Dışa aktar" />
+		<res id="611" text="Düzlük" />
+		<res id="612" text="Kök öğesinden" />
+		<res id="613" text="İlk ortak klasörden" />
+		<res id="614" text="Yazmak" />
+		<res id="615" text="Sıra numarası ile ekleme" />
+		<res id="616" text="Dosyayı kopyalama" />
+		<res id="617" text="Yalnızca bulunan öğeleri kopyalayın" />
+		<res id="618" text="Ana e-posta dosyasını kopyala" />
+		<res id="619" text="Kopya çiftleri" />
+		<res id="620" text="Orijinaline kısa kesim oluşturun" />
+		<res id="621" text="Günlük hatası" />
+		<res id="622" text="Dur" />
+		<res id="623" text="Eylem için istemi" />
+		<res id="624" text="Dosya oluşturulamadı" />
+		<res id="625" text="Kopyalama" />
+		<res id="626" text="Başarısız dosyalar" />
+		<res id="627" text="Kopya başarısız oldu" />
+		<res id="628" text="Başarıyla kopyalanan dosyaları" />
+		<res id="629" text="Kopya iptal edildi" />
+		<res id="630" text="Konum" />
+		<res id="631" text="düzenlemek için çift tıklatın" />
+		<res id="632" text="Metin dosyaları (*.txt)|*.txt|Tüm dosyalar (*.*)|*.*||" />
+		<res id="633" text="Geçerli dosyanın üzerine mi?" />
+		<res id="634" text="Komut dosyası" />
+		<res id="635" text="Arama ölçütü hariç tutulan %s öğeleri listeden" />
+		<res id="636" text="Hariç Tutulan Dosyalar" />
+		<res id="637" text="Geçersiz konum" />
+		<res id="638" text="Bildirilen hatalar" />
+		<res id="639" text="Arama alt klasörleri kapatıldı" />
+		<res id="640" text="Metin alanı içeren yalnızca boşluk karakterlerinden oluşur" />
+		<res id="641" text="Uyarı" />
+		<res id="642" text="Arama sırasında oluşturulan uyarılar" />
+		<res id="643" text="Zip Dosyaları (*.zip)|*.zip|Tüm Dosyalar (*.*)|*.*||" />
+		<res id="644" text="Dosya adı match case açık" />
+		<res id="645" text="Metin eşleme davası içeren açık" />
+		<res id="646" text="Mesaj gövdesi" />
+		<res id="647" text="E-posta" />
+		<res id="648" text="Sayfa" />
+		<res id="649" text="Toplu Kopyalama Raporu" />
+		<res id="650" text="Dosya kaydet" />
+		<res id="651" text="Yüzen Lisans: kadar %s eşzamanlı kullanıcılar" />
+		<res id="652" text="%s dosyaları aranamadı" />
+		<res id="653" text="Ayrıntılar için tıklayın" />
+		<res id="654" text="Önem" />
+		<res id="655" text="Ayrıntı" />
+		<res id="656" text="Yolun başlangıcını göster" />
+		<res id="657" text="Yolun sonunu göster" />
+		<res id="658" text="%s dosyalar bildirilen arama uyarıları" />
+		<res id="659" text="Dosya adı önceden ayarlanmış kullanma" />
+		<res id="660" text="GPS Verileri" />
+		<res id="661" text="Site Lisansı. Maksimum kullanıcılar: %s" />
+		<res id="662" text="Ayıklayan" />
+		<res id="663" text="Hedef" />
+		<res id="664" text="Kopyalanmadı - dosyalar hedefte zaten var" />
+		<res id="665" text="Toplu kopyalama" />
+		<res id="666" text="Dışa aktarma sonuçları" />
+		<res id="700" text="Çok satırlı RegEx" />
+		<res id="701" text="Uzman" />
+		<res id="702" text="Temel" />
+		<res id="703" text="Dizin Arama" />
+		<res id="704" text="&lt;Yeni Dizin Oluşturma...&gt;" />
+		<res id="705" text="Dizin seçili değil. Lütfen bir dizin seçin ve tekrar deneyin." />
+		<res id="706" text="Geçersiz Dizin" />
+		<res id="707" text="Yeni Dizin" />
+		<res id="708" text="Dizin adı ile klasör adını eşitleme" />
+		<res id="709" text="Zaman" />
+		<res id="710" text="Analiz" />
+		<res id="711" text="Indexed: %s | Name only: %s | Errors: %s | Invalid: %s | Removed: %s | Unchanged: %s" />
+		<res id="712" text="Dizin oluşturma işlemini başlatma" />
+		<res id="713" text="Dizin Ayrıntıları" />
+		<res id="714" text="Dizin Listesi" />
+		<res id="715" text="Dizin" />
+		<res id="716" text="Dizine" />
+		<res id="717" text="Silmek istediğinizden emin misiniz: %s?" />
+		<res id="718" text="Temizlik Endeksi" />
+		<res id="719" text="Optimize" />
+		<res id="720" text="Kaydedildi" />
+		<res id="721" text="..." />
+		<res id="722" text="Dizin yüklenemiyor" />
+		<res id="723" text="İptal" />
+		<res id="724" text="Standart belge konumları" />
+		<res id="725" text="Dosya türleri" />
+		<res id="726" text="Index size: %s | Indexed count: %s | Name only: %s | Total: %s" />
+		<res id="727" text="Dizin Yöneticisi" />
+		<res id="728" text="Dizinler şu anda güncellenmektedir. Tüm indeksleme işlemlerini iptal etmek ister misiniz?" />
+		<res id="729" text="Dizin oluşturulamadı" />
+		<res id="730" text="İkili dosya yoksayıldı" />
+		<res id="731" text="Dizin salt okunur modda." />
+		<res id="732" text="Dosya arama yapılamıyor ." />
+		<res id="733" text="Birincil arama yöntemi başarısız oldu, ham veri araması kullanıldı." />
+		<res id="734" text="Arama terimi bir dosya listesi ifadesine benziyor ancak yapılandırma seçeneği kapatılıyor." />
+		<res id="735" text="Dosya adı bir dosya listesi ifadesine benziyor ancak yapılandırma seçeneği kapatılıyor." />
+		<res id="736" text="Arama ifadesi, Seçenekler sekmesinde belirtildiği gibi satır bazında bir satırda değerlendirildi." />
+		<res id="737" text="Çevreleyen çizgiler" />
+		<res id="738" text="Çevreleyen çizgiler işaretleyici" />
+		<res id="739" text="Hit Hatları" />
+		<res id="740" text="Commas used in Wildcard expression, was semi-colon intended?" />
+		<res id="741" text="Reparse noktası" />
+		<res id="742" text="Güncelleme gerekli - dizin ayarları eşleşmiyor" />
+		<res id="743" text="Dizin büyük/küçük harfe duyarlı aramaları desteklemez. Bu seçeneği etkinleştirmek Için büyük/küçük harfe duyarlı arama etkin olan dizini yeniden oluşturmanız gerekir." />
+		<res id="744" text="Aramayı başlatılamıyor" />
+		<res id="745" text="Match durumda açık" />
+		<res id="746" text="Dizin güncel değil, arama eski dizin ayarlarını kullanarak çalıştırıldı." />
+		<res id="747" text="Dosya için hit görüntülenemiyor." />
+		<res id="748" text="Arama tamamlanmadan önce durduruldu" />
+		<res id="749" text="Boş dizin" />
+		<res id="750" text="Hiç" />
+		<res id="751" text="Dizin boş, dizin oluşturmak için dizin Yöneticisi'ni kullanın." />
+		<res id="752" text="Hariç tutulan Binary dosyalar" />
+		<res id="753" text="Benzersiz Anahtar Kelimeler" />
+		<res id="754" text="Geçersiz tarih. Bir sistem dosyası süresi 1601'den önce olamaz." />
+		<res id="755" text="Dosya yalnızca kısmen belirtilen maksimum aşan bulunan satır sayısı nedeniyle arandı." />
+		<res id="756" text="Filelist işleci işleme bir hata oluşturdu" />
+		<res id="757" text="Renk" />
+		<res id="758" text="Başka..." />
+		<res id="759" text="Arama konuları" />
+		<res id="760" text="Eylemi Onayla" />
+		<res id="761" text="Bu mesajı tekrar gösterme" />
+		<res id="762" text="Uyarı: Büyük dosya" />
+		<res id="763" text="Seçilen dosya çok büyük ve programın yavaşlamasına veya yanıt vermeyi bırakmasına neden olabilir." />
+		<res id="764" text="** DOSYA YÜKÜ İPTAL EDİLDİ **" />
+		<res id="765" text="Detay göster &gt;&gt;" />
+		<res id="766" text="&lt;&lt; Ayrıntı gizle" />
+		<res id="767" text="Bu özellik çalışması için program Internet Explorer'da 3. taraf tarayıcı uzantılarını etkinleştirmeniz gerekir ve yürürlüğe girmeden önce yeniden başlatmanız gerekir. \r\n\r\nDevam etmek ister misin?" />
+		<res id="768" text="Belirtilen dizin yok." />
+		<res id="769" text="Dizin işlemi belirtilmedi." />
+		<res id="770" text="Süre (secs)" />
+		<res id="771" text="Arama konuları" />
+		<res id="772" text="İptal" />
+		<res id="773" text="Şu anda bu arama için çalışan hiçbir içerik arama konuları" />
+		<res id="774" text="Dizin için hiçbir yerleri belirtilmedi. Lütfen hangi konumların dizine ekleneceğini belirtin." />
+		<res id="775" text="Hiçbir içerik dizin belirtilmedi. Lütfen dizine hangi dosyaların dahil edilmesi gerektiğini belirtin." />
+		<res id="776" text="Dizin listesi başka bir uygulama tarafından güncelleştirmeleri için kilitlenir" />
+		<res id="777" text="Finis'e 'çıkın' yazın." />
+		<res id="778" text="Dizin Yöneticisi başlatılamıyor" />
+		<res id="779" text="Kısmi arama sonuçlarını tamamlama..." />
+		<res id="780" text="Bulanık" />
+		<res id="781" text="Dizin veritabanını depolamak için seçilen konum yeni veya boş bir klasör olmalıdır." />
+		<res id="782" text="Geçerli işlem ile ilgili bir sorun oluştu. Bu, normalde kullanıcı arabirimi ayarlarında 'bireysel görev çubuğu sekmesi önizlemeleri' ayarından kaynaklanmaktadır. Bu bir sorun olmaya devam ederse lütfen bu seçeneği kapatın." />
+		<res id="783" text="Dizin yeniden oluşturma" />
+		<res id="784" text="Güncelleme dizini" />
+		<res id="785" text="Yeni dizin oluşturma" />
+		<res id="786" text="Dizin adı belirtilmedi." />
+		<res id="787" text="Dizin yolu belirtilmedi." />
+		<res id="788" text="Bir arama sırasında ölçüt türünü değiştirirseniz, geçerli arama iptal edilir. Geçerli aramayı iptal etmek istiyor musunuz?" />
+		<res id="789" text="Dizin" />
+		<res id="790" text="Yol, etkin hariç tutma yolları ve/veya filtreler nedeniyle aramaktan hariç tutuldu" />
+		<res id="791" text="Boş dosya, aranabilir metin bulunamadı" />
+		<res id="792" text="İfadeyi bireysel terimlere ayırılamıyor" />
+		<res id="793" text="Belirtilen boş dosya listesi" />
+		<res id="794" text="İfade türü, birden çok arama terimini desteklemek için Boolean olarak değiştirildi." />
+		<res id="795" text="Büyük ifade" />
+		<res id="796" text="Dizin oluşturma işlemi başarısız oldu." />
+		<res id="797" text="Dizin Deposu" />
+		<res id="798" text="İçerik Sınıfı" />
+		<res id="799" text="Seçilen öğeleri kalıcı olarak silmek ister misiniz?" />
+		<res id="800" text="Öğeleri silme" />
+		<res id="801" text="Bir veya daha fazla çok büyük metin satırı, arama vuruşlarında bir etkiye sahip olabilecek daha kısa çizgilere bölünmüştür." />
+		<res id="802" text="Yeniden adlandırma başarısız oldu. Dosya kilitli olmadığını kontrol edin." />
+		<res id="803" text="Dizin listesi yükleniyor" />
+		<res id="804" text="Varolan bir dizine başvuru ekleme" />
+		<res id="805" text="Yazarlar" />
+		<res id="806" text="Belge Anahtar Kelimeleri" />
+		<res id="807" text="Yorumlar" />
+		<res id="808" text="Başlık" />
+		<res id="809" text="Sahip" />
+		<res id="810" text="Dizin yolu ve Adı eşleşmiyor" />
+		<res id="811" text="Dizini Kaldır" />
+		<res id="812" text="Liste dizinleri" />
+		<res id="813" text="Son Kaydeten" />
+		<res id="814" text="Dizini sil" t="g" />
+		<res id="820" text="Sıfır Hit Anahtar Kelimeler" />
+		<res id="821" text="Kelime %s sadece profesyonel sürümde mevcuttur. Sadece terim için arıyorsanız &quot;%s&quot; sonra tırnak içine alın lütfen." />
+		<res id="822" text="Sabit süreli lisans. Kalan günler:" />
+		<res id="823" text="Doğrudan Erişim" />
+		<res id="824" text="Yorumlanmış metin" />
+		<res id="825" text="Dönüştürülen metin" />
+		<res id="826" text="IFiltre metni" />
+		<res id="827" text="Önbelleğe alınmış metin" />
+		<res id="828" text="Metin dosyası" />
+		<res id="829" text="Raw dosya verileri" />
+		<res id="830" text="İçerik Okuyucu" />
+		<res id="831" text="İlk kez kullanım için program hazırlama..." />
+		<res id="832" text="Deneme süresi doldu." />
+		<res id="833" text="Bu özellik programın ücretsiz sürümünde mevcut değildir." />
+		<res id="834" text="Profesyonel Deneme" />
+		<res id="835" text="Profesyonel" />
+		<res id="836" text="Lite" />
+		<res id="837" text="Azaltılmış işlevsellik sürümü, bazı özellikler gizli veya devre dışı bırakılacaktır. Hem kişisel hem de ticari kullanım için ücretsiz." />
+		<res id="838" text="Tam fonksiyonel versiyonu." />
+		<res id="839" text="Deneme süresi için tamamen işlevsel sürümü." />
+		<res id="840" text="KAYITLI DEĞİL! \r\nBu ürün sadece evde kişisel kullanım için lisanslıdır. \r\n\r\nTicari Kullanıcılar:\r\n\r\nBu ürünü ticari bir ortamda kullanmaya devam etmek için KAYDETTİRMENİZ gerekir, aksi takdirde kullanıcı sözleşmesinin şartlarını ve koşullarını ihlal edersiniz.\r\n\r\nÜcretsiz kayıt kodu için lütfen gidin to:\r\nhttps://www.mythicsoft.com/agentransack/register" />
+		<res id="841" text="Kaydedilmemiş. \r\nBu ürünün ticari kullanıcıları, deneme süresi bittikten sonra kayıt yaptırmaları gerekmektedir.\r\n\r\nÜcretsiz kayıt kodu için lütfen gidin to:\r\nhttps://www.mythicsoft.com/agentransack/register" />
+		<res id="842" text="Lütfen ürünü nasıl kullandığınızı belirtin." />
+		<res id="843" text="Ürünü yeniden başlattığınızda değişiklikler yürürlüğe girer." />
+		<res id="844" text="Girilen kayıt kodu ürünün Lite sürümü içindir, bu nedenle bazı özellikler artık devre dışı bırakılacaktır." />
+		<res id="845" text="Programın ücretsiz sürümü özelliği desteklemez: %s" />
+		<res id="846" text="Hızla" />
+		<res id="847" text="Orta" />
+		<res id="848" text="Özel" />
+		<res id="849" text="Arama yolu açılamıyor" />
+		<res id="899" text="MS Office Geçici Dosyalarını Hariç Tut" />
+		<res id="900" text="Konum filtreleri" />
+		<res id="901" text="Göreli tarih/saatler" />
+		<res id="902" text="Gelişmiş dönem eşleştirme" />
+		<res id="903" text="Dosya Listeleri" />
+		<res id="904" text="Çalışma alanları/oturumlar" />
+		<res id="905" text="Gelişmiş çıkış biçimleri" />
+		<res id="906" text="Anahtar kelime raporları" />
+		<res id="907" text="Tarih/saat uzaklık kümeleri" />
+		<res id="908" text="Konum Makroları" />
+		<res id="909" text="Toplu kopyalama" />
+		<res id="910" text="%APP_NAME% ilk kurulum gerektirir. Lütfen kurulumu tamamlamak için ana%APP_NAME% uygulamasını çalıştırın ve yeniden deneyin." />
+		<res id="911" text="Dosya Arama Kullanıcı tarafından iptal edildi" />
+		<res id="912" text="Yeniden Başlat" />
+		<res id="913" text="Kalıcı dosya adı filtresi" />
+		<res id="914" text="EXE, DLL, SYS dosyalarını hariç tut" />
+		<res id="915" text="Uyarılar/hata bildirdi bkz: Özet daha fazla bilgi için" />
+		<res id="916" text="Yeni dizin yaratılamıyor. Lütfen bu dosyaya erişim hakkınız olduğunu kontrol edin: " />
+		<res id="917" text="Geçersiz bileşik dosya" />
+		<res id="918" text="Geçersiz bileşik dosya, yerine standart arama kullanılıyor." />
+		<res id="919" text="Daha Fazla" />
+		<res id="920" text="Adını Değiştir" />
+		<res id="921" text="Yeni Grup" />
+		<res id="922" text="Kaynak" />
+		<res id="923" text="Dizin Grubu" />
+		<res id="924" text="Yalnızca dosya adı yerine tam yol eşleştirilirken Wildcard ifadesinde kullanılan bağlantı." />
+		<res id="925" text="Klasör derinliği" />
+		<res id="926" text="Dizini İzle" />
+		<res id="927" text="Başarılı" />
+		<res id="928" text="Organizasyon çoklü web sitesi lisansı" />
+		<res id="929" text="Dizin, ürünün daha eski bir sürümüyle oluşturuldu ve arama alanlarını desteklemiyor." />
+		<res id="930" regex="isim:(.*)" case="1" />
+		<res id="931" regex="lookin:(.*)" case="1" />
+		<res id="932" regex="ext:(.*)" case="1" />
+		<res id="933" regex="moddt:(.*)" case="1" />
+		<res id="934" regex="createdt:(.*)" case="1" />
+		<res id="935" regex="boyut:(.*)" case="1" />
+		<res id="936" regex="içerik:(.*)" case="1" />
+		<res id="940" text="Klasör silindi" />
+		<res id="941" text="Klasör eklendi" />
+		<res id="942" text="Klasör adı değiştirildi" />
+		<res id="943" text="Dosya silindi" />
+		<res id="944" text="Dosya eklendi" />
+		<res id="945" text="İşlem dizin eylemleri" />
+		<res id="946" text="Dizin izleme başlıyor" />
+		<res id="947" text="Dizin izleme durduruluyor" />
+		<res id="948" text="Güncelleme tamamlandı" />
+		<res id="949" text="İzleme" />
+		<res id="950" text="Güncellemeler" />
+		<res id="951" text="Atlandı" />
+		<res id="952" text="Değiştirilmedi" />
+		<res id="953" text="Endekslendi - Sadece İsim" />
+		<res id="954" text="Dizin oluşturma ilerlemesini kaydetmek veya önceki dizin durumuna geri dönmek ister misiniz?" />
+		<res id="955" text="Eylem" />
+		<res id="956" text="Etkinlik" />
+		<res id="957" text="Dizin Bakımı" />
+		<res id="958" text="Bağlanıyor" />
+		<res id="959" text="Bağlantı Kesiliyor" />
+		<res id="960" text="Mesajlar" />
+		<res id="961" text="CSV Dosyaları (*.csv)|*.csv|Bütün Dosyalar (*.*)|*.*||" />
+		<res id="962" text="Paylaşımlı lisans alınıyor" />
+		<res id="963" text="Bilgisayar" />
+		<res id="964" text="Yaş" />
+		<res id="965" text="Yenilendi" />
+		<res id="966" text="Aktif" />
+		<res id="967" text="Yenileniyor" />
+		<res id="968" text="Süresi Doldu" />
+		<res id="969" text="Tüm paylaşılan Pro lisansları şu anda kullanılıyor, beklemek veya Basit modda devam etmek ister misiniz?" />
+		<res id="970" text="Pro lisansı alınamıyor" />
+		<res id="971" text="Tüm Pro lisansları şu anda kullanımda Bir lisans beklemek veya programı kapatmak ister misiniz??" />
+		<res id="972" text="Beklemek mi yoksa Programı Kapatmak mı İstersiniz?" />
+		<res id="973" text="Bekle" />
+		<res id="974" text="Kapat" />
+		<res id="975" text="Lite Mod" />
+		<res id="976" text="Lisanslar Kaldırılıyor" />
+		<res id="977" text="Lisans klasörü değiştirilemiyor. Lütfen klasörün var olduğunu ve klasör için okuma/yazma izniniz olduğunu kontrol edin." />
+		<res id="978" text="Kayıt anahtarı bulunamadı" />
+		<res id="979" text="Lisans Kimliği" />
+		<res id="980" text="Pro lisansı yenilenemedi" />
+		<res id="981" text="%APP_NAME% Kapat" />
+		<res id="982" text="Keşfet" />
+		<res id="983" text="Logu Güncelle" />
+		<res id="984" text="Dizin Konumları" />
+		<res id="985" text="Klasörde dizine ekli öğe yok" />
+		<res id="986" text="Klasörde alt klasörler var ancak dizinde öğe yok" />
+		<res id="987" text="Binary Dosyası" />
+		<res id="988" text="İçerik" />
+		<res id="989" text="Dizin işlemi kapatılıyor" />
+		<res id="990" text="Hata/Uyarı raporlandı, daha fazla bilgi için Log Güncellemesine bakın." />
+		<res id="991" text="Sadece kısmi endeksleme." />
+		<res id="992" text="Hafıza sınırı aşıldı." />
+		<res id="993" text="Çok fazla ifade." />
+		<res id="994" text="İfadeler" />
+		<res id="995" text="Dizin Tarihi" />
+		<res id="996" text="Kısmi Dizin" />
+		<res id="997" text="Bütün arama sonuçlarını kapatmak mı istiyorsunuz?" />
+		<res id="998" text="Günlük" />
+		<res id="999" text="Haftalık" />
+		<res id="1000" text="Aylık" />
+		<res id="1001" text="Varsayılan (Günlük yenileme ile gerçek zamanlı izleme)" />
+		<res id="1002" text="&lt;Yeni Oluştur...&gt;" />
+		<res id="1003" text="Yeni Program Güncelleme" />
+		<res id="1004" text="Hiçbir İsim belirtilmedi." />
+		<res id="1005" text="Sayı, bu aralık arasında olmalıdır: %d to %d" />
+		<res id="1006" text="Program Listesi" />
+		<res id="1007" text="Program Detayları" />
+		<res id="1008" text="Gerçek Zamanlı İzleme" />
+		<res id="1009" text="Grup Listesi" />
+		<res id="1010" text="Devre dışı bırakıldı" />
+		<res id="1011" text="Her %d dakikada bir tekrar et" />
+		<res id="1012" text="Pazartesi" />
+		<res id="1013" text="Salı" />
+		<res id="1014" text="Çarşamba" />
+		<res id="1015" text="Perşembe" />
+		<res id="1016" text="Cuma" />
+		<res id="1017" text="Cumartesi" />
+		<res id="1018" text="Pazar" />
+		<res id="1019" text="Lütfen programda en az bir gün belitin" />
+		<res id="1020" text="Programlayıcı Başlat" />
+		<res id="1021" text="Programı sil ve bütün programlı güncellemeleri veya gerçek zamanlı izlemeyi durdur:" />
+		<res id="1022" text="Emin misiniz?" />
+		<res id="1023" text="İşlem başarısız" />
+		<res id="1024" text="Klasör senkronizasyonu programlandı" />
+		<res id="1025" text="Klasör dosya senkronizasyonu" />
+		<res id="1026" text="Klasör senkronizasyonu" />
+		<res id="1027" text="Programlayıcı eylemi" />
+		<res id="1028" text="Güncel olmayan kaynak - Yoksayıldı" />
+		<res id="1029" text="Geçersiz dosya adı" />
+		<res id="1030" text="Önceki sürümde oluşturulan dizin. Dizin ayrıntılarını görüntülemek için dizini güncelleyin." />
+		<res id="1031" text="İkili dosya, içerik dizine eklenmemiş" />
+		<res id="1032" text="Lütfen dizin için bir güncelleme programı seçin" />
+		<res id="1033" text="Geri Al" />
+		<res id="1034" text="Geçmiş Sürüme Dön" />
+		<res id="1035" text="Kaldır veya Sil" />
+		<res id="1036" text="Dizini kalıcı olarak silmek mi yoksa listeden kaldırmak mı istiyorsunuz?" />
+		<res id="1037" text="Kaldır" />
+		<res id="1038" text="Endekslemeyi İptal Et" />
+		<res id="1039" text="Bağlantısız wildcarda izin verilmez." />
+		<res id="1040" text="Tekrar yükleniyor" />
+		<res id="1041" text="Dizin kriteri" />
+		<res id="1042" text="Degişti" />
+		<res id="1043" text="Sağlıklı" />
+		<res id="1044" text="Paylaşılan lisans yapılandırma ayarları yüklenemedi." />
+		<res id="1045" text="Klasörde paylaşılan lisans bulunamadı. Devam et?" />
+		<res id="1046" text="Parametre için değer belirtilmedi: %s" />
+		<res id="1047" text="Geçersiz parametreler" />
+		<res id="1048" text="Dosya Sürümü" />
+		<res id="1049" text="Ürün Sürümü" />
+		<res id="1050" text="Bu özellik sistem yöneticiniz tarafından devre dışı bırakıldı." />
+		<res id="1051" text="Dosya Adı alanı bir joker karakter içeriyor ancak ifade türü Düz Metin olarak ayarlandı." />
+		<res id="1052" text="Hata Raporu Oluştur" />
+		<res id="1053" text="Bir hata raporu oluşturup göndermek ister misiniz?" />
+		<res id="1054" text="Rapor oluştur" />
+		<res id="1055" text="Yeni Dizin Oluştur" />
+		<res id="1056" text="Bir dizin araması gerçekleştirmeden önce bir dizin oluşturmanız gerekir. Bir dizin oluşturmak ister misiniz?" />
+		<res id="1057" text="Lütfen aramak istediğiniz dizini seçiniz." />
+		<res id="1058" text="İsim Uzunluğu" />
+		<res id="1059" text="Toplam Yol Uzunluğu" />
+		<res id="1060" text="Dizin aranamıyor" t="g" />
+		<res id="1061" text="Arama başarısız" t="g" />
+		<res id="1062" text="Değerlendirme" t="g" />
+		<res id="1063" text="Oryantasyon" t="g" />
+		<res id="1064" text="Odak uzaklığı" t="g" />
+		<res id="1065" text="Sıkıştırılmış dosya" t="g" />
+		<res id="1066" text="Oturum" t="g" />
+		<res id="1067" text="çalışma alanı" t="g" />
+		<res id="1068" text="Görüntü OCR Başarısız" t="g" />
+		<res id="1069" text="Görüntüyü OCR ile tarama" t="g" />
+		<res id="1070" text="Son yenileme" t="e" />
+		<res id="1071" text="Gömülü nesne" t="g" />
+		<res id="1072" text="En son güncelleme başarıyla tamamlanmadı." t="g" />
+		<res id="1073" text="Dizin, %APP_NAME% uygulamasının daha yeni bir sürümü kullanılarak oluşturuldu. Dizin ayrıntılarını görüntülemek için lütfen bu kurulumu yükseltin. Dizinin güncellenmesi, dizini yeniden oluşturacak ve %APP_NAME% uygulamasının bu sürümüne geri yükleyecektir." t="g" />
+		<res id="1074" text="Yedekleme yöntemi kullanılarak birincil arama yöntemi başarısız oldu." t="g" />
+		<res id="1075" text="Panoda kayıtlı kayıt bilgilerinizi kullanmak ister misiniz?" t="g" />
+		<res id="1076" text="Dosya şifreyle korunmaktadır." t="g" />
+	</string>
+</translation>

@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="हिंदी - Hindi" helplang="en">
+	<dialog id="3531" name="IDD_EDITBOX" caption=""/>
+	<dialog id="333" name="IDD_SCHEDULE_EDIT" caption="Edit Schedule">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Real-time monitoring"/>
+		<res id="3" text="Refresh frequency"/>
+		<res id="4" text="Start time:"/>
+		<res id="5" text="HH:mm:ss"/>
+		<res id="6" text="Assigned Indexes"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Cancel"/>
+	</dialog>
+	<dialog id="334" name="IDD_SCHEDULE_DAILY" caption="">
+		<res id="1" text="Repeat every:"/>
+		<res id="2" text="minutes"/>
+	</dialog>
+	<dialog id="335" name="IDD_SCHEDULE_WEEKLY" caption="">
+		<res id="1" text="Monday"/>
+		<res id="2" text="Tuesday"/>
+		<res id="3" text="Wednesday"/>
+		<res id="4" text="Thursday"/>
+		<res id="5" text="Friday"/>
+		<res id="6" text="Saturday"/>
+		<res id="7" text="Sunday"/>
+	</dialog>
+	<dialog id="336" name="IDD_SCHEDULE_MONTHLY" caption="">
+		<res id="1" text="Day of month:"/>
+	</dialog>
+	<dialog id="337" name="IDD_INDEXSCHEDULEVIEW" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Type:"/>
+		<res id="3" text="Start time:"/>
+		<res id="4" text="Real-time:"/>
+		<res id="5" text="Status:"/>
+		<res id="10" text="Assigned Indexes"/>
+	</dialog>
+	<dialog id="338" name="IDD_SCHEDULE_INDEXLIST" caption="Assign Indexes to Schedule">
+		<res id="1" text="Indexes:"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Cancel"/>
+	</dialog>
+	<dialog id="339" name="IDD_INDEX_EDITADVANCED" caption="Advanced Index Settings">
+		<res id="1" text="Advanced Settings"/>
+		<res id="2" text="Enable case sensitive searching"/>
+		<res id="3" text="Detect binary content"/>
+		<res id="4" text="Allow partial commits"/>
+		<res id="5" text="Index compressed archives:"/>
+		<res id="6" text="ओसीआर छवियां" t="g"/>
+		<res id="7" text="ओसीआर सेटिंग्स..." t="g"/>
+		<res id="8" text="खोज फ़िल्टर का उपयोग करें" t="g"/>
+		<res id="9" text="सक्रिय फ़िल्टर..." t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Cancel"/>
+		<res id="12" text="एम्बेडेड दस्तावेज़ निकालें (वर्ड/पीडीएफ)" t="g"/>
+	</dialog>
+	<dialog id="5559" name="IDD_FORMATS_OCR" caption="Optical Character Recognition (OCR) Settings">
+		<res id="1" text="OCR Settings"/>
+		<res id="2" text="Cache OCR Text"/>
+		<res id="3" text="File formats to analyse with OCR:"/>
+		<res id="4" text="All available"/>
+		<res id="5" text="Selected file formats:"/>
+		<res id="6" text="Language:"/>
+		<res id="7" text="PDF Settings"/>
+		<res id="8" text="Do not OCR PDFs with existing searchable text"/>
+		<res id="9" text="स्वचालित पृष्ठ अभिविन्यास पहचान" t="g"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Cancel"/>
+	</dialog>
+	<dialog id="207" name="IDD_LICENSE_TYPE" caption="License Type">
+		<res id="1" text="अनुज्ञापत्र का प्रकार चयन करें:"/>
+		<res id="2" text="व्यावसायिक (आज़माइश)"/>
+		<res id="3" text="व्यावसायिक"/>
+		<res id="4" text="व्यावसायिक अनुज्ञापत्र खरीदें"/>
+		<res id="5" text="संपूर्ण कार्यरत संस्करण।"/>
+		<res id="6" text="नाम:"/>
+		<res id="7" text="ईमैल:"/>
+		<res id="8" text="पंजीकरण संकेत:"/>
+		<res id="9" text="मुक्त संस्करण"/>
+		<res id="10" text="विशेषता की तुलना"/>
+		<res id="11" text="व्यावसायिक व व्यक्तिगत उपयोग के लिए नि:शुल्क। कुछ विशेषताएं प्रछन्न या निर्योग्य।"/>
+		<res id="12" text=""/>
+		<res id="13" text="ऑके"/>
+		<res id="14" text="केन्सल"/>
+	</dialog>
+	<dialog id="5560" name="IDD_LICENSE_MGR" caption="Floating License Manager">
+		<res id="1" text="License folder:"/>
+		<res id="2" text=""/>
+		<res id="3" text=""/>
+		<res id="4" text="OK"/>
+		<res id="5" text="Cancel"/>
+		<res id="6" text="Refresh"/>
+	</dialog>
+	<dialog id="260" name="IDD_COMMERCIAL_USE" caption="निशुल्क पंजीकरण उपलब्ध!">
+		<res id="1" text=""/>
+		<res id="2" text="यदी आप इस उत्पादन को व्यावसायिक कार्य के लिए उपयोग में ले रहे हैं, तो इसका पंजीकरण आवश्यक है, लेकिन पंजीकरण के लिए आपको कुछ चूकाने की आवश्यकता नहीं है।"/>
+		<res id="3" text="निशुल्क पंजीकरण संकेत के लिए Mythicsoft web site का संपर्क करें:"/>
+		<res id="4" text="यदी आप इस उत्पादन को व्यक्तिगत कार्य के लिए उपयोग में ले रहे हैं, तो इसका पंजीकरण आवश्यक नहीं है, लेकिन आप से पंजीकरण कराने की बिनती की जाती है।"/>
+		<res id="5" text="मैं इसे इस कार्य के लिए उपयोग में ले रहा हूँ:"/>
+		<res id="6" text="मात्र व्यक्तिगत कार्य के लिए"/>
+		<res id="7" text="व्यावसायिक कार्य के लिए, मैं अपना पंजीकरण संकेत डालना चाहता हूँ"/>
+		<res id="8" text="ऑके"/>
+		<res id="9" text="केन्सल"/>
+	</dialog>
+	<dialog id="3566" name="IDD_COLUMNLIST_OPTIONS" caption="कॉलम चुनें">
+		<res id="1" text="कॉलम"/>
+		<res id="2" text="ध्यान दें: फ़िल्ड का क्रम बदलने के लिए ड्रेग + ड्रोप करें"/>
+		<res id="3" text="ठीक"/>
+		<res id="4" text="रद्द करें"/>
+	</dialog>
+	<dialog id="3565" name="IDD_EXPRESSIONEDITORDLG" caption="अभिव्यक्ति सुधारें">
+		<res id="1" text="अभिव्यक्ति के प्रकार:"/>
+		<res id="2" text="एक अलग लाइन पर प्रत्येक स्वतंत्र खोज शब्द दर्ज करें"/>
+		<res id="3" text="संदर्भ पाठ फ़ाइल:"/>
+		<res id="4" text="ब्राउज़ करें ..."/>
+		<res id="5" text="ठीक"/>
+		<res id="6" text="रद्द करें"/>
+		<res id="7" text="खोज नियम:"/>
+	</dialog>
+	<dialog id="5558" name="IDD_GENERAL_COLORS" caption="">
+		<res id="1" text="कीवर्ड हिट्स"/>
+		<res id="2" text="टेक्स्ट का रंग:"/>
+		<res id="3" text="कीवर्ड हिट्स"/>
+		<res id="4" text="बोल्ड"/>
+		<res id="5" text="अंडरलाइन"/>
+		<res id="6" text="कीवर्ड्स को अलग-अलग रंगों में हाइलाइट करें:"/>
+		<res id="7" text="कीवर्ड हिट के पीछे का रंग"/>
+		<res id="8" text="टेक्स्ट टैब की हाइलाइटिंग"/>
+		<res id="9" text="मूल खोज:"/>
+		<res id="10" text=" द्वितीयक खोज:"/>
+		<res id="11" text="मूल खोज की पंक्ति का रंग"/>
+		<res id="12" text="द्वितीयक खोज की पंक्ति का रंग"/>
+	</dialog>
+	<dialog id="3542" name="IDD_KEYWORD_COLOR" caption="">
+		<res id="1" text="सेटिंग्स..."/>
+	</dialog>
+	<dialog id="231" name="IDD_INDEX_SEARCH" caption=""/>
+	<dialog id="331" name="IDD_INDEXEDIT_GROUP_PANE" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="File:"/>
+		<res id="3" text="Browse for file"/>
+	</dialog>
+	<dialog id="310" name="IDD_INDEX_EDIT" caption="">
+		<res id="1" text="&amp;Read only"/>
+		<res id="10" text="OK"/>
+		<res id="11" text="Cancel"/>
+	</dialog>
+	<dialog id="312" name="IDD_INDEXACTIVITYVIEW" caption="">
+		<res id="1" text="नाम:"/>
+		<res id="2" text="फ़ाइल:"/>
+		<res id="3" text="स्थान:"/>
+		<res id="4" text="सारांश:"/>
+		<res id="5" text="अंतिम रीफ्रेश:"/>
+		<res id="6" text="स्थिति:"/>
+	</dialog>
+	<dialog id="332" name="IDD_INDEXGROUPVIEW" caption="">
+		<res id="1" text="Name:"/>
+		<res id="2" text="Indexes:"/>
+	</dialog>
+	<dialog id="315" name="IDD_ADDINDEX_TYPEPAGE" caption="Add Index">
+		<res id="1" text="Type of index to add"/>
+		<res id="2" text="Create a new index"/>
+		<res id="3" text="Reference an existing index or group"/>
+		<res id="4" text="Do you want to create a new index, new group, or reference an existing index?"/>
+		<res id="5" text="Create a new group"/>
+	</dialog>
+	<dialog id="316" name="IDD_ADDINDEX_NEWPAGE" caption="">
+		<res id="1" text="Create a new index"/>
+		<res id="2" text="&amp;Start indexing job on Finish"/>
+		<res id="3" text="Create Index"/>
+		<res id="4" text="Create a new group"/>
+	</dialog>
+	<dialog id="317" name="IDD_ADDINDEX_IMPORTPAGE" caption="">
+		<res id="1" text="Add an existing index"/>
+		<res id="2" text="Specify the path of the index store you wish to add:"/>
+		<res id="3" text="Folder:"/>
+		<res id="4" text="Read-only access"/>
+		<res id="5" text="Browse"/>
+	</dialog>
+	<dialog id="319" name="IDD_ADDINDEX_AUTOUPDATE" caption="">
+		<res id="1" text="Do you want the index to automatically update?"/>
+		<res id="2" text="No, manual updates only"/>
+		<res id="3" text="Yes, schedule updates"/>
+		<res id="4" text="स्वचालित अपडेट शेड्यूल करें" t="g"/>
+	</dialog>
+	<dialog id="318" name="IDD_INDEXEDIT_ENGINE_PANE" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Index Name:"/>
+		<res id="3" text="Store Index:"/>
+		<res id="4" text="Index Content"/>
+		<res id="5" text="&amp;Documents/PDF/Text files"/>
+		<res id="6" text="Specific &amp;files:"/>
+		<res id="7" text="&amp;Enable case sensitive searching (larger index) "/>
+		<res id="8" text="Include all other files using name only"/>
+		<res id="9" text="Index Locations"/>
+		<res id="10" text="&amp;Standard document locations"/>
+		<res id="11" text="&amp;Specific locations:"/>
+		<res id="12" text="Subfolders"/>
+		<res id="13" text="Browse"/>
+		<res id="14" text="Multiple folders"/>
+		<res id="15" text="Outlook/Thunderbird Files"/>
+		<res id="16" text="Email attachments"/>
+		<res id="17" text="Advanced..."/>
+	</dialog>
+	<dialog id="211" name="IDD_SAVE_BULKCOPY" caption="">
+		<res id="1" text="फ़ाइलों को यहाँ कॉपी करें"/>
+		<res id="2" text="&amp;फोल्डर:"/>
+		<res id="3" text="&amp;ज़िप फ़ाइल:"/>
+		<res id="4" text="&amp;ब्राउज़..."/>
+		<res id="5" text="&amp;ब्राउज़..."/>
+		<res id="6" text="विकल्प"/>
+		<res id="7" text="फोल्डर की संरचना:"/>
+		<res id="8" text="वर्तमान फ़ाइल:"/>
+		<res id="9" text="ईमेल आइटम:"/>
+		<res id="10" text="डुपलिकेट:"/>
+		<res id="11" text="त्रुटियाँ:"/>
+		<res id="12" text="फ़ाइल की विशेषताएं कॉपी करें"/>
+		<res id="13" text="कॉपी करने के लिए फ़ाइलें"/>
+		<res id="14" text="सभी फ़ाइलें"/>
+		<res id="15" text="केवल चयन की गई फ़ाइलें"/>
+		<res id="16" text="ज़िप बनाएं"/>
+		<res id="17" text="ज़िप में जोड़ें"/>
+		<res id="18" text="255 वर्णों से अधिक लंबे पथों को काटें"/>
+		<res id="19" text="फोल्डर कॉपी करें" t="g"/>
+		<res id="20" text="सबफोल्डर्स शामिल करें" t="g"/>
+		<res id="21" text="खाली फ़ोल्डर शामिल करें" t="g"/>
+	</dialog>
+	<dialog id="210" name="IDD_SAVE_SESSIONWORKSPACE" caption="">
+		<res id="1" text="यहाँ सहेजें"/>
+		<res id="2" text="&amp;फ़ाइल:"/>
+		<res id="3" text="&amp;ब्राउज़ करें..."/>
+		<res id="4" text="सहेजने के लिए खोजें"/>
+		<res id="5" text="केवल वर्तमान खोज सत्र"/>
+		<res id="6" text="वर्कस्पेस (यानि, सभी खोज सत्र)"/>
+		<res id="7" text="&amp;प्रत्येक खोज के लिए खोज हिस्टरी शामिल करें"/>
+	</dialog>
+	<dialog id="206" name="IDD_EXPORT" caption="एक्स्पोर्ट करें">
+		<res id="1" text="ओके"/>
+		<res id="2" text="रद्द करें"/>
+	</dialog>
+	<dialog id="209" name="IDD_EXPORT_TYPE" caption="">
+		<res id="1" text="एक्स्पोर्ट प्रक्रिया"/>
+		<res id="2" text="बल्क कॉपी"/>
+		<res id="3" text="खोज परिणाम एक्स्पोर्ट करें"/>
+		<res id="4" text="सत्र/वर्कस्पेस सहेजें"/>
+		<res id="5" text="सहायता"/>
+	</dialog>
+	<dialog id="197" name="IDD_EXPR_WIZ_FILENAMEPRESET" caption="फ़ाइल-नाम पुनः सेट करें">
+		<res id="1" text="ध्यान दें: आप और, या, और नहीं जैसे मानक बूलिअन ऑपरेटरों का उपयोग करके शब्दावली का संयोजन कर सकते हैं ।"/>
+		<res id="2" text="फ़ाइल प्रकार:"/>
+	</dialog>
+	<dialog id="3514" name="IDD_REPORTS_SELECTION" caption="" maxgrow="700">
+		<res id="1" text="रिपोर्ट:"/>
+		<res id="2" text="फॉर्मेट:"/>
+		<res id="3" text="अगला"/>
+		<res id="4" text="अगला"/>
+		<res id="5" text="सभी"/>
+		<res id="6" text="फ़ाइलें:"/>
+		<res id="7" text="चयन की गई"/>
+	</dialog>
+	<dialog id="3530" name="IDD_REPORT_PROGRESS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="रिपोर्ट तैयार की जा रही है..."/>
+		<res id="3" text="रद्द करें"/>
+	</dialog>
+	<dialog id="5556" name="IDD_ADV_MEMMANAGER" caption="">
+		<res id="1" text="बड़ी खोजों के समय मेमरी का उपयोग सीमित रखें"/>
+		<res id="2" text="प्रत्येक खोज के लिए मेमरी सीमा:"/>
+		<res id="3" text="सिस्टम द्वारा निश्चित मात्रा"/>
+		<res id="4" text="निश्चित मात्रा:"/>
+		<res id="5" text="पंक्तियों को यहां से काटें:"/>
+		<res id="6" text="प्रति पंक्ति अक्षरों की संख्या के बाद काटें:"/>
+		<res id="7" text="काटना केवल खोज हिस्टरी पर ही लागू करें"/>
+	</dialog>
+	<dialog id="3524" name="IDD_REPORT_OPTIONS" caption="">
+		<res id="1" text="डिस्प्ले"/>
+		<res id="2" text="क्राइटिरिया  सारांश"/>
+		<res id="3" text="खोज के आंकड़ें"/>
+		<res id="4" text="कॉलम शीर्षक"/>
+		<res id="5" text="फिल्डस"/>
+		<res id="6" text="ओके"/>
+		<res id="7" text="रद्द करें"/>
+		<res id="8" text="ध्यान दें: फ़िल्ड का क्रम बदलने के लिए ड्रेग + ड्रोप करें"/>
+	</dialog>
+	<dialog id="5552" name="IDD_CACHE_SETTINGS" caption="">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="जानकारी"/>
+		<res id="4" text="फ़ोल्डर को केशे करें:"/>
+		<res id="5" text="आइटम:"/>
+		<res id="6" text="कुल माप:"/>
+		<res id="7" text="कॉम्पैक्ट..."/>
+		<res id="8" text="क्लियर..."/>
+		<res id="9" text="सेटिंग्स"/>
+		<res id="10" text="प्रत्येक आइटम के लिए अधिकतर मान्य माप (KB):"/>
+		<res id="11" text="समाप्ति"/>
+		<res id="12" text="कभी नहीं"/>
+		<res id="13" text="असंदर्भित कैशे आइटमों को इसके बाद मिटाएं:"/>
+		<res id="14" text="बंद करने पर कैशे को खाली करें"/>
+		<res id="15" text="ओके"/>
+		<res id="16" text="रद्द करें"/>
+		<res id="17" text="दिन"/>
+	</dialog>
+	<dialog id="5553" name="IDD_GENERAL_SEARCH" caption="">
+		<res id="1" text="खोज विधि"/>
+		<res id="2" text="&amp;बहु-चरण (डिफॉल्ट)"/>
+		<res id="3" text="तुरंत"/>
+		<res id="4" text="&amp;हिट की गिनती करें"/>
+		<res id="7" text="&amp;Ordered"/>
+		<res id="9" text="के रूप में आप टाइप स्वचालित रूप से खोज"/>
+		<res id="10" text="&amp;सूचकांक खोज"/>
+		<res id="11" text="&amp;पाठ टैब"/>
+		<res id="12" text="&amp;Ascending"/>
+	</dialog>
+	<dialog id="196" name="IDD_SAVE_WORKSPACE" caption="वर्कस्पेस सेहजें">
+		<res id="1" text="यहां सहेजें"/>
+		<res id="2" text="&amp;फ़ाइल:"/>
+		<res id="3" text="&amp;ब्राउज़ करें..."/>
+		<res id="4" text="सहेजें करने वाली जानकारी"/>
+		<res id="5" text="संपूर्ण वर्कस्पेस"/>
+		<res id="6" text="आंशिक वर्कस्पेस"/>
+		<res id="7" text="सभी खोजें"/>
+		<res id="8" text="केवल वर्तमान खोज"/>
+		<res id="9" text="प्रत्येक खोज का हिस्टरी शामिल करें"/>
+		<res id="15" text="सहेजें"/>
+		<res id="16" text="रद्द करें"/>
+	</dialog>
+	<dialog id="195" name="IDD_SAVE_SESSION" caption="खोज सत्र सहेजें">
+		<res id="1" text="यहां सहेजें"/>
+		<res id="2" text="फ़ाइल:"/>
+		<res id="3" text="ब्राउज़ करें..."/>
+		<res id="4" text="खोज हिस्टरी शामिल करें"/>
+		<res id="15" text="सहेजें"/>
+		<res id="16" text="रद्द करें"/>
+	</dialog>
+	<dialog id="5523" name="IDD_CONFIGENTRY_EXTENSION" caption="">
+		<res id="1" text="नाम:"/>
+		<res id="2" text="&lt;name&gt;"/>
+		<res id="3" text="फ़ाइल के प्रकार:"/>
+		<res id="4" text="(प्रत्येक वैध फ़ाइल प्रकार को अलग पंक्ति में जोडें।)"/>
+		<res id="5" text="प्रोग्राम आईडी:"/>
+		<res id="6" text="&lt;progid&gt;"/>
+		<res id="7" text="सेफ़ मोड में चलाएं"/>
+		<res id="8" text="इन्डेक्सिंग सर्विस फिल्टर का उपयोग करें (यदि उपलब्ध हो तो)"/>
+		<res id="9" text="सक्रिय न होने पर कंटेन्ट सर्च से मिले फ़ाइल प्रकार को शामिल न करें"/>
+	</dialog>
+	<dialog id="5527" name="IDD_CONFIGENTRY_EXTENSIONMAIN" caption="">
+		<res id="1" text="रीस्टोर करें..."/>
+		<res id="2" text="एक्स्टेंशन सेटिंग को इन्स्टॉल करने के समय के डिफ़ॉल्टों पर पूनः स्थापित करने के लिए नीचे का यह बटन दबाएं।"/>
+		<res id="3" text="एक्स्टेन्शन कोन्फिगरेशन पूनः स्थापित करें।"/>
+		<res id="4" text="यह कोन्फिगरेशन समुह एड्वान्स्ड फ़ाइल प्रक्रिया के एक्स्टेन्शन सेटिंग को नियंत्रित करता है।"/>
+	</dialog>
+	<dialog id="5533" name="IDD_CONFIGENTRY_GENERAL" caption="">
+		<res id="1" text="इस कोन्फिगरेशन समुह में फ़ाइल लोकेटरर प्रो की खोजों को नियंत्रित करने के सेटिंग हैं।"/>
+	</dialog>
+	<dialog id="5534" name="IDD_CONFIGENTRY_EDITOR" caption="">
+		<res id="1" text="इस कोन्फिगरेशन समुह से कंटेन्ट-व्यू के साथ काम करते समय कौन-सा संपादक उपयोग में आयेगा, यह नियंत्रित होता है।"/>
+	</dialog>
+	<dialog id="5540" name="IDD_CONFIGENTRY_ADVANCED" caption="">
+		<res id="1" text="इस कोन्फिगरेशन समुह में फ़ाइल लोकेटर प्रो के एड्वान्स्ड सेटिंग है।"/>
+	</dialog>
+	<dialog id="5524" name="IDD_CLEARARHISTORY_DIALOG" caption="हिस्टरी क्लियर करें">
+		<res id="1" text="फ़ाइल का नाम"/>
+		<res id="2" text="शामिल टेक्स्ट"/>
+		<res id="3" text="इस में देखें"/>
+		<res id="4" text="ओके"/>
+		<res id="5" text="रद्द करें"/>
+		<res id="6" text="आप कौन-सा हिस्टरी मिटाना चाहते हैं?"/>
+		<res id="7" text="सभी हिस्टरी"/>
+	</dialog>
+	<dialog id="5544" name="IDD_FILETYPE_UTF8" caption="">
+		<res id="1" text="अगर कोई विशिष्ट एन्कोडिंग जानकारी  न हो, तो इन फ़ाइल प्रकारों को  UTF-8 पर डिफ़ॉल्ट करें "/>
+		<res id="2" text="फ़ाइल प्रकार:"/>
+		<res id="3" text="(प्रत्येक वैध फ़ाइल प्रकार को अलग पंक्ति में जोडें।)"/>
+		<res id="4" text="UTF-8 फ़ाइलों को ऑटो-डिटेक्ट करें"/>
+	</dialog>
+	<dialog id="5541" name="IDD_GENERAL_IFILTER" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="रीफ्रेश करें"/>
+		<res id="3" text="इस कम्प्यूटर पर पंजीकृत IFilters:"/>
+		<res id="4" text="HTML/XML आधारित फ़ाइल प्रकारों के लिए IFilters शामिल करें"/>
+		<res id="5" text="IFilter खोज प्राथमिकता:"/>
+	</dialog>
+	<dialog id="5529" name="IDD_EDITORSETTINGS_DEFAULT" caption="">
+		<res id="1" text="डिफॉल्ट संपादक  विकल्प:"/>
+		<res id="2" text="टेक्स्ट टेब में आंतरिक व्यूअर"/>
+		<res id="3" text="नये विन्डो में आंतरिक व्यूअर"/>
+		<res id="4" text="माइक्रोसोफ्ट विज़ुअल संपादक"/>
+		<res id="5" text="बाह्य संपादक"/>
+		<res id="6" text="विज़ुअल स्टुडियो संस्करण"/>
+	</dialog>
+	<dialog id="5528" name="IDD_EDITORSETTINGS_EXTERNAL" caption="">
+		<res id="1" text="ब्राउज़ करें..."/>
+		<res id="2" text="सामान्य संपादक डिफ़ॉल्ट:"/>
+		<res id="3" text="सामान्य लाइन पेरामीटर:"/>
+		<res id="4" text="वेरिएबल्स: "/>
+		<res id="5" text="$(FILEPATH)"/>
+		<res id="6" text="- वर्तमान चयनित फ़ाइल"/>
+		<res id="7" text="$(LINENUM)"/>
+		<res id="8" text="- वर्तमान चयनित पंक्ति संख्या"/>
+		<res id="9" text="प्रोग्राम स्थिति:"/>
+		<res id="10" text="$(LONGPATH)"/>
+		<res id="11" text="- Currently selected file in long path format"/>
+	</dialog>
+	<dialog id="5526" name="IDD_CONFIGURATION_MAIN" caption="फ़ाइल लोकेटर प्रो कोन्फिगरेशन">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="ओके"/>
+		<res id="4" text="रद्द करें"/>
+		<res id="5" text="सेटिंग्स"/>
+		<res id="6" text="डिफ़ॉल्ट कन्फिगरेशन पर रीसेट करें"/>
+	</dialog>
+	<dialog id="5530" name="IDD_GENERAL_DISPLAYCONFIG" caption="">
+		<res id="1" text="पंक्तियां दिखाएं"/>
+		<res id="2" text="प्रति फ़ाइल इतनी पंक्तियां दिखाएं:"/>
+		<res id="3" text="प्रति पंक्ति अधिकतम अक्षर संख्या:"/>
+		<res id="4" text="आस-पास की पंक्तियां"/>
+		<res id="5" text="पहले की पंक्तियां:"/>
+		<res id="6" text="बाद की पंक्तियां:"/>
+		<res id="7" text="फ़ाइल लिस्ट व्यू कोलम सेटिंग्स"/>
+		<res id="8" text="फ़ाइल पथ डिस्प्ले प्राथमिकताएं"/>
+		<res id="9" text="सामग्री व्यू:"/>
+	</dialog>
+	<dialog id="5531" name="IDD_GENERAL_HISTORY" caption="">
+		<res id="1" text="बंद करने पर संपूर्ण हिस्टरी मिटा दें।"/>
+		<res id="2" text="हिस्टरी हटाएं..."/>
+		<res id="3" text="याद रखें"/>
+		<res id="4" text="विकल्प सेटिंग"/>
+		<res id="5" text="विन्डो माप, स्थान; फोन्ट सेटिंग"/>
+		<res id="6" text="स्टार्ट-अप के समय अंतिम खोज लोड करें"/>
+		<res id="7" text="अधिकतम सूची माप"/>
+		<res id="8" text="सर्च नेविगेशन:"/>
+		<res id="9" text="ड्रोप-डाउन सूचियां"/>
+		<res id="10" text="ड्रोप-डाउन सूचियां:"/>
+		<res id="11" text="नयी फ़ाइलें:"/>
+		<res id="12" text="कॉलम को क्रमित करने की विधि"/>
+		<res id="13" text="संपादन..." t="e"/>
+	</dialog>
+	<dialog id="5532" name="IDD_GENERAL_CHARPROC" caption="">
+		<res id="1" text="अन्य वैध पंक्ति के अंत (EOL) के अभिज्ञापक"/>
+		<res id="2" text="युनिक्स (LF)"/>
+		<res id="3" text="मेक (CR)"/>
+		<res id="4" text="प्रति पंक्ति अधिकतम अक्षर:"/>
+		<res id="5" text="Containing Text"/>
+		<res id="6" text="&amp;Include file name in content search"/>
+		<res id="7" text="Include folder &amp;path in content search"/>
+		<res id="8" text="File Name"/>
+		<res id="9" text="Include folder path in file name search"/>
+		<res id="10" refid="5545:9"/>
+	</dialog>
+	<dialog id="5535" name="IDD_GENERAL_THREADING" caption="">
+		<res id="1" text="खोज थ्रेडस"/>
+		<res id="2" text="Indexing Threads"/>
+		<res id="3" text=""/>
+		<res id="4" text="(1 - 99 के बीच)"/>
+		<res id="5" text="चेतावनी: थ्रेड काउंट को अत्यधिक रखने से कार्य-गुणवता प्रभावित होती है। "/>
+		<res id="6" text="प्रक्रिया प्राथमिकता"/>
+		<res id="7" text="अग्रभाग:"/>
+		<res id="8" text="पार्श्वभाग:"/>
+		<res id="9" text="लघुकृत:"/>
+		<res id="10" text="अनुक्रमणिका:" t="g"/>
+	</dialog>
+	<dialog id="5536" name="IDD_GENERAL_SHELL" caption="">
+		<res id="1" text="फ़ाइल-लोकेटर प्रो फ़ाइल प्रकार के साथ जोडें (SRF, FLSX, FLWX)"/>
+		<res id="2" text="'फ़ाइल-लोकेटर प्रो को फोल्डर की कंटेक्स्ट सूची विकल्प में जोड़ें"/>
+		<res id="3" text="फ़ाइल-लोकेटर प्रो को फ़ाइल की कंटेक्स्ट सूची विकल्प में जोड़ें"/>
+		<res id="4" text="स्टार्ट मेनू खोज विकल्पों में शामिल करें"/>
+		<res id="5" text=" डिफ़ॉल्ट एक्स्प्लोरर खोज के बदले उपयोग में लें(Ctrl+F, F3)"/>
+		<res id="6" text="होट-की लोंच समर्थ करें (WinKey+Alt+F, WinKey+Alt+F3)"/>
+		<res id="7" text="UAC नोट: शेल एक्स्टेन्शन सेटिंग को बदलने से एप्लिकेशन FLProShellAdmin.exe विशेषाधिकार बढ़त के साथ चालु होगी।"/>
+		<res id="8" text="एप्लिकेशन लॉन्च मोड:" t="g"/>
+		<res id="9" text="बहु-आवृत्ति (डिफ़ॉल्ट)" t="g"/>
+		<res id="10" text="एक घटना" t="g"/>
+		<res id="11" text="शेल एकीकरण से एकल-आवृत्ति" t="g"/>
+		<res id="12" text="फ़ाइल सूची संदर्भ मेनू" t="g"/>
+		<res id="13" text="जटिल चयनों के लिए मूल संदर्भ मेनू विकल्प" t="g"/>
+		<res id="14" text="बड़ी चयन सीमा:" t="g"/>
+	</dialog>
+	<dialog id="5537" name="IDD_GENERAL_FOLDERS" caption="">
+		<res id="1" text="ब्राउज़ करें..."/>
+		<res id="2" text="ब्राउज़ करें..."/>
+		<res id="3" text="ब्राउज़ करें..."/>
+		<res id="4" text="ब्राउज़ करें..."/>
+		<res id="5" text="लॉग फ़ाइल फोल्डर:"/>
+		<res id="6" text="कोन्फिगरेशन फ़ाइलों का फोल्डर:"/>
+		<res id="7" text="ब्राउज़ करें..."/>
+		<res id="8" text="ब्राउज़ करें..."/>
+		<res id="9" text="फेवरेट्स फोल्डर:"/>
+		<res id="10" text="&amp;ब्राउज़ करें..."/>
+		<res id="11" text="&amp;ब्राउज़ करें..."/>
+		<res id="12" text="अस्थायी फ़ाइलों का फ़ोल्डर:"/>
+		<res id="13" text="डिफ़ॉल्ट अनुक्रमणिका फ़ोल्डर:" t="g"/>
+	</dialog>
+	<dialog id="5538" name="IDD_GENERAL_ALERTS" caption="">
+		<res id="1" text="आवाज़ प्ले करें"/>
+		<res id="2" text="..."/>
+		<res id="3" text="..."/>
+		<res id="4" text="टास्क-बार नोटिफिकेशन संदेश दिखाएं"/>
+		<res id="5" text="मिलने वाली प्रत्येक फ़ाइल के लिए दोहराएं"/>
+		<res id="6" text="आवाज़ प्ले करें"/>
+		<res id="7" text="..."/>
+		<res id="8" text="..."/>
+		<res id="9" text="टास्क-बार नोटिफिकेशन संदेश दिखाएं"/>
+		<res id="10" text="फ़ाइल मिली"/>
+		<res id="11" text="खोज समाप्त"/>
+	</dialog>
+	<dialog id="5557" name="IDD_GENERAL_EMAIL" caption="">
+		<res id="1" text="Outlook/Thunderbird खोज"/>
+		<res id="2" text="अटैचमेन्ट नाम में मूल संदेश का नाम शामिल करें"/>
+		<res id="3" text="बॉडी टेक्स्ट अटैचमेन्ट को अलग से जोड़ें"/>
+		<res id="4" text="HTML चिह्नों को संदेश के मुख्य हिस्से से हटाएं"/>
+		<res id="5" text="Thunderbird"/>
+		<res id="6" text="Profile Folders"/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+	</dialog>
+	<dialog id="5539" name="IDD_ADV_TRANSFORM" caption="">
+		<res id="1" text="सेव रिज़ल्ट्स कस्टम फोर्मेट ट्रान्स्फोर्म्स के लिए उपयोग किए जाने वाले XSLT प्रोसेसर का चयन करें:"/>
+		<res id="2" text="DOM प्रोग्राम आईडी:"/>
+		<res id="3" text="माइक्रोसोफ्ट XML कोर सेवाएं"/>
+	</dialog>
+	<dialog id="5542" name="IDD_ADV_JUNCTIONS" caption="">
+		<res id="1" text="आप क्या चाहते हैं कि फ़ाइल-लोकेटर प्रो जंक्शन पोइन्ट्स के साथ क्या करे?"/>
+		<res id="2" text="जंक्शन पोइन्ट्स के नाम से अंकित फोल्डरों  की खोज करें "/>
+		<res id="3" text="सिस्टम द्वारा छिपे जंक्शन पोइन्ट्स को छोड़ दें"/>
+		<res id="4" text="Shortcuts"/>
+		<res id="5" text="Search shortcut files"/>
+		<res id="6" text="Search shortcut folders"/>
+	</dialog>
+	<dialog id="5543" name="IDD_ADV_FILELISTS" caption="">
+		<res id="1" text="चयन करें कि कौन-से क्राइटिरिया फील्ड फ़ाइल सूचियों को स्वीकृत करते हैं (e.g., =c:\list.txt):"/>
+		<res id="2" text="फ़ाइल का नाम"/>
+		<res id="3" text="शामिल टेक्स्ट"/>
+		<res id="4" text="यहां ढूंढे"/>
+	</dialog>
+	<dialog id="5545" name="IDD_EXPRESSION_BOOLEAN" caption="">
+		<res id="1" text="LIKE सेन्सीटिविटि"/>
+		<res id="2" text=""/>
+		<res id="3" text="बहुत समान"/>
+		<res id="4" text="समान"/>
+		<res id="5" text="लगभग"/>
+		<res id="6" text="NEAR अंतर"/>
+		<res id="7" text="शब्दों के बीच का अधिकतम अंतर (कैरेक्टरों में)"/>
+		<res id="8" text="एक्स्प्रेशन पार्सिंग"/>
+		<res id="9" text="स्टाइलाइज़्ड कोट्स को सामान्य कोट्स कि तरह संसाधित करें।"/>
+	</dialog>
+	<dialog id="5546" name="IDD_FILTERS" caption="सतत खोज फिल्टर">
+		<res id="1" text="सतत खोज फिल्टर का उपयोग करें"/>
+		<res id="2" text="खोज फिल्टर:"/>
+		<res id="3" text="जोड़ें..."/>
+		<res id="4" text=""/>
+		<res id="5" text="ओके"/>
+		<res id="6" text="रद्द करें"/>
+	</dialog>
+	<dialog id="5547" name="IDD_FILTERS_EDIT" caption="खोज फिल्टर परिभाषा">
+		<res id="1" text="विवरण:"/>
+		<res id="2" text="यहां खोजें"/>
+		<res id="3" text="फ़ाइल नाम"/>
+		<res id="4" text="ब्राउज़ करें..."/>
+		<res id="5" text="ब्राउज़ करें..."/>
+		<res id="6" text="सहेजें"/>
+		<res id="7" text="रद्द करें"/>
+		<res id="8" text=""/>
+		<res id="9" text="खोज फिल्टर लुक-इन वाले स्थान के लिए कोई भी वैध मूल्य हो सकता है। इसमें कोई फोल्डर शामिल या नाशामिल किया जा सकता है, या केवल किसी खास स्थान फिल्टर को भी निर्दिष्ट कर सकता है।"/>
+		<res id="10" text=""/>
+	</dialog>
+	<dialog id="5548" name="IDD_EXPRESSION_REGEX" caption="">
+		<res id="1" text="सामान्य एक्स्प्रेशन सिन्टेक्स"/>
+		<res id="2" text="पर्ल उपयुक्त"/>
+		<res id="3" text="क्लासिक"/>
+		<res id="4" text="कैरेक्टर रेन्ज कोलेट करें"/>
+		<res id="5" text="मल्टी-लाइन सामान्य एक्सप्रेशन"/>
+		<res id="6" text="प्रति मैच अधिकतम पंक्तियाँ"/>
+	</dialog>
+	<dialog id="5549" name="IDD_EXPRESSION_HASH" caption="">
+		<res id="1" text="हेशिंग अल्गोरिथम"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+	</dialog>
+	<dialog id="5517" name="IDD_FORMATS_DOCUMENT" caption="दस्तावेज खोज सेटिंग">
+		<res id="1" text="सामान्य ओफिस दस्तावेज़ खोजने के लिए खोज पद्धति का चयन करें (जैसे, doc, pdf, xls, इत्यादि):"/>
+		<res id="2" text="गहरी खोज (फ़ाइल के भीतर रॉ डेटा और टेक्स्ट दोनों को खोजता है।)"/>
+		<res id="3" text="कस्टम प्रोसेसिंग सेटिंग्स"/>
+		<res id="4" text="सभी योग्य दस्तावेज़ रीडर उपयोग करें"/>
+		<res id="5" text="केवल चयनित दस्तावेज़ रीडर उपयोग करें:"/>
+		<res id="6" text="सभी"/>
+		<res id="7" text="कोई नहीं"/>
+		<res id="8" text=""/>
+		<res id="9" text="प्रोसेस्ड फ़ाइलों के रॉ-दस्तावेज़ डेटा भी खोजें"/>
+		<res id="10" text="ओके"/>
+		<res id="11" text="रद्द करें"/>
+		<res id="12" text="टेक्स्ट खोज"/>
+		<res id="13" text="विस्तारित सेटिंग्स (वर्ड/पीडीएफ)" t="g"/>
+		<res id="14" text="एम्बेडेड दस्तावेज़ खोजें" t="g"/>
+	</dialog>
+	<dialog id="5525" name="IDD_FORMATS_ARCHIVE" caption="कंप्रेस्ड/आर्काइव फोर्मेट खोज सेटिंग्स">
+		<res id="1" text="आप किस कंप्रेस्ड/आर्काइव फोर्मेटों में खोजना चाहते है?:"/>
+		<res id="2" text="सभी कंप्रेस्ड/आर्काइव फ़ाइलों में खोजें"/>
+		<res id="3" text="केवल चयनित कंप्रेस्ड/आर्काइव फोर्मेटों में खोजें:"/>
+		<res id="4" text="सभी"/>
+		<res id="5" text="कोई नहीं"/>
+		<res id="6" text=""/>
+		<res id="7" text="ओके"/>
+		<res id="8" text="रद्द करें"/>
+	</dialog>
+	<dialog id="5519" name="IDD_CONFIGENTRY_EXPRESSIONS" caption="">
+		<res id="1" text="इस कोन्फिगरेशन समूह में फ़ाइल लोकेटर प्रो के एक्स्प्रेशन सेटिंग्स हैं।"/>
+	</dialog>
+	<dialog id="5520" name="IDD_EXPRESSION_DOS" caption="">
+		<res id="1" text="स्ट्रिक्टली कन्फर्मिंग सिन्टैक्स"/>
+		<res id="2" text="Wildcard Expressions"/>
+		<res id="3" text="&amp;Imply boundary markers if extension specified"/>
+	</dialog>
+	<dialog id="5521" name="IDD_GENERAL_GUI" caption="">
+		<res id="1" text="देखें तथा स्पर्श करें"/>
+		<res id="2" text="डिफ़ॉल्ट (टेब्ड खोज, सामान्य थीम)"/>
+		<res id="3" text="क्लासिक (MDI खोज, क्लासिक थीम)"/>
+		<res id="4" text="कस्टम"/>
+		<res id="5" text="थीम:"/>
+		<res id="6" text="टेब्ड खोज"/>
+		<res id="7" text="व्यक्तिगत टास्कबार टेब प्रिव्यु (केवल विन्डोज़ 7)*"/>
+		<res id="8" text="* फ़ाइल लोकेटर प्रो को दोबारा शुरू करने के पश्चात प्रभावी"/>
+		<res id="9" text="कन्टेन्ट व्यू में टैब दिखाएं"/>
+		<res id="10" text="डिफॉल्ट टैब फोलोइंग खोज"/>
+		<res id="11" text="डिफॉल्ट केन्टेन्ट टैब:"/>
+	</dialog>
+	<dialog id="5522" name="IDD_EDITORSETTINGS_INTERNALVIEWER" caption="">
+		<res id="1" text="डिस्प्ले"/>
+		<res id="2" text="* लोड होने वााली सभी नई फ़ाइलों के लिए प्रभावी।"/>
+		<res id="3" text="टेब का माप:"/>
+	</dialog>
+	<dialog id="101" name="IDD_ABOUTBOX" caption="फ़ाइल लोकेटर प्रो के बारे में">
+		<res id="1" text="https://www.mythicsoft.com"/>
+		<res id="2" text="mailto:support@mythicsoft.com"/>
+		<res id="3" text="&amp;पंजीकरण कोड..."/>
+		<res id="4" text="ओके"/>
+		<res id="5" text="Copyright © 2026 Mythicsoft Ltd. All rights reserved."/>
+		<res id="6" text="License type:"/>
+		<res id="7" text="(change)"/>
+		<res id="8" text="Web site:"/>
+		<res id="9" text="गोपनीयता नीति: निजी विवरण किसी को भी बेचा या बांटा नहीं जाएगा।"/>
+		<res id="10" text="Email: "/>
+		<res id="11" text="Registered to:"/>
+		<res id="12" text="Privacy Policy"/>
+		<res id="13" text="https://www.mythicsoft.com/privacy-policy"/>
+		<res id="14" text=""/>
+	</dialog>
+	<dialog id="115" name="IDD_TESTREGEXP" caption="सामान्य एक्स्प्रेशन जांचें">
+		<res id="1" text="सामान्य एक्स्प्रेशन:"/>
+		<res id="2" text="केस मैच करें"/>
+		<res id="3" text="सैम्पल टेक्स्ट:"/>
+		<res id="4" text="जांचें"/>
+		<res id="5" text="बंद करें"/>
+		<res id="6" text="परिणाम:"/>
+		<res id="7" text="क्या आप पूरी तरह निश्चित नहीं हैं कि आपका सामान्य एक्स्प्रेशन ठीक है या नहीं? यह विन्डो आपको सामान्य एक्स्प्रेशन जाँचने का अवसर देती है। केवल सैम्पल टेक्स्ट के साथ एक्स्प्रेशन प्रविष्ट करें और जांचें पर क्लिक करें।"/>
+		<res id="8" text="ध्यान देंः एक्स्प्रेशन टेस्टर पर्ल प्रकार के सामान्य एक्स्प्रेशनों का उपयोग करता है।"/>
+	</dialog>
+	<dialog id="102" name="IDD_SEARCHFOR_FORM" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="निपुण उपयोगकर्ता"/>
+		<res id="3" text="शुरु"/>
+		<res id="4" text="बंद"/>
+		<res id="5" text="प्रगति1"/>
+		<res id="6" text="एनिमेट1"/>
+		<res id="7" text=""/>
+	</dialog>
+	<dialog id="118" name="IDD_BASIC" caption="मुख्य">
+		<res id="1" text="फ़ाइल का नाम:"/>
+		<res id="2" text="शामिल टेक्स्ट:"/>
+		<res id="3" text="खोज विज़ार्ड..."/>
+		<res id="4" text="यहां देखें:"/>
+		<res id="5" text=""/>
+		<res id="6" text="सब फोल्डर खोजें"/>
+		<res id="7" text="ब्राउज़ करें..."/>
+	</dialog>
+	<dialog id="120" name="IDD_SEARCH_WIZ_NAME" caption="फ़ाइल का नाम">
+		<res id="1" text="जिसे ढूंढ़ना चाहते है उस फ़ाइल का नाम क्या है?"/>
+		<res id="2" text="क्या आप फ़ाइल का सही नाम नहीं जानते हैं? चिंता न करें। अगर आप फ़ाइल के नाम के कुछ हिस्से को नहीं जानते हैं, तो उसे खाली छोड़ दें।"/>
+		<res id="3" text="उदाहरण:"/>
+		<res id="4" text="My.*Doc"/>
+		<res id="5" text="इससे आप  My तथा Doc वाले सभी दस्तावेज़ ढूंढ़ सकते हैं।"/>
+		<res id="6" text="(जैसे, My_Document.doc, My_Autodoc.txt इत्यादि)"/>
+		<res id="7" text="Make sure the file name is set to Wildcard expression in the options tab before using expressions like those shown in the examples."/>
+		<res id="8" text="MyDoc"/>
+		<res id="9" text="इससे नाम में कहीं भी MyDoc वाले दस्तावेज़ मिलेंगें।"/>
+		<res id="10" text="(जैसे, MyDocument.doc, Note_From_MyDoctor.txt इत्यादि)"/>
+		<res id="11" text="^MyDoc"/>
+		<res id="12" text="इससे MyDoc से शुरू होते दस्तावेज़ मिलेंगें।"/>
+		<res id="13" text="(जैसे, MyDocument.doc, MyDoctorsNote.txt इत्यादि)"/>
+	</dialog>
+	<dialog id="121" name="IDD_SEARCH_WIZ_LOCATION" caption="फ़ाइल का स्थान">
+		<res id="1" text="सभी लोकल हार्ड ड्राइव्ज़"/>
+		<res id="2" text="खास ड्राइव (जैसे, C:, D: इत्यादि।)"/>
+		<res id="3" text=""/>
+		<res id="4" text="खास फोल्डर (जैसे, C:\Windows, D:\Files\My Docs इत्यादि)"/>
+		<res id="5" text=""/>
+		<res id="6" text="ब्राउज़ करें..."/>
+		<res id="7" text="हां, सब-फोल्डरों में भी खोजें।"/>
+		<res id="8" text="नहीं, केवल इसी फोल्डर में खोजें।"/>
+		<res id="9" text="फिनिश बटन दबाने पर खोज स्वतः शुरू करें।"/>
+		<res id="10" text="आप फ़ाइल को कहां ढूंढ़ना चाहते हैं?"/>
+		<res id="11" text="क्या आप फोल्डर के सब-फोल्डरों में भी ढूंढ़ना चाहते हैं?"/>
+		<res id="12" text="कार्यदक्षता के लिए सलाह:  किसी खास फोल्डर का चयन करने से ढूंढ़ने वाली फ़ाइलों की संख्या बहुत कम हो जाती है और इससे खोज की गति तेज़ होती है।"/>
+	</dialog>
+	<dialog id="122" name="IDD_SEARCH_WIZ_CONTENTS" caption="फ़ाइल की सामग्री">
+		<res id="1" text="आप फ़ाइल के भीतर के पाठ के आधार पर फ़ाइल के लिए खोज करना चाहते हैं?"/>
+		<res id="2" text="नहीं, बस फ़ाइल नाम द्वारा खोजें।"/>
+		<res id="3" text="हाँ, फ़ाइल की सामग्री खोजें।"/>
+		<res id="4" text="फ़ाइल में कौन-सा पाठ होना चाहिए?"/>
+		<res id="5" text="उदाहरण:"/>
+		<res id="6" text="प्रिय बिल"/>
+		<res id="7" text="से ऐसी वे सभी फ़ाइलें मिलेंगी जिसमें प्रिय बिल वाक्यांश उपस्थित होगा।"/>
+		<res id="8" text="(जैसे, मेरे प्रिय बिल..., प्रिय बिल तुम कैसे हो... इत्यादि)"/>
+		<res id="9" text="प्रिय.*बिल"/>
+		<res id="10" text="इससे ऐसी सभी फ़ाइलें मिलेंगी जिनमें ये दोनों शब्द उपस्थित हों (जैसे, प्रिय फ्रेड बिल कैसा है..., सबसे प्रिय आइटमों का फिर से बिल बनाना चाहिए...)"/>
+		<res id="11" text="कार्यदक्षता के लिए सलाह: फ़ाइल की सामग्री में खोज करना अधिक समय ले सकता है, खास कर तब  जब फ़ाइल का नाम न दिया गया हो या स्पष्ट न हो। अतः नहीं का चयन करने से खोज की गति तेज़ की जा सकती है।"/>
+	</dialog>
+	<dialog id="123" name="IDD_REGISTER" caption="फ़ाइल लोकेटर प्रो पंजीकरण">
+		<res id="1" text="ओके"/>
+		<res id="2" text="रद्द करें"/>
+		<res id="3" text="नाम:"/>
+		<res id="4" text="अंतिम नाम:"/>
+		<res id="5" text="पंजीकरण कोड:"/>
+		<res id="6" text="ई-मेल पता:"/>
+		<res id="7" text="ध्यान दें: नाम और ईमेल पता बिल्कुल वैसे ही प्रविष्ट किया जाना चाहिए जैसे पंजीकरण ईमेल में दिया गया हो।"/>
+		<res id="8" text="यदि आपको कोई समस्या हो, तो मदद के लिए कृपया support@mythicsoft.com पर संपर्क करें।"/>
+		<res id="9" text="कृपया अपनी पंजीकरण जानकारी प्रविष्ट करें।"/>
+	</dialog>
+	<dialog id="124" name="IDD_ADVANCED" caption="मुख्य">
+		<res id="1" text="फ़ाइल का नाम:"/>
+		<res id="2" text="शामिल टेक्स्ट:"/>
+		<res id="3" text="यहां खोजें:"/>
+		<res id="4" text=""/>
+		<res id="5" text="यहाँ नहीं"/>
+		<res id="6" text=""/>
+		<res id="7" text="मदद..."/>
+		<res id="8" text=""/>
+		<res id="9" text="मदद..."/>
+		<res id="10" text="सब-फोल्डर"/>
+		<res id="11" text="ब्राउज़ करें..."/>
+		<res id="12" text="ब्राउज़ करें..."/>
+		<res id="13" text="&gt;"/>
+		<res id="14" text="&lt;"/>
+		<res id="15" text="संशोधित:"/>
+		<res id="16" text="इसके बाद:"/>
+		<res id="17" text="इससे पहले:"/>
+		<res id="18" text="कैलेन्डर दिखाएं..."/>
+		<res id="19" text="कैलेन्डर दिखाएं..."/>
+		<res id="20" text=""/>
+	</dialog>
+	<dialog id="232" name="IDD_ADVANCED_LITE" copyid="124"/>
+	<dialog id="125" name="IDD_EXPR_WIZ" caption="एक्स्प्रेशन बनाएं">
+		<res id="1" text="occurs"/>
+		<res id="2" text="जोड़ें"/>
+		<res id="3" text="संशोधित करें"/>
+		<res id="4" text="डीलिट करें"/>
+		<res id="5" text="सूची2"/>
+		<res id="6" text="परिणामी एक्स्प्रेशन"/>
+		<res id="7" text="नोट: आइटमों को पुनः व्यवस्थित करने के लिए ड्रेग &amp;&amp; ड्रॉप करें"/>
+	</dialog>
+	<dialog id="126" name="IDD_EXPR_WIZ_INTRO" caption="एक्स्प्रेशन विज़ार्ड का परिचय">
+		<res id="1" text="एक्स्प्रेशन विज़ार्ड में आपका स्वागत है। यह विज़ार्ड उसे स्पष्ट करने में आपकी मदद करेगा जो आप खोज रहे हैं।"/>
+		<res id="2" text="फ़ाइल लोकेटर प्रो, स्ट्रिंग मैचिंग के पेटर्न स्पष्ट करने के लिए 'सामान्य एक्स्प्रेशन' के सिद्धांत का उपयोग करता है। सामान्य (सामान्य) एक्स्प्रेशन वैसे तो अत्यंत शक्तिशाली होते हैं, लेकिन नए लोगों के लिए यह काफ़ी मुश्किल प्रतीत हो सकते हैं।"/>
+		<res id="3" text="एक्स्प्रेशन विज़ार्ड का काम है कि सामान्य एक्स्प्रेशन की शक्ति कम किए बग़ैर, उसकी जटिलता कम की जा सके। आप जो ढूंढना चाहते हैं एक्स्प्रेशन विज़ार्ड उसका सरल शब्दों का प्रयोग करके आपको वर्णन करने के लिए कहेगा और आपकी एक्सप्रेशन बनाने में मदद करेगा।"/>
+		<res id="4" text="नोटः"/>
+		<res id="5" text="खोज विशिष्ट सूचना यहां रहेगी।"/>
+		<res id="6" text="इस परिचय को अगली बार न दिखाएं।"/>
+	</dialog>
+	<dialog id="131" name="IDD_EXPR_WIZ_SPECIAL" caption="चेतावनीः स्पेशल कैरेक्टर प्रविष्टि">
+		<res id="1" text="हां, उचित बैक्स्लेश लगाएं क्योंकि मेरे प्रविष्ट कोई भी अक्षर स्पेशल कैरेक्टर के रूप में नहीं गिने जाने चाहिए।"/>
+		<res id="2" text="नहीं, मैं एड्वान्स्ड खोज के लिए स्पेशल कैरेक्टरों का जान-बूझ कर उपयोग कर रहा/रही हूँ।"/>
+		<res id="3" text="आपके द्वारा प्रविष्ट एक्स्प्रेशनों में से कम-से-कम एक में ऐसा स्पेशल कैरेक्टर है: ^$*?+.[]()|\ "/>
+		<res id="4" text="सामान्य एक्स्प्रेशनों में स्पेशल कैरेक्टरों का उपयोग पेटर्न मैचिंग के नियमों को निश्चित करने के लिए किया जाता है,और इसलिए इन्हें सावधानी से उपयोग किया जाना चाहिए। यदि आप किसी ऐसे अक्षर को ढूंढना चाहते है जो स्पेशल कैरेक्टर भी है, तो उस कैरेक्टर से पहले बैकस्लेश लगाएं। "/>
+		<res id="5" text=""/>
+		<res id="6" text="उदाहरण:"/>
+		<res id="7" text="इसे ढूंढने के लिए:"/>
+		<res id="8" text="एक्स्प्रेशन यह होगाः:"/>
+		<res id="9" text="$400.00"/>
+		<res id="10" text="\$400\.00"/>
+		<res id="11" text="क्या था?"/>
+		<res id="12" text="क्या था\?"/>
+		<res id="13" text="(12\4)*5=15"/>
+		<res id="14" text="\(12\\4\)\*5=15"/>
+		<res id="15" text="इसे ढूंढने के लिए:"/>
+		<res id="16" text="इसे ढूंढने के लिए:"/>
+		<res id="17" text="एक्स्प्रेशन यह होगा:"/>
+		<res id="18" text="एक्स्प्रेशन यह होगा:"/>
+		<res id="19" text="क्या आप चाहते है कि एक्स्प्रेशन विज़ार्ड प्रत्येक स्पेशल कैरेक्टर से पहले बैकस्लेश स्वतः लगा दे?"/>
+	</dialog>
+	<dialog id="133" name="IDD_OPTIONS" caption="विकल्प">
+		<res id="1" text="NOT एक्स्प्रेशन दर्शाता है"/>
+		<res id="2" text="केस मैच करें"/>
+		<res id="3" text="केस मैच करें"/>
+		<res id="4" text=" फ़ाइल नाम "/>
+		<res id="5" text=" कंटेन्ट "/>
+		<res id="6" text="यहां खोजें"/>
+		<res id="7" text="Enhanced Document Searching"/>
+		<res id="8" text="Office/PDF documents"/>
+	</dialog>
+	<dialog id="169" name="IDD_OPTIONS_ADVANCED_LITE" copyid="133"/>
+	<dialog id="140" name="IDD_SAVE_RESULTS" caption="परिणाम एक्स्पोर्ट करें">
+		<res id="1" text="क्लिपबोर्ड"/>
+		<res id="2" text="फ़ाइल"/>
+		<res id="3" text="ब्राउज़ करें..."/>
+		<res id="4" text="फ़ाइल ओवरराइट करें"/>
+		<res id="5" text="फ़ाइल में जोडें"/>
+		<res id="6" text="एनकोडिंग:"/>
+		<res id="7" text="सामान्य"/>
+		<res id="8" text="कस्टम (XSLT)"/>
+		<res id="9" text="ब्राउज़ करें..."/>
+		<res id="10" text="सभी फ़ाइलें"/>
+		<res id="11" text="चयनित फ़ाइलें"/>
+		<res id="12" text="फ़ाइलनाम"/>
+		<res id="13" text="सामग्री"/>
+		<res id="14" text="आसपास की पंक्तियां"/>
+		<res id="15" text="एकस्पोर्ट करें"/>
+		<res id="16" text="रद्द करें"/>
+		<res id="17" text="इसके लिए परिणाम सहेजें"/>
+		<res id="18" text="जानकारी सहेजें"/>
+		<res id="19" text="इसमें एकस्पोर्ट करें"/>
+		<res id="20" text="फॉर्मेट"/>
+	</dialog>
+	<dialog id="141" name="IDD_OPTIONALMSG" caption="डायलॉग">
+		<res id="1" text="ओके"/>
+		<res id="2" text="दोबारा न दिखाएं"/>
+	</dialog>
+	<dialog id="142" name="IDD_BLANK" caption="डायलॉग">
+		<res id="1" text="यह खाली डायलॉग है"/>
+	</dialog>
+	<dialog id="143" name="IDD_SCRIPTING" caption="स्क्रिप्टिंग">
+		<res id="1" text="फ़ाइलनाम स्क्रिप्ट:"/>
+		<res id="2" text="ब्राउज़ करें..."/>
+		<res id="3" text="इंजन:"/>
+		<res id="4" text="पैरामीटर:"/>
+		<res id="5" text="शामिल टेक्स्ट स्क्रिप्ट:"/>
+		<res id="6" text="ब्राउज़ करें..."/>
+		<res id="7" text="इंजन:"/>
+		<res id="8" text="पैरामीटर:"/>
+		<res id="9" text="टेस्ट करें"/>
+	</dialog>
+	<dialog id="152" name="IDD_EXPR_WIZ_DOSEXPR" caption="DOS एक्स्प्रेशन">
+		<res id="1" text="Wildcard expressions use the standard Windows syntax for specifying a group of files. A semi-colon is used to separate multiple expressions."/>
+		<res id="2" text="उदाहरण:"/>
+		<res id="3" text="*.txt\t\t.txt एक्स्टेन्शन वाली प्रत्येक फ़ाइल दर्शाता है। \n\n*.xls;*.doc\t .xls या .doc एक्स्टेन्शन वाली प्रत्येक फ़ाइल दर्शाता है।"/>
+		<res id="4" text="एड्वान्स्ड उदाहरण:"/>
+		<res id="5" text="*.png;*.jpg:त्यौहार\t\t त्यौहार नाम वाली सभी .png और .jpg फ़ाइलों को दर्शाता है , name\n\nNOT:*.doc;*.xls\t\t\t .doc तथा .xls के सिवाय सभी फ़ाइलें दर्शाता है, .xls files\n\nत्यौहार;NOT:*.exe;*.dll\t\t .exe या .dll फ़ाइलों के अलावा त्यौहार नाम वाली सभी फ़ाइलों को दर्शाता है"/>
+	</dialog>
+	<dialog id="154" name="IDD_EXPR_WIZ_BOOLEANEXPR" caption="बूलिअन एक्स्प्रेशन इंजन">
+		<res id="1" text="बूलिअन एक्स्प्रेशन्स AND, OR, NOT, LIKE तथा NEAR जैसे वेब स्टाइल सर्च एक्स्प्रेशन का उपयोग करता है। बूलिअन खोज प्रति पंक्ति या प्रति फ़ाइल के रूप में की जा सकती हैं।:"/>
+		<res id="2" text="उदाहरण:"/>
+		<res id="3" text="work AND document\t'work' तथा 'document' दोनो शब्दों को एक ही पंक्ति/फ़ाइल में ढूंढता है।"/>
+		<res id="4" text="work document\t\tऊपर की ही खोज करता है (AND यहां अन्तर्निहित रहता है)"/>
+		<res id="5" text="work OR document\t 'work' या  'document' शब्द को एक ही पंक्ति/फ़ाइल में ढूंढता है।"/>
+		<res id="6" text="work NEAR document\t'work' शब्द को 'document' शब्द के पास एक ही पंक्ति/फ़ाइल में ढूंढता है।"/>
+		<res id="7" text="&quot;work document&quot;\t'work document' के संपूर्ण वाक्यांश को ढूंढता है।"/>
+		<res id="8" text="पंक्ति से"/>
+		<res id="9" text="एक्स्प्रेशन को प्रति पंक्ति अलग से टेस्ट किया जाता है"/>
+		<res id="10" text="फ़ाइल से"/>
+		<res id="11" text="एक्स्प्रेशन को संपूर्ण फ़ाइल में टेस्ट किया जाता है"/>
+		<res id="12" text="ध्यान दें: एक्स्प्रेशनों का समूह बनाने के लिए पेरेन्थेसिस का उपयोग करें, जैसे (work AND doc) OR (special AND case)"/>
+	</dialog>
+	<dialog id="155" name="IDD_EXPR_WIZ_BOOLEANEXPR_LITE" caption="Boolean Expression Engine">
+		<res id="1" text="Boolean expressions use the web style search operators AND, OR, and NOT. Boolean searches are matched across the whole file."/>
+		<res id="2" text="Examples:"/>
+		<res id="3" text="work AND document\tsearches for the words 'work' and 'document' in the same file"/>
+		<res id="4" text="work document\t\tperforms the same search as above (the AND is implicit)"/>
+		<res id="5" text="work OR document\tsearches for the words 'work' OR 'document' in the same file"/>
+		<res id="6" text="work NOT document\tsearches for 'work' without the word 'document' in the same file"/>
+		<res id="7" text="&quot;work document&quot;\tsearches for the exact phrase 'work document'"/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text=""/>
+		<res id="11" text=""/>
+		<res id="12" text="Note: Use parentheses to group expressions, e.g. (work AND doc) OR (special AND case)"/>
+	</dialog>
+	<dialog id="156" name="IDD_EXPR_WIZ_EXACTEXPR" caption="सादा टेक्स्ट">
+		<res id="1" text="सादा टेक्स्ट प्रविष्ट किए गए खोज के क्राइटिरिया पाठ को यथाशब्द की तरह मानते है, यानी बिल्कुल वैसे ही जैसा उसे संपादित फील्ड में डाला जाता है। खोज क्राइटिरिया शब्द के पूरे या आंशिक भाग से मेल खाता है।"/>
+		<res id="2" text="उदाहरण:"/>
+		<res id="3" text="the author\t से 'the author' या 'the authors' जैसे वाक्यांशों को खोजा जाता है।"/>
+		<res id="4" text="fish\t\t 'fish', 'fishing' या 'elfish' सभी से मेल खाता है।"/>
+	</dialog>
+	<dialog id="157" name="IDD_ATTRIBUTES" caption="विशेषताएं">
+		<res id="1" text="विशेषताओं का उपयोग करें"/>
+		<res id="2" text="सब मिटाएं"/>
+		<res id="3" text="आर्काइव:"/>
+		<res id="4" text="कम्प्रेस्ड:"/>
+		<res id="5" text="एन्क्रिप्टेड:"/>
+		<res id="6" text="इन्डेक्स:"/>
+		<res id="7" text="फोल्डर:"/>
+		<res id="8" text="गुप्त:"/>
+		<res id="9" text="ऑफ़लाइन:"/>
+		<res id="10" text="रीड ओनली:"/>
+		<res id="11" text="सिस्टम:"/>
+		<res id="12" text="स्पार्स:"/>
+		<res id="13" text="&amp;रिपार्स बिंदु:"/>
+	</dialog>
+	<dialog id="158" name="IDD_ATTRIBUTE_SUMMARY" caption="सारांश विशेषताएं">
+		<res id="1" text="विशेषता"/>
+		<res id="2" text="इसे खोजें:"/>
+	</dialog>
+	<dialog id="159" name="IDD_OPTIONS_ADVANCED" caption="विकल्प" maxgrow="700">
+		<res id="1" text="बूलिअन एक्स्प्रेशन"/>
+		<res id="2" text="मैच करें:"/>
+		<res id="3" text="पंक्ति दर पंक्ति"/>
+		<res id="4" text="संपूर्ण फ़ाइल में"/>
+		<res id="5" text="वाइल्ड कार्ड स्वीकृत (&amp;*, ?)"/>
+		<res id="6" text="ईमेल"/>
+		<res id="10" text="एड्वान्स्ड फ़ाइल खोज"/>
+		<res id="11" text="&amp;Office/PDF दस्तावेज़"/>
+		<res id="12" text="सेटिंग्स..."/>
+		<res id="13" text="आउटलूक Outlook/Thunderbird फ़ाइलें"/>
+		<res id="14" text="अटैचमेन्ट में खोजें"/>
+		<res id="15" text="HTML मार्कअप हटाएं"/>
+		<res id="16" text="टेक्स्ट कैशे करें"/>
+		<res id="17" text="कैशे..."/>
+		<res id="18" text="बाइनरी फ़ाइलें शामिल न करें"/>
+		<res id="19" text="OCR Images"/>
+		<res id="20" text="OCR..."/>
+	</dialog>
+	<dialog id="171" name="IDD_DATETIMEPICKER" caption="तारीख़/समय चयन">
+		<res id="1" text="तारीख़"/>
+		<res id="2" text="निश्चित तारीख़:"/>
+		<res id="3" text="सम्बन्धित तारीख़:"/>
+		<res id="4" text=""/>
+		<res id="5" text="एडजस्ट करें (+/-)"/>
+		<res id="6" text="दिन:"/>
+		<res id="7" text="हफ्तें "/>
+		<res id="8" text="महीने:"/>
+		<res id="9" text="साल:"/>
+		<res id="10" text="समय"/>
+		<res id="11" text="समय स्पष्ट करें"/>
+		<res id="12" text="निश्चित समय:"/>
+		<res id="13" text="सम्बन्धित समय:"/>
+		<res id="14" text="घंटे:मिनट:सेकंड"/>
+		<res id="15" text="एडजस्ट करें (+/-)"/>
+		<res id="16" text="सेकन्ड:"/>
+		<res id="17" text="मिनट:"/>
+		<res id="18" text="घंटे:"/>
+		<res id="19" text="ओके"/>
+		<res id="20" text="रद्द करें"/>
+		<res id="21" text="वर्तमान एक्स्प्रेशन:"/>
+		<res id="22" text="इससे मूल्यांकित:"/>
+	</dialog>
+	<dialog id="173" name="IDD_EXPR_WIZ_FILEHASH" caption="फ़ाइल हैश">
+		<res id="1" text="फ़ाइल हैशिंग से फ़ाइल की सामग्री के आधार पर, प्रत्येक फ़ाइल के लिए, एक निर्धारित लंबाई का यूनिक आइडेन्टिफायर उत्पन्न होता है। समान कन्टेन्ट वाली फ़ाइलों के लिए समान हेश मूल्य उत्पन्न होगा।"/>
+		<res id="2" text="1. विकल्प टेब से हैश अल्गोरिथम निश्चित करें।"/>
+		<res id="3" text="इसे हैश मूल्य से खोजें:"/>
+		<res id="4" text="2. कोमा से अलग की गई हैश मूल्य की सूची या मूल्य की सूची को निर्देश करने वाले सूचकों से खोजने के लिए हैश मूल्य प्रविष्ट करें। उदाहरण"/>
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848"/>
+		<res id="6" text="=c:\hashfile.txt"/>
+		<res id="7" text="OR,"/>
+	</dialog>
+	<dialog id="175" name="IDD_EXPR_WIZ_BOOLEANREGEX" caption="बूलिअन RegEx इंजन">
+		<res id="1" text="बूलिअन RegEx एक्स्प्रेशन्स, बूलिअन तथा सामान्य एक्स्प्रेशन का संयोजन है।  सामान्य एक्स्प्रेशन को AND, OR, और NOT जैसे परिचित बूलिअन ओपरेटर्स से जोड़ा जा सकता है।"/>
+		<res id="2" text="उदाहरण:"/>
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;author&quot;"/>
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archive&quot;"/>
+		<res id="5" text="ध्यान देंः एक्स्प्रेशनों के समूह के लिए पेरेन्थेसिस का उपयोग करें, जैसे (work AND doc) OR (special AND case)"/>
+	</dialog>
+	<dialog id="177" name="IDD_EXPR_WIZ_WHOLEWORD" caption="संपूर्ण शब्द">
+		<res id="1" text="संपूर्ण शब्द बूलिअन एक्सप्रेशनों के समान होते हैं, बस अंतर इतना होता है कि खोज टेक्स्ट में डाले गए  सटीक शब्द के साथ ही प्रत्येक शब्द मेल खाते हैं, यानि,  आंशिक शब्द मैच को बाहर कर दिया जाता है। शब्दों को परिचित  बूलिअन ऑपरेटरों  AND, OR, और NOT की मदद से संयोजित किया जा सकता है।"/>
+		<res id="2" text="उदाहरण:"/>
+		<res id="3" text="the author\t लिखने से खास 'the author' वाक्यांश को ही खोजा जाता है।"/>
+		<res id="4" text="fish\t\t खोजने से 'fish' मेल खाएगा, लेकिन 'fishing' या 'elfish' नहीं।"/>
+	</dialog>
+	<dialog id="235" name="IDD_EXPR_WIZ_FUZZY" caption="Fuzzy Search">
+		<res id="1" text="फजी खोज भाव अनुमानित खोज शब्दों से मेल खाते के लिए बूलियन भाव की तरह ऑपरेटर के रूप में ठीक उसी तरह। चूंकि फजी खोज भाव बूलियन अभिव्यक्ति व्यक्तिगत खोज वाक्यांश का एक विशेष प्रकार का उपयोग संयुक्त किया जा सकता है और, या, और नहीं ऑपरेटरों रहे हैं।"/>
+		<res id="2" text=""/>
+		<res id="3" text=""/>
+		<res id="4" text=""/>
+	</dialog>
+	<dialog id="236" name="IDD_EXPR_WIZ_MULTILINE_REGEX" caption="बहु-पंक्ति RegEx">
+		<res id="1" text="बहु Regex कई लाइनों पर नियमित अभिव्यक्ति मेल खाता है।"/>
+		<res id="2" text=""/>
+		<res id="3" text=""/>
+		<res id="4" text=""/>
+	</dialog>
+	<dialog id="180" name="IDD_DATES" caption="तारीख़">
+		<res id="1" text="सभी मिटाएं"/>
+		<res id="2" text="संशोधित:"/>
+		<res id="3" text="इसके बाद:"/>
+		<res id="4" text="कैलेन्डर दिखाएं..."/>
+		<res id="5" text="इससे पहले:"/>
+		<res id="6" text="कैलेन्डर दिखाएं..."/>
+		<res id="7" text="बनाया गया:"/>
+		<res id="8" text="इसके बाद:"/>
+		<res id="9" text="कैलेन्डर दिखाएं..."/>
+		<res id="10" text="इससे पहले:"/>
+		<res id="11" text="कैलेन्डर दिखाएं..."/>
+		<res id="12" text="अंतिम बार खोला गया:"/>
+		<res id="13" text="इसके बाद:"/>
+		<res id="14" text="कैलेन्डर दिखाएं..."/>
+		<res id="15" text="इससे पहले:"/>
+		<res id="16" text="कैलेन्डर दिखाएं..."/>
+	</dialog>
+	<dialog id="193" name="IDD_ADVANCEDTAB" caption="एड्वान्स्ड">
+		<res id="1" text="फ़ाइल हैशिंग"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+		<res id="6" text="सामान्य एक्स्प्रेशन"/>
+		<res id="7" text="पर्ल अनुकूल"/>
+		<res id="8" text="क्लासिक"/>
+		<res id="9" text="सक्रिय स्क्रिप्टिंग"/>
+		<res id="10" text="सेटिंग्स..."/>
+	</dialog>
+	<dialog id="145" name="IDD_EXTENSIONS" caption="कम्प्रेस्ड फ़ाइलें">
+		<res id="1" text=""/>
+		<res id="2" text="उन फ़ाइल फॉर्मेटों का चयन करें जिनमें खोज करनी है:"/>
+		<res id="3" text="कोन्फिगरेशन..."/>
+		<res id="4" text="कोई नहीं"/>
+		<res id="5" text="सभी"/>
+	</dialog>
+	<dialog id="179" name="IDD_CHECKVERSION" caption="अपडेट के लिए जांचें">
+		<res id="1" text="अपडेट के लिए जांचें..."/>
+		<res id="2" text=""/>
+		<res id="3" text="फ़ाइल लोकेटर प्रो वेब लिन्क्स:"/>
+		<res id="4" text="डाउनलोड पृष्ठ:"/>
+		<res id="5" text="https://www.mythicsoft.com/%app_name%/download?fwd=upd"/>
+		<res id="6" text="संस्करण जानकारी पृष्ठ: "/>
+		<res id="7" text="https://www.mythicsoft.com/%app_name%/history?fwd=upd"/>
+		<res id="8" text="अपडेट के लिए स्वतः चेक करें"/>
+		<res id="9" text="बंद करें"/>
+	</dialog>
+	<dialog id="191" name="IDD_FAVOURITE_SEARCH" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="स्टैटिक"/>
+	</dialog>
+	<dialog id="192" name="IDD_FAVOURITE_ADD" caption="फेवरेट जोडें">
+		<res id="1" text=""/>
+		<res id="2" text="इस खोज को फेवरेट में जोडें."/>
+		<res id="3" text="विवरण:"/>
+		<res id="4" text="टेग्स:"/>
+		<res id="5" text="जोडें"/>
+		<res id="6" text="रद्द करें"/>
+	</dialog>
+	<dialog id="3539" name="IDD_MULTIFOLDER" caption="एकाधिक फोल्डर">
+		<res id="1" text="सीधे टाइप कर के, ड्रॉप डाउन से जोड़कर या खोज करके प्रत्येक फोल्डर को अलग पंक्ति में जोड़ें।"/>
+		<res id="2" text="हाल में देखे गए फोल्डर:"/>
+		<res id="3" text=""/>
+		<res id="4" text="जोड़ें"/>
+		<res id="5" text="शामिल न करें"/>
+		<res id="6" text="मेक्रोज़:"/>
+		<res id="7" text=""/>
+		<res id="8" text="जोड़ें"/>
+		<res id="9" text="शामिल न करें"/>
+		<res id="10" text="इन फोल्डरों में देखें:"/>
+		<res id="11" text="ब्राउज़ करें..."/>
+		<res id="12" text="इन फोल्डरों में न खोजें:"/>
+		<res id="13" text="ब्राउज़ करें..."/>
+		<res id="14" text="समावेशन फिल्टर:"/>
+		<res id="15" text="असमावेशन फिल्टरः"/>
+		<res id="16" text="ओके"/>
+		<res id="17" text="रद्द करें"/>
+	</dialog>
+	<dialog id="3523" name="IDD_FILEVIEWER_FIND" caption="">
+		<res id="1" text="खोजें:"/>
+		<res id="2" text="l"/>
+		<res id="3" text="अगला"/>
+		<res id="4" text="पिछला"/>
+		<res id="5" text="हाइलाइट करें:"/>
+		<res id="6" text=""/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text="l"/>
+		<res id="11" text="अगला"/>
+		<res id="12" text="अगला"/>
+		<res id="13" text="मूल खोज के हाइलाइट का रंग"/>
+		<res id="14" text="नविनतम खोज के हाइलाइट का रंग"/>
+		<res id="15" text="" t="e"/>
+		<res id="16" text="" t="e"/>
+	</dialog>
+	<dialog id="3521" name="IDD_ACTION_PROGRESS" caption="कार्य:">
+		<res id="1" text="रद्द करें"/>
+		<res id="2" text=""/>
+		<res id="3" text="प्रगति"/>
+	</dialog>
+	<dialog id="5550" name="IDD_GENERAL_LOCALIZATION" caption="">
+		<res id="1" text="उपयोगकर्ता इंटरफ़ेस भाषा:"/>
+		<res id="2" text="* फाईल लोकेटर प्रो को दोबारा शुरू करने के बाद बदलाव प्रभावी होंगे"/>
+	</dialog>
+	<dialog id="5551" name="IDD_SINGLE_CONFIG" caption="लोकेलाइज़ेशन सेटिंग्स">
+		<res id="1" text="ओके"/>
+		<res id="2" text="रद्द करें"/>
+	</dialog>
+	<dialog id="5562" name="IDD_EDITHISTORY_DIALOG" caption="Edit History">
+		<res id="1" text="हिस्टरी" t="e"/>
+		<res id="2" text="आइटम:" t="e"/>
+		<res id="3" text="सभी साफ करें..." t="g"/>
+		<res id="4" text="OK" t="e"/>
+		<res id="5" text="Cancel" t="e"/>
+	</dialog>
+	<menu id="322" name="IDR_MENU_REFRESHINDEX">
+		<res id="1" text=""/>
+		<res id="2" text="&amp;सूचकांक अपडेट करें"/>
+		<res id="3" text="&amp;सूचकांक का पुनःसृजन करें"/>
+	</menu>
+	<menu id="328" name="IDR_INDEXLIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="सूचकांक संपादित करें...\tEnter"/>
+		<res id="3" text="सूचकांक हटाएं...\tDel"/>
+		<res id="4" text="नया सूचकांक जोड़ें...\tIns"/>
+		<res id="5" text="सूचकांक अपडेट करें"/>
+		<res id="6" text="सूचकांक का पुनःसृजन करें"/>
+		<res id="7" text="सूचकांक बनाना रद्द करें"/>
+	</menu>
+	<menu id="340" name="IDR_SCHEDULELIST_CONTEXTMENU">
+		<res id="1" text=""/>
+		<res id="2" text="Edit Schedule..."/>
+		<res id="3" text="Remove Schedule..."/>
+		<res id="4" text="Add New Schedule..."/>
+	</menu>
+	<menu id="329" name="IDR_INDEXMGR_MENU">
+		<res id="1" text="&amp;फ़ाइल"/>
+		<res id="2" text="&amp;नया सूचकांक..."/>
+		<res id="3" text="&amp;बाहर निकलें"/>
+		<res id="4" text="New &amp;Schedule..."/>
+		<res id="10" text="&amp;संपादित करें"/>
+		<res id="11" text="&amp;सूचकांक संपादित करें..."/>
+		<res id="12" text="&amp;सूचकांक हटाएं..."/>
+		<res id="13" text="&amp;सूचकांक अपडेट करें"/>
+		<res id="14" text="&amp;सूचकांक पुनःसृजित करें"/>
+		<res id="15" text="&amp;सूचकांक बनाना रद्द करें"/>
+		<res id="20" text="&amp;मदद"/>
+		<res id="21" text="&amp;IndexManager के बारे में..."/>
+		<res id="22" text="त्रुटि रिपोर्ट जनरेट करें..."/>
+	</menu>
+	<menu id="5512" name="IDR_FILTERLIST_CONTEXTMENU">
+		<res id="1" text="सूची"/>
+		<res id="2" text="संपादन..."/>
+		<res id="3" text="मिटाएं"/>
+	</menu>
+	<menu id="5513" name="IDR_LICENSELIST_CONTEXTMENU">
+		<res id="1" text="List"/>
+		<res id="2" text="&amp;Kill Lease"/>
+	</menu>
+	<menu id="150" name="IDR_VIEWERMENU_SPECIALIZATION">
+		<res id="6" text="&amp;फ़ाइल सहेजें"/>
+		<res id="7" text="फ़ाइल को ऐसे &amp;सहेजें..."/>
+	</menu>
+	<menu id="149" name="IDR_SHAREDMENU">
+		<res id="1" text="फ़ाइल"/>
+		<res id="2" text="नया"/>
+		<res id="3" text="खाली खोज"/>
+		<res id="4" text="खोलें..."/>
+		<res id="5" text="बंद करें"/>
+		<res id="6" text="क्राइटीरिया सहेजें"/>
+		<res id="7" text="क्राइटीरिया नये नाम से सहेजें..."/>
+		<res id="8" text="खोज परिणाम सूची"/>
+		<res id="9" text="वर्तमान चयन खोजें"/>
+		<res id="10" text="परिणाम एक्स्पोर्ट करें..."/>
+		<res id="12" text="प्रिंट करें..."/>
+		<res id="13" text="प्रिंट सेटअप..."/>
+		<res id="14" text="फिलहाल की फ़ाइल"/>
+		<res id="15" text="बंद करें"/>
+		<res id="16" text="संपादित करें"/>
+		<res id="17" text="वर्ड रैप"/>
+		<res id="18" text="फोंट सेट करें..."/>
+		<res id="19" text="हाइलाइट रंग सेट करें..."/>
+		<res id="20" text="खोजें"/>
+		<res id="21" text="खोजें..."/>
+		<res id="22" text="अगला खोजें"/>
+		<res id="23" text="पिछला खोजें"/>
+		<res id="24" text="मूल हाइलाइट करें"/>
+		<res id="25" text="वर्तमान हाइलाइट करें"/>
+		<res id="26" text="सभी चयन करें"/>
+		<res id="27" text="खोलें"/>
+		<res id="28" text="यहां देखें..."/>
+		<res id="29" text="पाथ कॉपी करें"/>
+		<res id="30" text="कॉपी करें"/>
+		<res id="31" text="कट करें"/>
+		<res id="32" text="मिटाएं"/>
+		<res id="33" text="नाम बदलें"/>
+		<res id="34" text="विशेषताएं..."/>
+		<res id="35" text="व्यू"/>
+		<res id="36" text="फेवरेट्स"/>
+		<res id="37" text="टूलबार"/>
+		<res id="38" text="स्टेटस बार"/>
+		<res id="39" text="त्रुटि सूची"/>
+		<res id="40" text="इस आधार पर वर्गीकृत करें"/>
+		<res id="41" text="फ़ाइल-नाम"/>
+		<res id="42" text="स्थान"/>
+		<res id="43" text="माप"/>
+		<res id="44" text="प्रकार"/>
+		<res id="45" text="तारीख़"/>
+		<res id="46" text="टेक्स्ट प्रीव्यू"/>
+		<res id="47" text="पिछली फ़ाइल"/>
+		<res id="48" text="अगला"/>
+		<res id="49" text="थम्बनेल्स"/>
+		<res id="50" text="अत्यंत बडे़आइकन्स"/>
+		<res id="51" text="बड़े आइकन्स"/>
+		<res id="52" text="मध्यम आइकन्स"/>
+		<res id="53" text="छोटे आइकन्स"/>
+		<res id="54" text="मुख्य व्यू पर लौटें"/>
+		<res id="55" text="पीछे जाएं"/>
+		<res id="56" text="आगे जाएं"/>
+		<res id="57" text="खोजें"/>
+		<res id="58" text="शुरू करें"/>
+		<res id="59" text="रूकें"/>
+		<res id="60" text="बंद करें"/>
+		<res id="61" text="टूल्स"/>
+		<res id="62" text="सामान्य एक्स्प्रेशन टेस्टर..."/>
+		<res id="63" text="खोज हिस्टरी मिटाएं..."/>
+		<res id="64" text="संपादक सेटिंग्स..."/>
+		<res id="65" text="कन्फिगरेशन..."/>
+		<res id="66" text="शेल इन्टीग्रेशन..."/>
+		<res id="67" text="विन्डो"/>
+		<res id="68" text="कन्टेन्ट व्यू"/>
+		<res id="69" text="दांये चिपकाएं"/>
+		<res id="70" text="नीचे चिपकाएं"/>
+		<res id="71" text="दिखाएं"/>
+		<res id="72" text="केस्केड"/>
+		<res id="73" text="टाइल"/>
+		<res id="74" text="आइकन व्यवस्थित करें"/>
+		<res id="75" text="फोकस हिलाएं"/>
+		<res id="76" text="खोज क्राइटिरिया"/>
+		<res id="77" text="फ़ाइल सूची"/>
+		<res id="78" text="कंटेन्ट व्यू"/>
+		<res id="79" text="वर्तमान टैब"/>
+		<res id="80" text="सारांश"/>
+		<res id="81" text="हिट्स"/>
+		<res id="82" text="टेक्स्ट"/>
+		<res id="83" text="थम्बनेल्स"/>
+		<res id="84" text="फेवरेट्स"/>
+		<res id="85" text="त्रुटि रिपोर्ट"/>
+		<res id="86" text="टैब क्रम"/>
+		<res id="87" text="ऑप्टिमाइज़्ड"/>
+		<res id="88" text="परंपरागत बायें से दायें"/>
+		<res id="89" text="मदद"/>
+		<res id="90" text="कंटेन्ट्स..."/>
+		<res id="91" text="कमान्ड लाइन पैरामीटर..."/>
+		<res id="92" text="अपडेट के लिए जांचें..."/>
+		<res id="93" text="फ़ाइल लोकेटर प्रो के बारे में..."/>
+		<res id="94" text="खोज सहेजें..."/>
+		<res id="95" text="वर्कस्पेस सहेजें..."/>
+		<res id="96" text="सब बंद करें"/>
+		<res id="97" text="सभी टेक्स्ट विन्डो बंद करें"/>
+		<res id="98" text="सक्रिय खोज के सिवा सभी टेक्स्ट विन्डो बंद करें"/>
+		<res id="99" text="टेकनिकल सहायता से संपर्क करें..."/>
+		<res id="100" text="त्रुटि रिपोर्ट तैयार करें.."/>
+		<res id="101" text="पंजीकरण कोड..."/>
+		<res id="102" text="सक्रिय खोज के सिवा सभी बंद करें"/>
+		<res id="103" text="मेनू बार"/>
+		<res id="104" text="रिपोर्ट"/>
+		<res id="105" text="फिल्टर बार"/>
+		<res id="106" text="&amp;थ्रेड खोजें"/>
+		<res id="107" text="&amp;थ्रेड खोजें"/>
+		<res id="108" text="&amp;निपुण"/>
+		<res id="109" text="&amp;बेसिक"/>
+		<res id="110" text="&amp;सूचकांक खोज"/>
+		<res id="111" text="&amp;Index Manager..."/>
+		<res id="112" text="&amp;खोज क्राइटिरिया"/>
+		<res id="113" text="&amp;कॉलम चुनें..."/>
+		<res id="114" text="&amp;Change License Type..."/>
+		<res id="115" text="&amp;Upgrade..."/>
+		<res id="116" text="&amp;Zoom"/>
+		<res id="117" text="Zoom &amp;In"/>
+		<res id="118" text="Zoom &amp;Out"/>
+		<res id="119" text="&amp;License Manager..."/>
+	</menu>
+	<menu id="170" name="IDR_SHAREDMENU_LITE" copyid="149"/>
+	<menu id="148" name="IDR_CONTENTSVIEWMENU">
+		<res id="1" text="कन्टेन्ट्स व्यू"/>
+		<res id="2" text="टेक्स्ट टैब में खोलें"/>
+		<res id="3" text="नयी विन्डो में खोलें..."/>
+		<res id="4" text="बाह्य संपादक में खोलें..."/>
+		<res id="5" text="विज़ुअल स्टूडियो में खोलें..."/>
+		<res id="6" text="परिणाम एक्स्पोर्ट करें..."/>
+		<res id="7" text="वर्ड रैप"/>
+		<res id="8" text="कॉपी करें"/>
+		<res id="9" text="सभी एक्सपैन्ड करें"/>
+		<res id="10" text="सभी कोलैप्स करें"/>
+		<res id="11" text="दायें तरफ़ चिपकाएं"/>
+		<res id="12" text="नीचे की तरफ़ चिपकाएं"/>
+		<res id="13" text="कन्टेन्ट व्यू छिपाएं"/>
+	</menu>
+	<menu id="186" name="IDR_MENU_PLACEHOLDER">
+		<res id="1" text="खाली"/>
+	</menu>
+	<menu id="194" name="IDR_FAVOURITES_MENU">
+		<res id="1" text="खोज मेनू"/>
+		<res id="2" text="खोलें"/>
+		<res id="3" text="नयी विन्डो में खोलें"/>
+		<res id="4" text="संपादित करें"/>
+		<res id="5" text="मिटाएं"/>
+	</menu>
+	<menu id="114" name="IDR_FILELOTYPE">
+		<res id="1" text="डम्मी"/>
+	</menu>
+	<menu id="107" name="IDR_FILEVIEWER">
+		<res id="1" text="डम्मी"/>
+	</menu>
+	<menu id="200" name="IDR_FILTERMENU">
+		<res id="1" text="फिल्टर"/>
+		<res id="2" text="खोज फिल्टर ऑन"/>
+		<res id="3" text="खोज फिल्टर ऑफ़"/>
+		<res id="4" text="सेटिंग्स..."/>
+	</menu>
+	<menu id="3522" name="IDR_FILEVIEWER_CONTEXTMENU">
+		<res id="1" text="कन्टेन्ट्स व्यू"/>
+		<res id="2" text="वर्ड रैप"/>
+		<res id="3" text="कॉपी करें"/>
+		<res id="4" text="नयी विन्डो में खोलें..."/>
+		<res id="5" text="बाह्य संपादक में खोलें..."/>
+		<res id="6" text="विज़ुअल स्टूडियो में खोलें..."/>
+		<res id="7" text="खोजें"/>
+		<res id="8" text="अगला खोजें"/>
+		<res id="9" text="पिछला खोजें"/>
+		<res id="10" text="मूल को हाइलाइट करें"/>
+		<res id="11" text="वर्तमान को हाइलाइट करें"/>
+		<res id="12" text="फोन्ट सेट करें..."/>
+		<res id="13" text="फ़ाइल"/>
+		<res id="14" text="दोबारा खोजें"/>
+		<res id="15" text="नई खोज"/>
+	</menu>
+	<menu id="3526" name="IDR_REPORTVIEW_CONTEXTMENU">
+		<res id="1" text="रिपोर्टें"/>
+		<res id="2" text="कॉपी करें"/>
+		<res id="3" text="सभी चयन करें"/>
+		<res id="4" text="रीफ्रेश करें"/>
+	</menu>
+	<menu id="3507" name="IDR_IMAGESIZES_MENU">
+		<res id="1" text="माप"/>
+		<res id="2" text="अत्यंत बड़ेआइकन्स"/>
+		<res id="3" text="बड़ेआइकन्स"/>
+		<res id="4" text="मध्यम आइकन्स"/>
+		<res id="5" text="छोटे आइकन्स"/>
+		<res id="6" text="Preview"/>
+	</menu>
+	<menu id="3547" name="IDR_SEARCHTASKS_CONTEXTMENU">
+		<res id="1" text="रद्द करें"/>
+		<res id="2" text="पाथ कॉपी करें"/>
+		<res id="3" text="यहाँ खोजें..."/>
+	</menu>
+	<menu id="3548" name="IDR_LISTHEADER_CONTEXTMENU">
+		<res id="1" text="Header"/>
+		<res id="2" text="कॉलम चुनें..."/>
+	</menu>
+	<string id="4" type="इंडेक्स मैनेजर">
+		<res id="1" text="एक नया या मौजूदा सूचकांक जोड़ें\nसूचकांक जोड़ें"/>
+		<res id="2" text="सूचकांक को हटाएं या हमेशा के लिए डीलिट करें\nसूचकांक हटाएं या डीलिट करें"/>
+		<res id="3" text="सूचकांक के पैरामीटरों को संपादित करें\nसूचकांक संपादित करें"/>
+		<res id="4" text="सूचकांक को सभी बदलावों के साथ अपडेट करें\nसूचकांक अपडेट करें"/>
+		<res id="5" text="संपूर्ण सूचकांक का पुनःसृजन करें\nसूचकांक पुनःसृजित करें"/>
+		<res id="6" text="सूचकांक बनाने की प्रक्रिया रद्द करें\nरद्दे करें"/>
+		<res id="7" text="Refresh the list\nRefresh List"/>
+		<res id="8" text="Add a new schedule\nAdd Schedule"/>
+		<res id="9" text="Edit the schedule\nEdit Schedule"/>
+		<res id="10" text="Delete the schedule\nDelete Schedule"/>
+		<res id="11" text="Edit the indexes associated with the schedule\nEdit Index List"/>
+	</string>
+	<string id="3" type="इंटरनल व्यूयर">
+		<res id="37" text="वर्तमान फ़ाइल को सहेजें\nफ़ाइल सहेजें"/>
+	</string>
+	<string id="1" type="संसाधन">
+		<res id="1" text="तैयार"/>
+		<res id="2" text="साउन्ड फ़ाइल खोजें"/>
+		<res id="3" text="साउन्ड फ़ाइल प्ले करें"/>
+		<res id="4" refid="3"/>
+		<res id="5" text="फोल्डर खोजें"/>
+		<res id="6" text="साउन्ड फ़ाइल का पाथ"/>
+		<res id="7" refid="2"/>
+		<res id="8" refid="6"/>
+		<res id="9" refid="5"/>
+		<res id="10" refid="5"/>
+		<res id="11" refid="5"/>
+		<res id="12" refid="5"/>
+		<res id="13" text="फोल्डर को एक्स्प्लोरर में खोलें"/>
+		<res id="14" refid="13"/>
+		<res id="15" text="कोन्फिगरेशन"/>
+		<res id="16" text="कन्टेन्ट व्यूअर"/>
+		<res id="18" text="डायरेक्टरी खोज"/>
+		<res id="20" text="एक्स्टेन्शन्स"/>
+		<res id="21" text="फ़ाइल लोकेटर प्रो"/>
+		<res id="22" text="SDI_ONLY\nखोजों\nनई खोज\nखोज क्राइटिरिया (*.srf)\n.srf\nफ़ाइललोकेटर प्रो.खोजक्राइटिरिया\nफ़ाइल लोकेटर प्रो खोज क्राइटिरिया"/>
+		<res id="23" text="चयन की गई एक या अधिक फ़ाइलें कम्पोज़िट फ़ाइलें हैं और वह डीलिट नहीं की जा सकती हैं। क्या आप जारी रखना चाहते हैं?"/>
+		<res id="24" text="पंजीकरण कूंजी  का समय समाप्त हो गया है। कृपया नई कूंजी खरीदें या पुराना संस्करण स्थापित करें। पुराने संस्करण Mythicsoft वेबसाइट (www.mythicsoft.com) के MyAccount विभाग में उपलब्ध हैं।"/>
+		<res id="25" text="पुरानी खोज पर जाने से वर्तमान खोज रुक जाएगी। आगे बढें?"/>
+		<res id="26" text="फ़ाइल लोकेटर प्रो"/>
+		<res id="27" refid="1"/>
+		<res id="34" text="पिछली खोज के आधार पर नई खोज करें \nपिछली खोज पर आधारित नई खोज"/>
+		<res id="35" text="खोज क्राइटिरिया फ़ाइल खोलें\nखोलें"/>
+		<res id="36" text="सक्रिय खोज बंद करें\nबंद करें"/>
+		<res id="37" text="वर्तमान खोज क्राइटिरिया सहेजें\nक्राइटिरिया सहेजें"/>
+		<res id="38" text="वर्तमान खोज क्राइटिरिया नये नाम से सहेजें\nइस नाम से सहेजें"/>
+		<res id="39" text="प्रिंट विकल्प बदलें\nपृष्ठ सेटअप"/>
+		<res id="40" text="प्रिन्टर तथा प्रिंट विकल्प बदलें\nप्रिन्ट सेटअप"/>
+		<res id="41" text="चयनित खोज परिणाम प्रिंट करें\nप्रिन्ट"/>
+		<res id="42" text="पूरा पृष्ठ दिखाएं\nप्रिंट प्रीव्यू"/>
+		<res id="43" text="प्रोग्राम की जानकारी, संस्करण संख्या तथा कॉपीराइट दिखाएं\nजानकारी"/>
+		<res id="44" text="एप्लिकेशन बंद करें\nबाहर निकलें"/>
+		<res id="45" text="इस खोज को खोलें"/>
+		<res id="46" refid="45"/>
+		<res id="47" refid="45"/>
+		<res id="48" refid="45"/>
+		<res id="49" refid="45"/>
+		<res id="50" refid="45"/>
+		<res id="51" refid="45"/>
+		<res id="52" refid="45"/>
+		<res id="53" refid="45"/>
+		<res id="54" refid="45"/>
+		<res id="55" refid="45"/>
+		<res id="56" refid="45"/>
+		<res id="57" refid="45"/>
+		<res id="58" refid="45"/>
+		<res id="59" refid="45"/>
+		<res id="60" refid="45"/>
+		<res id="61" text="अगले विन्डो पेन पर जाएं\nअगला पेन"/>
+		<res id="62" text="पिछले विन्डो पेन पर जाएं\nपिछला पेन"/>
+		<res id="63" text="वर्तमान दस्तावेज़ के लिए दुसरा विन्डो खोलें\nनया विन्डो"/>
+		<res id="64" text="आइकन्स को विन्डो के नीचे क्रमबद्ध रर्खें\nआइकन्स क्रमबद्ध करें"/>
+		<res id="65" text="विन्डोज़ को ऐसे क्रमबद्ध करें ताकि वे ओवरलेप करें\nकैस्केड विन्डोज़"/>
+		<res id="66" text="विन्डोज़ को बिना ओवरलेप किए क्रमबद्ध करें\nटाइल विन्डोज़"/>
+		<res id="67" refid="66"/>
+		<res id="68" text="सक्रिय विन्डो को दो पेन में बांटें\nबांटे"/>
+		<res id="69" text="चयन मिटाएं\nमिटाएं"/>
+		<res id="70" text="सब कुछ मिटाएं\nसब मिटाएं"/>
+		<res id="71" text="वर्तमान चयन को क्लिपबोर्ड पर कॉपी करें\nकॉपी करें"/>
+		<res id="72" text="चयन कट करके क्लिपबोर्ड पर रखें\nकट करें"/>
+		<res id="73" text="निर्दिष्ट टेक्स्ट खोजें\nखोजें"/>
+		<res id="74" text="क्लिपबोर्ड कंटेन्ट पेस्ट करें\nपेस्ट"/>
+		<res id="75" text="अंतिम क्रिया दोहराएं\nदोहराएं"/>
+		<res id="76" text="निर्दिष्ट टेक्स्ट को नये टेक्स्ट से बदलें\nबदलें"/>
+		<res id="77" text="संपूर्ण दस्तावेज़ का चयन करें\nसंपूर्ण चयन"/>
+		<res id="78" text="अंतिम क्रिया को अनडू करें\nअनडू"/>
+		<res id="79" text="अंतिम अनडू को दोबारा करें\nरीडू"/>
+		<res id="80" text="टूलबार दिखाएं या छुपाएं\nटॉगल टूलबार"/>
+		<res id="81" text="स्टेटस बार दिखाएं या छुपाएं\nटॉगल स्टेटस बार"/>
+		<res id="82" text="विन्डो माप बदलें"/>
+		<res id="83" text="विन्डो स्थान बदलें"/>
+		<res id="84" text="विन्डो को आइकन जितना छोटा करें"/>
+		<res id="85" text="विन्डो का पूरा माप देखें"/>
+		<res id="86" text="अगले दस्तावेज़ विन्डो पर जाएं"/>
+		<res id="87" text="पिछले दस्तावेज़ विन्डो पर जाएं"/>
+		<res id="88" text="सक्रिय विन्डो बंद करें, दस्तावेज़ सहेजने के लिये पूछेगा"/>
+		<res id="89" text="विन्डो को सामान्य माप का बनाएं"/>
+		<res id="90" text="कार्य सूची को सक्रिय करें"/>
+		<res id="91" text="इस विन्डो को सक्रिय करें"/>
+		<res id="92" text="प्रिन्ट प्रीव्यू मोड बंद करें\nप्रीव्यू रद्द करें"/>
+		<res id="93" text="यह पेन फ़ाइल सूची में चयन किसी भी फ़ाइल को दर्शाता है। यदि आप कन्टेन्ट के द्वारा खोज रहे हैं, तो यह पेन चयनित फ़ाइलों में मिली पंक्तियाँ भी दिखाता है। उपलब्ध विकल्पों के लिए कन्टेक्स्ट मेनू आगे लाने के लिए राईट माउस बटन का उपयोग करें।"/>
+		<res id="94" text="%s वैध खोज डायरेक्टरी नहीं है। डायरेक्टरी नाम वैध पथ होना चाहिए, जिसमें ड्राइव लेटर (जैसे, C:\Windows)या सही तरीके से संरचित UNC नाम होना आवश्यक है। (जैसे, \\WORKSTATION\Shared_Folder)।"/>
+		<res id="95" text="\nइसकी खोज करें\nखोजें\nफ़ाइलें खोजें (*.sea)\n.sea\nइसकी खोज करें.दस्तावेज़\nदस्तावेज़ खोजें"/>
+		<res id="96" text="वर्तमान चयन फ़ाइल का पाथ क्लिपबोर्ड पर कॉपी करें।\nफ़ाइल का पाथ कॉपी करें"/>
+		<res id="97" text="वर्तमान फ़ाइल के लिए विशेषता डायलॉग खोलें (s)\nविशेषता खोलें"/>
+		<res id="98" text="वर्तमान फ़ाइल खोलें\nफ़ाइल खोलें"/>
+		<res id="99" text="सामान्य एक्स्प्रेशन इंजन खोलें"/>
+		<res id="100" text="सामग्री देखते समय वर्ड रैप ऑन-ऑफ़ करें\nवर्ड रैप"/>
+		<res id="101" text="कन्टेन्ट व्यू के लिए फोन्ट सेट करें\nफोन्ट सेट करें"/>
+		<res id="102" text="खोज शुरू करें\nशुरू करें"/>
+		<res id="103" text="खोज बंद करें\nबंद करें"/>
+		<res id="104" text="फ़ाइल लोकेटर प्रो मदद खोलें\nमदद"/>
+		<res id="105" text="फ़ाइल सूची व्यू में से सभी फ़ाइलें चुनें\nसभी चुनें"/>
+		<res id="106" text="खोज परिणाम एक्स्पोर्ट करें\nपरिणाम एक्स्पोर्ट करें"/>
+		<res id="107" text="वर्तमान चयन मिटाएं\nमिटाएं"/>
+		<res id="108" text="ड्रॉप डाउन सूची से हिस्टरी आइटमं हटाएं\nहिस्टरी हटाएं"/>
+		<res id="109" text="खोज कोन्फिगरेशन सुधारें\nकोन्फिगरेशन"/>
+		<res id="110" text="खोज के दौरान सिस्टम मेमरी समाप्त हो गई। 'One Phase Search' विकल्प के साथ दोबारा खोजें। यदि फिर भी समस्या हो, तो तकनीकी सहायता से संपर्क करें।"/>
+		<res id="111" text="सिस्टम का सामना अनपेक्षित समस्या से हुआ है। यदि समस्या जारी रहे, तो तकनीकी सहायता से संपर्क करें।"/>
+		<res id="112" text="तैयार"/>
+		<res id="113" text="नये सेटिंग्स का प्रभाव जानने के लिए दोबारा खोज करें।"/>
+		<res id="114" text="सब-फोल्डरों में खोजें"/>
+		<res id="115" text="एक फोल्डर खोजें"/>
+		<res id="116" text="कैलेन्डर खोलें"/>
+		<res id="117" text="कैलेन्डर खोलें"/>
+		<res id="118" text="एकाधिक फोल्डर खोलें"/>
+		<res id="119" text="फ़ाइल व्यूयर\nव्यू\nव्यू\n\n\nफ़ाइललोकेटर.फ़ाइलव्यूयर\nफ़ाइल लोकेटर फ़ाइल व्यूयर"/>
+		<res id="120" text="फेवरेट सूची दिखाएं/छिपाएं\nफेवरेट्स"/>
+		<res id="121" text="संपादक सेटिंग बदलें\nसंपादक सेटिंग्स"/>
+		<res id="122" text="वर्तमान फ़ाइल के लिए इस पाथ पर एक्स्प्लोरर खोलें\nएक्स्प्लोरर खोलें"/>
+		<res id="123" text="सिस्टम इन्टिग्रेशन सेटिंग्स बदलें\nसिस्टम सेटिंग्स"/>
+		<res id="124" text="एकाधिक एक्स्टेन्शन डाइलॉग खोलें"/>
+		<res id="125" text="पिछले खोज परिणाम पर जाता है\nपिछला खोज परिणाम"/>
+		<res id="126" text="अगले खोज परिणाम पर जाता है\nअगला खोज परिणाम"/>
+		<res id="127" text="वर्तमान चयन का नाम बदलें\nनाम बदलें"/>
+		<res id="128" text="पिछले खोज परिणाम पर जाता है\nपिछला खोज परिणाम"/>
+		<res id="129" text="अगले खोज परिणाम पर जाता है\nअगला खोज परिणाम"/>
+		<res id="130" text="इससे बड़ा माप"/>
+		<res id="131" text="इससे छोटा माप"/>
+		<res id="132" text="चयनित एक्स्प्रेशन प्रकार पर अधिक जानकारी"/>
+		<res id="133" text="एक्स्प्रेशन प्रकार"/>
+		<res id="134" refid="133"/>
+		<res id="135" refid="133"/>
+		<res id="136" text="यह दिखाता है कि सामग्री प्रति पंक्ति या पूरी फ़ाइल से मेल खाती है या नहीं।"/>
+		<res id="137" text="फ़ाइल नेम एक्स्प्रेशन यदि फ़ाइल नेम एक्स्प्रेशन नहीं है तो दर्शाता है।"/>
+		<res id="138" text="कन्टेन्ट्स व्यू पेन दिखाता/छिपाता है।\nकन्टेन्ट्स व्यू दिखाएं/छिपाएं"/>
+		<res id="139" text="खोज रोकें\nरोकें"/>
+		<res id="140" text="डिफॉल्ट सेटिंग्स के साथ नयी खोज शुरू करें\nनयी खोज"/>
+		<res id="141" text="वर्तमान क्राइटिरिया के साथ नयी खोज शुरू करें\nवर्तमान क्राइटिरिया से नयी खोज"/>
+		<res id="142" text="फ़ाइल में टेक्स्ट को खोजें\nखोजें..."/>
+		<res id="143" text="खोजे हुए टेक्स्ट की अगली हाइलाइटिड पंक्ति तक जाएं\nअगली पंक्ति पर जाएं"/>
+		<res id="144" text="खोजे हुए टेक्स्ट की पिछली हाइलाइटिड पंक्ति तक जाएं\nपिछली पंक्ति पर जाएं"/>
+		<res id="145" text="वर्तमान खोज की हाइलाइटिंग को ऑन-ऑफ़ करें\nटॉगल हाइलाइटिंग"/>
+		<res id="146" text="पिछली हिट"/>
+		<res id="147" text="अगली हिट"/>
+		<res id="148" text="पिछली फ़ाइल"/>
+		<res id="149" text="अगली फ़ाइल"/>
+		<res id="150" text="वर्तमान फेवरेट चयन को संपादित करें\nफेवरेट संपादित करें"/>
+		<res id="151" text="वर्तमान चयनित फेवरेट को मिटाएं\nफेवरेट मिटाएं"/>
+		<res id="152" text="चयन के मुख्य व्यू पर वापस जाएं\nमुख्य व्यू पर जाएं"/>
+		<res id="153" text="खोज फिल्टर"/>
+		<res id="154" text="इस शब्द को ढूंढे"/>
+		<res id="155" text="वर्तमान खोज को नये फेवरेट में जोडें\nफेवरेट में जोडें"/>
+		<res id="156" text="फेवरेट सूची को रीफ्रेश करें\nरीफ्रेश"/>
+		<res id="166" text="खोज"/>
+		<res id="169" text="रेन्डर लाइब्रेरी"/>
+		<res id="170" text="स्क्रिप्टिंग"/>
+		<res id="172" text="खोज"/>
+		<res id="175" text="फ़ाइल"/>
+		<res id="177" text="कन्टेन्ट खोज करें"/>
+		<res id="201" text="फ़ाइलनाम को सामान्य एक्स्प्रेशन के रूप में निर्दिष्ट करने से पहले विकल्प टैब में फ़ाइलनाम को 'सामान्य एक्स्प्रेशन' पर सेट करना आवश्यक है।"/>
+		<res id="202" text="दाहिने हाथ पर स्थित पेन की एक या अधिक फ़ाइलों का चयन करके कन्टेन्ट देखें\n\nध्यान देंः इस पेन को प्रिंट करने के लिए फ़ाइल सूची में प्रिन्ट पर क्लिक करें।"/>
+		<res id="204" text="शामिल टेक्स्ट को सामान्य एक्स्प्रेशन के रूप में निर्दिष्ट करने से पहले विकल्प टैब में कन्टेन्ट को 'सामान्य एक्स्प्रेशन' पर सेट करना आवश्यक है।"/>
+		<res id="205" text="एक्स्प्रेशन विज़ार्ड सामान्य एक्स्प्रेशन की सभी विशेषताओं को प्रदान नहीं करता है, लेकिन यदि आप सामान्य एक्स्प्रेशन को बनाना जानते हैं, तो आप कोई भी सामान्य एक्स्प्रेशन स्वयं निर्दिष्ट कर सकते हैं। आपको केवल अपने सामान्य एक्सप्रेशन को 'फोलोड बाय' सूची में 'वाक्यांश' के रूप में जोड़ना है, और विज़ार्ड के अगले पृष्ठ पर एस्केप्स को स्विच ऑफ़ करना है (जो स्पेशल कैरेक्टर्स डालने पर सक्रिय हो जाता है।)"/>
+		<res id="206" text="खोजे गये टेक्स्ट को हाइलाइट करने के लिए रंग निर्धारित करें।\nरंग निर्धारित करें।"/>
+		<res id="207" text="कंटेन्ट्स व्यू जानकारी सहेजें\nकन्टेन्ट्स व्यू सहेजें"/>
+		<res id="208" text="बड़ी ड्राइवों में सामग्री की कार्यक्षम खोज के लिए 'एक फेज़ खोज' को ऑन करें। (कोई प्रगति मीटर नहीं)\n'एक फेज़ खोज' ऑन-ऑफ़ करें (बड़ी ड्राइवों के लिए)"/>
+		<res id="209" text="कन्टेन्ट व्यू को फ़ाइल सूची व्यू के नीचे चिपकाएं\nनीचे चिपकाएं"/>
+		<res id="210" text="कन्टेन्ट व्यू को फ़ाइल सूची व्यू के दाएं चिपकाएं\nदाएं चिपकाएं"/>
+		<res id="211" text="कमान्ड लाइन पैरामीटरों के लिए मदद दिखाएं\nकमान्ड लाइन पैरामीटर"/>
+		<res id="212" text="चयनित एक्स्प्रेशन प्रकार के बारे में अधिक जानकारी"/>
+		<res id="213" text="वर्तमान परिणाम सूची में खोजें\nवर्तमान परिणाम सूची में खोजें"/>
+		<res id="214" text="कन्टेन्ट व्यू पेन दिखाएं-छिपाएं\nकन्टेन्ट व्यू दिखाएं-छिपाएं"/>
+		<res id="215" text="वर्तमान चयनित फ़ाइलों में खोजें\nवर्तमान चयन में खोजें"/>
+		<res id="216" text="मूल खोज की हाइलाइटिंग को दिखाएं/छिपाएं\nहाइलाइटिंग दिखाएं/छिपाएं"/>
+		<res id="217" text="उस फोल्डर को खोलें जिसमें फेवरेट्स सहेजे गए हैं\nफेवरेट्स फोल्डर खोलें"/>
+		<res id="218" text="सभी विन्डो/टैब बंद करें\nसब बंद करें"/>
+		<res id="219" text="सक्रिय खोज के सिवाय सभी विन्डो/टैब बंद करें\nसक्रिय खोज के सिवाय सब बंद करें"/>
+		<res id="220" text="सभी खुली फ़ाइल विन्डो बंद करें\nसभी फ़ाइलें बंद करें"/>
+		<res id="221" text="वर्तमान खोज सत्र सहेजें\nखोज सत्र सहेजें"/>
+		<res id="222" text="इस वर्कस्पेस के सभी खोज सत्र सहेजें\nवर्कस्पेस सहेजें"/>
+		<res id="224" text="रिपोर्ट रीफ्रेश करें\nरीफ्रेश करें"/>
+		<res id="225" text="Copy the report to the clipboard\nCopy"/>
+		<res id="226" text="Save the report to a file\nSave Report"/>
+		<res id="227" text="Print the report\nPrint Preview"/>
+		<res id="228" text="Modify the fields and layout of the report\nReport Options"/>
+		<res id="229" text="मेनू बार दिखाएं/छिपाएं\nमेनु बार दिखाएं/छिपाएं"/>
+		<res id="230" text="प्राथमिक खोज हिट्स हाइलाइट करें"/>
+		<res id="231" text="द्वितीयक खोज हिट्स हाइलाइट करें"/>
+		<res id="232" text="सूची को क्लिपबोर्ड में कॉपी करें"/>
+		<res id="233" text="सूची को फ़ाइल में लोड करें"/>
+		<res id="234" text="फ़ाइल को सूची में सहेजें"/>
+		<res id="235" text="सूची क्लियर करें"/>
+		<res id="236" text="त्रुटियों की सूची को क्लिपबोर्ड पर कॉपी करें\nक्लिपबोर्ड पर कॉपी करें"/>
+		<res id="237" text="त्रुटियों की सूची को एक फ़ाइल में सहेजें\nत्रुटियाँ सहेजें"/>
+		<res id="238" refid="13"/>
+		<res id="239" refid="13"/>
+		<res id="240" refid="5"/>
+		<res id="241" text="सूचकांक सेटिंग्स संपादित करें"/>
+		<res id="242" text="सूचकांक में खोज करें"/>
+		<res id="243" text="Upgrade to FileLocator Pro\nUpgrade"/>
+		<res id="244" text="ज़ूम इन" t="g"/>
+		<res id="245" text="ज़ूम आउट" t="g"/>
+		<res id="246" text="खोज मानदंड प्रकार" t="g"/>
+		<res id="247" text="खोज शुरू करें" t="g"/>
+		<res id="248" text="खोज बंद करें" t="g"/>
+		<res id="249" text="दिनांक इससे अधिक" t="g"/>
+		<res id="250" text="दिनांक से कम" t="g"/>
+	</string>
+	<string id="2" type="टेक्स्ट">
+		<res id="1" text="आप किस फोल्डर का चयन करना चाहते हैं?"/>
+		<res id="2" text="अवैध डायरेक्टरी"/>
+		<res id="3" text="&lt; 1 सेकन्ड"/>
+		<res id="4" text="क्लिपबोर्ड पर कॉपी करें"/>
+		<res id="5" text="स्थानिक हार्ड ड्राइव्स"/>
+		<res id="6" text="बूलिअन"/>
+		<res id="7" text="सादा टेक्स्ट"/>
+		<res id="8" text="सामान्य एक्स्प्रेशन"/>
+		<res id="9" text="Wildcards"/>
+		<res id="10" text="फ़ाइल हैश"/>
+		<res id="11" text="बूलिअन RegEx"/>
+		<res id="12" text="संपूर्ण शब्द"/>
+		<res id="13" text="एक्स्प्रेशन"/>
+		<res id="14" text="(अवेध एक्स्प्रेशन प्रकार)"/>
+		<res id="15" text="उँचा"/>
+		<res id="16" text="सामान्य (डिफॉल्ट)"/>
+		<res id="17" text="निम्न"/>
+		<res id="18" text="स्टैन्डर्ड (डिफॉल्ट)"/>
+		<res id="19" text="स्टैन्डर्ड"/>
+		<res id="20" text="Dark"/>
+		<res id="21" text="नीला"/>
+		<res id="22" text="क्लासिक"/>
+		<res id="23" text="रूपहला"/>
+		<res id="24" text="ऊपर"/>
+		<res id="25" text="ASCII"/>
+		<res id="26" text="यूनिकोड"/>
+		<res id="27" text="यूनिकोड (Big Endian)"/>
+		<res id="28" text="UTF8 (No BOM)"/>
+		<res id="29" text="टेक्स्ट"/>
+		<res id="30" text="कोमा विभाजित (CSV)"/>
+		<res id="31" text="टैब विभाजित"/>
+		<res id="32" text="फ़ाइल सूची खोलने में असमर्थ: "/>
+		<res id="34" text="फ़ाइल फोल्डर"/>
+		<res id="35" text="ऑन"/>
+		<res id="36" text="ऑफ़"/>
+		<res id="37" text="SVN/HG/GIT/CVS मेटा डेटा फोल्डरों को न गीनें"/>
+		<res id="38" text="प्रोग्राम फ़ाइल फोल्डरों को न गीनें"/>
+		<res id="39" text="!$(ProgramFiles)"/>
+		<res id="40" text="विन्डोज़ की सिस्टम फ़ाइलों को न गीनें"/>
+		<res id="41" text="!$(WindowsFolder)"/>
+		<res id="42" text="रीसायकल बिन को न गीनें"/>
+		<res id="43" text="हिस्टरी मिटाई जा रही है।"/>
+		<res id="44" text="एड्वान्स्ड"/>
+		<res id="45" text="फ़ाइल सूची"/>
+		<res id="46" text="फोल्डर"/>
+		<res id="47" text="जन्क्शन पोइन्ट्स"/>
+		<res id="48" text="थ्रेड/प्राथमिकता"/>
+		<res id="49" text="XSLT प्रोसेसर"/>
+		<res id="50" text="संपादक"/>
+		<res id="51" text="डिफॉल्ट संपादक"/>
+		<res id="52" text="बाह्य संपादक"/>
+		<res id="53" text="आंतरिक व्यूअर"/>
+		<res id="54" text="निर्दिष्ट प्रोग्राम आइडी से XSL पार्सर बनाने में असमर्थ"/>
+		<res id="55" text="एप्लिकेशन फ़ाइलें (*.exe)|*.exe|सभी फ़ाइलें (*.*)|*.*||"/>
+		<res id="56" text="फ़ाइल ब्राउज़र खोलते समय त्रुटि। ब्राउज़ करने से पहले यह निश्चित करें कि फ़ाइल का नाम वैध है।"/>
+		<res id="57" text="इससे सभी एक्सटेन्शन सेटिंग्स अपनी मूल स्थापना स्थिति में लौट जाएंगी। क्या आप निश्चित हैं ?"/>
+		<res id="58" text="एक्सटेन्शन रीसेट हो रहे हैं"/>
+		<res id="59" text="फ़ाइल मिलने पर प्ले करने के लिए साउन्ड निर्दिष्ट करें।"/>
+		<res id="60" text="खोज पूरी होने पर प्ले करने के लिए साउन्ड निर्दिष्ट करें।"/>
+		<res id="61" text="साउन्ड प्ले करने में असमर्थ। साउन्ड फ़ाइल करप्ट हो सकती है, या हो सकता है कि वह एक वैध वेवफोर्म में न हो।"/>
+		<res id="62" text="कृपयां प्ले करने के लिए वैध साउन्ड फ़ाइल निर्दिष्ट करें।"/>
+		<res id="63" text="साउन्ड फ़ाइलें (*.wav)|*.wav|सभी फ़ाइलें (*.*)|*.*||"/>
+		<res id="64" text="साउन्ड फ़ाइल खोजने में असमर्थ।"/>
+		<res id="65" text="प्रकार"/>
+		<res id="66" text="स्थिति"/>
+		<res id="67" text="संबंधित आईफिल्टर"/>
+		<res id="68" text="फ़ाइल लोकेटर प्रो USB डिवाइस से चलने के लिए कोन्फिगर्ड है। शेल सेटिंग सेट नहीं हो सकते हैं।"/>
+		<res id="69" text="एक्स्प्रेशन्स"/>
+		<res id="70" text="बूलिअन एक्सप्रेशन्स"/>
+		<res id="71" text="Wildcards"/>
+		<res id="72" text="सामान्य एक्सप्रेशन्स"/>
+		<res id="73" text="फ़ाइल हैशिंग"/>
+		<res id="74" text="UTF-8 डिफॉल्ट फॉर्मेट"/>
+		<res id="75" text="एक्सप्रेशन्स"/>
+		<res id="76" text="सामान्य"/>
+		<res id="77" text="हिस्टरी"/>
+		<res id="78" text="डिस्प्ले"/>
+		<res id="79" text="कैरेक्टर प्रोसेसिंग"/>
+		<res id="80" text="शेल इन्टीग्रेशन"/>
+		<res id="81" text="साउन्ड/एलर्ट्स"/>
+		<res id="82" text="युज़र इन्टरफ़ेस"/>
+		<res id="83" text="कोन्फिगरेशन जानकारी लागु हो रही है।"/>
+		<res id="84" text="इससे सभी कोन्फिगरेशन सेटिंग्स स्थापना समय की सेटिंग्स पर सेट हो जाएंगीं। क्या आप निश्चित हैं?"/>
+		<res id="85" text="कोन्फिगरेशन रीसेट हो रहे हैं।"/>
+		<res id="86" text="वर्णन"/>
+		<res id="87" text="फिल्टर मूल्य"/>
+		<res id="88" text="फ़ाइल से डाटा लिया जा रहा है।..."/>
+		<res id="89" text="एकल उपयोगकर्ता लाइसेन्स"/>
+		<res id="90" text="संस्थाकीय एकाधिक-साइट लाइसेन्स (%s उपयोगकर्ताओं तक)"/>
+		<res id="91" text="संस्थाकीय एकाधिक-साइट लाइसेन्स (असीमित उपयोगकर्ता)"/>
+		<res id="92" text="एकाधिक उपयोगकर्ता लाइसेन्स: %s लाइसेन्स"/>
+		<res id="93" text="पंजीकरण कोड: \r\n%s"/>
+		<res id="94" text="सहायता/निःशुल्क अपग्रेड इस तारीख़़ तक: %s\r\n"/>
+		<res id="95" text="परीक्षण लाइसेन्स खत्म। इस प्रोडक्ट का कानुनन उपयोग जारी रखने के लिए पंजीकरण आवश्यक है।"/>
+		<res id="96" text="परीक्षण लाइसेन्स, बाकी दिन: %d."/>
+		<res id="97" text="केस मैच करें"/>
+		<res id="98" text="लगातार खोज फिल्टर्स"/>
+		<res id="99" text="माप (byte)"/>
+		<res id="100" text="माप (kB)"/>
+		<res id="101" text="माप (MB)"/>
+		<res id="102" text="माप (GB)"/>
+		<res id="103" text="समाप्त"/>
+		<res id="104" text="नया संस्करण उपलब्ध"/>
+		<res id="105" text="कोई अपडेट नहीं"/>
+		<res id="106" text="नयी खोज"/>
+		<res id="107" text="दिखाएं"/>
+		<res id="108" text="क्राइटिरिया फ़ाइल खोलने में असमर्थ"/>
+		<res id="109" text="Command line search was not successful."/>
+		<res id="110" text="फ़ाइल(लें) मिली"/>
+		<res id="111" text="यह वैध तारीख़/समय फॉर्मेट नहीं है।"/>
+		<res id="112" text="कोई फ़ाइल नहीं चुनी गई"/>
+		<res id="113" text="आंकड़ें खोजें"/>
+		<res id="114" text="सारांश"/>
+		<res id="115" text="थम्बनेल"/>
+		<res id="116" text="त्रुटि"/>
+		<res id="117" text="बदलने की तारीख़"/>
+		<res id="118" text="बनाने की तारीख़"/>
+		<res id="119" text="अंतिम बार देखने की तारीख़"/>
+		<res id="120" text="अभी"/>
+		<res id="121" text="मिनट की शुरूआत"/>
+		<res id="122" text="घंटे की शुरूआत"/>
+		<res id="123" text="दिन की शुरूआत"/>
+		<res id="124" text="मिनट का अंत"/>
+		<res id="125" text="घंटे का अंत"/>
+		<res id="126" text="दिन का अंत"/>
+		<res id="133" text="%s यह समय का वैध फॉर्मेट नहीं है।"/>
+		<res id="134" text="अनपेक्षित एक्स्प्रेशन प्रकार"/>
+		<res id="135" text="पता नहीं"/>
+		<res id="136" text="कोई भी कैरेक्टर"/>
+		<res id="137" text="कैरेक्टर"/>
+		<res id="138" text="इसमें से कोई भी कैरेक्टर"/>
+		<res id="139" text="इसके सिवा कोई भी कैरेक्टर"/>
+		<res id="140" text="वाक्यांश"/>
+		<res id="141" text="खाली जगह"/>
+		<res id="142" text="कोई भी अंकीय कैरेक्टर"/>
+		<res id="143" text="कोई भी टेक्स्ट कैरेक्टर"/>
+		<res id="144" text="ज़ीरो या एक बार"/>
+		<res id="145" text="ज़ीरो या एकाधिक बार"/>
+		<res id="146" text="केवल एक बार"/>
+		<res id="147" text="एक या एकाधिक बार"/>
+		<res id="148" text="इसके बाद यह हो"/>
+		<res id="149" text="होता है"/>
+		<res id="150" text="फ़ाइलनेम एक्स्प्रेशन विज़ार्ड"/>
+		<res id="151" text="फेवरेट को संपादित करें"/>
+		<res id="152" text="सहेजें"/>
+		<res id="153" text="दिखा रहा है: %s of %s"/>
+		<res id="154" text="लोड रहा है..."/>
+		<res id="155" text="लोड हो चुका है: %s"/>
+		<res id="156" text="अज्ञात फेवरेट"/>
+		<res id="157" text="फेवरेट की खोज की तैयारी निष्फल: "/>
+		<res id="158" text="फेवरेट पढ़ रहा है"/>
+		<res id="159" text="फेवरेट मिट रहा है"/>
+		<res id="160" text="फेवरेट संपादित हो रहा है"/>
+		<res id="161" text="टैग्स"/>
+		<res id="162" text="खोज"/>
+		<res id="163" text="फेवरेट सहेजा जा रहा है"/>
+		<res id="164" text="फेवरेट फोल्डर खुल रहा है"/>
+		<res id="165" text="खोज क्राइटिरिया प्राप्त करने में असमर्थ। असफल जोड़ें।"/>
+		<res id="166" text="फेवरेट में जोड़ने लायक खोज को बनाएं या खोलें।"/>
+		<res id="167" text="Trial period has expired. You need to either purchase a license or switch to the Free feature set."/>
+		<res id="168" text="कोन्फिगरेशन सेटिंग बदली जा रही है"/>
+		<res id="169" text="The registration key has either been deleted or is unavailable. Please contact support@mythicsoft.com for more information."/>
+		<res id="170" text="कोन्फिगरेशन फ़ाइल खोलने में असमर्थ"/>
+		<res id="171" text="हिस्टरी कोन्फिगरेशन फ़ाइल खोलने में असमर्थ"/>
+		<res id="172" text=""/>
+		<res id="173" text="फ़ाइल खोलने में असमर्थ"/>
+		<res id="174" text="फ़ाइल खुल रही है"/>
+		<res id="175" text="विज़ुअल स्टुडियों में फ़ाइल खोलने में असमर्थ। अधिक जानकारी के लिए कृपया लॉग फ़ाइल चेक करें।"/>
+		<res id="176" text="कोई बाह्य संपादक निर्दिष्ट नहीं है। क्या आप अभी निर्दिष्ट करना चाहते हैं?"/>
+		<res id="178" text="बाह संपदक शुरू करने में त्रुटि। \r\n\r\n%s"/>
+		<res id="179" text="खोज लोड नहीं हो सका"/>
+		<res id="180" text="'-%s' कमान्ड लाइन फ्लैग के लिए मूल्य की आवश्यकता, लेकिन कुछ दिया नहीं गया है।"/>
+		<res id="181" text="'-%s' कमान्ड लाइन फ्लैग वैध नहीं है।"/>
+		<res id="182" text="अवैध तारीख़ फॉर्मेट: %s"/>
+		<res id="183" text="अनपेक्षित कमान्ड लाइन पैरामीटर: %s"/>
+		<res id="184" text="चल रहा है"/>
+		<res id="185" text="खोज शुरू हो रहा है"/>
+		<res id="186" text="**लोडिंग असफल **\r\n\r\nलोड करने में असफल: %s\r\n\r\nकृपया जांचे की फ़ाइल अभी भी मौजूद है तथा उसे खोलने के लिए आपके पास उपयुक्त सुरक्षा अधिकार हैं।\r\n\r\nअधिक जानकारी के लिए कृपया तकनीकी सहायता से संपर्क करें तथा इस त्रुटि का पाठ तथा फोल्डर में स्थित अन्य लॉग फ़ाइलें भी भेजें।:\r\n%s\r\n\r\nअधिक जानकारी:\r\n%s\r\n"/>
+		<res id="189" text="फ़ाइल खोलने में असमर्थ"/>
+		<res id="190" text="रोक दिया गया"/>
+		<res id="191" text="पूरा हो गया"/>
+		<res id="192" text="खोज के दौरान त्रुटि। यदि समस्या जारी रहती है, तो कृपया तकनीकी सहायता से संपर्क करें।"/>
+		<res id="193" text="कन्टेन्ट्स व्यू"/>
+		<res id="194" text="चयन बदला जा रहा है"/>
+		<res id="195" text="खोज परिणाम ऑपरेशन सहेजा जा रहा है।"/>
+		<res id="197" text="%s में "/>
+		<res id="198" text="क्राइटिरिया फ़ाइल खोलने में असमर्थ। कृपया जांचे की यह वैध क्राइटिरिया फ़ाइल है तथा फ़ाइल लोकेटर प्रो के पुराने संस्करण से नहीं है।"/>
+		<res id="199" text="आप फेवरेट को ओवरराइट कर रहे हैं। क्या आप निश्चित हैं?"/>
+		<res id="200" text="%s %s मिले।"/>
+		<res id="201" text="खोज समाप्त - %s %s मिले"/>
+		<res id="202" text="व्यू"/>
+		<res id="203" text="फेवरेट्स"/>
+		<res id="204" text="त्रुटि सूची"/>
+		<res id="205" text="रोक दिया गया"/>
+		<res id="206" text="खोज समय"/>
+		<res id="208" text="वर्तमान खोज "/>
+		<res id="209" text="मूल खोज"/>
+		<res id="210" text="दिखाया गया"/>
+		<res id="211" text="मिले"/>
+		<res id="212" text="दिखा रहा है"/>
+		<res id="213" text="चयन किया"/>
+		<res id="215" text="आइटम"/>
+		<res id="216" text="मिला"/>
+		<res id="218" text="%s MB"/>
+		<res id="219" text="%s फ़ाइलें मिली"/>
+		<res id="220" text="फ़ाइल लोकेटर प्रो का नया संस्करण उपलब्ध है। क्या आप जानकारी चाहते हैं?"/>
+		<res id="221" text="पंजीकृत! पंजीकरण के लिए धन्यवाद।"/>
+		<res id="222" text="पंजीकरण कूंजी अवैध है। कृपया यह जांचें कि पंजीकरण के ईमेल में दर्शायी गई जानकारी को ही यहां प्रविष्ट किया गया है।"/>
+		<res id="225" text="परिणाम सहेजने के लिए वैध फ़ाइलनाम बताएं।"/>
+		<res id="226" text="वैध ट्रान्स्फोर्म फ़ाइल का नाम बताएं।"/>
+		<res id="227" text="खोज परिणाम।"/>
+		<res id="228" text="सभी फ़ाइलें (*.*)|*.*||"/>
+		<res id="229" text="कस्टम फॉर्मेट फ़ाइल वैध नहीं है। यह जांचें कि फ़ाइल मौजूद है तथा आपके पास उचित सुरक्षा अधिकार हैं।\r\n\r\n"/>
+		<res id="230" text="XSL (*.xsl)|*.xsl|सभी फ़ाइलें (*.*)|*.*||"/>
+		<res id="231" text="फ़ाइल चयन डायलॉग खोलने में असमर्थ: %d"/>
+		<res id="232" text="परीक्षण सफल।"/>
+		<res id="233" text="खोजा गया"/>
+		<res id="234" text="जांचा गया"/>
+		<res id="235" text="स्थिति"/>
+		<res id="236" text="शुरू नहीं किया गया"/>
+		<res id="237" text="स्थगित"/>
+		<res id="238" text="पुनः शुरू"/>
+		<res id="240" text="%sMb of %sMb"/>
+		<res id="242" text="फिल्टरिंग"/>
+		<res id="243" text="खोज रहा है "/>
+		<res id="244" text="शुरू"/>
+		<res id="245" text="टेक्स्ट में एक्स्प्रेशन पाया गया।\r\nएक्स्प्रेशन शुरू: %d\r\nएक्स्प्रेशन लंबाई: %d\r\nमिला: %s"/>
+		<res id="246" text="परिणाम सूची खाली"/>
+		<res id="247" text="टेक्स्ट में एक्स्प्रेशन नहीं मिला।"/>
+		<res id="248" text="पंजीकरण फ़ाइल अवैध।"/>
+		<res id="249" text="पंजीकरण जानकारी नहीं मिली।"/>
+		<res id="250" text="पंजीकरण कुंजी अवधि समाप्त।"/>
+		<res id="251" text="फ़ाइल लोकेटर प्रो की-बोर्ड हूक"/>
+		<res id="256" text="स्थापना लॉग शुरू होने में असमर्थ। कृपया दोबारा स्थापित करें। यदि समस्या जारी रहे, तो फ़ाइल लोकेटर प्रो तकनीकी सहाता से संपर्क करें।"/>
+		<res id="258" text="कॉपी करें"/>
+		<res id="259" text="पाथ कॉपी करें"/>
+		<res id="260" text="कट करें"/>
+		<res id="261" text="मिटाएं"/>
+		<res id="262" text="यहां एक्स्प्लोर करें..."/>
+		<res id="263" text="विशेषताएं"/>
+		<res id="264" text="चयनित में खोजें"/>
+		<res id="265" text="परिणाम सूची में खोजें"/>
+		<res id="266" text="%s कन्टेन्ट्स व्यू"/>
+		<res id="267" text="छिपाएं"/>
+		<res id="268" text="\r\nये खोज डायरेक्टिरियां वैध नहीं है:\r\n\r\n"/>
+		<res id="269" text="\r\nडायरेक्टरी नाम में वैध पथ तथा ड्राइव अक्षर (जैसे, C:\Windows) या एक उपयुक्त UNC नाम आवश्यक है। (जैसे, \\WORKSTATION\Shared_Folder)."/>
+		<res id="272" text="मैक्रो लोड हो रहे हैं"/>
+		<res id="273" text="स्क्रिप्ट पार्सिंग असफल:\r\n"/>
+		<res id="274" text="स्क्रिप्टिंग इंजन बनाने में समस्या।"/>
+		<res id="275" text="(कोई विषय नहीं)"/>
+		<res id="276" text="(अज्ञात)"/>
+		<res id="277" text="बनाया"/>
+		<res id="278" text="संपर्क"/>
+		<res id="279" text="स्थान"/>
+		<res id="280" text="तारीख़़"/>
+		<res id="281" text="से"/>
+		<res id="282" text="सादर"/>
+		<res id="283" text="(खाली)"/>
+		<res id="284" text="(प्राप्तकर्ता सूची लोड नहीं हुई- अधिक जानकारी के लिए तकनीकी सहायता से संपर्क करें।)\r\n"/>
+		<res id="285" text="प्राप्तकर्ता"/>
+		<res id="286" text="प्रेषक"/>
+		<res id="287" text="विषय"/>
+		<res id="288" text="\r\nसंदेश बनाने मके दौरान त्रुटि: "/>
+		<res id="289" text=""/>
+		<res id="290" text="एट्रिब्यूट"/>
+		<res id="291" text="फ़ाइल माप"/>
+		<res id="292" text="छोड़े गए एक्स्टेन्शन्स"/>
+		<res id="294" text="त्रुटि की जानकारी भेजी गई, लेकिन कोई विवरण नहीं दिया गया।"/>
+		<res id="295" text="कन्टेन्ट्स वेलिडेशन स्क्रिप्ट इसके साथ असफल: "/>
+		<res id="296" text="सेकन्ड"/>
+		<res id="297" text="घंटा"/>
+		<res id="298" text="मिनट"/>
+		<res id="299" text="आज"/>
+		<res id="300" text="सप्ताह की शुरूआत"/>
+		<res id="301" text="महीने की शुरूआत"/>
+		<res id="302" text="साल की शुरूआत"/>
+		<res id="303" text="सप्ताह का अंत"/>
+		<res id="304" text="महीने का अंत"/>
+		<res id="305" text="साक का अंत"/>
+		<res id="306" text="दिन"/>
+		<res id="307" text="सप्ताह"/>
+		<res id="308" text="महीना"/>
+		<res id="309" text="साल"/>
+		<res id="310" text="फ़ाइल पुनः प्राप्त करें..."/>
+		<res id="311" text="आइटम नेम वेलिडेशन स्क्रिप्ट तैयार हो रही है: %s"/>
+		<res id="312" text="आइटम नेम वेलिडेशन स्क्रिप्ट इसके साथ असफलः "/>
+		<res id="313" text="हां"/>
+		<res id="314" text="न"/>
+		<res id="315" text="फ़ाइल नेम एक्स्प्रेशन"/>
+		<res id="316" text="फ़ाइल नेम - केस मैच करें"/>
+		<res id="317" text="कन्टेन्ट खोज"/>
+		<res id="318" text="शामिल टेक्स्ट"/>
+		<res id="319" text="कन्टेन्ट एक्स्प्रेशन"/>
+		<res id="320" text="कन्टेन्ट - केस मैच करें"/>
+		<res id="321" text="फ़ाइल स्पैन करें"/>
+		<res id="322" text="यहां देखें"/>
+		<res id="323" text="सब फोल्डर"/>
+		<res id="324" text="एक्स्प्रेशन में देखें"/>
+		<res id="325" text="इसके बाद बदला हुआ"/>
+		<res id="326" text="इसके पहले बदला हुआ"/>
+		<res id="327" text="इसके बाद देखा गया"/>
+		<res id="328" text="इसके पहले देखा गया"/>
+		<res id="329" text="इसके बाद बनाया गया"/>
+		<res id="330" text="इसके पहले बनाया गया"/>
+		<res id="331" text="इससे बड़ा"/>
+		<res id="332" text="इससे छोटा"/>
+		<res id="333" text="शामिल टेक्स्ट सक्रिय स्क्रिप्टिंग उन बूलिअन खोजों द्वारा समर्थित नहीं हैं जो संपूर्ण फ़ाइल में एक्सप्रेशन से मेल खाते हों।  विकल्प टैब में 'पंक्ति दर पंक्ति' पर सेट करें।"/>
+		<res id="334" text="कन्टेन्ट्स खोज मूल्य:"/>
+		<res id="335" text="फ़ाइलनेम फिल्टर:"/>
+		<res id="336" text="कोई स्क्रिप्ट प्रकार निर्दिष्ट नहीं"/>
+		<res id="337" text="स्क्रिप्ट फ़ाइल उपलब्ध नहीं या खुल नहीं रही है।"/>
+		<res id="338" text="स्क्रिप्ट का नाम निर्दिष्ट नहीं"/>
+		<res id="339" text="स्क्रिप्ट पथ:"/>
+		<res id="340" text="इंजन:"/>
+		<res id="341" text="कस्टम पैरामीटर्स:"/>
+		<res id="342" text="आर्काइव्ज़"/>
+		<res id="343" text="कम्प्रेस्ड"/>
+		<res id="344" text="एन्क्रिप्टिड"/>
+		<res id="345" text="फोल्डर"/>
+		<res id="346" text="ऑफ़लाइन"/>
+		<res id="347" text="केवल पढ़ने के लिए"/>
+		<res id="348" text="स्पार्स"/>
+		<res id="349" text="सिस्टम"/>
+		<res id="350" text="शुरू हो रहा है..."/>
+		<res id="351" text="समाप्त"/>
+		<res id="352" text="आर्काइव्ज़ में से फ़ाइल बहार निकाली जा रही है..."/>
+		<res id="353" text="%s इस मशिन पर वैध पथ नहीं है।"/>
+		<res id="354" text="NEAR ऑपरेटर का अवैध उपयोग। आगे का ऑपरेटर नहीं मिला।"/>
+		<res id="355" text="फ़ाइल लोकेटर प्रो परिणाम"/>
+		<res id="356" text="रद्द हो रहा है..."/>
+		<res id="357" text="कार्य रद्द हो रहा है..."/>
+		<res id="358" text="चयन की गई फ़ाइलों में से एक या एकाधिक फ़ाइलें कम्पोज़िट फ़ाइलें हैं और ये डील नहीं की जाएंगी। क्या आप जारी रखना चाहते हैं?"/>
+		<res id="359" text="मिटाने का कार्य सफलतापूर्वक संपन्न नहीं। कुछ फ़ाइलें डीलिट नहीं की गई।"/>
+		<res id="360" text="मेनू विकल्प लागू हो रहा है"/>
+		<res id="361" text="चेतावनी: प्रोसेस्ड फ़ाइलों में से %d पर ऑपरेशन असफल। अधिक जानकारी के लिए लॉग देखें।"/>
+		<res id="362" text="फ़ाइल डेटा निकला जा रहा है।"/>
+		<res id="363" text="ड्रैग-ड्रॉप के लिए सभी आइटम उपलब्ध होने में असमर्थ"/>
+		<res id="364" text="फ़ाइल डेटा बन रहा है"/>
+		<res id="365" text="वर्तमान चयन पर ऑपरेशन लागू हो रहा है।"/>
+		<res id="366" text="चेतावनी: चयन फ़ाइलों में से (%s)ऑपरेशन असफल। अधिक जानकारी के लिए लॉग देखें।"/>
+		<res id="367" text="डिफॉल्ट"/>
+		<res id="368" text="कन्टेक्स्ट मेनू लागु हो रहा है"/>
+		<res id="369" text="पृष्ठ %d of %d"/>
+		<res id="370" text="... अतिरिक्त पंक्तियां काट दी गयी ..."/>
+		<res id="371" text="नाम"/>
+		<res id="372" text="स्थान"/>
+		<res id="373" text="बदली गई"/>
+		<res id="374" text="बनाई गई"/>
+		<res id="375" text="अंतिम बार खोली गई"/>
+		<res id="376" text="हिट्स"/>
+		<res id="377" text="अज्ञात"/>
+		<res id="378" text="CFileListCtrl::loadList() के दौरान असफल।"/>
+		<res id="379" text="फ़ाइल व्यूअर फ्रेम बन रहा है।"/>
+		<res id="380" text="खोज स्ट्रिन्ग अवैध है: \n%s"/>
+		<res id="381" text="संपादक खोलने में असमर्थ। यदि समस्या जारी रहे, तो तकनीकी साहायता से संपर्क करें।"/>
+		<res id="382" text="फ़ाइल"/>
+		<res id="383" text="संदेश"/>
+		<res id="384" text="माप"/>
+		<res id="385" text="छोटे आइकन"/>
+		<res id="386" text="मध्यम आइकन"/>
+		<res id="387" text="बड़े आइकन"/>
+		<res id="388" text="अत्यंत बड़े आइकन"/>
+		<res id="389" text="Preview"/>
+		<res id="390" text="सारांश रिपोर्ट दिखा रहा है"/>
+		<res id="391" text="क्या आप फ़ाइल लोकेटर प्रो के साथ जुड़ी सभी जानकारी मिटाना चाहते हैं?"/>
+		<res id="392" text="उपयोगकर्ता की जानकारी मिटाएं"/>
+		<res id="393" text="मिटाना असफल"/>
+		<res id="394" text="डायलॉग का भाषांतर करने में असमर्थ।"/>
+		<res id="395" text="क्या आप फेवरेट मिटाना चाहते है? '%s'?"/>
+		<res id="396" text="%s स्क्रिप्ट अवैध है।\n\nअतिरिक्त जानकारी:\n\n%s"/>
+		<res id="397" text="क्या आप खोज फिल्टर मिटाना चाहते हैं? '%s'?"/>
+		<res id="398" text="आइफिल्टर्स"/>
+		<res id="399" text="नीचे"/>
+		<res id="400" regex="शुरू"/>
+		<res id="401" regex="आज"/>
+		<res id="402" regex="अभी"/>
+		<res id="403" regex="से.*"/>
+		<res id="404" regex="मि.*"/>
+		<res id="405" regex="म.*"/>
+		<res id="406" regex="घं.*"/>
+		<res id="407" regex="द.*"/>
+		<res id="408" regex="ह.*"/>
+		<res id="409" regex="सा.*"/>
+		<res id="410" regex="\b(today)|(start|end) *(?: +(?:the|of|this))* +(w|mo|y)[a-z]*"/>
+		<res id="411" regex="\b(now)|(start|end) *(?: +(?:the|of|this))* +(mi|h|d)[a-z]*"/>
+		<res id="412" regex="([+-]) *([0-9]+) *(d|w|mo|y)[a-z]*"/>
+		<res id="413" regex="([+-]) *([0-9]+) *(s|mi|h)[a-z]*"/>
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b"/>
+		<res id="415" text="B"/>
+		<res id="416" text="KB"/>
+		<res id="417" text="MB"/>
+		<res id="418" text="GB"/>
+		<res id="420" text="AND"/>
+		<res id="421" text="OR"/>
+		<res id="422" text="NOT"/>
+		<res id="423" text="NEAR"/>
+		<res id="424" text="LIKE"/>
+		<res id="425" text="REGEX"/>
+		<res id="426" text="DOSEX"/>
+		<res id="427" text="LINES"/>
+		<res id="428" text="FILELIST"/>
+		<res id="430" regex="AND" case="1"/>
+		<res id="431" regex="OR" case="1"/>
+		<res id="432" regex="NOT" case="1"/>
+		<res id="433" regex="NEAR(:\d+)?" case="1"/>
+		<res id="434" regex="LIKE" case="1"/>
+		<res id="435" regex="REGEX" case="1"/>
+		<res id="436" regex="DOSEX" case="1"/>
+		<res id="437" regex="LINES?:([^ ]*)?" case="1"/>
+		<res id="438" regex="FILELIST" case="1"/>
+		<res id="440" text="स्थानिकरण"/>
+		<res id="441" text="नयी खोज शुरू करने के लिए मेमरी अपर्याप्त। कृपया पिछले सत्र तथा अन्य एप्लिकेशन बंद करके प्रयत्न करें।"/>
+		<res id="442" text="काटा गया (मेमरी खाली करने के लिए)"/>
+		<res id="443" text="Because regular expressions work slightly differently than Wildcard expressions the result of the Expression Wizard may look different to what you are used to. e.g. The Wildcard expression 'filename.*' as a regular expression is '^filename\.*'."/>
+		<res id="444" text="फ़ाइल लोकेटर प्रो फ़ाइल में पंक्ति दर पंक्ति खोज करके प्रत्येक पंक्ति को निश्चित एक्स्प्रेशन के साथ मिलाता है। पंक्ति की शुरूआत कैसे हो, बाद में क्या आयेगा और कैसे अंत होगा, यह एक्स्प्रेशन तय करने देता है। फ़ाइल लोकेटर प्रो उसके बाद फिर उस एक्स्प्रेशन से मिलती सभी पंक्तियों को खोजेगा।"/>
+		<res id="445" text="फ़ाइलनेम"/>
+		<res id="446" text="पंक्ति"/>
+		<res id="447" text="खोलें"/>
+		<res id="448" text="अटैचमेन्ट्स"/>
+		<res id="449" text="रोका गया (मेमरी समाप्त)"/>
+		<res id="450" text="शामिल टेक्स्ट"/>
+		<res id="451" text="आइटम"/>
+		<res id="452" text="दिन"/>
+		<res id="453" text="सप्ताह"/>
+		<res id="454" text="महीने"/>
+		<res id="455" text="साल"/>
+		<res id="456" text="हिट"/>
+		<res id="457" text="हिट्स"/>
+		<res id="458" text="टैब विभाजित (स्प्रेडशीट)"/>
+		<res id="459" text="%s सेटिंग्स"/>
+		<res id="460" text="यह फ़ाइल लोकेटर प्रो का नविनतम संस्करण है।"/>
+		<res id="461" text="अपडेट जांचते समय त्रुटि। कृपया अधिक जानकारी के लिए लॉग देखें।"/>
+		<res id="462" text="वर्कस्पेस सहेजा जा रहा है"/>
+		<res id="463" text="खोज सत्र सहेजा जा रहा है"/>
+		<res id="464" text="वर्कस्पेस फ़ाइलें (*.flwx)|*.flwx"/>
+		<res id="465" text="फ़ाइल लोकेटर प्रो फ़ाइलें (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf"/>
+		<res id="466" text="खोज क्राइटिरिया (*.srf)|*.srf"/>
+		<res id="467" text="सभी फ़ाइलें (*.*)|*.*"/>
+		<res id="468" text="वर्कस्पेस खुल रहा है"/>
+		<res id="469" text="खोज सत्र खूल रहा है"/>
+		<res id="470" text="फ़ाइल खोलने में असमर्थ"/>
+		<res id="471" text="खोज सत्र फ़ाइलें(*.flsx)|*.flsx"/>
+		<res id="472" text="%s पहले से उपस्थित है। \r\n\r\nक्या आप इसके स्थान पर सहेजना चाहते हैं?"/>
+		<res id="473" text="शुरु करने वाले पैरेन्थिसेस '(' के अनुरूप बंद करने वाला पैरेन्थिसेस  ')' नहीं पाया गया शाब्दिक टेक्स्ट के निर्देश के लिए क्वॉट का उपयोग करें, जैसे, &quot;ending)&quot;"/>
+		<res id="474" text="बंद करने वाले पैरेन्थिसेस ')' के अनुरूप शुरू करने वाला पैरेन्थिसेस '(' नहीं पाया गया। शाब्दिक टेक्स्ट के निर्देश के लिए क्वॉट का उपयोग करें,  जैसे, &quot;(starting&quot; or &quot;विधि(&quot;\r\n\r\nत्रुटि स्थान: %d\r\nटेक्स्ट: %s"/>
+		<res id="475" text="की-वर्ड '%s' कम्पाइल नहीं हो सकता। कृपया की-वर्ड के सही उपयोग के लिए दस्तावेज़ देखें।"/>
+		<res id="476" text="कैशे लोकेशन बदलने से वर्तमान कैशे मिट जाएगा। क्या आप जारी रखना चाहते हैं?"/>
+		<res id="477" text="कैशे डेटाबेस मिटाने में असमर्थ। कृपया यह जांचें कि एप्लिकेशन का अन्य कोई इन्स्टेन्स चालू न हो, और फिर से प्रयत्न करें।"/>
+		<res id="478" text="रिपोर्ट"/>
+		<res id="479" text="टेबल फॉर्मेट में"/>
+		<res id="480" text="स्टैन्डर्ड"/>
+		<res id="481" text="फ़ाइल सूची"/>
+		<res id="482" text="कन्टेन्ट्स"/>
+		<res id="483" text="की-वर्ड सारांश"/>
+		<res id="484" text="HTML"/>
+		<res id="485" text="चयनित  फ़ाइलों के लिए कन्टेक्स्ट मेनू बनाने में विन्डो शेल असमर्थ। क्या आप सीमित कन्टेक्स्ट मेनू के साथ जारी रखना चाहेंगे?"/>
+		<res id="486" text="प्रश्न"/>
+		<res id="487" text="त्रुटि"/>
+		<res id="488" text="जानकारी"/>
+		<res id="489" text="मेमरी मैनेजर"/>
+		<res id="490" text="सारांश"/>
+		<res id="491" text="फ़ाइल से"/>
+		<res id="492" text="सभी फ़ाइलें"/>
+		<res id="493" text="केवल चयनित फ़ाइलें"/>
+		<res id="494" text="सभी"/>
+		<res id="495" text="चयनित"/>
+		<res id="496" text="CSV"/>
+		<res id="497" text="टैब"/>
+		<res id="498" text="की-वर्ड से फ़ाइलें"/>
+		<res id="499" text="फ़ाइल एक्स्टेन्शन"/>
+		<res id="500" text="संख्या"/>
+		<res id="501" text="की-वर्ड नाम"/>
+		<res id="502" text="परिणाम"/>
+		<res id="503" text="छिपा"/>
+		<res id="504" text="इससे पहले"/>
+		<res id="505" text="इसके बाद"/>
+		<res id="506" text="खोज क्राइटिरिया"/>
+		<res id="507" text="%s रिपोर्ट फ़ाइल कन्टेन्ट्स पर खोज करते समय ही वैध है।"/>
+		<res id="508" text="की-वर्ड हिट"/>
+		<res id="509" text="सहेजना असफल। यह जांचें कि आपके पास निर्दिष्ट फ़ाइल एवं फोल्डर में लिखने के लिए उपयुक्त अधिकार है।"/>
+		<res id="510" text="रिपोर्ट रद्द हो रही है..."/>
+		<res id="511" text="रिपोर्ट पूर्ण नहीं हुई।"/>
+		<res id="512" text="रिपोर्ट बनाते समय त्रुटि।"/>
+		<res id="513" text="रिपोर्ट बन रही है..."/>
+		<res id="514" text="सिक्वेन्श्यल आईडी"/>
+		<res id="515" text="Seq Id"/>
+		<res id="516" text="सिक्वेन्श्यल आईडी (प्रति फ़ाइल)"/>
+		<res id="517" text="File Seq Id"/>
+		<res id="518" text="संपूर्ण फ़ाइल पथ"/>
+		<res id="520" text="केवल फोल्डर"/>
+		<res id="521" text="केवल फ़ाइलें"/>
+		<res id="522" text="दस्तावेज़"/>
+		<res id="523" text="संगीत"/>
+		<res id="524" text="चित्र"/>
+		<res id="525" text="वीडीयो"/>
+		<res id="526" text="टेक्निश्यन लाइसेन्स: %s लाइसेन्स"/>
+		<res id="527" text="सर्वर लाइसेन्स: %s लाइसेन्स"/>
+		<res id="528" text="प्राथमिक"/>
+		<res id="529" text="द्वितीयक"/>
+		<res id="530" text="पंक्ति सं."/>
+		<res id="531" text="पंक्ति संख्या"/>
+		<res id="532" text="फिल्टर"/>
+		<res id="533" text="खोज परिणामों पर फिल्टर लगाएं"/>
+		<res id="534" text="खोज क्राइटिरिया के अनुरूप कोई फ़ाइलें/फोल्डर नहीं मिले"/>
+		<res id="535" text="कॉलम फिल्टरों के अनुरूप कोई परिणाम नहीं"/>
+		<res id="536" text="खोज जारी है"/>
+		<res id="537" text="'%s'एक्स्प्रेशन प्रकार के लिए वैध नहीं है।"/>
+		<res id="538" text="रिपोर्ट की गई त्रुटि"/>
+		<res id="539" text="टास्क चलाने में समस्या"/>
+		<res id="540" text="त्रुटि हुई है। यदि समस्या जारी रहे, तो तकनीकी सहायता से संपर्क करें।"/>
+		<res id="541" text="अतिरिक्त जानकारी"/>
+		<res id="542" text="शीर्षक"/>
+		<res id="543" text="कलाकार"/>
+		<res id="544" text="एल्बम"/>
+		<res id="545" text="टिप्पणी"/>
+		<res id="546" text="ज़ॉनर"/>
+		<res id="547" text="साल"/>
+		<res id="548" text="ट्रैक"/>
+		<res id="549" text="लंबाई: %s सेकन्ड"/>
+		<res id="550" text="बिट रेट: %s Kbps"/>
+		<res id="551" text="सैम्पल रेट: %s Hz"/>
+		<res id="552" text="चैनल्स: %s"/>
+		<res id="553" text="चौड़ाई"/>
+		<res id="554" text="ऊंचाई"/>
+		<res id="555" text="सेम्पल्स"/>
+		<res id="556" text="दस्तावेज़"/>
+		<res id="557" text="चित्र"/>
+		<res id="558" text="इक्विप्मेन्ट मेक"/>
+		<res id="559" text="इक्विप्मेन्ट मोडल"/>
+		<res id="560" text="पृष्ठ"/>
+		<res id="561" text="पृष्ठ संख्या"/>
+		<res id="562" text="सोफ्टवेर"/>
+		<res id="563" text="तारीख़़"/>
+		<res id="564" text="कलाकार"/>
+		<res id="565" text="कम्प्यूटर"/>
+		<res id="566" text="टाइटल"/>
+		<res id="567" text="फ्रेम डीले: %s/100 s"/>
+		<res id="568" text="लूप काउन्ट"/>
+		<res id="569" text="कॉपीराइट"/>
+		<res id="570" text="एक्स्पोज़र: %s s"/>
+		<res id="571" text="एपर्चर: F%s"/>
+		<res id="572" text="एक्स्पोज़र प्रोग्राम"/>
+		<res id="573" text="सामान्य"/>
+		<res id="574" text="मेन्युअल"/>
+		<res id="575" text="एपर्चर प्रायोरिटी"/>
+		<res id="576" text="शटर प्रायोरिटी"/>
+		<res id="577" text="क्रीएटिव"/>
+		<res id="578" text="एक्शन"/>
+		<res id="579" text="पोर्ट्रैट"/>
+		<res id="580" text="लेन्ड्स्केप"/>
+		<res id="581" text="ISO गति"/>
+		<res id="582" text="मूल तारीख़़"/>
+		<res id="583" text="फ्लैश"/>
+		<res id="584" text="टिप्पणी"/>
+		<res id="585" text="माप"/>
+		<res id="586" text="प्रति पिक्सेल बिट"/>
+		<res id="587" text="आल्फा चैनल"/>
+		<res id="588" text="केवल फोल्डर खोज को सिर्फ फोल्डरों तक सीमित कर देता है, यानि, फ़ाइलें नहीं दिखाई जाएंगी।"/>
+		<res id="589" text="केवल फ़ाइलें खोज को सिर्फ़ फ़ाइलों तक सीमित कर देता है, यानि, कोई भी फोल्डर नहीं दिखाया जाएगा।"/>
+		<res id="590" text="दस्तावेज़ खोज को केवल स्टैन्डर्ड दस्तावेज़ एक्सटेन्शनों वाली फ़ाइलों तक सीमित कर देता है।"/>
+		<res id="591" text="संगीत खोज को केवल स्टैन्डर्ड ऑडियो फ़ाइल एक्सटेन्शनों वाली फ़ाइलों तक सीमित कर देता है।"/>
+		<res id="592" text="चित्र खोज को केवल स्टैन्डर्ड इमेज फ़ाइल एक्सटेन्शनों वाली फ़ाइलों तक सीमित कर देता है।"/>
+		<res id="593" text="वीडियो खोज को केवल स्टैन्डर्ड वीडियो फ़ाइल एक्सटेन्शनों वाली फ़ाइलों तक सीमित कर देता है।"/>
+		<res id="600" text="लंबित खोज"/>
+		<res id="601" text="त्रुटि - खोज शुरू नहीं किया जा सका"/>
+		<res id="602" text="काटें नहीं"/>
+		<res id="603" text="बीच का काटें"/>
+		<res id="604" text="शुरू का काटें"/>
+		<res id="605" text="अंत का काटें"/>
+		<res id="606" text="प्राप्त आइटमों को किसी अन्य स्थान या ज़िप फ़ाइल में कॉपी करें "/>
+		<res id="607" text="वर्तमान खोज सत्र या पूरे वर्कस्पेस को एक फ़ाइल में सहेजें जिसे फिर फ़ाइल लोकेटर प्रो में खोज परिणामों को लोड करने के लिए उपयोग किया जा सकता है।"/>
+		<res id="608" text="खोज परिणामों को एक बाह्य फॉर्मेट जैसे, Text, CSV, HTML, XML आदि में एक्स्पोर्ट करें"/>
+		<res id="609" text="कॉपी करना शुरू करें"/>
+		<res id="610" text="एक्स्पोर्ट करें"/>
+		<res id="611" text="फ्लैट"/>
+		<res id="612" text="रूट से"/>
+		<res id="613" text="पहले कॉमन फॉल्डर से"/>
+		<res id="614" text="ओवरराइट करें"/>
+		<res id="615" text="सिक्वेन्स संख्या से जोड़ें"/>
+		<res id="616" text="फ़ाइल कॉपी न करें"/>
+		<res id="617" text="केवल एकल प्राप्त आइटमों को कॉपी करें"/>
+		<res id="618" text="मुख्य  फ़ाइल कॉपी करें"/>
+		<res id="619" text="डुपलिकेट कॉपी करें"/>
+		<res id="620" text="मूल के लिए शॉर्ट-कट बनाएं"/>
+		<res id="621" text="त्रुटि लॉग करें"/>
+		<res id="622" text="रोकें"/>
+		<res id="623" text="एक्शन के लिए प्रॉम्प्ट करें"/>
+		<res id="624" text="फ़ाइल बनाने में असमर्थ"/>
+		<res id="625" text="कॉपी किया जा रहा है"/>
+		<res id="626" text="असफल फ़ाइलें"/>
+		<res id="627" text="कॉपी असफल रहा"/>
+		<res id="628" text="फ़ाइलों को सफलतापूर्वक कॉपी कर दिया गया"/>
+		<res id="629" text="कॉपी रद्द कर दिया गया"/>
+		<res id="630" text="स्थान"/>
+		<res id="631" text="संपादित करने के लिए डबल-क्लिक करें"/>
+		<res id="632" text="टेक्स्ट फ़ाइलें (*.txt)|*.txt|सभी फ़ाइलें (*.*)|*.*||"/>
+		<res id="633" text="वर्तमान फ़ाइल को ओवरराइट करें?"/>
+		<res id="634" text="स्क्रिप्टिंग"/>
+		<res id="635" text="खोज क्राइटिरिया ने सूची से %s आइटम शामिल नहीं किए"/>
+		<res id="636" text="शामिल न की गई फ़ाइलें"/>
+		<res id="637" text="अवैध स्थान"/>
+		<res id="638" text="रिपोर्ट की गई त्रुटियाँ"/>
+		<res id="639" text="सब-फोल्डर खोज ऑफ़ है"/>
+		<res id="640" text="शामिल टेक्स्ट फील्ड में केवल वाइटस्पेस कैरेक्टर उपस्थित हैं"/>
+		<res id="641" text="चेतावनी"/>
+		<res id="642" text="खोज के दौरान उत्पन्न चेतावनियाँ"/>
+		<res id="643" text="ज़िप फ़ाइलें (*.zip)|*.zip|सभी फ़ाइलें (*.*)|*.*||"/>
+		<res id="644" text="फ़ाइलनाम मैच केस ऑन है"/>
+		<res id="645" text="शामिल टेक्स्ट मैच केस ऑन है"/>
+		<res id="646" text="संदेश का हिस्सा"/>
+		<res id="647" text="ईमेल"/>
+		<res id="648" text="पृष्ठ"/>
+		<res id="649" text="बल्क कॉपी रिपोर्ट"/>
+		<res id="650" text="फ़ाइल सहेजी जा रही है"/>
+		<res id="651" text="फ्लोटिंग लाइसेन्स:  %s तक साथ-साथ इस्तेमाल करने वाले यूज़र"/>
+		<res id="652" text="%s फाइल(लें) खोजी नहीं जा सकीं"/>
+		<res id="653" text="विवरण के लिए क्लिक करें"/>
+		<res id="654" text="गंभीरता"/>
+		<res id="655" text="विवरण"/>
+		<res id="656" text="पाथ का आरंभ दिखाएं"/>
+		<res id="657" text="पाथ का अंत दिखाएं"/>
+		<res id="658" text="%s फ़ाइल(लों) ने खोज चेतावनियाँ रिपोर्ट की"/>
+		<res id="659" text="फ़ाइलनाम प्रीसेट उपयोग करते हुए"/>
+		<res id="660" text="GPS डाटा"/>
+		<res id="661" text="साइट लाइसेन्स। अधिकतम यूज़र: %s"/>
+		<res id="662" text="निकाला जा रहा है"/>
+		<res id="663" text="डेस्टिनेशन"/>
+		<res id="664" text="कॉपी नहीं किया गया - डेस्टिनेशन में फ़ाइलें पहले से ही उपस्थित हैं"/>
+		<res id="665" text="बल्क कॉपी"/>
+		<res id="666" text="खोज परिणाम एक्स्पोर्ट किए जा रहे हैं"/>
+		<res id="700" text="बहु-पंक्ति RegEx"/>
+		<res id="701" text="निपुण"/>
+		<res id="702" text="बेसिक"/>
+		<res id="703" text="सूचकांक खोज"/>
+		<res id="704" text="&lt;नया सूचकांक बनाएं...&gt;"/>
+		<res id="705" text="कोई भी सूचकांक चुना नहीं गया है। कृपया एक सूचकांक चुनें और फिर प्रयास करें।"/>
+		<res id="706" text="अवैध सूचकांक"/>
+		<res id="707" text="नया सूचकांक"/>
+		<res id="708" text="फोल्डर नाम को सूचकांक नाम के साथ सिंक्रनाइज़ किया जा रहा है"/>
+		<res id="709" text="समय"/>
+		<res id="710" text="विश्लेषण किया जा रहा है"/>
+		<res id="711" text="Indexed: %s | Name only: %s | Errors: %s | Invalid: %s | Removed: %s | Unchanged: %s"/>
+		<res id="712" text="सूचकांक प्रक्रिया को शुरू किया जा रहा है"/>
+		<res id="713" text="सूचकांक विवरण"/>
+		<res id="714" text="सूचकांक सूची"/>
+		<res id="715" text="सूचकांक"/>
+		<res id="716" text="सूचकांकित कर दिया गया"/>
+		<res id="717" text="क्या आप सही में इसे डीलिट करना चाहते हैं: %s?"/>
+		<res id="718" text="सूचकांक को क्लीन किया जा रहा है"/>
+		<res id="719" text="ऑप्टिमाइज़ किया जा रहा है"/>
+		<res id="720" text="सहेजा जा रहा है"/>
+		<res id="721" text="..."/>
+		<res id="722" text="सूचकांक को लोड करने में असमर्थ"/>
+		<res id="723" text="रद्द कर दिया गया"/>
+		<res id="724" text="सामान्य दस्तावेज़ स्थान"/>
+		<res id="725" text="फ़ाइल प्रकार"/>
+		<res id="726" text="Index size: %s | Indexed count: %s | Name only: %s | Total: %s"/>
+		<res id="727" text="सूचकांक प्रबंधक"/>
+		<res id="728" text="सूचकांक फिलहाल अपडेट किए जा रहे हैं। क्या आप सभी सूचकांक प्रक्रियाओं को रद्द करना चाहते हैं ?"/>
+		<res id="729" text="सूचकांक बनाने में असमर्थ"/>
+		<res id="730" text="बाइनरी फ़ाइल को छोड़ दिया गया है"/>
+		<res id="731" text="सूचकांक रीड-ओनली मोड में है"/>
+		<res id="732" text="फ़ाइल को खोजने में असमर्थ"/>
+		<res id="733" text="प्राथमिक खोज विधि असफल, रॉ डेटा खोज का उपयोग किया गया।"/>
+		<res id="734" text="खोज शब्द फ़ाइल सूची एक्सप्रेशन की तरह प्रतीत होता है, लोकिन कन्फिगरेशन विकल्प ऑफ़ है।"/>
+		<res id="735" text="फ़ाइलनाम फ़ाइल सूची एक्सप्रेशन की तरह प्रतीत होता है, लोकिन कन्फिगरेशन विकल्प ऑफ़ है।"/>
+		<res id="736" text="जैसा कि विकल्प टैब में निर्दिष्ट किया गया था, खोज एक्सप्रेशन को पंक्ति-दर-पंक्ति के आधार पर जाँचा गया था।"/>
+		<res id="737" text="आसपास की पंक्तियां"/>
+		<res id="738" text="आसपास की पंक्तियों के मार्कर"/>
+		<res id="739" text="हिट लाइनें"/>
+		<res id="740" text="Commas used in Wildcard expression, was semi-colon intended?"/>
+		<res id="741" text="रिपार्स बिंदु"/>
+		<res id="742" text="अपडेट की आवश्यकता - सूचकांक सेटिंग्स को मैच नहीं करता है"/>
+		<res id="743" text="सूचकांक केस सेन्सेटिव खोजों का समर्थन नहीं करता है। इस विकल्प को सक्षम करने के लिए आपको सूचकांक को केस सेन्सेटिव खोज सक्षम करके दोबारा  बनाना होगा।"/>
+		<res id="744" text="खोज शुरू नहीं किया जा सका"/>
+		<res id="745" text="मैच केस ऑन है"/>
+		<res id="746" text="सूचकांक पुराना हो गया है, खोज को पुराने सूचकांक सेटिंग्स का उपयोग करके चलाया गया है"/>
+		<res id="747" text="फ़ाइल के लिए हिट्स डिस्प्ले करने में असमर्थ"/>
+		<res id="748" text="खोज को पूरा होने से पहले रोक दिया गया"/>
+		<res id="749" text="सूचकांक खाली है"/>
+		<res id="750" text="कभी नहीं"/>
+		<res id="751" text="सूचकांक खाली है, सूचकांक प्रबंधक का उपयोग करके सूचकांक बनाएं"/>
+		<res id="752" text="बाइनरी फ़ाइलों को शामिल नहीं किया गया"/>
+		<res id="753" text="यूनिक कीवर्ड"/>
+		<res id="754" text="अवैध तिथि। सिस्टम फ़ाइल 1601 से पहले की नहीं हो सकती है।"/>
+		<res id="755" text="फ़ाइल को केवल आंशिक रूप से खोजा गया क्योंकि प्राप्त पंक्तियों की संख्या निर्दिष्ट अधिकतम से ज़्यादा थीं।"/>
+		<res id="756" text="Processing FILELIST operator generated an error"/>
+		<res id="757" text="रंग"/>
+		<res id="758" text="अन्य..."/>
+		<res id="759" text="थ्रेड खोजें"/>
+		<res id="760" text="एक्शन की पुष्टि करें"/>
+		<res id="761" text="इस संदेश को दोबारा न दिखाएं"/>
+		<res id="762" text="चेतावनी: बड़ी फ़ाइल"/>
+		<res id="763" text="चुनी गई फ़ाइल बहुत बड़ी है और इसे खोलने से प्रोग्रम धीमा हो सकता है या रिस्पॉन्ड करना बंद कर सकता है। "/>
+		<res id="764" text="** फ़ाइल की लोडिंग रद्द हो गई है**"/>
+		<res id="765" text="विवरण दिखाएंl &gt;&gt;"/>
+		<res id="766" text="&lt;&lt; विवरण छिपाएं"/>
+		<res id="767" text="इस सुविधा को काम करने के लिए फ़ाइललोकेटर प्रो को इन्टरनेट एक्सप्लोरर में तीसरे पक्ष के ब्राउज़र एक्सटेन्शनों को सक्षम करना होगा और इसे प्रभावी करने के लिए आपको रीबूट करना होगा।\r\n\r\nक्या आप जारी रखना चाहेंगे?"/>
+		<res id="768" text="कोई भी सूचकांक निर्दिष्ट नहीं किया गया है"/>
+		<res id="769" text="कोई भी सूचकांक ऑपेरशन निर्दिष्ट नहीं किया गया है "/>
+		<res id="770" text="अवधि (सेकंड)"/>
+		<res id="771" text="थ्रेड खोजें"/>
+		<res id="772" text="रद्द करें"/>
+		<res id="773" text="इस खोज के लिए फिलहाल कोई भी सामग्री खोज थ्रेड कार्यरत नहीं है"/>
+		<res id="774" text="इन्डेक्स करने के लिए कृपया स्थान निर्दिष्ट करें"/>
+		<res id="775" text="कृपया निर्दिष्ट करें कि कौन-सी सामग्री सूचकांक में शामिल की जानी चाहिए "/>
+		<res id="776" text="सूचकांक किसी दूसरे एप्लिकेशन द्वारा अद्यतन के लिए लॉक किया गया है"/>
+		<res id="777" text="समाप्त करने के लिए 'quit' टाइप करें।"/>
+		<res id="778" text="सूचकांक प्रबंधक प्रारंभ करने में असमर्थ"/>
+		<res id="779" text="आंशिक खोज परिणाम पूरे किए जा रहे हैं..."/>
+		<res id="780" text="फझी सर्च"/>
+		<res id="781" text="स्थान सूचकांक डेटाबेस में स्टोर करने के लिए चुना है एक नया या खाली फ़ोल्डर में होना चाहिए।"/>
+		<res id="782" text="वर्तमान ओपरेशन में समस्या। सामान्य प्रकार से यह समस्या इन्टरअफेस सेटिंग में 'Individual taskbar tab previews' के कारण होती है। यदि यह समस्या जारी रहे तो इस ओप्शन को बंध करें।"/>
+		<res id="783" text="सूचकांक बहलाना"/>
+		<res id="784" text="अद्यतन सूचकांक"/>
+		<res id="785" text="नए सूचकांक बनाएं"/>
+		<res id="786" text="नहीं सूचकांक नाम निर्दिष्ट किया गया है।"/>
+		<res id="787" text="नहीं सूचकांक पथ निर्दिष्ट किया गया है।"/>
+		<res id="788" text="खोज के दरम्यान  मानदंड बदलने से खोज बंद हो जाएगी। क्या आप यह करना चाहते हैं?"/>
+		<res id="789" text="इन्डेक्सिंग"/>
+		<res id="790" text="कार्यरत अपवाद या फिल्टर के कारण यह पाथ खोज में सामेल नहीं किया गया था।"/>
+		<res id="791" text="खाली फाईल, खोज के लायक कोई टेक्स्ट नहीं है"/>
+		<res id="792" text="अलग-अलग शब्दों में अभिव्यक्ति को अलग करने में असमर्थ"/>
+		<res id="793" text="खाली फ़ाइल सूची निर्दिष्ट"/>
+		<res id="794" text="अभिव्यक्ति प्रकार बूलियन में बदल गया था एकाधिक खोज शब्दों का समर्थन है।"/>
+		<res id="795" text="बड़े अभिव्यक्ति"/>
+		<res id="796" text="इंडेक्सिंग कार्रवाई विफल रही।"/>
+		<res id="797" text="इंडेक्स स्टोर"/>
+		<res id="798" text="कंटेन्ट क्लास"/>
+		<res id="799" text="क्या आप चूनी हुई ची हमेश अके लिए मीटाना चाहते हैं?"/>
+		<res id="800" text="चीजे मीट रही हैं"/>
+		<res id="801" text="एक या एकाधिक लंबी पंक्तियां छोटी पंक्तिओ में विभाजित कि गई है, जो कि सर्च हिट पर असर कर सकती है।"/>
+		<res id="802" text="नाम-बदल निष्फल। कृपयां फाईल लोक नहीं है यह निश्चित करें।"/>
+		<res id="803" text="इन्डेक्स लिस्ट लोड हो रहा है"/>
+		<res id="804" text="वर्तमान इन्डेक्स से संबंध जोडें"/>
+		<res id="805" text="लेखक"/>
+		<res id="806" text="दस्तावेज कीवर्ड"/>
+		<res id="807" text="टिप्पणी"/>
+		<res id="808" text="शीर्षक"/>
+		<res id="809" text="मालीक"/>
+		<res id="810" text="इन्डेक्स पाथ तथा नाम का मेल नहीं।"/>
+		<res id="811" text="इन्डेक्स मीटाएं"/>
+		<res id="812" text="List indexes"/>
+		<res id="813" text="पिछली बार द्वारा सहेजा गया"/>
+		<res id="814" text="इंडेक्स हटाएं" t="g"/>
+		<res id="820" text="झीरो हीट कीवर्ड"/>
+		<res id="821" text="%s कीवर्ड मात्र व्यावसायिक संस्करण में ही उपलब्ध है। यदी आप मात्र &quot;%s&quot; शब्दों के लिए ही खो ज रहे हैं, तो कृपयां उन्हें अवतरण-चिह्न लगाएं।"/>
+		<res id="822" text="मार्यादित अवधी का अधिकार पत्र। दिन बाकीः"/>
+		<res id="823" text="डायरेक्ट एक्सेस"/>
+		<res id="824" text="भाषांतरित टेक्स्ट"/>
+		<res id="825" text="परिवर्तित टेक्स्ट"/>
+		<res id="826" text="IFilter टेक्स्ट"/>
+		<res id="827" text="केच्ड टेक्स्ट"/>
+		<res id="828" text="टेक्स्ट फाईल"/>
+		<res id="829" text="रॉ फाईल डेटा"/>
+		<res id="830" text="कंटेन्ट रीडर"/>
+		<res id="831" text="प्रथम उपयोग के लिए तैयार हो रहा है..."/>
+		<res id="832" text="आजमाईश अवधी समाप्त।"/>
+		<res id="833" text="यह विशेषता निशुल्क संस्करण में उपलब्ध नहीं है।"/>
+		<res id="834" text="व्यावसायिक - आजमाईश"/>
+		<res id="835" text="व्यावसायिक"/>
+		<res id="836" text="लाईट"/>
+		<res id="837" text="व्यावसायिक और व्यक्तिगत दोनों उपयोग के लिए निशुल्क। कुछ विशेषताएं प्रछन्न या निर्योग्य।"/>
+		<res id="838" text="संपूर्ण कार्यरत संस्करण।"/>
+		<res id="839" text="आजमाईश के लिए संपूर्ण कार्यरत संस्करण।"/>
+		<res id="840" text="पंजीकृत नहीं है! \r\nयह संस्करण मात्र घर में व्यक्तिगत उपयोग के लिए है। \r\n\r\nव्यावसायिक उपयोगकर्ता:\r\n\r\nव्यावसायिक कार्य में उपयोग के लिए पंजीकृत कराना आवश्यक है। अन्यथा उपभोक्ता करार की शर्तों व परिस्थितिओं का आप भंग कर रहें हैं।\r\n\r\nनिशुल्क पंजीकरण संकेत के लिए कृपयां यहां जाएं:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="841" text="पंजीकृत नहीं है। \r\nआजमाईशी अवधी समाप्त हो जाने के पश्चात व्यावसायिक उपयोग के लिए पंजीकरण आवश्यक है।\r\n\r\nनिशुल्क पंजीकरण संकेत के लिए यहां जाएं:\r\nhttps://www.mythicsoft.com/agentransack/register"/>
+		<res id="842" text="कृपयां आपके उपयोग के बारे में बताएं।"/>
+		<res id="843" text="दोबारा शुरु करने पर बदलाव अमल में।"/>
+		<res id="844" text="यह पंजीकरण संकेत लाईट संस्करण के लिए है। कुछ विशेषताएं अब निर्योग्य रहेंगी।"/>
+		<res id="845" text="निशुल्क संस्करण में यह विशेषता उपलब्ध नहीं है।: %s"/>
+		<res id="846" text="सबसे तेज"/>
+		<res id="847" text="मध्यम"/>
+		<res id="848" text="तदनुकूल"/>
+		<res id="849" text="पाथ की खोज नहीं हो सकती"/>
+		<res id="899" text="Exclude MS Office Temporary Files"/>
+		<res id="900" text="लोकेशन फिल्टर"/>
+		<res id="901" text="संबंधित तारीख/समय"/>
+		<res id="902" text="अड्वान्स्ड टर्म मेचिंग"/>
+		<res id="903" text="फाईल लिस्ट्स"/>
+		<res id="904" text="वर्कस्पेश/सेशन्स"/>
+		<res id="905" text="एन्हेन्स्ड आउटपूट फोर्मेट्स"/>
+		<res id="906" text="किवर्ड रिपोर्ट्स"/>
+		<res id="907" text="तारीख/समय ओफ्फ्सेट्स"/>
+		<res id="908" text="लोकेशन मेक्रोझ"/>
+		<res id="909" text="बल्क कोपी"/>
+		<res id="910" text="%APP_NAME% requires initial setup. Please run the main %APP_NAME% application to complete setup and then try again."/>
+		<res id="911" text="File search cancelled by user"/>
+		<res id="912" text="Restart"/>
+		<res id="913" text="Persistent file name filter"/>
+		<res id="914" text="Exclude EXE, DLL, SYS files"/>
+		<res id="915" text="Warnings/Errors reported see Summary for more information"/>
+		<res id="916" text="Unable to create new index. Please check that you have write access to: "/>
+		<res id="917" text="Invalid composite file"/>
+		<res id="918" text="Invalid composite file, using standard search instead."/>
+		<res id="919" text="More"/>
+		<res id="920" text="Rename"/>
+		<res id="921" text="New Group"/>
+		<res id="922" text="Source"/>
+		<res id="923" text="Index Group"/>
+		<res id="924" text="Anchor used in Wildcard expression when matching full path instead of just file name."/>
+		<res id="925" text="Folder depth"/>
+		<res id="926" text="Monitor index"/>
+		<res id="927" text="Success"/>
+		<res id="928" text="Organization multi-site license"/>
+		<res id="929" text="Index was created with an older version of the product and does not support search fields."/>
+		<res id="930" regex="name:(.*)" case="1"/>
+		<res id="931" regex="lookin:(.*)" case="1"/>
+		<res id="932" regex="ext:(.*)" case="1"/>
+		<res id="933" regex="moddt:(.*)" case="1"/>
+		<res id="934" regex="createdt:(.*)" case="1"/>
+		<res id="935" regex="size:(.*)" case="1"/>
+		<res id="936" regex="content:(.*)" case="1"/>
+		<res id="940" text="Folder deleted"/>
+		<res id="941" text="Folder added"/>
+		<res id="942" text="Folder renamed"/>
+		<res id="943" text="File deleted"/>
+		<res id="944" text="File added"/>
+		<res id="945" text="Process index actions"/>
+		<res id="946" text="Starting index monitor"/>
+		<res id="947" text="Suspending index monitor"/>
+		<res id="948" text="Update completed"/>
+		<res id="949" text="Monitoring"/>
+		<res id="950" text="Updates"/>
+		<res id="951" text="Skipped"/>
+		<res id="952" text="Unchanged"/>
+		<res id="953" text="Indexed - Name Only"/>
+		<res id="954" text="Would you like to save the indexing progress or revert back to the previous index state?"/>
+		<res id="955" text="Action"/>
+		<res id="956" text="Event"/>
+		<res id="957" text="Index Maintenance"/>
+		<res id="958" text="Connecting"/>
+		<res id="959" text="Disconnecting"/>
+		<res id="960" text="Messages"/>
+		<res id="961" text="CSV Files (*.csv)|*.csv|All Files (*.*)|*.*||"/>
+		<res id="962" text="Acquiring shared license"/>
+		<res id="963" text="Computer"/>
+		<res id="964" text="Age"/>
+		<res id="965" text="Refreshed"/>
+		<res id="966" text="Active"/>
+		<res id="967" text="Refreshing"/>
+		<res id="968" text="Expired"/>
+		<res id="969" text="All shared Pro licenses are currently being used, would you like to wait or continue in Lite mode."/>
+		<res id="970" text="Unable to acquire Pro license"/>
+		<res id="971" text="All Pro licenses are currently in use would you like to Wait for a license or Close the program?"/>
+		<res id="972" text="Would you like to Wait or Close the program?"/>
+		<res id="973" text="Wait"/>
+		<res id="974" text="Close"/>
+		<res id="975" text="Lite Mode"/>
+		<res id="976" text="Removing Leases"/>
+		<res id="977" text="Unable to change the license folder. Please check the folder exists and that you have read/write permissions for the folder."/>
+		<res id="978" text="Registration key not found"/>
+		<res id="979" text="Lease Id"/>
+		<res id="980" text="Unable to renew Pro license"/>
+		<res id="981" text="Close %APP_NAME%"/>
+		<res id="982" text="Explore"/>
+		<res id="983" text="Update Log"/>
+		<res id="984" text="Index Locations"/>
+		<res id="985" text="No indexed items in folder"/>
+		<res id="986" text="Folder has subfolders but no indexed items"/>
+		<res id="987" text="Binary File"/>
+		<res id="988" text="Content"/>
+		<res id="989" text="Closing index process"/>
+		<res id="990" text="Errors/Warnings reported, see Update Log for more information."/>
+		<res id="991" text="Partial indexing only."/>
+		<res id="992" text="Exceeded memory limit."/>
+		<res id="993" text="Too many terms."/>
+		<res id="994" text="Terms"/>
+		<res id="995" text="Index Date"/>
+		<res id="996" text="Partial Index"/>
+		<res id="997" text="Do you want to close all search results?"/>
+		<res id="998" text="Daily"/>
+		<res id="999" text="Weekly"/>
+		<res id="1000" text="Monthly"/>
+		<res id="1001" text="Default (Real-time monitoring with daily refresh)"/>
+		<res id="1002" text="&lt;Create New...&gt;"/>
+		<res id="1003" text="New Update Schedule"/>
+		<res id="1004" text="No Name has been specified."/>
+		<res id="1005" text="Number must be between the range: %d to %d"/>
+		<res id="1006" text="Schedule List"/>
+		<res id="1007" text="Schedule Details"/>
+		<res id="1008" text="Real-time Monitoring"/>
+		<res id="1009" text="Group List"/>
+		<res id="1010" text="Disabled"/>
+		<res id="1011" text="Repeat every %d minutes"/>
+		<res id="1012" text="Monday"/>
+		<res id="1013" text="Tuesday"/>
+		<res id="1014" text="Wednesday"/>
+		<res id="1015" text="Thursday"/>
+		<res id="1016" text="Friday"/>
+		<res id="1017" text="Saturday"/>
+		<res id="1018" text="Sunday"/>
+		<res id="1019" text="Please specify at least one day for the schedule"/>
+		<res id="1020" text="Start Scheduler"/>
+		<res id="1021" text="Delete schedule and stop any scheduled updates or real-time monitoring:"/>
+		<res id="1022" text="Are you sure?"/>
+		<res id="1023" text="Operation failed"/>
+		<res id="1024" text="Folder synchronization scheduled"/>
+		<res id="1025" text="Folder file synchronization"/>
+		<res id="1026" text="Folder synchronization"/>
+		<res id="1027" text="Scheduler action"/>
+		<res id="1028" text="Out of date source - ignored"/>
+		<res id="1029" text="Invalid filename"/>
+		<res id="1030" text="Index created in previous version. Please update the index to view index details."/>
+		<res id="1031" text="Binary file, content not indexed"/>
+		<res id="1032" text="Please select an update schedule for the index"/>
+		<res id="1033" text="Revert"/>
+		<res id="1034" text="Rollback"/>
+		<res id="1035" text="Remove or Delete"/>
+		<res id="1036" text="Do you want permanently delete the index or just remove it from the list?"/>
+		<res id="1037" text="Remove"/>
+		<res id="1038" text="Cancel Indexing"/>
+		<res id="1039" text="Unanchored wildcard not permitted."/>
+		<res id="1040" text="Reloading"/>
+		<res id="1041" text="Index criteria"/>
+		<res id="1042" text="Changed"/>
+		<res id="1043" text="Healthy"/>
+		<res id="1044" text="Floating license configuration settings could not be loaded."/>
+		<res id="1045" text="No floating licenses found in folder. Continue?"/>
+		<res id="1046" text="पैरामीटर के लिए कोई मान निर्दिष्ट नहीं: %s"/>
+		<res id="1047" text="अमान्य मापदण्ड"/>
+		<res id="1048" text="फ़ाइल संस्करण"/>
+		<res id="1049" text="उत्पाद संस्करण"/>
+		<res id="1050" text="यह सुविधा आपके सिस्टम व्यवस्थापक द्वारा अक्षम कर दी गई है।"/>
+		<res id="1051" text="फ़ाइल नाम फ़ील्ड में वाइल्डकार्ड वर्ण होता है लेकिन अभिव्यक्ति प्रकार सादा पाठ पर सेट होता है।"/>
+		<res id="1052" text="त्रुटि रिपोर्ट उत्पन्न करें"/>
+		<res id="1053" text="क्या आप त्रुटि रिपोर्ट बनाना और भेजना चाहते हैं?"/>
+		<res id="1054" text="रिपोर्ट बनाओ"/>
+		<res id="1055" text="नया सूचकांक बनाएं"/>
+		<res id="1056" text="इससे पहले कि आप कोई अनुक्रमणिका खोज कर सकें, आपको एक अनुक्रमणिका बनानी होगी। क्या आप एक इंडेक्स बनाना चाहेंगे?"/>
+		<res id="1057" text="कृपया वह अनुक्रमणिका चुनें जिसे आप खोजना चाहते हैं।"/>
+		<res id="1058" text="नाम लंबाई"/>
+		<res id="1059" text="कुल पथ लंबाई"/>
+		<res id="1060" text="अनुक्रमणिका खोजने में असमर्थ" t="g"/>
+		<res id="1061" text="खोज विफल" t="g"/>
+		<res id="1062" text="रेटिंग" t="g"/>
+		<res id="1063" text="अभिविन्यास" t="g"/>
+		<res id="1064" text="फोकल लम्बाई" t="g"/>
+		<res id="1065" text="ज़िप फ़ाइल" t="g"/>
+		<res id="1066" text="सत्र" t="g"/>
+		<res id="1067" text="कार्यस्थान" t="g"/>
+		<res id="1068" text="छवि ओसीआर विफल" t="g"/>
+		<res id="1069" text="ओसीआर के साथ छवि स्कैन करना" t="g"/>
+		<res id="1070" text="अंतिम रीफ्रेश" t="e"/>
+		<res id="1071" text="एंबेडेड वस्तु" t="g"/>
+		<res id="1072" text="नवीनतम अद्यतन सफलतापूर्वक पूरा नहीं हुआ." t="g"/>
+		<res id="1073" text="इंडेक्स %APP_NAME% के नए संस्करण का उपयोग करके बनाया गया था, कृपया इंडेक्स विवरण देखने के लिए इस इंस्टॉलेशन को अपग्रेड करें। इंडेक्स को अपडेट करने से इंडेक्स फिर से बनेगा और %APP_NAME% के इस संस्करण में पुनर्स्थापित हो जाएगा।" t="g"/>
+		<res id="1074" text="बैकअप विधि का उपयोग करते हुए प्राथमिक खोज विधि विफल रही।" t="g"/>
+		<res id="1075" text="क्या आप क्लिपबोर्ड में संग्रहीत पंजीकरण जानकारी का उपयोग करना चाहेंगे?" t="g"/>
+		<res id="1076" text="यह फ़ाइल पासवर्ड से सुरक्षित है।" t="g"/>
+	</string>
+</translation>
