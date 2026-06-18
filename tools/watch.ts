@@ -21,8 +21,13 @@ for (const file of readdirSync(fixturesPath, { withFileTypes: true })) {
 
   const filePath = join(fixturesPath, file.name);
   const sourceEntries = extract(readFileSync(filePath));
-  const languageMatch = /^lang-(?<language>.+)\.xml$/.exec(file.name);
-  const rawLanguage = languageMatch?.groups?.["language"] ?? file.name;
+  const languageMatch = /^lang-(?<language>\w+)\.xml$/.exec(file.name);
+
+  if (!languageMatch) {
+    continue;
+  }
+
+  const rawLanguage = languageMatch.groups?.["language"] ?? file.name;
 
   const languageMap: Record<string, string> = {
     cn: "zh-CN",

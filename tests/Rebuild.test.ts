@@ -135,6 +135,104 @@ describe("service Rebuild", () => {
       });
     });
 
+    it("replaces a resource text using container name in reference", () => {
+      const source = [
+        '<?xml version="1.0" encoding="utf8"?>',
+        '<translation>',
+        '  <dialog name="IDD_SCHEDULE_EDIT" id="333" caption="Edit Schedule">',
+        '    <res id="1" text="Name:" />',
+        '    <res id="2" text="Real-time monitoring" />',
+        "  </dialog>",
+        "</translation>",
+      ].join("\n");
+
+      const replacements = new Map([
+        ["dialog.IDD_SCHEDULE_EDIT.caption", "Editar agendamento"],
+        ["dialog.IDD_SCHEDULE_EDIT.1", "Nome:"],
+      ]);
+
+      const result = rebuild(source, replacements);
+
+      expect(result).toContain('caption="Editar agendamento"');
+      expect(result).toContain('text="Nome:"');
+      expect(extract(result)).toContainEqual({
+        reference: "dialog.IDD_SCHEDULE_EDIT.caption",
+        text: "Editar agendamento",
+      });
+      expect(extract(result)).toContainEqual({
+        reference: "dialog.IDD_SCHEDULE_EDIT.1",
+        text: "Nome:",
+      });
+    });
+
+    it("replaces resources in the real lang-en fixture using name-based references", () => {
+      const source = readFileSync(`${path}/lang-en.xml`, "utf8");
+      const replacements = new Map([
+        ["lang", "Português (Brasil)"],
+        ["dialog.IDD_SCHEDULE_EDIT.caption", "Editar agendamento"],
+        ["dialog.IDD_SCHEDULE_EDIT.1", "Nome:"],
+        ["dialog.IDD_GENERAL_CHARPROC.5", "Contendo o texto"],
+      ]);
+
+      const result = rebuild(source, replacements);
+
+      expect(result).toContain('lang="Português (Brasil)"');
+      expect(result).toContain('caption="Editar agendamento"');
+      expect(result).toContain('text="Nome:"');
+      expect(result).toContain('text="Contendo o texto"');
+    });
+
+    it("replaces resources when source is passed as Buffer", () => {
+      const source = readFileSync(`${path}/lang-en.xml`);
+      const replacements = new Map([
+        ["lang", "Português (Brasil)"],
+        ["dialog.IDD_SCHEDULE_EDIT.caption", "Editar agendamento"],
+        ["dialog.IDD_SCHEDULE_EDIT.1", "Nome:"],
+        ["dialog.IDD_GENERAL_CHARPROC.5", "Contendo o texto"],
+      ]);
+
+      const result = rebuild(Buffer.from(source), replacements);
+
+      expect(result).toContain('lang="Português (Brasil)"');
+      expect(result).toContain('caption="Editar agendamento"');
+      expect(result).toContain('text="Nome:"');
+      expect(result).toContain('text="Contendo o texto"');
+    });
+
+    it("replaces resources with exact user input including BOM and tabs", () => {
+      const source = '\uFEFF<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n<translation lang="English" helplang="en">\t\n\t<dialog name="IDD_EDITBOX" id="3531" caption="" >\t</dialog>\n\t<dialog name="IDD_SCHEDULE_EDIT" id="333" caption="Edit Schedule" >\n\t\t<res id="1" text="Name:" />\n\t\t<res id="2" text="Real-time monitoring" />\n\t</dialog>\n</translation>';
+      const replacements = new Map([
+        ["lang", "Português (Brasil)"],
+        ["dialog.IDD_SCHEDULE_EDIT.caption", "Editar agendamento"],
+        ["dialog.IDD_SCHEDULE_EDIT.1", "Nome:"],
+      ]);
+
+      const result = rebuild(source, replacements);
+
+      expect(result).toContain('lang="Português (Brasil)"');
+      expect(result).toContain('caption="Editar agendamento"');
+      expect(result).toContain('text="Nome:"');
+    });
+
+    it("replaces resources when source is an ArrayBuffer", () => {
+      const sourceString = readFileSync(`${path}/lang-en.xml`, "utf8");
+      const encoder = new TextEncoder();
+      const arrayBuffer = encoder.encode(sourceString).buffer;
+      const replacements = new Map([
+        ["lang", "Português (Brasil)"],
+        ["dialog.IDD_SCHEDULE_EDIT.caption", "Editar agendamento"],
+        ["dialog.IDD_SCHEDULE_EDIT.1", "Nome:"],
+        ["dialog.IDD_GENERAL_CHARPROC.5", "Contendo o texto"],
+      ]);
+
+      const result = rebuild(Buffer.from(arrayBuffer), replacements);
+
+      expect(result).toContain('lang="Português (Brasil)"');
+      expect(result).toContain('caption="Editar agendamento"');
+      expect(result).toContain('text="Nome:"');
+      expect(result).toContain('text="Contendo o texto"');
+    });
+
     it("replaces a string resource using its type in the reference", () => {
       const source = [
         '<?xml version="1.0" encoding="utf8"?>',
