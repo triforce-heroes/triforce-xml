@@ -3,18 +3,19 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 import { chunk } from "@triforce-heroes/triforce-core/Array";
-import { generateQuery } from "@triforce-heroes/triforce-publisher";
+import { queryGenerator } from "@triforce-heroes/triforce-publisher";
 import { regex } from "arkregex";
 
 import { extract } from "@/Extract";
 
 const fixturesPath = "tests/fixtures";
-const outDir = "tools";
+const outDirectory = "tools";
 
 const entries = new Map<string, Map<string, Set<string>>>();
 const letters = new Set<number>();
+const fixtureFiles = readdirSync(fixturesPath, { withFileTypes: true });
 
-for (const file of readdirSync(fixturesPath, { withFileTypes: true })) {
+for (const file of fixtureFiles) {
   if (!file.isFile() || !file.name.endsWith(".xml")) {
     continue;
   }
@@ -55,18 +56,18 @@ for (const file of readdirSync(fixturesPath, { withFileTypes: true })) {
   }
 }
 
-const processedEntries = [...entries.entries()].map(([reference, entry]) => ({
+const processedEntries = [...entries].map(([reference, entry]) => ({
   resource: "",
   reference,
   sources: Object.fromEntries(
-    [...entry.entries()].map(([message, messageLanguages]) => [message, [...messageLanguages]]),
+    [...entry].map(([message, messageLanguages]) => [message, [...messageLanguages]]),
   ),
 }));
 
-writeFileSync(join(outDir, "entries.json"), JSON.stringify(processedEntries, null, "\t"));
+writeFileSync(join(outDirectory, "entries.json"), JSON.stringify(processedEntries, null, "\t"));
 
 writeFileSync(
-  join(outDir, "letters.json"),
+  join(outDirectory, "letters.json"),
   JSON.stringify(
     [...letters].toSorted((letterA, letterB) => letterA - letterB),
     null,
@@ -75,9 +76,15 @@ writeFileSync(
 );
 
 writeFileSync(
-  join(outDir, "uniques.json"),
+  join(outDirectory, "uniques.json"),
   JSON.stringify(
-    [...new Set([...entries.values()].flatMap((entry) => [...entry.keys()]))],
+    (() => {
+      const allTexts = Iterator.from(entries.values()).flatMap(
+        (entry) => Iterator.from(entry.keys()).toArray(),
+      ).toArray();
+
+      return [...new Set(allTexts)];
+    })(),
     null,
     "\t",
   ),
@@ -95,13 +102,13 @@ for (const entry of processedEntries) {
 
 let latestVersion = 0;
 
-if (existsSync(outDir)) {
-  for (const file of readdirSync(outDir)) {
+  if (existsSync(outDirectory)) {
+  for (const file of readdirSync(outDirectory)) {
     const match = regex("^query_v(?<version>\\d+)\\.json$").exec(file);
     const version = match?.groups.version;
 
     if (version !== undefined) {
-      const versionNumber = Number.parseInt(version, 10);
+      const versionNumber = Number(version);
 
       if (versionNumber > latestVersion) {
         latestVersion = versionNumber;
@@ -110,45 +117,45 @@ if (existsSync(outDir)) {
   }
 }
 
-let needsNewVersion = true;
+let isNeedsNewVersion = true;
 let previousHashes: Record<string, string> | null = null;
 
 if (latestVersion > 0) {
   previousHashes = JSON.parse(
-    readFileSync(join(outDir, `query_v${latestVersion}.json`), "utf8"),
+    readFileSync(join(outDirectory, `query_v${latestVersion}.json`), "utf8"),
   ) as Record<string, string>;
 
   if (
     Object.keys(previousHashes).length === Object.keys(currentHashes).length &&
-    Object.entries(currentHashes).every(([ref, hash]) => previousHashes![ref] === hash)
+    Object.entries(currentHashes).every(([reference, hash]) => previousHashes![reference] === hash)
   ) {
-    needsNewVersion = false;
+    isNeedsNewVersion = false;
   }
 }
 
-if (needsNewVersion) {
+if (isNeedsNewVersion) {
   const newVersion = latestVersion + 1;
 
   let diffEntries = processedEntries;
 
-  if (previousHashes) {
-    diffEntries = processedEntries.filter(
-      (entry) => previousHashes[entry.reference] !== currentHashes[entry.reference],
-    );
-  }
+  diffEntries = previousHashes
+    ? processedEntries.filter(
+        (entry) => previousHashes[entry.reference] !== currentHashes[entry.reference],
+      )
+    : diffEntries;
 
   const chunkEntries = chunk(diffEntries, 100);
   const chunkDate = Date.now();
 
   writeFileSync(
-    join(outDir, `query_v${newVersion}.json`),
+    join(outDirectory, `query_v${newVersion}.json`),
     JSON.stringify(currentHashes, null, "\t"),
   );
 
   writeFileSync(
-    join(outDir, `query_v${newVersion}.sql`),
+    join(outDirectory, `query_v${newVersion}.sql`),
     chunkEntries
-      .map((partialEntries) => generateQuery(9, partialEntries, chunkDate)!)
+      .map((partialEntries) => queryGenerator(9, partialEntries, chunkDate)!)
       .join(";\n\n"),
   );
 }

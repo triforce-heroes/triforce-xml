@@ -10,6 +10,7 @@ const LANG_REFERENCE = "lang";
 const HELPLANG_REFERENCE = "helplang";
 const REGEX_ATTRIBUTE = "regex";
 const TEXT_ATTRIBUTE = "text";
+const FEFF = "\u{FEFF}";
 
 interface EffectiveResource {
   resource: XMLReference;
@@ -56,22 +57,30 @@ function getEffectiveResources(
   container: XMLReferencesNode,
   visited = new Set<number>(),
 ): EffectiveResource[] {
-  if (visited.has(container.id)) {
-    return [];
+  let current = container;
+
+  while (true) {
+    if (visited.has(current.id)) {
+      return [];
+    }
+
+    visited.add(current.id);
+
+    const targetContainer = resolveCopyId(document, current, visited);
+
+    if (targetContainer !== undefined) {
+      current = targetContainer;
+
+      continue;
+    }
+
+    const resolved = current;
+
+    return resolved.references.map((resource) => ({
+      resource,
+      sourceContainer: resolved,
+    }));
   }
-
-  visited.add(container.id);
-
-  const targetContainer = resolveCopyId(document, container, visited);
-
-  if (targetContainer !== undefined) {
-    return getEffectiveResources(document, targetContainer, visited);
-  }
-
-  return container.references.map((resource) => ({
-    resource,
-    sourceContainer: container,
-  }));
 }
 
 function hasReplacement(
@@ -172,7 +181,7 @@ export function rebuild(sourceXml: Buffer | string, replacements: Map<string, st
 
   const raw = rebuildRaw(rebuilt);
 
-  return hasBom ? `\u{FEFF}${raw}` : raw;
+  return hasBom ? `${FEFF}${raw}` : raw;
 }
 
 export function rebuildRaw(document: XMLRoot): string {

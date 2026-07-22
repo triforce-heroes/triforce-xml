@@ -55,8 +55,9 @@ export function parseXml(xml: string): XMLRoot {
   }
 
   const containers: XMLReferencesNode[] = [];
+  const translationElements = translationElement.elements ?? [];
 
-  for (const element of translationElement.elements ?? []) {
+  for (const element of translationElements) {
     if (element.type !== "element") {
       continue;
     }
@@ -69,8 +70,9 @@ export function parseXml(xml: string): XMLRoot {
 
     const attributes = element.attributes ?? {};
     const resources: XMLReference[] = [];
+    const childElements = element.elements ?? [];
 
-    for (const child of element.elements ?? []) {
+    for (const child of childElements) {
       if (child.type !== "element" || child.name !== "res") {
         continue;
       }

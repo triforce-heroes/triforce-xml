@@ -200,7 +200,7 @@ describe("service Rebuild", () => {
     });
 
     it("replaces resources with exact user input including BOM and tabs", () => {
-      const source = '\uFEFF<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n<translation lang="English" helplang="en">\t\n\t<dialog name="IDD_EDITBOX" id="3531" caption="" >\t</dialog>\n\t<dialog name="IDD_SCHEDULE_EDIT" id="333" caption="Edit Schedule" >\n\t\t<res id="1" text="Name:" />\n\t\t<res id="2" text="Real-time monitoring" />\n\t</dialog>\n</translation>';
+      const source = '\u{FEFF}<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n<translation lang="English" helplang="en">\t\n\t<dialog name="IDD_EDITBOX" id="3531" caption="" >\t</dialog>\n\t<dialog name="IDD_SCHEDULE_EDIT" id="333" caption="Edit Schedule" >\n\t\t<res id="1" text="Name:" />\n\t\t<res id="2" text="Real-time monitoring" />\n\t</dialog>\n</translation>';
       const replacements = new Map([
         ["lang", "Português (Brasil)"],
         ["dialog.IDD_SCHEDULE_EDIT.caption", "Editar agendamento"],

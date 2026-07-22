@@ -10,8 +10,8 @@ interface ResourceTarget {
   resourceId: number;
 }
 
-function parseRefId(refId: string, currentContainerId: number): ResourceTarget {
-  const parts = refId.split(":");
+function parseReferenceId(referenceId: string, currentContainerId: number): ResourceTarget {
+  const parts = referenceId.split(":");
 
   if (parts.length === 2) {
     return {
@@ -40,42 +40,50 @@ function getResourceTextRecursive(
   resource: XMLReference,
   visited: Set<string>,
 ): string | undefined {
-  const visitedKey = `${container.id}:${resource.id}`;
+  let currentContainer = container;
+  let currentResource = resource;
 
-  if (visited.has(visitedKey)) {
+  while (true) {
+    const visitedKey = `${currentContainer.id}:${currentResource.id}`;
+
+    if (visited.has(visitedKey)) {
+      return undefined;
+    }
+
+    visited.add(visitedKey);
+
+    const attributes = currentResource.attributes;
+
+    if (attributes[TEXT_ATTRIBUTE] !== undefined) {
+      return attributes[TEXT_ATTRIBUTE];
+    }
+
+    if (attributes[REFID_ATTRIBUTE] !== undefined) {
+      const target = parseReferenceId(attributes[REFID_ATTRIBUTE], currentContainer.id);
+      const targetContainer = document.referencesNodes.find(
+        (candidate) => candidate.id === target.containerId,
+      );
+
+      if (targetContainer === undefined) {
+        return undefined;
+      }
+
+      const targetResource = targetContainer.references.find(
+        (candidate) => candidate.id === target.resourceId,
+      );
+
+      if (targetResource === undefined) {
+        return undefined;
+      }
+
+      currentContainer = targetContainer;
+      currentResource = targetResource;
+
+      continue;
+    }
+
     return undefined;
   }
-
-  visited.add(visitedKey);
-
-  const attributes = resource.attributes;
-
-  if (attributes[TEXT_ATTRIBUTE] !== undefined) {
-    return attributes[TEXT_ATTRIBUTE];
-  }
-
-  if (attributes[REFID_ATTRIBUTE] !== undefined) {
-    const target = parseRefId(attributes[REFID_ATTRIBUTE], container.id);
-    const targetContainer = document.referencesNodes.find(
-      (candidate) => candidate.id === target.containerId,
-    );
-
-    if (targetContainer === undefined) {
-      return undefined;
-    }
-
-    const targetResource = targetContainer.references.find(
-      (candidate) => candidate.id === target.resourceId,
-    );
-
-    if (targetResource === undefined) {
-      return undefined;
-    }
-
-    return getResourceTextRecursive(document, targetContainer, targetResource, visited);
-  }
-
-  return undefined;
 }
 
 export function buildReference(container: XMLReferencesNode, suffix: string): string {

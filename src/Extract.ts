@@ -25,24 +25,30 @@ function resolveContainerResources(
   container: XMLReferencesNode,
   visited = new Set<number>(),
 ): ResourceLike[] {
-  if (visited.has(container.id)) {
-    return [];
-  }
+  let current = container;
 
-  visited.add(container.id);
-
-  if (container.attributes[COPYID_ATTRIBUTE] !== undefined) {
-    const targetContainerId = Number(container.attributes[COPYID_ATTRIBUTE]);
-    const targetContainer = document.referencesNodes.find(
-      (candidate) => candidate.id === targetContainerId,
-    );
-
-    if (targetContainer !== undefined) {
-      return resolveContainerResources(document, targetContainer, visited);
+  while (true) {
+    if (visited.has(current.id)) {
+      return [];
     }
-  }
 
-  return container.references;
+    visited.add(current.id);
+
+    if (current.attributes[COPYID_ATTRIBUTE] !== undefined) {
+      const targetContainerId = Number(current.attributes[COPYID_ATTRIBUTE]);
+      const targetContainer = document.referencesNodes.find(
+        (candidate) => candidate.id === targetContainerId,
+      );
+
+      if (targetContainer !== undefined) {
+        current = targetContainer;
+
+        continue;
+      }
+    }
+
+    return current.references;
+  }
 }
 
 export function extract(xml: Buffer | string): ExtractedEntry[] {
